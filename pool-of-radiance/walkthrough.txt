@@ -77,13 +77,13 @@ TABLE OF CONTENTS
 
 1.1 COPYRIGHT NOTICE  [#101#]
 
-This walkthrough is copyright (C) Ben Cordes, 2013. It is protected by
-a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
-license. For more information about the license, please visit the
-following URL:
+This walkthrough is copyright (C) Ben Cordes, 2010-23.  It is made available
+under a Creative Commons Attribution-NonCommercial-ShareAlike v4.0
+International License.  See http://creativecommons.org/licenses/by-nc-sa/4.0/
+for more details.
 
-http://creativecommons.org/licenses/by-nc-sa/3.0/
-
+All other trademarks and copyrights contained in this document are owned by
+their respective trademark and copyright holders.
 
 1.2 RESOURCES  [#102#]
 

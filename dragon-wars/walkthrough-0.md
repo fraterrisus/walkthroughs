@@ -4,7 +4,35 @@ Version 3.0, June 2023
 
 ## Table of Contents
 
-## Administrivia
+- Table of Contents
+- Administrivia
+  - Acknowledgements
+  - Version History
+  - Game Introduction
+  - Managing Save Files
+- Creating Characters
+  - Attributes
+  - Skills
+  - General Advice
+  - Sample Characters
+  - NPCs
+  - Leveling Up
+- Combat and General Information
+  - Combat Basics
+  - Health and Stun
+    - Resurrecting Dead Characters
+  - Combat Strategies
+  - Game Mechanics
+  - Dealing With Loot
+  - Weird Stuff
+- [Things and Stuff](./things-and-stuff.md)
+- [Magic](./magic.md)
+- Walkthrough
+- Maps
+- Final Notes
+  - Final Characters
+  - Paragraphs
+- Administrivia
 
 ![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 

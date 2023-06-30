@@ -72,7 +72,7 @@ And finally, a shout-out to **Chester, the CRPG Addict**, whose blog is totally 
 - v1.0, February 2018: finished narrative, released to GameFAQs
 - v1.0.1, February 2018: spellchecking (oops), rewrite spell descriptions
 - v2.0, June 2022: update to CC4.0 license; major rewrite in GameFAQs HTML format; corrections, edits, and updates
-- v2.1, June 2023: rewrite in Markdown to publish on Github
+- v2.1, June 2023: reformat for GitHub Markdown
 
 ### Game Introduction
 
@@ -96,7 +96,7 @@ So, don't spend too much time with the manual. I've got you covered on most thin
 
 One of the things that makes *Deathlord* so brutal is the autosaving and permadeath. There's only one save slot, unlike even other games of its era, and the process of backing up your save game is laborious and incredibly slow. But, of course, you're "retrogaming", which means you get the benefit of an emulator that makes things like swapping disks easy, and might even offer you the ability to save a snapshot of the current emulator state.
 
-My favorite Apple II emulator is "Linapple", which accepts disk images in two formats. "Flat" images (.dsk) are a representation of all of the bytes stored on the disk in a linear array. "Nibblized" images (.nib) are a relatively faithful and unfiltered stream of data that might have been read off an actual Apple II floppy disk. Most of the flat images I found online were cracked versions that don't work, so I recommend that you find nibblized versions; you should be able to find them from the Asmiov archives and/or the Home of the Underdogs. There are other disk formats out there if you use other emulators; good luck.
+My favorite Apple II emulator is `linapple`, which accepts disk images in two formats. "Flat" images (.dsk) are a representation of all of the bytes stored on the disk in a linear array. "Nibblized" images (.nib) are a relatively faithful and unfiltered stream of data that might have been read off an actual Apple II floppy disk. Most of the flat images I found online were cracked versions that don't work, so I recommend that you find nibblized versions; you should be able to find them from the Asmiov archives and/or the Home of the Underdogs. There are other disk formats out there if you use other emulators; good luck.
 
 Before you go any further, exit the emulator and back up the .nib files for the Boot, Master Scenario A, and Master Scenario B disks. Put the backups somewhere else, so if all else fails, you have clean copies that you can use to restart the game. Now boot the game, use the *Utilities* menu to "Make Scenario Disks", and let the game make playable Scenario A and B disks for you. Then you can start creating characters.
 
@@ -110,7 +110,7 @@ When you start the game, tell it you have two drives, and load the images for Sc
 
 **Disk-swapping:** Most story progress in the game is based on inventory: you can't see Hell Island unless you have the Sharktooth. However, each town also saves some state about itself on the Scenario disks. If you turn a town against you, it saves a bit of information to disk so the next time you come back it remembers. If you ever want to reset the state of a town, here's how:
 
-1. Approach the town. Press *(E)nter* but don't pick a direction yet.
+1. Approach the town. Press `(E)nter` but don't pick a direction yet.
 2. Replace the scenario disk in the drive with a clean / unplayed copy. (You'll have to discover for yourself which towns are on which Scenario disk.)
 3. Enter the town. The game loads the town state from the clean scenario disk.
 4. Replace the clean scenario disk with your play disk.
@@ -120,16 +120,16 @@ When you start the game, tell it you have two drives, and load the images for Sc
 
 **Duplicating Items:** A combination of disk-swapping and disbanding your party, as above; this one takes some doing, but if you absolutely have to have two Sunspears, it's the way to go. Start off by sailing back to Kodan and leaving your boat near Tokugawa; that way, when you come back, the boat will still be there and you can be on your way immediately without needing to buy a new one.
 
-1. *(Q)save* your game, then quit the emulator. Duplicate your Scenario A disk; I'll call these A1 (the play disk) and A2 (the duplicate). If you want to be really paranoid, make a third copy just in case something goes wrong.
+1. `(Q)save` your game, then quit the emulator. Duplicate your Scenario A disk; I'll call these A1 (the play disk) and A2 (the duplicate). If you want to be really paranoid, make a third copy just in case something goes wrong.
 2. Restart the emulator from the Boot disk. Go to Character Options (insert **A1**). Then Disperse the Existing Group (hit enter).
 3. Conjure a new character. Call them 'Mule', because that's what they are. Literally nothing about them matters; you can make a Kosaku if you want.
 4. Assemble a Group with the PC(s) carrying the item(s) you want to duplicate and the Mule. Then Return to the Main Menu (insert the Boot disk).
-5. Play a Game (insert **A1**). As soon as the game starts, *e(X)change* the item(s) from the PC to the Mule. *(Q)save* your game.
+5. Play a Game (insert **A1**). As soon as the game starts, *e(X)change* the item(s) from the PC to the Mule. `(Q)save` your game.
 6. Insert the Boot disk and reboot the emulator. Go to Character Options again (insert **A1**). Then Disperse the Existing Group (hit enter).
 7. Terminate everyone in your former party. Don't terminate the Mule.
 8. Insert **A2**, then select Disperse the Existing Group (hit enter) again. You should now have a character roster containing all of your original characters (including the one who has the item you just duplicated) and the Mule (who also has the item you just duplicated).
 9. Assemble a Group with the Mule and the PC you want to give the duplicate item to.
-10. Return to the Main Menu (insert the Boot disk), then Play a Game (insert **A2**). *e(X)*change the item from the Mule to the PC. *(Q)save* your game.
+10. Return to the Main Menu (insert the Boot disk), then Play a Game (insert **A2**). *e(X)*change the item from the Mule to the PC. `(Q)save` your game.
 11. Insert the Boot disk and reboot the emulator. Go to Character Options again (insert **A2**). Then Disperse the Existing Group (hit enter).
 12. Insert **A1**, then Assemble your original group again. Return to the Main Menu (insert Boot) and Play a Game (insert **A1**).
 
@@ -139,41 +139,41 @@ Congratulations, you now have a party with two Sunspears (or whatever). Of cours
 
 *Deathlord* uses a top-down view, similar to the *Ultima* overland interface, moving north-west-east-south with the I-J-K-M cluster common to Apple II games of this era. However, instead of the first-person isometric wireframe dungeons of *Ultima* or *Wizardry*, here you'll stay in the top-down perspective throughout.
 
-Game time passes with real time: during outside exploration, 10 game-world minutes tick off roughly every 15 real-world seconds. Indoors, game time ticks over about half as fast. Otherwise, actions occur on a turn-by-turn basis; every time you move, the rest of the world updates. If you stand still for too long (roughly 6 seconds) and don't do anything, the game issues a *Wait* command for you. You can stop this from happening by typing the first letter of a multi-character command (like *(C)ast* or *(V)iew* or *(F)search* or *(O)rate*), but keep in mind that you will spend one turn regardless of whether you execute or cancel the command. Likewise, inspecting a character consumes a game turn. Linapple lets you use the Pause key to actually pause emulation.
+Game time passes with real time: during outside exploration, 10 game-world minutes tick off roughly every 15 real-world seconds. Indoors, game time ticks over about half as fast. Otherwise, actions occur on a turn-by-turn basis; every time you move, the rest of the world updates. If you stand still for too long (roughly 6 seconds) and don't do anything, the game issues a *Wait* command for you. You can stop this from happening by typing the first letter of a multi-character command (like `(C)ast` or `(V)iew` or `(F)search` or `(O)rate`), but keep in mind that you will spend one turn regardless of whether you execute or cancel the command. Likewise, inspecting a character consumes a game turn. `linapple` lets you use the Pause key to actually pause emulation.
 
 By contrast, time pauses completely for the duration of combat. You can wait at a combat prompt for as long as you like without consequence.
 
-*Deathlord* has a functional day-and-night cycle. The sun starts to set at 6pm, at which point your visual range (when outside) drops 1 square in all directions once an hour, until it gets totally dark at 9pm. You can *(L)ight* a torch, which gives 1 square radius of light while outside (or 2 squares in a dungeon), but be careful when you're walking around swamp. Torches only last an hour or so outside, and light spells don't work outside at all. The sun starts to rise at 4am and is full again at 7am.
+*Deathlord* has a functional day-and-night cycle. The sun starts to set at 6pm, at which point your visual range (when outside) drops 1 square in all directions once an hour, until it gets totally dark at 9pm. You can `(L)ight` a torch, which gives 1 square radius of light while outside (or 2 squares in a dungeon), but be careful when you're walking around swamp. Torches only last an hour or so outside, and light spells don't work outside at all. The sun starts to rise at 4am and is full again at 7am.
 
 The phase of the moon doesn't seem to affect anything, but it's there for color and atmosphere.
 
 Most of the other commands are available in the manual, but I want to point out a couple of particularly important tidbits:
 
-When you fall into a pit (and you will), you need to use caret (^, aka shift-6) to climb out of it. (Of course sometimes that doesn't work and you slip back in, but that's not important right now.)
+When you fall into a pit (and you will), you need to use caret `(^)` to climb out of it. (Of course sometimes that doesn't work and you slip back in, but that's not important right now.)
 
-When casting a spell, the game asks you to type the name of the spell. You also have the option of typing slash (/) or question mark (?), which brings up a menu of all spells that you're able to cast right now. Use the up and down arrow keys to cycle through the menu, then hit Enter to select a spell.
+When casting a spell, the game asks you to type the name of the spell. You also have the option of typing slash `(/)` or question mark `(?)`, which brings up a menu of all spells that you're able to cast right now. Use the up and down arrow keys to cycle through the menu, then hit Enter to select a spell.
 
-The user interface is reasonably configurable for a game of this era. If you want to toggle the sound, use control-S. You can change the speed at which combat messages print with colon (:). Lower numbers are faster, and 0 is an acceptable number. Note that both of these commands count as an "action" and will consume a turn, **including in combat**. The role-playing nature of asking your Mahotsukai to slow down the combat messages, while entertaining in text, is not so gratifying when doing so forces you to pass on a chance to cast a spell.
+The user interface is reasonably configurable for a game of this era. If you want to toggle the sound, use `(control-S)`. You can change the speed at which combat messages print with colon `(:)`. Lower numbers are faster, and 0 is an acceptable number. Note that both of these commands count as an "action" and will consume a turn, **including in combat**. The role-playing nature of asking your Mahotsukai to slow down the combat messages, while entertaining in text, is not so gratifying when doing so forces you to pass on a chance to cast a spell.
 
 One of the more interesting features in the *Deathlord* interface is the ability to record macros. A macro is a sequence of key presses that can be replayed when you're walking around. (You can't use them in combat, unfortunately.) Useful macros include things like:
 
-> C (number of your Shisai) N A S U ,
+> `C` (number of your Shisai) `NASU,`
 
-In a macro definition, the comma represents the Enter key, so this binds "have your Shisai cast NASU" to a macro key. Note, though, that the macro execution continues even if there's an error, so if you rearrange your party and "C3" selects someone who can't cast a spell, the engine will happily continue typing "N" "A" "S" "U" "Enter" anyway.
+In a macro definition, the comma represents the Enter key, so this binds "have your Shisai cast NASU" to a macro key. Note, though, that the macro execution continues even if there's an error, so if you rearrange your party and `C4` selects someone who can't cast a spell, the engine will happily continue typing `NASU<enter>` anyway.
 
 To record a macro:
 
-1. press control-A
-2. pick a macro number (1-4)
-3. type the string of characters (e.g. "C4NASU,")
+1. press `(control-A)`
+2. pick a macro number `(1-4)`
+3. type the string of characters (e.g. `C4NASU,`)
 4. hit Enter
 
 To play back a macro:
 
-- Macro #1: ampersand (shift-7)
-- Macro #2: apostrophe (')
-- Macro #3: open paren (shift-9)
-- Macro #4: close paren (shift-0)
+- Macro #1: ampersand `(shift-7)`
+- Macro #2: apostrophe `(')`
+- Macro #3: open paren `(shift-9)`
+- Macro #4: close paren `(shift-0)`
 
 **Bonus Computing History Lesson!** On the original Apple II keyboard, the number row looked like this:
 
@@ -183,9 +183,9 @@ To play back a macro:
 
 (The zero key didn't have a punctuation mark on it.)
 
-Caret (^) was shift-N; lower case letters weren't a thing on the original Apple II. By the time the Apple IIe rolled around, shift-7 was ampersand and the apostrophe had moved down next to the Enter key where we're more familiar with it today. That's why the macro activation keys are in a weird place on modern keyboards.
+Caret `(^)` was shift-N; lower case letters weren't a thing on the original Apple II. By the time the Apple IIe rolled around, shift-7 was ampersand and the apostrophe had moved down next to the Enter key where we're more familiar with it today. That's why the macro activation keys are in a weird place on modern keyboards.
 
-**Terrain:** As you explore the world you'll run into a number of different kinds of terrain. You can always (V)iew a square to learn what type of terrain it is. Terrain falls into a couple of different types:
+**Terrain:** As you explore the world you'll run into a number of different kinds of terrain. You can always `(V)iew` a square to learn what type of terrain it is. Terrain falls into a couple of different types:
 
 - *Clear:* Grass, Scrub, Desert-Sand, Desert-Scrub, Tundra, Bush, Snow-Swamp
   These terrain types block neither your movement nor your line of sight.
@@ -200,20 +200,20 @@ Also, perhaps obviously, there's *Water*, which you either need a boat to sail o
 
 You will also discover a number of *energy fields* on your travels. These fall into two categories:
 
-- *Rakhammon's Curtain* (purple/green): The only way to pass through one of these is to *(U)se* a Blue Crystal, which allows you to step into a Curtain.
-- *Arkhan's Wall* (red/blue): You can step over these normally, but they eat 50% of your current HP when you do. *(U)sing* a Crystal doesn't help.
+- *Rakhammon's Curtain* (purple/green): The only way to pass through one of these is to `(U)se` a Blue Crystal, which allows you to step into a Curtain.
+- *Arkhan's Wall* (red/blue): You can step over these normally, but they eat 50% of your current HP when you do. `(U)sing` a Crystal doesn't help.
 
-**Talking**: One of the most important skills for *Deathlord* players is talking to NPCs. You'll do this in order to learn clues as well as interact with merchants. Walk up next to an NPC and start a conversation with *(O)rate*. You then have several options:
+**Talking**: One of the most important skills for *Deathlord* players is talking to NPCs. You'll do this in order to learn clues as well as interact with merchants. Walk up next to an NPC and start a conversation with `(O)rate`. You then have several options:
 
-- *(C)hat*, which randomly repeats one of 16 fixed messages of varying utility (see below). Because it's random, you sometimes get really hilarious combinations (Senju tells you to "Find Senju", or better, "Leave me alone").
-- *(T)alk*, which gets you a phrase that is specific to the NPC you're speaking with. These are also of varying utility, but often yield key words that you can ask about.
-- *(I)nquire*, which allows you to free-enter a key word. If the NPC knows anything about it, they'll tell you. However, every NPC in a location knows exactly the same set of key words, so you don't have to find someone specific to ask. (This also sometimes results in hilarious combinations.) Most of the time, *Deathlord*'s parser is smart enough to recognize both a word (dungeon) and its plural (dungeons).
-- *(B)uy* and *(S)ell*, which obviously only work on merchants. If you get stonewalled when asking for a *(T)alk* clue, you may be speaking with a merchant, so try *(B)uy*. Of course, you may also be speaking with a hostile that's about to attack you.
-- *(O)ffer (G)old*, entered as "OG", which is useful when someone's *(T)alk* phrase is "PAY UP!". (I've marked clues found this way with "($$)".) This can be as low as 10gp or as high as 100gp, and there's no way to know without just trying it. Note that just because someone wants a bribe doesn't guarantee that they have anything useful to say. "Thanks, sucker!" is a not uncommon response.
-- *(O)ffer (I)tem*, entered as "OI", which is only useful in a handful of specific places, mostly dealing with the Emperor, and I'll tell you about them when we get there.
-- *(Esc)* or *(Enter)* ends the conversation.
+- `(C)hat`, which randomly repeats one of 16 fixed messages of varying utility (see below). Because it's random, you sometimes get really hilarious combinations (Senju tells you to "Find Senju", or better, "Leave me alone").
+- `(T)alk`, which gets you a phrase that is specific to the NPC you're speaking with. These are also of varying utility, but often yield key words that you can ask about.
+- `(I)nquire`, which allows you to free-enter a key word. If the NPC knows anything about it, they'll tell you. However, every NPC in a location knows exactly the same set of key words, so you don't have to find someone specific to ask. (This also sometimes results in hilarious combinations.) Most of the time, *Deathlord*'s parser is smart enough to recognize both a word (dungeon) and its plural (dungeons).
+- `(B)uy` and `(S)ell`, which obviously only work on merchants. If you get stonewalled when asking for a `(T)alk` clue, you may be speaking with a merchant, so try `(B)uy`. Of course, you may also be speaking with a hostile that's about to attack you.
+- `(O)ffer (G)old`, entered as "OG", which is useful when someone's `(T)alk` phrase is "PAY UP!". (I've marked clues found this way with "($$)".) This can be as low as 10gp or as high as 100gp, and there's no way to know without just trying it. Note that just because someone wants a bribe doesn't guarantee that they have anything useful to say. "Thanks, sucker!" is a not uncommon response.
+- `(O)ffer (I)tem`, entered as "OI", which is only useful in a handful of specific places, mostly dealing with the Emperor, and I'll tell you about them when we get there.
+- `(Esc)` or `(Enter)` ends the conversation.
 
-In alphabetical order, here are the 16 messages you'll get in response to *(C)hatting* with an NPC:
+In alphabetical order, here are the 16 messages you'll get in response to `(C)hatting` with an NPC:
 
 - Demons are deadly
 - Don't get caught outside at night
@@ -236,10 +236,10 @@ The useful ones are:
 
 - *Map dungeons*: You should definitely try, although several of them do their best to confounding pen-and-paper mapping. And you should also map towns!
 - *Find Senju*: Indeed, he is crucial to winning the game.
-- *Ships get stolen*: I've never had my own ship stolen, but you can steal a boat by *(A)ttacking* it. (Always try *(B)oarding* it first; it might just work.)
+- *Ships get stolen*: I've never had my own ship stolen, but you can steal a boat by `(A)ttacking` it. (Always try `(B)oarding` it first; it might just work.)
 - *Find the words* and *Seek the seven*: In order to win, you will need seven words to get through seven gates. The only other clue you get to this is the Deathlord's message at the beginning of the manual.
 
-In addition, Senju, word, ruin, and dungeon are good things to *(I)nquire* about.
+In addition, Senju, word, ruin, and dungeon are good things to `(I)nquire` about.
 
 The rest of the hints are misleading, wrong, or pointless. There's nothing special about the North, there's no time limit on the game, and there are no storms at sea (although there are plenty of nasty monsters). Kobito rarely have much in the way of gold (the Mines being an exception), and ruins don't tend to be very rich (or they all get picked over before you get there). Demons are kind of deadly, but not significantly more so than any other creature.
 
@@ -258,17 +258,17 @@ Unlike some later games that have skills, 'derived' or 'secondary' attributes, o
 
 *Deathlord* uses the standard six D&D attributes, plus one for mana. The manual gives a bunch of handwaving descriptions of what the stats are good for, which is why this section isn't full of more definitive answers. Anything that I'm vague about here is based on my experience and observation, and may not be correct.
 
-- *[STR]ength* affects both to-hit and damage, even for missile weapons, as well as your ability to *(S)mash* down doors.
+- *[STR]ength* affects both to-hit and damage, even for missile weapons, as well as your ability to `(S)mash` down doors.
 - *[CON]stitution* affects the number of hit points gained per level.
 - *[SIZ]e* affects your ability to smash doors.
 - *[IQ]ntelligence* is supposed to affect several things, but evidence is scant. Higher IQ might grant bonuses to spell damage. The rate at which POW replenishes is supposed to be affected by high IQ, but I didn't notice a significant difference between IQ14 and IQ18.
 - *[DEX]terity* affects your ability to pick locks. It's also supposed to affect your chance to dodge attacks, but it's hard to tell. I suspect it also affects your to-hit chance. Unlike other CRPGs, it doesn't affect your armor class.
-- *[CHA]risma* affects the price of training (but only on the order of a handful of gp per level) and the chance to *(N)egotiate* with monsters.
+- *[CHA]risma* affects the price of training (but only on the order of a handful of gp per level) and the chance to `(N)egotiate` with monsters.
 - *[POW]er* is your "mana" stat. Casting a spell costs 1pt of POW per spell level, so a third level spell costs 3 POW, etc.
 
 Stats have a minimum of 3 and a maximum of 21, except for POW which is effectively unlimited.
 
-Attributes don't increase through leveling or any other mechanism. The only way to improve a stat is to *(Z)drink* from a [magic pool](#using-magic-pools), which can be found in some dungeons (there are ~50 in the entire game). Even then, magic pools only grant a stat boost a small portion of the time. They also have a number of other effects (some good, some bad) which we'll talk about later.
+Attributes don't increase through leveling or any other mechanism. The only way to improve a stat is to `(Z)drink` from a [magic pool](#using-magic-pools), which can be found in some dungeons (there are ~50 in the entire game). Even then, magic pools only grant a stat boost a small portion of the time. They also have a number of other effects (some good, some bad) which we'll talk about later.
 
 The exception to the "no increases" rule is POW; characters capable of using magic gain +1 maximum POW every even-numbered level. Note that when inspecting a character, only the current amount of POW is shown. There is no indicator of maximum POW; you just have to remember. POW regenerates naturally with time.
 
@@ -371,7 +371,7 @@ More than others, this section is completely, totally, 100% my opinion. But it s
 
 Before we start, you need to know that *Deathlord* uses a 3+3 turn-based combat system (see [Combat Basics](#combat-basics)). Specifically, this means that only the front three can use weapons to attack, so generally you're going to want three fighters for the front ranks and three casters in the back. There are some tweaks to that, though, which we'll talk about in a second.
 
-Let's start with character races. I generally play a part of six Humans. Why? I find the only good reason to take a demihuman is their ability to *(F)search* for traps and secret doors. Searching isn't guaranteed to work, and you may be able to reduce your frustration by carrying a Kobito or Gnome around. Or, at least, reduce the number of times you have to hammer 'F' to prove that there's no trap or secret door here. But I don't get frustrated by this easily, partially because I play with other people's maps.
+Let's start with character races. I generally play a part of six Humans. Why? I find the only good reason to take a demihuman is their ability to `(F)search` for traps and secret doors. Searching isn't guaranteed to work, and you may be able to reduce your frustration by carrying a Kobito or Gnome around. Or, at least, reduce the number of times you have to hammer 'F' to prove that there's no trap or secret door here. But I don't get frustrated by this easily, partially because I play with other people's maps.
 
 Apart from that, you've got the race-locked missile weapons, the Kobito Hammer – yes, the 'Hammer' is a *missile* weapon, not that it really matters – and the Toshi Bow. The Toshi Bow is pretty fearsome (3 attacks at 1-8 plus a nice AC bonus), but I can't see putting a Toshi in the front lines – remember, you can't attack from the back three, even with a missile weapon – with a max of 13 CON and praying for a Toshi Bow to drop while they find secret doors faster than a Human. Kobitos (19 max CON) make more sense there, but the Hammer isn't quite as compelling for me.
 
@@ -409,7 +409,7 @@ Fighters should have a high STR and, perhaps less obviously, DEX. I noticed a dr
 
 For the most part, SIZ doesn't matter. It's helpful to have one character with high SIZ + STR combo for bashing down doors.
 
-And lastly, just like in D&D, CHA is pretty useless. Although, as a playing style, I don't *(N)egotiate* with monsters much, so it's possible I would notice my low CHR if I used that tactic more. The impact on store prices is negligible.
+And lastly, just like in D&D, CHA is pretty useless. Although, as a playing style, I don't `(N)egotiate` with monsters much, so it's possible I would notice my low CHR if I used that tactic more. The impact on store prices is negligible.
 
 *Deathlord* will happily let you assemble a party with only one character in it, but I'll tell you right now this game is hard enough as it is and you don't need to handicap yourself. (Also, you need to carry four items that all fit into the same inventory slot, so you kind of need at least four party members.) So pick your six classes, roll up your characters, make sure you assign alignments appropriately, and then pick a name for your intrepid party of adventurers.
 
@@ -426,7 +426,7 @@ Now we know how big the experience pool is, how do we divide it up? In order to 
 - landing a hit in melee; a kill is not necessary, but a miss is not enough
 - casting any spell
 - trying to cast a spell but failing because you're out of POW
-- casting a spell and then hitting *(Esc)* to cancel
+- casting a spell and then hitting `(Esc)` to cancel
 
 The last one is the most interesting one. Because "useful" is usually defined as "landing a hit in melee", the front line gets XP more often than the spell casters in the back rank. Consistently using the cast-and-cancel trick ensures that your casters are counted in the experience pool at the end of most fights, which means that they won't be left quite as far behind in collecting XP and going up levels.
 
@@ -440,7 +440,7 @@ Note that when you finally make it back to the training academy and train for th
 
 Training costs approximately 100 gp per level plus some change, so the game's level cap of 99 is as much about paying for training (a single PC can only hold 10,000 gp) as anything else.
 
-When you train to go up a level, the main benefit is that your maximum HP goes up. The amount it goes up is randomly rolled and depends on your [character class](#character-classes). It's also modified by your [CON modifier](#game-mechanics). There are few things worse than rolling a 1 on your new HP when you go up a level, so I highly recommend using an emulator with save states (like Win/Linapple) and doing what's called "[save-scumming](#managing-save-files)": save right before you pay for training, and if you don't get enough HP, reload and do it again.
+When you train to go up a level, the main benefit is that your maximum HP goes up. The amount it goes up is randomly rolled and depends on your [character class](#character-classes). It's also modified by your [CON modifier](#game-mechanics). There are few things worse than rolling a 1 on your new HP when you go up a level, so I highly recommend using an emulator with save states (like `linapple`) and doing what's called "[save-scumming](#managing-save-files)": save right before you pay for training, and if you don't get enough HP, reload and do it again.
 
 The other obvious boost to your character's power comes from spell levels. [Spell casters](#magic-and-spells) gain new spells every couple of levels, but secondary casters gain new spells levels *four times slower* than primary casters:
 
@@ -462,11 +462,11 @@ Attributes don't go up when you gain a level. However, your character's age adva
 
 ### Using Magic Pools
 
-I put this info in the section on characters and development because there's only one way to increase the attributes of your characters, and that's by throwing yourself upon the mercy of the random number generator and *(Z)drinking* from a magic pool of water.
+I put this info in the section on characters and development because there's only one way to increase the attributes of your characters, and that's by throwing yourself upon the mercy of the random number generator and `(Z)drinking` from a magic pool of water.
 
 When you're exploring a dungeon, you'll find pools of water all over the place. They come in three kinds: normal water, poison, and magic. There is literally no way to distinguish them without drinking from them to see what happens. I've provided vague descriptions of where the good pools are throughout the dungeon walkthroughs, but if you're interested in chasing magic pools you should *really* be using a well-annotated map.
 
-When you *(Z)drink* from a magic pool, the response is always "You feel dizzy!". One of the following random effects will occur:
+When you `(Z)drink` from a magic pool, the response is always "You feel dizzy!". One of the following random effects will occur:
 
 - nothing
 - +1 to a random stat
@@ -491,30 +491,30 @@ You'll spend most of your time in *Deathlord* doing one of three things: trackin
 
 ### Combat Basics
 
-Step 1, before you get into combat: make sure that everyone has readied a *(W)eapon*, either *(H)and* or *(M)issile*. *(O)pen hands* is for the Shukenja and Ninja among you; I can't think of any other reason why you wouldn't want to have a weapon readied at all times. You can confirm your status by looking at your equipment list; a readied weapon has an asterisk in front of it. Now then...
+Step 1, before you get into combat: make sure that everyone has readied a `(W)eapon`, either `(H)and` or `(M)issile`. `(O)pen hands` is for the Shukenja and Ninja among you; I can't think of any other reason why you wouldn't want to have a weapon readied at all times. You can confirm your status by looking at your equipment list; a readied weapon has an asterisk in front of it. Now then...
 
 *Deathlord* uses a no-frills turn-based combat system. You have six characters in your party (...right?), and you will be facing a single group of monsters on the other side. Your party gets to attack, then the monsters attack, then you attack, and so on until the combat is over. There's no targeting system, there's no range or distance between parties, and there's no functional difference between melee weapons and missile weapons. You just beat the crap out of each other until everyone dies or runs away. (Note that running away causes the monsters to disappear, so it's a valid route to 'complete' a fight.)
 
-As is common in combat systems of this style, only the first half of your party can use weapons to attack. Slots 1–3 can attack, cast spells, or do other things; the characters in slots 4–6 can't attack but they can do the other things. (Actually, they can try to *(A)ttack*, but the game will just say "Can't!" and you'll lose your turn.) Systems like this appear in enough games that I've started calling it a "3+3" combat system, although some games like *Bard's Tale* or *Dragon Wars* have "4+3" systems, etc.
+As is common in combat systems of this style, only the first half of your party can use weapons to attack. Slots 1–3 can attack, cast spells, or do other things; the characters in slots 4–6 can't attack but they can do the other things. (Actually, they can try to `(A)ttack`, but the game will just say "Can't!" and you'll lose your turn.) Systems like this appear in enough games that I've started calling it a "3+3" combat system, although some games like *Bard's Tale* or *Dragon Wars* have "4+3" systems, etc.
 
-I told a little fib up there, which is that your party doesn't always go first. First strike is granted to the team that initiates combat. If you used the *(A)ttack* action to start melee, you get first strike. Otherwise the monsters attack first.
+I told a little fib up there, which is that your party doesn't always go first. First strike is granted to the team that initiates combat. If you used the `(A)ttack` action to start melee, you get first strike. Otherwise the monsters attack first.
 
 Unlike some games that let you queue up commands for your whole party and then execute them afterwards, *Deathlord* executes each action as soon as you hit the key. So you get to watch the outcome of your front row's attacks before deciding what spells to cast with your back row. This is nice, but also means that once you issue a command for an earlier character, you can't go back and change your mind.
 
-I said this earlier but I'll say it again: "interface" commands like : (change message delay) or control-S (enable/disable sound) **count as your battle action.** Likewise, if you hit *(C)ast* and then change your mind and hit ESC to cancel, that's your action. However, Enter (view character's statistics) does not consume your turn – you get to input another action after you finish viewing. But, there's no clock running in combat; you can take as much time as you want to consider tactics and pick an action.
+I said this earlier but I'll say it again: "interface" commands like : (change message delay) or control-S (enable/disable sound) **count as your battle action.** Likewise, if you hit `(C)ast` and then change your mind and hit ESC to cancel, that's your action. However, Enter (view character's statistics) does not consume your turn – you get to input another action after you finish viewing. But, there's no clock running in combat; you can take as much time as you want to consider tactics and pick an action.
 
 So what can your characters do on their turn?
 
-- *(A)ttack* using whichever weapon you have readied. (You readied your weapons, right?) We'll talk about this more in a minute.
-- Ready a different *(W)eapon*; pick from *(H)and, (M)issile,* or *(O)pen Hand* (i.e. no weapon).
-- *(C)ast* a spell. You have to type the spell name, or hit / or ? to get a menu. If you get the spell name wrong, you get another chance to type it.
-- *(R)etreat* to the back of the group. This action doesn't actually occur until everyone else has taken their turn, so if you tell #3 to *Retreat*, #4 won't get to *Attack* because they're still in the back row. If multiple characters *Retreat* in the same round, they all move to the back and retain their relative ordering from before. This mostly makes sense; actions are applied in the same order you specified them.
-- *(F)lee*, which causes the party to attempt to flee combat **but also** stops anyone else in the party from executing a command this turn, so you probably only want to do this with the party member in slot #6. It doesn't always work. There are also a bunch of Shizen spells that cause you to *Flee* and have a much higher chance of success, and if they don't work you don't lose the rest of the party's turn.
-- Attempt to *(N)egotiate* with the monsters. This is like *Fleeing*, but it depends on CHA, and if it works, the monsters charge you some amount of money to leave. Harder monsters want more money (and are less likely to say yes in the first place).
-- *(Space)* Pass. This PC does nothing.
-- *(S)kip* everyone's turn. Seriously, just don't use this.
+- `(A)ttack` using whichever weapon you have readied. (You readied your weapons, right?) We'll talk about this more in a minute.
+- Ready a different `(W)eapon`; pick from `(H)and`, `(M)issile,` or `(O)pen Hand` (i.e. no weapon).
+- `(C)ast` a spell. You have to type the spell name, or hit / or ? to get a menu. If you get the spell name wrong, you get another chance to type it.
+- `(R)etreat` to the back of the group. This action doesn't actually occur until everyone else has taken their turn, so if you tell #3 to *Retreat*, #4 won't get to *Attack* because they're still in the back row. If multiple characters *Retreat* in the same round, they all move to the back and retain their relative ordering from before. This mostly makes sense; actions are applied in the same order you specified them.
+- `(F)lee`, which causes the party to attempt to flee combat **but also** stops anyone else in the party from executing a command this turn, so you probably only want to do this with the party member in slot #6. It doesn't always work. There are also a bunch of Shizen spells that cause you to *Flee* and have a much higher chance of success, and if they don't work you don't lose the rest of the party's turn.
+- Attempt to `(N)egotiate` with the monsters. This is like *Fleeing*, but it depends on CHA, and if it works, the monsters charge you some amount of money to leave. Harder monsters want more money (and are less likely to say yes in the first place).
+- `(Space)` Pass. This PC does nothing.
+- `(S)kip` everyone's turn. Seriously, just don't use this.
 
-When you use the *(A)ttack* action (again, only from slots 1-3), you make one or more attacks against a single enemy. I believe that the game keeps track of monsters in a queue, and your attacks are directed at the "first" one, although I don't know that for sure. Certain weapons (see [Equipment](#equipment)) grant you more than one attack, and casting M3:ISOGU grants one additional attack to everyone in the party. The most you can get is five attacks in a round; the Berzerk Sword, only usable by Kichigai, attacks four times. If you have multiple attacks but kill a monster with your first, you lose the subsequent attacks.
+When you use the `(A)ttack` action (again, only from slots 1-3), you make one or more attacks against a single enemy. I believe that the game keeps track of monsters in a queue, and your attacks are directed at the "first" one, although I don't know that for sure. Certain weapons (see [Equipment](#equipment)) grant you more than one attack, and casting M3:ISOGU grants one additional attack to everyone in the party. The most you can get is five attacks in a round; the Berzerk Sword, only usable by Kichigai, attacks four times. If you have multiple attacks but kill a monster with your first, you lose the subsequent attacks.
 
 For each attack, there is a baseline 25% chance of success. That number is modified by +5% for every point of to-hit ability for the attacker and -5% for every point of armor the defender is wearing, but it can't go lower than 10%.
 
@@ -544,7 +544,7 @@ These five conditions can be cured by a high-enough level spellcaster, as shown 
 
 Health will regenerate over time (about 1 hp every 30 minutes of game time), so long as your characters have food. Characters without food are "starving" and will not regenerate health. Food is easily acquired on almost every continent, though not in every town, at a rate of 3 gp per meal and is consumed about once every 90 minutes.
 
-You don't have to explicitly "rest", but if you want to kill a bunch of time, it's faster to *(ctrl-P)itch camp* for several hours than it is to hold down the spacebar. You can't pitch camp while INDOOR, which covers towns and the first floor of some dungeons, but it works OUTDOOR and in most dungeons. The location indicator below your party list will tell you where you are, and therefore whether or not you can camp. If you have pitched camp and decide to stop for some reason, you can *(B)reak camp* at any time.
+You don't have to explicitly "rest", but if you want to kill a bunch of time, it's faster to *(ctrl-P)itch camp* for several hours than it is to hold down the spacebar. You can't pitch camp while INDOOR, which covers towns and the first floor of some dungeons, but it works OUTDOOR and in most dungeons. The location indicator below your party list will tell you where you are, and therefore whether or not you can camp. If you have pitched camp and decide to stop for some reason, you can `(B)reak camp` at any time.
 
 Keep in mind that monsters will continue to roam around while you're camping and will get first strike if they come across your camp. You may be able to find little corners where it's harder for monsters to find you.
 
@@ -573,7 +573,7 @@ If one of your characters is slain in combat and you try to resurrect them in th
 
 ### Combat Strategies
 
-You're going to get into a lot of fights across a game of *Deathlord*. First of all, you can't really avoid them; once a monster decides to start chasing you, they will do so until they catch you. They get to move diagonally and you don't, so they have the jump on you unless the terrain happens to be in your favor: monsters have only a limited ability to move around obstacles, so you can pin them in behind a wall. Consider this terrible "map":
+You're going to get into a lot of fights across a game of *Deathlord*. First of all, you can't really avoid them; once a monster decides to start chasing you, they will do so until they catch you. They also get to move diagonally and you don't, so they have the jump on you unless the terrain happens to be in your favor. Consider this terrible "map":
 
 ```
   **
@@ -581,11 +581,11 @@ M **   P
   **
 ```
 
-Even if that intervening wall (**) is only three squares wide, the monster (M) doesn't know how to get closer to your party (P). So as long as you stay in-line with them, they won't move. You'll learn how to take advantage of this early on when you explore Yokahama.
+Monsters don't know how to shuffle multiple steps out of the way to get around something, so even if that intervening wall (**) is only three squares wide, the monster (M) doesn't know how to get closer to your party (P). As long as you stay in line with them, they won't move. However, if you move one square north, they *are* smart enough to move diagonally around the corner. You'll learn how to take advantage of this early on when you explore Yokahama.
 
 Once a fight starts, you have two options: stand and fight, or try to end the combat early. There are several options for the latter, which I described in [Combat Basics](#combat-basics). Ending combat early causes the combat to disappear, but you don't get XP or treasure.
 
-If you decide to fight, your tactics are fairly limited. Your back line, in particular, can't really do anything but cast spells or use the occasional item (and there aren't many). You get the *(R)etreat* command, which lets you shuffle somebody from the front row who's about to run out of HP to slot six so they don't get whacked and die. But that's only useful if the character in slot four can defend themselves, so I recommend putting a Shisai or Shizen there and giving them good armor.
+If you decide to fight, your tactics are fairly limited. Your back line, in particular, can't really do anything but cast spells or use the occasional item (and there aren't many). You get the `(R)etreat` command, which lets you shuffle somebody from the front row who's about to run out of HP to slot six so they don't get whacked and die. But that's only useful if the character in slot four can defend themselves, so I recommend putting a Shisai or Shizen there and giving them good armor.
 
 Don't forget the [experience distribution](#experience-and-leveling) rules; make sure everybody gets a chance to do something "useful", and in general if you're facing fewer weaker monsters, it's probably a good idea to skip over your front line on the first turn so the back row has a chance to cast-and-cancel so they get something out of the fight. You should also consider having characters that have a +1 and are waiting to train not do anything at all in combat, to reduce the denominator of distributed experience.
 
@@ -593,19 +593,19 @@ Don't forget the [experience distribution](#experience-and-leveling) rules; make
 
 *Deathlord* provides you with an interesting inventory management problem. Each character can hold eight items, but those eight inventory slots are devoted to certain categories of items – melee weapons go in slot 0, for example. You can't hold more than one of each category, so you can't stash a spare melee weapon in any other slot, which makes acquiring a new melee weapon interesting.
 
-When you win a battle, you may or may not get money, and you may find zero, one, or two items. Money always goes to whoever is the party leader at the moment. If you collect too much money (a character can only hold 10,000 gp), you silently drop the excess. So make a point of checking how much cash your party leader has, and use *(T)rade (G)old* to give some to other characters when necessary.
+When you win a battle, you may or may not get money, and you may find zero, one, or two items. Money always goes to whoever is the party leader at the moment. If you collect too much money (a character can only hold 10,000 gp), you silently drop the excess. So make a point of checking how much cash your party leader has, and use `(T)rade (G)old` to give some to other characters when necessary.
 
-Note: **do not use** the Pool Gold command ($ or shift-4)! It gathers up all the cash in the party, ***silently drops\*** everything over 10,000 gp, and then gives it all to one person. Go read that sentence again, and pay attention to the bit in bold and italics. This may not seem like a problem while you're on Kodan, but it will become one soon enough. It's really easy to throw away many thousands of gold pieces without knowing you've done it. And you don't get a warning, because *Deathlord* hates you.
+Note: **do not use** the Pool Gold command ($ or shift-4)! It gathers up all the cash in the party, ***silently drops*** everything over 10,000 gp, and then gives it all to one person. Go read that sentence again, and pay attention to the bit in bold and italics. This may not seem like a problem while you're on Kodan, but it will become one soon enough. It's really easy to throw away many thousands of gold pieces without knowing you've done it. And you don't get a warning, because *Deathlord* hates you.
 
 If you find an item in battle, you will be asked which character wants to pick it up. If that character already has an item in that slot, the game will ask if you want to drop the item you already have and pick up the new one instead. You can cancel and pick a different character. Note that it is entirely possible to irretrievably lose a unique item (such as the Emerald Rod) this way.
 
-*(G)etting* money from a pot or a treasure box works exactly the same way, except that you can select a character to perform the action (G 5 K will tell character #5 to steal from something to the E, for example). However, treasure boxes are sometimes trapped, so it's good to have a thief or a character with a high DEX open them.
+`(G)etting` money from a pot or a treasure box works exactly the same way, except that you can select a character to perform the action (G 5 K will tell character #5 to steal from something to the E, for example). However, treasure boxes are sometimes trapped, so it's good to have a thief or a character with a high DEX open them.
 
-If you want to move inventory items between characters, you have two options. For food, you can use the *(T)rade (F)ood* command. Type the **destination** character first, then the **source** character, then tell the game how much to move. You can also trade *(T)orches* and, as I mentioned above, *(G)old*.
+If you want to move inventory items between characters, you have two options. For food, you can use the `(T)rade (F)ood` command. Type the **destination** character first, then the **source** character, then tell the game how much to move. You can also trade `(T)orches` and, as I mentioned above, `(G)old`.
 
-The game allows you to *(T)rade (E)quipment* as well, but **do not use this command**. Let's say you want to give your Tanto to someone to hold for a second while your Mahotsukai does something else. So you *Trade Equipment* to #1 from #6, and then pick the Tanto... but you forgot that character #1 already has the Sunspear. No problem, they'll just ***quietly drop it forever\*** so that they can receive the Tanto, because that's what you wanted, right?
+The game allows you to `(T)rade (E)quipment` as well, but **do not use this command**. Let's say you want to give your Tanto to someone to hold for a second while your Mahotsukai does something else. So you *Trade Equipment* to #1 from #6, and then pick the Tanto... but you forgot that character #1 already has the Sunspear. No problem, they'll just ***quietly drop it forever\*** so that they can receive the Tanto, because that's what you wanted, right?
 
-Instead, use the *e(X)change* command. Again, pick the **destination** character first, then the **source** character. In our previous example, the Mahotsukai would wind up with the Sunspear, because players 1 and 6 *exchanged* their melee weapons. This is a much safer operation (and easy to reverse), but it only works on inventory items.
+Instead, use the `e(X)change` command. Again, pick the **destination** character first, then the **source** character. In our previous example, the Mahotsukai would wind up with the Sunspear, because players 1 and 6 *exchanged* their melee weapons. This is a much safer operation (and easy to reverse), but it only works on inventory items.
 
 It is sometimes possible to sell equipment back to shops, but you have to find a shop that sells items of the same variety; you can't sell a shield back to an armor shop, for instance, and neither can you sell a melee weapon to a missile weapon shop. However, if it can't be bought in a shop, it can't be sold back to a shop either. So the vast majority of the time, it's not worth carrying around something you can't use. Just drop it and move on.
 
@@ -625,7 +625,7 @@ The **Hex** code is the item ID that appears in your character's inventory data,
 
 Most weapons have a bonus or penalty **To Hit**; higher is better. **Dmg** shows the damage range, and if the weapon can attack multiple times, there's a "2x" (etc.) in front of it. Some weapons also affect your **AC** (either up or down). **N.B. For the sake of this table, positive AC modifiers are *good*** (even though your AC wants to be as "low" as possible).
 
-**Special** effects are listed in the last column. Items that "cast" a spell do so when you *Use* them; they usually come with a limited number of charges. The maximum number of charges is in parentheses, for example (#24), but you'll find items with less. Check your inventory; it will tell you how many charges are left. (**) means infinite. A weapon that "slays" a particular monster type does double damage against them; see the [Monster List](#monster-list) for types.
+**Special** effects are listed in the last column. Items that "cast" a spell do so when you *Use* them; they usually come with a limited number of charges. The maximum number of charges is in parentheses, for example (#24), but you'll find items with less. Check your inventory; it will tell you how many charges are left. `#\*\*` means infinite. A weapon that "slays" a particular monster type does double damage against them; see the [Monster List](#monster-list) for types.
 
 #### Melee Weapons (slot 0)
 
@@ -770,23 +770,23 @@ One hint about getting lost at sea: if you get really really lost, try sailing w
 Below I list each continent, give its coordinates on the map above, and list the locations you can visit there, along with a rough pointer towards which part of the continent they can be found. Locations with a game-winning thing (i.e. word or relic) are marked with an asterisk.
 
 - **Akmihr** (K-10)
-  - *Towns:* Oasis (NE), Desert Flower (SE), *Sultan's Palace (SE)*
-  - *Dungeons:* Akhamun-Ra's Pyramid (NW), *Kobito Mines (C)
+  - *Towns:* Oasis (NE), Desert Flower (SE), \*Sultan's Palace (SE)*
+  - *Dungeons:* Akhamun-Ra's Pyramid (NW), \*Kobito Mines (C)
   
 - **Asagata** (E-08)
   - *Towns:* Towne Royal (NW), Croyo (C)
   - *Dungeons:* Fire Giants' Lair (NE)
 
 - **Black Isles** (B-05)
-  - *Towns:* *Red Shogun's Castle (C)
-  - *Dungeons:* *Doors Dungeon (C)
+  - *Towns:* \*Red Shogun's Castle (C)
+  - *Dungeons:* \*Doors Dungeon (C)
 
 - **Chigaku** (K-04)
   - *Towns:* Fort Wintergreen (NW), Crystalmist (E)
-  - *Dungeons:* *Troll Hole (C), Tower of Shumi (SW)
+  - *Dungeons:* \*Troll Hole (C), Tower of Shumi (SW)
 
 - **Isle of the Dead** (C-11)
-  - *Dungeons:* *Pyramid of the Old Ones (SW)
+  - *Dungeons:* \*Pyramid of the Old Ones (SW)
 
 - **Giluin** (O-12:O-13)
   - *Towns:* Kobar (NE), Shupan (SE), Temple of Oceanus (W)
@@ -794,10 +794,10 @@ Below I list each continent, give its coordinates on the map above, and list the
 
 - **Hell Island** (O-03)
   - *Towns:* Skull Keep (C)
-    *Dungeons:* *Hell (Skull Keep)
+    *Dungeons:* \*Hell (Skull Keep)
 
 - **Lost Isles** (E-05)
-  - *Dungeons:* *Caves of the Four Elements (SW)
+  - *Dungeons:* \*Caves of the Four Elements (SW)
 
 - **Kodan** (H-06:I-07)
   - *Towns:* Emperor's Palace (C), Kawa (C), Tokugawa (NW), Tokushima (E)
@@ -805,10 +805,10 @@ Below I list each continent, give its coordinates on the map above, and list the
   - *Dungeons:* Caves (E), Yakuza Guild (Kawa), Kawahara's dungeon (Palace), Pirate's Den (Wakiza)
 
 - **Narawn** (F-12)
-  - *Towns:* *Lost Lagoon (NW), Kashiwa (SW), Fort Demonguard (C), *Malkanth (C)
+  - *Towns:* \*Lost Lagoon (NW), Kashiwa (SW), Fort Demonguard (C), \*Malkanth (C)
 
 - **Nyuku** (F-02)
-  - *Towns:* Spindrift North (W), Spindrift South (W), *Twin Rivers (NW)
+  - *Towns:* Spindrift North (W), Spindrift South (W), \*Twin Rivers (NW)
   - *Dungeon:* Sunken Temple (NE)
 
 - **Osozaki** (M-07)
@@ -818,8 +818,8 @@ Below I list each continent, give its coordinates on the map above, and list the
 
 - **Sirion** (G-15:H-15)
   - *Towns:* Clearview (SE)
-  - *Ruins:* *Greenbanks (W)
-  - *Dungeons:* *Staircase dungeon (NE), *Chessboard dungeon (W)
+  - *Ruins:* \*Greenbanks (W)
+  - *Dungeons:* \*Staircase dungeon (NE), \*Chessboard dungeon (W)
 
 - **Tsumani** (B-16)
   - *Towns:* Morningfrost (SE), Snow Raven (SW)
@@ -832,11 +832,11 @@ Some weird things that I've noticed on my journeys across Lorn... maybe these wi
 
 I started playing with a [flat Boot disk image](#managing-save-files), and got almost no loot whatsoever, until I got to the edge of Kodan and discovered the bug that prevents you from continuing the rest of the game. I downloaded a nibbilized Boot disk and reloaded, and suddenly the loot started to flow like water. Maybe that's just that loot is nerfed on Kodan, or maybe there's a bug in the cracked image, or maybe something else happened, but it was certainly noticable.
 
-Go into a shop. Have a Shisai buy a lockpick, then immediately buy a holy symbol. Press (Y) to replace the first with the second, and (due to a bug) the holy symbol will have 255 charges, which is way more than normal.
+Go into a shop. Have a Shisai buy a lockpick, then immediately buy a holy symbol. Press `(Y)` to replace the first with the second, and (due to a bug) the holy symbol will have 255 charges, which is way more than normal.
 
 While outside and on-board a boat, you can attack enemies on land, but they can not attack you. Likewise, monsters in the water can attack you from the water, even if you're on land. However, when you're inside, even if you're on-board a boat (yes, it happens), you can be attacked from land.
 
-If you try to *(B)oard* a boat that isn't yours, the game tells you it's "Not yours!". You can steal a boat by *(A)ttacking* it. I'm not sure if this counts as attacking a town. Careful, though; boats usually have a whole bunch of Sailors on board, and they aren't super hard, but they do summon allies.
+If you try to `(B)oard` a boat that isn't yours, the game tells you it's "Not yours!". You can steal a boat by `(A)ttacking` it. I'm not sure if this counts as attacking a town. Careful, though; boats usually have a whole bunch of Sailors on board, and they aren't super hard, but they do summon allies.
 
 Opened chests eventually close themselves and slowly regenerate gold. If you go back to treasure that you looted much earlier in the game, there's a change it will be there again, although it won't have as much gold in it as it did the first time (unless you wait a *really* long time.)
 
@@ -879,7 +879,7 @@ Spell purposes:
 
 - *BUFF+* spells improve the attributes of one or more party members. *BUFF–* spells hinder your opponents.
 - *FEAR* causes your opponents to flee combat; spells of this type seem to be particularly dependent on the enemy type.
-- *FLEE* spells give your party a chance of fleeing combat, which is generally better than using the *(F)lee* action. This is the Genkai specialty.
+- *FLEE* spells give your party a chance of fleeing combat, which is generally better than using the `(F)lee` action. This is the Genkai specialty.
 - *HEAL* (health) and *CURE* (status) spells only ever affect one party member at a time.
 - *HOLD* prevents one or more opponents from acting for a certain number of turns. The manual includes some flavor text describing the 'style' of effect, but as far as I can tell it makes no difference; you can put a Skeleton to 'sleep', for instance.
 - *LIGHT* does what you think it does, but it has a limited range and only works inside dungeons.
@@ -907,7 +907,7 @@ Spell purposes:
 | 5       | **HONASU**    | Heal    | 1       | 33–64 hp                                                     |
 | 6       | **ALNASU**    | Heal    | 1       | all hp                                                       |
 | 6       | **KURENZA**   | Zap     | group   | up to 40 hp                                                  |
-| 6       | **KAERU**     | Misc.   |         | Casting this spell sets a 'homing beacon'. Enter a word, then later have the same caster *(Y)ell* the recall word to teleport to the spot where you cast the spell. Casting a second time will remove the first beacon. |
+| 6       | **KAERU**     | Misc.   |         | Casting this spell sets a 'homing beacon'. Enter a word, then later have the same caster `(Y)ell` the recall word to teleport to the spot where you cast the spell. Casting a second time will remove the first beacon. |
 | 7       | **SHINSEIGO** | Slay    | group   | enemies that fail their save are 'damned'                    |
 | 7       | **MOINOCHI**  | Cure    | 1       | Death (RIP); no loss of CON                                  |
 | 7       | **YAWARISHI** | Cure    | 1       | Petrification (STO)                                          |
@@ -1000,7 +1000,7 @@ Of course, even if you follow the clues you're given, it's entirely possible to 
 
 *Deathlord* does not coddle you. Even the starter dungeon can be lethal for parties that are just starting out. At every turn there is a wrong step that you can take that will drop you into a dungeon that will overpower you. What I'm going to do in this walkthrough is steer you off of that path as often as possible. But if you feel like freelancing, I've tried to write each section in a fairly self-contained way, so you should be able to pick it up whenever you get to a particular town. There will be a couple of places where the town descriptions make more sense if you read them in the order I've written them, though.
 
-One quick word on notation: Generally when I'm describing the information you'll learn in an area, I've underlined oration keywords (i.e. things that you can *(I)nquire* about). Keywords are plural-insensitive, that is, cave and caves will usually give you the same answer.
+One quick word on notation: Generally when I'm describing the information you'll learn in an area, I've underlined oration keywords (i.e. things that you can `(I)nquire` about). Keywords are plural-insensitive, that is, cave and caves will usually give you the same answer.
 
 At the top of each section is a list of Services offered by the town. Different vendors offer different levels of service; the value noted in parentheses is the best service offered by that particular vendor. The list below includes all services (or items) in order of priority, so as an example a "melee weapons (Masakari)" vendor sells neither the Glaive nor the Naginata.
 
@@ -1154,7 +1154,7 @@ One additional note: I made liberal use of save-scumming to both guarantee near-
 
 *Deathlord* is extremely non-linear. I've written this walkthrough with the knowledge gained from having beaten the game, so I've pointed you in directions that make sure that you don't get outclassed while still ensuring that you pick up clues "in story order", i.e. I don't have you visit a place before it's possible to know about it. If you played without a walkthrough, it is possible (though pretty unlikely) that you could luck into the same order that I've written things here.
 
-But in the modern era, everywhere you look for information about this game, people talk about how hard it is, how confusing, and how the clues don't make any sense. So I've tried to construct a rough map of all the islands in the game and the major plot arrows, just to make sure that it does make some sort of sense and that it is possible to get from A to B without randomly floating around the ocean and hoping to come across a new continent. Because, you know, people *did* beat this game in 1988...
+But in this modern era, everywhere you look people talk about how hard this game is, how confusing, and how the clues don't make any sense. So I've tried to construct a rough map of all the islands in the game and the major plot arrows, just to make sure that it is possible to get from A to B without randomly floating around the ocean and hoping to come across a new continent. Because, you know, people *did* beat this game in 1988...
 
 Remember that the world map that comes with the game shows you the existence of Kodan, Nyuku, Asagata, Akmihr, and Chigaku. You have to find them, but you know roughly where they are. So we're looking for the rest of the continents, the location of the dungeons and an idea which ones have words in them, and the six relics (not counting the Black Orb).
 
@@ -1167,7 +1167,7 @@ Remember that the world map that comes with the game shows you the existence of 
 7. **Narawn:** you find the **Blue Crystal** and the **Sharktooth**, learn about a word and get a pointer towards the *Isle of the Dead*, and get a pointer towards *Giluin* and the *Temple of Oceanus*.
 8. **Sirion:** you get the **Lantern**, two **words**, and a pointer towards *Tsumani*.
 9. **Tsumani:** you learn about the relics you already learned about on Akmihr and get a pointer towards the *Black Isles*.
-10. **Lost Isles****:** you discover the *Cave of the Four Elements*. As best I can tell there is no indication that there's a **word** there, but you find one anyway.
+10. **Lost Isles**: you discover the *Cave of the Four Elements*. As best I can tell there is no indication that there's a **word** there, but you find one anyway.
 11. **Giluin:** you get a pointer towards *Hell Island* and one towards the *Pyramid of the Old Ones*.
 12. **Isle of the Dead:** you pick up a **word** in the Pyramid.
 13. **Black Isles**: you find the **Ruby Ring** and learn about a dungeon 'behind' the palace. Lots of people tell you to go there, but only a sign within the dungeon itself tells you there's a **word** to be found.
@@ -1197,7 +1197,7 @@ The "quickest" route I can fathom looks like this:
 
 1. Start in Kodan, and grind until you get a boat (or, equivalently, kill Kawahara). Of course, that's dozens of hours of gameplay by itself.
 2. Sail W from Kodan to find the Black Isles and raid the Red Shogun's Castle for the Ruby Ring. This is easy enough if you have M4:UGOKU and emulator save states; otherwise, you'll need to fight off several parties of Golems, at which point you probably have 4th-level spells anyway.
-3. Sail SE to Narawn. Visit the Lost Lagoon to pick up *two* Crystals, then stop by Fort Demonguard and Malkanth to get the Tooth. You can do this with Z4:HITATE instead of the Ruby Ring.
+3. Sail SE to Narawn. Visit the Lost Lagoon to pick up *two* Crystals, then stop by Fort Demonguard and Malkanth to get the Tooth. You already have the Ruby Ring, but you could do it with Z4:HITATE instead.
 4. Head SSE to Sirion and pick up the Lantern, then NE to Akmihr and use a Crystal to get the Emerald Rod. Good luck with the Sand Dragon, but you can do some grinding in the Kobito Mines.
 5. From Akmihr, sail NW (or SW, it's the same distance) to Nyuku and trade one Crystal for the Sunspear.
 6. You now have all the artifacts, so all you have to do is grind until you feel ready and then head to Skull Keep.
@@ -1213,7 +1213,7 @@ However, before you go ripping apart a disk image to modify your characters, kee
 
 https://archive.org/details/Beneath_Apple_DOS_OCR
 
-I have Java code that can decode a nibblized scenario disk and pull out the character information. But if you're using Linapple as your emulator (and possible Winapple as well), it's far easier to save a snapshot (memory image) and look through that (or modify it) with a hex editor. The character data starts at 0x00fd70 in the snapshot.
+I have Java code that can decode a nibblized scenario disk and pull out the character information. But if you're using `linapple` as your emulator (and possibly `winapple` as well), it's far easier to save a snapshot (memory image) and look through that (or modify it) with a hex editor. The character data starts at 0x00fd70 in the snapshot.
 
 Most of the data is laid out by attribute, and of those, most values are one byte. For example, your party's STRENGTH attributes are stored at bytes 0x072 – 0x077, and contain a value from 0 to 255. However, several attributes (like gold, or experience) require two bytes. When this happens, the six low bytes are stored first, then the six high bytes. So for character #2 you'd combine byte 1 and byte 7. This gives you a value from 0 to 65535 (256*256-1), although few attributes actually hold values that high. (Gold is capped at 10000, for example.)
 

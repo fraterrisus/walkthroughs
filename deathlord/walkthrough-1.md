@@ -39,19 +39,19 @@ Kawa has a mid-range melee weapons shop and a mid-range armor shop. Although you
 
 What you will eventually want to buy here is a Holy Symbol. This makes fighting off parties of Skeletons much, much easier. Given that Skeletons can be farmed for gold (see the ruin of Yokahama, below), this is pretty much a no-brainer.
 
-Spend some time walking around Kawa, practicing *(O)ration* and getting to know the locals. You'll find out that someone named Kawahara is waiting for you in the caverns underneath the Emperor's Palace, which sounds like an obvious plot arrow if ever I've heard one. You'll find some Yakzua hanging out near the inn. The NPCs here also know about the lay of the land: Yokohama, which I just mentioned a minute ago, is ESE of here and now lies in ruins. There's another set of ruins, formerly known as Wakiza, to the SW. On the E coast is a town called Tokushima, with an old shrine out on Bone Island. You can also see most of these features on the world map that's printed on the game box.
+Spend some time walking around Kawa, practicing `(O)ration` and getting to know the locals. You'll find out that someone named Kawahara is waiting for you in the caverns underneath the Emperor's Palace, which sounds like an obvious plot arrow if ever I've heard one. You'll find some Yakzua hanging out near the inn. The NPCs here also know about the lay of the land: Yokohama, which I just mentioned a minute ago, is ESE of here and now lies in ruins. There's another set of ruins, formerly known as Wakiza, to the SW. On the E coast is a town called Tokushima, with an old shrine out on Bone Island. You can also see most of these features on the world map that's printed on the game box.
 
 You can also learn that the Daimyo has a Kaibu locked up in the west tower. A Daimyo is feudal lord, like a baron. In *Deathlord* they are sometimes present as rulers of a town, and about half of them are hostile and will attack you on sight. (I believe that 'DIAMYO' is a misspelling, but that's what you'll see in combat and the [Appendix](#monster-list).) Killing a Daimyo doesn't have any sort of effect plot-wise, it just means they won't talk to you and you have to kill them. The one in Kawa is hostile.
 
-I mentioned this in the [intro](#getting-around-and-getting-along), but there's an oration trick that you should know: whenever you go into a town, ask someone about a dungeon. (There are some other useful common keywords in the linked section.) If there's one about, someone will know about it. Often enough someone will have a *(T)alk* message that mentions a dungeon, and then you know to ask about it, but eventually you just learn a couple of common keywords, and that's one of them. Here in Kawa, they'll point you towards the "starter dungeon", along the trail to the E.
+I mentioned this in the [intro](#getting-around-and-getting-along), but there's an oration trick that you should know: whenever you go into a town, ask someone about a dungeon. (There are some other useful common keywords in the linked section.) If there's one about, someone will know about it. Often enough someone will have a `(T)alk` message that mentions a dungeon, and then you know to ask about it, but eventually you just learn a couple of common keywords, and that's one of them. Here in Kawa, they'll point you towards the "starter dungeon", along the trail to the E.
 
 Let's talk about stealing. If you play a lot of CRPGs from this era, you're probably used to walking into people's houses, or the mayor's office or whatever, and just helping yourself to anything you can find. The guards don't seem to care if you bash down doors, break into prisons and free (or kill) the prisoners, or steal things; just don't throw the first punch. Regardless of whether you're playing a good-aligned party or not, this is the only way you're going to get any cash in the early game here, and the guards won't argue or try to stop you, so I say go for it. This game is hard enough without giving yourself an artificial handicap.
 
-On the other hand, if you want to turn an entire town against you, just *(A)ttack* someone in the town. It doesn't matter if it's a guard, a random citizen, a prisoner, or a skeleton that you are 100% positive is hostile and about to attack you; if you take first strike, the entire town will become hostile. Shopkeepers will refuse to sell to you and guards will attack you on sight. This is a particularly bad idea at the Emperor's Palace; it's hard to win the game if you can't talk to the Emperor, so be careful. You may also notice that the emulator will save to disk immediately, because *Deathlord* likes to remind you that actions have consequences. If that happens and you want to undo it, you might be able to use the [Disk Swapping](#managing-save-files) trick to reload the towns.
+On the other hand, if you want to turn an entire town against you, just `(A)ttack` someone in the town. It doesn't matter if it's a guard, a random citizen, a prisoner, or a skeleton that you are 100% positive is hostile and about to attack you; if you take first strike, the entire town will become hostile. Shopkeepers will refuse to sell to you and guards will attack you on sight. This is a particularly bad idea at the Emperor's Palace; it's hard to win the game if you can't talk to the Emperor, so be careful. You may also notice that the emulator will save to disk immediately, because *Deathlord* likes to remind you that actions have consequences. If that happens and you want to undo it, you might be able to use the [Disk Swapping](#managing-save-files) trick to reload the towns.
 
-There are two varieties of object that you can steal from: pots and chests (or boxes, really, is what they look like on-screen). Use *(G)et* to take their contents. Pots generally have more gold, but boxes are much more likely to have items and also more likely to be trapped. Coffins can also be raided for gold and items, but some percentage of the time they also contain Vampires, which you really don't want to fight, because level drain is the *worst*.
+There are two varieties of object that you can steal from: pots and chests (or boxes, really, is what they look like on-screen). Use `(G)et` to take their contents. Pots generally have more gold, but boxes are much more likely to have items and also more likely to be trapped. Coffins can also be raided for gold and items, but some percentage of the time they also contain Vampires, which you really don't want to fight, because level drain is the *worst*.
 
-So, that being said, let's break into the Daimyo's quarters. You can buy a lockpick if you want, or just *(S)mash* down the door. Neither is 100% effective, and failing to smash down a door costs you 2 hp, so consider your gold/health situations.
+So, that being said, let's break into the Daimyo's quarters. You can buy a lockpick if you want, or just `(S)mash` down the door. Neither is 100% effective, and failing to smash down a door costs you 2 hp, so consider your gold/health situations.
 
 From the foyer head W down the hallway to find a few pots of gold. Back by the entrance, there's a secret door to the south that leads into a crypt – **don't open the coffin** – and a false wall to the E that leads to more cash. It's a nice boost to your starting gold and should make your shopping trip in Tokugawa more fun.
 
@@ -61,7 +61,7 @@ For now, you're not powerful enough to take on either the guards in the E (there
 
 *Services*: food, healing (Resurrect)
 
-Your next destination probably ought to be the Emperor's Palace, since it's right there, just WNW of Kawa. On the off chance you ever need to do this walk in the dark, take the N exit from Kawa, walk 7W, and then *(E)nter* N to get to the palace. Or reverse. It's handy if you're grinding the Yakuza Guild for experience and need to get detoxified at the healer's.
+Your next destination probably ought to be the Emperor's Palace, since it's right there, just WNW of Kawa. On the off chance you ever need to do this walk in the dark, take the N exit from Kawa, walk 7W, and then `(E)nter` N to get to the palace. Or reverse. It's handy if you're grinding the Yakuza Guild for experience and need to get detoxified at the healer's.
 
 Easily the most important thing to do here, at least for now, is to find the healer, just W of the central square. You can rob him blind, both from the donations pot (shame!) and from the hidden cache behind him to the W. There's also a food vendor just E of the square. To the N you'll find his royal majesty, Emperor Nakamoto, atop his throne. He would like you to determine who is responsible for "these outrages". No word on what outrages he's talking about, but the "bring me any news" line is important later. This is common for *Deathlord*: very subtle hints hidden in speech.
 
@@ -131,7 +131,7 @@ The other commonly-found feature of Tokushima is its graveyard. You can find a c
 
 Okay, onto the town itself. The peasants will tell you about a loud noise they heard a while back that came from the SE; this points you at Bone Island, off the E coast, which you heard about in Kawa, but can't get to without a boat. In case you missed it on the way here, they'll point you at the dungeon to the W. Tokugawa is apparently a shopper's paradise; you can buy "just about anything" there, including boats.
 
-The more interesting plot arrow is about Senju, who you may have heard of because one of the random *(C)hat* clues is "Find Senju". No one has been able to tell you anything about him until now, though: he's a powerful mage. If you find a mage (a Mahotsukai wandering around) and ask him ($$), he'll tell you that a mighty wizard used to live in Yokahama, and that wizard's name was Senju. So that sounds like a place to check out, although we heard back in Kawa that Yokahama is a ruin now.
+The more interesting plot arrow is about Senju, who you may have heard of because one of the random `(C)hat` clues is "Find Senju". No one has been able to tell you anything about him until now, though: he's a powerful mage. If you find a mage (a Mahotsukai wandering around) and ask him ($$), he'll tell you that a mighty wizard used to live in Yokahama, and that wizard's name was Senju. So that sounds like a place to check out, although we heard back in Kawa that Yokahama is a ruin now.
 
 Exploring around, you can find a healer in the SE, a food vendor just NE of the signpost, and an armor and shield(!) vendor in the NW. This is one of the few shield vendors in the game, and you should definitely acquire shields for most of your party. In the far SW is a building that contains some Yakuza that will attack you. There aren't any town guards here, but you don't want to lose the shield vendor, so let the Yakuza attack you first.
 
@@ -165,7 +165,7 @@ You're also going to learn a lot of *Deathlord* dungeon lessons down here that w
 
 If you head NE from here, you'll come across Dungeon Lesson Number 1: a patch of swamp that you can't see through or around, so you don't know if there's any point in taking the damage to trudge your way through it. Hint: there isn't. At least, not this time.
 
-Head WNW instead, then N. The stairs down is hidden behind your first "false wall", which is Dungeon Lesson Number 2. The difference between a false wall and a secret door is that you find a secret door by *(F)searching* for it; you find a false wall by attempting to walk through it and seeing whether that works. There are no visual clues, you just have to try it.
+Head WNW instead, then N. The stairs down is hidden behind your first "false wall", which is Dungeon Lesson Number 2. The difference between a false wall and a secret door is that you find a secret door by `(F)searching` for it; you find a false wall by attempting to walk through it and seeing whether that works. There are no visual clues, you just have to try it.
 
 Combine this with Lesson Number 1, and you see how nasty the trick is: you never know when a wall will be false or hold a secret door, and there's no way to know without trudging through swamp and bashing into walls at -2HP per turn.
 
@@ -251,7 +251,7 @@ Note that if you decide to bail out, you have to back up through the minotaur ma
 
 Kawahara himself is mostly brutal because he has two levels of zap spells, plus he can paralyze you, and occasionally kill you outright. He seems to have around 50-75 hp so five or six shots seems to take him out. Once you beat him, take the DOCUMENT from the box behind him (and some cash from the other two), then step on the box that the document came in and you'll be teleported to level 5.
 
-Here's what the document says if you *(V)iew* it:
+Here's what the document says if you `(V)iew` it:
 
 > To his most noble countenance, the Emperor of Demons & Lord of Death! Greetings Master!
 >
@@ -259,11 +259,11 @@ Here's what the document says if you *(V)iew* it:
 >
 > Your servant, Kawahara
 
-Too bad there's no town named Gold-Rock, although *Yokohama* is clearly overrun by skeletons... Head back to the Emperor, who told you to "bring me any news". *(O)ffer* him the *(I)tem* you found, at which point he tells you:
+Too bad there's no town named Gold-Rock, although *Yokohama* is clearly overrun by skeletons... Head back to the Emperor, who told you to "bring me any news". `(O)ffer` him the `(I)tem` you found, at which point he tells you:
 
 > Go to Oceanspray where a vessel awaits you. Hunt down the wizard's master and don't return until he is no more!
 
-Too bad there's no town named Oceanspray, either. However, if you go to Tokugawa (you know, where all the boats are) you'll be able to *(B)oard* one for free. Note that this is a one-time offer; if you find yourself back on Kodan without a boat (say, because you dispersed and reassembled your party), you will need to spend 10,000 gp to buy a new one.
+Too bad there's no town named Oceanspray, either. However, if you go to Tokugawa (you know, where all the boats are) you'll be able to `(B)oard` one for free. Note that this is a one-time offer; if you find yourself back on Kodan without a boat (say, because you dispersed and reassembled your party), you will need to spend 10,000 gp to buy a new one.
 
 #### Leaving Kodan
 
@@ -293,21 +293,21 @@ The Den is technically accessible on foot in the N, but you have to walk through
 
 > Seven gates and seven clues, miss but one and you will lose
 
-Hell, it turns out, has seven gates, which align with the seven evils (aka the seven deadly sins). If you've been paying attention to the *(C)hat* clues, you know you've been told to find seven words. No one ever puts this together for you, but you're reading a completely optional part of this walkthrough so I'm going to let you in on a secret: the seven words you need to find are (bad) translations of the seven deadly sins into Japanese.
+Hell, it turns out, has seven gates, which align with the seven evils (aka the seven deadly sins). If you've been paying attention to the `(C)hat` clues, you know you've been told to find seven words. No one ever puts this together for you, but you're reading a completely optional part of this walkthrough so I'm going to let you in on a secret: the seven words you need to find are (bad) translations of the seven deadly sins into Japanese.
 
 If you sail to the NE corner, you can navigate around some swamp and dock at the one spot where there isn't any. From there, look for a false wall E and it will take you to the entrance to the Pirate's Den.
 
 **Level 1:** Unremarkable. Lots of swamp, no false walls or secret doors. Follow the path around roughly clockwise to the stairs down. No new or interesting monsters here.
 
-**Level 2:** *(B)oard* a boat and sail SE until you find another boat. He's parked on the only free space that doesn't involve walking through swamp, jerk. Follow the path and *(B)oard* another boat, then do that a third time to find the stairs down.
+**Level 2:** `(B)oard` a boat and sail SE until you find another boat. He's parked on the only free space that doesn't involve walking through swamp, jerk. Follow the path and `(B)oard` another boat, then do that a third time to find the stairs down.
 
-**Level 3:** *(B)oard* yet another boat (get used to it). The room to the N has a wall of darkness, and beyond it is a series of energy fields. In the center of the room is a signpost that says "Arr, you'll never get our treasure, mateys!" In other words, it's a stupid trap, because *Deathlord* hates you.
+**Level 3:** `(B)oard` yet another boat (get used to it). The room to the N has a wall of darkness, and beyond it is a series of energy fields. In the center of the room is a signpost that says "Arr, you'll never get our treasure, mateys!" In other words, it's a stupid trap, because *Deathlord* hates you.
 
 Dock to the W. The rest of this level is a "maze" of small rooms with false walls and secret doors. There are two sets of stairs down; the easier-to-find set is in the NE of this maze, and leads down to a part of level 4 with a small treasure room and a bunch of Dark Toshi (TOX). Clear that out, then come back. The harder-to-find set is beyond a secret door N that leads to a treasure room, and another secret door W that leads down.
 
-**Level 4:** A bunch of cash to find here. If you walk around the perimeter, be aware of the large number of pits. But before you take one of the boats that are conveniently near the entrance and sail around, a few words of caution about using boats. If you're on a boat, you can't *disem(B)ark* onto another boat. If you disembark onto a teleporter from a boat, or otherwise can't get onto dry land adjacent to a boat you want to *(B)oard*, you may not be able to get to that boat again. This happens a lot on this level.
+**Level 4:** A bunch of cash to find here. If you walk around the perimeter, be aware of the large number of pits. But before you take one of the boats that are conveniently near the entrance and sail around, a few words of caution about using boats. If you're on a boat, you can't *disem(B)ark* onto another boat. If you disembark onto a teleporter from a boat, or otherwise can't get onto dry land adjacent to a boat you want to `(B)oard`, you may not be able to get to that boat again. This happens a lot on this level.
 
-In the NE corner of the map is a treasure room. Clear it out but don't walk through the false walls to the S, or you'll lose the use of this boat. Instead *(B)oard* your boat again and sail a little bit more S. *Disem(B)ark* through the false wall in the center of the E jetty; this drops you on a teleporter into the otherwise-inaccessible space W of here. Clean out the treasure – you only get one chance to do it – and then walk E to exit. You're now boatless, so work your way around the room clockwise, searching for pits as you go.
+In the NE corner of the map is a treasure room. Clear it out but don't walk through the false walls to the S, or you'll lose the use of this boat. Instead `(B)oard` your boat again and sail a little bit more S. *Disem(B)ark* through the false wall in the center of the E jetty; this drops you on a teleporter into the otherwise-inaccessible space W of here. Clean out the treasure – you only get one chance to do it – and then walk E to exit. You're now boatless, so work your way around the room clockwise, searching for pits as you go.
 
 Don't take the stairs yet. Find the false wall SW. Go 2W 3S 1E; if you go too far S, you'll hit a teleporter that takes you to the N side of the room. Useful for getting out of here; not helpful for getting to the treasure down here. Once you're past the teleport trap you will find five treasure rooms (one requires hooking 1N into a false wall). Clean them out, then go back.
 
@@ -317,7 +317,7 @@ Pressing on? Okay, don't say I didn't warn you...
 
 The bottom half of the dungeon is navigated by a ring of teleporters. There is a series of stairs along the E wall, but they aren't accessible without G6:UKU. I suppose that's a hint about how powerful your party should be before you start exploring the lower half of the dungeon, but then why are the teleporters there...?
 
-**Level 5 (A):** Sail E and follow the narrow river until you can't, then go N and pick up another boat. Sail E until you find the zig-zag inlet, and *(B)oard* a boat inside it. Midway through the inlet is a teleporter that takes you to the S part of this map.
+**Level 5 (A):** Sail E and follow the narrow river until you can't, then go N and pick up another boat. Sail E until you find the zig-zag inlet, and `(B)oard` a boat inside it. Midway through the inlet is a teleporter that takes you to the S part of this map.
 
 **Level 5 (B)**: This is also a zig-zag, and there's not really anywhere to go. The same square you came in on is also the exit teleporter, so sail off it and back on to move forward.
 
@@ -399,9 +399,9 @@ Here's a hint: there are only three 16-level dungeons in the game. Two of them a
 
 A Shizen tells you – for money no less! – to find his 'brother' (i.e. another Shizen) somewhere in Spindrift. This is a pointer to the clue that tells you that Senju is in Twin Rivers... where you already are. In other words – say it with me, now – *Deathlord* hates you.
 
-This is a great town if you're into weird little programming quirks and funny *(C)hat* messages. In the structure to the WNW there's a pack of wolves wandering around. They talk. They told me to map dungeons.
+This is a great town if you're into weird little programming quirks and funny `(C)hat` messages. In the structure to the WNW there's a pack of wolves wandering around. They talk. They told me to map dungeons.
 
-The only two things to be found off the beaten path are the graveyard in the northwest (nothing interesting there) and Senju's place in the SE. There's a helpful sign out front labeling his home, which is kind of funny for someone that's on the run from a powerful necromancer and the frickin' Deathlord. The wizards in his foyer are not particularly helpful. My favorite was the one who told me "Senju awaits you" and "Leave me alone". Nice guy. Even better, when I found Senju himself, his *(C)hat* response was "Find Senju". Reader, I couldn't make these jokes up if I tried.
+The only two things to be found off the beaten path are the graveyard in the northwest (nothing interesting there) and Senju's place in the SE. There's a helpful sign out front labeling his home, which is kind of funny for someone that's on the run from a powerful necromancer and the frickin' Deathlord. The wizards in his foyer are not particularly helpful. My favorite was the one who told me "Senju awaits you" and "Leave me alone". Nice guy. Even better, when I found Senju himself, his `(C)hat` response was "Find Senju". Reader, I couldn't make these jokes up if I tried.
 
 Senju tells you to bring him "a token of your worth", by which he means "a blue crystal". He'll trade you that for a weapon that can be used to defeat evil "for all time". No word on where to find a Blue Crystal yet, although if you skip ahead it turns out that they're on [Narawn](#narawn) and that signpost kind of pointed us there without telling us why. This is another classic *Deathlord* move: tell you where to go, and tell you why to go there, but don't do both at the same time.
 

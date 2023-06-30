@@ -47,7 +47,7 @@ Remember Malkanth, also known as "Hell on Earth", and how it was divided up into
 
 > You have entered the realm of Malokorai of the Shifting Shadows, Lord of the Dark.
 
-Step E and *(U)se* the Lantern to cast light; nothing else will work down here.
+Step E and `(U)se` the Lantern to cast light; nothing else will work down here.
 
 Watch out for Dark Demons, who level drain. Ha! Just kidding, they're black squares, so you won't be able to see them coming. Shades also level-drain. Lost Souls are cannon fodder that summon help, but they go down to HIBANA.
 
@@ -57,7 +57,7 @@ From the sign, go either 1S 2E 1N or 1S 3W 1N. Both of those teleporters will ta
 
 **Level 2:** Step S to make sure you're on Level 2 (you should see water) and avoid some more teleporters that take you back to Level 1. (This is a brutal teleport trap, if you don't have a map in front of you.) Then walk E until you pass through a false wall. When you come out the other side, head S until you see water, then E and N to the stairs down.
 
-**Level 3:** Head W until you find a stone wall, then circle clockwise. You'll end up in front of a gate. This is the first Gate of Hell, which can not be smashed down. You've heard about these gates in Wakiza and Akhamun-Ra's Pyramid; the only way to pass them is to *(Y)ell* one of the seven Words that you learned. There's no obvious order; the first word happens to be YOKUSEI. Yelling it teleports you to the opposite side of the gate; proceed N to the stairs down.
+**Level 3:** Head W until you find a stone wall, then circle clockwise. You'll end up in front of a gate. This is the first Gate of Hell, which can not be smashed down. You've heard about these gates in Wakiza and Akhamun-Ra's Pyramid; the only way to pass them is to `(Y)ell` one of the seven Words that you learned. There's no obvious order; the first word happens to be YOKUSEI. Yelling it teleports you to the opposite side of the gate; proceed N to the stairs down.
 
 **Level 4:** You're dropped into a wide N-S hallway. Opposite you is a fake staircase; ignore it. To the N is the next gate (NIKUMU). Beyond that is some water; you can pick up 12 magic pools here if you want.
 
@@ -75,7 +75,7 @@ The sign you skipped over says:
 
 Wind your way around through two levels (there's a teleporter in the NW of Level 5 that makes it look like you're on one very large level) until you find some stairs. There are four staircases; they all take you to Level 7, but use the one in the SE because it's the quickest.
 
-**Level 7:** Head straight E and pass through a false wall to find the stairs down. You can rest on the false walls if you want; Lost Souls aren't much of a problem, but Firebats suck a lot, and there's still Blaze Demons and Smoke Demons to be dealt with. Consider *(N)egotiating* or *(F)leeing*.
+**Level 7:** Head straight E and pass through a false wall to find the stairs down. You can rest on the false walls if you want; Lost Souls aren't much of a problem, but Firebats suck a lot, and there's still Blaze Demons and Smoke Demons to be dealt with. Consider `(N)egotiating` or `(F)leeing`.
 
 **Level 8:** Step S into a false wall. Then walk W a bunch and a bit N. The third Word gate is there (SEIYOKU), but just N of there is a real honest-to-god portcullis that you'll need to bash down. Say it with me: *Deathlord* hates you.
 
@@ -83,7 +83,7 @@ You now enter the halls of the Lord of Fire. He's at the N end of the room; agai
 
 W of him there's a false wall with four magic pools, another room with four more to the S, and his "personal chambers" to the N (mind the pit). Find a secret door in the NE corner of that room for some cash, in case you've blown it all negotiating with monsters.
 
-Across the hall from that false wall (and S) is a room with dark, fire, acid, and energy fields. Don't drink from the pool, head N into the acid (Emerald Rod at the ready), *(Y)ell* the next word (DARAKU), and advance to the next section.
+Across the hall from that false wall (and S) is a room with dark, fire, acid, and energy fields. Don't drink from the pool, head N into the acid (Emerald Rod at the ready), `(Y)ell` the next word (DARAKU), and advance to the next section.
 
 Halfway there. If you haven't guessed, you're heading to the realm of Acid. Get your Emerald Rod ready.
 
@@ -140,11 +140,11 @@ You then need to take the Black Orb. It's a Magic Item (slot 5) so you won't be 
 
 Once you have the Black Orb, all that's left is to head back to the Emperor. There are three ways to do it:
 
-1. It is technically possible to walk all the way back out of Hell, *(B)oard* your boat, and sail back to Kodan. The Deathlord's chamber is safe to sleep in because you're protected by the energy fields, but I wouldn't want to fight my way back out, not to mention having to navigate the stupid fire and acid worlds again.
-2. *(Y)ell* your S6:KAERU escape word, which may or may not involve sailing from Hell Island to Kodan, depending on where you cast it. This is almost certainly your best bet.
+1. It is technically possible to walk all the way back out of Hell, `(B)oard` your boat, and sail back to Kodan. The Deathlord's chamber is safe to sleep in because you're protected by the energy fields, but I wouldn't want to fight my way back out, not to mention having to navigate the stupid fire and acid worlds again.
+2. `(Y)ell` your S6:KAERU escape word, which may or may not involve sailing from Hell Island to Kodan, depending on where you cast it. This is almost certainly your best bet.
 3. Dismantle your party, assemble a new one, and re-start the game outside Kawa. You keep all your equipment, so you can just bop over to the Palace and talk to the Emperor. I personally think this is cheating, but hey if something goes wrong and your recall spell doesn't work, or you've lost your boat or something, go for it.
 
-Once you're back on Kodan, head to the Emperor's Palace and *(OI)ffer* him the Orb. You'll have to switch back to the Boot disk at this point. A pastoral scene will appear along with scrolling text:
+Once you're back on Kodan, head to the Emperor's Palace and `(OI)ffer` him the Orb. You'll have to switch back to the Boot disk at this point. A pastoral scene will appear along with scrolling text:
 
 > And so it came to pass that the evil tyranny of the Deathlord was broken by the heroic efforts of 6 adventurers: (character portraits and names)
 >

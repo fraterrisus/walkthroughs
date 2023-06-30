@@ -141,7 +141,7 @@ Shumi the necromancer welcomes you to his undead breeding ground (literally; see
 
 **Level 1:** An annoying level that gives you the flavor of the place. There's an outer ring that circumscribes the level and you need to find a way in. You can head straight S from the entrance but you'll have to cross fire and open a locked door while standing in it. If you circle E there's a hallway that takes you inside, but there's a pit trap. Continue around to the S side of the level and there's a locked door and a portcullis to open.
 
-For a useless clue, find your way to the W side of the tower. Cross the room full of fire and bash down a door N to enter a maze full of darkness, teleporters, and false walls. There are also a handful of fake doors in here; you can tell the difference because if you try to *(P)ick* the lock, it says "Nothing there!" instead of "No lockpick!"
+For a useless clue, find your way to the W side of the tower. Cross the room full of fire and bash down a door N to enter a maze full of darkness, teleporters, and false walls. There are also a handful of fake doors in here; you can tell the difference because if you try to `(P)ick` the lock, it says "Nothing there!" instead of "No lockpick!"
 
 The solution to the darkness maze is to avoid all the teleporters; it's basically 1N 2W (false) 1W 2N 1W (false) 2N 2E 1N, then open the (real) door. The sign beyond says "SAIL S-E", which roughly points you towards Osozaki in case you didn't get the hint in Wakiza. Here's the thing though: Osozaki is completely useless. But the next stop on the tour of the world map included with the game is S of here so I guess we'll stop there next anyway?
 
@@ -385,7 +385,7 @@ Some Brigands in Crystalmist told you to look for crystals in a lagoon. So did a
 
 Fortunately, this is one of those towns that has a helpful signpost in the center... If you can figure out how to get there. Enter from the W and you'll find a nice path that takes you straight to it (or to the graveyard in the NW, which is also well-labeled).
 
-Sure enough if you find the right building (it's just SE of the W entrance), there's a false wall in the S that leads to a Mahotsukai sitting in a field of clover. "Look at all the crystals!" he says. *(F)search* the field to find one. In fact, while you're here, get two.
+Sure enough if you find the right building (it's just SE of the W entrance), there's a false wall in the S that leads to a Mahotsukai sitting in a field of clover. "Look at all the crystals!" he says. `(F)search` the field to find one. In fact, while you're here, get two.
 
 It's hard-ish to get between different sides of the map, so you'll probably exit the town and re-enter from different sides depending on what you're looking for. The crystals are best found W, along with most merchants. The tools shop is found E, along with the home of a bunch of angry Kichigai.
 
@@ -445,7 +445,7 @@ Malkanth, or "hell on earth" as the guards like to call it, is broken up into fo
 
 **SE corner (Seat of government):** Don't be discouraged by the diamond-shaped room. It has secret doors in all three directions, which you probably figured out if you've been mapping. To the W and N is the "Games Room" where some demons are torturing a Senshi ("Run for your life"). W and S is the treasury, with some moderate amounts of cash. S from the center is Council Chambers, holding absolutely nothing. E and N is "cold storage", with a bunch of dead (presumably frozen) adventurers. But E and S is the "Shrine of Chaos", which sounds awfully promising.
 
-Now, two hints you got before will need to be combined in order to walk out of here with the Sharktooth. First, you were told in Kashiwa to "search the Shrine of Chaos"; you will need to *(F)search* the floor to find it. Second, you were told in Lost Lagoon to "stick to the shadows". Sure enough, you should ignore the two coffins in the center of the room, and start searching the dark squares instead. You'll find the tooth somewhere in the W part of the room. It's a slot 5 item, so people carrying a Blue Crystal should not try to pick it up.
+Now, two hints you got before will need to be combined in order to walk out of here with the Sharktooth. First, you were told in Kashiwa to "search the Shrine of Chaos"; you will need to `(F)search` the floor to find it. Second, you were told in Lost Lagoon to "stick to the shadows". Sure enough, you should ignore the two coffins in the center of the room, and start searching the dark squares instead. You'll find the tooth somewhere in the W part of the room. It's a slot 5 item, so people carrying a Blue Crystal should not try to pick it up.
 
 That's it for Malkanth. Cast Z4:HITATE, head back to the Fort, and good luck opening that locked door while standing on an energy field. (I prefer M4:UGOKU, myself.)
 
@@ -531,7 +531,7 @@ The stairs up are N of where you came in, in the giant's dining hall. If you ven
 
 At this point, we can use the Blue Crystals to pick up some relics that we weren't able to get before, but we're going to have to do some backtracking to do it.
 
-**The Sunspear:** Head back to [Nyuku](#nyuku), sail to [Twin Rivers](#twin-rivers), and knock on Senju's door. *(OI)ffer* him one of your Blue Crystals and he'll give you the Sunspear:
+**The Sunspear:** Head back to [Nyuku](#nyuku), sail to [Twin Rivers](#twin-rivers), and knock on Senju's door. `(OI)ffer` him one of your Blue Crystals and he'll give you the Sunspear:
 
 > Use this spear if you would rid the world of his evil forever.
 
@@ -577,7 +577,7 @@ One of the gravestones marks the Tomb of the Unknown Peasant. Aww, that's touchi
 
 Shupan is also hidden from view by boat, surrounded by mountains in the SE. The shops are all conveniently in the center of town.
 
-The Temple of Akuma, god of night, is in the SE. It's an odd building; start with the fact that the front door is false walls, and that it's populated with Dark Toshi that won't talk to you. At the end of the day, though, it is a temple, and you can *(B)uy* healing services from them.
+The Temple of Akuma, god of night, is in the SE. It's an odd building; start with the fact that the front door is false walls, and that it's populated with Dark Toshi that won't talk to you. At the end of the day, though, it is a temple, and you can `(B)uy` healing services from them.
 
 The Daimyo is hostile, and has some small bits of cash. Break into the 'No Admittance' rooms hidden behind the armor shop and you'll run into a bunch of Mahotsukai to fight off. And there are two parties of Toshi in one of the rooms in the SW.
 
@@ -687,11 +687,11 @@ Head S again into the staircase maze. 6S 4W should get you back to the center, a
 
 #### Greenbanks
 
-The ruined town of Greenbanks lies in the center of a large island on the W part of the continent. If you enter by water from the W, you'll find the graveyard right away. The Lantern of Kasumi can be found in the grave closest to the W wall (although not the one that's on its own little island in the SW). *(F)search* the gravestone to discover the Lantern. As best as I can tell, this is the *only* useful thing that you can do in a graveyard in the entire game. You can't even claim that, as you 'learned' in Tokushima, "tombstones can hide clues". It's not a clue, it's one of the damn artifacts you need to win the game.
+The ruined town of Greenbanks lies in the center of a large island on the W part of the continent. If you enter by water from the W, you'll find the graveyard right away. The Lantern of Kasumi can be found in the grave closest to the W wall (although not the one that's on its own little island in the SW). `(F)search` the gravestone to discover the Lantern. As best as I can tell, this is the *only* useful thing that you can do in a graveyard in the entire game. You can't even claim that, as you 'learned' in Tokushima, "tombstones can hide clues". It's not a clue, it's one of the damn artifacts you need to win the game.
 
 If I sound bitter, it's because I am.
 
-Like most ruins, there aren't any services to be purchased, but there are folks you can talk to. There's a town E of here – although the only way to get this clue is to *(I)nquire* about towns, which seems like cheating. There's a dungeon just NW of here with something hidden on the sixth level, and if you find the right Hobake, they give you a hint about needing to walk on acid.
+Like most ruins, there aren't any services to be purchased, but there are folks you can talk to. There's a town E of here – although the only way to get this clue is to `(I)nquire` about towns, which seems like cheating. There's a dungeon just NW of here with something hidden on the sixth level, and if you find the right Hobake, they give you a hint about needing to walk on acid.
 
 Continuing the trend of cash-for-useless-hints, a Kaibu tells you ($$) to go N and then E, which points you towards the nearby deserted islands.
 
@@ -743,7 +743,7 @@ The way forward relies on a clue you got in Greenbanks: you'll need to walk on a
 
 The clue here is the signpost from the forest on level 3: talk to the King. Where does the white king sit on a chess board? In standard chess notation, he's at e1, also known as the fifth square from the left in the bottom row. The stairs down drop you at b8. If you head to the king's square (it doesn't have any fire) and search the walls, you'll find a secret door into a room with the word on a signpost: YOKUSEI
 
-You can get out either from b8 (where you came in) or g8, where an open door teleports you back up to level 5. Either works. The open door on level 5 takes you back into an acid pool (use the Emerald Rod first). You can skip quickly up to level 2, where you then have to wind your way out through the spiral again, and then level 1. Or maybe you were smart and cast S6:KAERU before entering the dungeon, and can have your Shisai *(Y)ell* your way out. (Have you figured out you should be casting S6:KAERU every time you enter a dungeon yet?)
+You can get out either from b8 (where you came in) or g8, where an open door teleports you back up to level 5. Either works. The open door on level 5 takes you back into an acid pool (use the Emerald Rod first). You can skip quickly up to level 2, where you then have to wind your way out through the spiral again, and then level 1. Or maybe you were smart and cast S6:KAERU before entering the dungeon, and can have your Shisai `(Y)ell` your way out. (Have you figured out you should be casting S6:KAERU every time you enter a dungeon yet?)
 
 ------
 
@@ -874,7 +874,7 @@ Now to check out that dungeon everyone keeps talking about.
 
 #### Doors Dungeon
 
-As was foretold... several times, at this point... the entrance to the Doors Dungeon is "behind", or rather 1N, of the Red Shogun's Castle. To get there you need to "sail around back", step onto the little patch of forest, and then *(E)nter* the mountains. There is no marking indicating the existence of the dungeon, you just have to decipher the hints and do the right thing in the right place.
+As was foretold... several times, at this point... the entrance to the Doors Dungeon is "behind", or rather 1N, of the Red Shogun's Castle. To get there you need to "sail around back", step onto the little patch of forest, and then `(E)nter` the mountains. There is no marking indicating the existence of the dungeon, you just have to decipher the hints and do the right thing in the right place.
 
 *Deathlord*, as I have said on numerous occasions throughout this walkthrough, hates you. To be fair, I can't think of another one-square patch of forest surrounded by mountains like that, so it does look pretty suspicious. And it is hinted at *many* times. But wait! You haven't even seen what lies inside this dungeon yet.
 
@@ -898,7 +898,7 @@ You really want a map, but this algorithm will *just about* get you there:
 
 The trick is that when you do arrive at the teleporter in the SE and make your way down to Level 2, it quietly teleports you to a place where there are some open doors that cleverly look exactly like the trail you left behind you on Level 1. Because *Deathlord* hates you.
 
-**Level 2:** There's no good algorithm for this maze, but generally head NNE until you can't, then ESE until you find a 3x3 area of already-opened doors. They're filled with Evil Spirits, by the way, so try *(A)ttacking* into the open space until it doesn't work anymore. The middle door teleports you down to Level 5.
+**Level 2:** There's no good algorithm for this maze, but generally head NNE until you can't, then ESE until you find a 3x3 area of already-opened doors. They're filled with Evil Spirits, by the way, so try `(A)ttacking` into the open space until it doesn't work anymore. The middle door teleports you down to Level 5.
 
 "What happened to Levels 3 and 4," I hear you cry? Well kids, here's a funny thing about *Deathlord* dungeons. Each block of four adjacent levels (1-4, 5-8, etc.) is laid out as a single map in memory. If the levels are built a particular way, it's possible to walk from one floor to an "adjacent" floor. Levels 1 and 2 don't quite do this (they actually use a teleporter), and the "missing" levels 3 and 4 are filled with false doors. You can use M7:UNPAN to check my math, since it teleports you up and down levels but doesn't change your relative position. Anyway, levels 5 through 8 were designed as a group. Although they could have used the adjacency thing, they actually also use teleporters – except for one particularly vicious trick that the designers play on you, which we'll talk about in a minute. Of course, the sign at the entrance says the word is on Level 7, so you have to get down that far. But only casting Z1:ICHIHAN will tell you what floor you're actually on, and you'll never find levels 3 or 4 without casting very high-level spells.
 
@@ -966,7 +966,7 @@ As for those "friendly" humans, Yakuza will ask "Which way out?", but "your gues
 
 **Levels 1–4** are arranged as if they are a single floor. See my comments on the bottom half of the [Doors Dungeon](#doors-dungeon) for more on how *Deathlord* arranges its dungeon levels in memory to occasionally allow a dungeon floor that's four times the usual size, which is what we have here. Exits from the dungeon can be found through false walls in the exterior walls, but they're not all that easy to find.
 
-Enter from the N. I'm not going to try and guide you through here; if you enjoy making maps, you should do so liberally here, and if you don't, go download Andrew Schultz's. I will say, if you're going to make your own maps, the down stairs are hiding behind a false wall, so take what you've learned from *Deathlord* so far and remember to bash into every wall in case it's false. (There aren't any secret doors in the entire complex, so at least you don't have to *(F)search* as well.)
+Enter from the N. I'm not going to try and guide you through here; if you enjoy making maps, you should do so liberally here, and if you don't, go download Andrew Schultz's. I will say, if you're going to make your own maps, the down stairs are hiding behind a false wall, so take what you've learned from *Deathlord* so far and remember to bash into every wall in case it's false. (There aren't any secret doors in the entire complex, so at least you don't have to `(F)search` as well.)
 
 If you really take your time and explore this maze, you'll find a bunch of signs left by a guy named Yorik. Alas, poor Yorik, he ran out of food and died, but not before he beat you to the punch on a number of treasure crates. Some of the NPCs running around here know who he is, too.
 

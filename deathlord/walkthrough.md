@@ -29,7 +29,7 @@ Version 2.1, June 2023
   - [Shizen](#shizen)
   - [Mahotsukai](#mahotsukai)
   - [Genkai](#genkai)
-- Walkthrough
+- [Walkthrough](#walkthrough)
   - Part I: Senju, Kawahara, and the Emperor
   - Part II: Seven Words and Seven Relics
   - Part III: Endgame
@@ -272,7 +272,7 @@ Attributes don't increase through leveling or any other mechanism. The only way 
 
 The exception to the "no increases" rule is POW; characters capable of using magic gain +1 maximum POW every even-numbered level. Note that when inspecting a character, only the current amount of POW is shown. There is no indicator of maximum POW; you just have to remember. POW regenerates naturally with time.
 
-#### Game Mechanics
+#### Game Mechanics<a name="game-mechanics"/>
 
 Much of the data in this section is based on my own recordkeeping, and the rest of it is thanks to Henri Asseily who did a bunch of digging into the actual assembly code to discover the algorithms used. Some of these numbers will be a little inaccurate due to the exact mechanism by which the game generates random numbers, but they're close enough for our purposes. See Henri's work, linked in the [Acknowledgements](#acknowledgements), for more detail if you're curious; I also talk about it a bit more under [Weird Stuff](#weird-stuff).
 
@@ -300,7 +300,7 @@ Whenever I say something like "CON modifier" in this section, look up your raw C
 - +8% if you're actually a Yakuza.
 - +4% if you're **not** a rogue-like class. (Level is irrelevant.)
 
-**Searching for traps:** Based solely on [race](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/creating-characters#character-races-with-attribute-ranges); ignores class, level, and DEX.
+**Searching for traps:** Based solely on [race](#character-races-with-attribute-ranges); ignores class, level, and DEX.
 
 ### Races and Classes<a name="races-and-classes"/>
 
@@ -310,14 +310,14 @@ Whenever I say something like "CON modifier" in this section, look up your raw C
 
 | Race     | D&D Equivalent | STR   | CON   | SIZ   | IQ    | DEX   | CHA   | POW   | Find traps |
 | -------- | -------------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ---------- |
-| Human    | Human          | 03:18 | 03:18 | 08:18 | 03:18 | 03:18 | 03:18 | 03:18 | 35%        |
-| Toshi    | Elf            | 03:13 | 03:13 | 03:12 | 08:19 | 08:19 | 07:18 | 08:19 | 59%        |
-| Nintoshi | Half-elf       | 03:15 | 03:15 | 05:14 | 06:18 | 06:18 | 05:18 | 05:18 | 50%        |
-| Kobito   | Dwarf          | 08:19 | 08:19 | 03:08 | 03:16 | 03:16 | 03:16 | 03:16 | 68%        |
-| Gnome    | Gnome          | 05:18 | 08:18 | 03:06 | 03:17 | 06:18 | 03:16 | 03:17 | 68%        |
-| Obake    | Drow           | 03:15 | 03:16 | 03:07 | 03:14 | 08:20 | 03:14 | 03:18 | 39%        |
-| Troll    | Ogre / Orc     | 11:21 | 11:20 | 13:21 | 03:11 | 03:13 | 03:09 | 03:12 | 29%        |
-| Ogre     | Half-orc       | 08:19 | 08:19 | 11:19 | 03:13 | 03:13 | 03:11 | 03:14 | 29%        |
+| Human    | Human          | 03–18 | 03–18 | 08–18 | 03–18 | 03–18 | 03–18 | 03–18 | 35%        |
+| Toshi    | Elf            | 03–13 | 03–13 | 03–12 | 08–19 | 08–19 | 07–18 | 08–19 | 59%        |
+| Nintoshi | Half-elf       | 03–15 | 03–15 | 05–14 | 06–18 | 06–18 | 05–18 | 05–18 | 50%        |
+| Kobito   | Dwarf          | 08–19 | 08–19 | 03–08 | 03–16 | 03–16 | 03–16 | 03–16 | 68%        |
+| Gnome    | Gnome          | 05–18 | 08–18 | 03–06 | 03–17 | 06–18 | 03–16 | 03–17 | 68%        |
+| Obake    | Drow           | 03–15 | 03–16 | 03–07 | 03–14 | 08–20 | 03–14 | 03–18 | 39%        |
+| Troll    | Ogre / Orc     | 11–21 | 11–20 | 13–21 | 03–11 | 03–13 | 03–09 | 03–12 | 29%        |
+| Ogre     | Half-orc       | 08–19 | 08–19 | 11–19 | 03–13 | 03–13 | 03–11 | 03–14 | 29%        |
 
 #### Character Classes
 
@@ -402,7 +402,7 @@ I don't bother carrying a rogue-type; thieving skills aren't useful enough for m
 
 If you decide to take three fighters (or two and a rogue), you have to drop a caster class. I'd say you're picking between the Shizen and the Genkai here. Check out the spell lists in section 4; Genkai give you group-zap spells early, which is really handy in Kodan. Shizen are the only class that can cure disease/illness, and they get some group zap spells later to rival the Genkai. Z4:HITATE / SANTATE are tough to do without, but not impossible; and you can compensate by 'cheating' and picking up the Ruby Ring and Emerald Rod early, if you want to.
 
-Okay, now that you've figured out what your party looks like, let's talk statistics. At the top of the list, CON is pretty important for everyone. HP are a precious resource and you want as many as possible. Don't skimp on CON for your mages, although this is a prime candidate for using [magic pools](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/creating-characters#using-magic-pools) to improve your stats later.
+Okay, now that you've figured out what your party looks like, let's talk statistics. At the top of the list, CON is pretty important for everyone. HP are a precious resource and you want as many as possible. Don't skimp on CON for your mages, although this is a prime candidate for using [magic pools](#using-magic-pools) to improve your stats later.
 
 Mages also want to focus on having high POW. You won't get much during the course of character development; you probably won't get 30 max POW across the game unless you do a lot of grinding. One extra point of POW can make a difference, sometimes.
 
@@ -420,7 +420,7 @@ As is true with most RPGs, in *Deathlord* characters have a "level" which starts
 
 Where *Deathlord* is different than most CRPGs is that it **doesn't tell you** how many XP your characters have. Literally the only way to figure it out is to disassemble a memory dump or a save disk file. It's maddening!
 
-So, how much experience does your party gain from a battle? Well, each monster has an XP value (see [appendix](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/final-notes#appendix-monster-list)). The total experience pool from a battle is equal to the XP for the monster times the maximum number of monsters present at any one time. Since *Deathlord* only ever sends one group of monsters against you at a time, this is usually pretty straightforward to figure out. However if they summon allies, that's where the "maximum present" modifier comes in. If you start with four Gremlins, kill three, and they summon one more, you only get credit for four. But if you start with four and they summon another first, then you get credit for five.
+So, how much experience does your party gain from a battle? Well, each monster has an XP value (see [appendix](#monster-list)). The total experience pool from a battle is equal to the XP for the monster times the maximum number of monsters present at any one time. Since *Deathlord* only ever sends one group of monsters against you at a time, this is usually pretty straightforward to figure out. However if they summon allies, that's where the "maximum present" modifier comes in. If you start with four Gremlins, kill three, and they summon one more, you only get credit for four. But if you start with four and they summon another first, then you get credit for five.
 
 Now we know how big the experience pool is, how do we divide it up? In order to earn a share of experience, a character must do something "useful":
 
@@ -433,7 +433,7 @@ The last one is the most interesting one. Because "useful" is usually defined as
 
 So we have a pool of XP and a number of characters who participated; divide A by B and you get the number of XP that each character gains. If there's a non-zero remainder, the PC in slot #1 gets 1 XP additional, then slot #2, and so on. So your back-rank characters tend to get the short end of this stick.
 
-You start the game at level 1; level 2 requires 200 XP, as do levels 3–5. The next four levels (6–9) require 400 XP, the next four (10–13) 600 XP, and so on. The escalator tops out at level 22, after which all levels require 1200 XP. You can't advance past level 99. With this guide in hand, you can comfortably beat the game in the mid 20s. There are some math overflow bugs that trigger in the low 30s; see the section on [Weird Stuff](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/combat-and-general-information#weird-stuff) for more details. If your PCs are getting into the 40s, you either really like grinding or you haven't been save-scumming for HP (see below).
+You start the game at level 1; level 2 requires 200 XP, as do levels 3–5. The next four levels (6–9) require 400 XP, the next four (10–13) 600 XP, and so on. The escalator tops out at level 22, after which all levels require 1200 XP. You can't advance past level 99. With this guide in hand, you can comfortably beat the game in the mid 20s. There are some math overflow bugs that trigger in the low 30s; see the section on [Weird Stuff](#weird-stuff) for more details. If your PCs are getting into the 40s, you either really like grinding or you haven't been save-scumming for HP (see below).
 
 When a PC gains enough XP to advance to the next level, their XP counter resets to 0 and starts counting up again. A "+" appears next to their name and their details indicate (for example) level "04+01". This indicates that PC is ready to advance from level 4 to level 5. It is possible to gain enough experience to train for two levels at once (04+02), but not three.
 
@@ -441,9 +441,9 @@ Note that when you finally make it back to the training academy and train for th
 
 Training costs approximately 100 gp per level plus some change, so the game's level cap of 99 is as much about paying for training (a single PC can only hold 10,000 gp) as anything else.
 
-When you train to go up a level, the main benefit is that your maximum HP goes up. The amount it goes up is randomly rolled and depends on your [character class](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/creating-characters#character-classes). It's also modified by your [CON modifier](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/creating-characters#game-mechanics). There are few things worse than rolling a 1 on your new HP when you go up a level, so I highly recommend using an emulator with save states (like Win/Linapple) and doing what's called "[save-scumming](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/administrivia#managing-save-files)": save right before you pay for training, and if you don't get enough HP, reload and do it again.
+When you train to go up a level, the main benefit is that your maximum HP goes up. The amount it goes up is randomly rolled and depends on your [character class](#character-classes). It's also modified by your [CON modifier](#game-mechanics). There are few things worse than rolling a 1 on your new HP when you go up a level, so I highly recommend using an emulator with save states (like Win/Linapple) and doing what's called "[save-scumming](#managing-save-files)": save right before you pay for training, and if you don't get enough HP, reload and do it again.
 
-The other obvious boost to your character's power comes from spell levels. [Spell casters](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/magic-and-spells) gain new spells every couple of levels, but secondary casters gain new spells levels *four times slower* than primary casters:
+The other obvious boost to your character's power comes from spell levels. [Spell casters](#magic-and-spells) gain new spells every couple of levels, but secondary casters gain new spells levels *four times slower* than primary casters:
 
 | Spell level | Primary caster (Shi,Shz,Mah,Gen) | Secondary caster (Ksh,Ryo,Ron,Shu) |
 | ----------- | -------------------------------- | ---------------------------------- |
@@ -515,15 +515,15 @@ So what can your characters do on their turn?
 - *(Space)* Pass. This PC does nothing.
 - *(S)kip* everyone's turn. Seriously, just don't use this.
 
-When you use the *(A)ttack* action (again, only from slots 1-3), you make one or more attacks against a single enemy. I believe that the game keeps track of monsters in a queue, and your attacks are directed at the "first" one, although I don't know that for sure. Certain weapons (see [Equipment](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/combat-and-general-information#equipment)) grant you more than one attack, and casting M3:ISOGU grants one additional attack to everyone in the party. The most you can get is five attacks in a round; the Berzerk Sword, only usable by Kichigai, attacks four times. If you have multiple attacks but kill a monster with your first, you lose the subsequent attacks.
+When you use the *(A)ttack* action (again, only from slots 1-3), you make one or more attacks against a single enemy. I believe that the game keeps track of monsters in a queue, and your attacks are directed at the "first" one, although I don't know that for sure. Certain weapons (see [Equipment](#equipment)) grant you more than one attack, and casting M3:ISOGU grants one additional attack to everyone in the party. The most you can get is five attacks in a round; the Berzerk Sword, only usable by Kichigai, attacks four times. If you have multiple attacks but kill a monster with your first, you lose the subsequent attacks.
 
 For each attack, there is a baseline 25% chance of success. That number is modified by +5% for every point of to-hit ability for the attacker and -5% for every point of armor the defender is wearing, but it can't go lower than 10%.
 
-Monsters' AC and their to-hit scores are shown in the [Appendix](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/final-notes#appendix-monster-list). Remember that the game displays AC starting at 10 and going *down* as it gets *better*, so when I say "every point of armor", I mean that AC 2 is "one point better" than AC 3.
+Monsters' AC and their to-hit scores are shown in the [Appendix](#monster-list). Remember that the game displays AC starting at 10 and going *down* as it gets *better*, so when I say "every point of armor", I mean that AC 2 is "one point better" than AC 3.
 
-For PCs, your to-hit score is modified by your class and level (although it's unclear how much), your STR, possibly your DEX, and the [weapon](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/combat-and-general-information#equipment) you're using. Note that some weapons actually have *penalties* to-hit.
+For PCs, your to-hit score is modified by your class and level (although it's unclear how much), your STR, possibly your DEX, and the [weapon](#equipment) you're using. Note that some weapons actually have *penalties* to-hit.
 
-By the way, there's no functional difference between missile weapons and melee weapons, except that you're allowed to [carry](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/combat-and-general-information#dealing-with-loot) one of each. You can't fire a missile weapon from the back row, and the combat system doesn't include range or distance between parties. So you should let the various [benefits and penalties](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/combat-and-general-information#equipment) of each weapon decide what you use.
+By the way, there's no functional difference between missile weapons and melee weapons, except that you're allowed to [carry](#dealing-with-loot) one of each. You can't fire a missile weapon from the back row, and the combat system doesn't include range or distance between parties. So you should let the various [benefits and penalties](#equipment) of each weapon decide what you use.
 
 If you have multiple attacks per round, each attack has an independent chance of hitting. If an attack hits, the game rolls damage. You get to add your STR bonus to the damage *for each attack*, which means that weapons that attack twice are generally better than weapons that attack once even if they do half as much base damage (because you get to double your STR bonus if you hit twice). However, weapons that attack multiple times often have lower to-hit bonuses (or even penalties), which changes the math a bit. Still, if you're carrying a Ninja, I recommend you get them a Shuriken as quickly as possible (they're pretty cheap), and buy your Samurai a Katana as soon as you leave Kodan.
 
@@ -576,20 +576,19 @@ If one of your characters is slain in combat and you try to resurrect them in th
 
 You're going to get into a lot of fights across a game of *Deathlord*. First of all, you can't really avoid them; once a monster decides to start chasing you, they will do so until they catch you. They get to move diagonally and you don't, so they have the jump on you unless the terrain happens to be in your favor: monsters have only a limited ability to move around obstacles, so you can pin them in behind a wall. Consider this terrible "map":
 
-|      |      |      |      |
-| ---- | ---- | ---- | ---- |
-|      | **   |      |      |
-| M    | **   |      | P    |
-|      | **   |      |      |
-|      |      |      |      |
+```
+  **
+M **   P
+  **
+```
 
 Even if that intervening wall (**) is only three squares wide, the monster (M) doesn't know how to get closer to your party (P). So as long as you stay in-line with them, they won't move. You'll learn how to take advantage of this early on when you explore Yokahama.
 
-Once a fight starts, you have two options: stand and fight, or try to end the combat early. There are several options for the latter, which I described in [Combat Basics](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/combat-and-general-information#combat-basics). Ending combat early causes the combat to disappear, but you don't get XP or treasure.
+Once a fight starts, you have two options: stand and fight, or try to end the combat early. There are several options for the latter, which I described in [Combat Basics](#combat-basics). Ending combat early causes the combat to disappear, but you don't get XP or treasure.
 
 If you decide to fight, your tactics are fairly limited. Your back line, in particular, can't really do anything but cast spells or use the occasional item (and there aren't many). You get the *(R)etreat* command, which lets you shuffle somebody from the front row who's about to run out of HP to slot six so they don't get whacked and die. But that's only useful if the character in slot four can defend themselves, so I recommend putting a Shisai or Shizen there and giving them good armor.
 
-Don't forget the [experience distribution](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/creating-characters#experience-and-leveling) rules; make sure everybody gets a chance to do something "useful", and in general if you're facing fewer weaker monsters, it's probably a good idea to skip over your front line on the first turn so the back row has a chance to cast-and-cancel so they get something out of the fight. You should also consider having characters that have a +1 and are waiting to train not do anything at all in combat, to reduce the denominator of distributed experience.
+Don't forget the [experience distribution](#experience-and-leveling) rules; make sure everybody gets a chance to do something "useful", and in general if you're facing fewer weaker monsters, it's probably a good idea to skip over your front line on the first turn so the back row has a chance to cast-and-cancel so they get something out of the fight. You should also consider having characters that have a +1 and are waiting to train not do anything at all in combat, to reduce the denominator of distributed experience.
 
 ### Dealing with Loot<a name="dealing-with-loot"/>
 
@@ -617,17 +616,17 @@ At least you don't have to deal with encumbrance?
 
 Here's a list of all the equipment in the game, broken down by which inventory slot they occupy. Within each slot, items are further divided up into 'weight classes'. In theory, there's a 1:1 correlation between a character class and the weight classes that they can use. The one example I found where that isn't the case is that Shisais and Shizens can use the Bo-Staff, even though they can't use anything else in that weight class. In addition, some items have race or class restrictions; the Powerstaff can only be used by Mahotsukai.
 
-The information in this table, including the division of weight classes but excluding which classes can use which items, was obtained by dumping data from the binary game image and doing some investigation. Andrew Schultz also has a FAQ with a similar data dump up on GameFAQs (link in the [Acknowledgements](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/administrivia#acknowledgements)), which you're welcome to cross-reference. I've tried to confirm it where possible, but haven't done an exhaustive job.
+The information in this table, including the division of weight classes but excluding which classes can use which items, was obtained by dumping data from the binary game image and doing some investigation. Andrew Schultz also has a FAQ with a similar data dump up on GameFAQs (link in the [Acknowledgements](#acknowledgements)), which you're welcome to cross-reference. I've tried to confirm it where possible, but haven't done an exhaustive job.
 
-The **Hex** code is the item ID that appears in your character's inventory data, if you're poking through save files. See the appendix on [Hex Editing](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/final-notes#appendix-hex-editing) for more information on that.
+The **Hex** code is the item ID that appears in your character's inventory data, if you're poking through save files. See the appendix on [Hex Editing](#hex-editing) for more information on that.
 
 **Price** is an approximate minimum. You will not find the item cheaper than this, and usually it will be more expensive (modified slightly by the Charisma of the buyer). If the price is "–", that item can't be purchased (or sold) in shops. Things sell for half (or less) of their purchase price.
 
-The next several columns are full of "who can use this" data. Fighter-types are grouped together, then rogue-types, then magic users. These columns are in the same order as the [class listings](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/creating-characters#character-classes).
+The next several columns are full of "who can use this" data. Fighter-types are grouped together, then rogue-types, then magic users. These columns are in the same order as the [class listings](#character-classes).
 
 Most weapons have a bonus or penalty **To Hit**; higher is better. **Dmg** shows the damage range, and if the weapon can attack multiple times, there's a "2x" (etc.) in front of it. Some weapons also affect your **AC** (either up or down). For the sake of this table, positive AC modifiers are *good* (even though your AC wants to be as "low" as possible).
 
-**Special** effects are listed in the last column. Items that "cast" a spell do so when you *Use* them; they usually come with a limited number of charges. The maximum number of charges is in parentheses, for example (#24), but you'll find items with less. Check your inventory; it will tell you how many charges are left. (**) means infinite. A weapon that "slays" a particular monster type does double damage against them; see the [Monster List](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/final-notes#appendix-monster-list) for types.
+**Special** effects are listed in the last column. Items that "cast" a spell do so when you *Use* them; they usually come with a limited number of charges. The maximum number of charges is in parentheses, for example (#24), but you'll find items with less. Check your inventory; it will tell you how many charges are left. (**) means infinite. A weapon that "slays" a particular monster type does double damage against them; see the [Monster List](#monster-list) for types.
 
 #### Melee Weapons (slot 0)
 
@@ -772,53 +771,67 @@ One hint about getting lost at sea: if you get really really lost, try sailing w
 Below I list each continent, give its coordinates on the map above, and list the locations you can visit there, along with a rough pointer towards which part of the continent they can be found. Locations with a game-winning thing (i.e. word or relic) are marked with an asterisk.
 
 - **Akmihr** (K-10)
-  *Towns:* Oasis (NE), Desert Flower (SE), *Sultan's Palace (SE)
-  *Dungeons:* Akhamun-Ra's Pyramid (NW), *Kobito Mines (C)
+  - *Towns:* Oasis (NE), Desert Flower (SE), *Sultan's Palace (SE)*
+  - *Dungeons:* Akhamun-Ra's Pyramid (NW), *Kobito Mines (C)
+  
 - **Asagata** (E-08)
-  *Towns:* Towne Royal (NW), Croyo (C)
-  *Dungeons:* Fire Giants' Lair (NE)
+  - *Towns:* Towne Royal (NW), Croyo (C)
+  - *Dungeons:* Fire Giants' Lair (NE)
+
 - **Black Isles** (B-05)
-  *Towns:* *Red Shogun's Castle (C)
-  *Dungeons:* *Doors Dungeon (C)
+  - *Towns:* *Red Shogun's Castle (C)
+  - *Dungeons:* *Doors Dungeon (C)
+
 - **Chigaku** (K-04)
-  *Towns:* Fort Wintergreen (NW), Crystalmist (E)
-  *Dungeons:* *Troll Hole (C), Tower of Shumi (SW)
+  - *Towns:* Fort Wintergreen (NW), Crystalmist (E)
+  - *Dungeons:* *Troll Hole (C), Tower of Shumi (SW)
+
 - **Isle of the Dead** (C-11)
-  *Dungeons:* *Pyramid of the Old Ones (SW)
+  - *Dungeons:* *Pyramid of the Old Ones (SW)
+
 - **Giluin** (O-12:O-13)
-  *Towns:* Kobar (NE), Shupan (SE), Temple of Oceanus (W)
-  *Dungeons:* Linear Dungeon (N)
+  - *Towns:* Kobar (NE), Shupan (SE), Temple of Oceanus (W)
+  - *Dungeons:* Linear Dungeon (N)
+
 - **Hell Island** (O-03)
-  *Towns:* Skull Keep (C)
-  *Dungeons:* *Hell (Skull Keep)
+  - *Towns:* Skull Keep (C)
+    *Dungeons:* *Hell (Skull Keep)
+
 - **Lost Isles** (E-05)
-  *Dungeons:* *Caves of the Four Elements (SW)
+  - *Dungeons:* *Caves of the Four Elements (SW)
+
 - **Kodan** (H-06:I-07)
-  *Towns:* Emperor's Palace (C), Kawa (C), Tokugawa (NW), Tokushima (E)
-  *Ruins:* Yokahama (E), Wakiza (S)
-  *Dungeons:* Caves (E), Yakuza Guild (Kawa), Kawahara's dungeon (Palace), Pirate's Den (Wakiza)
+  - *Towns:* Emperor's Palace (C), Kawa (C), Tokugawa (NW), Tokushima (E)
+  - *Ruins:* Yokahama (E), Wakiza (S)
+  - *Dungeons:* Caves (E), Yakuza Guild (Kawa), Kawahara's dungeon (Palace), Pirate's Den (Wakiza)
+
 - **Narawn** (F-12)
-  *Towns:* *Lost Lagoon (NW), Kashiwa (SW), Fort Demonguard (C), *Malkanth (C)
+  - *Towns:* *Lost Lagoon (NW), Kashiwa (SW), Fort Demonguard (C), *Malkanth (C)
+
 - **Nyuku** (F-02)
-  *Towns:* Spindrift North (W), Spindrift South (W), *Twin Rivers (NW)
-  *Dungeon:* Sunken Temple (NE)
+  - *Towns:* Spindrift North (W), Spindrift South (W), *Twin Rivers (NW)
+  - *Dungeon:* Sunken Temple (NE)
+
 - **Osozaki** (M-07)
-  *Towns:* Deepingdale (C)
-  *Ruins:* Wakai (SW)
-  *Dungeons:* Teleground (NE)
+  - *Towns:* Deepingdale (C)
+  - *Ruins:* Wakai (SW)
+  - *Dungeons:* Teleground (NE)
+
 - **Sirion** (G-15:H-15)
-  *Towns:* Clearview (SE)
-  *Ruins:* *Greenbanks (W)
-  *Dungeons:* *Staircase dungeon (NE), *Chessboard dungeon (W)
+  - *Towns:* Clearview (SE)
+  - *Ruins:* *Greenbanks (W)
+  - *Dungeons:* *Staircase dungeon (NE), *Chessboard dungeon (W)
+
 - **Tsumani** (B-16)
-  *Towns:* Morningfrost (SE), Snow Raven (SW)
-  *Dungeons:* Chutes and Ladders dungeon (S)
+  - *Towns:* Morningfrost (SE), Snow Raven (SW)
+  - *Dungeons:* Chutes and Ladders dungeon (S)
+
 
 ### Weird Stuff<a name="weird-stuff"/>
 
 Some weird things that I've noticed on my journeys across Lorn... maybe these will seem weird to you, too, or maybe they'll seem normal. Regardless, there are some hints, cheats, and spoilers here, so *caveat lector.*
 
-I started playing with a [flat Boot disk image](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/administrivia#managing-save-files), and got almost no loot whatsoever, until I got to the edge of Kodan and discovered the bug that prevents you from continuing the rest of the game. I downloaded a nibbilized Boot disk and reloaded, and suddenly the loot started to flow like water. Maybe that's just that loot is nerfed on Kodan, or maybe there's a bug in the cracked image, or maybe something else happened, but it was certainly noticable.
+I started playing with a [flat Boot disk image](#managing-save-files), and got almost no loot whatsoever, until I got to the edge of Kodan and discovered the bug that prevents you from continuing the rest of the game. I downloaded a nibbilized Boot disk and reloaded, and suddenly the loot started to flow like water. Maybe that's just that loot is nerfed on Kodan, or maybe there's a bug in the cracked image, or maybe something else happened, but it was certainly noticable.
 
 Go into a shop. Have a Shisai buy a lockpick, then immediately buy a holy symbol. Press (Y) to replace the first with the second, and (due to a bug) the holy symbol will have 255 charges, which is way more than normal.
 
@@ -836,18 +849,24 @@ For most random rolls, the game actually rolls a number from 0–255 and compare
 
 Now let's talk lock picking. For non-Yakuza thieves trying to pick a lock, that target computation looks like:
 
-> ((3 * LVL) + MAX(0, 2 * (DEX - 12))) * 2.5
+```
+((3 * LVL) + MAX(0, 2 * (DEX - 12))) * 2.5
+```
 
 If you're familiar with assembly language, you may know that a fast way to implement "multiply by 2.5" is "multiply by 2, divide by 2, and take the sum" because you can implement x2 with a left-shift and /2 with a right-shift. So let's take the example of a level 32 Ninja with 18 DEX.
 
-> (3 * 32) + (2 * (18-12) = 96 + 12 = 108
+```
+(3 * 32) + (2 * (18-12) = 96 + 12 = 108
+```
 
 Convert to binary; 108 base ten = 64 + 32 + 8 + 4 = 01101100 base two. If we do the arithmetic gymnastics I described above and drop anything that overflows an 8-bit integer, we get
 
-> 108_10 = 01101100_2
-> <<1 11011000_2
-> \>>1 00110110_2
-> add 00001110_2 = 8 + 4 + 2 = 14
+```
+108_10 = 01101100_2
+     <<1 11011000_2
+     >>1 00110110_2
+     add 00001110_2 = 8 + 4 + 2 = 14
+```
 
 So a level 32 Ninja with 18 DEX has a a 14/255, or around 5%, chance of success. Fortunately, there's a hard-coded override such that level 33 thieves always have a 97% chance of picking a lock.
 
@@ -855,7 +874,7 @@ So a level 32 Ninja with 18 DEX has a a 14/255, or around 5%, chance of success.
 
 Magic plays an essential part of your combat tactics, as well as doing all the other fun things you can do in a CRPG. You may have already noticed that across this document, spells are listed in all-caps with a prefix indicating the class and level of the spell. For example, Z4:HITATE is a 4th-level shiZen spell... and I bet you can figure out the rest from there.
 
-A reminder that the POWER cost of a spell is equal to its spell level. See [Experience and Leveling](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/creating-characters#experience-and-leveling) for more on spell levels.
+A reminder that the POWER cost of a spell is equal to its spell level. See [Experience and Leveling](#experience-and-leveling) for more on spell levels.
 
 Spell purposes:
 
@@ -900,7 +919,7 @@ Spell purposes:
 | ---- | ------------- | ------- | ------- | ------------------------------------------------------------ |
 | 1    | **KUSAMOTSU** | Hold    | 1–4     | 'entanglement', only works while standing on grass, bushes, trees, etc. |
 | 1    | **HIKAKOMU**  | Buff+   | 1       | attacks                                                      |
-| 1    | **ICHIHAN**   | Misc.   |         | Divine the current dungeon level, but see [here](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#doors-dungeon) for some notes on how dungeons are laid out |
+| 1    | **ICHIHAN**   | Misc.   |         | Divine the current dungeon level, but see [here](#doors-dungeon) for some notes on how dungeons are laid out |
 | 2    | **KINO**      | Buff+   | 1       | AC+?, can be cast more than once                             |
 | 2    | **DUNASU**    | Heal    | 1       | 1–8 hp                                                       |
 | 2    | **MOYA**      | Flee    | party   |                                                              |
@@ -972,6 +991,8 @@ Spell purposes:
 | 7    | **YUREI** | Misc.   | party   | Hides the party from wandering monsters for ~20 steps   |
 | 7    | **TSUKIHI** | Zap     | group   | up to 75 hp; 'fire'                                     |
 
+## Walkthrough<a name="walkthrough"/>
+
 Enough with the appetizers; let's move on to the meat of our quest (and this walkthrough). *Deathlord* is a highly non-linear game. There is a plot, or at least one main goal, and to achieve it you need to visit almost every continent in the game at least once and in some cases twice.
 
 I've tried to organize this in an order that (a) makes "plot sense", meaning I don't send you somewhere without showing you the clue that tells you how to get there, and (b) minimizes the amount of backtracking that you have to do.
@@ -987,21 +1008,21 @@ At the top of each section is a list of Services offered by the town. Different 
 - *Training:* All training academies offer the same service.
 - *Food:* All food vendors sell food at a rate of one meal for 3 gp.
 - *Healing:* All vendors charge the same prices. Temples offering Depetrify are rare.
-  Deparalyze — Detoxify — Healing — Cure Disease — Raising — Resurrection — Depetrify
+  - Deparalyze — Detoxify — Healing — Cure Disease — Raising — Resurrection — Depetrify
 - *Tools:* All vendors sell all items, although the price on the latter two varies.
-  Torches — Lock Picks — Holy Symbols
+  - Torches — Lock Picks — Holy Symbols
 - *Melee Weapons:* The worst vendors stop at the Sai.
-  Tanto — Bo-Staff — Jo-Stick — Sai — Masakari — Glaive — Naginata
-- *Missile Weapons:* Not everyone sells the Great Bow.**
-  **Sling — Shuriken — Light Bow — Crossbow — Heavy Bow — Great Bow
+  - Tanto — Bo-Staff — Jo-Stick — Sai — Masakari — Glaive — Naginata
+- *Missile Weapons:* Not everyone sells the Great Bow.
+  - Sling — Shuriken — Light Bow — Crossbow — Heavy Bow — Great Bow
 - *Specialty Weapons:* All vendors sell all items.
-  Nunchaku — Wakizashi — Katana
+  - Nunchaku — Wakizashi — Katana
 - *Armor:* The level of service varies quite a bit.
-  Cloak — Hara-ate — Harame-do — Haramakido — Do-maru — Yoroi
+  - Cloak — Hara-ate — Harame-do — Haramakido — Do-maru — Yoroi
 - *Shields:* There are not many shield vendors at all, and some of them don't sell Great Shields.
-  Small — Medium — Great
+  - Small — Medium — Great
 - *Misc. Armor:* Vendors are hard to find, but they always carry all four items.
-  Gloves — Gauntlets — Jingasa — Kabuto
+  - Gloves — Gauntlets — Jingasa — Kabuto
 - *Shipyard:* Purchase a boat for 10,000 gp.
 
 One last point to make before we get started. There are two schools of thought on using someone else's pre-drawn maps to play a CRPG like this. It is true that some significant chunk of the fun of a game like *Deathlord* is in the process of discovery that comes with entering a new dungeon completely blind and feeling your way along with a pad of graph paper; it is also true that this game hates you, and will lay trick after trick in your path *specifically* for the purpose of making drawing maps harder.
@@ -1010,19 +1031,19 @@ I leave it to you, dear reader, to decide how you want to play. If you read this
 
 Up to you, though.
 
+-----
+
 ### Part I: Senju, Kawahara, and the Emperor
 
 As our intrepid heroes begin their adventure, they'll meet the Emperor of Lorn at his palace on Kodan and learn about some of the threats against him. The evil wizard Kawahara and the good wizard Senju appear to be locked in some sort of death match, though someone is clearly pulling the strings behind Kawahara and Senju is no where to be found, at first...
 
-------
-
-#### KODAN
+#### KODAN<a name="kodan"/>
 
 The continent of Kodan is where you start the game. It's also the largest continent on the map, taking up three sectors. You'll spend the entire first chunk of the game here, trying to earn enough money and/or prestige to acquire a boat. You'll also need to earn enough experience to not die immediately after leaving your home continent, but we'll cross that bridge when we get to it.
 
 (Just kidding: there are no bridges in *Deathlord*.)
 
-#### Kawa
+##### Kawa<a name="kawa"/>
 
 *Services:* food, tools, melee weapons (Masakari), armor (Haramakido)
 
@@ -1034,13 +1055,13 @@ What you will eventually want to buy here is a Holy Symbol. This makes fighting 
 
 Spend some time walking around Kawa, practicing *(O)ration* and getting to know the locals. You'll find out that someone named Kawahara is waiting for you in the caverns underneath the Emperor's Palace, which sounds like an obvious plot arrow if ever I've heard one. You'll find some Yakzua hanging out near the inn. The NPCs here also know about the lay of the land: Yokohama, which I just mentioned a minute ago, is ESE of here and now lies in ruins. There's another set of ruins, formerly known as Wakiza, to the SW. On the E coast is a town called Tokushima, with an old shrine out on Bone Island. You can also see most of these features on the world map that's printed on the game box.
 
-You can also learn that the Daimyo has a Kaibu locked up in the west tower. A Daimyo is feudal lord, like a baron. In *Deathlord* they are sometimes present as rulers of a town, and about half of them are hostile and will attack you on sight. (I believe that 'DIAMYO' is a misspelling, but that's what you'll see in combat and the [Appendix](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/final-notes#appendix-monster-list).) Killing a Daimyo doesn't have any sort of effect plot-wise, it just means they won't talk to you and you have to kill them. The one in Kawa is hostile.
+You can also learn that the Daimyo has a Kaibu locked up in the west tower. A Daimyo is feudal lord, like a baron. In *Deathlord* they are sometimes present as rulers of a town, and about half of them are hostile and will attack you on sight. (I believe that 'DIAMYO' is a misspelling, but that's what you'll see in combat and the [Appendix](#monster-list).) Killing a Daimyo doesn't have any sort of effect plot-wise, it just means they won't talk to you and you have to kill them. The one in Kawa is hostile.
 
-I mentioned this in the [intro](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/administrivia#getting-around-and-getting-along), but there's an oration trick that you should know: whenever you go into a town, ask someone about a dungeon. (There are some other useful common keywords in the linked section.) If there's one about, someone will know about it. Often enough someone will have a *(T)alk* message that mentions a dungeon, and then you know to ask about it, but eventually you just learn a couple of common keywords, and that's one of them. Here in Kawa, they'll point you towards the "starter dungeon", along the trail to the E.
+I mentioned this in the [intro](#getting-around), but there's an oration trick that you should know: whenever you go into a town, ask someone about a dungeon. (There are some other useful common keywords in the linked section.) If there's one about, someone will know about it. Often enough someone will have a *(T)alk* message that mentions a dungeon, and then you know to ask about it, but eventually you just learn a couple of common keywords, and that's one of them. Here in Kawa, they'll point you towards the "starter dungeon", along the trail to the E.
 
 Let's talk about stealing. If you play a lot of CRPGs from this era, you're probably used to walking into people's houses, or the mayor's office or whatever, and just helping yourself to anything you can find. The guards don't seem to care if you bash down doors, break into prisons and free (or kill) the prisoners, or steal things; just don't throw the first punch. Regardless of whether you're playing a good-aligned party or not, this is the only way you're going to get any cash in the early game here, and the guards won't argue or try to stop you, so I say go for it. This game is hard enough without giving yourself an artificial handicap.
 
-On the other hand, if you want to turn an entire town against you, just *(A)ttack* someone in the town. It doesn't matter if it's a guard, a random citizen, a prisoner, or a skeleton that you are 100% positive is hostile and about to attack you; if you take first strike, the entire town will become hostile. Shopkeepers will refuse to sell to you and guards will attack you on sight. This is a particularly bad idea at the Emperor's Palace; it's hard to win the game if you can't talk to the Emperor, so be careful. You may also notice that the emulator will save to disk immediately, because *Deathlord* likes to remind you that actions have consequences. If that happens and you want to undo it, you might be able to use the [Disk Swapping](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/administrivia#managing-save-files) trick to reload the towns.
+On the other hand, if you want to turn an entire town against you, just *(A)ttack* someone in the town. It doesn't matter if it's a guard, a random citizen, a prisoner, or a skeleton that you are 100% positive is hostile and about to attack you; if you take first strike, the entire town will become hostile. Shopkeepers will refuse to sell to you and guards will attack you on sight. This is a particularly bad idea at the Emperor's Palace; it's hard to win the game if you can't talk to the Emperor, so be careful. You may also notice that the emulator will save to disk immediately, because *Deathlord* likes to remind you that actions have consequences. If that happens and you want to undo it, you might be able to use the [Disk Swapping](#managing-save-files) trick to reload the towns.
 
 There are two varieties of object that you can steal from: pots and chests (or boxes, really, is what they look like on-screen). Use *(G)et* to take their contents. Pots generally have more gold, but boxes are much more likely to have items and also more likely to be trapped. Coffins can also be raided for gold and items, but some percentage of the time they also contain Vampires, which you really don't want to fight, because level drain is the *worst*.
 
@@ -1050,7 +1071,7 @@ From the foyer head W down the hallway to find a few pots of gold. Back by the e
 
 For now, you're not powerful enough to take on either the guards in the E (there's more money there), the Daimyo in the SE (pointless, but hostile), or the Yakuza Guild. You can come back and handle these guys later; just remember, always let other people attack you first while you're in town. You can kill the Kaibu in the SW tower, if you really want to.
 
-#### Emperor's Palace
+#### Emperor's Palace<a name="emperors-palace"/>
 
 *Services*: food, healing (Resurrect)
 
@@ -1074,7 +1095,7 @@ Elsewhere on Kodan you'll learn about the party of mages that are visiting the E
 
 You have two choices. The best gear on this continent is found in Tokugawa, to the NW. That city is labeled on the world map that comes in the box, so I don't think it's cheating exactly to head there next, and that's what I'm going to write as the next section.
 
-On the other hand, the plot arrows point you towards the [starter dungeon](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#starter-dungeon) (too challenging until you gain a couple of levels), the ruins of [Yokahama](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#yokahama) (ditto), and [Tokushima](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#tokushima) on the E coast. You'll learn about [Tokugawa](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#tokugawa) in Tokushima (try not to confuse them, but everyone else does) but that's an awfully long way to walk without equipment, so if you want to go there next, you're best off buying some gear in Kawa first.
+On the other hand, the plot arrows point you towards the [starter dungeon](#starter-dungeon) (too challenging until you gain a couple of levels), the ruins of [Yokahama](#yokahama) (ditto), and [Tokushima](#tokushima) on the E coast. You'll learn about [Tokugawa](#tokugawa) in Tokushima (try not to confuse them, but everyone else does) but that's an awfully long way to walk without equipment, so if you want to go there next, you're best off buying some gear in Kawa first.
 
 Along with your front three, I recommend arming whoever's in slot 4 as well, because you'll probably get into a situation in the first couple fights where you need to drop someone out of the front rank to avoid having them get killed. This is also a really good time to save your game and back up the saves.
 
@@ -1102,7 +1123,7 @@ The townsfolk will be happy to tell you about the famous Yakuza of Kawa, the gro
 
 For now, let's head W towards Tokushima and maybe beat up some wandering monsters.
 
-**Yang the Necromancer:** Yang is roughly equivalent to Kawahara in difficulty; they can both slay everyone in your party, and you're almost certainly not ready to take him on at this point. Come back later; he makes a reasonable test to see if you're ready to attack [Kawahara's dungeon](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#kawaharas-dungeon-under-the-palace).
+**Yang the Necromancer:** Yang is roughly equivalent to Kawahara in difficulty; they can both slay everyone in your party, and you're almost certainly not ready to take him on at this point. Come back later; he makes a reasonable test to see if you're ready to attack [Kawahara's dungeon](#kawaharas-dungeon-under-the-palace).
 
 Anyway, his well-labeled residence is in the SE corner of town. He's got a huge flaming skull in his foyer, which is nice and cozy. When you open the door to the N, two sets of Zombies will attack. Remember, even the undead count as city residents – let them attack you, or the city guard will have something to say about it.
 
@@ -1166,7 +1187,7 @@ The false wall hiding the stairs is in the E part of this section.
 
 **Level 3:** A sudden shift in architecture. Step to the W and you'll find a hall of pillars with a burial chamber in the center.
 
-Dungeon Lesson Number 3: Sometimes, [water pools are magical](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/creating-characters#using-magic-pools), and when you drink from them you get a random effect. However, sometimes they are poison, and sometimes they don't do anything. The two pools just inside the door to the burial chamber are both magic pools.
+Dungeon Lesson Number 3: Sometimes, [water pools are magical](#using-magic-pools), and when you drink from them you get a random effect. However, sometimes they are poison, and sometimes they don't do anything. The two pools just inside the door to the burial chamber are both magic pools.
 
 Dungeon Lesson Number 4: **Never open coffins.** Coffins sometimes house Vampires or Banshees, i.e. creatures that will level drain you and probably kill low-level characters before you even know what happened. That being said, some coffins are safe to open... probably.
 
@@ -1182,7 +1203,7 @@ The stairs down are SE of where you came in, behind another false wall. As much 
 
 At this point, you should be cruising along pretty easily. If you can get all the way to the bottom of the Starter Dungeon you're doing pretty well. Outdoor fights shouldn't be a big deal anymore, and you're just looking to grind for some experience before taking on the tougher battles.
 
-One other random note: you've spent the whole game walking E-W along the top half of Kodan so far. There *is* a chunk of the continent to the SW, but the only thing down there is Wakiza and the Pirate's Den, which are completely optional. You *could* check out the Pirate's Den right now; it's got eight floors and the top half isn't too terrible, but I still wouldn't recommend going in there right now. If you're feeling masochistic, [scroll down](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#wakiza-and-pirates-den). Otherwise, you could keep grinding the Starter Dungeon or Yokohama, but I bet you're ready for something a little more challenging / rewarding, and for that, ironically, we're going back to Kawa.
+One other random note: you've spent the whole game walking E-W along the top half of Kodan so far. There *is* a chunk of the continent to the SW, but the only thing down there is Wakiza and the Pirate's Den, which are completely optional. You *could* check out the Pirate's Den right now; it's got eight floors and the top half isn't too terrible, but I still wouldn't recommend going in there right now. If you're feeling masochistic, [scroll down](#wakiza-and-pirates-den). Otherwise, you could keep grinding the Starter Dungeon or Yokohama, but I bet you're ready for something a little more challenging / rewarding, and for that, ironically, we're going back to Kawa.
 
 The Yakuza Guild is full of various thief types (Yakuza, Ansatsusha, Ninja). Unfortunately, some of them can poison you, and if you don't have S4:DONASU yet, you'll have to run all the way to the Emperor's Palace to find a healer. So you probably want fighters with 90+ HP before you try taking this on.
 
@@ -1194,13 +1215,13 @@ Beware the Master Ninja behind the Guildmaster's door, who can critical-hit you 
 
 #### Kawahara's Dungeon (under the Palace)
 
-You're not technically required to do this before you leave Kodan, but the Emperor did ask you to try to figure out what the hell is going on, and all the plot arrows you've gotten have pointed towards Kawahara waiting in the dungeons under the Palace. The early levels aren't so bad, but before you go take on Kawahara himself, it's not a bad idea to kill Yang the Necromancer (in [Tokugawa](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#tokugawa)) first to see whether you're ready. Backup your game disks first, tho.
+You're not technically required to do this before you leave Kodan, but the Emperor did ask you to try to figure out what the hell is going on, and all the plot arrows you've gotten have pointed towards Kawahara waiting in the dungeons under the Palace. The early levels aren't so bad, but before you go take on Kawahara himself, it's not a bad idea to kill Yang the Necromancer (in [Tokugawa](#tokugawa)) first to see whether you're ready. Backup your game disks first, tho.
 
 The dungeon is in the SE corner of the Palace. There's a couple of guards, but they won't actually stop you. Remember the lessons we learned in the Caves? Good, here's your quiz. We'll pick up a few new lessons down here, too.
 
 **Level 1:** Mostly what you'll find down here is a bunch of Kaibu (not bad for grinding) and a bunch of empty pots and crates. Skip the room W of the entrance and head E to find a natural cave instead. There's a false wall SW that you'll need to find in order to advance. Then break down the door S (the "gates of Kawahara") and fight off a bunch more Kaibu.
 
-In the southern half of the level, watch out for the pit trap – this may well be the first one you've fallen into, so don't forget how to climb out (I mentioned it all the way back in [the intro](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/administrivia#getting-around-and-getting-along)). Immediately afterwards, you'll find your first eternal hallway: there's a teleporter halfway down that teleports you back one square, and there aren't any contextual hints that clue you into the fact that you've been teleported. I mentioned that *Deathlord* hates you, right? Often times there's not even a way around a teleporter like this, but there is here; there's a secret door E that will take you around the teleporter square.
+In the southern half of the level, watch out for the pit trap – this may well be the first one you've fallen into, so don't forget how to climb out (I mentioned it all the way back in [the intro](#getting-around)). Immediately afterwards, you'll find your first eternal hallway: there's a teleporter halfway down that teleports you back one square, and there aren't any contextual hints that clue you into the fact that you've been teleported. I mentioned that *Deathlord* hates you, right? Often times there's not even a way around a teleporter like this, but there is here; there's a secret door E that will take you around the teleporter square.
 
 There's nothing else on this floor, though; the stairs are at the end of the hall SE.
 
@@ -1262,7 +1283,7 @@ Too bad there's no town named Oceanspray, either. However, if you go to Tokugawa
 
 So now you have this boat, but you don't really know what to do with it. Get used to that feeling; you'll have it a lot. Actually, once you leave Kodan, you'll wind up with more plot arrows than you know what to do with, but for the time being you don't really know what's going on. So let's tie up what few threads we do have, namely, places that we know exist but we haven't been able to get to without a boat.
 
-**Tokugawa by sea:** Enter Tokugawa from the N (or maybe you're here at the docks because you just picked up the Emperor's boon). Sail S and W, then N to dock. You can loot the rooms along the S wall, and there's another food vendor that you can steal from with impunity if you want. Elsewhere in that tavern there's a Yakuza who will tell you ($$) that there's an island to the S of here. This is a plot arrow that stretches *way* into the future: it's pointing towards [Sirion](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#sirion), but while there are several very good reasons to go there, you don't know what any of them are yet.
+**Tokugawa by sea:** Enter Tokugawa from the N (or maybe you're here at the docks because you just picked up the Emperor's boon). Sail S and W, then N to dock. You can loot the rooms along the S wall, and there's another food vendor that you can steal from with impunity if you want. Elsewhere in that tavern there's a Yakuza who will tell you ($$) that there's an island to the S of here. This is a plot arrow that stretches *way* into the future: it's pointing towards [Sirion](#sirion), but while there are several very good reasons to go there, you don't know what any of them are yet.
 
 This is another thing that *Deathlord* makes you do: take really good notes, and tick the boxes of clues that you've already figured out so you know what's left. It also gives you clues that you shouldn't follow up on right away because your party isn't ready yet, like sailing halfway around the world to Sirion before you find Senju.
 
@@ -1342,7 +1363,7 @@ Anyway, if you approach Nyuku from the south, you'll find a mountain range along
 
 > THE SECOND STONE
 
-Remember the sign in Tokugawa that said "Due south of the second stone" without any further explanation? If you sail *straight* S from here – although it's actually faster to sail N and wrap around – you'll find [Narawn](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#narawn). We're not going there any time soon, but it's a note to take.
+Remember the sign in Tokugawa that said "Due south of the second stone" without any further explanation? If you sail *straight* S from here – although it's actually faster to sail N and wrap around – you'll find [Narawn](#narawn). We're not going there any time soon, but it's a note to take.
 
 Follow the western coastline N until you find the twin towns of Spindrift. Two Rivers (where you'll find Senju) is slightly further N of them, also on the western coast.
 
@@ -1376,7 +1397,7 @@ Clues, most of which you need to pay for: The dungeon you may have heard about i
 
 The graveyard doesn't have anything interesting.
 
-Near the centre [sic] of town you'll find the Seventh Stone, surrounded by guards. If you peruse your notes you may remember seeing a clue about the *second* stone from Tokugawa. I already mentioned this above in the introduction to [Nyuku](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#nyuku), but I suppose you could see this as a hint that if the seventh stone is here in town, the second stone might be nearby? Turns out it is. But sailing due south of the seventh stone will get you to the same place as sailing due south of the second stone, so it's not a super effective hint.
+Near the centre [sic] of town you'll find the Seventh Stone, surrounded by guards. If you peruse your notes you may remember seeing a clue about the *second* stone from Tokugawa. I already mentioned this above in the introduction to [Nyuku](#nyuku), but I suppose you could see this as a hint that if the seventh stone is here in town, the second stone might be nearby? Turns out it is. But sailing due south of the seventh stone will get you to the same place as sailing due south of the second stone, so it's not a super effective hint.
 
 Sennin, an evil wizard, welcomes you (and other trespassers) to his home in the SW. He's a necromancer similar to Kawahara, including the ability to cast KOROSU. You can find him if you take the first door E after you enter his home. **Do not** take the last door W, through the hallway lined with fire; a party of Beholders awaits you at the far end. Beholders are some of the most difficult critters in the game; they level drain and also cast KOROSU. There's also a prison where you can free a prisoner, and a couple of secret treasure rooms in the hallway leading up to Sennin.
 
@@ -1396,7 +1417,7 @@ This is a great town if you're into weird little programming quirks and funny *(
 
 The only two things to be found off the beaten path are the graveyard in the northwest (nothing interesting there) and Senju's place in the SE. There's a helpful sign out front labeling his home, which is kind of funny for someone that's on the run from a powerful necromancer and the frickin' Deathlord. The wizards in his foyer are not particularly helpful. My favorite was the one who told me "Senju awaits you" and "Leave me alone". Nice guy. Even better, when I found Senju himself, his *(C)hat* response was "Find Senju". Reader, I couldn't make these jokes up if I tried.
 
-Senju tells you to bring him "a token of your worth", by which he means "a blue crystal". He'll trade you that for a weapon that can be used to defeat evil "for all time". No word on where to find a Blue Crystal yet, although if you skip ahead it turns out that they're on [Narawn](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#narawn) and that signpost kind of pointed us there without telling us why. This is another classic *Deathlord* move: tell you where to go, and tell you why to go there, but don't do both at the same time.
+Senju tells you to bring him "a token of your worth", by which he means "a blue crystal". He'll trade you that for a weapon that can be used to defeat evil "for all time". No word on where to find a Blue Crystal yet, although if you skip ahead it turns out that they're on [Narawn](#narawn) and that signpost kind of pointed us there without telling us why. This is another classic *Deathlord* move: tell you where to go, and tell you why to go there, but don't do both at the same time.
 
 #### Sunken Temple
 
@@ -1452,7 +1473,7 @@ Okay, it's time to take on your first "word dungeon". It's only four levels, so 
 
 *sigh*
 
-Well, at least the monsters aren't that big a deal: mostly Hobake, Kaibu, Trolls, and Skeletons. Trolls hit three times a round but are otherwise within your capabilities. As hinted at previously, there are an absolute ton of [magic pools](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/creating-characters#using-magic-pools) here, so you can [save-scum](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/administrivia#managing-save-files) for some serious stat boosts if you're either using a good map or willing to drink a lot of dungeon water.
+Well, at least the monsters aren't that big a deal: mostly Hobake, Kaibu, Trolls, and Skeletons. Trolls hit three times a round but are otherwise within your capabilities. As hinted at previously, there are an absolute ton of [magic pools](#using-magic-pools) here, so you can [save-scum](#managing-save-files) for some serious stat boosts if you're either using a good map or willing to drink a lot of dungeon water.
 
 **Level 1:** You're immediately standing in some swamp, so get moving. Step E and don't drink the water. Avoid the side rooms and work your way around clockwise to the first intersection. Go W, all the way S, and E. The stairs are in the SE, up a side passage not quite all the way at the end of the hall.
 
@@ -1584,7 +1605,7 @@ Apart from a couple of Vampires behind a 'No Trespassing' sign, which you probab
 
 #### Telegrond
 
-As I've said before, the 16-level dungeons are optional. Don't do them; I didn't, which is why there's no walkthrough for them. If you're really interested, check out the [Acknowledgements](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/administrivia#acknowledgements) section for a link to Genpei's blog; they've got more patience than I do (and are more willing to go exploring nasty dungeons with M7:UNPAN to map them out).
+As I've said before, the 16-level dungeons are optional. Don't do them; I didn't, which is why there's no walkthrough for them. If you're really interested, check out the [Acknowledgements](#acknowledgements) section for a link to Genpei's blog; they've got more patience than I do (and are more willing to go exploring nasty dungeons with M7:UNPAN to map them out).
 
 ------
 
@@ -1634,7 +1655,7 @@ At first glance, there doesn't seem to be a SE tower... but if you look at where
 
 Welp.
 
-Since we don't have a Blue Crystal yet, I guess we're going to have to come back [later](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#collecting-some-relics).
+Since we don't have a Blue Crystal yet, I guess we're going to have to come back [later](#collecting-some-relics).
 
 #### Desert Flower
 
@@ -1648,7 +1669,7 @@ A Kobito tells you to look a bit SW of town. If you brave the cacti and head int
 
 > NOT ALL SEAS ARE AS THEY APPEAR
 
-which is an incredibly obscure clue – I'm just gonna spoil this for you now – that hints at the function of the Sharktooth, which reveals the location of Hell Island. Without the tooth, you can sail right through that sector without hitting land. Fortunately(?) there's a much less obscure version of this same clue if you dive the nearby [Pyramid](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#pyramid-of-akhamun-ra).
+which is an incredibly obscure clue – I'm just gonna spoil this for you now – that hints at the function of the Sharktooth, which reveals the location of Hell Island. Without the tooth, you can sail right through that sector without hitting land. Fortunately(?) there's a much less obscure version of this same clue if you dive the nearby [Pyramid](#pyramid-of-akhamun-ra).
 
 Don't waste your time in the residences to the SW; the Guild is where the good hints are. You will learn that you need to find five relics: the Lantern, the Rod, the Ring, the Spear, and the Tooth. Senju has the Spear, which fits in with some other clues we've heard and makes getting a Crystal a top priority. The Crystal is also a relic, and we can find one in the Lagoon – still no word on where that is though. The Tooth is in Malkanth, a legendary town populated by demons.
 
@@ -1886,13 +1907,13 @@ The stairs up are N of where you came in, in the giant's dining hall. If you ven
 
 At this point, we can use the Blue Crystals to pick up some relics that we weren't able to get before, but we're going to have to do some backtracking to do it.
 
-**The Sunspear:** Head back to [Nyuku](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#nyuku), sail to [Twin Rivers](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#twin-rivers), and knock on Senju's door. *(OI)ffer* him one of your Blue Crystals and he'll give you the Sunspear:
+**The Sunspear:** Head back to [Nyuku](#nyuku), sail to [Twin Rivers](#twin-rivers), and knock on Senju's door. *(OI)ffer* him one of your Blue Crystals and he'll give you the Sunspear:
 
 > Use this spear if you would rid the world of his evil forever.
 
-This is one of the best melee weapons in the game (+3 to hit, 1-24 damage, grants +3 AC), almost anyone can use it (except Shisai/Shizen), and it also happens to be the only thing that can hit the Deathlord. In theory, you can only do this once per game. I'm not a fan of using the [disk-swapping](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/administrivia#managing-save-files) trick to reset Senju's game state and collect multiple Sunspears, but if you're gonna do it, this would be the weapon to do it with.
+This is one of the best melee weapons in the game (+3 to hit, 1-24 damage, grants +3 AC), almost anyone can use it (except Shisai/Shizen), and it also happens to be the only thing that can hit the Deathlord. In theory, you can only do this once per game. I'm not a fan of using the [disk-swapping](#managing-save-files) trick to reset Senju's game state and collect multiple Sunspears, but if you're gonna do it, this would be the weapon to do it with.
 
-**The Emerald Rod:** Head back to [Akmihr](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#akmihr), sail to the [Sultan's Palace](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#sultans-palace), and use the Blue Crystal to pass the forcefield in the SE tower and confront the Sand Dragons (ow). Take the Emerald Rod from the chest.
+**The Emerald Rod:** Head back to [Akmihr](#akmihr), sail to the [Sultan's Palace](#sultans-palace), and use the Blue Crystal to pass the forcefield in the SE tower and confront the Sand Dragons (ow). Take the Emerald Rod from the chest.
 
 This is *also* a very good melee weapon, especially if you have a priest in your third slot (+4 to hit, 1-10 damage, double damage vs demons, grants +6 AC). You may prefer the Rod of Death (+2 to hit, two attacks for 1-10, grants +1 AC) because it deals more damage, but +6AC is hard to argue with and you only get the Rod of Death from a random drop, so you may never see one. Plus, the Emerald Rod casts Z4:SANTATE with unlimited charges, so you can use it to pass acid fields now.
 
@@ -1906,7 +1927,7 @@ The combination of these two relics plus a Samurai wielding a Katana is quite fe
 
 Okay, we're kind of just sailing around the globe right now. But we (may perhaps) find ourselves on Akmihr, having just picked up the Emerald Rod, wondering where to go next. Spend some quality time with your notebook where you've been writing down all the unresolved clues that you have... and then throw it out, because I've decided we're going to chase after a random comment from some unicorns.
 
-If you don't like that, feel free to skip ahead to [Sirion](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#sirion) and come back to Giluin later. Or skip it altogether, but don't blame me if you can't find the Deathlord later on... just kidding, I'll tell ya.
+If you don't like that, feel free to skip ahead to [Sirion](#sirion) and come back to Giluin later. Or skip it altogether, but don't blame me if you can't find the Deathlord later on... just kidding, I'll tell ya.
 
 Back in Fort Demonguard, we got a hint to go visit a temple E of Narawn. Seven sectors west is faster than nine east, but who's counting? And if you're on Asagata already, it's just two sectors south to get in line with Narawn, and then a short four east of there. Giluin is a two-sector tall continent (one of the few multi-sector islands in the game) so it should be relatively easy to hit.
 
@@ -2235,7 +2256,7 @@ As was foretold... several times, at this point... the entrance to the Doors Dun
 
 The reason everyone calls this "the Doors Dungeon" is not because you're going to light anyone's fire, but you will be breaking on through to the other side an awful lot. You see, the first and second floors are made up of nothing but doors. You're going to have to pick and/or bash dozens of them open in order to get down a level, which is why I told you to stock up on lockpicks. You'll break them all, don't worry.
 
-In order to get through this dungeon, you need to know the trick that I first discussed in the [Tower of Shumi](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#tower-of-shumi), which you may not have bothered to do. So here it is again: some doorways are false doors. They look just like normal doors but can't be opened. The way you can tell the difference is that if you try to (P)ick the lock, it says "Nothing there!" So, armed with that bit of knowledge, here we go...
+In order to get through this dungeon, you need to know the trick that I first discussed in the [Tower of Shumi](#tower-of-shumi), which you may not have bothered to do. So here it is again: some doorways are false doors. They look just like normal doors but can't be opened. The way you can tell the difference is that if you try to (P)ick the lock, it says "Nothing there!" So, armed with that bit of knowledge, here we go...
 
 **Level 1:** You may not really know why you're here, although you know that there's "something hidden" on a lower level, and that's often a good sign. Sure enough, here's a signpost right in front of the stairs telling you that there's a word on Level 7. You'd think that was a straightforward hint, but you'd be wrong... *evil cackle*
 
@@ -2319,7 +2340,7 @@ The Pyramid is definitely a difficult dungeon, but the reason I've left it for l
 
 As for those "friendly" humans, Yakuza will ask "Which way out?", but "your guess is as good as mine". Another will tell you to sail one sector S, then W, but how did you even get here if you haven't already been to Narawn?
 
-**Levels 1–4** are arranged as if they are a single floor. See my comments on the bottom half of the [Doors Dungeon](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/75570/walkthrough#doors-dungeon) for more on how *Deathlord* arranges its dungeon levels in memory to occasionally allow a dungeon floor that's four times the usual size, which is what we have here. Exits from the dungeon can be found through false walls in the exterior walls, but they're not all that easy to find.
+**Levels 1–4** are arranged as if they are a single floor. See my comments on the bottom half of the [Doors Dungeon](#doors-dungeon) for more on how *Deathlord* arranges its dungeon levels in memory to occasionally allow a dungeon floor that's four times the usual size, which is what we have here. Exits from the dungeon can be found through false walls in the exterior walls, but they're not all that easy to find.
 
 Enter from the N. I'm not going to try and guide you through here; if you enjoy making maps, you should do so liberally here, and if you don't, go download Andrew Schultz's. I will say, if you're going to make your own maps, the down stairs are hiding behind a false wall, so take what you've learned from *Deathlord* so far and remember to bash into every wall in case it's false. (There aren't any secret doors in the entire complex, so at least you don't have to *(F)search* as well.)
 

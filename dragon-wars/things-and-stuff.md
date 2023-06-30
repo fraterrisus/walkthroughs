@@ -1,10 +1,39 @@
 # Yet Another Dragon Wars Walkthrough
 
+## Table of Contents
+
+- [Weapons](#weapons)
+  - [Axes](#axes)
+  - [Flails](#flails)
+  - [Swords](#swords)
+  - [Two-Handed Weapons](#two-handed-weapons)
+  - [Maces](#maces)
+  - [Bows](#bows)
+  - [Crossbows](#crossbows)
+  - [Guns](#guns)
+  - [Ammunition](#ammunition)
+  - [Thrown Weapons](#thrown-weapons)
+- [Armor](#armor)
+  - [Body Armor](#body-armor)
+  - [Gloves](#gloves)
+  - [Shields](#shields)
+  - [Helms](#helms)
+  - [Boots](#boots)
+  - [Rings](#rings)
+- [Unique Items](#unique-items)
+- [Shops](#shops)
+  - [Purgatory](#purgatory)
+  - [Lansk Undercity](#lansk-undercity)
+  - [Mud Toad](#mud-toad)
+  - [Byzanople Siege Camp](#byzanople-siege-camp)
+  - [Byzanople](#byzanople)
+  - [Freeport](#freeport)
+
 ## Things and Stuff
 
-What good would an RPG be without stuff to collect? I find that *Dragon Wars* strikes a nice balance between needing to pick up a bunch of items for plot reasons, having a few items that are completely useless and have no value, and plenty of things in between. It has its down sides too, though: for instance, it's impossible to determine how much damage a weapon does. (At least nothing is cursed, so you can determine AV and AC modifiers through experimentation.) The other "gotcha" is that it is possible to collect and then throw away certain items that are essential to particular plot lines and can never be recovered once discarded. The good news is that you can always [reset the game state](../back-matter), at the cost of losing all your progress, equipment, and gold. But that's your only choice if you throw away the Golden Boots by accident.
+What good would an RPG be without stuff to collect? I find that *Dragon Wars* strikes a nice balance between needing to pick up a bunch of items for plot reasons, having a few items that are completely useless and have no value, and plenty of things in between. It has its down sides too, though: for instance, it's impossible to determine how much damage a weapon does. (At least nothing is cursed, so you can determine AV and AC modifiers through experimentation.) The other "gotcha" is that it is possible to collect and then throw away certain items that are essential to particular plot lines and can never be recovered once discarded. The good news is that you can always [reset the game state](./walkthrough-0.md#final-notes), at the cost of losing all your progress, equipment, and gold. But that's your only choice if you throw away the Golden Boots by accident.
 
-Some notes about the table below:
+Some notes about the tables below:
 
 - The game keeps an "item type" value for every item in the game. Item Types determine what you're allowed to equip, and mostly the rules make sense, but there are a few surprises, too. Everything conflicts with itself, i.e. you can't have two Shields or two Helmets equipped simultaneously. I've listed the less-obvious item type conflicts below.
 - **STR** and **DEX** indicate the minimum values required to wield a weapon. If you ask a shop owner to `(E)xamine` an object, they'll tell you the item type and its base requirements. Of course, I've pulled this data directly from the data files instead.
@@ -37,7 +66,7 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 | Bladed Flail | 1000  | 1d12 |  10  |      |      |       |
 | Runed Flail  | 2000  | 1d20 |  14  |  +2  |  +1  |       |
 | Barbed Flail | 2000  | 1d30 |  16  |      |  +2  |       |
-| Spiked Flail | 3000  | 4–80 |  16  |  +2  |  +1  |       |
+| Spiked Flail | 3000  | 4d20 |  16  |  +2  |  +1  |       |
 
 #### Swords
 
@@ -149,6 +178,7 @@ Ammunition also carries an "ammo type" flag which determines whether it can be l
 ### Armor
 
 #### Body Armor
+
 Body Armor comes in a bunch of different "item types", like "Leather" and "Cuir Bouilli" and "Plate and Chain", but it doesn't make any difference to the game.
 
 | Item                                     | Price |  AC  |  AV  | Other                                            |

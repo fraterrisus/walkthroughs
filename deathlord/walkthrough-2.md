@@ -10,60 +10,60 @@ The best choice for the next continent to visit is actually Chigaku, because the
 
 I guess what I'm saying here is trust me, I'm sending you in the right directions to minimize backtracking. Because it's not like *Deathlord* gives you useful clues in that regard.
 
-- CHIGAKU
-  - Fort Wintergreen
-  - Crystalmist
-  - Troll Hole
-  - Tower of Shumi
-- OSOZAKI
-  - Deepingdale
-  - Wakai
-  - Telegrond
-- AKMIHR
-  - Oasis
-  - Sultan's Palace
-  - Desert Flower
-  - Kobito Mines
-  - Pyramid of Akhamun-Ra
-- NARAWN
-  - Lost Lagoon
-  - Kashiwa
-  - Fort Demonguard
-  - Malkanth
-- ASAGATA
-  - Towne Royal / Makimura
-  - Croyo
-  - Fire Giants' Lair
-- Collecting some Relics
-- GILUIN
-  - Kobar
-  - Shupan
-  - Linear Dungeon
-  - Temple of Oceanus
-- SIRION
-  - Clearview
-  - Staircase Dungeon
-  - Greenbanks
-  - Chessboard Dungeon
-- TSUMANI
-  - Morningfrost
-  - Snowraven
-  - Chutes-and-Ladders Dungeon
-- BLACK ISLES
-  - Red Shogun's Castle
-  - Doors Dungeon
-- LOST ISLES
-  - Cave of the Four Elements
-- ISLE OF THE DEAD
-  - Pyramid of the Old Ones
+- [Chigaku](#chigaku)
+  - [Fort Wintergreen](#fort-wintergreen)
+  - [Crystalmist](#crystalmist)
+  - [Troll Hole](#troll-hole)
+  - [Tower of Shumi](#tower-of-shumi)
+- [Osozaki](#osozaki)
+  - [Deepingdale](#deepingdale)
+  - [Wakai](#wakai)
+  - Telegrond (unwritten)
+- [Akmihr](#akmihr)
+  - [Oasis](#oasis)
+  - [Sultan's Palace](#sultans-palace)
+  - [Desert Flower](#desert-flower)
+  - [Kobito Mines](#kobito-mines)
+  - [Pyramid of Akhamun-Ra](#pyramid-of-akhamun-ra)
+- [Narawn](#narawn)
+  - [Lost Lagoon](#lost-lagoon)
+  - [Kashiwa](#kashiwa)
+  - [Fort Demonguard](#fort-demonguard)
+  - [Malkanth](#malkanth)
+- [Asagata](#asagata)
+  - [Towne Royal / Makimura](#towne-royal--makimura)
+  - [Croyo](#croyo)
+  - [Fire Giants' Lair](#fire-giants-lair)
+- [Collecting some Relics](#collecting-some-relics)
+- [Giluin](#giluin)
+  - [Kobar](#kobar)
+  - [Shupan](#shupan)
+  - Linear Dungeon (unwritten)
+  - [Temple of Oceanus](#temple-of-oceanus)
+- [Sirion](#sirion)
+  - [Clearview](#clearview)
+  - [Staircase Dungeon](#staircase-dungeon)
+  - [Greenbanks](#greenbanks)
+  - [Chessboard Dungeon](#chessboard-dungeon)
+- [Tsumani](#tsumani)
+  - [Morningfrost](#morningfrost)
+  - [Snowraven](#snowraven)
+  - [Chutes-and-Ladders Dungeon](#chutes-and-ladders-dungeon)
+- [Black Isles](#black-isles)
+  - [Red Shogun's Castle](#red-shoguns-castle)
+  - [Doors Dungeon](#doors-dungeon)
+- [Lost Isles](#lost-isles)
+  - [Cave of the Four Elements](#cave-of-the-four-elements)
+- [Isle of the Dead](#isle-of-the-dead)
+  - [Pyramid of the Old Ones](#pyramid-of-the-old-ones)
 
-------
+-----
 
-### CHIGAKU
+## Chigaku
 
 Two sectors S and five E of Nyuku – or two E and two N of Kodan – is the frozen hinterlands of Chigaku. If you're coming through here on your way to find Senju, you're going to learn a lot of things that don't make sense. If you're heading here after finding Senju, Chigaku represents a nice gentle step along your journey. I mean, as much as you can say that anything *Deathlord* throws at you is "nice" or "gentle". Don't get used to it.
 
-#### Fort Wintergreen
+### Fort Wintergreen
 
 *Services:* armor (Yoroi), shields (Great), misc. armor
 
@@ -77,7 +77,7 @@ Here's a bit of a spoiler: There's a Kichigai in the stockade that will tell you
 
 The Evil One, who rules "the four hells", is immune to magic. Presuming that's the Deathlord, this has the potential to be a pretty serious problem. (Turns out that's only 99% true, about which more later.) The bit about four hells is germane, as well, which is also a very *Deathlord* thing to do: hide a significant point in a very subtle sentence.
 
-#### Crystalmist
+### Crystalmist
 
 *Services:* training, melee weapons (Naginata), missile weapons (Great Bow), armor (Yoroi), misc. armor
 
@@ -91,13 +91,13 @@ The other is about the Lantern of Kasumi, a great samurai from the past, which w
 
 The "Home of Sotashi" houses a bunch of Ansatsusha that will attack you. There's also some Kabuto in the NE that attack on sight. I guess this is what happens when you bust down doors. On the other hand, you can also learn (NW, $$) that Shumi the necromancer lives in a tower on the SW part of the continent. That sounds like a dungeon, though it turns out to be optional.
 
-#### Troll Hole
+### Troll Hole
 
 Okay, it's time to take on your first "word dungeon". It's only four levels, so not too bad, but it's absolutely covered in swamp. You'll want to make sure you have a full load of food before coming in here, because you'll be resting a lot. Okay great, let's check out the "Services" tabs and figure out where the nearest food vendor is... wait, **no one** on Chigaku sells food?! I have to sail to either Kodan or Nyuku to find a food vendor?! *What the hell.*
 
 *sigh*
 
-Well, at least the monsters aren't that big a deal: mostly Hobake, Kaibu, Trolls, and Skeletons. Trolls hit three times a round but are otherwise within your capabilities. As hinted at previously, there are an absolute ton of [magic pools](#using-magic-pools) here, so you can [save-scum](#managing-save-files) for some serious stat boosts if you're either using a good map or willing to drink a lot of dungeon water.
+Well, at least the monsters aren't that big a deal: mostly Hobake, Kaibu, Trolls, and Skeletons. Trolls hit three times a round but are otherwise within your capabilities. As hinted at previously, there are an absolute ton of [magic pools](./walkthrough-0.md#using-magic-pools) here, so you can [save-scum](./walkthrough-0.md#managing-save-files) for some serious stat boosts if you're either using a good map or willing to drink a lot of dungeon water.
 
 **Level 1:** You're immediately standing in some swamp, so get moving. Step E and don't drink the water. Avoid the side rooms and work your way around clockwise to the first intersection. Go W, all the way S, and E. The stairs are in the SE, up a side passage not quite all the way at the end of the hall.
 
@@ -133,7 +133,7 @@ The word on the sign is FUSHIN. You can tell it's a magic word because it's prin
 
 Congratulations on your first magic word! Reverse your steps and let's get out of here.
 
-#### Tower of Shumi
+### Tower of Shumi
 
 Well, this looks bad.
 
@@ -189,13 +189,13 @@ There is no prize for defeating Shumi. Unlike most RPGs, the level designers of 
 
 ------
 
-### OSOZAKI
+## Osozaki
 
 If you take the hint from Shumi's Tower and sail "S-E" of Chigaku (three sectors south and two east, to be precise), you'll find Osozaki. You can also get there by sailing straight east from Wakiza (i.e. the SW sector of Kodan).
 
 Here's the question though: why would you? Well, because you're an RPG player, and you follow up diligently on clues when you're given them. So if you went to Wakiza (an optional town) or Shumi's Tower (an optional dungeon) then you might wind up on Osozaki (an optional continent) and take on Telegrond, which is not just optional, but also one of the hardest and most confusing dungeons in the game. For literally no reason. Good times.
 
-#### Deepingdale
+### Deepingdale
 
 *Services:* food, melee weapons (Masakari), armor (Do-Maru)
 
@@ -217,7 +217,7 @@ There's a Yakuza guild in the center-E of town. But there's no treasure there.
 
 On the North bank, which is to say the island in the NE of town, which can't be accessed without a boat, you'll find a house of "rich" Kobito. They do in fact have some gold to steal. Osozaki is also home to some ruins, formerly known as the town of Wakai, to the SW; and a dungeon, to the NE, which is 16 levels deep and run by a group of evil wizards.
 
-#### Wakai
+### Wakai
 
 The ruin formerly known as Wakai is in the mountains to the SW. Bandits and brigands mostly live here; many of them have nothing to say to you, and those that do want money.
 
@@ -227,13 +227,13 @@ You may find that evil things live in Pyramids, but not around here. And some du
 
 Apart from a couple of Vampires behind a 'No Trespassing' sign, which you probably don't want to muck with, there's nothing much of value to learn, see, or do here.
 
-#### Telegrond
+### Telegrond
 
-As I've said before, the 16-level dungeons are optional. Don't do them; I didn't, which is why there's no walkthrough for them. If you're really interested, check out the [Acknowledgements](#acknowledgements) section for a link to Genpei's blog; they've got more patience than I do (and are more willing to go exploring nasty dungeons with M7:UNPAN to map them out).
+As I've said before, the 16-level dungeons are optional. Don't do them; I didn't, which is why there's no walkthrough for them. If you're really interested, check out the [Acknowledgements](./walkthrough-0.md#acknowledgements) section for a link to Genpei's blog; they've got more patience than I do (and are more willing to go exploring nasty dungeons with M7:UNPAN to map them out).
 
 ------
 
-### AKMIHR
+## AKMIHR
 
 Continuing our clockwise progression through "continents we can find from the game map", we now proceed to the southern hemisphere, where the climate is arid and the terrain gets more desert-and-scrublike to reflect it.
 
@@ -245,7 +245,7 @@ For as long as *Deathlord* has dragged you along with only the barest minimum id
 
 The motto of this place might as well be "come for the hints, stay for the grinding".
 
-#### Oasis
+### Oasis
 
 *Services:* training, food, healing (Depetrify), melee weapons (Naginata), missile weapons (Heavy Bow), armor (Yoroi)
 
@@ -257,7 +257,7 @@ You may be interested in the palace of the Sultan, who rules this land, to the S
 
 In the SW side of town, Grool the Wicked gets annoyed if you force your way into his temple and kill his skeletons, but he won't do anything about it.
 
-#### Sultan's Palace
+### Sultan's Palace
 
 *Services:* food, melee weapons (Glaive), armor (Do-Maru)
 
@@ -281,7 +281,7 @@ Welp.
 
 Since we don't have a Blue Crystal yet, I guess we're going to have to come back [later](#collecting-some-relics).
 
-#### Desert Flower
+### Desert Flower
 
 *Services:* training, food, melee weapons (Sai), armor (Do-Maru)
 
@@ -299,7 +299,7 @@ Don't waste your time in the residences to the SW; the Guild is where the good h
 
 Finally: some extremely clear hints about the goals of the game and where to go! Took you long enough...
 
-#### Kobito Mines
+### Kobito Mines
 
 Some of *Deathlord*'s dungeons are really well put together. Some show off a theme, and are fun to get to know. Some present really challenging navigation puzzles. Some are more important than others, what with hiding a word (like this one) or an artifact. The Kobito Mines, though? The main thing going on here is combat. **A lot of combat**. This is a fantastic place to grind levels, because Kobito are fairly straightforward to fight, they have no special attacks, and they return 14xp each. I cleared two (character) levels without even trying. And there's a training academy not far from here.
 
@@ -329,7 +329,7 @@ Head N into the hallway of water. Find the W end and go N. In the NE corner, whe
 
 As you work your way back up the staircase, you may find Kobito that have spawned but are stuck in the staircase foyers. But that's just par for the course in here. Head back to the surface and do some training, and stick around as long as you want to grind levels.
 
-#### Pyramid of Akhamun-Ra
+### Pyramid of Akhamun-Ra
 
 Although this is an optional dungeon, it's worth doing for plot reasons. Guardians and Mummies can cause disease (ILL), but there's a healer in Oasis and your Shizen probably has Z3:BYOKINASU already.
 
@@ -371,13 +371,13 @@ Head back to the central room and find that secret door; it's in the NE, and you
 
 ------
 
-### NARAWN
+## NARAWN
 
 The land of Narawn is not particularly easy to find, although the easiest way to get there is to sail 10 sectors directly south (or six north, if you're looking at a world map) of Nyuku. That puts it 5W 2S of Akmihr and 5S 2W of Kodan.
 
 You get clued in twice to the fact that there's a land S of Nyuku. The first calls back to a sign you say in Tokugawa that didn't make any sense at all ("due south of the second stone"). But then you find "the second stone" out in the wilderness of Nyuku. The second hint is in Crystalmist, where inquiring after a 'lagoon' will get you the hint that you should look for one S of Nyuku. Either way, if you head to Nyuku and then sail directly S, you will eventually hit Narawn.
 
-#### Lost Lagoon
+### Lost Lagoon
 
 *Services:* training, food, tools, melee weapons (Masakari), armor (Haramakido)
 
@@ -395,7 +395,7 @@ There's a town S of here called Kashiwa, but you'll need a ship to get around.
 
 It's tempting to run straight back to Senju now that you have a Blue Crystal, but maybe let's explore the rest of this continent and pick up that other relic first, eh?
 
-#### Kashiwa
+### Kashiwa
 
 *Services:* training, food, healing (Depetrify), missile weapons (Great Bow), specialty weapons, armor (Yoroi), misc. armor
 
@@ -411,7 +411,7 @@ A Shizen (in the NW) tells you to check the loops in the canal. There are no sec
 
 The Daimyo of Kashiwa (SE corner) is not friendly, but also not really worth killing.
 
-#### Fort Demonguard
+### Fort Demonguard
 
 *Services:* healing (Depetrify), melee weapons (Naginata), armor (Yoroi)
 
@@ -427,7 +427,7 @@ Okay, three pointers to useful places, two of which are correct and one is quite
 
 To exit towards Malkanth, you'll need to bust down a portcullis and a door and make your way through a magic field. So it's a good thing you picked up a Blue Crystal already, right? You can also use M4:UGOKU from near the windows to try to bypass most of the doors. In any case, you don't actually need fire protection just yet.
 
-#### Malkanth
+### Malkanth
 
 *Services:* food, melee weapons (Naginata)
 
@@ -451,11 +451,11 @@ That's it for Malkanth. Cast Z4:HITATE, head back to the Fort, and good luck ope
 
 ------
 
-### ASAGATA
+## Asagata
 
 Asagata lies between Narawn and Nyuku, so it makes a natural stopping-off point on our way back to Senju. The only essential hint you get here is a pointer towards the Lost Isles, which you need to find the Cave of the Four Elements. Of course there's zero indication of why you would want to go there until you actually go there. There's also a secondary hint pointing you kind of (but not really) towards Sirion and Greenbanks, but otherwise this continent is completely optional. But it is on the world map that comes with the game box, so we might as well cover it.
 
-#### Towne Royal / Makimura
+### Towne Royal / Makimura
 
 *Services:* training, food, healing (Depetrify), tools, melee weapons (Naginata), specialty weapons, shipyard
 
@@ -475,7 +475,7 @@ While you're in Croyo, you should definitely look for the key. (Hint: you should
 
 There's a Mages Guild in Oasis, which is also a town in Akmihr. This is not quite true; there is a Mages Guild in Akmihr, but it's in Desert Flower, not Oasis. I can't complain too much, though, because the people in Oasis will tell you it's in Desert Flower, and at least you're on the right continent at that point? God, this game has really lowered my standards for NPCs giving out "accurate" information.
 
-#### Croyo
+### Croyo
 
 *Services:* food, tools, melee weapons (Glaive), armor (Do-Maru)
 
@@ -493,7 +493,7 @@ Oh, and that key you were supposed to find in Kobito Home? It's a key-shaped roo
 
 Also, I wouldn't piss off the guard here if I were you. Check out the barracks just N of the SE graveyard. On the other hand... given how useless this town is, you could give it a shot if you wanted to get into a fight with a ton of guards. It's not like you ever need to come back here.
 
-#### Fire Giants' Lair
+### Fire Giants' Lair
 
 There's no point to tackling this dungeon other than loot. You can make **a lot** of money down here; Fire Giants hit *hard*, but they carry some good stuff, and occasionally give up to 1000 gp after battle. I picked up a Thunderblade and a Powerstaff off them without leaving Level 1. It's not a bad place to grind for levels, either, but plan on casting ALNASU a lot, and keep an eye on your spell points. Not too many special attacks down here, but you can get PARalyzed.
 
@@ -527,15 +527,15 @@ The stairs up are N of where you came in, in the giant's dining hall. If you ven
 
 ------
 
-### Collecting some Relics
+## Collecting some Relics
 
 At this point, we can use the Blue Crystals to pick up some relics that we weren't able to get before, but we're going to have to do some backtracking to do it.
 
-**The Sunspear:** Head back to [Nyuku](#nyuku), sail to [Twin Rivers](#twin-rivers), and knock on Senju's door. `(OI)ffer` him one of your Blue Crystals and he'll give you the Sunspear:
+**The Sunspear:** Head back to [Nyuku](./walkthrough-1.md#nyuku), sail to [Twin Rivers](./walkthrough-1.md#twin-rivers), and knock on Senju's door. `(OI)ffer` him one of your Blue Crystals and he'll give you the Sunspear:
 
 > Use this spear if you would rid the world of his evil forever.
 
-This is one of the best melee weapons in the game (+3 to hit, 1-24 damage, grants +3 AC), almost anyone can use it (except Shisai/Shizen), and it also happens to be the only thing that can hit the Deathlord. In theory, you can only do this once per game. I'm not a fan of using the [disk-swapping](#managing-save-files) trick to reset Senju's game state and collect multiple Sunspears, but if you're gonna do it, this would be the weapon to do it with.
+This is one of the best melee weapons in the game (+3 to hit, 1-24 damage, grants +3 AC), almost anyone can use it (except Shisai/Shizen), and it also happens to be the only thing that can hit the Deathlord. In theory, you can only do this once per game. I'm not a fan of using the [disk-swapping](./walkthrough-0.md#managing-save-files) trick to reset Senju's game state and collect multiple Sunspears, but if you're gonna do it, this would be the weapon to do it with.
 
 **The Emerald Rod:** Head back to [Akmihr](#akmihr), sail to the [Sultan's Palace](#sultans-palace), and use the Blue Crystal to pass the forcefield in the SE tower and confront the Sand Dragons (ow). Take the Emerald Rod from the chest.
 
@@ -547,7 +547,7 @@ The combination of these two relics plus a Samurai wielding a Katana is quite fe
 
 ------
 
-### GILUIN
+## Giluin
 
 Okay, we're kind of just sailing around the globe right now. But we (may perhaps) find ourselves on Akmihr, having just picked up the Emerald Rod, wondering where to go next. Spend some quality time with your notebook where you've been writing down all the unresolved clues that you have... and then throw it out, because I've decided we're going to chase after a random comment from some unicorns.
 
@@ -557,7 +557,7 @@ Back in Fort Demonguard, we got a hint to go visit a temple E of Narawn. Seven s
 
 The Temple of Oceanus is on the W coast, so you may find it first. But I write the town walkthroughs before the "dungeon" walkthroughs, so sail N and follow the coastline around until you find Kobar in the NE. On the other hand, the towns aren't all that useful, so you could skip straight to the Temple, if you feel like it.
 
-#### Kobar
+### Kobar
 
 *Services:* training, tools, melee weapons (Masakari)
 
@@ -571,7 +571,7 @@ Many people will tell you that a guy named Chin runs the training academy, and a
 
 One of the gravestones marks the Tomb of the Unknown Peasant. Aww, that's touching. Almost as touching as the Kosaku who can't find his father's grave. Actually, that's just mean. Uh, never mind.
 
-#### Shupan
+### Shupan
 
 *Services:* food, tools, missile weapons (Great Bow), armor (Yoroi), healing (Depetrify)
 
@@ -589,11 +589,11 @@ Elsewhere, a Shisai tells you that there's a monk who lives on the N shore, behi
 
 There's apparently a dungeon N of Kobar, which is N up the coast from here, but as I've already said we're going to skip it.
 
-#### Linear Dungeon
+### Linear Dungeon
 
 You didn't think there was going to be an actual entry here, did you? I *just said* we were going to skip it. And unlike *Deathlord*, when I say something, you can trust it. Generally. I mean, I make mistakes for sure, but I don't mislead you *on purpose.*
 
-#### Temple of Oceanus
+### Temple of Oceanus
 
 *Services:* food, healing (Depetrify)
 
@@ -631,7 +631,7 @@ Back in the Deathlord's shrine, the N doors open up onto a pit of fire. If you g
 
 ------
 
-### SIRION
+## Sirion
 
 I alluded to this earlier, but way back in Tokugawa you got a hint from a Yakuza who told you to sail south. Sure enough, if you sail eight sectors south (or seven north) of Kodan, you'll run into Sirion, a two-sector wide island. Congratulations if you manage to write down that clue, not follow up on it immediately, and then remember to come back to it after all this time.
 
@@ -641,7 +641,7 @@ So, we don't really know why we're headed to this land, but we're several words 
 
 You'll most likely spend quite a while just mapping the continent out (if you're like me, anyway). It's kind of a tossup whether you find Greenbanks (W) or Clearview (SE) first, but I tend to list towns first and ruins and dungeons later, so we're going to start in Clearview.
 
-#### Clearview
+### Clearview
 
 *Services:* training, food, melee weapons (Glaive)
 
@@ -655,7 +655,7 @@ Everything of note is in the corners. The food (sake) vendor is in the SE, the w
 
 Check out the prison in the NE. Lift some gates and work your way E and then S into the prison "yard". There you'll find some Brigands who tell you of the island of Tsumani, "south [one sector] off the coast and west", a land full of yeti and "fierce snowbeasts". So bundle up before you go.
 
-#### Staircase Dungeon
+### Staircase Dungeon
 
 Time for one of the more annoying word dungeons in the game. If you don't know what you're doing, navigating this one is a real puzzle and it's likely to take you a while. The first part involves going up and down a ton of staircases, and the second part involves teleports that are designed to screw with you as much as possible. Sounds like fun, right? S6:KAERU can save you some pain if you have it available, but there are some very rich pots of gold down there to be found if you're feeling low on cash.
 
@@ -685,7 +685,7 @@ There are some more nine-pot treasure rooms, but I bet you don't need them. And 
 
 Head S again into the staircase maze. 6S 4W should get you back to the center, and two Wait commands should return you to the surface.
 
-#### Greenbanks
+### Greenbanks
 
 The ruined town of Greenbanks lies in the center of a large island on the W part of the continent. If you enter by water from the W, you'll find the graveyard right away. The Lantern of Kasumi can be found in the grave closest to the W wall (although not the one that's on its own little island in the SW). `(F)search` the gravestone to discover the Lantern. As best as I can tell, this is the *only* useful thing that you can do in a graveyard in the entire game. You can't even claim that, as you 'learned' in Tokushima, "tombstones can hide clues". It's not a clue, it's one of the damn artifacts you need to win the game.
 
@@ -699,7 +699,7 @@ As is also common for ruins, there's a handful of treasure kicking around here. 
 
 In the SE, you can find a ring of trees in a one-square wide band around a house. Hidden back in there is a Viper that you can talk to. *shrug*
 
-#### Chessboard Dungeon
+### Chessboard Dungeon
 
 To me, Sirion feels like the game designers tried to pack too much of the mid-game into a single continent. Two map sectors is weird enough, but two dungeons with two words **and** a ruin with one of the relics? That's an awful lot to cram into one island, but here we are.
 
@@ -747,7 +747,7 @@ You can get out either from b8 (where you came in) or g8, where an open door tel
 
 ------
 
-### TSUMANI
+## Tsumani
 
 Until you landed on Sirion, you'd never heard of Tsumani, though you may have heard of a town named Morningfrost. It's far enough out on the fringes of the world that you probably haven't come across it by accident either. And though there aren't any words or relics here, it's the only place to get a direct hint about the location of the Red Shogun's land, which has one of both...
 
@@ -755,7 +755,7 @@ Anyway, Tsumani is one sector south and five west of Sirion. Fiendishly, it is a
 
 Weirdly, snow-swamp doesn't hurt when you walk over it.
 
-#### Morningfrost
+### Morningfrost
 
 *Services:* food, melee weapons (Masakari), shields (Great)
 
@@ -769,7 +769,7 @@ In the NW of town you might find some Brigands, who have heard that Koshi the Hu
 
 Mind the Yabanjin in the NE; they're not friendly.
 
-#### Snowraven
+### Snowraven
 
 *Services:* training, food, healing (Depetrify), melee weapons (Naginata), armor (Do-Maru)
 
@@ -779,7 +779,7 @@ You'll find a bunch of stereotypical Yabanjin that say things like "ug" and "me 
 
 A Shukenja hiding out behind the food shoppe tells you to sail around the S end of town. If you came in by boat (or are willing to cast G6:UKU) you can find a sneaky spot that takes you into the water around the Temple of Icine (goddess of winter and the frozen wastes), where there's a Merman. He tells you that the castle of the Red Shogun lies N of Cross Rock, but if you ask anyone, the Shogun is only a myth. Cross Rock, of course, is a small 4x3 stretch of land found off the N coast of the continent that looks a bit like an arrow pointing N.
 
-#### Chutes-and-Ladders Dungeon
+### Chutes-and-Ladders Dungeon
 
 This is definitely one for which you'll want to cast S6:KAERU before entering. Getting out is a royal pain. Also, many of the monsters here are Giant-class (Trolls, Niatama, Triclops) so if you have a Giantslayer this is a good time to equip it. And in case I didn't say it enough before, this dungeon is optional so feel free to skip it.
 
@@ -823,7 +823,7 @@ To get out, just yell your recall word. What, you didn't cast S6:KAERU before co
 
 ------
 
-### BLACK ISLES
+## Black Isles
 
 Frustratingly, *Deathlord* goes back and forth on whether it offers you "direct" sailing clues that literally mean "start at this point and sail straight in that direction and you will find the next thing". Sometimes it says "go south" when it really means "meh, it's sort of westish and a bit south I guess?"
 
@@ -841,7 +841,7 @@ which repeats a clue you may have collected in the ruin of Wakai, if you spent a
 
 Said castle is on the larger central island.
 
-#### Red Shogun's Castle
+### Red Shogun's Castle
 
 *Services:* healing (Depetrify), tools, melee weapons (Naginata), missile weapons (Heavy Bow), armor (Yoroi)
 
@@ -872,7 +872,7 @@ I got *super* lucky and was able to M4:UGOKU in and out on the first try, despit
 
 Now to check out that dungeon everyone keeps talking about.
 
-#### Doors Dungeon
+### Doors Dungeon
 
 As was foretold... several times, at this point... the entrance to the Doors Dungeon is "behind", or rather 1N, of the Red Shogun's Castle. To get there you need to "sail around back", step onto the little patch of forest, and then `(E)nter` the mountains. There is no marking indicating the existence of the dungeon, you just have to decipher the hints and do the right thing in the right place.
 
@@ -922,13 +922,13 @@ One more teleporter in the SE corner takes you to **Level 6**, which is complete
 
 ------
 
-### LOST ISLES
+## Lost Isles
 
 In Towne Royal (and several other places on Asagata) you got a hint that there's an island just north of Towne Royal. This is another "direct" sailing clue; if you position your boat N of Towne Royal and sail three sectors straight north from there, you will in fact hit the portion of the Lost Isles containing the Cave of the Four Elements. That's doubly important because it's totally possible to sail right through the sector containing the Lost Isles without ever seeing land, if you get unlucky.
 
 Of course, we don't know why we're going here, what this place is called, or really what we're looking for. We just came here because some people told us there was an island, we still need two more words, and we're nearly out of other ideas. I can't say that "process of elimination" is my favorite way to win CRPGs, but here we are.
 
-#### Cave of the Four Elements
+### Cave of the Four Elements
 
 Before entering, you should know that this is a one-way dungeon: the exit from Level 1 to Level 2 is a chute and the only way up is to get all the way down to the bottom of Level 4. On the other hand, it's such an easy dungeon once you have the Ruby Ring that you don't really need S6:KAERU unless you feel like you want an insurance policy (or are just in the habit of doing so). You could totally hit this dungeon much earlier if you just want to blow a lot of castings of Z4:HITATE.
 
@@ -948,7 +948,7 @@ But *Deathlord* has one more brutal trick for you. It looks like you have to ste
 
 ------
 
-### ISLE OF THE DEAD
+## Isle of the Dead
 
 We're nearly there. It's time for the penultimate dungeon, and the last word we need to collect.
 
@@ -956,7 +956,7 @@ You got a handful of clues on Narawn telling you to sail "a little bit north" an
 
 Anyway, one sector north and three west of Narawn you'll find the Isle; there's nothing here besides the Pyramid, which is in the SW corner.
 
-#### Pyramid of the Old Ones
+### Pyramid of the Old Ones
 
 I know I say this a lot, but you *really, really* want to cast S6:KAERU before entering this dungeon. It is technically possible to exit without it but *boy howdy* is it annoying!
 

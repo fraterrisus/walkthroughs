@@ -1047,58 +1047,60 @@ The walkthrough itself is large enough that I've broken it out into three separa
       - [North Spindrift](./walkthrough-1.md#north-spindrift)
       - [Twin Rivers](./walkthrough-1.md#twin-rivers)
       - Sunken Temple (unwritten)
-- [Part II](./walthrough-2.md): Seven Words and Seven Relics
-    - Chigaku
-      - Fort Wintergreen
-      - Crystalmist
-      - Troll Hole
-      - Tower of Shumi
-    - Osozaki
-      - Deepingdale
-      - Wakai
-      - Telegrond
-    - Akmihr
-      - Oasis
-      - Sultan's Palace
-      - Desert Flower
-      - Kobito Mines
-      - Pyramid of Akhamun-Ra
-    - Narawn
-      - Lost Lagoon
-      - Kashiwa
-      - Fort Demonguard
-      - Malkanth
-    - Asagata
-      - Towne Royal / Makimura
-      - Croyo
-      - Fire Giants' Lair
-    - Collecting some Relics
-    - Giluin
-      - Kobar
-      - Shupan
-      - Linear Dungeon
-      - Temple of Oceanus
-    - Sirion
-      - Clearview
-      - Staircase Dungeon
-      - Greenbanks
-      - Chessboard Dungeon
-    - Tsumani
-      - Morningfrost
-      - Snowraven
-      - Chutes-and-Ladders Dungeon
-    - Black Isles
-      - Red Shogun's Castle
-      - Doors Dungeon
-    - Lost Isles
-      - Cave of the Four Elements
-    - Isle of the Dead
-      - Pyramid of the Old Ones
+- [Part II](./walkthrough-2.md): Seven Words and Seven Relics
+    - [Chigaku](./walkthrough-2.md#chigaku)
+      - [Fort Wintergreen](./walkthrough-2.md#fort-wintergreen)
+      - [Crystalmist](./walkthrough-2.md#crystalmist)
+      - [Troll Hole](./walkthrough-2.md#troll-hole): word #1
+      - [Tower of Shumi](./walkthrough-2.md#tower-of-shumi)
+    - [Osozaki](./walkthrough-2.md#osozaki)
+      - [Deepingdale](./walkthrough-2.md#deepingdale)
+      - [Wakai](./walkthrough-2.md#wakai)
+      - Telegrond (unwritten)
+    - [Akmihr](./walkthrough-2.md#akmihr)
+      - [Oasis](./walkthrough-2.md#oasis)
+      - [Sultan's Palace](./walkthrough-2.md#sultans-palace)
+      - [Desert Flower](./walkthrough-2.md#desert-flower)
+      - [Kobito Mines](./walkthrough-2.md#kobito-mines): word #2
+      - [Pyramid of Akhamun-Ra](./walkthrough-2.md#pyramid-of-akhamun-ra)
+    - [Narawn](./walkthrough-2.md#narawn)
+      - [Lost Lagoon](./walkthrough-2.md#lost-lagoon): the Blue Crystal
+      - [Kashiwa](./walkthrough-2.md#kashiwa)
+      - [Fort Demonguard](./walkthrough-2.md#fort-demonguard)
+      - [Malkanth](./walkthrough-2.md#malkanth): the Sharktooth
+    - [Asagata](./walkthrough-2.md#asagata)
+      - [Towne Royal / Makimura](./walkthrough-2.md#towne-royal--makimura)
+      - [Croyo](./walkthrough-2.md#croyo)
+      - [Fire Giants' Lair](./walkthrough-2.md#fire-giants-lair)
+    - [Collecting some Relics](./walkthrough-2.md#collecting-some-relics):
+      - Nyuku / Twin Rivers: the Sunspear
+      - Akmihr / Sultan's Palace: the Emerald Rod
+    - [Giluin](./walkthrough-2.md#giluin)
+      - [Kobar](./walkthrough-2.md#kobar)
+      - [Shupan](./walkthrough-2.md#shupan)
+      - Linear Dungeon (unwritten)
+      - [Temple of Oceanus](./walkthrough-2.md#temple-of-oceanus)
+    - [Sirion](./walkthrough-2.md#sirion)
+      - [Clearview](./walkthrough-2.md#clearview)
+      - [Staircase Dungeon](./walkthrough-2.md#staircase-dungeon): word #3
+      - [Greenbanks](./walkthrough-2.md#greenbanks): the Lantern of Kasumi
+      - [Chessboard Dungeon](./walkthrough-2.md#chessboard-dungeon): word #4
+    - [Tsumani](./walkthrough-2.md#tsumani)
+      - [Morningfrost](./walkthrough-2.md#morningfrost)
+      - [Snowraven](./walkthrough-2.md#snowraven)
+      - [Chutes-and-Ladders Dungeon](./walkthrough-2.md#chutes-and-ladders-dungeon)
+    - [Black Isles](./walkthrough-2.md#black-isles)
+      - [Red Shogun's Castle](./walkthrough-2.md#red-shoguns-castle): the Ruby Ring
+      - [Doors Dungeon](./walkthrough-2.md#doors-dungeon): word #5
+    - [Lost Isles](./walkthrough-2.md#lost-isles)
+      - [Cave of the Four Elements](./walkthrough-2.md#cave-of-the-four-elements): word #6
+    - [Isle of the Dead](./walkthrough-2.md#isle-of-the-dead)
+      - [Pyramid of the Old Ones](./walkthrough-2.md#pyramid-of-the-old-ones): word #7
 - [Part III](./walkthrough-3.md): Endgame
-  - Hell Island
-    - Skull Keep
-    - Hell
-    - Return to the Emperor (Kodan)
+    - [Hell Island](./walkthrough-3.md#hell-island)
+      - [Skull Keep](./walkthrough-3.md#skull-keep)
+      - [Hell](./walkthrough-3.md#hell): the Deathlord and the Black Orb
+      - [Return to the Emperor](./walkthrough-3.md#return-to-the-emperor-kodan) (Kodan)
 
 ## Final Notes
 

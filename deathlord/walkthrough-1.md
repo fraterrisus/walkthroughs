@@ -23,13 +23,13 @@ As our intrepid heroes begin their adventure, they'll meet the Emperor of Lorn a
 
 -----
 
-### Kodan
+## Kodan
 
 The continent of Kodan is where you start the game. It's also the largest continent on the map, taking up three sectors. You'll spend the entire first chunk of the game here, trying to earn enough money and/or prestige to acquire a boat. You'll also need to earn enough experience to not die immediately after leaving your home continent, but we'll cross that bridge when we get to it.
 
 (Just kidding: there are no bridges in *Deathlord*.)
 
-#### Kawa
+### Kawa
 
 *Services:* food, tools, melee weapons (Masakari), armor (Haramakido)
 
@@ -57,7 +57,7 @@ From the foyer head W down the hallway to find a few pots of gold. Back by the e
 
 For now, you're not powerful enough to take on either the guards in the E (there's more money there), the Daimyo in the SE (pointless, but hostile), or the Yakuza Guild. You can come back and handle these guys later; just remember, always let other people attack you first while you're in town. You can kill the Kaibu in the SW tower, if you really want to.
 
-#### Emperor's Palace
+### Emperor's Palace
 
 *Services*: food, healing (Resurrect)
 
@@ -87,7 +87,7 @@ Along with your front three, I recommend arming whoever's in slot 4 as well, bec
 
 Me? I'm going shopping.
 
-#### Tokugawa
+### Tokugawa
 
 *Services:* training, food, melee weapons (Naginata), missile weapons (Great Bow), armor (Yoroi), shipyard
 
@@ -119,7 +119,7 @@ The hallway the Zombies live in is dark, but that's okay. Work your way around t
 
 Once you dispatch him, find his treasure room, 1E and N of the right-hand door. There's a pit right inside the door. Yang plus his zombies are worth around 30XP total, which is barely worth the trouble.
 
-#### Tokushima
+### Tokushima
 
 *Services:* food, healing (Cure Disease), armor (Harame-do), shields (Medium)
 
@@ -135,7 +135,7 @@ The more interesting plot arrow is about **Senju**, who you may have heard of be
 
 Exploring around, you can find a healer in the SE, a food vendor just NE of the signpost, and an armor and shield(!) vendor in the NW. This is one of the few shield vendors in the game, and you should definitely acquire shields for most of your party. In the far SW is a building that contains some Yakuza that will attack you. There aren't any town guards here, but you don't want to lose the shield vendor, so let the Yakuza attack you first.
 
-#### Yokahama
+### Yokahama
 
 To get to the ruin of Yokahama, head to the starter caves, then go straight S until you hit water. Head E and then SE. Yokahama is tucked into some swamp to the SE.
 
@@ -153,7 +153,7 @@ Yokahama has been well and truly destroyed, and honestly there's not a ton to se
 
 I actually really like the design of this town / ruin. It's challenging but manageable for early parties, and eventually you get to explore the whole town and piece together the history of what was here and what happened to it.
 
-#### Starter Dungeon
+### Starter Dungeon
 
 When you get sick of fighting Skeletons (around Level 4 or so), go ahead and check out the caves in the center of the E portion of Kodan. You'll want a good bank of HP before you go taking on this dungeon; Ghouls can PARalyze, Stonebrows have high AC but fall pretty quickly to G1:HIBANA, Gremlins summon allies, and Kobito can be a challenge at this level. In the lower levels, Niatama attack twice per round and Harpies can DISease.
 
@@ -185,7 +185,7 @@ The stairs down are SE of where you came in, behind another false wall. As much 
 
 **Level 4:** Nothing much to say here. This dungeon has no purpose other than to be a starter dungeon, so the bottom level is kind of boring. I suppose Dungeon Lesson Number 5 is that dungeon floors vary in size, don't always fill out a nice 32x32 square, and you don't get a prize for touching the bottom. Take a screenshot to prove that you got this far, then head back to the surface whenever you want.
 
-#### Yakuza Guild (under Kawa)
+### Yakuza Guild (under Kawa)
 
 At this point, you should be cruising along pretty easily. If you can get all the way to the bottom of the Starter Dungeon you're doing pretty well. Outdoor fights shouldn't be a big deal anymore, and you're just looking to grind for some experience before taking on the tougher battles.
 
@@ -199,7 +199,7 @@ There are two treasure rooms; you reach them by stepping into the fire pit in ei
 
 Beware the Master Ninja behind the Guildmaster's door, who can critical-hit you (i.e. kill in one blow), but gives up around 1000 gp if you kill him.
 
-#### Kawahara's Dungeon (under the Palace)
+### Kawahara's Dungeon (under the Palace)
 
 You're not technically required to do this before you leave Kodan, but the Emperor did ask you to try to figure out what the hell is going on, and all the plot arrows you've gotten have pointed towards Kawahara waiting in the dungeons under the Palace. The early levels aren't so bad, but before you go take on Kawahara himself, it's not a bad idea to kill Yang the Necromancer (in [Tokugawa](#tokugawa)) first to see whether you're ready. Backup your game disks first, tho.
 
@@ -265,7 +265,7 @@ Too bad there's no town named Gold-Rock, although *Yokohama* is clearly overrun 
 
 Too bad there's no town named Oceanspray, either. However, if you go to Tokugawa (you know, where all the boats are) you'll be able to `(B)oard` one for free. Note that this is a one-time offer; if you find yourself back on Kodan without a boat (say, because you dispersed and reassembled your party), you will need to spend 10,000 gp to buy a new one.
 
-#### Leaving Kodan
+### Leaving Kodan
 
 So now you have this boat, but you don't really know what to do with it. Get used to that feeling; you'll have it a lot. Actually, once you leave Kodan, you'll wind up with more plot arrows than you know what to do with, but for the time being you don't really know what's going on. So let's tie up what few threads we do have, namely, places that we know exist but we haven't been able to get to without a boat.
 
@@ -279,7 +279,7 @@ If you haven't beaten up Yang the Necromancer yet, go for it.
 
 **Visit lovely Bone Island:** Our last [necessary] stop in Kodan is the other side of the continent, where we'll visit the other place we know about that we haven't been able to get to. Enter Tokushima from the E and find the islet in the SE corner with a ruined temple. The Shukenja hanging out in the temple tells you ($$) that Senju has fled north, and you should seek him between "the two rivers". Hey, the game map shows a town named "Two Rivers" on Nyuku! Since everyone else has been telling you to find Senju, and the game map shows a town named "Two Rivers" on the island of Nyuku, this seems like it might be a good idea. Let's head NW towards Nyuku and see if we can't find this Senju chap.
 
-#### Wakiza and Pirate's Den
+### Wakiza and Pirate's Den
 
 As I said above, this town and dungeon are completely optional. Most of the hints you learn here point you at other optional places. Also, you really want S4:DONASU before you tackle the Den, which means it isn't such a great place to grind for experience after getting your boat. But you can check out Wakiza, at least.
 
@@ -335,7 +335,7 @@ If, instead of following the teleporters, you use G6:UKU to get to the E half of
 
 ------
 
-### Nyuku
+## Nyuku
 
 Two sectors W and four N of Oceansp— sorry, "Tokugawa" — you'll find the continent of Nyuku. Keep in mind that Tokugawa is at the NW corner of a sector anyway, so you'll cross the first sector boundary very quickly.
 
@@ -353,7 +353,7 @@ Remember the sign in Tokugawa that said "Due south of the second stone" without 
 
 Follow the western coastline N until you find the twin towns of Spindrift. Two Rivers (where you'll find Senju) is slightly further N of them, also on the western coast.
 
-#### South Spindrift
+### South Spindrift
 
 *Services:* food, healing (Depetrify), tools, melee weapons (Naginata)
 
@@ -367,7 +367,7 @@ Rounding out the clues-for-cash in South Spindrift, the Deathlord can not be hit
 
 That's about it. There's a good healer here but not much else useful.
 
-#### North Spindrift
+### North Spindrift
 
 *Services:* training, food, missile weapons (Great Bow), specialty weapons, misc armor, shipyard
 
@@ -387,7 +387,7 @@ Near the centre [sic] of town you'll find the Seventh **Stone**, surrounded by g
 
 **Sennin**, an evil wizard, welcomes you (and other trespassers) to his home in the SW. He's a necromancer similar to Kawahara, including the ability to cast KOROSU. You can find him if you take the first door E after you enter his home. *Do not* take the last door W, through the hallway lined with fire; a party of Beholders awaits you at the far end. Beholders are some of the most difficult critters in the game; they level drain and also cast KOROSU. There's also a prison where you can free a prisoner, and a couple of secret treasure rooms in the hallway leading up to Sennin.
 
-#### Twin Rivers
+### Twin Rivers
 
 *Services:* food, healing (Raise), tools, melee weapons (Sai)
 
@@ -405,6 +405,6 @@ The only two things to be found off the beaten path are the graveyard in the nor
 
 Senju tells you to bring him "a **token** of your worth", by which he means "a blue crystal". He'll trade you that for a weapon that can be used to defeat evil "for all time". No word on where to find a Blue Crystal yet, although if you skip ahead it turns out that they're on [Narawn](./walkthrough-2.md#narawn) and that signpost kind of pointed us there without telling us why. This is another classic *Deathlord* move: tell you where to go, and tell you why to go there, but don't do both at the same time.
 
-#### Sunken Temple
+### Sunken Temple
 
 Sixteen levels of pointless nightmare. From reading other people's notes on this game, I've learned that there's a second Ruby Ring to be found here, but you have to have M7:UNPAN and it's still super annoying. Maybe someday I'll come back and write notes on how to get it. That day hasn't happened yet. Needless to say, I recommend you skip this dungeon altogether.

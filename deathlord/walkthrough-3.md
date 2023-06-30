@@ -6,14 +6,14 @@ Our heroes have traveled around the world, visiting a dozen continents. They've 
 
 The only thing left is to find the Deathlord himself, hiding at the bottom of the dungeons of Hell, and end his scourge once and for all.
 
-- HELL ISLAND
-  - Skull Keep
-  - Hell
-  - Return to the Emperor (Kodan)
+- [Hell Island](#hell-island)
+  - [Skull Keep](#skull-keep)
+  - [Hell](#hell)
+  - [Return to the Emperor](#return-to-the-emperor-kodan) (Kodan)
 
 ------
 
-### HELL ISLAND
+## Hell Island
 
 Time for the final assault. Hell Island is one sector north and four west of Chigaku, presuming that you have the Sharktooth. Land on the patch of open terrain, cast S6:KAERU one last time, and write down your escape word somewhere. No, really. Then rest up as needed.
 
@@ -23,7 +23,7 @@ Time for the final assault. Hell Island is one sector north and four west of Chi
 
 There's a fairly simply maze in the bottom half of the island: go E, E, N, E, N, W, W, W. Now, use the Ruby Ring a lot to walk through the fire, and if you pay attention to how many steps you take before you have to use it again, you'll be able to save yourself some HP in the long run. To get to the center, head W from the start of the fire, circle clockwise until you hit 12:00 and turn S, then head E and continue to circle clockwise until you hit the blackness. Head N to find the entrance to the keep.
 
-#### Skull Keep
+### Skull Keep
 
 The Keep is an 'indoor' area, which means three things:
 
@@ -39,7 +39,7 @@ There's no trick to the path here. You've got straight hallways, usually with fa
 
 Before you descend into hell, heal everyone, then use a macro to wait a long time to restore spell points. There aren't any wandering monsters here, remember.
 
-#### Hell
+### Hell
 
 Remember Malkanth, also known as "Hell on Earth", and how it was divided up into four different parts? The Hell dungeon is divided the same way. It's 16 levels deep and divided into four chunks: Shadow, Fire, Acid, and Death. Each section has a lord, but you can skip all of them except the Deathlord himself.
 
@@ -136,7 +136,7 @@ You then need to take the Black Orb. It's a Magic Item (slot 5) so you won't be 
 
 ------
 
-#### Return to the Emperor (Kodan)
+### Return to the Emperor (Kodan)
 
 Once you have the Black Orb, all that's left is to head back to the Emperor. There are three ways to do it:
 

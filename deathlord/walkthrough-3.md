@@ -19,7 +19,7 @@ Time for the final assault. Hell Island is one sector north and four west of Chi
 
 (If you're feeling particularly clever, you can cast S6:KAERU near the Emperor's Palace on Kodan and save yourself an ocean voyage.)
 
-"Via ad Infernum" means "the road to Hell" in Latin.
+*Via ad Infernum* means *the road to Hell* in Latin, in case you were wondering.
 
 There's a fairly simply maze in the bottom half of the island: go E, E, N, E, N, W, W, W. Now, use the Ruby Ring a lot to walk through the fire, and if you pay attention to how many steps you take before you have to use it again, you'll be able to save yourself some HP in the long run. To get to the center, head W from the start of the fire, circle clockwise until you hit 12:00 and turn S, then head E and continue to circle clockwise until you hit the blackness. Head N to find the entrance to the keep.
 
@@ -43,13 +43,15 @@ Before you descend into hell, heal everyone, then use a macro to wait a long tim
 
 Remember Malkanth, also known as "Hell on Earth", and how it was divided up into four different parts? The Hell dungeon is divided the same way. It's 16 levels deep and divided into four chunks: Shadow, Fire, Acid, and Death. Each section has a lord, but you can skip all of them except the Deathlord himself.
 
+All in all, there's not a whole lot to say about this dive; it's mostly straightforward *so long as you have all the Relics and words*, and more-or-less impossible if you don't. There are a few light navigation puzzles, but most of the levels are simply long and full of environmental effects that sap your resources. You'll obviously have to fight a bunch of nasty creatures, but you know your party and your tactics better than I do at this point.
+
 **Level 1:**
 
 > You have entered the realm of Malokorai of the Shifting Shadows, Lord of the Dark.
 
 Step E and `(U)se` the Lantern to cast light; nothing else will work down here.
 
-Watch out for Dark Demons, who level drain. Ha! Just kidding, they're black squares, so you won't be able to see them coming. Shades also level-drain. Lost Souls are cannon fodder that summon help, but they go down to HIBANA.
+Watch out for Dark Demons, who level drain. Ha! Just kidding, they're black squares, so you won't be able to see them coming. Shades also level-drain. Lost Souls are cannon fodder that summon help, but they go down to G1:HIBANA.
 
 The level itself is kind of pointless; there is a pool of acid and a pool of fire, but neither is worth exploring. Along the N wall (where you came in) there are several teleporters. Most of them teleport you to other parts of this level; two of them take you down to Level 2.
 
@@ -67,7 +69,7 @@ Head S, skip the treasure rooms (there are Dark Demons waiting inside), and navi
 
 Deep breath; you're 1/4 of the way there. The next realm is the realm of Fire, so you're going to need the Ruby Ring a whole lot.
 
-**Levels 5–6:** The Lantern is no longer any use down here, so before you step downstairs, use the Ring. Step S, then cast S3:MOAKARI. Then walk E until you find a safe square.
+**Levels 5–6:** *Before* you go downstairs, use the Ruby Ring. The Lantern is no longer any use down here, so step S and then cast S3:MOAKARI. Then walk E until you find a safe square.
 
 The sign you skipped over says:
 
@@ -79,13 +81,13 @@ Wind your way around through two levels (there's a teleporter in the NW of Level
 
 **Level 8:** Step S into a false wall. Then walk W a bunch and a bit N. The third Word gate is there (SEIYOKU), but just N of there is a real honest-to-god portcullis that you'll need to bash down. Say it with me: *Deathlord* hates you.
 
-You now enter the halls of the Lord of Fire. He's at the N end of the room; again, he doesn't move, so you can skip the battle.
+You now enter the halls of the Lord of Fire. He's at the N end of the room; again, he doesn't move, so you can walk right past him if you want.
 
 W of him there's a false wall with four magic pools, another room with four more to the S, and his "personal chambers" to the N (mind the pit). Find a secret door in the NE corner of that room for some cash, in case you've blown it all negotiating with monsters.
 
 Across the hall from that false wall (and S) is a room with dark, fire, acid, and energy fields. Don't drink from the pool, head N into the acid (Emerald Rod at the ready), `(Y)ell` the next word (DARAKU), and advance to the next section.
 
-Halfway there. If you haven't guessed, you're heading to the realm of Acid. Get your Emerald Rod ready.
+Halfway there. If you haven't guessed, you're heading to the realm of Acid.
 
 **Levels 9–11:**
 

@@ -293,7 +293,7 @@ The Den is technically accessible on foot in the N, but you have to walk through
 
 > Seven gates and seven clues, miss but one and you will lose
 
-Hell, it turns out, has seven **gates**, which align with the seven evils (aka the seven deadly sins). If you've been paying attention to the `(C)hat` clues, you know you've been told to find seven words. No one ever puts this together for you, but as a reward for reading a completely optional part of this walkthrough I'm going to let you in on a secret: the seven words you need to find are (bad) translations of the seven deadly sins into Japanese.
+Hell, it turns out, has seven **gates**, which align with the "seven evils". If you've been paying attention to the `(C)hat` clues, you know you've been told to find seven words. Later on you'll find out that you need the seven words to "pass" the seven gates. As a reward for reading a completely optional part of this walkthrough I'm going to let you in on a secret: the seven words are, ostensibly, translations of the seven deadly sins into Japanese... although you have to squint and turn your head a bit to make them line up.
 
 If you sail to the NE corner, you can navigate around some swamp and dock at the one spot where there isn't any. From there, look for a false wall E and it will take you to the entrance to the Pirate's Den.
 
@@ -307,7 +307,7 @@ Dock to the W. The rest of this level is a "maze" of small rooms with false wall
 
 **Level 4:** A bunch of cash to find here. If you walk around the perimeter, be aware of the large number of pits. But before you take one of the boats that are conveniently near the entrance and sail around, a few words of caution about using boats. If you're on a boat, you can't *disem(B)ark* onto another boat. If you disembark onto a teleporter from a boat, or otherwise can't get onto dry land adjacent to a boat you want to `(B)oard`, you may not be able to get to that boat again. This happens a lot on this level.
 
-In the NE corner of the map is a treasure room. Clear it out but don't walk through the false walls to the S, or you'll lose the use of this boat. Instead `(B)oard` your boat again and sail a little bit more S. *Disem(B)ark* through the false wall in the center of the E jetty; this drops you on a teleporter into the otherwise-inaccessible space W of here. Clean out the treasure – you only get one chance to do it – and then walk E to exit. You're now boatless, so work your way around the room clockwise, searching for pits as you go.
+In the NE corner of the map is a treasure room. Clear it out but don't walk through the false walls to the S, or you'll lose the use of this boat. Instead `(B)oard` your boat again and sail a little bit more S. `Disem(B)ark` through the false wall in the center of the E jetty; this drops you on a teleporter into the otherwise-inaccessible space W of here. Clean out the treasure – you only get one chance to do it – and then walk E to exit. You're now boatless, so work your way around the room clockwise, searching for pits as you go.
 
 Don't take the stairs yet. Find the false wall SW. Go 2W 3S 1E; if you go too far S, you'll hit a teleporter that takes you to the N side of the room. Useful for getting out of here; not helpful for getting to the treasure. Once you're past the teleport trap you will find five treasure rooms (one requires hooking 1N into a false wall). Clean them out, then go back.
 

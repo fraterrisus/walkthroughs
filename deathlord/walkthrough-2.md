@@ -8,7 +8,7 @@ Okay, stepping out of narrative mode for a moment, let's take stock. One of the 
 
 The best choice for the next continent to visit is actually Chigaku, because the dungeons are the right level for your party. If you're playing blind, it's actually more likely that you tried to find Chigaku after leaving Kodan (because it's "north" of the temple where you find the clue about Senju fleeing Kodan), and that wouldn't be so bad, but it made more narrative sense to send you straight to Senju first.
 
-I guess what I'm saying here is trust me, I'm sending you in the right directions to minimize backtracking. Because it's not like *Deathlord* gives you useful clues in that regard.
+I guess what I'm saying here is: trust me, I'm sending you in the right directions to minimize backtracking. Because it's not like *Deathlord* gives you useful clues in that regard. Hell, even the *official cluebook* uses a completely nonsensical ordering...
 
 - [Chigaku](#chigaku)
   - [Fort Wintergreen](#fort-wintergreen)
@@ -71,33 +71,33 @@ Along the NW coast of Chigaku lies Fort Wintergreen, a nice little stopping poin
 
 Senju passed through here on his way "north". It would be way more accurate to say that he took a left turn at Alberqu— uh, Chigaku— and headed for Nyuku, which is way more west of here than it is north. Have fun sailing north from Chigaku and not finding anywhere to land!
 
-There's a dungeon nearby known as the Troll Hole. It's in the swamps SE of here. While you're there, you should look for pools and search the fourth level, although there's no word on *why*. The pool in the 'Rec Room' is not useful, but there are lots of magic pools (of the good kind) in the Troll Hole.
+There's a **dungeon** nearby known as the **Troll Hole**. It's in the swamps SE of here. While you're there, you should look for **pools** and search the fourth level, although there's no word on *why*. The pool in the 'Rec Room' is not useful, but there are lots of magic pools (of the good kind) in the Troll Hole.
 
-Here's a bit of a spoiler: There's a Kichigai in the stockade that will tell you that Senju hid a word in the Troll Hole. The problem is you can't get to him without a Blue Crystal, because he's behind a Rakhammon's Curtain. So maybe you dive the Troll Hole not knowing what you're looking for, or maybe you completely forget to come back here after you figure out what Crystals are good for, or maybe you just read a good walkthrough that tells you what to do.
+Here's a bit of a spoiler: There's a Kichigai in the stockade that will tell you that Senju hid a **word** in the Troll Hole. The problem is you can't get to him without a Blue Crystal, because he's behind a Rakhammon's Curtain. So maybe you dive the Troll Hole not knowing what you're looking for, or maybe you completely forget to come back here after you figure out what Crystals are good for, or maybe you just read a good walkthrough that tells you what to do.
 
-The Evil One, who rules "the four hells", is immune to magic. Presuming that's the Deathlord, this has the potential to be a pretty serious problem. (Turns out that's only 99% true, about which more later.) The bit about four hells is germane, as well, which is also a very *Deathlord* thing to do: hide a significant point in a very subtle sentence.
+The **Evil One**, who rules "the four hells", is immune to magic. Presuming that's the Deathlord, this has the potential to be a pretty serious problem. (Turns out that's only 99% true, about which more later.) The bit about four hells is germane, as well, which is also a very *Deathlord* thing to do: hide a significant point in a very subtle sentence.
 
 ### Crystalmist
 
 *Services:* training, melee weapons (Naginata), missile weapons (Great Bow), armor (Yoroi), misc. armor
 
-The other town on Chigaku is in the NE and houses the continental trainer, which makes it a good base for diving the Troll Hole. By the way, the Hole was (supposedly) flooded years ago, but there have been reports of – wait for it – trolls in the area!
+The other town on Chigaku is in the NE and houses the continental trainer, which makes it a good base for diving the **Troll Hole**. By the way, the Hole was (supposedly) flooded years ago, but there have been reports of – wait for it – trolls in the area!
 
 There are also two important clues to be found here, both about the powerful relics you'll need to win the game.
 
-The first is about the Blue Crystals. The designers played a particular clever trick here; if you go walking around the *outside* of the city walls -–yes, there's *one* square of room to do so – you can find some Brigands who tell you that there are crystals to be found in the Lagoon, in a land S of Nyuko [sic]. There are several other opportunities to get clued into the location of the Crystals, though, if you miss this one (and the "due south of the second stone" clue from Nyuku).
+The first is about the Blue Crystals. The designers played a particular clever trick here; if you go walking around the *outside* of the city walls -–yes, there's *one* square of room to do so – you can find some Brigands who tell you that there are crystals to be found in the **Lagoon**, in a land S of Nyuko [sic]. There are several other opportunities to get clued into the location of the Crystals, though, if you miss this one (and the "due south of the second stone" clue from Nyuku).
 
-The other is about the Lantern of Kasumi, a great samurai from the past, which will "light your way"; this turns out to be a very subtle clue on how to navigate the Deathlord's domain, which is full of impenetrable darkness unless you can find the Lantern.
+The other is about the Lantern of **Kasumi**, a great samurai from the past, which will "light your way"; this turns out to be a very subtle clue on how to navigate the Deathlord's domain, which is full of impenetrable darkness unless you can find the Lantern.
 
-The "Home of Sotashi" houses a bunch of Ansatsusha that will attack you. There's also some Kabuto in the NE that attack on sight. I guess this is what happens when you bust down doors. On the other hand, you can also learn (NW, $$) that Shumi the necromancer lives in a tower on the SW part of the continent. That sounds like a dungeon, though it turns out to be optional.
+The "Home of Sotashi" houses a bunch of Ansatsusha that will attack you. There's also some Kabuto in the NE that attack on sight. I guess this is what happens when you bust down doors. On the other hand, you can also learn (NW, $$) that **Shumi** the necromancer lives in a **tower** on the SW part of the continent. That sounds like a dungeon, though it turns out to be optional.
 
 ### Troll Hole
 
-Okay, it's time to take on your first "word dungeon". It's only four levels, so not too bad, but it's absolutely covered in swamp. You'll want to make sure you have a full load of food before coming in here, because you'll be resting a lot. Okay great, let's check out the "Services" tabs and figure out where the nearest food vendor is... wait, **no one** on Chigaku sells food?! I have to sail to either Kodan or Nyuku to find a food vendor?! *What the hell.*
+Okay, it's time to take on your first "word dungeon". It's only four levels, so not too bad, but it's absolutely covered in swamp. You'll want to make sure you have a full load of food before coming in here, because you'll be resting a lot. Okay great, let's check out the "Services" tabs and figure out where the nearest food vendor is... wait, *no one* on Chigaku sells food?! I have to sail to either Kodan or Nyuku to find a food vendor?! *What the hell.*
 
-*sigh*
+(*sigh*) Well, I suppose it's an excuse to dust off Z4:TABEMONO, if you've got it.
 
-Well, at least the monsters aren't that big a deal: mostly Hobake, Kaibu, Trolls, and Skeletons. Trolls hit three times a round but are otherwise within your capabilities. As hinted at previously, there are an absolute ton of [magic pools](./walkthrough-0.md#using-magic-pools) here, so you can [save-scum](./walkthrough-0.md#managing-save-files) for some serious stat boosts if you're either using a good map or willing to drink a lot of dungeon water.
+At least the monsters aren't that big a deal: mostly Hobake, Kaibu, Trolls, and Skeletons. Trolls hit three times a round but are otherwise within your capabilities. As hinted at previously, there are an absolute ton of [magic pools](./walkthrough-0.md#using-magic-pools) here, so you can [save-scum](./walkthrough-0.md#managing-save-files) for some serious stat boosts if you're either using a good map or willing to drink a lot of dungeon water.
 
 **Level 1:** You're immediately standing in some swamp, so get moving. Step E and don't drink the water. Avoid the side rooms and work your way around clockwise to the first intersection. Go W, all the way S, and E. The stairs are in the SE, up a side passage not quite all the way at the end of the hall.
 
@@ -215,15 +215,15 @@ If you talk to the nearby Senshi, he tells you
 
 There's a Yakuza guild in the center-E of town. But there's no treasure there.
 
-On the North bank, which is to say the island in the NE of town, which can't be accessed without a boat, you'll find a house of "rich" Kobito. They do in fact have some gold to steal. Osozaki is also home to some ruins, formerly known as the town of Wakai, to the SW; and a dungeon, to the NE, which is 16 levels deep and run by a group of evil wizards.
+On the **North bank**, which is to say the island in the NE of town, which can't be accessed without a boat, you'll find a house of "rich" **Kobito**. They do in fact have some gold to steal. Osozaki is also home to some **ruins**, formerly known as the town of **Wakai**, to the SW; and a **dungeon**, to the NE, which is 16 levels deep and run by a group of evil wizards.
 
 ### Wakai
 
-The ruin formerly known as Wakai is in the mountains to the SW. Bandits and brigands mostly live here; many of them have nothing to say to you, and those that do want money.
+The ruin formerly known as **Wakai** is in the mountains to the SW. Bandits and brigands mostly live here; many of them have nothing to say to you, and those that do want money.
 
-There's an old condemned house on the N side of town, and we already know about the 16-level dungeon near Deepingdale. The shogun's residence has a few gp for your trouble, and the old armor+weapons combo shops have a hidden deposit room between them, behind a secret door.
+There's an old condemned **house** on the N side of town, and we already know about the 16-level **dungeon** near **Deepingdale**. The shogun's residence has a few gp for your trouble, and the old armor+weapons combo shops have a hidden deposit room between them, behind a secret door.
 
-You may find that evil things live in Pyramids, but not around here. And some dude called the Red Shogun has a dungeon behind his palace; you're encouraged to "sail around back". Not many people know who he is, though. I'd say this is an important clue (the Doors Dungeon, which is behind the Red Shogun's palace, is a word dungeon) but you'll get the same clue again once you find the palace itself, so it's not that important that you get it here.
+You may find that evil things live in **Pyramids**, but not around here. And some dude called the **Red Shogun** has a dungeon behind his palace; you're encouraged to "sail around back". Not many people know who he is, though. I'd say this is an important clue (the Doors Dungeon, which is behind the Red Shogun's palace, is a word dungeon) but you'll get the same clue again once you find the palace itself, so it's not that important that you get it here.
 
 Apart from a couple of Vampires behind a 'No Trespassing' sign, which you probably don't want to muck with, there's nothing much of value to learn, see, or do here.
 
@@ -233,7 +233,7 @@ As I've said before, the 16-level dungeons are optional. Don't do them; I didn't
 
 ------
 
-## AKMIHR
+## Akmihr
 
 Continuing our clockwise progression through "continents we can find from the game map", we now proceed to the southern hemisphere, where the climate is arid and the terrain gets more desert-and-scrublike to reflect it.
 
@@ -251,9 +251,9 @@ The motto of this place might as well be "come for the hints, stay for the grind
 
 A nice little place to stop by on your first visit to Akmihr, and probably the first place you'll find as it's in the NE part of the continent. The training academy and healer will come in handy once you start diving into the mines, and unlike Chigaku there's actually food for sale to sustain you through those long(?) dungeon dives.
 
-If you find a Kobito who wants money, he will clue you into the secret of his people: there is a set of mines to the SW of here, in which a word is hidden. Apart from the mines, there's also a second dungeon in the form of a pyramid, W of here. However, "a horrible fate awaits those who rob pyramids", and as you may have heard before, "evil things live in pyramids". So that trip promises to be fun for the whole family. We'll do it last, as per usual.
+If you find a Kobito who wants money, he will clue you into the secret of his people: there is a set of **mines** to the SW of here, in which a **word** is hidden. Apart from the mines, there's also a second **dungeon** in the form of a **pyramid**, W of here. However, "a horrible fate awaits those who rob pyramids", and as you may have heard before, "evil things live in pyramids". So that trip promises to be fun for the whole family. We'll do it last, as per usual.
 
-You may be interested in the palace of the Sultan, who rules this land, to the S, and the Mages Guild, which is in Desert Flower, though no one knows where that is. (It's right near the Palace, but it's tucked in among some cacti and hard to find.)
+You may be interested in the **palace** of the **Sultan**, who rules this land, to the S, and the Mages **Guild**, which is in Desert Flower, though no one knows where that is. (It's right near the Palace, but it's tucked in among some cacti and hard to find.)
 
 In the SW side of town, Grool the Wicked gets annoyed if you force your way into his temple and kill his skeletons, but he won't do anything about it.
 
@@ -263,15 +263,15 @@ In the SW side of town, Grool the Wicked gets annoyed if you force your way into
 
 Set sail down the E coast of Akmihr from Oasis and you'll soon find the Palace, accessible via boat or by land. An impressive building with a very important secret, and (in my opinion) one of the most well-designed cities in the game. Not much in the way of commerce though.
 
-It's also a little short on NPCs wandering around, but you can go find people to talk to in the Sultan's guest quarters (S then W). Two important clues you pick up there: a Mahotsukai tells you to 'search the garden', just E of the courtyard, and a Kobito tells you that there's a word in the mines, which are W of the palace (although you probably knew that already). You also get a repeat of the Mages Guild clue, but no further help finding Desert Flower.
+It's also a little short on NPCs wandering around, but you can go find people to talk to in the Sultan's guest quarters (S then W). Two important clues you pick up there: a Mahotsukai tells you to 'search the **garden**', just E of the courtyard, and a Kobito tells you that there's a word in the **mines**, which are W of the palace (although you probably knew that already). You also get a repeat of the Mages **Guild** clue, but no further help finding Desert Flower.
 
 Unlike many towns in *Deathlord*, the prisoners don't have much to tell you, although you can also pick up the garden clue there. If you do break into the prison, be aware that the Guards are little tougher down south.
 
-Finally, when you break into the garden and look around (there's a secret door in the SE), you find a lone Mahotsukai. He tells you that "the Rod" is in the tower. The 'tower' always refers to one corner of town, but which one? The palace has four of them. Further, the Emerald Rod provides immunity to acid (via unlimited charges of Z4:SANTATE). Sounds awfully useful!
+Finally, when you break into the garden and look around (there's a secret door in the SE), you find a lone Mahotsukai. He tells you that "the **Rod**" is in the **tower**. The 'tower' always refers to one corner of town, but which one? The palace has four of them. Further, the Emerald Rod provides immunity to acid (via unlimited charges of Z4:SANTATE). Sounds awfully useful!
 
 So I guess that means we're going to look through the towers. The NW one is accessible from the docks; lots of fire, otherwise useless.
 
-The SW tower has a sign that says 'enter the pyramid through the gate of the rising sun'. If you haven't heard about the <u>pyramid</u> that's W of here yet, ask someone on the street. "Rising Sun" is a clue that you want to enter from the E side of the building; the other entrances are fakes.
+The SW tower has a sign that says 'enter the pyramid through the gate of the rising sun'. If you haven't heard about the **pyramid** that's W of here yet, ask someone on the street. "Rising Sun" is a clue that you want to enter from the E side of the building; the other entrances are fakes.
 
 To the NE you'll find the Sultan's quarters. He seems a nice enough fellow. You can rob him blind, though you have to pass two magic fields which take 50% of your HP as you pass. Also I enjoyed the part where the guards waiting in the hallway attacked me, while the guards in the Sultan's chambers (and the Sultan himself) sat and watched.
 
@@ -287,21 +287,21 @@ Since we don't have a Blue Crystal yet, I guess we're going to have to come back
 
 In order to track down the elusive Mages' Guild, you have to find Desert Flower. It's rather close to the Sultan's Palace, but hard to spot – it's tucked into among the cacti just across the inlet N of the palace, invisible from the water but quickly found if you start exploring on foot.
 
-I guess if you're going to have a Sorcerer's Guild, you might as well advertise it on your town sign? I guess that means we've found Desert Flower.
+I guess if you're going to have a Sorcerer's **Guild**, you might as well advertise it on your town sign? I guess that means we've found Desert Flower.
 
 A Kobito tells you to look a bit SW of town. If you brave the cacti and head into the mountains, you find a signpost that says
 
-> NOT ALL SEAS ARE AS THEY APPEAR
+> Not all seas are as they appear
 
 which is an incredibly obscure clue – I'm just gonna spoil this for you now – that hints at the function of the Sharktooth, which reveals the location of Hell Island. Without the tooth, you can sail right through that sector without hitting land. Fortunately(?) there's a much less obscure version of this same clue if you dive the nearby [Pyramid](#pyramid-of-akhamun-ra).
 
-Don't waste your time in the residences to the SW; the Guild is where the good hints are. You will learn that you need to find five relics: the Lantern, the Rod, the Ring, the Spear, and the Tooth. Senju has the Spear, which fits in with some other clues we've heard and makes getting a Crystal a top priority. The Crystal is also a relic, and we can find one in the Lagoon – still no word on where that is though. The Tooth is in Malkanth, a legendary town populated by demons.
+Don't waste your time in the residences to the SW; the Guild is where the good hints are. You will learn that you need to find five **relics**: the Lantern, the Rod, the Ring, the Spear, and the Tooth. Senju has the **Spear**, which fits in with some other clues we've heard and makes getting a Crystal a top priority. The Crystal is also a relic, and we can find one in the Lagoon – still no word on where that is though. The Tooth is in **Malkanth**, a legendary town populated by demons.
 
 Finally: some extremely clear hints about the goals of the game and where to go! Took you long enough...
 
 ### Kobito Mines
 
-Some of *Deathlord*'s dungeons are really well put together. Some show off a theme, and are fun to get to know. Some present really challenging navigation puzzles. Some are more important than others, what with hiding a word (like this one) or an artifact. The Kobito Mines, though? The main thing going on here is combat. **A lot of combat**. This is a fantastic place to grind levels, because Kobito are fairly straightforward to fight, they have no special attacks, and they return 14xp each. I cleared two (character) levels without even trying. And there's a training academy not far from here.
+Some of *Deathlord*'s dungeons are really well put together. Some show off a theme, and are fun to get to know. Some present really challenging navigation puzzles. Some are more important than others, what with hiding a word (like this one) or an artifact. The Kobito Mines, though? The main thing going on here is combat. *A lot of combat*. This is a fantastic place to grind levels, because Kobito are fairly straightforward to fight, they have no special attacks, and they return 14xp each. I cleared two (character) levels without even trying. And there's a training academy not far from here.
 
 And of course, at the bottom, there's a word to be found. Depending on how you look at it, the Mines are either a nasty navigation puzzle or a complete anti-climax. The word is on Level 4, which is the bottom level. Getting down is easy, and you're more likely than not to do it accidentally because there are hidden chutes everywhere and avoiding them is hard. That also means working your way back up is painful. But to make things easier(?), there's a joined staircase that takes you directly from Level 1 all the way down to Level 4 and back up again. If you can find it. That's the anti-climax part.
 
@@ -342,18 +342,16 @@ Immediately to the N after the first pit there's a secret door. In a nasty bit o
 Go back out to the first hallway and continue W. From the main four-way intersection in the center of the tomb, you can:
 
 1. Go S and follow the hallway around. You'll come to a small room with an acid pool. There's a false wall W of the pool. Follow that around to a tomb with four coffins – careful, some of them are full of Mummies. The gate to the S is a red herring (the burial room beyond is empty).
-2. Go N and follow the hallway around. The first branch W is useless. You will have some trouble getting past the Tomb Robbers that are in the hallway. You do have the option of attacking them. For laughs, ask them about pyramids. They also seem to know a few things about words and the dungeon (aka the Kobito Mine), but nothing you don't already know.
+2. Go N and follow the hallway around. The first branch W is useless. You will have some trouble getting past the Tomb Robbers that are in the hallway. You do have the option of attacking them. For laughs, ask them about **pyramids**. They also seem to know a few things about **words** and the **dungeon** (aka the Kobito **Mine**), but nothing you don't already know.
 
-In the next branch to the N, you'll find a room that the Robbers have already looted ("We got here first!"). But one of the Robbers is stationary, and he has a hint: search 'east' in the chamber of fire, which is in the SW. Let's go check that out now; the rest of this hallway is empty.
+In the next branch to the N, you'll find a room that the Robbers have already looted ("We got here first!"). But one of the Robbers is stationary, and he has a hint: search 'east' in the **chamber** of fire, which is in the SW. Let's go check that out now; the rest of this hallway is empty.
 
-3. Go W. There's a handful of side passages here. The first turn-off is S. Continue S to the chamber of fire – aha! There are two secret doors, E and S. Behind the E door is a room full of Mahotsukai with some of the most useful
-
-clues in the game, in terms of explaining the plot and what you have to do:
+3. Go W. There's a handful of side passages here. The first turn-off is S. Continue S to the chamber of fire – aha! There are two secret doors, E and S. Behind the E door is a room full of Mahotsukai with some of the most useful clues in the game, in terms of explaining the plot and what you have to do:
 
 > "Seven words to pass the gates. Each word can be found deep in a dungeon."
 
-If you ask about words: "Seven words for the seven ancient evils."
-If you ask about gates: "Do you mean the gates of hell?"
+If you ask about **words**: "Seven words for the seven ancient evils."<br />
+If you ask about **gates**: "Do you mean the gates of hell?"
 
 As a bonus you get to hear about another artifact and what it's for:
 
@@ -371,7 +369,7 @@ Head back to the central room and find that secret door; it's in the NE, and you
 
 ------
 
-## NARAWN
+## Narawn
 
 The land of Narawn is not particularly easy to find, although the easiest way to get there is to sail 10 sectors directly south (or six north, if you're looking at a world map) of Nyuku. That puts it 5W 2S of Akmihr and 5S 2W of Kodan.
 
@@ -389,9 +387,9 @@ Sure enough if you find the right building (it's just SE of the W entrance), the
 
 It's hard-ish to get between different sides of the map, so you'll probably exit the town and re-enter from different sides depending on what you're looking for. The crystals are best found W, along with most merchants. The tools shop is found E, along with the home of a bunch of angry Kichigai.
 
-There's an old volcano in the center of this continent that contains an evil place called Malkanth. It hides "a mighty artifact", which sounds a lot like the Sharktooth we heard so much about on Akmihr, so I guess we should go there. While you're in Malkanth, "keep to the shadows".
+There's an old **volcano** in the center of this continent that contains an evil place called **Malkanth**. It hides "a mighty artifact", which sounds a lot like the Sharktooth we heard so much about on Akmihr, so I guess we should go there. While you're in Malkanth, "keep to the shadows".
 
-There's a town S of here called Kashiwa, but you'll need a ship to get around.
+There's a town S of here called **Kashiwa**, but you'll need a ship to get around.
 
 It's tempting to run straight back to Senju now that you have a Blue Crystal, but maybe let's explore the rest of this continent and pick up that other relic first, eh?
 
@@ -403,11 +401,11 @@ If you sail around the rest of Narawn you'll figure out two things: there's noth
 
 Enter by boat (from either the N or W). The NW corner of town is partitioned off from the rest and is only reachable with a boat. In that corner you'll find the two armor shops (and nothing else). There's plenty of other shopping to be found throughout the rest of town.
 
-Everything else is accessible by land. For direction-finding, you can learn that the village of Lost Lagoon is N of here – nice to see two towns that give out directions to each other, for once. Fort Demonguard is just to the E; its occupants hold back the demons from the fiery pit of Malkanth.
+Everything else is accessible by land. For direction-finding, you can learn that the **village** of Lost Lagoon is N of here – nice to see two towns that give out directions to each other, for once. Fort **Demonguard** is just to the E; its occupants hold back the demons from the **fiery pit** of **Malkanth**.
 
 A Ronin tells you to search the academy. In a secret closet W off the trainer's hall, there's a Yakuza that tells you ($$) that there's a word under a pyramid, "north of the coast and due west". This points you at the Isle of the Dead, not that you have a name for it yet.
 
-A Shizen (in the NW) tells you to check the loops in the canal. There are no secret doors there, but there is a false wall; however, you can't sail a boat through a false wall, so you have to try *disem(B)arking* through the walls to find the false one. Once you do, a Mahotsukai tells you to search "the shrine of chaos", which doesn't mean much yet.
+A Shizen (in the NW) tells you to check the **loops** in the canal. There are no secret doors there, but there is a false wall; however, you can't sail a boat through a false wall, so you have to try `disem(B)arking` through the walls to find the false one. Once you do, a Mahotsukai tells you to search "the shrine of chaos", which doesn't mean much yet.
 
 The Daimyo of Kashiwa (SE corner) is not friendly, but also not really worth killing.
 
@@ -417,13 +415,13 @@ The Daimyo of Kashiwa (SE corner) is not friendly, but also not really worth kil
 
 Fort Demonguard is in the W side of the volcano in the center of Narawn, providing a gateway to "the town of evil", Malkanth. It's "heavily guarded", although that doesn't really mean much in practice unless you're in the habit of raiding villages, pissing off the town guards, and disk-swapping to restore. I *definitely* wouldn't do that here.
 
-There's not a lot to be found here; a healer in the NW, and good weapons and armor merchants in the E. In the Guest Chambers to the SW you can find a Yabanjin who says that he comes from Snowraven, which he claims is far E of here. (He's wrong, in that charming tradition of NPCs that don't know what they're talking about; Tsumani is directly SW of here, and there's enough between here and there that I'm not sure how you could sail E of Narawn and end up on Tsumani unless you already knew what you were doing.)
+There's not a lot to be found here; a healer in the NW, and good weapons and armor merchants in the E. In the Guest Chambers to the SW you can find a Yabanjin who says that he comes from **Snowraven**, which he claims is far E of here. (He's wrong, in that charming tradition of NPCs that don't know what they're talking about; Tsumani is directly SW of here, and there's enough between here and there that I'm not sure how you could sail E of Narawn and end up on Tsumani unless you already knew what you were doing.)
 
 When you break into the prison (SE) you'll be able to tell the prisoners that will attack you from the ones that won't, because the former won't move away from the gate while the latter ones will. One set of Smoke Demons will tell you that the Pyramid of the Old Ones is W and a bit N of here; this matches the pyramid clue from Kashiwa. The place has a name and we've been pointed there twice; sounds important.
 
 Finally, there a handful of Unicorns that will tell you to sail E to get to "the temple", which is a (unnamed) pointer towards Giluin and the Temple of Oceanus. And, of course, like Nyuku to Narawn, it's actually faster to get there sailing the other way around the world.
 
-Okay, three pointers to useful places, two of which are correct and one is quite wrong. What's left? Oh yeah, we came here looking for Malkanth, which apparently lies through the gate at the E end of the Fort. I have to say, though, these windows out the E side of the building don't look good. There's an awful lot of fire out there. But I suppose it is an active volcano. Maybe we want some fire protection before we go much further?
+Okay, three pointers to useful places, two of which are correct and one is quite wrong. What's left? Oh yeah, we came here looking for **Malkanth**, which apparently lies through the **gate** at the E end of the Fort. I have to say, though, these windows out the E side of the building don't look good. There's an awful lot of fire out there. But I suppose it is an active volcano. Maybe we want some fire protection before we go much further?
 
 To exit towards Malkanth, you'll need to bust down a portcullis and a door and make your way through a magic field. So it's a good thing you picked up a Blue Crystal already, right? You can also use M4:UGOKU from near the windows to try to bypass most of the doors. In any case, you don't actually need fire protection just yet.
 
@@ -435,7 +433,7 @@ I know it looks weird for a dungeon to have services, but stick with me here.
 
 As you exit Fort Demonguard, you're dropped back on the world map inside the volcano. No enemies spawn here, so it's a great place to rest up. You'll want to cast Z4:HITATE before you actually enter Malkanth, though. If you really want to explore the whole place, you'll probably want to get the Emerald Rod first, but if you're willing to skip to the good bits, head to the SE corner and you can pick up the Sharktooth right now.
 
-Malkanth, or "hell on earth" as the guards like to call it, is broken up into four areas, which "mirror the four spheres of Hell". The NW corner is "shadow", the SW is "acid", the NE is "fire", and the SE is the "seat of it's ruler" [sic]. Treat Malkanth like a town; demons will generally tolerate your presence unless you attack someone, and you really don't want this whole place bearing down on you, even if the Demonguard would appreciate the effort.
+Malkanth, or "hell on earth" as the guards like to call it, is broken up into four areas, which "mirror the four spheres of **Hell**". The NW corner is "shadow", the SW is "acid", the NE is "fire", and the SE is the "seat of it's ruler" [sic]. Treat Malkanth like a town; demons will generally tolerate your presence unless you attack someone, and you really don't want this whole place bearing down on you, even if the Demonguard would appreciate the effort.
 
 **NW corner (Shadow):** Not a lot going on here; some easy-to-dodge patches of fire. The SW building has a tomb with a bunch of open coffins; "take your pick", says the helpful demon. There's a secret entrance in the S wall of the SE building, but the only thing inside is a Lich in his coffin and you don't really want any of that. The northern building has a weaponsmith. Remember that hint to "stick to the shadows"? Totally does not apply here.
 
@@ -467,13 +465,13 @@ The nearby "shrine of the unnamed god" is a healer that can depetrify, but you l
 
 The Daimyo (SE) doesn't like it when you break into his home. But if you kill him you can steal his boat!
 
-The essential clue you need is that there's an island almost direct N from here. This points you towards the Lost Isles.
+The essential clue you need is that there's an **island** almost direct N from here. This points you towards the Lost Isles.
 
-Other bits of local color include a pointer towards the nearby dungeon, a lair of fire giants in the Ash Mountains where they mine gold. You're probably not hurting for gold, but it might be worth checking out. Meanwhile, a Kobito will tell you ($$) that "the mines" are rich in gold. But if you ask about a mine, they tell you that the Kobito have one in the hills of Akmihr. (A nice pointer, if you don't already know about it.)
+Other bits of local color include a pointer towards the nearby **dungeon**, a lair of fire giants in the Ash Mountains where they mine gold. You're probably not hurting for gold, but it might be worth checking out. Meanwhile, a Kobito will tell you ($$) that "the mines" are rich in gold. But if you ask about a **mine**, they tell you that the Kobito have one in the hills of Akmihr. (A nice pointer, if you don't already know about it.)
 
-While you're in Croyo, you should definitely look for the key. (Hint: you should not look for the key.)
+While you're in **Croyo**, you should definitely look for the key. (Hint: you should not look for the key.)
 
-There's a Mages Guild in Oasis, which is also a town in Akmihr. This is not quite true; there is a Mages Guild in Akmihr, but it's in Desert Flower, not Oasis. I can't complain too much, though, because the people in Oasis will tell you it's in Desert Flower, and at least you're on the right continent at that point? God, this game has really lowered my standards for NPCs giving out "accurate" information.
+There's a **Mages Guild** in **Oasis**, which is also a town in Akmihr. This is not quite true; there is a Mages Guild in Akmihr, but it's in Desert Flower, not Oasis. I can't complain too much, though, because the people in Oasis will tell you it's in Desert Flower, and at least you're on the right continent at that point? God, this game has really lowered my standards for NPCs giving out "accurate" information.
 
 ### Croyo
 
@@ -487,25 +485,25 @@ Things to do:
 
 Seriously. You can visit the Daimyo in the N and rob him blind; he doesn't seem to mind. If you check out his hedge maze you can find the Toshi Home E and the Kobito Home W. Neither is helpful.
 
-The clues aren't even any good. A bunch of Kobito came to Croyo; then a bunch of them disappeared. The nearby dungeon is a lair of giants on the N coast. Even the "important" clue, which you get from a skeleton hanging out in the graveyard, doesn't help; he tells you to search his grave in Greenbanks, which is a set of ruins S of here. But not *directly* S; Sirion is actually pretty hard to find from here, but more on that later.
+The clues aren't even any good. A bunch of **Kobito** came to Croyo; then a bunch of them disappeared. The nearby **dungeon** is a lair of **giants** on the N coast. Even the "important" clue, which you get from a skeleton hanging out in the graveyard, doesn't help; he tells you to search his grave in **Greenbanks**, which is a set of ruins S of here. But not *directly* S; Sirion is actually pretty hard to find from here, but more on that later.
 
-Oh, and that key you were supposed to find in Kobito Home? It's a key-shaped room filled with fire that contains a hint that you can also get in Towne Royale, without having to *walk through fire* to get it. This is yet another example of how much *Deathlord* hates you.
+Oh, and that **key** you were supposed to find in Kobito Home? It's a key-shaped room filled with fire that contains a hint that you can also get in Towne Royale, without having to *walk through fire* to get it. This is yet another example of how much *Deathlord* hates you.
 
 Also, I wouldn't piss off the guard here if I were you. Check out the barracks just N of the SE graveyard. On the other hand... given how useless this town is, you could give it a shot if you wanted to get into a fight with a ton of guards. It's not like you ever need to come back here.
 
 ### Fire Giants' Lair
 
-There's no point to tackling this dungeon other than loot. You can make **a lot** of money down here; Fire Giants hit *hard*, but they carry some good stuff, and occasionally give up to 1000 gp after battle. I picked up a Thunderblade and a Powerstaff off them without leaving Level 1. It's not a bad place to grind for levels, either, but plan on casting ALNASU a lot, and keep an eye on your spell points. Not too many special attacks down here, but you can get PARalyzed.
+There's no point to tackling this dungeon other than loot. You can make *a lot* of money down here; Fire Giants hit *hard*, but they carry some good stuff, and occasionally give up to 1000 gp after battle. I picked up a Thunderblade and a Powerstaff off them without leaving Level 1. It's not a bad place to grind for levels, either, but plan on casting S6:ALNASU a lot, and keep an eye on your spell points. Not too many special attacks down here, but you can get PARalyzed.
 
 **Level 1:** A bunch of water (don't drink it) and swamp. There's not much to note here, except that the false wall that hides the stairs is in the S-most corridor and is behind a bunch of swamp, just to be annoying.
 
 **Level 2:** And now we get to see the cutesy theme of this dungeon. There's an enormous fire pit in the N part of this level, and in the middle is a sign saying:
 
-> \* SWIMMING ONLY *
-> NO COOKING FOOD
+> \* SWIMMING ONLY \*<br/>
+> NO COOKING FOOD<br />
 > OR HUMANS ALLOWED
 
-...right, because where else would Fire Giants swim? *sigh* Okay, I get it.
+...right, because where else would Fire Giants swim? (*sigh*) Okay, I get it.
 
 Fortunately the stairs down are right next to the stairs up.
 
@@ -563,11 +561,11 @@ The Temple of Oceanus is on the W coast, so you may find it first. But I write t
 
 You'll have to get off your boat and go exploring on foot in order to find Kobar, tucked into a copse of trees in the NE of Giluin.
 
-Kobar is a tiny village with few services and few hints. The most useful of the lot is from a Shukenja in the SE, who mentions that Tohei the cleric guards the Shrine of Oceanus. He's hanging out in a garden at the temple SW of here. Meanwhile, a Ryoshi sitting alone in his home to the SW will encourage you to search the Temple, and a Yakuza says that there's good loot to be found there. If you can't trust a Yakuza to point you towards good loot (hint: you can't), who can you trust? No one, not even me, because on my playthrough I was basically swimming in gold from the time I left Kodan.
+**Kobar** is a tiny village with few services and few hints. The most useful of the lot is from a Shukenja in the SE, who mentions that **Tohei** the cleric guards the **Shrine** of **Oceanus**. He's hanging out in a garden at the **temple** SW of here. Meanwhile, a Ryoshi sitting alone in his home to the SW will encourage you to search the Temple, and a Yakuza says that there's good loot to be found there. If you can't trust a Yakuza to point you towards good loot (hint: you can't), who can you trust? No one, not even me, because on my playthrough I was basically swimming in gold from the time I left Kodan.
 
-You can also find out that there's an extremely tough dungeon N of here. It's sometimes referred to as the "linear dungeon" because most of the upper levels are straight hallways. It's also totally optional, maddeningly designed, full of treasure, and by the way the bottom floor may well be the deadliest place in the entire game. So naturally we'll be skipping it completely.
+You can also find out that there's an extremely tough **dungeon** N of here. It's sometimes referred to as the "linear dungeon" because most of the upper levels are straight hallways. It's also totally optional, maddeningly designed, full of treasure, and by the way the bottom floor may well be the deadliest place in the entire game. So naturally we'll be skipping it completely.
 
-Many people will tell you that a guy named Chin runs the training academy, and apparently, he's the best. Unfortunately, Chin's place is just a Senshi saying "You cannot pass" and a room full of hostiles behind him. The *actual* trainer (where you can, ya know, purchase new levels) is just NW of the central fountain, but his name is Mad Ying.
+Many people will tell you that a guy named **Chin** runs the training academy, and apparently, he's the best. Unfortunately, Chin's place is just a Senshi saying "You cannot pass" and a room full of hostiles behind him. The *actual* trainer (where you can, ya know, purchase new levels) is just NW of the central fountain, but his name is Mad Ying.
 
 One of the gravestones marks the Tomb of the Unknown Peasant. Aww, that's touching. Almost as touching as the Kosaku who can't find his father's grave. Actually, that's just mean. Uh, never mind.
 
@@ -577,17 +575,17 @@ One of the gravestones marks the Tomb of the Unknown Peasant. Aww, that's touchi
 
 Shupan is also hidden from view by boat, surrounded by mountains in the SE. The shops are all conveniently in the center of town.
 
-The Temple of Akuma, god of night, is in the SE. It's an odd building; start with the fact that the front door is false walls, and that it's populated with Dark Toshi that won't talk to you. At the end of the day, though, it is a temple, and you can `(B)uy` healing services from them.
+The Temple of **Akuma**, god of night, is in the SE. It's an odd building; start with the fact that the front door is false walls, and that it's populated with Dark Toshi that won't talk to you. At the end of the day, though, it is a temple, and you can `(B)uy` healing services from them.
 
 The Daimyo is hostile, and has some small bits of cash. Break into the 'No Admittance' rooms hidden behind the armor shop and you'll run into a bunch of Mahotsukai to fight off. And there are two parties of Toshi in one of the rooms in the SW.
 
-A Kishi will tell you that strange people go in the house W. But there is no house W... or at least not one with an obvious door. However, there is a one-square ring around the outside of the city walls, and if you sneak around there you can find an entrance to that house with a Dark Toshi who tells you to search the temple. (Not the Temple of Akuma, apparently, but the Temple of Oceanus.)
+A Kishi will tell you that strange people go in the house W. But there is no house W... or at least not one with an obvious door. However, there is a one-square ring around the outside of the city walls, and if you sneak around there you can find an entrance to that house with a Dark Toshi who tells you to search the **temple**. (Not the Temple of Akuma, apparently, but the Temple of Oceanus.)
 
-A Kosaku says that he's seen strange lights in the old house in the northwest [sic] end of town. It's actually in the north**east**, and I already get 'east' and 'west' confused a lot when I'm typing so I assumed this was my mistake until I cross-checked it against some other gamers' work. Anyway, the house itself is marked with a sign saying it's been condemned by the Daimyo.
+A Kosaku says that he's seen strange lights in the **old house** in the northwest [sic] end of town. It's actually in the northeast, and I already get 'east' and 'west' confused a lot when I'm typing so I assumed this was my mistake until I cross-checked it against some other gamers' work. Anyway, the house itself is marked with a sign saying it's been condemned by the Daimyo.
 
-Elsewhere, a Shisai tells you that there's a monk who lives on the N shore, behind the house. Be forewarned, though, there are Banshees inside, and as always you have to let them attack first; you can bypass the weird house by going around to the N and using G6:UKU, though. There's a Shukenja in a house on the island in the NW corner (who looks a lot like the guy on Bone Island) that tells you that Cerberus guards the gates of Hell. Regurgitated line from mythology, or clue to the endgame? You decide.
+Elsewhere, a Shisai tells you that there's a **monk** who lives on the N shore, behind the house. Be forewarned, though, there are Banshees inside, and as always you have to let them attack first; you can bypass the weird house by going around to the N and using G6:UKU, though. There's a Shukenja in a house on the island in the NW corner (who looks a lot like the guy on Bone Island) that tells you that Cerberus guards the gates of Hell. Regurgitated line from mythology, or clue to the endgame? You decide.
 
-There's apparently a dungeon N of Kobar, which is N up the coast from here, but as I've already said we're going to skip it.
+There's apparently a **dungeon** N of **Kobar**, which is N up the coast from here, but as I've already said we're going to skip it.
 
 ### Linear Dungeon
 
@@ -601,7 +599,7 @@ Oceanus, the Lord of the Deeps, has a four-part temple for you to explore, inclu
 
 **NW corner:** Start by entering from the N, and tying up on the dock W. Some Shisai will give you the blessings of Oceanus. To the NE there's a room with some pots, and some pits waiting for you to fall into them. The sign says "Greed is a sin – repent!" which is only slightly more than just a sick joke; it's also a reminder that the seven words you are collecting go with the seven deadly sins, of which greed is, uh, oddly not one. Well, forget I said anything, I guess.
 
-The confessionals are empty, but the rooms just S of there have some folks in them. A Senshi tells you to "disembark at the entry", which is a hint you may recognize from Kashiwa; there are false walls along the town's canals, which you can only pass through by *disem(B)arking*. We'll get there in a bit.
+The confessionals are empty, but the rooms just S of there have some folks in them. A Senshi tells you to "disembark at the entry", which is a hint you may recognize from Kashiwa; there are false walls along the town's canals, which you can only pass through by `disem(B)arking`. We'll get there in a bit.
 
 The SW part of this quadrant has a full-service healer. Now head back to your boat and cross the canal just to the E.
 
@@ -609,7 +607,7 @@ The SW part of this quadrant has a full-service healer. Now head back to your bo
 
 Head S from where you docked – or take the "shortcut" through the useless room to the SW of the garden instead – and find the foyer for the crematorium with a view out onto the graveyard. The crematorium is pointless, but its door is in line with the arrow. Keep heading directly S from there, and you'll go out into the hallway. 24S of the pond is the S wall, which contains a secret door. Beyond the door is a Mahotsukai – they always have the best hints, don't they? – who tells you that "one of the words is in a pyramid". Well, we already cleaned out Akhamun-Ra's pyramid, so there must be another one somewhere...
 
-But we're not done with this quadrant. Let's check out the disembarking clue from the NW. Turns out that there's a false wall 1S from the northern entrance on the E side. That takes you down a long hallway E, and then another S. It's a dead-end, but just after you turn the corner you can disembark again W and find a little patch of forest. There, hiding in the SW corner, is a Shisai that demands more than 100gp to tell you to "search the maze" in the SE quadrant. I guess that's not too surprising; why would anyone put a maze unless there was something to be found there? Oh, right, *Deathlord* would totally do that.
+But we're not done with this quadrant. Let's check out the disembarking clue from the NW. Turns out that there's a false wall 1S from the northern entrance on the E side. That takes you down a long hallway E, and then another S. It's a dead-end, but just after you turn the corner you can disembark again W and find a little patch of forest. There, hiding in the SW corner, is a Shisai that demands more than 100gp to tell you to "search the **maze**" in the SE quadrant. I guess that's not too surprising; why would anyone put a maze unless there was something to be found there? Oh, right, *Deathlord* would totally do that.
 
 By the way, this isn't the only place where you should disembark near the entrance.
 
@@ -645,21 +643,17 @@ You'll most likely spend quite a while just mapping the continent out (if you're
 
 *Services:* training, food, melee weapons (Glaive)
 
-A town with lots of green space and plenty of useful hints. There's a dungeon in a canyon NW of here that has a word (jackpot!). There are also some caves in a dungeon W of here, where you should "step north".
+A town with lots of green space and plenty of useful hints. There's a **dungeon** in a canyon NW of here that has a word (jackpot!). There are also some **caves** in a dungeon W of here, where you should "step north".
 
-Here's the problem, though: the "step north" clue actually goes with the Staircase Dungeon, which is the one to the N. The Chessboard Dungeon, to the W, is totally different. So, once again, *Deathlord*'s NPCs are screwing with you by telling you information that's just slightly inaccurate.
-
-A Shizen hanging out in the gardens NW of the center of town will tell you ($$) that there's an island nearby to the NE. This points you one of two places: to the small island that's part of this archipelago, which has a mountain with a spiral path to the "peak" where you'll find *absolutely nothing*, or to the deserted islands a few sectors NE of here, where you will also find *absolutely nothing*.
+A Shizen hanging out in the gardens NW of the center of town will tell you ($$) that there's an **island** nearby to the NE. This points you one of two places: to the small island that's part of this archipelago, which has a mountain with a spiral path to the "peak" where you'll find *absolutely nothing*, or to the deserted islands a few sectors NE of here, where you will also find *absolutely nothing*.
 
 Everything of note is in the corners. The food (sake) vendor is in the SE, the weapons shop to the SW, and the training hall in the NW. The forge adjacent to the weapons shop is empty, but the food vendor has a secret storeroom W of his shop with a secret door where you can steal food from him.
 
-Check out the prison in the NE. Lift some gates and work your way E and then S into the prison "yard". There you'll find some Brigands who tell you of the island of Tsumani, "south [one sector] off the coast and west", a land full of yeti and "fierce snowbeasts". So bundle up before you go.
+Check out the prison in the NE. Lift some gates and work your way E and then S into the prison "yard". There you'll find some Brigands who tell you of the island of **Tsumani**, "south [one sector] off the coast and west", a land full of yeti and "fierce snowbeasts". So bundle up before you go.
 
 ### Staircase Dungeon
 
 Time for one of the more annoying word dungeons in the game. If you don't know what you're doing, navigating this one is a real puzzle and it's likely to take you a while. The first part involves going up and down a ton of staircases, and the second part involves teleports that are designed to screw with you as much as possible. Sounds like fun, right? S6:KAERU can save you some pain if you have it available, but there are some very rich pots of gold down there to be found if you're feeling low on cash.
-
-Fortunately, it's pretty quick if you know what you're doing – or if you got the clue from the Ryoshi in Clearview who told you to "step north in the caves", and somehow managed to figure out that they meant *these* caves and not those *other* caves.
 
 The Staircase Dungeon is nestled in the mountains in the NE corner of Sirion, though it's not on its own island. There is a significantly-sized island in the NE of the continent, but the dungeon isn't there, despite there being a pointless curly-q of trees that wind through the mountains and take you absolutely nowhere. No, the dungeon is actually slightly W of there.
 
@@ -691,7 +685,7 @@ The ruined town of Greenbanks lies in the center of a large island on the W part
 
 If I sound bitter, it's because I am.
 
-Like most ruins, there aren't any services to be purchased, but there are folks you can talk to. There's a town E of here – although the only way to get this clue is to `(I)nquire` about towns, which seems like cheating. There's a dungeon just NW of here with something hidden on the sixth level, and if you find the right Hobake, they give you a hint about needing to walk on acid.
+Like most ruins, there aren't any services to be purchased, but there are folks you can talk to. There's a town E of here – although the only way to get this clue is to `(I)nquire` about **towns**, which seems like cheating. There's a **dungeon** just NW of here with something hidden on the sixth level, and if you find the right Hobake, they give you a hint about needing to walk on **acid**.
 
 Continuing the trend of cash-for-useless-hints, a Kaibu tells you ($$) to go N and then E, which points you towards the nearby deserted islands.
 
@@ -731,7 +725,7 @@ Then reverse your steps and take the stairs down. And remember that hint.
 
 **Level 4:** A brutally clever dungeon design trick. When you enter this level, you'll naturally head S to start exploring it. However, the level is completely empty, with nary a secret door or false wall to be found... except for one: immediately **N** of the staircase. But of course, once you're on this floor, you can't get there, because when you step on the stairs you're taken back up to Level 3.
 
-Fiendish, right? All the word dungeons so far have only had four levels, so you're going to spend hours walking around this level, mapping it to perfection, looking for secrets and false walls and not finding a damn thing. Of course, you did get a clue in Greenbanks that there was something hidden on "the sixth level", so maybe you paid attention to that. Otherwise, it would be perfectly natural to guess that there isn't another level below this one. *But there is.*
+Fiendish, right? All the word dungeons so far have only had four levels, so you're going to spend hours walking around this level, mapping it to perfection, looking for secrets and false walls and not finding a damn thing, because you think there's something to be found on "the sixth level". At some point, maybe you realize that you found the "caves" inside a dungeon, and that you were clued to "step north", but there's one place you haven't tried it yet: the entry stairs.
 
 **Level 5:** The cross-shaped room you start in contains 12(!) magic pools, and you don't even need G6:UKU to get to any of them.
 
@@ -763,9 +757,9 @@ Morningfrost is a nothing little town, hidden away in a ring of mountains in the
 
 Also, there's not a lot going on in Morningfrost, which is why I'm wasting so many characters whining at you about how hard it is to write this document that you're reading. On with the show.
 
-You can pick up some food here, but the weapons shop is useless. Shield vendors are relatively rare so I guess that's nice? In fact, there are only two useful hint trails. You can bribe a Mahotsukai to tell you about the dungeon, some caves to the W of here.
+You can pick up some food here, but the weapons shop is useless. Shield vendors are relatively rare so I guess that's nice? In fact, there are only two useful hint trails. You can bribe a Mahotsukai to tell you about the **dungeon**, some caves to the W of here.
 
-In the NW of town you might find some Brigands, who have heard that Koshi the Huntsman has a pet bear. They live in the S (his house has a sign); the bear is pretty big, though. Koshi tells you (for a bribe) to search 31N 2W of the South Star, which is in Snowraven, which is on the SW edge of the main island, so if you didn't find the secret already, you should head back to Snowraven and do that.
+In the NW of town you might find some Brigands, who have heard that **Koshi** the Huntsman has a pet **bear**. They live in the S (his house has a sign); the bear is pretty big, though. Koshi tells you (for a bribe) to search 31N 2W of the **South Star**, which is in **Snowraven**, which is on the SW edge of the main island, so if you didn't find the secret already, you should head back to Snowraven and do that.
 
 Mind the Yabanjin in the NE; they're not friendly.
 
@@ -773,11 +767,11 @@ Mind the Yabanjin in the NE; they're not friendly.
 
 *Services:* training, food, healing (Depetrify), melee weapons (Naginata), armor (Do-Maru)
 
-The signpost in the centre [sic] of town says "Snowraven: the star of the south". If you went to Morningfrost first, you may have heard of the South Star, which is close enough. Follow Koshi's hint and go 30N 2W, then search W and you'll find two secret doors leading to a Mahotsukai who tells you to find the Lantern of Kasumi, Staff (Emerald Rod), and Ruby Ring. If you're following along with me, the Ring is the only one we don't have yet.
+The signpost in the centre [sic] of town says "Snowraven: the star of the south". If you went to Morningfrost first, you may have heard of the **South Star**, which is close enough. Follow Koshi's hint and go 30N 2W, then search W and you'll find two secret doors leading to a Mahotsukai who tells you to find the **Lantern** of Kasumi, **Staff** (Emerald Rod), and **Ruby Ring**. If you're following along with me, the Ring is the only one we don't have yet.
 
 You'll find a bunch of stereotypical Yabanjin that say things like "ug" and "me kill". And there's a Kishi who tells you ($$) to search the hills NE of town, which points us at the nearby (optional) dungeon.
 
-A Shukenja hiding out behind the food shoppe tells you to sail around the S end of town. If you came in by boat (or are willing to cast G6:UKU) you can find a sneaky spot that takes you into the water around the Temple of Icine (goddess of winter and the frozen wastes), where there's a Merman. He tells you that the castle of the Red Shogun lies N of Cross Rock, but if you ask anyone, the Shogun is only a myth. Cross Rock, of course, is a small 4x3 stretch of land found off the N coast of the continent that looks a bit like an arrow pointing N.
+A Shukenja hiding out behind the food shoppe tells you to sail around the S end of town. If you came in by boat (or are willing to cast G6:UKU) you can find a sneaky spot that takes you into the water around the Temple of **Icine** (goddess of winter and the frozen wastes), where there's a Merman. He tells you that the castle of the **Red Shogun** lies N of Cross Rock, but if you ask anyone, the Shogun is only a myth. Cross Rock, of course, is a small 4x3 stretch of land found off the N coast of the continent that looks a bit like an arrow pointing N.
 
 ### Chutes-and-Ladders Dungeon
 
@@ -803,7 +797,7 @@ If you really need more, you can search the E end of the first E/W hallway. Watc
 
 To get out, just yell your recall word. What, you didn't cast S6:KAERU before coming down here? The hell do I write these walkthroughs for, anyway?
 
-*sighs* Okay, fine.
+(*sigh*) Okay, fine.
 
 **Level 4:** Head back to the staircase that brought you down here. Take it up.
 
@@ -845,9 +839,9 @@ Said castle is on the larger central island.
 
 *Services:* healing (Depetrify), tools, melee weapons (Naginata), missile weapons (Heavy Bow), armor (Yoroi)
 
-Malakorr the necromancer lives outside the castle, in the SE forest. He's a pleasant fellow, and for a small bribe he'll tell you that the Red Shogun, who rules here, is hiding the Ruby Ring, which grants immunity to fire (by casting Z4:HITATE with unlimited charges). For my money, it's a toss-up between the Ruby Ring and the Emerald Rod for "most useful item". They're so supremely useful that I can't *really* blame the game for putting the Ring at the end of the most strung-out and hard-to-follow trail of clues, but *boy howdy* would it be nice to have this item earlier in the game.
+Malakorr the necromancer lives outside the castle, in the SE forest. He's a pleasant fellow, and for a small bribe he'll tell you that the **Red Shogun**, who rules here, is hiding the Ruby **Ring**, which grants immunity to fire (by casting Z4:HITATE with unlimited charges). For my money, it's a toss-up between the Ruby Ring and the Emerald Rod for "most useful item". They're so supremely useful that I can't *really* blame the game for putting the Ring at the end of the most strung-out and hard-to-follow trail of clues, but *boy howdy* would it be nice to have this item earlier in the game.
 
-Around the world, there have been numerous hints about the dungeon behind the castle, but few that point to the existence of a word within. Around here, you can ask about a dungeon, or a Shizen hiding in the forest near Malakorr's place will tell you about it for a bribe.
+Around the world, there have been numerous hints about the dungeon behind the castle, but few that point to the existence of a word within. Around here, you can ask about a **dungeon**, or a Shizen hiding in the forest near Malakorr's place will tell you about it for a bribe.
 
 We'll get to the dungeon in a bit, but let's explore the palace first and then get the Ring. Head into the palace itself along a long diagonal path and find the Shogun. For grins, get the Shogun himself to tell you about the dungeon, the ring, and himself.
 
@@ -962,7 +956,7 @@ I know I say this a lot, but you *really, really* want to cast S6:KAERU before e
 
 The Pyramid is definitely a difficult dungeon, but the reason I've left it for last mostly has to do with the logistics of navigating it. For the most part, it's just a tunnel maze of one-square-wide hallways. The problem is, you'll find a handful of non-hostiles here, but because of the utter frustration of waiting for them to get out of your damn way, you're probably going to have to kill them.
 
-As for those "friendly" humans, Yakuza will ask "Which way out?", but "your guess is as good as mine". Another will tell you to sail one sector S, then W, but how did you even get here if you haven't already been to Narawn?
+As for those "friendly" humans, Yakuza will ask "Which way **out**?", but "your guess is as good as mine". Another will tell you to sail one sector S, then W, but how did you even get here if you haven't already been to Narawn?
 
 **Levels 1–4** are arranged as if they are a single floor. See my comments on the bottom half of the [Doors Dungeon](#doors-dungeon) for more on how *Deathlord* arranges its dungeon levels in memory to occasionally allow a dungeon floor that's four times the usual size, which is what we have here. Exits from the dungeon can be found through false walls in the exterior walls, but they're not all that easy to find.
 

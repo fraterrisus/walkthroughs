@@ -42,29 +42,25 @@ Version 2.1, June 2023
 
 ## Administrivia
 
-This walkthrough is copyright (C) Ben Cordes, 2017–23. It is made available
-under a [Creative Commons Attribution-NonCommercial-ShareAlike v4.0
-International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). See link
-for more details.
+This walkthrough is copyright (C) Ben Cordes, 2017–23. It is made available under a [Creative Commons Attribution-NonCommercial-ShareAlike v4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). See link for more details.
 
-All other trademarks and copyrights contained in this document are owned by
-their respective trademark and copyright holders.
+All other trademarks and copyrights contained in this document are owned by their respective trademark and copyright holders.
 
 ### Acknowledgements
 
-*Deathlord* is a notoriously difficult game for its era, and relatively non-linear from a time where that wasn't common, but I'm still surprised that this seems to be the first "complete" walkthrough for it. However, as usual, I would be remiss if I didn't recognize the giants on whose shoulders I stand.
+*Deathlord* is a notoriously difficult game for its era, and relatively non-linear from a time where that wasn't common, but still I'm surprised that this seems to be the first "complete" walkthrough for it. However, as usual, I would be remiss if I didn't recognize the giants on whose shoulders I stand.
 
 **Andrew Schultz** wrote a humor walkthrough that prioritized narrative over hints, but it's his automatically-generated color maps that really made a difference for me.
 
 **Wilson Lau**'s Deathlord FAQ and dump of the conversational strings were both excellent points of reference.
 
-All of the above can be found at **GameFAQs**.
+All of the above can be found at [GameFAQs](https://gamefaqs.gamespot.com/appleii/574838-deathlord/faqs/).
 
-A blogger named **Genpei** wrote a "let's play"-style blog at roughly the same time that I was writing the first version of this walkthrough. His diary, as well as our conversations on the CRPG Addict's website, were very helpful: http://obscureoldgamer.blogspot.com/
+A blogger named **Genpei** wrote a ["let's play"-style blog](http://obscureoldgamer.blogspot.com/) at roughly the same time that I was writing the first version of this walkthrough. His diary, as well as our conversations on the CRPG Addict's website, were very helpful.
 
-**Henri Asseily** corresponded with me after reading an earlier version of this walkthrough and gave me a bunch more information about the internals of the game; check out his "Deathlord Relorded" project if you're looking for a different playing experience: https://github.com/hasseily/Deathlord-Relorded
+**Henri Asseily** corresponded with me after reading an earlier version of this walkthrough and gave me a bunch more information about the internals of the game; check out his [Deathlord Relorded](https://github.com/hasseily/Deathlord-Relorded) project if you're looking for a different playing experience. 
 
-And finally, a shout-out to **Chester, the CRPG Addict**, whose blog is totally worth reading and who unwittingly prompted me to play this game again and take notes so that I could write this document. His blog is at https://crpgaddict.blogspot.com/
+And finally, a shout-out to **Chester**, the [CRPG Addict](https://crpgaddict.blogspot.com/), whose blog is totally worth reading and who unwittingly prompted me to play this game again and take notes so that I could write this document.
 
 ### Version History
 
@@ -80,7 +76,7 @@ Ah, *Deathlord.* If this is your first time playing, you're in for a treat. You'
 
 This is merely one example of the ways in which *Deathlord* hates you. We'll talk about lots more as we explore the world together.
 
-It's worth your time to look up and read some of the interviews with the creator of *Deathlord*, Al Escudero. You'll learn a few fun facts, like the fact that EA forced him to rebrand everything from a Norse them to a Japanese theme inside of a few months, which explains why some of the game text didn't get updated in time. (Wakiza has a sign calling it Oceana, the emperor tells you to go to Oceanspray, etc.) If you speak Japanese, apparently some of the translations are hilariously bad; check out Genpei's blog for examples (link in [Acknowledgements](#acknowledgements), above).
+It's worth your time to look up and read some of the interviews with the creator of *Deathlord*, Al Escudero. You'll learn a few fun facts, like the fact that EA forced him to rebrand everything from a Norse them to a Japanese theme inside of a few months, which explains why some of the game text didn't get updated in time: Wakiza has a sign calling it Oceana, the emperor tells you to go to Oceanspray, etc. If you speak Japanese, apparently some of the translations are hilariously bad; check out Genpei's blog for examples (link in the [Acknowledgements](#acknowledgements)).
 
 My favorite part, though, is the bit where the developer admits that the game is basically much harder than he intended. The story goes that there was a QA team working on the project that had played the game through multiple times, so he kept increasing the difficulty level in order to make their job more interesting. Which is to say that even if you know what you're doing – say, because you're reading my walkthrough – it's still a damn hard game to play.
 
@@ -96,7 +92,7 @@ So, don't spend too much time with the manual. I've got you covered on most thin
 
 One of the things that makes *Deathlord* so brutal is the autosaving and permadeath. There's only one save slot, unlike even other games of its era, and the process of backing up your save game is laborious and incredibly slow. But, of course, you're "retrogaming", which means you get the benefit of an emulator that makes things like swapping disks easy, and might even offer you the ability to save a snapshot of the current emulator state.
 
-My favorite Apple II emulator is `linapple`, which accepts disk images in two formats. "Flat" images (.dsk) are a representation of all of the bytes stored on the disk in a linear array. "Nibblized" images (.nib) are a relatively faithful and unfiltered stream of data that might have been read off an actual Apple II floppy disk. Most of the flat images I found online were cracked versions that don't work, so I recommend that you find nibblized versions; you should be able to find them from the Asmiov archives and/or the Home of the Underdogs. There are other disk formats out there if you use other emulators; good luck.
+My favorite Apple II emulator is `linapple`, which accepts disk images in two formats. "Flat" images (`.dsk`) are a representation of all of the bytes stored on the disk in a linear array. "Nibblized" images (`.nib`) are a relatively faithful and unfiltered stream of data that might have been read off an actual Apple II floppy disk. Most of the flat images I found online were cracked versions that don't work, so I recommend that you find nibblized versions; you should be able to find them from the Asmiov archives and/or the Home of the Underdogs. There are other disk formats out there if you use other emulators; good luck.
 
 Before you go any further, exit the emulator and back up the .nib files for the Boot, Master Scenario A, and Master Scenario B disks. Put the backups somewhere else, so if all else fails, you have clean copies that you can use to restart the game. Now boot the game, use the *Utilities* menu to "Make Scenario Disks", and let the game make playable Scenario A and B disks for you. Then you can start creating characters.
 
@@ -106,7 +102,7 @@ I promise, this one tip will change *Deathlord* from an edge-of-your-seat festiv
 
 When you start the game, tell it you have two drives, and load the images for Scenario A and B into drives 1 and 2. That way the game will manage which disk your party is currently on, and you won't have to swap disk images in and out. Of course, there are reasons you might *want* to manage the disk images yourself...
 
-**Save-scumming:** Whenever a random boon is bestowed upon you (i.e. random hit points from training, or the effects of a magic pool), save your game and back it up, then do the thing. If you're not happy with the result, reload. This is even easier if you use an emulator with save states; in linapple, hit F12 to save the emulator state and F11 to reload. This way you can maximize your HP per level and always get +1 to the stat you want from magic pools.
+**Save-scumming:** Whenever a random boon is bestowed upon you (i.e. random hit points from training, or the effects of a magic pool), save your game and back it up, then do the thing. If you're not happy with the result, reload. This is even easier if you use an emulator with save states; in linapple, hit `(F12)` to save the emulator state and `(F11)` to reload. This way you can maximize your HP per level and always get +1 to the stat you want from magic pools.
 
 **Disk-swapping:** Most story progress in the game is based on inventory: you can't see Hell Island unless you have the Sharktooth. However, each town also saves some state about itself on the Scenario disks. If you turn a town against you, it saves a bit of information to disk so the next time you come back it remembers. If you ever want to reset the state of a town, here's how:
 
@@ -120,17 +116,17 @@ When you start the game, tell it you have two drives, and load the images for Sc
 
 **Duplicating Items:** A combination of disk-swapping and disbanding your party, as above; this one takes some doing, but if you absolutely have to have two Sunspears, it's the way to go. Start off by sailing back to Kodan and leaving your boat near Tokugawa; that way, when you come back, the boat will still be there and you can be on your way immediately without needing to buy a new one.
 
-1. `(Q)save` your game, then quit the emulator. Duplicate your Scenario A disk; I'll call these A1 (the play disk) and A2 (the duplicate). If you want to be really paranoid, make a third copy just in case something goes wrong.
-2. Restart the emulator from the Boot disk. Go to Character Options (insert **A1**). Then Disperse the Existing Group (hit enter).
+1. `(Q)save` your game, then quit the emulator. Duplicate your Scenario A disk; I'll call these **A1** (the play disk) and **A2** (the duplicate). If you want to be really paranoid, make a third copy just in case something goes wrong.
+2. Restart the emulator from the Boot disk. Go to Character Options (insert **A1**). Then Disperse the Existing Group (hit `(Enter)`).
 3. Conjure a new character. Call them 'Mule', because that's what they are. Literally nothing about them matters; you can make a Kosaku if you want.
 4. Assemble a Group with the PC(s) carrying the item(s) you want to duplicate and the Mule. Then Return to the Main Menu (insert the Boot disk).
-5. Play a Game (insert **A1**). As soon as the game starts, *e(X)change* the item(s) from the PC to the Mule. `(Q)save` your game.
-6. Insert the Boot disk and reboot the emulator. Go to Character Options again (insert **A1**). Then Disperse the Existing Group (hit enter).
+5. Play a Game (insert **A1**). As soon as the game starts, `e(X)change` the item(s) from the PC to the Mule. `(Q)save` your game.
+6. Insert the Boot disk and reboot the emulator. Go to Character Options again (insert **A1**). Then Disperse the Existing Group (hit `(Enter)`).
 7. Terminate everyone in your former party. Don't terminate the Mule.
-8. Insert **A2**, then select Disperse the Existing Group (hit enter) again. You should now have a character roster containing all of your original characters (including the one who has the item you just duplicated) and the Mule (who also has the item you just duplicated).
+8. Insert **A2**, then select Disperse the Existing Group (hit `(Enter)`) again. You should now have a character roster containing all of your original characters (including the one who has the item you just duplicated) and the Mule (who also has the item you just duplicated).
 9. Assemble a Group with the Mule and the PC you want to give the duplicate item to.
-10. Return to the Main Menu (insert the Boot disk), then Play a Game (insert **A2**). *e(X)*change the item from the Mule to the PC. `(Q)save` your game.
-11. Insert the Boot disk and reboot the emulator. Go to Character Options again (insert **A2**). Then Disperse the Existing Group (hit enter).
+10. Return to the Main Menu (insert the Boot disk), then Play a Game (insert **A2**). `e(X)change` the item from the Mule to the PC. `(Q)save` your game.
+11. Insert the Boot disk and reboot the emulator. Go to Character Options again (insert **A2**). Then Disperse the Existing Group (hit `(Enter)`).
 12. Insert **A1**, then Assemble your original group again. Return to the Main Menu (insert Boot) and Play a Game (insert **A1**).
 
 Congratulations, you now have a party with two Sunspears (or whatever). Of course, if you're willing to go to these lengths, you might consider [hex editing](#hex-editing) an emulator save state and manually changing the inventory byte, which is definitely faster and probably easier.
@@ -209,8 +205,8 @@ You will also discover a number of *energy fields* on your travels. These fall i
 - `(T)alk`, which gets you a phrase that is specific to the NPC you're speaking with. These are also of varying utility, but often yield key words that you can ask about.
 - `(I)nquire`, which allows you to free-enter a key word. If the NPC knows anything about it, they'll tell you. However, every NPC in a location knows exactly the same set of key words, so you don't have to find someone specific to ask. (This also sometimes results in hilarious combinations.) Most of the time, *Deathlord*'s parser is smart enough to recognize both a word (dungeon) and its plural (dungeons).
 - `(B)uy` and `(S)ell`, which obviously only work on merchants. If you get stonewalled when asking for a `(T)alk` clue, you may be speaking with a merchant, so try `(B)uy`. Of course, you may also be speaking with a hostile that's about to attack you.
-- `(O)ffer (G)old`, entered as "OG", which is useful when someone's `(T)alk` phrase is "PAY UP!". (I've marked clues found this way with "($$)".) This can be as low as 10gp or as high as 100gp, and there's no way to know without just trying it. Note that just because someone wants a bribe doesn't guarantee that they have anything useful to say. "Thanks, sucker!" is a not uncommon response.
-- `(O)ffer (I)tem`, entered as "OI", which is only useful in a handful of specific places, mostly dealing with the Emperor, and I'll tell you about them when we get there.
+- `(O)ffer (G)old`, entered as `(OG)`, which is useful when someone's `(T)alk` phrase is "PAY UP!". (I've marked clues found this way with "($$)".) This can be as low as 10gp or as high as 100gp, and there's no way to know without just trying it. Note that just because someone wants a bribe doesn't guarantee that they have anything useful to say. "Thanks, sucker!" is a not uncommon response.
+- `(O)ffer (I)tem`, entered as `(OI)`, which is only useful in a handful of specific places, mostly dealing with the Emperor, and I'll tell you about them when we get there.
 - `(Esc)` or `(Enter)` ends the conversation.
 
 In alphabetical order, here are the 16 messages you'll get in response to `(C)hatting` with an NPC:
@@ -239,7 +235,7 @@ The useful ones are:
 - *Ships get stolen*: I've never had my own ship stolen, but you can steal a boat by `(A)ttacking` it. (Always try `(B)oarding` it first; it might just work.)
 - *Find the words* and *Seek the seven*: In order to win, you will need seven words to get through seven gates. The only other clue you get to this is the Deathlord's message at the beginning of the manual.
 
-In addition, Senju, word, ruin, and dungeon are good things to `(I)nquire` about.
+In addition, **Senju**, **word**, **ruin**, and **dungeon** are good things to `(I)nquire` about.
 
 The rest of the hints are misleading, wrong, or pointless. There's nothing special about the North, there's no time limit on the game, and there are no storms at sea (although there are plenty of nasty monsters). Kobito rarely have much in the way of gold (the Mines being an exception), and ruins don't tend to be very rich (or they all get picked over before you get there). Demons are kind of deadly, but not significantly more so than any other creature.
 
@@ -371,11 +367,11 @@ More than others, this section is completely, totally, 100% my opinion. But it s
 
 Before we start, you need to know that *Deathlord* uses a 3+3 turn-based combat system (see [Combat Basics](#combat-basics)). Specifically, this means that only the front three can use weapons to attack, so generally you're going to want three fighters for the front ranks and three casters in the back. There are some tweaks to that, though, which we'll talk about in a second.
 
-Let's start with character races. I generally play a part of six Humans. Why? I find the only good reason to take a demihuman is their ability to `(F)search` for traps and secret doors. Searching isn't guaranteed to work, and you may be able to reduce your frustration by carrying a Kobito or Gnome around. Or, at least, reduce the number of times you have to hammer 'F' to prove that there's no trap or secret door here. But I don't get frustrated by this easily, partially because I play with other people's maps.
+Let's start with character races. I generally play a part of six Humans. Why? I find the only good reason to take a demihuman is their ability to `(F)search` for traps and secret doors. Searching isn't guaranteed to work, and you may be able to reduce your frustration by carrying a Kobito or Gnome around. Or, at least, reduce the number of times you have to hammer `(F)` to prove that there's no trap or secret door here. But I don't get frustrated by this easily, partially because I play with pre-drawn maps.
 
-Apart from that, you've got the race-locked missile weapons, the Kobito Hammer – yes, the 'Hammer' is a *missile* weapon, not that it really matters – and the Toshi Bow. The Toshi Bow is pretty fearsome (3 attacks at 1-8 plus a nice AC bonus), but I can't see putting a Toshi in the front lines – remember, you can't attack from the back three, even with a missile weapon – with a max of 13 CON and praying for a Toshi Bow to drop while they find secret doors faster than a Human. Kobitos (19 max CON) make more sense there, but the Hammer isn't quite as compelling for me.
+Apart from that, you've got the race-locked missile weapons, the Kobito Hammer – yes, the 'Hammer' is a *missile* weapon, not that it really matters – and the Toshi Bow. The Toshi Bow is pretty fearsome (3 attacks at 1–8 plus a nice AC bonus), but I can't see putting a Toshi in the front lines – remember, you can't attack from the back three, even with a missile weapon – with a max of 13 CON and praying for a Toshi Bow to drop while they find secret doors faster than a Human. Kobitos (19 max CON) make more sense there, but the Hammer isn't quite as compelling for me.
 
-There's an argument to made for taking a Troll and just waiting a really long time for the random number generator to give you 20 STR *and* 20 CON, but you're gonna be waiting for a long time. Still, the additional +1 HP per level and +1 damage per hit are awfully tempting. I can neither confirm nor deny having spent a couple of hours writing a Linux shell script that used screenshots and OCR to auto-roll characters until I got the stats I wanted, but feel free to drop me an email if you want to see the thing.
+There's an argument to be made for taking a Troll and just waiting a really long time for the random number generator to give you 20 STR *and* 20 CON, but you're gonna be waiting for a long time. Still, the additional +1 HP per level and +1 damage per hit are awfully tempting. I can neither confirm nor deny having spent a couple of hours writing a Linux shell script that used screenshots and OCR to auto-roll characters until I got the stats I wanted, but feel free to [poke around this directory](./chargen.sh) if you want to see the thing.
 
 One more thing on attribute maximums before we move on: I mentioned magic pools earlier, and the fact that they can be used to increase stats after the start of the game. They seem to ignore racial maximums, so you can get a Toshi up to 18 STR and 18 CON, eventually. But they also seem to max out at 18, so if you play a Troll that starts with a 17 STR, you will never get them up to 21.
 
@@ -387,7 +383,7 @@ In the hybrid fighter/caster group, **Ryoshi** have access to the Shizen spell b
 
 For thieves/rogues we have the **Yakuza** and **Ansatsusha**. Yakuza are slightly (8%) better at picking locks. I'm honestly not sure why you would take an Ansatsusha; the manual claims they are better fighters than the Yakuza but that's unsubstantiated. Neither class gets spells. There is a funny math overflow bug where a level 32 Yakuza with high DEX forgets how to pick locks until they hit level 33, but you probably won't notice.
 
-If you like unarmed and unarmored fighters, the **Ninja** and **Shukenja** are your monk-types. They get a +1 bonus to AC every two levels, although there's another funny math overflow bug that resets them to AC 10 (i.e. the worst) at level 32, and you'll definitely notice this one if you get that high. Their unarmed damage max also goes up by 1 every two levels. As a bonus, they pick locks just as well as the Ansatsusha does. Shukenja also read from the Shisai spell book for bonus S1:NASU castings. The Ninja is sort of like an evil Shukenja, except they can't cast spells, *can* use the Shuriken and Nunchaku, and can critical-hit monsters at really high levels. Like most CRPG monks, they tend to be underpowered at low levels and don't usually live long enough to make up for it – look carefully at those "max HP per level" numbers before picking one of these.
+If you like unarmed and unarmored fighters, the **Ninja** and **Shukenja** are your monk-types. They get a +1 bonus to AC every two levels, although there's another funny math overflow bug that resets them to AC 10 (i.e. the worst) at level 32. You'll definitely notice, but only if you grind your characters that much. Their unarmed damage max also goes up by 1 every two levels. As a bonus, they pick locks just as well as the Ansatsusha does. Shukenja also read from the Shisai spell book for bonus S1:NASU castings. The Ninja is sort of like an evil Shukenja, except they can't cast spells, *can* use the Shuriken and Nunchaku, and can critical-hit monsters at really high levels. Like most CRPG monks, they tend to be underpowered at low levels and don't usually live long enough to make up for it – look carefully at those "max HP per level" numbers before picking one of these.
 
 Finally we have the four spell casting classes. **Mahotsukai** are the standard offensive casters, with some interesting utility spells mixed in. **Genkai** have a large number of spells that let you flee combat if that's your playing style. You'll also really like G1:HIBANA (a weak group-zap spell) at low levels and G4:UKU (walk on water) at higher ones.
 
@@ -411,7 +407,7 @@ For the most part, SIZ doesn't matter. It's helpful to have one character with h
 
 And lastly, just like in D&D, CHA is pretty useless. Although, as a playing style, I don't `(N)egotiate` with monsters much, so it's possible I would notice my low CHR if I used that tactic more. The impact on store prices is negligible.
 
-*Deathlord* will happily let you assemble a party with only one character in it, but I'll tell you right now this game is hard enough as it is and you don't need to handicap yourself. (Also, you need to carry four items that all fit into the same inventory slot, so you kind of need at least four party members.) So pick your six classes, roll up your characters, make sure you assign alignments appropriately, and then pick a name for your intrepid party of adventurers.
+*Deathlord* will happily let you assemble a party with only one character in it, but I'll tell you right now this game is hard enough as it is and you don't need to handicap yourself. (Also, you need to carry four items that all fit into the same inventory slot, so you need at least four party members.) So pick your six classes, roll up your characters, make sure you assign alignments appropriately, and then pick a name for your intrepid party of adventurers.
 
 ### Experience and Leveling
 
@@ -501,7 +497,7 @@ I told a little fib up there, which is that your party doesn't always go first. 
 
 Unlike some games that let you queue up commands for your whole party and then execute them afterwards, *Deathlord* executes each action as soon as you hit the key. So you get to watch the outcome of your front row's attacks before deciding what spells to cast with your back row. This is nice, but also means that once you issue a command for an earlier character, you can't go back and change your mind.
 
-I said this earlier but I'll say it again: "interface" commands like : (change message delay) or control-S (enable/disable sound) **count as your battle action.** Likewise, if you hit `(C)ast` and then change your mind and hit ESC to cancel, that's your action. However, Enter (view character's statistics) does not consume your turn – you get to input another action after you finish viewing. But, there's no clock running in combat; you can take as much time as you want to consider tactics and pick an action.
+I said this earlier but I'll say it again: "interface" commands like `(:)` (change message delay) or `(control-S)` (enable/disable sound) **count as your battle action.** Likewise, if you hit `(C)ast` and then change your mind and hit `(Esc)` to cancel, that's your action. However, Enter (view character's statistics) does not consume your turn – you get to input another action after you finish viewing. But, there's no clock running in combat; you can take as much time as you want to consider tactics and pick an action.
 
 So what can your characters do on their turn?
 
@@ -852,13 +848,13 @@ Now let's talk lock picking. For non-Yakuza thieves trying to pick a lock, that 
 ((3 * LVL) + MAX(0, 2 * (DEX - 12))) * 2.5
 ```
 
-If you're familiar with assembly language, you may know that a fast way to implement "multiply by 2.5" is "multiply by 2, divide by 2, and take the sum" because you can implement x2 with a left-shift and /2 with a right-shift. So let's take the example of a level 32 Ninja with 18 DEX.
+If you're familiar with assembly language, you may know that a fast way to implement "multiply by 2.5" is "multiply by 2, divide by 2, and take the sum" because you can implement $\times 2$ with a left-shift and $\div 2$ with a right-shift. So let's take the example of a level 32 Ninja with 18 DEX.
 
 ```
 (3 * 32) + (2 * (18-12) = 96 + 12 = 108
 ```
 
-Convert to binary; 108 base ten = 64 + 32 + 8 + 4 = 01101100 base two. If we do the arithmetic gymnastics I described above and drop anything that overflows an 8-bit integer, we get
+Convert to binary; $108_{10} = 64 + 32 + 8 + 4 = 01101100_{2}$. If we do the arithmetic gymnastics I described above and drop anything that overflows an 8-bit integer, we get
 
 ```
 108_10 = 01101100_2
@@ -998,9 +994,9 @@ I've tried to organize this in an order that (a) makes "plot sense", meaning I d
 
 Of course, even if you follow the clues you're given, it's entirely possible to simply happen upon a continent by mistake while searching for a different one. There's nothing stopping you from just going on walkabout (sailabout?) as soon as you get a boat, striking out in a random direction from Kodan, discovering the Red Shogun's palace, and recovering the Ruby Ring even before you've found Senju. On the other hand you could do what I did, wind up on Asagata, and get your 10th level party demolished by a bunch of Fire Giants.
 
-*Deathlord* does not coddle you. Even the starter dungeon can be lethal for parties that are just starting out. At every turn there is a wrong step that you can take that will drop you into a dungeon that will overpower you. What I'm going to do in this walkthrough is steer you off of that path as often as possible. But if you feel like freelancing, I've tried to write each section in a fairly self-contained way, so you should be able to pick it up whenever you get to a particular town. There will be a couple of places where the town descriptions make more sense if you read them in the order I've written them, though.
+*Deathlord* does not coddle you. Even the starter dungeon can be lethal for parties that are just starting out. At every turn there is a wrong step that you can take that will drop you into a dungeon that will overpower you. What I'm going to do here is steer you off of that path as often as possible. But if you feel like freelancing, I've tried to write each section in a fairly self-contained way, so you should be able to pick it up whenever you get to a particular town. There will be a couple of places where the town descriptions make more sense if you read them in the order I've written them, though.
 
-One quick word on notation: Generally when I'm describing the information you'll learn in an area, I've underlined oration keywords (i.e. things that you can `(I)nquire` about). Keywords are plural-insensitive, that is, cave and caves will usually give you the same answer.
+One quick word on notation: Generally when I'm describing the information you'll learn in an area, I've put oration keywords (i.e. things that you can `(I)nquire` about) in **bold**. Keywords are plural-insensitive, that is, **cave** and **caves** will usually give you the same answer.
 
 At the top of each section is a list of Services offered by the town. Different vendors offer different levels of service; the value noted in parentheses is the best service offered by that particular vendor. The list below includes all services (or items) in order of priority, so as an example a "melee weapons (Masakari)" vendor sells neither the Glaive nor the Naginata.
 
@@ -1035,71 +1031,71 @@ Up to you, though.
 The walkthrough itself is large enough that I've broken it out into three separate files. If you're looking for a particular continent or town, here's a table of contents.
 
 - [Part I](./walkthrough-1.md): Senju, Kawahara, and the Emperor
-    - Kodan
-      - Kawa
-      - Emperor's Palace
-      - Tokugawa
-      - Tokushima
-      - Yokahama
-      - Starter Dungeon
-      - Yakuza Guild (under Kawa)
-      - Kawahara's Dungeon (under the Palace)
-      - Leaving Kodan
-      - Wakiza and Pirate's Den
-    - Nyuku
-      - South Spindrift
-      - North Spindrift
-      - Twin Rivers
-      - Sunken Temple
+    - [Kodan](./walkthrough-1.md#kodan)
+      - [Kawa](./walkthrough-1.md#kawa)
+      - [Emperor's Palace](./walkthrough-1.md#emperors-palace)
+      - [Tokugawa](./walkthrough-1.md#tokugawa)
+      - [Tokushima](./walkthrough-1.md#tokushima)
+      - [Yokahama](./walkthrough-1.md#yokahama)
+      - [Starter Dungeon](./walkthrough-1.md#starter-dungeon)
+      - [Yakuza Guild](./walkthrough-1.md#yakuza-guild-under-kawa) (under Kawa)
+      - [Kawahara's Dungeon](./walkthrough-1.md#kawaharas-dungeon-under-the-palace) (under the Palace)
+      - [Leaving Kodan](./walkthrough-1.md#leaving-kodan)
+      - [Wakiza and Pirate's Den](./walkthrough-1.md#wakiza-and-pirates-den)
+    - [Nyuku](./walkthrough-1.md#nyuku)
+      - [South Spindrift](./walkthrough-1.md#south-spindrift)
+      - [North Spindrift](./walkthrough-1.md#north-spindrift)
+      - [Twin Rivers](./walkthrough-1.md#twin-rivers)
+      - Sunken Temple (unwritten)
 - [Part II](./walthrough-2.md): Seven Words and Seven Relics
-    - CHIGAKU
+    - Chigaku
       - Fort Wintergreen
       - Crystalmist
       - Troll Hole
       - Tower of Shumi
-    - OSOZAKI
+    - Osozaki
       - Deepingdale
       - Wakai
       - Telegrond
-    - AKMIHR
+    - Akmihr
       - Oasis
       - Sultan's Palace
       - Desert Flower
       - Kobito Mines
       - Pyramid of Akhamun-Ra
-    - NARAWN
+    - Narawn
       - Lost Lagoon
       - Kashiwa
       - Fort Demonguard
       - Malkanth
-    - ASAGATA
+    - Asagata
       - Towne Royal / Makimura
       - Croyo
       - Fire Giants' Lair
     - Collecting some Relics
-    - GILUIN
+    - Giluin
       - Kobar
       - Shupan
       - Linear Dungeon
       - Temple of Oceanus
-    - SIRION
+    - Sirion
       - Clearview
       - Staircase Dungeon
       - Greenbanks
       - Chessboard Dungeon
-    - TSUMANI
+    - Tsumani
       - Morningfrost
       - Snowraven
       - Chutes-and-Ladders Dungeon
-    - BLACK ISLES
+    - Black Isles
       - Red Shogun's Castle
       - Doors Dungeon
-    - LOST ISLES
+    - Lost Isles
       - Cave of the Four Elements
-    - ISLE OF THE DEAD
+    - Isle of the Dead
       - Pyramid of the Old Ones
 - [Part III](./walkthrough-3.md): Endgame
-  - HELL ISLAND
+  - Hell Island
     - Skull Keep
     - Hell
     - Return to the Emperor (Kodan)
@@ -1114,41 +1110,24 @@ Here's the party I took through the game. To be honest, I actually started with 
 
 One additional note: I made liberal use of save-scumming to both guarantee near-max HP gained per level and also to increase several stats with magic pools. If you tried to play this game straight, your level 24 characters would not be this strong.
 
-1. **Aoki**, Good Female Human Kishi, Level 24, Age 28
-
-   *Attributes:* ST 18, CO 18, SZ 18, IQ 17, DX 16, CH 18, POW 25, HP 280, AC -8
-
-   *Equipment:* Sunspear, Yoroi +1, Silver Shield, Kabuto, Ruby Ring
-
-2. **Kushizu**, Good Female Ogre Samurai, Level 23, Age 40
-
-   *Attributes:* ST 19, CO 18, SZ 14, IQ 12, DX 16, CH 11, HP 274, AC -7
-
-   *Equipment:* Katana, Yoroi +1, Golden Shield, Falcon Helm, Black Orb, Lantern
-
-3. **Sukito**, Neutral Male Human Shizen, Level 24, Age 29
-
-   *Attributes:* ST 18, CO 18, SZ 12, IQ 16, DX 16, CH 16, POW 30, HP 248, AC -9
-
-   *Equipment:* Emerald Rod, Do-Maru +2, Silver Shield, Gold Jingasa
-
-4. **Mikumo**, Good Male Human Shisai, Level 24, Age 25
-
-   *Attributes:* ST 18, CO 16, SZ 08, IQ 16, DX 16, CH 16, POW 28, HP 256, AC -4
-
-   *Equipment:* Rod of Death, Sling, Do-Maru +1, Silver Shield, Gold Jingasa, Ring of Life
-
-5. **Bito**, Neutral Female Human Genkai, Level 24, Age 39
-
-   *Attributes:* ST 11, CO 16, SZ 08, IQ 16, DX 16, CH 08, POW 29, HP 158, AC 6
-
-   *Equipment:* Rod of Light, Sable Cloak, Gloves, Blue Crystal
-
-6. **Ishino**, Good Female Human Mahotsukai, Level 24, Age 24
-
-   *Attributes:* ST 17, CO 16, SZ 17, IQ 18, DX 13, CH 17, POW 30, HP 147, AC 2
-
-   *Equipment:* Powerstaff, Sable Cloak, Gloves, Sharktooth
+- **Aoki**, Good Female Human Kishi, Level 24, Age 28
+   - *Attributes:* ST 18, CO 18, SZ 18, IQ 17, DX 16, CH 18, POW 25, HP 280, AC -8
+   - *Equipment:* Sunspear, Yoroi +1, Silver Shield, Kabuto, Ruby Ring
+- **Kushizu**, Good Female Ogre Samurai, Level 23, Age 40
+   - *Attributes:* ST 19, CO 18, SZ 14, IQ 12, DX 16, CH 11, HP 274, AC -7
+   - *Equipment:* Katana, Yoroi +1, Golden Shield, Falcon Helm, Black Orb, Lantern
+- **Sukito**, Neutral Male Human Shizen, Level 24, Age 29
+   - *Attributes:* ST 18, CO 18, SZ 12, IQ 16, DX 16, CH 16, POW 30, HP 248, AC -9
+   - *Equipment:* Emerald Rod, Do-Maru +2, Silver Shield, Gold Jingasa
+- **Mikumo**, Good Male Human Shisai, Level 24, Age 25
+   - *Attributes:* ST 18, CO 16, SZ 08, IQ 16, DX 16, CH 16, POW 28, HP 256, AC -4
+   - *Equipment:* Rod of Death, Sling, Do-Maru +1, Silver Shield, Gold Jingasa, Ring of Life
+- **Bito**, Neutral Female Human Genkai, Level 24, Age 39
+   - *Attributes:* ST 11, CO 16, SZ 08, IQ 16, DX 16, CH 08, POW 29, HP 158, AC 6
+   - *Equipment:* Rod of Light, Sable Cloak, Gloves, Blue Crystal
+- **Ishino**, Good Female Human Mahotsukai, Level 24, Age 24
+   - *Attributes:* ST 17, CO 16, SZ 17, IQ 18, DX 13, CH 17, POW 30, HP 147, AC 2
+   - *Equipment:* Powerstaff, Sable Cloak, Gloves, Sharktooth
 
 ### Trail of Clues
 
@@ -1309,7 +1288,7 @@ Special attacks:
 - Some monsters can *SUMMON* allies.
 - Level *DRAIN* is possibly one of the most annoying things for a CRPG monster to do to you ever. You don't lose your XP, but you do lose 1 level.
 - *BREATH* weapon: damage is proportional to the monster's remaining HP, so the more you hit it, the less breath damage it does.
-- *PAR* or *PAR** indicate attacks that cause PARalysis to one person or the entire party. Attacks causing the other conditions (*STO, TOX, ILL*) are also possible.
+- *PAR* or *PAR\** indicate attacks that cause PARalysis to one person or the entire party. Attacks causing the other conditions (*STO, TOX, ILL*) are also possible.
 - *Zap* is similar to TODO.
 - *Zap** is similar to MOTU, but seems to have multiple levels of damage (I-VII)
 
@@ -1325,16 +1304,16 @@ Several special attacks are lethal:
 | ------------ | ---- | ---- | ------ | ---- | ---- | ---- | -------------------------------- |
 | ANSATSUSHA   | 10   | 5    | 1–8    | 11   | 4    | 3    | TOX                              |
 | BARLICAN     | 4    | 7    | 2x1–12 | 15   | 6    | 10   |                                  |
-| BEHOLDERS    | 2    | -1   | 1–20   | 46   | 24   | 20   | Drain, PAR, STO, RIP*, Zap*(III) |
+| BEHOLDERS    | 2    | -1   | 1–20   | 46   | 24   | 20   | Drain, PAR, STO, RIP\*, Zap\*(III) |
 | BRIGANDS     | 10   | 8    | 1–8    | 9    | 3    | 2    |                                  |
 | CENTAURS     | 6    | 4    | 3x1–8  | 16   | 8    | 8    |                                  |
-| COUATL       | 4    | 3    | 1–12   | 25   | 12   | 12   | Zap, PAR*, Zap*(III)             |
+| COUATL       | 4    | 3    | 1–12   | 25   | 12   | 12   | Zap, PAR\*, Zap\*(III)             |
 | DARK TOSHI   | 12   | 2    | 2x1–8  | 17   | 8    | 4    | TOX                              |
 | DEMONGUARD   | 10   | -2   | 2x1–14 | 22   | 10   | 10   |                                  |
 | DJINNI       | 6    | 4    | 2x1–15 | 23   | 14   | 10   | PAR, Zap                         |
 | FIRE SPIRITS | 4    | 6    | 2x1–14 | 21   | 16   | 10   |                                  |
-| GENKAI       | 8    | 4    | 1–6    | 11   | 4    | 2    | Zap*(I)                          |
-| GOOD WIZARD  | 1    | 0    | 1–32   | 53   | 31   | 24   | RIP*, Zap, Zap*(V, VII)          |
+| GENKAI       | 8    | 4    | 1–6    | 11   | 4    | 2    | Zap\*(I)                          |
+| GOOD WIZARD  | 1    | 0    | 1–32   | 53   | 31   | 24   | RIP\*, Zap, Zap\*(V, VII)          |
 | GORGONS      | 5    | 2    | 2x1–15 | 32   | 12   | 14   | STO                              |
 | GREMLINS     | 15   | 9    | 1–6    | 5    | 4    | 2    | Summon                           |
 | GUARDS       | 16   | 0    | 1–16   | 19   | 10   | 12   |                                  |
@@ -1357,7 +1336,7 @@ Several special attacks are lethal:
 | MINOTAURS    | 8    | 6    | 1–13   | 14   | 6    | 8    |                                  |
 | NINJA        | 6    | 3    | 3x1–8  | 17   | 6    | 5    | Crit                             |
 | OBAKE        | 12   | 9    | 1–6    | 7    | 2    | 2    |                                  |
-| OGRE-MAGES   | 6    | 2    | 1–16   | 26   | 10   | 10   | Zap*(IV)                         |
+| OGRE-MAGES   | 6    | 2    | 1–16   | 26   | 10   | 10   | Zap\*(IV)                         |
 | OGRES        | 8    | 7    | 1–14   | 15   | 6    | 8    |                                  |
 | RAIDERS      | 15   | 4    | 1–10   | 12   | 5    | 4    |                                  |
 | ROCK SPIRITS | 4    | 5    | 1–28   | 24   | 10   | 16   |                                  |
@@ -1367,8 +1346,8 @@ Several special attacks are lethal:
 | SAILORS      | 15   | 6    | 1–10   | 6    | 6    | 6    | Summon                           |
 | SAMURAI      | 8    | 2    | 2x1–14 | 19   | 7    | 5    | Crit                             |
 | SENSHI       | 12   | 3    | 1–12   | 13   | 4    | 5    |                                  |
-| SHISAI       | 8    | 4    | 1–8    | 16   | 4    | 3    | PAR*                             |
-| SHIZEN       | 10   | 6    | 1–8    | 15   | 4    | 3    | PAR*                             |
+| SHISAI       | 8    | 4    | 1–8    | 16   | 4    | 3    | PAR\*                             |
+| SHIZEN       | 10   | 6    | 1–8    | 15   | 4    | 3    | PAR\*                             |
 | SHUKENJA     | 6    | 4    | 2x1–10 | 16   | 5    | 4    | Crit                             |
 | SPHINXES     | 6    | 4    | 2x1–10 | 17   | 8    | 8    | Zap                              |
 | STONEBROWS   | 15   | -8   | 1–6    | 14   | 1    | 1    |                                  |
@@ -1415,18 +1394,18 @@ Slain by: Holy Blade, Emerald Rod
 | Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special                    |
 | ------------ | ---- | ---- | ------ | ---- | ---- | ---- | -------------------------- |
 | ACID DEMONS  | 4    | 4    | 1–20   | 21   | 12   | 10   |                            |
-| ACID LORD    | 1    | -5   | 4x1–20 | 57   | 30   | 30   | Crit, PAR, RIP*            |
+| ACID LORD    | 1    | -5   | 4x1–20 | 57   | 30   | 30   | Crit, PAR, RIP\*            |
 | BLAZE DEMONS | 6    | 6    | 2x1–16 | 16   | 8    | 8    | Crit, TOX                  |
 | CERBERUS     | 1    | -6   | 2x1–30 | 54   | 31   | 31   | Crit, Breath               |
 | DARK DEMONS  | 3    | 4    | 2x1–18 | 21   | 14   | 11   | Drain                      |
-| DARK LORD    | 1    | -4   | 2x1–24 | 58   | 28   | 28   | Crit, Drain, RIP*, Zap*(V) |
+| DARK LORD    | 1    | -4   | 2x1–24 | 58   | 28   | 28   | Crit, Drain, RIP\*, Zap\*(V) |
 | FIREBATS     | 4    | 6    | 1–10   | 21   | 9    | 8    | Breath                     |
-| FLAME LORD   | 1    | -3   | 2x1–26 | 60   | 29   | 29   | Crit, RIP*, Zap*(V)        |
+| FLAME LORD   | 1    | -3   | 2x1–26 | 60   | 29   | 29   | Crit, RIP\*, Zap\*(V)        |
 | MOLOCHAI     | 3    | 2    | 2x1–16 | 26   | 15   | 12   | Drain                      |
 | SHADES       | 4    | 2    | 1–20   | 26   | 14   | 11   | Drain                      |
 | SLIME DEMONS | 3    | 3    | 4x1–16 | 22   | 13   | 10   |                            |
-| SMOKE DEMONS | 6    | 5    | 1–20   | 22   | 10   | 9    | PAR, PAR*                  |
-| VAPOR DEMONS | 4    | 4    | 1–16   | 19   | 11   | 9    | PAR*, Zap*(I)              |
+| SMOKE DEMONS | 6    | 5    | 1–20   | 22   | 10   | 9    | PAR, PAR\*                  |
+| VAPOR DEMONS | 4    | 4    | 1–16   | 19   | 11   | 9    | PAR\*, Zap\*(I)              |
 
 #### Type 3: Undead
 
@@ -1434,20 +1413,20 @@ Slain by: Sword of Fire
 
 | Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special                          |
 | ------------ | ---- | ---- | ------ | ---- | ---- | ---- | -------------------------------- |
-| AKHAMUN-RA   | 1    | -4   | 1–32   | 53   | 24   | 31   | Crit, ILL, RIP*, Zap*(III)       |
+| AKHAMUN-RA   | 1    | -4   | 1–32   | 53   | 24   | 31   | Crit, ILL, RIP\*, Zap\*(III)       |
 | APPARITIONS  | 4    | 3    | 1–18   | 25   | 9    | 9    | Drain, PAR                       |
-| BANSHEES     | 4    | 1    | 1–16   | 33   | 12   | 10   | Drain, Scream (RIP*)             |
+| BANSHEES     | 4    | 1    | 1–16   | 33   | 12   | 10   | Drain, Scream (RIP\*)             |
 | GHOSTS       | 6    | 0    | 2x1–16 | 31   | 12   | 12   | Drain                            |
 | GHOULS       | 12   | 7    | 2x1–6  | 13   | 4    | 4    | PAR                              |
 | GUARDIANS    | 8    | 4    | 2x1–16 | 18   | 8    | 8    | ILL                              |
-| LICH         | 1    | -2   | 1–24   | 52   | 24   | 24   | PAR, RIP*, Zap*(V, VI)           |
-| LORIC        | 1    | -1   | 2x1–20 | 50   | 28   | 22   | Crit, Drain, PAR*, Zap*(IV, VII) |
+| LICH         | 1    | -2   | 1–24   | 52   | 24   | 24   | PAR, RIP\*, Zap\*(V, VI)           |
+| LORIC        | 1    | -1   | 2x1–20 | 50   | 28   | 22   | Crit, Drain, PAR\*, Zap\*(IV, VII) |
 | MUMMIES      | 8    | 2    | 1–24   | 22   | 8    | 10   | ILL                              |
 | PHANTOMS     | 4    | 3    | 1–16   | 21   | 7    | 7    | Drain                            |
 | SHADOWS      | 6    | 4    | 2x1–8  | 17   | 5    | 5    | PAR                              |
 | SKELETONS    | 15   | 7    | 1–6    | 4    | 3    | 2    |                                  |
 | UNDEAD RONIN | 2    | 0    | 2x1–20 | 40   | 24   | 20   | Crit                             |
-| VAMPIRES     | 1    | -2   | 2x1–24 | 38   | 16   | 16   | Drain, Zap*(II)                  |
+| VAMPIRES     | 1    | -2   | 2x1–24 | 38   | 16   | 16   | Drain, Zap\*(II)                  |
 | WILL O WISPS | 4    | -10  | 1–20   | 25   | 10   | 4    | Summon, PAR                      |
 | WRAITHS      | 6    | 3    | 1–15   | 20   | 6    | 6    | Drain                            |
 | ZOMBIES      | 15   | 7    | 1–10   | 5    | 3    | 3    |                                  |
@@ -1458,8 +1437,8 @@ Slain by: Sunspear
 
 | Monster    | ##   | AC   | Dmg     | XP   | TH   | HD   | Special                                                      |
 | ---------- | ---- | ---- | ------- | ---- | ---- | ---- | ------------------------------------------------------------ |
-| DEATHLORD  | 1    | -10  | 1–48    | 73   | 31   | 31   | Crit, Drain, RIP* Immune to all physical attacks *except* the Sunspear Immune to all spells *except* M1:TODO |
-| DOOM GOLEM | 1    | -21  | 4x1–127 | 0    | 31   | 31   | Crit                                                         |
+| DEATHLORD  | 1    | -10  | 1–48    | 73   | 31   | 31   | Crit, Drain, RIP\*<br/>Immune to all physical attacks *except* the Sunspear<br/>Immune to all spells *except* M1:TODO |
+| DOOM GOLEM | 1    | -21  | 4x1–127 | 0    | 31   | 31   | Crit; probably doesn't exist                                 |
 
 #### Type 5: Difficult to flee?
 
@@ -1475,12 +1454,12 @@ Slain by: Sunspear
 | GREEN SLIMES | 10   | 6    | 1–10   | 18   | 6    | 10   | TOX                          |
 | ICE TOADS    | 6    | 8    | 1–8    | 16   | 4    | 2    | Breath                       |
 | ICE WOLVES   | 6    | 5    | 1–8    | 16   | 6    | 4    | Breath                       |
-| KAWAHARA     | 1    | 2    | 1–16   | 37   | 20   | 16   | RIP*, Zap, PAR*, ZAP*(IV, V) |
+| KAWAHARA     | 1    | 2    | 1–16   | 37   | 20   | 16   | RIP\*, Zap, PAR\*, ZAP\*(IV, V) |
 | KNIGHT       | 1    | 2    | 1–24   | 28   | 12   | 16   | Drain                        |
 | KRAKEN       | 1    | 6    | 8x1–8  | 19   | 8    | 10   |                              |
-| NECROMANCER  | 1    | 2    | 1–16   | 37   | 20   | 16   | RIP*, Zap, PAR*, Zap*(IV, V) |
+| NECROMANCER  | 1    | 2    | 1–16   | 37   | 20   | 16   | RIP\*, Zap, PAR\*, Zap\*(IV, V) |
 | PURPLE WORMS | 2    | 2    | 1–32   | 46   | 28   | 31   | Crit, TOX                    |
-| RED SHOGUM   | 1    | -6   | 2x1–31 | 54   | 24   | 24   | Crit, RIP*, Zap*(IV)         |
+| RED SHOGUM   | 1    | -6   | 2x1–31 | 54   | 24   | 24   | Crit, RIP\*, Zap\*(IV)         |
 | ROOK         | 1    | 2    | 1–24   | 29   | 12   | 16   | STO                          |
 | SANDSQUIDS   | 6    | 3    | 1–8    | 13   | 4    | 5    | TOX                          |
 | SEA SERPENTS | 8    | 5    | 1–16   | 17   | 8    | 6    | TOX                          |

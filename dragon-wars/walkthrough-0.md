@@ -2,46 +2,7 @@
 
 Version 3.0, June 2023
 
-## Table of Contents
-
-- Table of Contents
-- Administrivia
-  - Acknowledgements
-  - Version History
-  - Game Introduction
-  - Managing Save Files
-- Creating Characters
-  - Attributes
-  - Skills
-  - General Advice
-  - Sample Characters
-  - NPCs
-  - Leveling Up
-- Combat and General Information
-  - Combat Basics
-  - Health and Stun
-    - Resurrecting Dead Characters
-  - Combat Strategies
-  - Game Mechanics
-  - Dealing With Loot
-  - Weird Stuff
-- [Things and Stuff](#things-and-stuff)
-   - Weapons
-   - Armor
-   - Unique Items
-   - Shops
-- [Magic](./magic.md)
-   - Low Magic
-   - High Magic
-   - Druid Magic
-   - Sun Magic
-   - Miscellaneous Magic
-- Walkthrough
-- Maps
-- Final Notes
-  - Final Characters
-  - Paragraphs
-- Administrivia
+## Administrivia
 
 ![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
@@ -98,7 +59,7 @@ So let's talk about all the different ways you can spend AP. Throughout this sec
 
 Attributes form the basic description of your character. Newly-generated characters start with a 10 in all primary attributes. All attributes start (conceptually) at zero and go up; higher numbers are always better.
 
-**Primary attributes** are the ones you can increase by spending AP. Each one has a specific effect, as I list below, but more generally the game will sometimes have a character make "an attribute check", in which case it rolls a d20 and compares it to their attribute value. If you roll under your attribute value, you succeed; having a 20 STR means you always pass STR checks, so it can be helpful to have high attributes even if you don't normally do the thing that's primarily associated with it (i.e. melee combat). Attributes can also be **(U)sed** as if they're skills in some places; I'll point out places where this matters later on.
+**Primary attributes** are the ones you can increase by spending AP. Each one has a specific effect, as I list below, but more generally the game will sometimes have a character make "an attribute check", in which case it rolls a d20 and compares it to their attribute value. If you roll under your attribute value, you succeed; having a 20 STR means you always pass STR checks, so it can be helpful to have high attributes even if you don't normally do the thing that's primarily associated with it (i.e. melee combat). Attributes can also be `(U)sed` as if they're skills in some places; I'll point out places where this matters later on.
 
 - [1 AP per pt] **Strength** **(STR)** is a required attribute for most melee weapons, grants bonus damage if it's high enough, and is handy for moving or knocking down things in your way.
 - [2] **Dexterity (DEX)** is similarly a required attribute for most missile weapons, and grants bonus damage the same way. Dexterity also determines your **AV** and **DV**, which are arguably the two most important attributes in the game. Finally, DEX influences your initiative count during combat.
@@ -120,20 +81,20 @@ One of the things that makes *Dragon Wars* such a classic game is that the desig
 
 This section just explains what each skill is for; check out [General Advice](#general-advice), below, for more specific opinions on whether you should take it or not.
 
-- [1] **Arcane Lore, Cave Lore, Forest Lore, Mountain Lore, Town Lore**: Knowledge and understanding of various objects and situations.
-- [2] **Bandage**: Outside of combat, using this skill will heal a character up to (ranks+10) *Health* for free. For my money, this is the most useful skill in the game.
-- [1] **Climb**: Used to scale walls and mountains and climb down dark holes to dangerous places. Recommended.
-- [1] **Fistfighting**: Like a weapon skill, but for your fists. Increases your effective AV *and* your damage output when unarmed.
-- [2] **Hiding**: A general "be sneaky" skill.
-- [2] **Lockpick**: Does what it says on the tin. Nearly mandatory if you want to beat the game.
-- [1] **Pickpocket**: Lets you steal items from some unaware chump. 
-- [1] **Swim**: Allows you to navigate difficult waters safely.
-- [1] **Tracker**: Allows you to follow tracks you find in the ground.
-- [1] **Bureaucracy**: Skill in oration, convincing people you're on their side, and navigating authority figures who want things from you.
-- [10/2] **Druid Magic, High Magic, Sun Magic**: Allows access to magic schools. Increases effective AV when casting spells requiring an attack roll. Also sets the upper bound on POWER for variable-cost spells (2 * ranks).
-- [5/2] **Low Magic**: Required before you can take any other magic skill.
-- [—] **Merchant**: An easter egg; the designers added support for this skill and even wrote a few encounters that use it, but removed it from the "level up" screen for some reason. It's inaccessible unless you hex-edit your characters, so don't worry about trying to spend AP on it.
-- [2] **Axes, Flails, Maces, Swords, Two-Handers, Bows, Crossbows, Thrown Weapons**: Weapon skills. Increases effective AV when using weapons of that class.
+- [1] *Arcane Lore, Cave Lore, Forest Lore, Mountain Lore, Town Lore*: Knowledge and understanding of various objects and situations.
+- [2] *Bandage*: Outside of combat, using this skill will heal a character up to (ranks+10) *Health* for free. For my money, this is the most useful skill in the game.
+- [1] *Climb*: Used to scale walls and mountains and climb down dark holes to dangerous places. Recommended.
+- [1] *Fistfighting*: Like a weapon skill, but for your fists. Increases your effective AV *and* your damage output when unarmed.
+- [2] *Hiding*: A general "be sneaky" skill.
+- [2] *Lockpick*: Does what it says on the tin. Nearly mandatory if you want to beat the game.
+- [1] *Pickpocket*: Lets you steal items from some unaware chump. 
+- [1] *Swim*: Allows you to navigate difficult waters safely.
+- [1] *Tracker*: Allows you to follow tracks you find in the ground.
+- [1] *Bureaucracy*: Skill in oration, convincing people you're on their side, and navigating authority figures who want things from you.
+- [10/2] *Druid Magic, High Magic, Sun Magic*: Allows access to magic schools. Increases effective AV when casting spells requiring an attack roll. Also sets the upper bound on POWER for variable-cost spells (2 * ranks).
+- [5/2] *Low Magic*: Required before you can take any other magic skill.
+- [—] *Merchant*: An easter egg; the designers added support for this skill and even wrote a few encounters that use it, but removed it from the "level up" screen for some reason. It's inaccessible unless you hex-edit your characters, so don't worry about trying to spend AP on it.
+- [2] *Axes, Flails, Maces, Swords, Two-Handers, Bows, Crossbows, Thrown Weapons*: Weapon skills. Increases effective AV when using weapons of that class.
 
 ### General Advice
 
@@ -145,7 +106,7 @@ Characters 1–4 in the marching order are the only ones who can melee, so gener
 
 That being said, creating two fighters and two mages is probably your best bet. But that begs the question of which magic skills to take, and there's not really a single correct answer. Every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](./walkthrough-1.md#magic-college) becomes unsolvable, though.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded, so you don't need your own. But if you were going to double up on a school, this is the one to pick. **Druid Magic** is *required* in order to win the game, but because of that it's possible to pick it up in-game for free. You could let a strong fighter become a Druid mage instead of making one; I've had success letting Louie take this role.
 
-Okay, fine, you're here for opinions, here's mine: For a fresh party, I almost always take *High Magic* and *Druid Magic*. My High Mage sits in slot 5 with a high DEX so I can give them the Gatlin Bow / Magic Quiver combo in the second half of the game. I pick up Valar early to round out the set, and Louie gets *Druid* from Enkidu once he's ready. Having two Druid mages is no bad thing (*D:Cure All*). But this is definitely not the only way to do it.
+Okay, fine, you're here for opinions, here's mine: For a fresh party, I almost always take *High Magic* and *Druid Magic*. My High Mage sits in slot 5 with a high DEX, and they get the Gatlin Bow / Magic Quiver combo in the second half of the game. I pick up Valar early to round out the set, and Louie gets *Druid* from Enkidu once he's ready. Having two Druid mages is no bad thing (*D:Cure All*). But this is definitely not the only way to do it.
 
 **Attributes:** Whoever's going to wrestle Enkidu for *Druid Magic* needs at least STR 16. Fighters will need at least STR 17 to use the good *Swords*. (If you have it early, consider taking a Greatsword from the Purgatory Arena.) A 20 is the minimum to use the good *Axes*, 22 gets you all the *Two-Handers*, and a few statues can only be moved with a 23 or better. If your STR is higher than the minimum for a melee weapon, you get +1 bonus damage for every five points above the requirement, so for example if you use a Hand Axe (min STR 5) with a 20 STR you deal 1d6+3 damage.
 
@@ -174,14 +135,14 @@ Let's talk **weapon skills**. You aren't required to have ranks in a weapon skil
 Think of your AV as a one-for-one bonus added to your to-hit roll, and your opponent's DV as lowering it the same way. Given the combat mechanics, +1 AV is a 1-in-16 better chance to hit (6.25%), so +4 AV is a 25% bonus. Weapon skills are definitely more efficient at raising your AV than buying four points of DEX, but they lock you into a particular weapon class. Three things worth noting:
 
 - Ulrik shows up with *Axes 3*, and heavy Axes often have AV penalties, so giving all your axes to Ulrik and increasing his skill might be worth your time.
-- Personally, I think the Dragon Teeth (2d20, 60' range, +8 AV, +2 AC) are the best weapons in the game, and they're *Swords*. You won't get them until near the end, but once you do, I bet you won't use anything else. So throwing points in *Swords* doesn't hurt.
+- Personally, I think the Dragon Teeth (2d20, 60' range, +8 AV, +2 AC) are the best weapons in the game, and they're Swords. You won't get them until near the end, but once you do, I bet you won't use anything else. So throwing points in *Swords* doesn't hurt.
 - The Gatlin Bow / Magic Quiver combo is incredibly deadly (theoretical maximum of **252 HP** plus high-DEX bonus per round), so having one of your back row specialize in *Bows* is nice.
 
 There are plenty of good mid-game *Maces* and *Flails*, and if you're after raw damage, *Two-Handers* may be the way to go. But I found I swapped weapons around too much to limit myself by taking lots of ranks in one weapon skill. Also, there aren't enough *Crossbows* to be worthwhile, and the combat mechanics make *Thrown Weapons* too hard to use effectively.
 
 *Fistfighting* basically counts as a weapon skill in terms of adding effective AV if you aren't holding a weapon, but unlike weapon skills it also increases your damage. With no ranks, you punch for 1d4; that goes up to a maximum of 7 ranks (1d6, 3d6, 5d6, 3d8, 5d8, 3d10, 3d12). You could make a pretty formidable martial artist by spending 15 AP on STR 20 and *Fistfighting 5*; 5–40 damage is better than all but the best late-game weapons, and you'll absolutely tear through Purgatory like that. The downside is that you can't Block without a weapon, and you'll never get the tasty AV or AC bonuses for using weapons. 
 
-Finally, we discussed **magic skills** already, but I didn't mention skill ranks. Magic skills act like weapon skills when you're making magical attack rolls. Since a "miss" only deals half damage, a higher magical AV increases the overall effectiveness of your zap spells. More skill ranks also allow you to put higher amounts of POW into your variable-power spells. *Druid Magic* doesn't have any variable-power spells, but does have plenty of zap. Being able to cast higher-point *S:Inferno* is a big deal though, so I definitely suggest investing in a few ranks of *Sun Magic*.
+Finally, we discussed **magic skills** already, but I didn't mention skill ranks. Magic skills act like weapon skills when you're making magical attack rolls, but since a "miss" on a magical attack roll still deals half damage, you may not notice the effects of a higher magical AV quite as much. More importantly, more skill ranks also allow you to put higher amounts of POW into your variable-power spells. *Druid Magic* doesn't have any variable-power spells, but does have plenty of zap. Being able to cast higher-point *S:Inferno* is a big deal though, so I definitely suggest investing in a few additional ranks of *Sun Magic*.
 
 ### Sample Characters
 
@@ -250,36 +211,36 @@ I'm fairly completionist, but when I start with a fresh party I always seem to f
 
 ### Combat Basics
 
-The *Dragon Wars* combat system uses a turn-based combat system that will be familiar to fans of *Bard's Tale* or most other early CRPGs. On each turn you pick actions for your party, the computer picks actions for your enemies, and then it simulates the battle round. Action order is determined by your DEX + a random number 2–12; higher numbers go first. If your action executes at a point where it isn't useful, too bad!
+The *Dragon Wars* combat system uses a turn-based combat system that will be familiar to fans of *Bard's Tale* or most other early CRPGs. On each turn you pick actions for your party, the computer picks actions for your enemies, and then it simulates the battle round. Action order is determined by 2d6 + your DEX; higher numbers go first. If your action executes at a point where it isn't useful, too bad!
 
-Of the seven character slots in your party, only the first four can attack with melee weapons. Note that this is true even if your melee weapon has a ranged attack, like the Axe of Kalah, or you're using a thrown weapon, like the Boomerang; you must still be in the front four in order to `(A)ttack` with it. Also, it cuts both ways: only the first four slots can be attacked with melee, so your spellcasters are safe(ish) in the back line. Anyone (slots 1–7) can attack with missile weapons. Note that the weapon determines the *range*, but the ammunition (quiver) determines the *damage*.
+Of the seven character slots in your party, only the first four can attack with melee weapons. Note that this is true even if your melee weapon has a ranged attack, like the Axe of Kalah, or you're using a thrown weapon, like the Boomerang; you must still be in the front four in order to `(A)ttack` with it. Also, it cuts both ways: only the first four slots can be attacked with melee, so your spellcasters are safe(ish) in the back line. Anyone (slots 1–7) can attack with missile weapons. Note that the bow determines the *range*, but the quiver determines the *damage*.
 
-At the start of each combat round, you're presented with the options to **(F)ight**, **(Q)uickly fight**, **(R)un**, or **(A)dvance**. In reverse order, **(A)dvance [-2 DV]** takes up your whole turn and moves the whole party 10' closer to the opponents. **(R)un [-2 DV]** directs every individual party member to try to flee from combat. **(Q)uickfight** gives you fewer options than **(F)ight**, but they both allow you to give individual orders to each character.
+At the start of each combat round, you're presented with the options to `(F)ight`, `(Q)uickly fight`, `(R)un`, or `(A)dvance`. In reverse order, `(A)dvance` [-2 DV] takes up your whole turn and moves the whole party 10' closer to the opponents. `(R)un` [-2 DV] directs every individual party member to try to flee from combat. `(Q)uickfight` gives you fewer options than `(F)ight`, but they both allow you to give individual orders to each character.
 
 Those individual options are:
 
-- **(A)ttack:** You'll be doing this a lot, obviously. If you *aren't* in Quickfight, you may get a secondary choice. Some missile weapons have the option to shoot more than one arrow. For melee weapons, you get to pick from:
-  - **(A)ttack blow:** The default.
-  - **(M)ighty blow [-4 AV]**: Adds 1d4 damage.
-  - **(D)isarm [-3 AV, -1 DV]**: If successful, deals 1 HP damage and forces the target to drop their weapon. They lose a turn picking it back up.
+- `(A)ttack:` You'll be doing this a lot, obviously. If you *aren't* in Quickfight, you may get a secondary choice. Some missile weapons have the option to shoot more than one arrow. For melee weapons, you get to pick from:
+  - `(A)ttack blow:` The default.
+  - `(M)ighty blow` [-4 AV]: Adds 1d4 damage.
+  - `(D)isarm` [-3 AV, -1 DV]: If successful, deals 1 HP damage and forces the target to drop their weapon. They lose a turn picking it back up.
   
-- **(D)odge [+3 DV]**: Makes you harder to hit for the rest of the round.
+- `(D)odge` [+3 DV]: Makes you harder to hit for the rest of the round.
 
-- **(B)lock attack**: Cancels the first melee attack against you, but it's only available if you have a melee weapon readied. Not available in Quickfight.
+- `(B)lock attack`: Cancels the first melee attack against you, but it's only available if you have a melee weapon readied. Not available in Quickfight.
 
-- **(C)ast spell:** If you know more than one school of magic, you'll need to pick **(L)ow, (H)igh, (D)ruid,** or **(S)un**. Schools other than Low will then make you pick a spell type, **(C)ombat, (H)eal,** or **(M)isc**. Finally, you'll get a list of spells of that school and type to pick from; type the first letter of the spell name.
+- `(C)ast spell:` If you know more than one school of magic, you'll need to pick `(L)ow`, `(H)igh`, `(D)ruid`, or `(S)un`. Schools other than Low will then make you pick a spell type, `(C)ombat`, `(H)eal`, or `(M)isc`. Finally, you'll get a list of spells of that school and type to pick from; type the first letter of the spell name.
 
-- **(U)se item [-2 DV]:** Dragon Stone, Healing Potion, or other magic item. Lots of things, including weapons, can be Used to great effect in combat; see the [Equipment](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff) page.
+- `(U)se item` [-2 DV]: Dragon Stone, Healing Potion, or other magic item. Lots of things, including weapons, can be Used to great effect in combat; see the [Equipment](#things-and-stuff) section.
 
-- **(N)ew weapon [-1 DV]:** Equip a different weapon.
+- `(N)ew weapon` [-1 DV]: Equip a different weapon.
 
-- **(L)oad weapon [-1 DV]:** Equip a different ammunition item.
+- `(L)oad weapon` [-1 DV]: Equip a different ammunition item.
 
-- **(R)un [-2 DV]:** Order this character to flee combat. There is no random component beyond your initiative roll, but some encounters will prevent you from running.
+- `(R)un` [-2 DV]: Order this character to flee combat. There is no random component beyond your initiative roll; it either works or (in some encounters) it doesn't.
 
-- **(M)ove** / **(A)head [-1 DV]** or **(B)ehind [+1 DV]**: Shuffles the marching order in the middle of a turn. A character who moves Ahead swaps with the character in front of them, and vice versa. Not available in Quickfight.
+- `(M)ove` / `(A)head` [-1 DV] or `(B)ehind` [+1 DV]: Shuffles the marching order in the middle of a turn. A character who moves Ahead swaps with the character in front of them, and vice versa. Not available in Quickfight.
 
-At any time while giving individual orders, you can press ESC to back out of a menu or skip back to a previous player. You can even back all the way out to the turn menu and change your mind on Fight or Quickfight or Run. After you've given an order to every party member, you get a chance to confirm before executing the actions.
+At any time while giving individual orders, you can press `(Esc)` to back out of a menu or skip back to a previous player. You can even back all the way out to the turn menu and change your mind on Fight or Quickfight or Run. After you've given an order to every party member, you get a chance to confirm before executing the actions.
 
 **Targeting Groups:** Once you've chosen an action, if there are multiple groups of enemies, you get to pick which group you want to attack. If, when your turn comes up in the initiative order, the group you're attacking is out of range or no longer has any live opponents, then your action is wasted. So execution order (and therefore DEX) matters!
 
@@ -291,11 +252,11 @@ Of course, "all other things" are basically *never* equal. The target number is 
 
 The game counts up the number of hits and rolls the damage die that many times. Unarmed attacks do 1d4 of punching damage, but *Fistfighting* can increase that.
 
-If your weapon has a skill or attribute requirement, you get +1 bonus damage for every 5 ranks that you exceed the requirement (round down). This is true regardless of whether the weapon requires STR, DEX, or Mountain Lore. If you take *seven* ranks of Mountain Lore in order to get +1 damage from the Mountain Sword I will personally come to your house and give you a wedgie. Monsters don't have weapon skills.
+If your weapon has a skill or attribute requirement, you get +1 bonus damage for every 5 ranks that you exceed the requirement (round down). This is true regardless of whether the weapon requires STR, DEX, or *Mountain Lore*. However, if you take *seven* ranks of *Mountain Lore* in order to get +1 damage from the Mountain Sword I will personally come to your house and give you a wedgie. Monsters don't have weapon skills.
 
-If you hit with Mighty Attack, roll a bonus 1d4. Monsters have an similar attack type, but instead of dealing bonus damage, it ignores your armor; see below.
+If you hit with Mighty Attack, roll a bonus 1d4.
 
-Mighty damage and Skill bonus damage are rolled/calculated once, but they are applied to *each attack that hits.* One hit for 3d4 is different than three hits for 1d4 each, because the latter gets three bonuses and the former only gets one. So maybe your archer/mage should have a high DEX after all; the Gatlin Bow requires DEX 10, and +2 damage *per arrow* is pretty significant when you hit 20-30 times per attack.
+Mighty damage and Skill bonus damage are rolled/calculated once, but they are applied to *each attack that hits.* One hit for 3d4 is different than three hits for 1d4 each, because the latter gets three bonuses and the former only gets one. So maybe your archer/mage should have a high DEX after all; the Gatlin Bow only requires DEX 10, and +2 damage *per arrow* is pretty significant when you hit 20-30 times per attack.
 
 When you're on defense, your armor reduces the damage you take. 1 point of AC reduces the damage *per attack* by 1, so if you've got AC 20 then a monster has to deal at least 20 damage before you even feel it. However, some monsters have a Mighty Attack that ignores armor.
 
@@ -305,9 +266,9 @@ The most novel aspect of combat in *Dragon Wars* is the multi-tier health system
 
 Dead characters cannot practically be resurrected. It is literally *possible* to do, but so annoying as to never be worth your time. You're better off restoring from your last save game. If you really want to know, there are directions down at the bottom of this section.
 
-After combat ends, all non-Dead characters automatically heal Stun up to full. Health damage is permanent until you heal it. Between combats, the best way to restore Health points is to `(U)se` the *Bandage* skill. *Bandage* always works, takes no time (i.e. you can't be interrupted in the middle of healing your whole party even though it requires multiple actions), and always brings you up to (10+skill) Health. This is why it's important for your healer to have a skill value that's (nearly) high enough to heal your fighters. You'll pretty quickly develop the muscle memory of typing `(U)se (#) (S)kill (A)bility (B)andage` over and over. If you're clever when building your party and don't give your healer any other Ability skills (or any other skills at all), you can save keypresses.
+After combat ends, all non-Dead characters automatically heal Stun up to full. Health damage is permanent until you heal it. Between combats, the easiest way to restore Health points is to `(U)se` the *Bandage* skill. *Bandage* always works, takes no time (i.e. you can't be interrupted in the middle of healing your whole party even though it requires multiple actions), and always brings you up to (10+skill) Health. This is why it's important for your healer to have a skill value that's (nearly) high enough to heal your fighters. You'll pretty quickly develop the muscle memory of typing `(U)se (#) (S)kill (A)bility (B)andage` over and over. If you're clever when building your party and don't give your healer any other Ability skills (or any other skills at all), you can save keypresses.
 
-During combat, the only way to heal is through magic. Healing spells work so long as you have living casters with Power. You can also `(U)se` healing potions, of which you'll find a couple along the way. Healing magic restores Stun as well as Health, and will revive a Stunned character. It is totally possible (and often a good idea) to cast a healing spell on a character who *might* become Stunned during a round. If they are Stunned early in the round, the healing spell will revive them later, and they won't get shuffled to the bottom of the marching order at the end of the round if they're still standing. This is why it's not a bad idea to give your Druid a low DEX: they will act towards the end of the round, and *D:Cure All* is pretty awesome.
+During combat, the only way to heal is through magic. Healing spells work so long as you have living casters with Power. You can also `(U)se` a Healing Potion, of which you'll find a couple along the way. Healing magic restores Stun as well as Health, and will revive a Stunned character. It is totally possible (and often a good idea) to cast a healing spell on a character who *might* become Stunned during a round. If they are Stunned early in the round, the healing spell will revive them later, and they won't get shuffled to the bottom of the marching order at the end of the round if they're still standing. This is why it's not a bad idea to give your Druid a low DEX: they will act towards the end of the round, and *D:Cure All* is pretty awesome.
 
 Beware of the effects of magical healing on Health and Stun. As I said before, Stun is affected twice as much as Health, and that's true in both directions. If you're in a long, drawn-out battle, it's quite possible to run out of Stun a couple of times and find yourself dipping into the single digits of Health even after healing back up to near-full Stun. This is how characters die. Keep an eye on that orange bar.
 
@@ -349,21 +310,21 @@ Still with me? Okay, here we go:
 
 ### Combat Strategies
 
-The #1 problem that you will be faced with while in combat — well, okay, aside from actually just staying alive and unstunned — is how to close into melee range with your opponents. The computer, I'm sorry to say, cheats: it knows whether or not you've given the **(A)dvance** order to your party before it assigns orders to the monsters, and if it behooves the monsters to sit and wait for you to advance, they will.
+The #1 problem that you will be faced with while in combat — well, okay, aside from actually just staying alive and unstunned — is how to close into melee range with your opponents. The computer, I'm sorry to say, cheats: it knows whether or not you've given the `(A)dvance` order to your party before it assigns orders to the monsters, and if it behooves the monsters to sit and wait for you to advance, they will.
 
-Here's a particular example: one group of monsters is 20' away from you. If you **(A)dvance**, they will choose **(F)ight** actions. If you go first, you step into melee range, and they get free hits. On the other hand, if you stand your ground and give **(F)ight** actions, there's a chance that they will **(A)dvance** first, and then you get free hits. This is almost always the right idea, even at the cost of a few wasted swings at monsters that are too far away. The exception is if you're fighting multiple groups, and the distant group has a ranged attack, and you need to close to a certain distance in order to hit them with your ranged attack and/or spells.
+Here's a particular example: one group of monsters is 20' away from you. If you `(A)dvance`, they will choose `(F)ight` actions. If you go first, you step into melee range, and they get free hits. On the other hand, if you stand your ground and give `(F)ight` actions, there's a chance that they will `(A)dvance` first, and then you get free hits. This is almost always the right idea, even at the cost of a few wasted swings at monsters that are too far away. The exception is if you're fighting multiple groups, and the distant group has a ranged attack, and you need to close to a certain distance in order to hit them with your ranged attack and/or spells.
 
 I've tried to lay out useful strategies for some of the harder encounters in the walkthrough. But mostly you'll just figure this stuff out by the time you leave Purgatory.
 
 One additional note that didn't fit anywhere else: when enemies feel like they're overpowered — say, because you're playing through a fifth time and your PCs are 20th level — they will sometimes try to run away, and sometimes try to call for help. This especially happens with the various types of Guards you'll run into. I'm not totally sure how this affects your XP, but you definitely earn some for enemies that run away.
 
-**Weapon Choice:** I find thrown weapons to be pretty useless. They work like melee weapons with range, which is to say, you have to be in the front rank to use them. (I'm convinced this is a bug caused by an obscure 'greater-or-equal' instead of 'greater than' error.) However, most thrown weapons are single-use, so once you **(A)ttack**, you have no equipped weapon anymore, and you have to waste your next turn readying a **(N)ew** weapon. The Boomerang, at least, comes in a stack of 10 and does reasonable damage. The Trident has unlimited uses and comes back every time you throw it, but you find it around the same time as the Dragon's Teeth, which are better in just about every way.
+**Weapon Choice:** I find thrown weapons to be pretty useless. They work like melee weapons with range, which is to say, you have to be in the front rank to use them. (I'm convinced this is a bug caused by an obscure 'greater-or-equal' instead of 'greater than' error.) However, most thrown weapons are single-use, so once you `(A)ttack`, you have no equipped weapon anymore, and you have to waste your next turn readying a `(N)ew` weapon. The Boomerang, at least, comes in a stack of 10 and does reasonable damage. The Trident has unlimited uses and comes back every time you throw it, but you find it around the same time as the Dragon's Teeth, which are better in just about every way.
 
 In the early game, missile weapons are kind of nice because you can get additional attacks from your back row, but managing an inventory full of arrows gets annoying fast. Most quivers don't do very much damage, although there's a bug you can exploit to get copies of the better ones. On the other hand, the Gatlin Bow / Magic Quiver combination is amazingly deadly; you'll likely do more damage with that combo than any melee weapon, all the way through the end of the game. My advice is to get bows for your back row as soon as possible (the Purgatory Arena, for example). Stop collecting arrows whenever you get sick of managing them, you find that your mages have better things to do, or you just have better things to do with the inventory slots. But don't get rid of the bows; spellcasting also uses your AV, so keeping a high-AV weapon (Ruby Dagger +3, Magic Bow +4) around is still a good idea.
 
-Melee weapons with a ranged attack are incredibly useful. You don't have to do anything special to activate the ranged attack; simply **(A)ttack** a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#weapons). I found that I often prioritized having 'reach' over a weapon that did more damage at 10'. You may have different preferences or combat styles.
+Melee weapons with a ranged attack are incredibly useful. You don't have to do anything special to activate the ranged attack; simply `(A)ttack` a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](./things-and-stuff.md#weapons). I found that I often prioritized having 'reach' over a weapon that did more damage at 10'. You may have different preferences or combat styles.
 
-Also remember that some armor and weapons have additional magical actions that can be useful in combat. **(U)sing** the weapon during a combat round will activate the spell on your turn. For example, if you use the Druid's Mace in combat, it casts *D:Cure All*, which coincidentally is the best group-heal spell in the game.
+Also remember that some armor and weapons have additional magical actions that can be useful in combat. `(U)sing` the weapon during a combat round will activate the spell on your turn. For example, if you use the Druid's Mace in combat, it casts *D:Cure All*, which coincidentally is the best group-heal spell in the game.
 
 **Attack Styles:** I mostly just use normal attacks. All other things being equal, 1 point of AV translates into a 6.25% chance to hit, so Mighty Attack is a 25% penalty for +1d4 damage (average 2.5 HP), which probably isn't worth it – if you've got a high-enough AV that you're going to hit even at -4, you're also likely doing enough damage that the bonus doesn't matter. And since you can't see your opponent's Health, you don't really have enough information to know when it might be useful.
 
@@ -395,9 +356,9 @@ You also have the option of not picking up things in the first place. When prese
 
 The game generally does a nice job at providing equipment upgrades at the right time, instead of forcing you to buy them. You'll farm enough gold to buy your first round of equipment in Purgatory, but it's optional. From then you may not buy another piece of armor or weaponry until Freeport, which is almost 2/3 of the way through the game.
 
-When you do go to sell stuff, you can largely sell anything anywhere for half of its purchase price. The useful places to sell things are the Purgatory Black Market, the Lansk Undercity shops, the Byzanople Siege Camp Black Market, and the Mud Toad souvenir shop. Several items have no purpose beyond their resale value; when in doubt, see the list of [Unique Items](#unique-items). Keep in mind that selling something is similar to discarding it – once it leaves your inventory, it's gone. You can't buy unique items back from the shop you sold them to.
+When you do go to sell stuff, you can largely sell anything anywhere for half of its purchase price. The most useful places to sell things are the Purgatory Black Market, the Lansk Undercity shops, the Byzanople Siege Camp Black Market, and the Mud Toad souvenir shop. Several items have no purpose beyond their resale value; when in doubt, see the list of [Unique Items](./things-and-stuff#unique-items). Keep in mind that selling something is similar to discarding it – once it leaves your inventory, it's gone. You can't buy unique items back from the shop you sold them to.
 
-All of the hint guides basically tell you to horde Dragon Stones as if they're the most precious resource on Oceana. I find this advice *ridiculous,* but that may be because I put so many points into *Bandage* that I'm not as reliant on magical healing. But because there are several spots where you can regenerate Power without using a Dragon Stone, I really only need them for deep dungeon dives. Also, you'll find Dragon Stones all over the place, and even if you don't, most of the good shops have them for sale and money will never really be an issue. So use a Stone whenever you want and don't worry about stuffing your mages' inventory full of them. Make sure you always have a handful, and if you can't remember where the last stash was, buy a few more.
+All of the hint guides basically tell you to horde Dragon Stones as if they're the most precious resource on Oceana. I find this advice *ridiculous,* but that may be because I put so many points into *Bandage* that I'm not as reliant on magical healing. Because there are several spots where you can regenerate Power without using a Dragon Stone, I really only need them for deep dungeon dives. Also, you'll find Dragon Stones all over the place, and even if you don't, most of the good shops have them for sale and money will never really be an issue. So use a Stone whenever you want and don't worry about stuffing your mages' inventory full of them. Make sure you always have a handful, and if you can't remember where the last stash was, buy a few more.
 
 ### Weird Stuff
 
@@ -405,17 +366,17 @@ Some random notes I've collected on my journeys through Dilmun...
 
 I mentioned this already under [Health and Stun](#health-and-stun), but I find the "target a slot, not a party member" thing to be very strange and also very annoying. "Hey, *you're* not Thog!"
 
-There are a few maps that allow you to use *D:Soften Stone* to pass through the ostensible "outer" walls of the map. Sometimes (Purgatory, Tars) this lets you into a blank spot in the middle of the map, and sometimes (the Kingshome dungeon, Dwarf Clan Hall, the +5 AP leap of faith in the Underworld) you can go wandering so far off-course that the automap stops drawing anything. If you keep moving far enough in one direction, the map will eventually wrap around and you'll find the opposite edge of the map, like Columbus trying to find India. My guess is that happens at 256 steps but I haven't bothered to count. You rarely find anything interesting out there, so this is more of a curiosity than anything.
+There are a few maps that allow you to use *D:Soften Stone* to pass through the ostensible "outer" walls of the map. Sometimes (the Kingshome dungeon, Dwarf Clan Hall, the +5 AP leap of faith in the Underworld) this allows you to go wandering so far off-course that the automap stops drawing anything. If you keep moving far enough in one direction, the map will eventually wrap around and you'll find the opposite edge of the map, like Columbus trying to find India. My guess is that happens at 256 steps but I haven't bothered to count. You rarely find anything interesting out there except the odd random encounter, so this is more of a curiosity than anything.
 
-If you're running around inside the outer walls of Purgatory, and you encounter some King's Guard, and you run away, the game dumps you back at the start square as if you've been "captured" again.
+If you're running around inside the outer walls of Purgatory, and you encounter some King's Guard, and you run away, the game dumps you back at the start square as if you've been "captured" again. (At least it doesn't take all our inventory and gold.)
 
-When you see a low wooden fence, you can cast *D:Soften Stone* on it. The fence goes away, but nothing else changes. (If you weren't able to move through/past the fence before, you still can't.)
+When you see a low wooden fence, you can cast *D:Soften Stone* on it. The fence goes away, but nothing else changes. If you weren't able to move through/past the fence before, you still can't.
 
 Game maps reset whenever you leave them... mostly. In particular this means that any wall that you *Soften* regenerates if you leave and come back, and most "fixed" encounter points will reset as well. But I said "mostly"; certain fixed encounters are "unique" and you only get to do them once (Humbaba, Mystalvision, etc.) And once you plug the leak (or repair the statue of Lanac'toor) in Mud Toad, it stays plugged. Starting a new game, of course, resets everything about the game state (but not about your [characters](#final-notes)).
 
 Speaking of unique encounters that shouldn't reset, *Dragon Wars* **mostly** does a good job maintaining continuity. But occasionally things happen that don't make sense; events repeat themselves, dead people come back to life, etc. I guess there's only so much you can do with "global state" in games from this era. One example: if you win the battle in Kingshome, then go back to Phoebus, Buck Ironhead is still there and you can still enlist in the army. You're sent to the Siege Camp again, which is empty.
 
-I should note, though, that this is also an example of how the developers wrote in multiple solutions to almost everything, including the problem of navigating between islands. You can "enlist" in Phoebus and get transported to King's as many times as you want, so if you find yourself without *Arcane Lore* (so you can't use the Nexus), you can still get there. The ferry between Lansk and the Old Dock can get expensive, but also solves this problem.
+I should note, though, that this is also an example of how the developers wrote in multiple solutions to almost everything, including the problem of navigating between islands. You can "enlist" in Phoebus and get transported to King's as many times as you want, so if you find yourself without *Arcane Lore*, you can still reliably get there. The ferry between Lansk and the Old Dock can get expensive, but also solves this problem.
 
 There are lots of duplicated items. Most of the time, they're identical, but sometimes they aren't:
 
@@ -427,16 +388,14 @@ While we're on the subject of inventory, there are a handful of items that inexp
 
 - Bomb (Magan Underworld): *M:Zak's Speed*
 - Magic Chain (Necropolis): *M:Zak's Speed*
-- Mage Ring (Kingshome Dungeon): *D:Whirl Wind* — note that the Magic Ring (Phoebus Dungeon) *does* cast this spell successfully
+- Mage Ring (Kingshome Dungeon): *D:Whirl Wind* — note that the Magic Ring (Phoebus Dungeon) will cast this spell normally
 - Branches (Snake Pit): *D:Beast Call*
 
 Final note on inventory: keep an eye out throughout this document for **Easter Eggs**. In my exploration of the the decompiled data files I found a number of references to items, encounters, skills, spells, etc. that can't actually be found in the game. I've included their stats just for the sake of completeness, and your entertainment.
 
-After you get Ugly's boat, the teleporter in the Necropolis at the end of the spider hallway works differently depending on what kind of computer you're using to play the game. On the PC, it teleports you back to your boat. On the Apple, it teleports you to somewhere in Dilmun and ghost-sails the boat back to Smuggler's Cove.
-
 The Dead Bolt does some serious damage (1d20), but it also has a very odd feature: you can cast *S:Charger* on it to refill it as if it were a magic item. It's the only quiver that this works on. Internally it has similar bits set to the Magic Quiver, but that one 'recharges itself'.
 
-In Lanac'toor's Lab, if you take the stairs back up to Mud Toad, the statue of Lanac'toor is mysteriously broken again. As soon as you take any move (including checking the automap or turning), the statue reforms. This one feels to me like a display bug in the engine.
+In Lanac'toor's Lab, if you take the stairs back up to Mud Toad, the statue of Lanac'toor is mysteriously broken again. As soon as you take any move (including checking the automap or turning), the statue reforms. This appears to be a minor bug in how the game keeps track of which parts of the statue you've returned.
 
 The code that runs when you leave a map usually uses your current location as well as your current facing to determine where to send you. In most places this works the way you'd think, but the developers took a few shortcuts and made some "well it's gotta do *something*"-type decisions. For instance, if you leave the Bridge of Exiles to the E, you end up on King's Isle, and if you leave to the W, you end up on the Snake Pit side. But what happens if you leave to the N? You're on a bridge; there's only water on the Dilmun map to the N of here. So they drop you on the same place as if you'd left to the E or W. The problem, of course, is that if you exit to the N on the E side, you wind up on a fight with a bunch of Goblins. Run away from that fight while facing S... and you turn around and run into the water. There's a few other instances like this.
 

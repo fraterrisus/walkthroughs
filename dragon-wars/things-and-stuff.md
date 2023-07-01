@@ -1,4 +1,4 @@
-# Yet Another Dragon Wars Walkthrough
+# Things and Stuff
 
 ## Weapons
 

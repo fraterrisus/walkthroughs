@@ -1,4 +1,4 @@
-# Yet Another Dragon Wars Walkthrough
+# Magic
 
 ## Low Magic
 

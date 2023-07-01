@@ -1,49 +1,10 @@
 # Yet Another Dragon Wars Walkthrough
 
-## Table of Contents
-
-- [Weapons](#weapons)
-  - [Axes](#axes)
-  - [Flails](#flails)
-  - [Swords](#swords)
-  - [Two-Handed Weapons](#two-handed-weapons)
-  - [Maces](#maces)
-  - [Bows](#bows)
-  - [Crossbows](#crossbows)
-  - [Guns](#guns)
-  - [Ammunition](#ammunition)
-  - [Thrown Weapons](#thrown-weapons)
-- [Armor](#armor)
-  - [Body Armor](#body-armor)
-  - [Gloves](#gloves)
-  - [Shields](#shields)
-  - [Helms](#helms)
-  - [Boots](#boots)
-  - [Rings](#rings)
-- [Unique Items](#unique-items)
-- [Shops](#shops)
-  - [Purgatory](#purgatory)
-  - [Lansk Undercity](#lansk-undercity)
-  - [Mud Toad](#mud-toad)
-  - [Byzanople Siege Camp](#byzanople-siege-camp)
-  - [Byzanople](#byzanople)
-  - [Freeport](#freeport)
-
-## Things and Stuff
-
-What good would an RPG be without stuff to collect? I find that *Dragon Wars* strikes a nice balance between needing to pick up a bunch of items for plot reasons, having a few items that are completely useless and have no value, and plenty of things in between. It has its down sides too, though: for instance, it's impossible to determine how much damage a weapon does. (At least nothing is cursed, so you can determine AV and AC modifiers through experimentation.) The other "gotcha" is that it is possible to collect and then throw away certain items that are essential to particular plot lines and can never be recovered once discarded. The good news is that you can always [reset the game state](./walkthrough-0.md#final-notes), at the cost of losing all your progress, equipment, and gold. But that's your only choice if you throw away the Golden Boots by accident.
-
-Some notes about the tables below:
-
-- The game keeps an "item type" value for every item in the game. Item Types determine what you're allowed to equip, and mostly the rules make sense, but there are a few surprises, too. Everything conflicts with itself, i.e. you can't have two Shields or two Helmets equipped simultaneously. I've listed the less-obvious item type conflicts below.
-- **STR** and **DEX** indicate the minimum values required to wield a weapon. If you ask a shop owner to `(E)xamine` an object, they'll tell you the item type and its base requirements. Of course, I've pulled this data directly from the data files instead.
-- Prices listed are the purchase price; sale price is 50% of that. Some items can't actually be purchased, so the purchase price listed here is simply 2x the sale price, if selling the item is possible. Scrolls aren't listed here, but they tend to sell for either $100 or $1000, or in some cases be unsellable. There's no rhyme or reason to it.
-
-### Weapons
+## Weapons
 
 All weapons conflict with each other, i.e. you can't wield an axe and a flail simultaneously, nor can you wield a sword and a crossbow. *Most* weapons don't conflict with shields.
 
-#### Axes
+### Axes
 
 | Item         | Price | Dmg  | STR  |  AV  |  AC  | Other                |
 | :----------- | :---: | :--: | :--: | :--: | :--: | -------------------- |
@@ -57,7 +18,7 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 | Magic Axe    |  700  | 1d30 |  20  |  +1  |      |                      |
 | Nature Axe   | 1500  | 1d30 |  18  |  -6  |      |                      |
 
-#### Flails
+### Flails
 
 | Item         | Price | Dmg  | STR  |  AV  |  AC  | Other |
 | ------------ | :---: | :--: | :--: | :--: | :--: | ----- |
@@ -68,7 +29,7 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 | Barbed Flail | 2000  | 1d30 |  16  |      |  +2  |       |
 | Spiked Flail | 3000  | 4d20 |  16  |  +2  |  +1  |       |
 
-#### Swords
+### Swords
 
 | Item                                | Price |  Dmg  | STR  |  AV  |  AC  | Other                        |
 | ----------------------------------- | :---: | :---: | :--: | :--: | :--: | ---------------------------- |
@@ -83,7 +44,7 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 | Dragon Tooth                        | 6000  | 2d20  |  12  |  +8  |  +2  | 60' range                    |
 | Freedom Sw.<br />[Sword of Freedom] |   —   | 1d100 |  15  | +15  |  +5  | casts *S:Inferno* if blessed |
 
-#### Two-Handed Weapons
+### Two-Handed Weapons
 
 Two-handers conflict with Full Shields, but not regular Shields.
 
@@ -100,7 +61,7 @@ Two-handers conflict with Full Shields, but not regular Shields.
 | Heavy Sword          | 8000  | 8d8 |  25  |  -3  |  -2  |                                                        |
 | Dragon Sword         | 5000  | 4d20 |  21  |  +3  |      |                                                        |
 
-#### Maces
+### Maces
 
 | Item         | Price | Dmg  | STR  |  AV  |  AC  | Other                  |
 | ------------ | :---: | :--: | :--: | :--: | :--: | ---------------------- |
@@ -117,7 +78,7 @@ Two-handers conflict with Full Shields, but not regular Shields.
 | Spell Staff  | 7000  | 1d10 |  —   |  +5  |  +8  | requires *Low Magic* 1 |
 | Mage Staff   | 20000 | 1d20 |  —   | +10  |      |                        |
 
-#### Bows
+### Bows
 
 Bows, like Two-handers, conflict with Full Shields but not regular Shields.
 
@@ -130,17 +91,17 @@ Bows, like Two-handers, conflict with Full Shields but not regular Shields.
 | Magic Bow    |    60    |      |  70'  |  10  |  +4  |                         |
 | Gatlin Bow   |    60    |      |  20'  |  10  |      | can fire x1, x3, or all |
 
-#### Crossbows
+### Crossbows
 
 | Item         |  Price   | Dmg  | Range | DEX  |  AV  | Other                   |
 | ------------ | :------: | :--: | :---: | :--: | :--: | ----------------------- |
 | Crossbow     |    60    |      |  30'  |  12  |      |                         |
 | Tri-Cross    |   600    |      |  30'  |  15  |  +1  | can fire x1 or x3       |
 
-#### Guns
+### Guns
 No, there aren't actually any guns in *Dragon Wars*; this is an easter egg. There's no corresponding weapon skill, either. But there sure is an "item type" in the code for it, along with one for "Ammo Clips" (as distinct from Ammunition, below).
 
-#### Ammunition
+### Ammunition
 
 The item conflict rules are written such that you have to equip ammunition *after* the bow or crossbow you're trying to load it into. Otherwise, you equip the ammo, then you equip the bow and it unequips the ammo for you. And of course you can't equip two quivers at once.
 
@@ -160,7 +121,7 @@ Ammunition also carries an "ammo type" flag which determines whether it can be l
 | Mega Bolt    |  600  | 1d20 |       |      |      |                         |
 | Dead Bolt    |  100  | 1d20 |       |      |      | refill with *S:Charger* |
 
-#### Thrown Weapons
+### Thrown Weapons
 
 | Item                     | Price | Dmg  | Range | DEX  |  AV  |  AC  | Other                            |
 | ------------------------ | :---: | :--: | :---: | :--: | :--: | :--: | -------------------------------- |
@@ -175,9 +136,9 @@ Ammunition also carries an "ammo type" flag which determines whether it can be l
 | Barbed Spear             | 4000  | 1d20 |  40'  |  16  |      |      |                                  |
 | Trident                  | 4000  | 2d20 |  40'  |  15  |      |      | returns to thrower               |
 
-### Armor
+## Armor
 
-#### Body Armor
+### Body Armor
 
 Body Armor comes in a bunch of different "item types", like "Leather" and "Cuir Bouilli" and "Plate and Chain", but it doesn't make any difference to the game.
 
@@ -197,7 +158,7 @@ Body Armor comes in a bunch of different "item types", like "Leather" and "Cuir 
 | Heavy Plate<br />Great Plate (Kingshome) | 4000  | +12  |  -6  | *"Great Plate" is an easter egg*                 |
 | Dragon Plate                             | 3100  | +14  |  -3  |                                                  |
 
-#### Gloves
+### Gloves
 
 Technically, the Silver Gloves are "Mage Gloves" instead of "Gloves", but the distinction doesn't matter.
 
@@ -206,7 +167,7 @@ Technically, the Silver Gloves are "Mage Gloves" instead of "Gloves", but the di
 | Gauntlets     |  700  |  +2  |      |       |
 | Silver Gloves | 2000  |  +3  |      |       |
 
-#### Shields
+### Shields
 
 Everything listed on this table is a "Full Shield" except for the basic "Shield". Full Shields can't be used with Two-handers or Bows.
 
@@ -221,7 +182,7 @@ Everything listed on this table is a "Full Shield" except for the basic "Shield"
 
 No, it *doesn't* make any sense that Shields and Large Shields cost the same amount of gold. Thanks for asking.
 
-#### Helms
+### Helms
 
 | Item        | Price |  AC  |  AV  | Other                 |
 | ----------- | :---: | :--: | :--: | --------------------- |
@@ -230,14 +191,14 @@ No, it *doesn't* make any sense that Shields and Large Shields cost the same amo
 | Black Helm  | 3000  |  +3  |      | casts *M:Zak's Speed* |
 | Dragon Helm | 7000  |  +4  |  -1  |                       |
 
-#### Boots
+### Boots
 
 | Item         | Price |  AC  |  AV  | Other |
 | ------------ | :---: | :--: | :--: | ----- |
 | Lucky Boots  | 2000  |  +1  |      |       |
 | Golden Boots |   —   |  +2  |      |       |
 
-#### Rings
+### Rings
 
 | Item       | Price |  AC  |  AV  | Other                                                       |
 | ---------- | :---: | :--: | :--: | ----------------------------------------------------------- |
@@ -245,7 +206,7 @@ No, it *doesn't* make any sense that Shields and Large Shields cost the same amo
 | Mage Ring  | 2000  |  +1  |  +4  | requires *Low Magic* 3<br />casts *D:Whirl Wind* if charged |
 | Magic Ring |   —   |  +2  |  +1  | casts *D:Whirl Wind*                                        |
 
-### Unique Items
+## Unique Items
 
 Being a list of every item in the game I haven't already mentioned (and a few I have), where to get it, and what to do with it. Items are listed by the way they show up in your inventory.
 
@@ -490,7 +451,7 @@ Being a list of every item in the game I haven't already mentioned (and a few I 
   - get from Irkalla after rescuing her with the Silver Key
   - use to enter the lower level of the Sunken Ruins
 
-### Shops
+## Shops
 
 There are a handful of cities throughout Dilmun that have stores where you can buy, and more importantly sell, various items. They're listed here roughly in game order.
 
@@ -498,9 +459,9 @@ Most shops specialize in what goods they sell, but you can sell anything (with v
 
 As a side note, if a shop is broken up into departments (or if there are multiple stores in the same location) you'll usually find Dragon Stones under "Armor".
 
-#### Purgatory
+### Purgatory
 
-##### Black Market<a name="black-market-purgatory"></a>
+#### Black Market<a name="black-market-purgatory"></a>
 
 | Price | Weapons | Price | Bows | Price | Armor |
 | ------: | ---------- | ----: | ----------- | ---: | ------------- |
@@ -515,7 +476,7 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 60      | Broadsword |       |             |      |               |
 | 80      | Greatsword |       |             |      |               |
 
-##### Magic Shoppe<a name="magic-shoppe-purgatory"></a>
+#### Magic Shoppe<a name="magic-shoppe-purgatory"></a>
 
 | Price | Item |
 | ----: | ---- |
@@ -526,9 +487,9 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | —    | *L:Lesser Heal* |
 | —    | *L:Mage Light*  |
 
-#### Lansk Undercity
+### Lansk Undercity
 
-##### Doctor Death's Killing and Maiming Emporium<a name="doctor-death"></a>
+#### Doctor Death's Killing and Maiming Emporium<a name="doctor-death"></a>
 
 | Price | Item |
 | ----: | ---- |
@@ -541,7 +502,7 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 60   | Bolt (#20)  |
 | 40   | Javelin     |
 
-##### Exeter's Fine Shield and Armors<a name="exeter"></a>
+#### Exeter's Fine Shield and Armors<a name="exeter"></a>
 
 | Price | Item |
 | ----: | ---- |
@@ -554,7 +515,7 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 1000 | Shield        |
 | 1000 | Large Shield  |
 
-##### Ministry of EZ Paperwork<a name="ez-paperwork"></a>
+#### Ministry of EZ Paperwork<a name="ez-paperwork"></a>
 
 | Price | Item |
 | ----: | ---- |
@@ -562,7 +523,7 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 50   | Kings Ticket       |
 | 100  | Citizenship Papers |
 
-##### Illegal Magic Shoppe<a name="magic-shop-lansk"></a>
+#### Illegal Magic Shoppe<a name="magic-shop-lansk"></a>
 
 | Price | Item |
 | ----: | ---- |
@@ -571,9 +532,9 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 100  | *D:Cure All*    |
 | 250  | Dragon Stone    |
 
-#### Mud Toad
+### Mud Toad
 
-##### Souvenir Shop<a name="souvenir-shop"></a>
+#### Souvenir Shop<a name="souvenir-shop"></a>
 
 | Price | Item |
 | ----: | ---- |
@@ -587,9 +548,9 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 60   | Bolt (#30)   |
 | 50   | Arrow (#20)  |
 
-#### Byzanople Siege Camp
+### Byzanople Siege Camp
 
-##### Black Market<a name="black-market-byzanople"></a>
+#### Black Market<a name="black-market-byzanople"></a>
 
 | Price | Weapons | Price | Bows | Price | Armor |
 | ------: | ------------ | ----: | ----------- | ---: | ------------ |
@@ -600,9 +561,9 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 60      | Broadsword   | 60    | Bolt (#20)  |      |              |
 | 90      | Polearm      |       |             |      |              |
 
-#### Byzanople
+### Byzanople
 
-##### Bart's Weaponsmithing<a name="bart"></a>
+#### Bart's Weaponsmithing<a name="bart"></a>
 
 | Price | Swords | Price | Bows |
 | -----: | ------------ | ---: | ------------ |
@@ -615,7 +576,7 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 90     | Polearm      | 4000 | Barbed Spear |
 | 2000   | Long Mace    |      |              |
 
-##### Marik's Armory<a name="marik"></a>
+#### Marik's Armory<a name="marik"></a>
 
 | Price | Item |
 | ---: | ------------ |
@@ -625,9 +586,9 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 1000 | Large Shield |
 | 250  | Dragon Stone |
 
-#### Freeport
+### Freeport
 
-##### Ryan's Armor<a name="ryan"></a>
+#### Ryan's Armor<a name="ryan"></a>
 
 | Price | Item |
 | ---: | ------------ |
@@ -636,7 +597,7 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 4000 | Heavy Plate  |
 | 100  | Large Shield |
 
-##### Freeport Arms
+#### Freeport Arms
 
 | Price | Item |
 | ---: | ------------ |
@@ -644,13 +605,13 @@ As a side note, if a shop is broken up into departments (or if there are multipl
 | 40   | Hammer       |
 | 200  | Long Mace    |
 
-##### Bewitching Potions and Elixers<a name="bewitching"></a>
+#### Bewitching Potions and Elixers<a name="bewitching"></a>
 
 | Price | Item         |
 | ----: | ------------ |
 |   250 | Dragon Stone |
 
-##### Magic Inc.<a name="magic-shop-freeport"></a>
+#### Magic Inc.<a name="magic-shop-freeport"></a>
 
 | Price | Item             |
 | ----: | ---------------- |

@@ -1,39 +1,6 @@
 # Yet Another Dragon Wars Walkthrough
 
-## Table of Contents
-
-- [Low Magic](#low-magic)
-- [High Magic](#high-magic)
-- [Druid Magic](#druid-magic)
-- [Sun Magic](#sun-magic)
-- [Miscellaneous Magic](#miscellaneous-magic)
-
-## Magic
-
-In *Dragon Wars*, spells are associated with a **school** (**Low, High, Sun, Druid**, or **Miscellaneous**). You've probably already noticed that throughout this document, when I refer to spells, I prefix it with the first letter of the school. That should make it easier for you to remember who's got what spell, unless you decided two Sun Magicians was a good idea.
-
-Spells don't have any concept of a "level", so as soon as you gain your first rank of the associated skill, you are eligible to learn *all* spells in that school. (The Miscellaneous school only requires Low Magic.) To learn a spell, you simply have to find and `(U)se` a scroll with that spell on it. Presuming you have the right magic skill, you have now learned the spell and can cast it whenever you want.
-
-Of course, there is no random loot in this game and everything is in a predetermined position, so you'll find scrolls when the game decides to give them to you, and not (much) before. I've listed the area of every spell scroll in the table below, so you can get a rough idea of when you'll be able to learn the spell. That doesn't include spell grants, like the Druid spells you learn by wrestling Enkidu. More details are in the guide for each area.
-
-To cast a spell you must have enough Power to pay the cost. Costs are listed in the table below; some spells are variable cost, which means you can pick how many Power points to spend on it. The maximum cost is double the number of ranks you have in the associated skill, so a caster with *Sun Magic 3* can cast up to a six-point *S:Inferno.*
-
-Spells are roughly sorted into the following types:
-
-- **Heal** spells, obviously, restore health and stun.
-- **Buff** spells temporarily improve some attribute of one or more members of your party.
-- **Debuff** spells do the opposite: they hinder your opponents somehow.
-- **Zap** spells deal damage to one or more enemies.
-- **Miscellaneous** spells usually have something to do with travel, like casting light or detecting traps.
-- **Summoning** spells are basically useless. You can use them to fill in your party if you have an empty slot, but you probably never will. Summoned creatures last 4 hours per point of Power. There is also one special place you can use them, which I'll describe in the walkthrough when we get there.
-
-This is close to, but not *quite* the same, as the game's distinction between "Combat", "Heal", and "Misc" categories.
-
-Zap spells (as well as a few others, marked in the tables below) require an **attack roll** per target. This works similarly to a melee attack roll, but you use INT for your "AV" and your magic skill in place of a weapon skill. Defenders get to use their normal DV. The basic roll (1d16+2) is the same, and you're still trying to roll equal or below a target of 12 + your skill ranks + your AV – defender's DV. The game only rolls damage once, but any target you "miss" takes half damage instead. The damage the game reports back to you is the average across all your hits and misses, so you have a sense of how effective you were... but not a very good one.
-
-One more weird tip I'll leave you with: it *looks* like scrolls are single-use, because they don't have any charges listed next to them. However, once you reach Freeport and acquire *S:Charger*, you can use it to add additional "charges" to a scroll. (Just make sure you have *two* charges before you use it, because it will disappear as soon as the charge count reaches zero.) Probably the most interesting use of this hack is to pass Lanac'toor's Miscellaneous Magic scrolls around your entire party, but on a second playthrough you could also use it to replicate everything else... like *S:Inferno*.
-
-### Low Magic
+## Low Magic
 
 All Low Magic spells can be found for free in the Purgatory magic shoppe. Low Magic scrolls appear in random additional places throughout the game as well, but nowhere else matters because if you ever need them again (say, after giving Low Magic to your fighters later in life), Purgatory is never really all that far away.
 
@@ -46,7 +13,7 @@ All Low Magic spells can be found for free in the Purgatory magic shoppe. Low Ma
 | Disarm      |  4   |    1    |  30'  | Debuff |      Y       | Disarms target<br />*not all monsters can be Disarmed; some shrug it off* |
 | Mage Light  | var. |         |  20'  | Misc.  |      —       | Light, 3hr / pt                                              |
 
-### High Magic
+## High Magic
 
 | Spell          | POW  | Targets | Range |  Type  | Attack Roll? | Effect                                                       | Where Found                                             |
 | -------------- | :--: | :-----: | :---: | :----: | :----------: | ------------------------------------------------------------ | ------------------------------------------------------- |
@@ -70,7 +37,7 @@ All Low Magic spells can be found for free in the Purgatory magic shoppe. Low Ma
 | Earth Summon   | var. |         |       | Summon |      —       |                                                              | Sunken Ruins, Pilgrim Dock                              |
 | Fire Summon    | var. |         |       | Summon |      —       |                                                              | Magic College                                           |
 
-### Druid Magic
+## Druid Magic
 
 If you wrestle Enkidu and win, he grants you *Druid Magic* 2 and most but not all of the Druid Magic library. I haven't included those spells here; if "Where Found" includes Mystic Wood, it's on a scroll somewhere.
 
@@ -90,7 +57,7 @@ If you wrestle Enkidu and win, he grants you *Druid Magic* 2 and most but not al
 | Wood Spirit     | var. |         |       | Summon |      —       |                                         | Mystic Wood Phoebus Dungeon            |
 | Invoke Spirit   | var. |         |       | Summon |      —       |                                         | Mystic Wood                            |
 
-### Sun Magic
+## Sun Magic
 
 | Spell                        | POW  | Targets | Range |  Type  | Attack Roll? | Effect                                                       | Where Found                                      |
 | ---------------------------- | :--: | :-----: | :---: | :----: | :----------: | ------------------------------------------------------------ | ------------------------------------------------ |
@@ -115,7 +82,7 @@ If you wrestle Enkidu and win, he grants you *Druid Magic* 2 and most but not al
 | Light Flash                  |  6   |  group  |  50'  | Debuff |      Y       | Enemies miss next turn                                       | *Easter Egg*                                     |
 | Summon Salamander            | var. |         |       | Summon |              |                                                              | Mud Toad                                         |
 
-### Miscellaneous Magic
+## Miscellaneous Magic
 
 Miscellaneous Magic spells can be learned and used by anyone with Low Magic.
 

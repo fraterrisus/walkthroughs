@@ -25,8 +25,17 @@ Version 3.0, June 2023
   - Game Mechanics
   - Dealing With Loot
   - Weird Stuff
-- [Things and Stuff](./things-and-stuff.md)
+- [Things and Stuff](#things-and-stuff)
+   - Weapons
+   - Armor
+   - Unique Items
+   - Shops
 - [Magic](./magic.md)
+   - Low Magic
+   - High Magic
+   - Druid Magic
+   - Sun Magic
+   - Miscellaneous Magic
 - Walkthrough
 - Maps
 - Final Notes
@@ -435,7 +444,75 @@ Purgatory's got two of them; exit to the N (which, to be honest, there's not rea
 
 If you're playing on a PC, the item beneath the statue on the Old Dock is a PS/2. If you're playing on an Apple emulator, it's a IIgs. It does the same thing either way, including granting +4 AC if you equip it.
 
+## Things and Stuff
+
+What good would an RPG be without stuff to collect? I find that *Dragon Wars* strikes a nice balance between needing to pick up a bunch of items for plot reasons, having a few items that are completely useless and have no value, and plenty of things in between. It has its down sides too, though: for instance, it's impossible to determine how much damage a weapon does. (At least nothing is cursed, so you can determine AV and AC modifiers through experimentation.) The other "gotcha" is that it is possible to collect and then throw away certain items that are essential to particular plot lines and can never be recovered once discarded. The good news is that you can always [reset the game state](./walkthrough-0.md#final-notes), at the cost of losing all your progress, equipment, and gold. But that's your only choice if you throw away the Golden Boots by accident.
+
+Some notes about these tables:
+
+- The game keeps an "item type" value for every item in the game. Item Types determine what you're allowed to equip, and mostly the rules make sense, but there are a few surprises, too. Everything conflicts with itself, i.e. you can't have two Shields or two Helmets equipped simultaneously. I've listed the less-obvious item type conflicts.
+- **STR** and **DEX** indicate the minimum values required to wield a weapon. If you ask a shop owner to `(E)xamine` an object, they'll tell you the item type and its base requirements. Of course, I've pulled this data directly from the data files instead.
+- Prices listed are the purchase price; sale price is 50% of that. Some items can't actually be purchased, so the purchase price listed here is simply 2x the sale price, if selling the item is possible. Scrolls aren't listed here, but they tend to sell for either $100 or $1000, or in some cases be unsellable. There's no rhyme or reason to it.
+
+- [Weapons](./things-and-stuff.md#weapons)
+  - [Axes](./things-and-stuff.md#axes)
+  - [Flails](./things-and-stuff.md#flails)
+  - [Swords](./things-and-stuff.md#swords)
+  - [Two-Handed Weapons](./things-and-stuff.md#two-handed-weapons)
+  - [Maces](./things-and-stuff.md#maces)
+  - [Bows](./things-and-stuff.md#bows)
+  - [Crossbows](./things-and-stuff.md#crossbows)
+  - [Guns](./things-and-stuff.md#guns)
+  - [Ammunition](./things-and-stuff.md#ammunition)
+  - [Thrown Weapons](./things-and-stuff.md#thrown-weapons)
+- [Armor](./things-and-stuff.md#armor)
+  - [Body Armor](./things-and-stuff.md#body-armor)
+  - [Gloves](./things-and-stuff.md#gloves)
+  - [Shields](./things-and-stuff.md#shields)
+  - [Helms](./things-and-stuff.md#helms)
+  - [Boots](./things-and-stuff.md#boots)
+  - [Rings](./things-and-stuff.md#rings)
+- [Unique Items](./things-and-stuff.md#unique-items)
+- [Shops](./things-and-stuff.md#shops)
+  - [Purgatory](./things-and-stuff.md#purgatory)
+  - [Lansk Undercity](./things-and-stuff.md#lansk-undercity)
+  - [Mud Toad](./things-and-stuff.md#mud-toad)
+  - [Byzanople Siege Camp](./things-and-stuff.md#byzanople-siege-camp)
+  - [Byzanople](./things-and-stuff.md#byzanople)
+  - [Freeport](./things-and-stuff.md#freeport)
+
 ## Magic
+
+In *Dragon Wars*, spells are associated with a **school**:
+
+- [Low Magic](./magic.md#low-magic)
+- [High Magic](./magic.md#high-magic)
+- [Druid Magic](./magic.md#druid-magic)
+- [Sun Magic](./magic.md#sun-magic)
+- [Miscellaneous Magic](./magic.md#miscellaneous-magic)
+
+You've probably already noticed that throughout this document, when I refer to spells, I prefix it with the first letter of the school. That should make it easier for you to remember who's got what spell, unless you decided two Sun Magicians was a good idea.
+
+Spells don't have any concept of a "level", so as soon as you gain your first rank of the associated skill, you are eligible to learn *all* spells in that school. (The Miscellaneous school only requires Low Magic.) To learn a spell, you simply have to find and `(U)se` a scroll with that spell on it. Presuming you have the right magic skill, you have now learned the spell and can cast it whenever you want.
+
+Of course, there is no random loot in this game and everything is in a predetermined position, so you'll find scrolls when the game decides to give them to you, and not (much) before. I've listed the area of every spell scroll in the table below, so you can get a rough idea of when you'll be able to learn the spell. That doesn't include spell grants, like the Druid spells you learn by wrestling Enkidu. More details are in the guide for each area.
+
+To cast a spell you must have enough Power to pay the cost. Costs are listed in the table below; some spells are variable cost, which means you can pick how many Power points to spend on it. The maximum cost is double the number of ranks you have in the associated skill, so a caster with *Sun Magic 3* can cast up to a six-point *S:Inferno.*
+
+Spells are roughly sorted into the following types:
+
+- **Heal** spells, obviously, restore health and stun.
+- **Buff** spells temporarily improve some attribute of one or more members of your party.
+- **Debuff** spells do the opposite: they hinder your opponents somehow.
+- **Zap** spells deal damage to one or more enemies.
+- **Miscellaneous** spells usually have something to do with travel, like casting light or detecting traps.
+- **Summoning** spells are basically useless. You can use them to fill in your party if you have an empty slot, but you probably never will. Summoned creatures last 4 hours per point of Power. There is also one special place you can use them, which I'll describe in the walkthrough when we get there.
+
+This is close to, but not *quite* the same, as the game's distinction between "Combat", "Heal", and "Misc" categories.
+
+Zap spells (as well as a few others, marked in the tables below) require an **attack roll** per target. This works similarly to a melee attack roll, but you use INT for your "AV" and your magic skill in place of a weapon skill. Defenders get to use their normal DV. The basic roll (1d16+2) is the same, and you're still trying to roll equal or below a target of 12 + your skill ranks + your AV – defender's DV. The game only rolls damage once, but any target you "miss" takes half damage instead. The damage the game reports back to you is the average across all your hits and misses, so you have a sense of how effective you were... but not a very good one.
+
+One more weird tip I'll leave you with: it *looks* like scrolls are single-use, because they don't have any charges listed next to them. However, once you reach Freeport and acquire *S:Charger*, you can use it to add additional "charges" to a scroll. (Just make sure you have *two* charges before you use it, because it will disappear as soon as the charge count reaches zero.) Probably the most interesting use of this hack is to pass Lanac'toor's Miscellaneous Magic scrolls around your entire party, but on a second playthrough you could also use it to replicate everything else... like *S:Inferno*.
 
 ## Walkthrough
 

@@ -39,7 +39,7 @@ I'm assuming you've read the game's manual and the reference card; they'll give 
 
 You'll also find a list of spells in the manual, but you won't need it because I've listed them all along with more information than is available there. You should also be aware that there are several red herrings and/or places where the manual is simply incorrect, whether intentional or not.
 
-At the end of the manual is a list of paragraphs. You should be able to find a text file containing the paragraphs online, rather than having to squint at your poorly-scanned PDF manual. These help flesh out the story as you go, and give you some hints and other bits of direction. In the walkthrough I've marked the places where the game directs you to the paragraph list with `(pxxx)`, where `xxx` is the paragraph number. Careful, not all the paragraphs are real! But the fake ones are often funny and worth reading. I've listed out which ones are fake in the [end notes](#paragraphs), if you're curious.
+At the end of the manual is a list of paragraphs. You should be able to find a text file containing the paragraphs online, rather than having to squint at your poorly-scanned PDF manual. These help flesh out the story as you go, and give you some hints and other bits of direction. In the walkthrough I've marked the places where the game directs you to the paragraph list with `(pxxx)`, where `xxx` is the paragraph number. Careful, not all the paragraphs are real! But the fake ones are often funny and worth reading. I've listed out which ones are fake in the [end notes](#appendix-paragraphs), if you're curious.
 
 ### Managing Save Files
 
@@ -104,7 +104,7 @@ Here's some things to keep in mind when spending AP on your party, both at creat
 
 Characters 1–4 in the marching order are the only ones who can melee, so generally you'll want four fighter types and three mage types behind them. Of the NPCs, **Ulrik** is an obvious choice for the front lines. **Louie** could swing either way (for a fighter, he's got a high SPR) but he doesn't start with any magic skills. **Valar** is already a great Sun mage. **Halifax** is a fighter, but he doesn't appear until super late in the game, and by the time you can pick him up you probably don't want to get rid of anyone else.
 
-That being said, creating two fighters and two mages is probably your best bet. But that begs the question of which magic skills to take, and there's not really a single correct answer. Every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](./walkthrough-1.md#magic-college) becomes unsolvable, though.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded, so you don't need your own. But if you were going to double up on a school, this is the one to pick. **Druid Magic** is *required* in order to win the game, but because of that it's possible to pick it up in-game for free. You could let a strong fighter become a Druid mage instead of making one; I've had success letting Louie take this role.
+That being said, creating two fighters and two mages is probably your best bet. But that begs the question of which magic skills to take, and there's not really a single correct answer. Every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded, so you don't need your own. But if you were going to double up on a school, this is the one to pick. **Druid Magic** is *required* in order to win the game, but because of that it's possible to pick it up in-game for free. You could let a strong fighter become a Druid mage instead of making one; I've had success letting Louie take this role.
 
 Okay, fine, you're here for opinions, here's mine: For a fresh party, I almost always take *High Magic* and *Druid Magic*. My High Mage sits in slot 5 with a high DEX, and they get the Gatlin Bow / Magic Quiver combo in the second half of the game. I pick up Valar early to round out the set, and Louie gets *Druid* from Enkidu once he's ready. Having two Druid mages is no bad thing (*D:Cure All*). But this is definitely not the only way to do it.
 
@@ -286,11 +286,11 @@ If you're reading this section, then one of three things had better be true:
 
 If it's that last one, I'm going to ask you to seriously consider starting the game over from scratch before we proceed. Regardless, you're going to have to slog through another few paragraphs describing how terrible this process is before I tell you the actual answer. I have literally only ever gone through this process for the purposes of documenting how to do it; I was already in the Necropolis and someone died from a Ghoul bite, so I figured I'd try it out.
 
-Let's start with location. In order to resurrect a dead character you have to get to the [Necropolis](./walkthrough-1.md#all-we-wanna-do-is-eat-your-brains-the-necropolis). Technically, the Well of Souls is in the Underworld, not the Necropolis, but the building that houses it is immune to *D:Soften Stone*, so there's no access without going through the Necropolis.
+Let's start with location. In order to resurrect a dead character you have to get to the [Necropolis](walkthrough.md#all-we-wanna-do-is-eat-your-brains-the-necropolis). Technically, the Well of Souls is in the Underworld, not the Necropolis, but the building that houses it is immune to *D:Soften Stone*, so there's no access without going through the Necropolis.
 
 Of course, the only way to get to the Necropolis is by boat. I suppose you don't *have* to have beaten Ugly and his crew and taken his boat from him; you could just bribe him to take you there. Which is good, because that's a really hard battle even with a full party, and you're likely to lose somebody in that fight.
 
-If you don't happen to be on one of the Eastern Isles already, you have to pick up the boat at [Smuggler's Cove](./walkthrough-1.md#smugglers-blues-smugglers-cove). Quag is infested with Murk Trees, and they're potentially deadly no matter how good your AC is. You have to fight off at least one group of them to get to the Cove, and there's a non-zero chance that you lose *another* PC in that fight.
+If you don't happen to be on one of the Eastern Isles already, you have to pick up the boat at [Smuggler's Cove](walkthrough.md#smugglers-blues-smugglers-cove). Quag is infested with Murk Trees, and they're potentially deadly no matter how good your AC is. You have to fight off at least one group of them to get to the Cove, and there's a non-zero chance that you lose *another* PC in that fight.
 
 Even if you've already cleared the Necropolis once and you're coming back just to use the Well of Souls, you still have to fight off two really annoying Guardians. And, again, no using *D:Soften Stone* to skip the fights.
 
@@ -322,7 +322,7 @@ One additional note that didn't fit anywhere else: when enemies feel like they'r
 
 In the early game, missile weapons are kind of nice because you can get additional attacks from your back row, but managing an inventory full of arrows gets annoying fast. Most quivers don't do very much damage, although there's a bug you can exploit to get copies of the better ones. On the other hand, the Gatlin Bow / Magic Quiver combination is amazingly deadly; you'll likely do more damage with that combo than any melee weapon, all the way through the end of the game. My advice is to get bows for your back row as soon as possible (the Purgatory Arena, for example). Stop collecting arrows whenever you get sick of managing them, you find that your mages have better things to do, or you just have better things to do with the inventory slots. But don't get rid of the bows; spellcasting also uses your AV, so keeping a high-AV weapon (Ruby Dagger +3, Magic Bow +4) around is still a good idea.
 
-Melee weapons with a ranged attack are incredibly useful. You don't have to do anything special to activate the ranged attack; simply `(A)ttack` a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](./things-and-stuff.md#weapons). I found that I often prioritized having 'reach' over a weapon that did more damage at 10'. You may have different preferences or combat styles.
+Melee weapons with a ranged attack are incredibly useful. You don't have to do anything special to activate the ranged attack; simply `(A)ttack` a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](things-and-stuff.md#weapons). I found that I often prioritized having 'reach' over a weapon that did more damage at 10'. You may have different preferences or combat styles.
 
 Also remember that some armor and weapons have additional magical actions that can be useful in combat. `(U)sing` the weapon during a combat round will activate the spell on your turn. For example, if you use the Druid's Mace in combat, it casts *D:Cure All*, which coincidentally is the best group-heal spell in the game.
 
@@ -356,7 +356,7 @@ You also have the option of not picking up things in the first place. When prese
 
 The game generally does a nice job at providing equipment upgrades at the right time, instead of forcing you to buy them. You'll farm enough gold to buy your first round of equipment in Purgatory, but it's optional. From then you may not buy another piece of armor or weaponry until Freeport, which is almost 2/3 of the way through the game.
 
-When you do go to sell stuff, you can largely sell anything anywhere for half of its purchase price. The most useful places to sell things are the Purgatory Black Market, the Lansk Undercity shops, the Byzanople Siege Camp Black Market, and the Mud Toad souvenir shop. Several items have no purpose beyond their resale value; when in doubt, see the list of [Unique Items](./things-and-stuff#unique-items). Keep in mind that selling something is similar to discarding it – once it leaves your inventory, it's gone. You can't buy unique items back from the shop you sold them to.
+When you do go to sell stuff, you can largely sell anything anywhere for half of its purchase price. The most useful places to sell things are the Purgatory Black Market, the Lansk Undercity shops, the Byzanople Siege Camp Black Market, and the Mud Toad souvenir shop. Several items have no purpose beyond their resale value; when in doubt, see the list of [Unique Items](things-and-stuff#unique-items). Keep in mind that selling something is similar to discarding it – once it leaves your inventory, it's gone. You can't buy unique items back from the shop you sold them to.
 
 All of the hint guides basically tell you to horde Dragon Stones as if they're the most precious resource on Oceana. I find this advice *ridiculous,* but that may be because I put so many points into *Bandage* that I'm not as reliant on magical healing. Because there are several spots where you can regenerate Power without using a Dragon Stone, I really only need them for deep dungeon dives. Also, you'll find Dragon Stones all over the place, and even if you don't, most of the good shops have them for sale and money will never really be an issue. So use a Stone whenever you want and don't worry about stuffing your mages' inventory full of them. Make sure you always have a handful, and if you can't remember where the last stash was, buy a few more.
 
@@ -391,7 +391,7 @@ While we're on the subject of inventory, there are a handful of items that inexp
 - Mage Ring (Kingshome Dungeon): *D:Whirl Wind* — note that the Magic Ring (Phoebus Dungeon) will cast this spell normally
 - Branches (Snake Pit): *D:Beast Call*
 
-Final note on inventory: keep an eye out throughout this document for **Easter Eggs**. In my exploration of the the decompiled data files I found a number of references to items, encounters, skills, spells, etc. that can't actually be found in the game. I've included their stats just for the sake of completeness, and your entertainment.
+Final note on inventory: keep an eye out throughout this document for **Easter Eggs**. In my exploration of the the decompiled data files I found a number of references to items, encounters, skills, spells, etc. that can't actually be found in the game. I've included their stats just for the sake of completeness, and your entertainment.
 
 The Dead Bolt does some serious damage (1d20), but it also has a very odd feature: you can cast *S:Charger* on it to refill it as if it were a magic item. It's the only quiver that this works on. Internally it has similar bits set to the Magic Quiver, but that one 'recharges itself'.
 
@@ -405,7 +405,7 @@ If you're playing on a PC, the item beneath the statue on the Old Dock is a PS/2
 
 ## Things and Stuff
 
-What good would an RPG be without stuff to collect? I find that *Dragon Wars* strikes a nice balance between needing to pick up a bunch of items for plot reasons, having a few items that are completely useless and have no value, and plenty of things in between. It has its down sides too, though: for instance, it's impossible to determine how much damage a weapon does. (At least nothing is cursed, so you can determine AV and AC modifiers through experimentation.) The other "gotcha" is that it is possible to collect and then throw away certain items that are essential to particular plot lines and can never be recovered once discarded. The good news is that you can always [reset the game state](./walkthrough-0.md#final-notes), at the cost of losing all your progress, equipment, and gold. But that's your only choice if you throw away the Golden Boots by accident.
+What good would an RPG be without stuff to collect? I find that *Dragon Wars* strikes a nice balance between needing to pick up a bunch of items for plot reasons, having a few items that are completely useless and have no value, and plenty of things in between. It has its down sides too, though: for instance, it's impossible to determine how much damage a weapon does. (At least nothing is cursed, so you can determine AV and AC modifiers through experimentation.) The other "gotcha" is that it is possible to collect and then throw away certain items that are essential to particular plot lines and can never be recovered once discarded. The good news is that you can always [reset the game state](#final-notes), at the cost of losing all your progress, equipment, and gold. But that's your only choice if you throw away the Golden Boots by accident.
 
 Some notes about these tables:
 
@@ -413,42 +413,42 @@ Some notes about these tables:
 - **STR** and **DEX** indicate the minimum values required to wield a weapon. If you ask a shop owner to `(E)xamine` an object, they'll tell you the item type and its base requirements. Of course, I've pulled this data directly from the data files instead.
 - Prices listed are the purchase price; sale price is 50% of that. Some items can't actually be purchased, so the purchase price listed here is simply 2x the sale price, if selling the item is possible. Scrolls aren't listed here, but they tend to sell for either $100 or $1000, or in some cases be unsellable. There's no rhyme or reason to it.
 
-- [Weapons](./things-and-stuff.md#weapons)
-  - [Axes](./things-and-stuff.md#axes)
-  - [Flails](./things-and-stuff.md#flails)
-  - [Swords](./things-and-stuff.md#swords)
-  - [Two-Handed Weapons](./things-and-stuff.md#two-handed-weapons)
-  - [Maces](./things-and-stuff.md#maces)
-  - [Bows](./things-and-stuff.md#bows)
-  - [Crossbows](./things-and-stuff.md#crossbows)
-  - [Guns](./things-and-stuff.md#guns)
-  - [Ammunition](./things-and-stuff.md#ammunition)
-  - [Thrown Weapons](./things-and-stuff.md#thrown-weapons)
-- [Armor](./things-and-stuff.md#armor)
-  - [Body Armor](./things-and-stuff.md#body-armor)
-  - [Gloves](./things-and-stuff.md#gloves)
-  - [Shields](./things-and-stuff.md#shields)
-  - [Helms](./things-and-stuff.md#helms)
-  - [Boots](./things-and-stuff.md#boots)
-  - [Rings](./things-and-stuff.md#rings)
-- [Unique Items](./things-and-stuff.md#unique-items)
-- [Shops](./things-and-stuff.md#shops)
-  - [Purgatory](./things-and-stuff.md#purgatory)
-  - [Lansk Undercity](./things-and-stuff.md#lansk-undercity)
-  - [Mud Toad](./things-and-stuff.md#mud-toad)
-  - [Byzanople Siege Camp](./things-and-stuff.md#byzanople-siege-camp)
-  - [Byzanople](./things-and-stuff.md#byzanople)
-  - [Freeport](./things-and-stuff.md#freeport)
+- [Weapons](things-and-stuff.md#weapons)
+  - [Axes](things-and-stuff.md#axes)
+  - [Flails](things-and-stuff.md#flails)
+  - [Swords](things-and-stuff.md#swords)
+  - [Two-Handed Weapons](things-and-stuff.md#two-handed-weapons)
+  - [Maces](things-and-stuff.md#maces)
+  - [Bows](things-and-stuff.md#bows)
+  - [Crossbows](things-and-stuff.md#crossbows)
+  - [Guns](things-and-stuff.md#guns)
+  - [Ammunition](things-and-stuff.md#ammunition)
+  - [Thrown Weapons](things-and-stuff.md#thrown-weapons)
+- [Armor](things-and-stuff.md#armor)
+  - [Body Armor](things-and-stuff.md#body-armor)
+  - [Gloves](things-and-stuff.md#gloves)
+  - [Shields](things-and-stuff.md#shields)
+  - [Helms](things-and-stuff.md#helms)
+  - [Boots](things-and-stuff.md#boots)
+  - [Rings](things-and-stuff.md#rings)
+- [Unique Items](things-and-stuff.md#unique-items)
+- [Shops](things-and-stuff.md#shops)
+  - [Purgatory](things-and-stuff.md#purgatory)
+  - [Lansk Undercity](things-and-stuff.md#lansk-undercity)
+  - [Mud Toad](things-and-stuff.md#mud-toad)
+  - [Byzanople Siege Camp](things-and-stuff.md#byzanople-siege-camp)
+  - [Byzanople](things-and-stuff.md#byzanople)
+  - [Freeport](things-and-stuff.md#freeport)
 
 ## Magic
 
 In *Dragon Wars*, spells are associated with a **school**:
 
-- [Low Magic](./magic.md#low-magic)
-- [High Magic](./magic.md#high-magic)
-- [Druid Magic](./magic.md#druid-magic)
-- [Sun Magic](./magic.md#sun-magic)
-- [Miscellaneous Magic](./magic.md#miscellaneous-magic)
+- [Low Magic](magic.md#low-magic)
+- [High Magic](magic.md#high-magic)
+- [Druid Magic](magic.md#druid-magic)
+- [Sun Magic](magic.md#sun-magic)
+- [Miscellaneous Magic](magic.md#miscellaneous-magic)
 
 You've probably already noticed that throughout this document, when I refer to spells, I prefix it with the first letter of the school. That should make it easier for you to remember who's got what spell, unless you decided two Sun Magicians was a good idea.
 
@@ -475,13 +475,58 @@ One more weird tip I'll leave you with: it *looks* like scrolls are single-use, 
 
 ## Walkthrough
 
-## Maps
+Moved to its own page for length, but here's a table of contents:
+
+- [Forlorn Isle](walkthrough.md#forlorn-isle)
+  - [Purgatory](walkthrough.md#purgatory)
+  - [Magan Underworld Highlights](walkthrough.md#magan-underworld-highlights)
+  - [Slave Mines](walkthrough.md#slave-mines)
+  - [Slave Camp](walkthrough.md#the-purgatory-day-spa-and-salon-slave-camp)
+  - [Phoebus](walkthrough.md#rounding-out-the-party-phoebus) (side trip)
+  - [Slave Estate](walkthrough.md#nice-island-ya-got-here-slave-estate)
+  - [Tars Ruins](walkthrough.md#shame-if-anything-were-to-happen-to-it-tars-ruins)
+  - [Tars Underground](walkthrough.md#look-an-actual-dungeon-tars-underground-)
+  - [Guard Bridge #1](walkthrough.md#guard-bridge-1)
+- [Isle of the Sun](walkthrough.md#isle-of-the-sun)
+  - [Mystic Wood](walkthrough.md#isnt-it-good-mystic-wood) (1)
+  - [Phoebus](walkthrough.md#ss-is-the-key-combo-for-save-game-phoebus)
+  - [Phoeban Dungeon](walkthrough.md#ridden-out-of-town,-on-rails-phoeban-dungeon)
+  - [Guard Bridge #2](walkthrough.md#were-on-the-road-to-nowhere-guard-bridge-2)
+  - [Lansk](walkthrough.md#the-most-boring-city-in-the-world-lansk)
+- [Quag Isle](walkthrough.md#quag-isle)
+  - [War Bridge](walkthrough.md#you-cant-fight-here-this-is-the-war-bridge)
+  - [Yellow Mud Toad](walkthrough.md#follow-the-yellow-mud-toad)
+  - [Mystic Wood](walkthrough.md#i-once-had-a-girl-or-should-i-say-she-once-had-me-mystic-wood) (2)
+  - [Smuggler's Cove](walkthrough.md#smugglers-blues-smugglers-cove)
+  - [The Necropolis](walkthrough.md#all-we-wanna-do-is-eat-your-brains-the-necropolis)
+- [King's Isle](walkthrough.md#kings-isle)
+  - [Magan Underworld](walkthrough.md#rescuing-irkalla-magan-underworld)
+  - [Bridge of Exiles, Snake Pit](walkthrough.md#le-roi-est-mort-bridge-of-exiles-snake-pit)
+  - [Kingshome](walkthrough.md#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome)
+  - [Siege Camp](walkthrough.md#yo-dawg-why-you-gotta-front-siege-camp)
+  - [Byzanople](walkthrough.md#the-siege-of-byzanople)
+- [The Eastern Isles](walkthrough.md#the-eastern-isles)
+  - [Lansk Undercity](walkthrough.md#putting-the-fun-back-in-funderworld-lansk-undercity)
+  - [Smuggler's Cove](walkthrough.md#im-on-a-boat-smugglers-cove) (2)
+  - [Freeport](walkthrough.md#im-free-as-a-bird-now-freeport)
+  - [Lanac'toor's Laboratory](walkthrough.md#and-see-whats-on-the-slab-lanactoorslaboratory)
+  - [Game Preserve](walkthrough.md#killed-hself-a-bar-when-he-was-only-three-game-preserve)
+  - [Scorpion Bridge, Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college)
+  - [Mystic Wood](walkthrough.md#pepsi-brings-your-ancestors-back-from-the-dead-mystic-wood) (3)
+  - [Dragon Valley](walkthrough.md#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley)
+  - [Sunken Ruins](walkthrough.md#the-skull-of-roba-sunken-ruins)
+  - [Dwarf Clan Hall](walkthrough.md#everybody-must-get-unstoned-dwarf-clan-hall)
+- [Isle of Salvation](walkthrough.md#isle-of-salvation)
+  - [Old Dock, Pilgrim Dock](walkthrough.md#hickory-dickory-dock-old-dock-pilgrim-dock)
+  - [Salvation](walkthrough.md#salvation)
+  - [Nisir](walkthrough.md#nisir)
+  - [Endgame](walkthrough.md#endgame)
 
 ## Final Notes
 
 Now that you've beaten Namtar – actually, you can do this any time you want – you can start over by reloading the game and indicating at the prompt that you want to `(B)egin` a new game instead of `(C)ontinuing` your old one. You keep your party as-is, including stats, spells, and any NPCs you've picked up, but (as happens when you get dumped into Purgatory) not including any of your equipment.
 
-The most notable use for this "cheat" is recycling the +5 AP [Irkalla](./walkthrough-1.md#magan-underworld-highlights) bonus. All you have to do is start the game, visit the Underworld, find Irkalla's Realm, and step over the rail. Repeat that as often as you like. It's a good way to get Magic skills for your front line fighters; one trip gets a skill point in Low Magic, two trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way (although wow is it a pain to haul out to the Necropolis to get it every time you mint a new Sun mage). Just sayin'.
+The most notable use for this "cheat" is recycling the +5 AP [Irkalla](walkthrough.md#magan-underworld-highlights) bonus. All you have to do is start the game, visit the Underworld, find Irkalla's Realm, and step over the rail. Repeat that as often as you like. It's a good way to get Magic skills for your front line fighters; one trip gets a skill point in Low Magic, two trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way (although wow is it a pain to haul out to the Necropolis to get it every time you mint a new Sun mage). Just sayin'.
 
 Otherwise, every map (mostly) resets every time you leave it, so the only other thing that starting a new game does is reset all the items and some of the "unique" encounters (Humbaba, Mog, Kingshome/Siege Camp, Necropolis, etc). If you drop a unique quest item, though, this is your only choice.
 
@@ -534,7 +579,93 @@ Here are some stats for my party after defeating Namtar for the last time.
 
 The lowest-level characters with which I've ever beaten the game (without multiple Irkalla runs) were 12th level. Experience level, of course, is basically irrelevant to the game except as a means for gaining AP, so you could alternately call those 77 AP $(50 + 5 + 2 \cdot (12-1))$ characters.
 
-### Paragraphs
+### Appendix: The Speed Run
+
+*Dragon Wars* is a fairly non-linear RPG; you're not restricted in what order you visit the various cities and dungeons, except that in some cases if you try to go to one that you're not sufficiently equipped for, you can find yourself stuck and unable to get out of where you are. But that's why you're backing up your save files, right?
+
+My [walkthrough](walkthrough.md) touches every location and tries to tell the game's entire story, but you certainly don't have to do all of that in order to win. If all you're interested in is getting through the game with the minimum amount of work, then this section is for you!
+
+In theory, the only object that you literally cannot win the game without is the Golden Boots. Go to [Mud Toad](https://gamefaqs.gamespot.com/pc/564812-dragon-wars/faqs/76013/walkthrough#follow-the-yellow-mud-toad), plug up the leak, then visit the temple to get the Boots. From there, you can get to [Salvation](https://gamefaqs.gamespot.com/pc/564812-dragon-wars/faqs/76013/walkthrough#salvation) through the Underworld, use the Boots to jump the chasm, fall into [Nisir](https://gamefaqs.gamespot.com/pc/564812-dragon-wars/faqs/76013/walkthrough#nisir), and waltz through Namtar's army before taking out the man himself. Run the [Endgame](https://gamefaqs.gamespot.com/pc/564812-dragon-wars/faqs/76013/walkthrough#endgame) and toss Namtar into the pit to win. I'm obviously skipping some steps, but this is the fastest possible path through the game.
+
+However, presuming that you aren't actually strong enough to beat Namtar's army by yourself, you'll also want the help of the Dragon Brood Queen. So we'll hit the [Lansk Undercity](https://gamefaqs.gamespot.com/pc/564812-dragon-wars/faqs/76013/walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity) to get the gem and fight our way across [Dragon Valley](https://gamefaqs.gamespot.com/pc/564812-dragon-wars/faqs/76013/walkthrough#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley) in order to confront the Brood Queen. That makes the Endgame much easier.
+
+The thing is, even if you've already beaten the game once and are playing through a second time with high-AP characters, it's not really practical to try to beat the game without any equipment at all. Buff spells like *M:Zak's Speed, H:Cloak Arcane, S:Mithras' Bless,* etc. are useful, but will only get you so far. So we'll also make a couple of pit stops for Dragon's Teeth and a bunch of good armor, along with the more mandatory quest items above. (I'm not going to bother with the Sword of Freedom, because it's a long quest to lots of places I'd otherwise skip, and you probably won't miss it.)
+
+Okay, caveats aside, this is an outline of the "fastest practical" way through the game. We're shooting for AC 20 or higher for all fighters, plus the Gatlin Bow / Magic Quiver combination to turn one of your mages into a pincushion powerhouse. On a good day, this run takes me about an hour. Obviously, you could go collect another ~10 points of AC for each player, but I called this "the Speed Run" for a reason.
+
+1. Purgatory
+   - Use the Apsu Waters to enter the Underworld (your previous 'Pray to Irkalla' bit should count)
+2. Underworld
+   - Get the 5 AP bonus.
+   - Get the Slicer.
+   - Go up to the Mystic Wood.
+3. Mystic Wood
+   - Wrestle Enkidu, unless everyone in your party has Druid Magic already.
+   - Get The Ring.
+4. Phoebus
+   - Rats/Dogs treasure room, NE: Magic Plate
+   - Guarded treasure room, NW: Plate Mail, Magic Shield
+   - Let Mystalvision throw you in the dungeon.
+5. Phoeban Dungeon
+   - Magic Mouth treasure vault: Magic Quiver, Magic Ring
+   - Let the dragon destroy Phoebus.
+6. Lansk Undercity
+   - Either take the Mystic Wood well to the Underworld to Lansk, or cross the Guard Bridge if you need intermediate weapons like the Axe of Kalah.
+   - Heal the dragon to get the Dragon Gem.
+   - Buy a copy of *D:Cure All* ($100) for your newly-minted Druid.
+   - Take the ferry to King's Isle (if you like fighting Goblins) or go up through the Mystic Wood and take the Nexus.
+7. Kingshome Dungeon
+   - Get knocked out by the guards in the NE corner of King's Isle.
+   - Use *D:Soften Stone* to skip all the fights.
+   - Find the Treasury: Gatlin Bow, Black Helm, Fire Shield, Mage Ring
+   - Take the stairs up to Namtar's bedroom.
+8. Kingshome
+   - Meet Namtar (optional)
+   - Go N into the halls and E to the treasury: Magic Chain, Lucky Boots
+9. Yellow Mud Toad
+   - Take the Nexus to Quag.
+   - Fix the wall and get the Golden Boots.
+10. Smuggler's Cove
+    - Slaughter the crew, get the boat and a suit of Heavy Plate.
+11. Dragon Valley
+    - Get the Dragon's Teeth.
+    - Meet the Queen and use the Dragon Gem.
+    - Armor in the SW: Dragon Helm, Dragon Shield, and Dragon Eyes
+    - Take the boat back to the Cove, the Nexus to the Mystic Wood, and the Well to the Underworld.
+12. Salvation
+    - Cross the Underworld fairy bridge and use the stairs to enter Salvation.
+    - Guarded chest to the W: Dragon Plate, Helm
+    - Use IQ and Climb, then cross the chasm with the boots and fall.
+13. Nisir
+    - Go N E S to the stairs, use *D:Soften Stone* twice to the S.
+    - Recast *L:Mage Light* and *H:Cloak Arcane.*
+    - Go E, hit the spinner, go SE, cast *H:Air Summon* (1pt) to cross the wide chasm.
+    - Go S, into the SW corner, use *D:Soften Stone* twice to the S.
+    - Hit the teleporter to find Namtar's army. Use the Dragon Gem.
+    - Kill Namtar three times.
+14. Magan Underworld
+    - Run the Endgame.
+
+Everything else is just gravy, but here are some other big 'quests' you can do.
+
+**Master Mages of Dilmun:** On a second play-through, this trip is only really useful if you missed some spells or if you're trying to train up a mage in a new magic skill (High or Druid).
+
+1. Kill Ugly for his boat.
+2. Collect the four parts of the statue of Lanac'toor. The Arms are in Tars Underground, which is in easy reach. The Legs are held by the Order of the Sword in Freeport and the Trunk is in the Guardian room of the Necropolis, both of which are straightforward once you have the boat. The Head is in Snake Pit, which will require you to trip the Kingshome ambush if you haven't already.
+3. Reassemble the statue in Mud Toad for access to Lanac'toor's Lab, and get the Spectacles and the Miscellaneous Magic.
+4. Get the Enkidu Totem from the Mystic Wood, use it to cross the Scorpion Bridge (or fight the Scorpions, ow), and go to the Magic College.
+5. Solve Utnapishtim's puzzles for a bunch of High Magic. Take the Soul Bowl to the Mystic Wood for a bunch of Druid Magic.
+
+**The Sword of Freedom:** Again, I don't think there's much point to doing this on a second play-through; the Dragon Teeth are marginally better when fighting Namtar because you won't get a lot of 10' melee attacks against him. It might help to have infinite 10-point *S:Inferno* castings if you're trying to beat his army without the Dragon Queen's help. But the +3 attribute bonus from the Universal God only works once per character, not once per game like the +5 AP Irkalla bonus.
+
+1. Get the Mushrooms from the Mystic Wood.
+2. Kill Ugly to get the Jade Eyes and his boat. Go to the Necropolis and feed the mushrooms to Nergal for the Silver Key.
+3. Visit Irkalla on the Isle of Woe to release her and get the Water Potion.
+4. Go to the Sunken Ruins, use the Potion, and get the Clam with the Skull of Roba.
+5. Use the Eyes to get into the Clan Hall, restore the Dwarves, give the Skull to the smith, then go back to the Isle of Woe.
+6. Have the Universal God bless the sword to enable *S:Inferno.*
+
+### Appendix: Paragraphs
 
 The paragraph booklet was a common technique for expounding on the story without filling up the game's data files with lots of text... although *Dragon Wars* has plenty of that. In the days where photocopiers were expensive and digitizing manuals to publish them online wasn't an option, a book of paragraphs also served as something of a copy-protection mechanism.
 

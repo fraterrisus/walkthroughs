@@ -4,11 +4,11 @@ Instead of just breezing through the game as quickly as possible, I've written t
 
 Where I've chosen a slightly odd path, I've inserted a **Game Note** into the walkthrough to explain what we're doing. You're definitely taking advantage of foreknowledge of the game in these cases. Of course, you're always free to play the game in whatever order you want, and just use my help in whatever city you happen to find yourself in.
 
-I've included a [Speed Run](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/final-notes#extra-the-speed-run) in a later section, so if you have high-level characters already and just want to get through the game as fast as possible, check that out.
+I've included a [Speed Run](README.md#appendix-the-speed-run) in a later section, so if you have high-level characters already and just want to get through the game as fast as possible, check that out.
 
-### Forlorn Isle
+## Forlorn Isle
 
-#### Purgatory
+### Purgatory
 
 To start the game off, you're dropped unceremoniously into Purgatory, the nastiest slum you'll ever have the displeasure to visit. First order of business is to get the heck out of here... then see about this Namtar chap.
 
@@ -16,21 +16,21 @@ If you have *Town Lore*, walk 2N (there's a random combat 1N of you) and read (p
 
 Let's find some additional muscle. Turn E, walk through the gap in the wall, then walk N and look W to find the Purgatory bar. You'll know you've found it when a bunch of drunks jump you. Fight them off and you should be level 2 already.
 
-The barkeep will tell you about the secret door out of here in the SW tower, as well as the one in the NW corner that gets you into the wall. (There's another in the E wall near the healer, but it's not as helpful.) He also hints at the swimming route out of here. He knows that you should pay your respects to Irkalla before trying to enter her Realm, and that the Apsu Waters will take you to the Underworld. And when you get out of here, he hints that you should show off your magic skills to the old man in the Slave Camp. All of these things are true, but what we're really interested in is picking up our first volunteer, [Ulrik](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/creating-characters#npcs). Reorder your party immediately and put Ulrik in front of your mages. Then go S, W, N to the arena. Drop all of Ulrik's stuff, then go in (p4).
+The barkeep will tell you about the secret door out of here in the SW tower, as well as the one in the NW corner that gets you into the wall. (There's another in the E wall near the healer, but it's not as helpful.) He also hints at the swimming route out of here. He knows that you should pay your respects to Irkalla before trying to enter her Realm, and that the Apsu Waters will take you to the Underworld. And when you get out of here, he hints that you should show off your magic skills to the old man in the Slave Camp. All of these things are true, but what we're really interested in is picking up our first volunteer, [Ulrik](README.md#npcs). Reorder your party immediately and put Ulrik in front of your mages. Then go S, W, N to the arena. Drop all of Ulrik's stuff, then go in (p4).
 
-The master of the arena will happily give each member of your party three items, but his inventory is pretty limited. Fortunately, the Black Market is right around the corner and they'll be happy to sell you some Scale Armor for $250 each; all we have to do is get out of here with our skins intact, but we can't do that until we fight the Gladiators. Take 15 Battle Axes from the arena's quartermaster. Go N until the combat with the Gladiators starts, then run away. You'll lose all your gold, but keep your equipment. Now you can go 4W 2N 1W 1N 2W 1N to the [Black Market](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#purgatory-black-market) and sell the axes for 15 x $35 = $525, which is just enough to buy two Scale Armors (+6 AC, -2 AV).
+The master of the arena will happily give each member of your party three items, but his inventory is pretty limited. Fortunately, the Black Market is right around the corner and they'll be happy to sell you some Scale Armor for $250 each; all we have to do is get out of here with our skins intact, but we can't do that until we fight the Gladiators. Take 15 Battle Axes from the arena's quartermaster. Go N until the combat with the Gladiators starts, then run away. You'll lose all your gold, but keep your equipment. Now you can go 4W 2N 1W 1N 2W 1N to the [Black Market](things-and-stuff.md#black-market) and sell the axes for 15 x $35 = $525, which is just enough to buy two Scale Armors (+6 AC, -2 AV).
 
 Go back to the arena and do the whole thing again: you'll only be able to get 13 Battle Axes, which is only enough cash to buy one more suit of Scale. Do that until everyone in the party has Scale. AC 6 is quite good for this early in the game; remember that each point of AC reduces the damage you take by 1 HP *per attack*. Hit the arena one more time and get real weapons: a Battle Axe (1d12, -1 AV) for Ulrik, Broadswords (1d8, +1 AV) for the other three frontliners, and a Bow and some Arrows (1d6) for your high-DEX mage. (They only have 20' range, but at least you can attack from the back row.) Then fill up on Battle Axes to sell one more time.
 
-You can come back and beat up the arena gladiators any time you want; you'll get some nice XP and a set of Citizenship Papers out of the deal, which you don't need (there's another set in the [Slave Camp](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#the-purgatory-day-spa-and-salon-slave-camp) and they're not strictly necessary anyway). You ought to be able to manage them once you hit Level 4, and if not, you're going to have a tough time with anything else you have to fight once you leave here.
+You can come back and beat up the arena gladiators any time you want; you'll get some nice XP and a set of Citizenship Papers out of the deal, which you don't need (there's another set in the [Slave Camp](#the-purgatory-day-spa-and-salon-slave-camp) and they're not strictly necessary anyway). You ought to be able to manage them once you hit Level 4, and if not, you're going to have a tough time with anything else you have to fight once you leave here.
 
-Now let's get some magic for our magic users (i.e. everybody but Ulrik). From the Black Market go S to the main road, then W and kill some Jail Keepers. This will take a while, but they won't be able to damage you too much. Go S, skip over the Slave Market (p67), go to the statue of Namtar (p9), then turn W and head straight into the [Low Magic shop](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#purgatory-magic-shoppe) (p10). Ironic, that. Get scrolls for everybody and learn the spells. As Purgatory residents go, you're now quite fearsome. Pick up a couple of extra scrolls – they make a great sacrifice.
+Now let's get some magic for our magic users (i.e. everybody but Ulrik). From the Black Market go S to the main road, then W and kill some Jail Keepers. This will take a while, but they won't be able to damage you too much. Go S, skip over the Slave Market (p67), go to the statue of Namtar (p9), then turn W and head straight into the [Low Magic shop](README.md#magic-shoppe) (p10). Ironic, that. Get scrolls for everybody and learn the spells. As Purgatory residents go, you're now quite fearsome. Pick up a couple of extra scrolls – they make a great sacrifice.
 
 Speaking of sacrifices, let's go visit Irkalla. Due S of the Low Magic Shop there's a wall. Follow it with the right hand rule and you'll find a door. Tucked into the larger space beyond that first room you may find some "strange waters", or if you have *Town Lore* you'll get to read (p94). There's also a statue (p3) of Our Lady of the Underworld, Irkalla. Have someone with high Spirit sacrifice an object to her. If she is "silent", try again. When she is "pleased", you're in good shape. 1S 1W of her statue are the Apsu Waters, which will take you into the Magan Underworld for the first time.
 
 (In case you didn't get what I was talking about, the "right hand rule" of dungeon exploration is a metaphor that implies that you're touching the wall with your right hand as you move forward, so as the wall turns, you turn with it.)
 
-It's not a bad time for your first visit to the [Underworld](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#magan-underworld-highlights), but first a note: if you get into a random encounter down there, **run**. Good things to find on this trip are the **Recharge Pool**, the **Slicer**, and the cache of **Magic Items** with the Rusty Axe. That's a major melee upgrade. Don't get scared by the -3 AV on the Axe; Ulrik's got 3 ranks in Axe which will cancel it out. Also check out **Exposition Cavern** near where you pick up the Slicer, take note of the argument between Irkalla and Nergal, then hightail it back to Purgatory.
+It's not a bad time for your first visit to the [Underworld](#magan-underworld-highlights), but first a note: if you get into a random encounter down there, **run**. Good things to find on this trip are the **Recharge Pool**, the **Slicer**, and the cache of **Magic Items** with the Rusty Axe. That's a major melee upgrade. Don't get scared by the -3 AV on the Axe; Ulrik's got 3 ranks in Axe which will cancel it out. Also check out **Exposition Cavern** near where you pick up the Slicer, take note of the argument between Irkalla and Nergal, then hightail it back to Purgatory.
 
 One thing you may note here is that leaving a map and re-entering it resets the fixed encounters, which is most of the fights you run into in Purgatory. One-offs like the Arena and the Humbaba don't reset. But at this point you should mostly be brushing aside most fights you get into, so it's pretty much just free XP.
 
@@ -45,26 +45,26 @@ Keep working around Purgatory anti-clockwise. Find, but don't take on, the big g
 1. Find the morgue (p5) in the E-then-S corner. **(U)se** DEX (or, if you ignored my advice, *Hiding*) and you'll get a paragraph (p69). Everyone in the party makes a STR check (1d20, trying to roll below your STR) or takes 1d10 damage. Regardless, you wind up in Dilmun just SE of the Slave Camp, standing next to a pool that will refresh your magic and health. The residents of the Slave Camp will welcome you freely.
 2. Find the pool in the NW corner. Turn W and kick forward twice; a secret door takes you into the city walls. Go S to the SW corner and find another secret door to exit. The Slave Camp is just SW of Purgatory. This only works if you have *Bureaucracy* (or are on a second pass through the game), otherwise you'll lose Louie.
 3. Travel through the Magan Underworld and surface somewhere else.
-4. Sell yourself in the Slave Market (p58). The [Slave Mines](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#slave-mines) are annoying but not difficult, although you'll have to beat up some Guards to get out, so don't do this too quickly.
+4. Sell yourself in the Slave Market (p58). The [Slave Mines](#slave-mines) are annoying but not difficult, although you'll have to beat up some Guards to get out, so don't do this too quickly.
 5. Beat the guards S of where you came in. Walk S then W to get to the SW corner of the Purgatory Wall and use the secret door to escape (same as 2).
 6. Beat the guards, then go E and find a corner with some text. **(U)se** either *Climb* or *Swim* (Ulrik comes with it) and you jump into the water. You'll take the same STR check or 1d10 damage as the Morgue exit. Turn S and start swimming. Anyone without *Swim* will take damage at each step, but rotating in place is free – and so is using the *Bandage* skill! Who needs *Swim*? Exit Purgatory to the S; this drops you in the same place as (1).
 
-#### Magan Underworld Highlights
+### Magan Underworld Highlights
 
 Since it's one way to get out from Purgatory, let's talk about the Underworld for a minute. The Magan Underworld is a large uber-map that lies 'under' Dilmun. There are lots of connection points between the Underworld and "topside", so you'll likely visit it over and over again. It's possible to use these points to get around pretty quickly and heavily circumvent the story arc. You won't *need* to come down here until midway through the game. However, the beasts down here are pretty fearsome for a low-level party, and I'm going to tempt you down here long before you're ready to take them on. So keep your hand on the **(R)****un** button, and watch your step.
 
 Points of interest in the Underworld:
 
-1. **Lansk:** From the Purgatory stairs, go 1E and N to the wall. Walk around to the W N and inside the building there are stairs to the [Lansk Underground](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity).
+1. **Lansk:** From the Purgatory stairs, go 1E and N to the wall. Walk around to the W N and inside the building there are stairs to the [Lansk Underground](#putting-the-fun-back-in-funderworld-lansk-undercity).
 2. **Recharge Pool:** From the Lansk building, go W. In the little peninsula there's a pool that will restore 100% of your party's Power.
 3. **Exposition Cavern:** From the Purgatory stairs, go 2W then S. Walk through the fire (ow) and find the locked chest with The Slicer (1–30, +4 AV, +2 AC) in it. 1W 3S from the chest, there are stairs up to the Dwarf Clan Hall forge. 5N 1E from the chest, there's a cavern that tells you some background on your mission (p127).
 4. **Irkalla's Realm:** From the Lansk building, go E. Hug the chasm wall and you'll come to a door. So long as you've sacrificed something to Irkalla at one of her statues topside, you'll be allowed through. Go 2W and N from there, then take a leap of faith N. Everyone in the party gets 5 AP, but you can only do this once per game. (Of course, you can start a new game with the same characters and do it again... but that would be """cheating""".)
-5. **Tars Ruins:** From the Purgatory stairs, go 6E (you actually have to walk around a pool to do this) to the stairs up to the [Tars Ruins Underground](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#look-an-actual-dungeon-tars-underground).
-6. **Mystic Wood:** From the Purgatory stairs, go 2N and then walk in either direction until you hit the stairs for the [Mystic Wood](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#isnt-it-good-mystic-wood). You'll use this route a lot to get to the recharge pool I mentioned in point (2). From the Wood to the Pool, go N until you hit the wall, then W until you hit the shoreline, then N to the pool. From the Pool to the Wood, go S to the shoreline. Go E until there's a stone wall to your left and you step on a bush, then turn S and walk until you hit the stairs to the Wood.
-7. **Salvation:** From the Tars Ruins stairs, go S for a long time and 1E to find [Salvation](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#salvation). Bandage after the fairies take their toll of life, or cast *D:Scare* to make them go away permanently. This is also where you need to bring Namtar's body during the [Endgame](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#endgame).
+5. **Tars Ruins:** From the Purgatory stairs, go 6E (you actually have to walk around a pool to do this) to the stairs up to the [Tars Ruins Underground](#look-an-actual-dungeon-tars-underground).
+6. **Mystic Wood:** From the Purgatory stairs, go 2N and then walk in either direction until you hit the stairs for the [Mystic Wood](#isnt-it-good-mystic-wood). You'll use this route a lot to get to the recharge pool I mentioned in point (2). From the Wood to the Pool, go N until you hit the wall, then W until you hit the shoreline, then N to the pool. From the Pool to the Wood, go S to the shoreline. Go E until there's a stone wall to your left and you step on a bush, then turn S and walk until you hit the stairs to the Wood.
+7. **Salvation:** From the Tars Ruins stairs, go S for a long time and 1E to find [Salvation](#salvation). Bandage after the fairies take their toll of life, or cast *D:Scare* to make them go away permanently. This is also where you need to bring Namtar's body during the [Endgame](#endgame).
 8. **Magic Items:** From the Mystic Wood stairs, go 4S 4W for a locked chest: 10 Dragon Stones, the Rusty Axe (1d20, -3 AV), some Bombs (thrown weapons are trash), and a Speed Wand (casts *M:Zak's Speed,* which is super-useful). Careful, there is likely to be a significant battle with Underworld denizens here.
 
-#### Slave Mines
+### Slave Mines
 
 I don't really recommend selling yourself at the Slave Market as the best route out of Purgatory, but if that's what you've decided to do, I'll show you how to get out of here. It's not exactly hard, just annoying, but you should expect to get beat up a bunch.
 
@@ -81,21 +81,21 @@ Forgive the practical nature of this section. There's not a whole lot of story t
 
 The exit is just S of room (1). Before you go there, wrap around to the S wall and explore until you find a hidden door to the N with a secret chest. (When you find the fight with some guards, you're in the right place.) The Magic Sword is an upgrade over the Polearm and the Gauntlets are your first piece of miscellaneous armor, but there's nothing here that's really compelling. The Pierce Bolts are expensive, at least.
 
-You'll need to fight off some guards to get out (p62). Stairs take you up into the shack in the NW corner of the Slave Estate. Just outside that shack there's a set of prints you can *Track* that will take you up to the door in the SW corner right outside the fight with the Gaze Demon (sorry, spoilers). If you want to [explore the estate](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#nice-island-ya-got-here-slave-estate) now, you can skip down to that section, but my recommendation is to follow the tracks and then exit to the S and head back to Purgatory and/or the Slave Camp first.
+You'll need to fight off some guards to get out (p62). Stairs take you up into the shack in the NW corner of the Slave Estate. Just outside that shack there's a set of prints you can *Track* that will take you up to the door in the SW corner right outside the fight with the Gaze Demon (sorry, spoilers). If you want to [explore the estate](#nice-island-ya-got-here-slave-estate) now, you can skip down to that section, but my recommendation is to follow the tracks and then exit to the S and head back to Purgatory and/or the Slave Camp first.
 
-#### The Purgatory Day Spa and Salon (Slave Camp)
+### The Purgatory Day Spa and Salon (Slave Camp)
 
 There are three ways into to the Slave Camp.
 
 1. If you chose to swim your way out of Purgatory (exits #1 or #6), everything's fine (p16).
 2. Otherwise, the people in the camp won't trust you. **(U)se** your *Bureaucracy* skill, and they'll see that you don't mean them any harm.
-3. Stride boldly forward into the camp and slaughter everyone (p18, shame). You lose access to [Louie](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/creating-characters#npcs), all of the lore and exposition, and most of the special encounters. The treasure is still here, but there's a Spirit Ward guarding the wizard's treasure room.
+3. Stride boldly forward into the camp and slaughter everyone (p18, shame). You lose access to [Louie](README.md#npcs), all of the lore and exposition, and most of the special encounters. The treasure is still here, but there's a Spirit Ward guarding the wizard's treasure room.
 
 Presuming you *didn't* choose option #3, head to the tavern in the SE corner of the map and pick up your sixth party member.
 
 Then go N from that building until you hear moans of pain. There's a man inside who is suffering from fever; there's a 1-in-20 chance that he attacks you, then runs away. Otherwise, **(U)se** *Bandage* or **(C)ast** *L:Lesser Heal* on him and he'll tell you (p19) how he got here using the secret door to escape Purgatory. He also drops a hint about Irkalla being chained up in the Underworld, although it's hard to know what to do with a fever dream. When he dies you pick up two scrolls, *D:Greater Heal* (which is basically useless and you can sell it) and *S:Sun Stroke* (which you won't need unless you have a second Sun mage).
 
-Follow the wall of that building N, go into the trees, and find the indentation in the back of the building. Your *Lockpick* can open the chest (level 1); if you want to know what a chest's difficulty level means, I refer you to the section on [Game Mechanics](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/combat-and-general-information#game-mechanics). Chain Armor (+7 AC, -3 AV) is an upgrade over Scale, so trade a suit of Scale to Louie. *H:Healing* is just okay, and *H:Sense Traps* can be helpful in a couple of places, but *H:Cloak Arcane* and *D:Scare* are the winners here.
+Follow the wall of that building N, go into the trees, and find the indentation in the back of the building. Your *Lockpick* can open the chest (level 1); if you want to know what a chest's difficulty level means, I refer you to the section on [Game Mechanics](README.md#game-mechanics). Chain Armor (+7 AC, -3 AV) is an upgrade over Scale, so trade a suit of Scale to Louie. *H:Healing* is just okay, and *H:Sense Traps* can be helpful in a couple of places, but *H:Cloak Arcane* and *D:Scare* are the winners here.
 
 Wandering back around to the S wall of this building, someone will peer at you through a door. The old wizard won't let you in unless you impress him, so **(U)se** any Magic skill. He lets you at his cache of items, most of which aren't useful. If you already have Citizenship Papers from the Purgatory Arena you don't need another set. *H:Fire Light* is great, has variable power, and a 30' range. The War Axe (1d12, -3 AV) is worth $350 but is otherwise no better than a Battle Axe. The War Flail (1d12), Hammer (1d10, *Maces*), and Polearm (1d10, +1 AV, *Two-handers*) are all upgrades over a Broadsword. The Ruby Dagger (1d4, +3 AV) can go to your mage, who will make use of the AV bump when attacking with spells. Everything you don't use can be sold.
 
@@ -107,21 +107,21 @@ Explore the rest of the Slave Camp. To the W there's a building with a blind man
 
 That's about it for the Slave Camp. If you didn't come in that way, exit to the S and go find the health/magic regeneration pool at the end of the land. Otherwise, exit to the N to reach the rest of Forlorn. Purgatory is just NE of the Slave Camp.
 
-#### Rounding out the Party (Phoebus)
+### Rounding out the Party (Phoebus)
 
 > **Game Note:** In theory, you're not supposed to hit Phoebus for the first time for another couple of sections. It probably makes more sense in "game order" to explore the eastern part of Forlorn next. But the Slave Estate is entirely optional, and Tars is probably a bit difficult for your party at the moment. So you could head across the first guard bridge instead... at which point you wind up in Phoebus, and end up needing to backtrack to Tars later on.
 >
 > Or you could just take the hint from me and go get Valar right now.
 
-Head back into Purgatory. Take the secret door in the SW corner and fight off your friends the door guards. If you haven't beaten the Arena yet, do so to give Louie some experience. Head up to the Black Market and sell off a bunch of stuff you don't need. Then go to the Apsu Waters and hit the Underworld. Remember to run from any fight you get into, unless you've got good save files. Find the stairs up to the [Mystic Wood](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#isnt-it-good-mystic-wood) and read (p70). You're just visiting on the way to Phoebus, though, so go N to exit to Dilmun. Phoebus is 3E 4N, but you'll hit a bunch of Goblins arguing about their brothers, who you haven't killed yet, because you went around them by going through the Underworld. Oddly, this combat doesn't regenerate after you kill them, but their "brothers" do.
+Head back into Purgatory. Take the secret door in the SW corner and fight off your friends the door guards. If you haven't beaten the Arena yet, do so to give Louie some experience. Head up to the Black Market and sell off a bunch of stuff you don't need. Then go to the Apsu Waters and hit the Underworld. Remember to run from any fight you get into, unless you've got good save files. Find the stairs up to the [Mystic Wood](#isnt-it-good-mystic-wood) and read (p70). You're just visiting on the way to Phoebus, though, so go N to exit to Dilmun. Phoebus is 3E 4N, but you'll hit a bunch of Goblins arguing about their brothers, who you haven't killed yet, because you went around them by going through the Underworld. Oddly, this combat doesn't regenerate after you kill them, but their "brothers" do.
 
-Now you can enter Phoebus (p26, p25). Go 9N 6E 5N and find the Icarian Triumph Tavern. [Valar](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/creating-characters#npcs) is inside. The barkeep knows that some statues can be moved (huh!), that the scorpion people like the nature god Enkidu, that there's a trap in [Freeport](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#im-free-as-a-bird-now-freeport) to be wary of, and that the [Lansk dragon](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity) has a secret. Retrace your steps back to the Mystic Wood, find the well in the NW corner, and **(U)se** *Climb* to get back down to the Underworld.
+Now you can enter Phoebus (p26, p25). Go 9N 6E 5N and find the Icarian Triumph Tavern. [Valar](README.md#npcs) is inside. The barkeep knows that some statues can be moved (huh!), that the scorpion people like the nature god Enkidu, that there's a trap in [Freeport](#im-free-as-a-bird-now-freeport) to be wary of, and that the [Lansk dragon](#putting-the-fun-back-in-funderworld-lansk-undercity) has a secret. Retrace your steps back to the Mystic Wood, find the well in the NW corner, and **(U)se** *Climb* to get back down to the Underworld.
 
-Before you go back up to Purgatory and continue with the game in the order it's supposed to be played, this is a good time to visit [Irkalla's Realm](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#magan-underworld-highlights) for the 5 AP bonus. I recommend giving *Low Magic* to anybody who didn't already have it, or for your higher magicians, bump them up to 3 ranks in their speciality. Once you've done that, go up to Purgatory and get Low Magic spells for anyone who doesn't have them already. (You can probably even take on some of the Underworld denizens at this point, so long as there aren't more than one or two of them.)
+Before you go back up to Purgatory and continue with the game in the order it's supposed to be played, this is a good time to visit [Irkalla's Realm](#magan-underworld-highlights) for the 5 AP bonus. I recommend giving *Low Magic* to anybody who didn't already have it, or for your higher magicians, bump them up to 3 ranks in their speciality. Once you've done that, go up to Purgatory and get Low Magic spells for anyone who doesn't have them already. (You can probably even take on some of the Underworld denizens at this point, so long as there aren't more than one or two of them.)
 
-#### "Nice Island Ya Got Here..." (Slave Estate)
+### "Nice Island Ya Got Here..." (Slave Estate)
 
-If you're looking to skip ahead, you can at this point head straight to the [Guard Bridge](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#guard-bridge-1) just N of Purgatory. Or, you could explore the eastern half of Forlorn. Either way, start by finding the arms cache hidden in the rocks 3W 1S of Purgatory (4S 1W of the Slave Estate). There's not much here that's useful except your third suit of Chain Armor. Don't even bother picking up the Low Magic scrolls.
+If you're looking to skip ahead, you can at this point head straight to the [Guard Bridge](#guard-bridge-1) just N of Purgatory. Or, you could explore the eastern half of Forlorn. Either way, start by finding the arms cache hidden in the rocks 3W 1S of Purgatory (4S 1W of the Slave Estate). There's not much here that's useful except your third suit of Chain Armor. Don't even bother picking up the Low Magic scrolls.
 
 Inside the Slave Estate, walk along the wall to the E until you see the sign about the statue garden, then N along the water. Gosh these statues are awfully lifelike aren't they! I keep expecting one to speak to me. When you get to the NE of the building, go in the door there. In the center of the 3x3 room there's a treasure cache with your second Ruby Dagger for your mages. (Remember that AV helps with targeting spells as well as physical attacks.)
 
@@ -139,7 +139,7 @@ You have two choices here. If you step into the NW corner, the Gaze Demon will s
 
 The easy way out is to stay 1 square away out of combat and **(U)se** the mirror. Lots of exclamation points!!! and a new statue for your trouble. Either way, you're done here. Go refresh at the Slave Camp Swimming Pool. Might not hurt to sell some stuff off at the Purgatory Black Market too.
 
-#### "...Shame If Anything Were To *Happen* To It" (Tars Ruins)
+### "...Shame If Anything Were To *Happen* To It" (Tars Ruins)
 
 The ruins of Tars are in the W part of Forlorn. Wow, this place is in trouble. Wow, your mage with *Arcane Lore* actually used it for something!
 
@@ -160,9 +160,9 @@ Towards the NE corner you'll find a stone slab. **(U)se** any of *Cave Lore, Mou
 - Cast *D:Soften Stone* (you don't have it yet) twice to go around it.
 - Find the spot 4E from the map entrance where there are signs of a previous party, and **(U)se** *Tracker* to follow them. Your guide will skip you over the pit and take you right to the slab. This also avoids any random encounters.
 
-> **Game Note:** As I suggested earlier, you may have noticed that the combats here are harder than most things you've fought so far. The same will be true of the Tars Underground, only more so. Even though the Ruins are right here at the end of Forlorn, I think the game designers intended for players to either not be able to move the slab, or to bail out when the combats got too hard. Eventually – once you get to [Freeport](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#im-free-as-a-bird-now-freeport), a really long time from now – you'll get a hint that will point you back here to get the Stone Arms so you can repair the statue of Lanac'toor. If you've got a full party and are willing to work through some tough fights, you can probably handle the Underground now, in which case read on. You can also skip it, in which case you should jump ahead to the Guard Bridge (or skip the bridge altogether and go straight to the [Mystic Wood](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#isnt-it-good-mystic-wood)) and come back to Tars later.
+> **Game Note:** As I suggested earlier, you may have noticed that the combats here are harder than most things you've fought so far. The same will be true of the Tars Underground, only more so. Even though the Ruins are right here at the end of Forlorn, I think the game designers intended for players to either not be able to move the slab, or to bail out when the combats got too hard. Eventually – once you get to [Freeport](#im-free-as-a-bird-now-freeport), a really long time from now – you'll get a hint that will point you back here to get the Stone Arms so you can repair the statue of Lanac'toor. If you've got a full party and are willing to work through some tough fights, you can probably handle the Underground now, in which case read on. You can also skip it, in which case you should jump ahead to the Guard Bridge (or skip the bridge altogether and go straight to the [Mystic Wood](#isnt-it-good-mystic-wood)) and come back to Tars later.
 
-#### Look! An Actual Dungeon! (Tars Underground)
+### Look! An Actual Dungeon! (Tars Underground)
 
 The Tars Underground map is an interesting one. Like the Magan Underworld, it wraps around. However, this map is only 8x8 and features a few tricks. You'll see, once you've filled in a bit, that the automap will scroll in all directions, but it eventually stops.
 
@@ -182,13 +182,13 @@ However, if you go S from the entry stairs, you'll be in a winding hallway with 
 
 Let's head back to the surface, and cross our first bridge.
 
-#### Guard Bridge #1
+### Guard Bridge #1
 
 The bridge between Forlorn and Sun is just N of Purgatory. The first time you approach this bridge from the Forlorn side, you'll run into a group of Guards just S of the bridge. If you can't beat them, you probably shouldn't be leaving Forlorn anyway.
 
 Read (p12) once you make it to the actual bridge map, but before you approach the bridge itself, step 3E 2N and find an arms cache. The Bladed Flail (1–12) isn't any better than the War Flail but sells for way more money. The Helm and Shield are free AC points. *S:Sun Light* is not amazing (heals 1-6 / 3pt instead of *L:Lesser Heal's* 1-4 / 2pt).
 
-To the W of the bridge there's a rock with a message written on it. Restoring the masters of magic is definitely on our agenda, so this is good to know. And it sounds like those Stone Arms we turned up will be useful for something. (Oh. You skipped Tars and came straight here? Ignore what I said about the Stone Arms then. It's the [name of a bar](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#im-free-as-a-bird-now-freeport). Yup. Promise.)
+To the W of the bridge there's a rock with a message written on it. Restoring the masters of magic is definitely on our agenda, so this is good to know. And it sounds like those Stone Arms we turned up will be useful for something. (Oh. You skipped Tars and came straight here? Ignore what I said about the Stone Arms then. It's the [name of a bar](#im-free-as-a-bird-now-freeport). Yup. Promise.)
 
 The bridge guards are pretty nasty. Your choices are to show your Citizenship Papers and pay a toll ($70, not so bad really), or to step forward defiantly and fight them off. Keep in mind that the guards can kill you, not just stun, so save first if you decide to fight. Also, they may call for help. Blast 'em with big spells. If you happen to come back through here heading towards Forlorn again, the guards will look at you funny, but let you pass when you show your papers.
 
@@ -198,13 +198,13 @@ Step onto the bridge (p13). It's infested with rats, and if you wait around long
 
 Whenever you're done with that, you can exit to the N.
 
-### Isle of the Sun
+## Isle of the Sun
 
 When you leave the guard bridge you'll be welcomed to the Isle of the Sun by a bunch of Goblins, but they shouldn't give you much trouble; blast them with *L:Mage Fire* from 30' and attack when they get closer.
 
-Feel free to explore the island; if you picked up Valar a [couple of sections](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#rounding-out-the-party-phoebus) ago, there aren't any other encounters on the island. If you're feeling the need to restore spell points or have some other reason to go back and forth to Forlorn, you may find it less trouble to hit the [Mystic Wood](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#isnt-it-good-mystic-wood) and use the [Underworld](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#magan-underworld-highlights), rather than fighting off the guards on the bridge (which will suck up spell points).
+Feel free to explore the island; if you picked up Valar a [couple of sections](#rounding-out-the-party-phoebus) ago, there aren't any other encounters on the island. If you're feeling the need to restore spell points or have some other reason to go back and forth to Forlorn, you may find it less trouble to hit the [Mystic Wood](#isnt-it-good-mystic-wood) and use the [Underworld](#magan-underworld-highlights), rather than fighting off the guards on the bridge (which will suck up spell points).
 
-#### Isn't it Good (Mystic Wood)
+### Isn't it Good (Mystic Wood)
 
 Speaking of the Mystic Wood, while you're exploring the island, circle around and enter the Wood from the S. You're better off running from most fights here, they're pretty hard, at least for now, and most of them are random encounters rather than fixed ones.
 
@@ -226,17 +226,17 @@ Now comes the fun part. Visit the druid's shrine in the NW corner (p6). Go up to
 
 Enkidu grants you *D:Death Curse, D:Fire Blast, D:Insect Plague, D:Whirl Wind, D:Scare, D:Greater Healing,* and *D:Beast Call.*
 
-#### "SS" is the Key Combo For "Save Game" (Phoebus)
+### "SS" is the Key Combo For "Save Game" (Phoebus)
 
 Yes, that's a Nazi reference. You're about to enter a town where you're going to fight enemies called *Stosstrupen*, for fuck's sake, and if that isn't an intentional reference on the part of the developers, I don't know what is.
 
-> **Game Note:** If you're feeling beefy and want to collect some better weapons before you take on Mystalvision, I recommend skipping forward to the [second Guard Bridge](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#were-on-the-road-to-nowhere-guard-bridge-2) and raiding the guards' barracks. That's totally out of order, though.
+> **Game Note:** If you're feeling beefy and want to collect some better weapons before you take on Mystalvision, I recommend skipping forward to the [second Guard Bridge](#were-on-the-road-to-nowhere-guard-bridge-2) and raiding the guards' barracks. That's totally out of order, though.
 
 Phoebus is in the NW corner of the Isle of the Sun. Read (p26) if this is your first trip here, then (p25).
 
 The main peril here are the Stosstrupen wandering around. They will stun you for 20+ HP at a shot, but at least it's just Stun damage. You can definitely take out one before you all go down, two might be hard, more than that should send you for the **(R)un** button. When the game tells you that smart people don't walk here, don't go in the nearby door – there are 10 Stosstrupen inside.
 
-Midway up the W wall (10N 7W of the entrance) there's a small 2x1 room guarded by a bunch of thieves. Wipe the floor with them and step S to find a locked chest with some nice scrolls. *D:Create Wall* is crucial to completing the game, though you can also buy it in the [Lansk Undercity](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity). *H:Poog's Vortex* is the big brother of *H:Elvar's Fire*, and *S:Mithras' Bless* is a nice defensive buff spell. *S:Sun Stroke* you've already found twice over, and if you've been following this guide in published order this is the second or third version of *D:Death Curse* you've found.
+Midway up the W wall (10N 7W of the entrance) there's a small 2x1 room guarded by a bunch of thieves. Wipe the floor with them and step S to find a locked chest with some nice scrolls. *D:Create Wall* is crucial to completing the game, though you can also buy it in the [Lansk Undercity](#putting-the-fun-back-in-funderworld-lansk-undercity). *H:Poog's Vortex* is the big brother of *H:Elvar's Fire*, and *S:Mithras' Bless* is a nice defensive buff spell. *S:Sun Stroke* you've already found twice over, and if you've been following this guide in published order this is the second or third version of *D:Death Curse* you've found.
 
 Remember the bar where you picked up Valar? Go W from there. First you'll hit a bunch of rats. The wild dogs just past them will give you a little bit of a harder time. Beyond that is a room with a locked chest. You can give the Mage Cloth to your archer/mage; +3 AC and the lack of an AV penalty is probably worth it. Magic Plate (+10 AC, -2 AV) will do nicely for a front line fighter. Ignore the Fire Spear (1–12 at 50'); thrown weapons aren't worth the time it takes to equip them.
 
@@ -246,7 +246,7 @@ The last place you want to check out before visiting the kook who runs this plac
 
 Mystalvision is waiting in the N central part of Phoebus. You might want to hit a recharge pool and maybe pick up some extra Dragon Stones somewhere first though. At the end of the central N-S street you'll hit a combat with some Stosstroopen. Circle to the N and fight off the guards. Try to be sparing on Power here, you'll need it soon. Enter the Temple of the Sun and request an audience with Mystalvision (p66). Then get your asses handed to you by the Stosstrupen. *Don't bother trying to win this fight; save your Power*. It's just Stun damage, and even if you do win (say, you're on your second trip through the game with 15th level characters), the game casts a "powerful sleep spell" on you and throws you in the dungeon anyway!
 
-#### Ridden Out of Town, on Rails (Phoeban Dungeon)
+### Ridden Out of Town, on Rails (Phoeban Dungeon)
 
 You wake up in the Phoeban dungeon. After nine days (40-odd turns) of captivity you escape (p101). Circle to the E and you'll hear moans. **(U)se** *Lockpick* and find out from another prisoner that apparently they're torturing "The Druid". Huh.
 
@@ -268,7 +268,7 @@ Now for the mop-up. In the short N/S hallway with the armory, the S door is lock
 
 Don't worry about the "leave quickly" warning. You can chase after the Ominous Fellow, but he'll run away from you. (Remember that you've exited the board and re-entered, so all the fights refresh.) Make sure you go back over to the Icarian Triumph to meet up with Berengaria before you leave; unfortunately it seems that he's fled to the Yellow Mud Toad. (Note: if you don't do this, then Berengaria never shows up there, and you don't get your spells!) A quick check of the map in the game's manual shows us that Mud Toad is on an island to the E of here called Quag, but it's a bit of a hike. So we're off to cross another bridge...
 
-#### We're on the Road to Nowhere (Guard Bridge #2)
+### We're on the Road to Nowhere (Guard Bridge #2)
 
 This bridge is much more heavily guarded than the first one was.
 
@@ -301,7 +301,7 @@ Exit the bridge to the S. You probably need a recharge, so use the well in the M
 
 As an aside, if you happen to visit Lansk via the Underworld and enter this bridge for the first time from the *North* instead, you get a different encounter: the guards ask you to swear to follow Lansk's laws, then let you go. This seems like the kind of thing you would ask someone *coming onto* your island, not *leaving* it, but who am I to judge?
 
-#### The Most Boring City in the World (Lansk)
+### The Most Boring City in the World (Lansk)
 
 The bridge drops you onto tiny little Isle of Lansk, on which there is only one point of interest, the city of Lansk.
 
@@ -314,7 +314,7 @@ The only real prize in this place is the Druid's Mace (+2 AV, +2 AC), which give
 There are a handful of "useful" buildings about, all of which are labeled. Here's the right order to visit them in:
 
 1. **Governor's Office**, outer ring, SW quadrant, S side (3N 3W of where you come in). Collect the papers. They'll direct you to the Office of Interior Affairs, which doesn't actually exist. Instead, go to the...
-2. **Department of Lubrication**, outer ring, NW quadrant, N side near the middle. **(U)se** your papers. If, instead, you **(U)se** *Bureaucracy* and offer at least $500, the official opens a hidden staircase down to the [Undercity](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity). Apart from picking up *D:Cure All*, you don't need anything down there right now, and you can always get there from the Magan Underworld for free.
+2. **Department of Lubrication**, outer ring, NW quadrant, N side near the middle. **(U)se** your papers. If, instead, you **(U)se** *Bureaucracy* and offer at least $500, the official opens a hidden staircase down to the [Undercity](#putting-the-fun-back-in-funderworld-lansk-undercity). Apart from picking up *D:Cure All*, you don't need anything down there right now, and you can always get there from the Magan Underworld for free.
 3. **Visitor's Information Bureau**, inner ring, SE quadrant, S side near the corner. Trade your papers for a Governor's Pass, which makes it easier to cross the bridge to Quag.
 
 You can also visit these lovely offices:
@@ -325,13 +325,13 @@ You can also visit these lovely offices:
 
 That's it. Get outta here before you die of boredom.
 
-p.s. For the sake of completeness, I'll note that the Governor's Pass is worth $100, and the Governor's Office will give you as many sets of papers as you want. I can't think of a good reason why you would ever need to farm gold, and this might be the slowest possible way to do it, but there you go. You can also buy a Governor's Pass for (no shock) $200 in the [Lansk Undercity](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity). But once you cross the bridge to Quag you can sell the Governor's Pass at the first opportunity; you won't need it.
+p.s. For the sake of completeness, I'll note that the Governor's Pass is worth $100, and the Governor's Office will give you as many sets of papers as you want. I can't think of a good reason why you would ever need to farm gold, and this might be the slowest possible way to do it, but there you go. You can also buy a Governor's Pass for (no shock) $200 in the [Lansk Undercity](#putting-the-fun-back-in-funderworld-lansk-undercity). But once you cross the bridge to Quag you can sell the Governor's Pass at the first opportunity; you won't need it.
 
-### Quag Isle
+## Quag Isle
 
-#### You Can't Fight Here, This is the War Bridge
+### You Can't Fight Here, This is the War Bridge
 
-Enter the bridge to Quag. The guard asks for your pass, and (here's a first!) will actually let you by if you show it to him. Of course you can just try to bull your way through, but Pikemen and Guards are kinda tough, and getting the pass in [Lansk](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#the-most-boring-city-in-the-world-lansk) isn't all that hard if you're following this guide.
+Enter the bridge to Quag. The guard asks for your pass, and (here's a first!) will actually let you by if you show it to him. Of course you can just try to bull your way through, but Pikemen and Guards are kinda tough, and getting the pass in [Lansk](#the-most-boring-city-in-the-world-lansk) isn't all that hard if you're following this guide.
 
 Murk Trees, I'm sorry to say, are capable of *killing outright in one blow.* And sometimes you have to face more than one of them. And there's one on the E side of this map, in a straight line off the bridge. Rather than face it, take a step to the N before exiting.
 
@@ -347,13 +347,13 @@ The Murk Trees are in fixed locations, which means you can avoid most of them. A
 - 5S 2W - On the shoreline tucked into a corner.
 - 6S 3E - Standing in front of Mud Toad, can't be avoided. But this is the best route to get to the city from the Nexus.
 
-#### Follow the Yellow Mud Toad
+### Follow the Yellow Mud Toad
 
 "Perilously weakened", indeed (p29). Except for the part where I took the Nexus to the Wood to the Underworld and recharged before I came in, amirite?
 
-Step through the gate and turn immediately E, skipping the nasty fight in front of you. Follow the wall with the right-hand rule. The first shop you come across is a healer, which you can ignore. The second one is the Lanac'toor memorabilia and [souvenir shop](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#mud-toad-souvenir-shop) (p30), where you can buy Dragon Stones and sell off any excess stuff you have. You can also buy an Ankh here, which is one of several ways to get the Dragon Gem from the [Lansk dragon](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity).
+Step through the gate and turn immediately E, skipping the nasty fight in front of you. Follow the wall with the right-hand rule. The first shop you come across is a healer, which you can ignore. The second one is the Lanac'toor memorabilia and [souvenir shop](things-and-stuff.md#mud-toad-souvenir-shop) (p30), where you can buy Dragon Stones and sell off any excess stuff you have. You can also buy an Ankh here, which is one of several ways to get the Dragon Gem from the [Lansk dragon](README.md#putting-the-fun-back-in-funderworld-lansk-undercity).
 
-Cross the city to the N and enter the building opposite, which is the local tavern. Berengaria is in the NE corner of the room and he has some scrolls for you: *S:Rage of Mithras* (70' range!) and *S:Summon Salamander* (don't care) are unique, but you already have *S:Holy Aim*, *S:Armor of Light*, and *S:Major Healing* unless you're building two Sun mages. The barkeep will inform you of three useful things: you're going to want a powerful ally to take out Namtar, that the temple keepers have some magic boots you want, and that the four parts of Lanac'toor's statue have been strewn across the kingdom. Fortunately, I told you about this already when we found [Tars](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#shame-if-anything-were-to-happen-to-it-tars-ruins) back on Forlorn, so I guess you could say that forewarned is... forearmed! [puts on sunglasses]
+Cross the city to the N and enter the building opposite, which is the local tavern. Berengaria is in the NE corner of the room and he has some scrolls for you: *S:Rage of Mithras* (70' range!) and *S:Summon Salamander* (don't care) are unique, but you already have *S:Holy Aim*, *S:Armor of Light*, and *S:Major Healing* unless you're building two Sun mages. The barkeep will inform you of three useful things: you're going to want a powerful ally to take out Namtar, that the temple keepers have some magic boots you want, and that the four parts of Lanac'toor's statue have been strewn across the kingdom. Fortunately, I told you about this already when we found [Tars](README.md#shame-if-anything-were-to-happen-to-it-tars-ruins) back on Forlorn, so I guess you could say that forewarned is... forearmed! [puts on sunglasses]
 
 E of the tavern there's a spot where the walls have crumbled and you can **(U)se** *Climb* to get through. Save here, and use Dragon Stones if you need them, because the upcoming battle is tough. Circle around and find the Mud Toad Militia (p32). Unfortunately, as you walk away, they attack. Beat them from distance as much as possible; use *L:Mage Fire* from your fighters, Ulrik's axe, and long-range mage spells. Once they're in range, hit 'em with group-zaps. Melee if you need to.
 
@@ -365,33 +365,33 @@ Walk into the center of the city where Lanac'toor's tower used to stand. Find th
 
 We're all done here, at least until we find the rest of the statue parts. Exit the city to the W instead of the S in order to avoid some Murk Trees. Next up we're going to visit some pirates, but I bet you'd like to hit a recharge pool right about now, so let's do that, and take a quick side trip through the Mystic Wood to pick up a quest item along the way.
 
-#### I Once Had a Girl, or Should I Say, She Once Had Me (Mystic Wood)
+### I Once Had a Girl, or Should I Say, She Once Had Me (Mystic Wood)
 
-Take the Nexus from Quag to the Mystic Wood. Go straight E (although there is a static combat along that path, so jog N if you want to avoid it) until you hit the lake and the place where it tells you that there's a simple shrine there. **(U)se** the Golden Boots to hop across the water. Approach the shrine, **(U)se** *Arcane Lore* for a hint (p72), then sacrifice a drop of blood by **(U)sing** any weapon. (Even a Mace will work, but Ammunition won't.) Your reward is the Enkidu Totem, which you can use [much later](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) in the game to avoid a big fight.
+Take the Nexus from Quag to the Mystic Wood. Go straight E (although there is a static combat along that path, so jog N if you want to avoid it) until you hit the lake and the place where it tells you that there's a simple shrine there. **(U)se** the Golden Boots to hop across the water. Approach the shrine, **(U)se** *Arcane Lore* for a hint (p72), then sacrifice a drop of blood by **(U)sing** any weapon. (Even a Mace will work, but Ammunition won't.) Your reward is the Enkidu Totem, which you can use [much later](README.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) in the game to avoid a big fight.
 
-If you didn't get the Mushrooms on a [previous visit](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#isnt-it-good-mystic-wood) to the Mystic Wood, this is a good time to pick them up.
+If you didn't get the Mushrooms on a [previous visit](#isnt-it-good-mystic-wood) to the Mystic Wood, this is a good time to pick them up.
 
-Later, after you find the [Magic College](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college), you'll want to come back here to complete your collection of Druid Magic spells. But we can't do that yet.
+Later, after you find the [Magic College](#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college), you'll want to come back here to complete your collection of Druid Magic spells. But we can't do that yet.
 
 This turns out to be a good time to pay our favorite underworld deity a visit. While you're in the Underworld going from the Mystic Wood back to Quag, go find Irkalla's Realm, pass by the +5 AP leap of faith (... you did that already, right?), and keep going. You'll find a spot where you can **(U)se** the Golden Boots to hop over to the Isle of Woe (p137), where Irkalla herself will ask you to find the Silver Key and promises to help you defeat Namtar if you do. I'm not sure there's a good plot arrow that tells you to make this trip, but it makes the most sense given where we are in the narrative (and the fact that we're about to go get the Silver Key from Nergal).
 
-#### Smuggler's Blues (Smuggler's Cove)
+### Smuggler's Blues (Smuggler's Cove)
 
 The only thing left to do on Quag, apart from trying not to get killed by Murk Trees, is in the NE corner. There's a little peninsula there (behind a few Murk Trees) that ends in Smuggler's Cove.
 
-The Cove is pretty tiny (p39). N of where you enter you can find a statue of Irkalla (p3 – hey, we read that paragraph already!). If, despite numerous attempts on my part, you've managed to make it this far into the game without sacrificing something at one of her statues so you can visit her domain in the Magan Underworld, I guess this is as good a time as any. Go read the [Underworld section](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#magan-underworld-highlights) and do all the stuff that you've been avoiding. Directly S of Irkalla's statue is a Serpent Swimmer that you can fight.
+The Cove is pretty tiny (p39). N of where you enter you can find a statue of Irkalla (p3 – hey, we read that paragraph already!). If, despite numerous attempts on my part, you've managed to make it this far into the game without sacrificing something at one of her statues so you can visit her domain in the Magan Underworld, I guess this is as good a time as any. Go read the [Underworld section](README.md#magan-underworld-highlights) and do all the stuff that you've been avoiding. Directly S of Irkalla's statue is a Serpent Swimmer that you can fight.
 
 Kick down the door to the W. You don't actually have the option to attack the pirates, the game just repeats the message and kicks you out again. Your choices are to speak "their language" by **(U)sing** *Bureaucracy*, or "prove you're a thief" by **(U)sing** *Lockpick*, *Hiding*, or *Pickpocket*. In any case, offer at least $50 to get a much friendlier reaction (p41). Don't try the door to the W: the pirates will fight to the (your) death, you can't take them (yet), and the game won't let you escape. We'll come back when we're better prepared. Instead take Ugly up on his offer, step through the door to the S, and board the boat to be whisked off to the Necropolis (p43).
 
 Speaking of preparations, make sure you have the Mushrooms from the Mystic Wood, and you might want to carry a good stash of Dragon Stones.
 
-#### All We Wanna Do Is Eat Your Brains (The Necropolis)
+### All We Wanna Do Is Eat Your Brains (The Necropolis)
 
 You can walk around the outside of the building and exit in three directions, if you want to see the little islet that the Necropolis sits on and where it is in relation to Quag. (I might be the kind of completionist who wants to touch every square of the Dilmun auto-map. You might not be. I won't think any less of you.) But you can't go anywhere out there; your only way forward is in. Make sure you're healed up first, though.
 
 Close to melee with the Guardian. He has a 1d6 breath weapon and somewhere between 50-85 HP, so it may take you a few tries (exiting and Bandaging in between). If you get impatient, close to 20' and zap him with spells, but make sure you have some Dragon Stones on hand. Don't forget Valar's *S:Major Healing*, which can keep your team standing the one or two extra turns needed to take out the Guardian.
 
-In the center of the room you'll find the Stone Trunk (part #2 of the Lanac'toor statue) and some nice armor. Magic Chain (+7 AC) makes a nice upgrade for Louie, and both it and the Black Helm (+3 AC) will cast *M:Zak's Speed.* (You'll have to charge the Magic Chain first, though, which you can't do until you get to [Freeport](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#im-free-as-a-bird-now-freeport).) The Dead Bolt is weird in that you can cast *S:Charger* to refill it, but I'm not sure even the Tri-Cross makes that useful (3d4 damage in burst fire).
+In the center of the room you'll find the Stone Trunk (part #2 of the Lanac'toor statue) and some nice armor. Magic Chain (+7 AC) makes a nice upgrade for Louie, and both it and the Black Helm (+3 AC) will cast *M:Zak's Speed.* (You'll have to charge the Magic Chain first, though, which you can't do until you get to [Freeport](README.md#im-free-as-a-bird-now-freeport).) The Dead Bolt is weird in that you can cast *S:Charger* to refill it, but I'm not sure even the Tri-Cross makes that useful (3d4 damage in burst fire).
 
 There's another Guardian guarding the exit door. Treat him the same way.
 
@@ -425,7 +425,7 @@ Either way, at the end of the labyrinth there's a portal of power. If you **(U)s
 
 Wherever you get dumped, your next destination is King's Isle.
 
-### King's Isle
+## King's Isle
 
 King's Isle is all about the journey — and the Goblins — and not so much the destinations. Right now there are three things you need to do:
 
@@ -439,19 +439,19 @@ For the sake of completeness, you can also get here by taking the King's Ferry f
 
 I'm going to do these in the order I listed above, but feel free to skip around this section.
 
-#### Rescuing Irkalla (Magan Underworld)
+### Rescuing Irkalla (Magan Underworld)
 
 By the way, if you somehow still haven't visited Exposition Cavern and read (p127), go do that now. One of the side plots it alludes to is that Nergal is Irkalla's consort, and they don't seem to be getting along. When you visited Nergal in the Necropolis, he made reference to being 'in exile', and that he knew what you were going to do with the Silver Key but didn't care. So maybe we should go see what Irkalla thinks of all this.
 
 Head back to Irkalla's Realm and walk over to the peninsula in the NE corner. The game tells you that there's an island. **(U)se** the Frog Boots, sorry, the Golden Boots to hop over to the island and run into a hot chick in chains (p137).
 
-Now, as I alluded to [earlier](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#i-once-had-a-girl-or-should-i-say-she-once-had-me-mystic-wood), it seems unlikely to me that a player who didn't have a walkthrough in front of them would have discovered the Isle of Woe *after* getting the Golden Boots from Mud Toad (you can't get there otherwise), but *before* doing Smuggler's Cove and the Necropolis where you pick up the Silver Key. p137 certainly seems to think that you have the Boots but not the Key at this point. If you took a long detour after Mud Toad and never found Smuggler's Cove, I guess it's possible...?
+Now, as I alluded to [earlier](README.md#i-once-had-a-girl-or-should-i-say-she-once-had-me-mystic-wood), it seems unlikely to me that a player who didn't have a walkthrough in front of them would have discovered the Isle of Woe *after* getting the Golden Boots from Mud Toad (you can't get there otherwise), but *before* doing Smuggler's Cove and the Necropolis where you pick up the Silver Key. p137 certainly seems to think that you have the Boots but not the Key at this point. If you took a long detour after Mud Toad and never found Smuggler's Cove, I guess it's possible...?
 
-Anyway, you do have said Key, so go ahead and **(U)se** it to free Irkalla. She hands you a potion of water breathing (confusingly named the "Water Potion") and sends you out to the [Eastern Isles](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#the-eastern-isles) to find Roba's Skull. Once you've done that you'll want to come back to King's and visit the Dwarven Forge for "your reward", which turns out to be every bit as awesome as you might think when the Queen of the Underworld promises you something. Trust me!
+Anyway, you do have said Key, so go ahead and **(U)se** it to free Irkalla. She hands you a potion of water breathing (confusingly named the "Water Potion") and sends you out to the [Eastern Isles](README.md#the-eastern-isles) to find Roba's Skull. Once you've done that you'll want to come back to King's and visit the Dwarven Forge for "your reward", which turns out to be every bit as awesome as you might think when the Queen of the Underworld promises you something. Trust me!
 
 The Silver Key should have been consumed rescuing Irkalla, but if it wasn't, you can drop it now.
 
-#### Le Roi est Mort (Bridge of Exiles, Snake Pit)
+### Le Roi est Mort (Bridge of Exiles, Snake Pit)
 
 The Bridge (in the SW corner of King's Isle) is totally unguarded and there's nothing interesting here. The door to the W is one-way (p50), so you won't be able to come back across the bridge. The good news is that this little islet has no encounters at all. The bad news is that you're assaulted by the sound of mad screaming everywhere you go. Work your way to the NW and enter the decaying city (p75).
 
@@ -469,7 +469,7 @@ Now we need to find a way out of here. The kid in the NE is insistent that no on
 
 **Note:** Hang on to the Signet Ring. If for some reason you ever find yourself on the Isle of the Damned again (say, you forget to pick up the Stone Head on your first trip), you can go back to the Snake Pit and take the King's Ferry as often as you want. It can also be used to enter Kingshome from the front door.
 
-#### This "Overcome By Powerful Magic" Thing Is Getting Kind of Old (Kingshome)
+### This "Overcome By Powerful Magic" Thing Is Getting Kind of Old (Kingshome)
 
 Oddly enough, your cell door is unlocked. Check out (*Lockpick*) the door 1S from you (turn right when you exit) for a bit of comic relief (p53). The rest of the hall is empty. Through the door to the S there are some Vicious Guards (p65). A couple of 6-point zap spells should take care of them. If you lose, they toss you back into your cell.
 
@@ -489,13 +489,13 @@ Once you leave Namtar's bedroom, it disappears. In a pinch, you can use *D:Softe
 
 However, if you go N and then find the first door to the E there are two useful items that it might be worth getting now: Magic Chain (+7 AC) might be a better choice than Plate Mail (+10 AC, -5 AV) if you feel like Ulrik's AV is too low, and there's another pair of Lucky Boots (+1 AC). Explore the rest of this hallway for a little bit of history, and take note of the location of the wardrobe in the SW. That will come in handy later.
 
-When you're ready to leave, go S (p130). The exit drops you on King's Isle; the Nexus is 1E 3S from here. Watch out for Goblins, though – they've got you surrounded. Use *S:Inferno* and your brand new Gatlin Bow and you should be fine. Hit the Nexus and refresh. And if you haven't [freed Irkalla](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#rescuing-irkalla-magan-underworld) yet, go do that now too.
+When you're ready to leave, go S (p130). The exit drops you on King's Isle; the Nexus is 1E 3S from here. Watch out for Goblins, though – they've got you surrounded. Use *S:Inferno* and your brand new Gatlin Bow and you should be fine. Hit the Nexus and refresh. And if you haven't [freed Irkalla](README.md#rescuing-irkalla-magan-underworld) yet, go do that now too.
 
-#### Yo Dawg, Why You Gotta Front (Siege Camp)
+### Yo Dawg, Why You Gotta Front (Siege Camp)
 
 One more thing to take care of on King's Isle. There are two ways in to the siege camp:
 
-1. Go to [Phoebus](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#ss-is-the-key-combo-for-save-game-phoebus), assuming it hasn't been destroyed, and enlist in the army in the building in the parade grounds in the SE corner (p86). You start in a nook in the W wall of the camp.
+1. Go to [Phoebus](README.md#ss-is-the-key-combo-for-save-game-phoebus), assuming it hasn't been destroyed, and enlist in the army in the building in the parade grounds in the SE corner (p86). You start in a nook in the W wall of the camp.
 2. Take the Nexus to King's Isle, fight some Goblins, boldly walk in the front door (p87), and enlist in the army (p59). You start just in front of the gate.
 
 Once you're in, you're "stuck". If you feel like leaving for some reason, you can fight off the guards in front of the gate. The Royal Guards have *L:Mage Fire*, so I'd recommend blowing a bunch of magic if you're going to try to beat them. 300 xp is nice, but you'll need the magic later. When you leave and come back it seems that they've forgotten you'd ever enlisted in the first place! Nice trick.
@@ -510,7 +510,7 @@ Just S of that chest is the Black Market. Usefully, you can buy Shields (+2 AC) 
 
 You're ready to hit the front; take the N exit.
 
-#### The Siege of Byzanople
+### The Siege of Byzanople
 
 King Drake seems to be waging war against his children, Prince Jordan of Byzanople and his twin sisters, Myrilla and Myrolla. Of course if you've been through the Snake Pit, you already know that Drake is actually dead, and you also may have learned some of the family history while poking around Kingshome. If you came straight here from Phoebus, then maybe you don't know any of that yet.
 
@@ -530,7 +530,7 @@ If you Met A Princess upstairs, Fought Your Way Through, or decided to Help A Pr
 
 **Side with Kingshome:** If you kill Princess Myrolla, you can climb the stairs immediately. If you're talking to Jordan, you have to kill him and his guards first, but they're not so hard. The game makes you feel bad and tells you that it's now *your* destiny to become king! I guess that's the only way to justify continuing the fight against Namtar. Anyway, you now (possibly) have to fight your way across the dungeon until you get to the staircase. (Don't forget to loot the dungeon armory on the way, though.)
 
-Once you climb the stairs, you're in the Byzanople courtyard. Lots of militia will fight you as you try to reach the front gates. When you finally get there, **(U)se** *Lockpick 2* or better or cast *D:Soften Stone* to open them and the Kingshome army wins (p71). What do you get for your treachery? Thrown in the [Kingshome Dungeon](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome), possibly for the second time.
+Once you climb the stairs, you're in the Byzanople courtyard. Lots of militia will fight you as you try to reach the front gates. When you finally get there, **(U)se** *Lockpick 2* or better or cast *D:Soften Stone* to open them and the Kingshome army wins (p71). What do you get for your treachery? Thrown in the [Kingshome Dungeon](README.md#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome), possibly for the second time.
 
 **Side with Byzanople:** If you agree to join forces with the Prince (p109), you get free run of the dungeon; in particular, the Byzanople treasure vault is one room over to the E, and it's now unguarded. *H:Dazzle* is new but not all that useful. *H:Big Chill* we have already. Aside from a bunch more Dragon Stones, you can pick up another Magic Chain and Magic Shield (although this one is only worth +3 AC).
 
@@ -538,33 +538,33 @@ Climb the stairs to Byzanople. You'll be teleported from the top of the stairs (
 
 In the NE corner of the road around the courtyard there's a secret door that lets you into the walls. In the SE corner there's a locked chest with another Fire Shield (-2AV, +2AC), but that's not a very useful item.
 
-Once you feel ready, follow the secret passage back to the Siege Camp. Walk around the corner to the big fight against the Kingshome army: 15 Mercenaries, 15 Guards, 5 Royal Guards, and 2 Kingshomer Captains. You should know the drill by now: lots of *S:Inferno* to take out the big groups, then pick off the small groups at distance as much as possible. The Kingshomer Captains have lots of HP, but your archer/mage will help a lot. If you lose or run away, Kingshome wins, and you wind up in the [Kingshome Dungeon](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome). (Sigh.) If you win, you can take the passage back to the Byzanople Courtyard.
+Once you feel ready, follow the secret passage back to the Siege Camp. Walk around the corner to the big fight against the Kingshome army: 15 Mercenaries, 15 Guards, 5 Royal Guards, and 2 Kingshomer Captains. You should know the drill by now: lots of *S:Inferno* to take out the big groups, then pick off the small groups at distance as much as possible. The Kingshomer Captains have lots of HP, but your archer/mage will help a lot. If you lose or run away, Kingshome wins, and you wind up in the [Kingshome Dungeon](README.md#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome). (Sigh.) If you win, you can take the passage back to the Byzanople Courtyard.
 
 At this point the stairs down to the Byzanople Dungeon will work again. I didn't mention this earlier, but there's a locked door to the W that leads to the Byzanople Crypt (p111). The crypt is full of Zombies — who, inexplicably, are *not* susceptible to *S:Exorcism* — and the only treasure is a MagicAxe [sic], which is identical to the Magic Axe in the Kingshome dungeon. It's a good weapon, but you probably only need one of them.
 
-Once you're ready to leave, go through the (now unlocked) gate and exit Byzanople to the S. Enter the Siege Camp; it's now empty, and you can exit it to the S as well to return to King's Isle. It's worth noting that the [Black Market](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#byzanople-siege-camp-black-market) still works, as well as all the vendors in Byzanople town square, but that won't be super useful to you going forward.
+Once you're ready to leave, go through the (now unlocked) gate and exit Byzanople to the S. Enter the Siege Camp; it's now empty, and you can exit it to the S as well to return to King's Isle. It's worth noting that the [Black Market](README.md#byzanople-siege-camp-black-market) still works, as well as all the vendors in Byzanople town square, but that won't be super useful to you going forward.
 
-### The Eastern Isles
+## The Eastern Isles
 
-#### Putting the "Fun" Back In "Funderworld" (Lansk Undercity)
+### Putting the "Fun" Back In "Funderworld" (Lansk Undercity)
 
 Remember that cesspool of bureaucracy, Lansk? Well, it turns out there's an underground city, too. If you're on King's, you can take a ferry from the Old Dock directly to the Undercity for $500. Or you can find your way to Lansk topside and pay a bunch of grease money at the Department of Lubrication. Or you can get there for free through the Underworld. Guess which one we're going to do? Be honest, you were heading there anyway to hit the recharge pool; once you do that, go a bit E from the pool and enter the first building, then take the stairs up. Suddenly, it's like you're in New Orleans during Mardi Gras (p121).
 
 You should be able to handle the fights down here, and there are plenty, but be aware that some of these can kill you.
 
-The one thing you really need to do here is visit the dragon in the center of the city. The entrance is on the E side; there's a secret door in the S of the interior part of the wall, with a locked door behind it. It's a sad dragon (p126), and apparently it has a boo-boo. **(U)se** a Healing Potion on it and it will give you a Dragon Gem. (You can also cast any healing spell, or buy an Ankh from the [Mud Toad souvenir shop](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#mud-toad-souvenir-shop) for $50 and **(U)se** that instead.)
+The one thing you really need to do here is visit the dragon in the center of the city. The entrance is on the E side; there's a secret door in the S of the interior part of the wall, with a locked door behind it. It's a sad dragon (p126), and apparently it has a boo-boo. **(U)se** a Healing Potion on it and it will give you a Dragon Gem. (You can also cast any healing spell, or buy an Ankh from the [Mud Toad souvenir shop](README.md#mud-toad-souvenir-shop) for $50 and **(U)se** that instead.)
 
 If you take a tour of the corners, you can catch up on some of the mythology of the realm. In the NW corner there's a statue of Irkalla (p122). **(U)se** Strength to move it, and you'll find a locked chest with a bunch of Dragon Stones and a Glow Sword (1–30, +1 AV), which requires STR 24 despite only being a one-handed weapon. Yikes! Nergal (p123) is in the NE corner, the Universal God (p124) in the SW corner, and Enkidu (p125) in the SE corner.
 
-**Merchants**: On the E side, just N of where you came in there's a healer, N of that is an [armor shop](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#lansk-undercity-exeters-fine-shield-and-armors), and N of that is a [weapons shop](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#freeport-freeport-arms).
+**Merchants**: On the E side, just N of where you came in there's a healer, N of that is an [armor shop](README.md#lansk-undercity-exeters-fine-shield-and-armors), and N of that is a [weapons shop](README.md#freeport-freeport-arms).
 
-On the W side, the S-most building is "closed", but you can go through the secret door in the NW corner and find a [magic shop](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#freeport-magic-inc) where you can buy *D:Cure All,* the best group-cure spell in the game. You can also get a backup copy of *D:Create Wall*.
+On the W side, the S-most building is "closed", but you can go through the secret door in the NW corner and find a [magic shop](README.md#freeport-magic-inc) where you can buy *D:Cure All,* the best group-cure spell in the game. You can also get a backup copy of *D:Create Wall*.
 
-N of the magic shop is the [Ministry of EZ Paperwork](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#lansk-undercity-ministry-of-ez-paperwork), a shop where you can buy important papers like Citizenship Papers or the Governor's Pass. The "Kings Ticket" [sic] can be used on the N side by the docks to take a ferry to the Old Dock on King's Isle. I suppose that's useful if you don't have enough *Arcane Lore* to use the Nexus.
+N of the magic shop is the [Ministry of EZ Paperwork](README.md#lansk-undercity-ministry-of-ez-paperwork), a shop where you can buy important papers like Citizenship Papers or the Governor's Pass. The "Kings Ticket" [sic] can be used on the N side by the docks to take a ferry to the Old Dock on King's Isle. I suppose that's useful if you don't have enough *Arcane Lore* to use the Nexus.
 
 Opposite the magic shop there's a nasty combat, then stairs to the surface. These are one-way unless you've opened them from above, so I don't recommend ever taking them (because Lansk proper is an annoying place to be, and not just because of the bureaucracy). Gead back out via the Underworld instead.
 
-#### I'm On A Boat (Smuggler's Cove)
+### I'm On A Boat (Smuggler's Cove)
 
 Time to take out Ugly and pick up his boat; now that you have *S:Inferno*, it won't be quite so bad. Take the Nexus back to Quag. It's not a bad idea to stop by Mud Toad and drop off the statue parts that you have now, just to get them out of your inventory. You can be amused by the programmers' laziness with commas, too. Then go N to Smuggler's Cove again.
 
@@ -572,35 +572,35 @@ You'll have to do the *Bureaucracy*-and-bribe dance again to get through the doo
 
 Here's the secret to beating Ugly's crew. Ignore the Pirates at 10'. Have your fighters cast *L:Disarm* on the Seadogs, since they can attack you from 20'. Then drop *S:Inferno, D:Fire Blast* (on the Seadogs), and *H:Big Chill* until the first two lines drop (probably two rounds). Mop up with the fighters, and use your archer/mage to take out Peggy and Ugly once they get within range. You win (p24). If your fighters don't have Low Magic, this is a lot harder because the Seadogs hit pretty hard. You might eke it out with reach weapons, or a lot of Healing Potions.
 
-The Hook, Parrot, and Old Peg Leg are useless. The Pilgrim Garb can help you sneak into Nisir but you don't need it (and you can get more in [Kingshome](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome) if you want). The Heavy Plate might be attractive (+12 AC, -6 AV). And the Jade Eyes will get you into the Dwarf Clan Hall.
+The Hook, Parrot, and Old Peg Leg are useless. The Pilgrim Garb can help you sneak into Nisir but you don't need it (and you can get more in [Kingshome](README.md#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome) if you want). The Heavy Plate might be attractive (+12 AC, -6 AV). And the Jade Eyes will get you into the Dwarf Clan Hall.
 
 The boat gives you the option to travel to a couple of fun places that you can't get to with the Transportation Nexus. You can go back to the Necropolis if really want to, or you can visit the three Eastern Isles (including Rustic). We'll hit them all eventually, but let's start with Freeport.
 
-#### I'm Free As A Bird Now (Freeport)
+### I'm Free As A Bird Now (Freeport)
 
 Having our own boat is kinda fun! Freeport is far enough out from the rest of the Isles (p45) that... oh, who are we kidding? This is a computer RPG. You're just a few map squares away. (You can leave the city and check out the island you're on and the world map, but there's nothing out there.) But it is a beautiful city (p51), and it's refreshing to not be encumbered with the weight of Namtar... at least for a few minutes.
 
 The town guards are easy enough to take out, but run from any Adventurers.
 
-[Ryan's Armor](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#freeport-ryans-armor) is pretty close to the dock, and Large Shields are a criminally cheap $100 each (which makes one think this might be a bug...) You can even buy more Heavy Plate, if you want. Slightly W of there is a healer, and [Freeport Arms](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#freeport-freeport-arms) is to the S.
+[Ryan's Armor](README.md#freeport-ryans-armor) is pretty close to the dock, and Large Shields are a criminally cheap $100 each (which makes one think this might be a bug...) You can even buy more Heavy Plate, if you want. Slightly W of there is a healer, and [Freeport Arms](README.md#freeport-freeport-arms) is to the S.
 
 The Freeport City Council (p57) is in the W. Secretly, though, we already know what happened to King Drake (he died in exile in the Snake Pit) and his son (we helped him defeat Namtar's army in Byzantium... or you killed him).
 
-To the S of there, you find a spot (p52) where it looks like you can leap across to a small island with your Boots. Suddenly, the Sword of Freedom (p27) is your's — ARRGH, REALLY? DID THEY NOT KNOW HOW TO USE AN APOSTROPHE IN 1989? — for the taking. But waaaaaaait a minute... ozone? Didn't a bartender tell us, [somewhere along the way](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#rounding-out-the-party-phoebus), that Namtar had laid a trap for us in Freeport? Maybe we shouldn't touch the sword...
+To the S of there, you find a spot (p52) where it looks like you can leap across to a small island with your Boots. Suddenly, the Sword of Freedom (p27) is your's — ARRGH, REALLY? DID THEY NOT KNOW HOW TO USE AN APOSTROPHE IN 1989? — for the taking. But waaaaaaait a minute... ozone? Didn't a bartender tell us, [somewhere along the way](README.md#rounding-out-the-party-phoebus), that Namtar had laid a trap for us in Freeport? Maybe we shouldn't touch the sword...
 
-Hop to the S again, and in the SW part of the city you'll find [Bewitching Potions and Elixers](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#freeport-bewitching-potions-and-elixers), where you can buy Dragon Stones. To the E of there is [Magic, Inc](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#freeport-magic-inc). You can buy whatever High Magic you don't have; the only useful spell you probably don't already have is *H:Sala's Swift*, and that will get superseded by *M:Zak's Speed* shortly. (For the completionists, you probably also don't have *H:Mystic Might, H:Vorn's Guard,* or *H:Cowardice*.) If you have two Druid mages, go ahead and buy a copy of *D:Soften Stone*; you'll get another one for free in a minute.
+Hop to the S again, and in the SW part of the city you'll find [Bewitching Potions and Elixers](README.md#freeport-bewitching-potions-and-elixers), where you can buy Dragon Stones. To the E of there is [Magic, Inc](README.md#freeport-magic-inc). You can buy whatever High Magic you don't have; the only useful spell you probably don't already have is *H:Sala's Swift*, and that will get superseded by *M:Zak's Speed* shortly. (For the completionists, you probably also don't have *H:Mystic Might, H:Vorn's Guard,* or *H:Cowardice*.) If you have two Druid mages, go ahead and buy a copy of *D:Soften Stone*; you'll get another one for free in a minute.
 
-In the SE you'll find the Tars City Council, in exile (p56). Remember the [Tars Ruins](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#shame-if-anything-were-to-happen-to-it-tars-ruins) on Forlorn, that had much harder-than-usual critters to fight? Now the game wants you to go back there and check out the [underground](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#look-an-actual-dungeon-tars-underground). You may have done that already, but if you haven't, you should do it after we're done here. (It'll be a *lot* easier now.)
+In the SE you'll find the Tars City Council, in exile (p56). Remember the [Tars Ruins](README.md#shame-if-anything-were-to-happen-to-it-tars-ruins) on Forlorn, that had much harder-than-usual critters to fight? Now the game wants you to go back there and check out the [underground](README.md#look-an-actual-dungeon-tars-underground). You may have done that already, but if you haven't, you should do it after we're done here. (It'll be a *lot* easier now.)
 
-Going N from there along the narrow bridge on the E side of the city, you can find the bar where [Halifax](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/creating-characters#npcs) is hiding out. I doubt he's worth picking up; your entire front line is probably Level 10 and all has DEX 20 by now, and he's neither of those. The barkeep's got some hints about the pieces of Lanac'toor's statue (one of which is here!), the Dwarves, and the Dragon Gem (which you already have).
+Going N from there along the narrow bridge on the E side of the city, you can find the bar where [Halifax](README.md#npcs) is hiding out. I doubt he's worth picking up; your entire front line is probably Level 10 and all has DEX 20 by now, and he's neither of those. The barkeep's got some hints about the pieces of Lanac'toor's statue (one of which is here!), the Dwarves, and the Dragon Gem (which you already have).
 
-(Translation of the barkeep's hints: the Broken City is the [Tars Underground](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#look-an-actual-dungeon-tars-underground), the Broken Tomb is the [Necropolis](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#all-we-wanna-do-is-eat-your-brains-the-necropolis), Broken Minds can be found in the [Snake Pit](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#le-roi-est-mort-bridge-of-exiles-snake-pit), and Broken Swords is what you're about to do to the Order...)
+(Translation of the barkeep's hints: the Broken City is the [Tars Underground](README.md#look-an-actual-dungeon-tars-underground), the Broken Tomb is the [Necropolis](README.md#all-we-wanna-do-is-eat-your-brains-the-necropolis), Broken Minds can be found in the [Snake Pit](README.md#le-roi-est-mort-bridge-of-exiles-snake-pit), and Broken Swords is what you're about to do to the Order...)
 
 Just N of the bar is the Order of the Sword, which is a big fight. Don't screw around with these guys; blow them up with group-zap spells and pick off the survivors with your archer/mage. The Spell Staff (+5 AV, +8 AC) is an upgrade over the Ruby Dagger, the Stone Hands are the last piece of the Lanac'toor puzzle, *D:Soften Stone* is super-helpful, and we finally found *S:Charger* case you're still toting around the Dead Bolt (or need to top off your Healing Potions).
 
-That's it for Freeport. Let's go put Lanac'toor back together; head back to Smugglers's Cove, and go clear out the [Tars Underground](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#look-an-actual-dungeon-tars-underground) if you haven't gotten the Stone Arms yet.
+That's it for Freeport. Let's go put Lanac'toor back together; head back to Smugglers's Cove, and go clear out the [Tars Underground](README.md#look-an-actual-dungeon-tars-underground) if you haven't gotten the Stone Arms yet.
 
-#### ...And See What's On The Slab (Lanac'toor's Laboratory)
+### ...And See What's On The Slab (Lanac'toor's Laboratory)
 
 Leave Smuggler's Cove, head S, kill a tree, head S again, circle around to the W, kill another tree, and enter Mud Toad. Go find Lanac'toor's statue and use the rest of the parts. Stairs down into his laboratory are revealed.
 
@@ -626,11 +626,11 @@ Now get the heck out of here. You can either retrace your steps, or go to the SE
 
 There isn't anything else useful or interesting here. If you feel like wandering around a bunch more, you can cast *D:Create Wall* at the staircase down to the Underworld, and it will remove all encounters (including both the fixed ones and the random ones) from the map. Note that if you are standing *on* the staircase when you cast it, you build a wall around yourself and the only way out is down to the Underworld, which isn't such a bad choice.
 
-#### Killed H'self a B'ar When He Was Only Three (Game Preserve)
+### Killed H'self a B'ar When He Was Only Three (Game Preserve)
 
-Rustic is a completely optional side trip – there's a few bits of story here and a chance to collect a bunch of High Magic and Druid Magic spells, but nothing that you have to do in order to beat the game. You can skip the next three sections completely and [sail towards](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley) the Sunken Ruins instead if you want.
+Rustic is a completely optional side trip – there's a few bits of story here and a chance to collect a bunch of High Magic and Druid Magic spells, but nothing that you have to do in order to beat the game. You can skip the next three sections completely and [sail towards](README.md#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley) the Sunken Ruins instead if you want.
 
-That being said, make sure you have Lanac'toor's Spectacles and the [Enkidu Totem](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#i-once-had-a-girl-or-should-i-say-she-once-had-me-mystic-wood), then head back to Pirates' Cove and take the boat to **Rustic**. The Royal Game Preserve is 4W 1S from where the boat drops you. The best entry is from the N, which puts you on the W side of the river. The forest is full of snare traps – you can **(U)se** Strength to break the ropes if you get caught, but it's probably worth just keeping a few points of *H:Sense Traps* running while you're here.
+That being said, make sure you have Lanac'toor's Spectacles and the [Enkidu Totem](README.md#i-once-had-a-girl-or-should-i-say-she-once-had-me-mystic-wood), then head back to Pirates' Cove and take the boat to **Rustic**. The Royal Game Preserve is 4W 1S from where the boat drops you. The best entry is from the N, which puts you on the W side of the river. The forest is full of snare traps – you can **(U)se** Strength to break the ropes if you get caught, but it's probably worth just keeping a few points of *H:Sense Traps* running while you're here.
 
 Near the ford across the river, **(U)se** *Tracker* to find a Stag. Kill it — if it's just going to stand there and wait for you, I recommend closing to 20' and shooting it with your Gatlin Bow — and you'll run into Old Jack (p92), the warden of the preserve. **(U)se** your Signet Ring and break the bad news to him (p74). You get a Magic Bow (70', +4 AV) out of the deal, although you found one of those already. It's not a bad idea to hang on to it, even only temporarily, because you'll need your mages to be able to deal physical damage in the next section. A weapon with 70' range is also handy against some of the wandering forest monsters.
 
@@ -640,9 +640,9 @@ On the E side of the river near the S edge of the map, you'll find a tough comba
 
 The only other thing the Game Preserve is good for is racking up XP, but the fights involve a lot of magicians that have distance spells, so it's way easier if you've got Dragon Teeth. What are those, you might ask? Well, keep reading, they're a little ways down...
 
-#### Not Far *Enough* Away, If You Ask Me (Scorpion Bridge, Magic College)
+### Not Far *Enough* Away, If You Ask Me (Scorpion Bridge, Magic College)
 
-The rest of Rustic Isle is empty. You'll find the Scorpion Bridge in the SE corner (p48), so named because of the two scorpion/person guardians. You don't want to rumble with these two. Instead, **(U)se** the Enkidu Totem that you picked up in the [Mystic Wood](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#i-once-had-a-girl-or-should-i-say-she-once-had-me-mystic-wood) to get past. You have a two-square-wide path to choose from; stick to the N. When you enter the bridge you'll find a side tunnel to the N, at the end of which is another Magic Shield (+3 AC) and another Barbed Flail (1–30, +2 AC). These fights aren't too bad, but if you don't have the Totem, the fight with the guard scorpions can be brutal. Don't go down the side tunnel to the S; there's nothing there.
+The rest of Rustic Isle is empty. You'll find the Scorpion Bridge in the SE corner (p48), so named because of the two scorpion/person guardians. You don't want to rumble with these two. Instead, **(U)se** the Enkidu Totem that you picked up in the [Mystic Wood](README.md#i-once-had-a-girl-or-should-i-say-she-once-had-me-mystic-wood) to get past. You have a two-square-wide path to choose from; stick to the N. When you enter the bridge you'll find a side tunnel to the N, at the end of which is another Magic Shield (+3 AC) and another Barbed Flail (1–30, +2 AC). These fights aren't too bad, but if you don't have the Totem, the fight with the guard scorpions can be brutal. Don't go down the side tunnel to the S; there's nothing there.
 
 Exit the Scorpion Bridge and head to the NE. The only thing on this side of the bridge is the Magic College. You can drop the Enkidu Totem (you don't need it to get back across the bridge).
 
@@ -660,7 +660,7 @@ The complete list of scrolls: *H:Fire Light, H:Elvar's Fire, H:Poog's Vortex, H:
 
 You can drop the Spectacles. Or, keep them; if you're a glutton for punishment, you can use them to take the test again. Just make sure you leave the map and come back or else one of the doors won't reset properly.
 
-#### Pepsi Brings Your Ancestors Back From The Dead (Mystic Wood)
+### Pepsi Brings Your Ancestors Back From The Dead (Mystic Wood)
 
 Let's make good use of that Soul Bowl. From the Magic College, cross the Scorpion Bridge (a couple of fights there), go W, N, and E and back to your boat. Take it to Smuggler's Cove, then hit the Quag Nexus and return to the Mystic Wood. Head back to the Underworld if you need to recharge.
 
@@ -672,7 +672,7 @@ Raising Zaton's spirit also gets rid of all random encounters on this map, which
 
 You can drop the Soul Bowl.
 
-#### For Death Awaits You All, With Nasty Big Pointy Teeth (Dragon Valley)
+### For Death Awaits You All, With Nasty Big Pointy Teeth (Dragon Valley)
 
 Take Ugly's boat to the **Sunken Ruins** (p46). The Ruins are 1W 1N from your boat, but first we're going to Dragon Valley, which is 5W 1N.
 
@@ -690,7 +690,7 @@ In the extreme NE corner of the map there's a locked chest that contains *H:Sala
 
 The Dragon Queen awaits you in the N central part of the map. No matter how you try to get there you're going to have to fight off a bunch of Dragon Warriors. They advance 30' per round, hit pretty hard, and have lots of HP, but are otherwise beatable.
 
-The Queen is NOT pleased with you (p134). Don't run! You have an ace in the hole: the Dragon Gem, which you picked up in the [Lansk Undercity](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity). **(U)se** it before she blasts you. She's still not happy (p120)... but she does agree to come to your aid next time you use the Gem. Ignore her warning; I promise you, it'll be worth her while. Just don't drop the thing!
+The Queen is NOT pleased with you (p134). Don't run! You have an ace in the hole: the Dragon Gem, which you picked up in the [Lansk Undercity](README.md#putting-the-fun-back-in-funderworld-lansk-undercity). **(U)se** it before she blasts you. She's still not happy (p120)... but she does agree to come to your aid next time you use the Gem. Ignore her warning; I promise you, it'll be worth her while. Just don't drop the thing!
 
 Note: If you try to run away, the Queen and her brood attack. She has a 100 DEX – that's not a typo – so she's gonna go first. If by some miracle you survive her first blast (10d12 breath weapon from 150' away), she blows you all the way back to the entrance of the map.
 
@@ -707,9 +707,9 @@ Look, Dragon Valley is pretty tough if this is your first time through the game,
 
 If you don't need to pick up the Teeth or the Eyes for some reason, use this path: 1N 3E 3N (#1) 1N 1E (#2) 3N 1W 1N 2W 3N (#3) 2W to the Queen, and reverse your steps back to the exit.
 
-#### The Skull of Roba (Sunken Ruins)
+### The Skull of Roba (Sunken Ruins)
 
-You will need the Water[-breathing] Potion that you got for [rescuing Irkalla](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#rescuing-irkalla-magan-underworld).
+You will need the Water[-breathing] Potion that you got for [rescuing Irkalla](README.md#rescuing-irkalla-magan-underworld).
 
 Now that you have Dragon Teeth, head back to the Ruins. We're going to reassemble the *real* Freedom Sword, not that fake one in Freeport that Namtar turned into a lightening rod. The raw materials that we need are here.
 
@@ -729,13 +729,13 @@ Climb back to the surface. As you do, the Clam shrivels away and you're left wit
 
 You can drop the Water Potion.
 
-#### Everybody Must Get (Un)stoned (Dwarf Clan Hall)
+### Everybody Must Get (Un)stoned (Dwarf Clan Hall)
 
 Sell some stuff, recharge, yadda yadda yadda. We're off to visit the Dwarves in their Clan Hall.
 
 To get there, though, we need to do a little magic. Head to King's Isle, either via the Nexus or the ferry from Lansk. Somewhere just S of the center of the island you'll come across some ruins. It's a small, open map with something that looks like a tunnel into the mountain behind it and a statue staring into it that's missing its eyes. Fortunately, you took a pair of those off Ugly and his crew. **(U)**se the Jade Eyes on the statue to open the way down.
 
-One more thing before we go, though. A bit N of the tunnel there's an unmarked, locked chest (level 4) that contains the Dwarf Hammer (1d30, 60' range). If we didn't already have Dragon's Teeth, this would be a pretty good weapon (although it's got a high STR requirement and no AV bonus); as things stand, it's not all that useful. Which is just as well, because if you unlocked the treasure chest all the way back in the [Slave Camp](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#the-purgatory-day-spa-and-salon-slave-camp) like I told you to do, the game set a flag that *also* determines whether you get to see this chest. Since you raided that one, this one is invisible. Oh well. There's no "story" reason I can find why the two would be linked, so I think this is a bug.
+One more thing before we go, though. A bit N of the tunnel there's an unmarked, locked chest (level 4) that contains the Dwarf Hammer (1d30, 60' range). If we didn't already have Dragon's Teeth, this would be a pretty good weapon (although it's got a high STR requirement and no AV bonus); as things stand, it's not all that useful. Which is just as well, because if you unlocked the treasure chest all the way back in the [Slave Camp](README.md#the-purgatory-day-spa-and-salon-slave-camp) like I told you to do, the game set a flag that *also* determines whether you get to see this chest. Since you raided that one, this one is invisible. Oh well. There's no "story" reason I can find why the two would be linked, so I think this is a bug.
 
 Regardless, go ahead down the tunnel and into the subterranean Clan Hall. Straight W of the stairs you find a crystal wall that blocks your way to the forge. S of the crystal wall you'll find the Gorgon that turned everybody to stone. You should be able to take him out in one round.
 
@@ -747,15 +747,15 @@ To get to the forge, you can either return to the Underworld and take the stairs
 
 The Isle of Woe, in case you haven't been following along, is the island that Irkalla was on. Head back to Irkalla's Realm (bandage after crossing the fires), leap to the Isle with the Golden Boots, and head to the N shore (where you might have noticed 'unusually calm' waters on a previous trip). There you get a Lady of the Lake moment (p138) and, at long last, receive the Freedom Sword (1–100, +15 AV, +5 AC). It hasn't got reach like the Dragon's Teeth, but...
 
-### Isle of Salvation
+## Isle of Salvation
 
-#### Hickory Dickory Dock (Old Dock, Pilgrim Dock)
+### Hickory Dickory Dock (Old Dock, Pilgrim Dock)
 
 This is it: you're into the endgame, now. We've cleared out the entire map and done basically everything there is to do. The only thing left is that giant mountain, smack in the middle of Dilmun, that apparently has just been *there* the whole time. But let's face it, you can't see it because graphics tech wasn't that good in 1989. So if there's something that you want to go back and do – sell some gear, exploit the bridge loot bug to stock up on Healing Potions, pick up Pilgrim Garb in the Kingshome wardrobe – this is the time to do it.
 
 Once you're ready to climb Mount Salvation and go hunt down Namtar in the Nisir, head to the one place we haven't been yet: the humble-looking dock in the SE corner of King's Isle.
 
-When you enter on the E side, the first pier to the W is for the [Lansk Undercity](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity) ferry. You can buy a ticket for $500(!) in the Travel Bureau to the S, then walk N and **(U)se** it to board. The return ticket is only $50 at the [Ministry of EZ Paperwork](https://gamefaqs.gamespot.com/contribute/test_file_v3/4/things-and-stuff#lansk-undercity-ministry-of-ez-paperwork) in the Undercity... but why on Oceana would you do such a thing?
+When you enter on the E side, the first pier to the W is for the [Lansk Undercity](#putting-the-fun-back-in-funderworld-lansk-undercity) ferry. You can buy a ticket for $500(!) in the Travel Bureau to the S, then walk N and **(U)se** it to board. The return ticket is only $50 at the [Ministry of EZ Paperwork](#lansk-undercity-ministry-of-ez-paperwork) in the Undercity... but why on Oceana would you do such a thing?
 
 In the SW corner of the map, there's a statue of the patron saint of computing. You need STR 23 or 24 to move the statue. Underneath you'll find *H:Earth Summon*, an Ice Wand, a bunch of Dragon Stones, and... a computer that casts *S:Guidance,* never runs out of charges, and grants +4 AC if you equip it(!).
 
@@ -771,7 +771,7 @@ In the S of the dockhouse there's a locked door (requires *Lockpick* 3). Behind 
 
 If you lose any of these fights, you get dropped into the W cell. The wall to the W has a secret door that leads you to a teleporter into Salvation.
 
-#### Salvation
+### Salvation
 
 If you walked out of the Pilgrim Dock, you're briefly back on the Dilmun world map, and the mountain itself is 2S of where you are now. (The game will ask if you want to enter 'Nisir', not Salvation, but once you arrive on the map it's labeled 'Salvation'.) Regardless of how you enter*, you start in the same place (p98). If you want, you can leave to the N and go back to the Dock, but you won't be able to return to King's Isle.
 
@@ -793,7 +793,7 @@ To the E is a door that can be picked with *Lockpick* 4. Beyond are more guards.
 
 Proceed to the SE and find Namtar's tower (p55). **(U)se** the Golden Boots to jump across the chasm. The interior of the tower is dark, and as you proceed forward, Namtar will scold you, then the floor will fall out from under you and drop you into...
 
-#### Nisir
+### Nisir
 
 The Nisir is a giant dungeon — 32x32, making a nice bookend with Purgatory — that's hard to get around and has tons of nooks and crannies. The fights aren't much fun either; you'll do a lot of running. You can spend a long time just exploring the caverns, getting into an absolute ton of moderately difficult fights, and getting lost in spinners and teleporters (unless you spend a lot of time paying close attention to the automap). The silver lining is that there is no treasure down here and very little to actually *do*, even for the sake of the story, so unless you feel like crawling the whole dungeon and building your own map, we're going to take some shortcuts.
 
@@ -841,7 +841,7 @@ Chances are pretty good you'll need to kill your emulator and reload a couple of
 
 Okay, onto the tactics. Kill Namtar once (around 800 HP). The second time (around 375 HP), he'll close to 10' and then use *D:Whirl Wind* to push you back. He almost always goes first, but you can use that to your advantage. Just keep attacking with the Dragon Teeth and you'll knock him down quickly enough. The third time (900–975 HP) is the hardest, because you're already depleted and haven't had a round to rest in a while. You may have more luck closing to 20' so your archer can hit him, and countering his breath weapon with *D:Cure All* and/or *S:Major Healing*. If you find yourself within 10', he will hammer you for around 20 stun per round; I suggest using **(B)lock** with most of your front line and letting your archer do the work.
 
-#### Endgame
+### Endgame
 
 Once you do manage to beat Namtar three times, you get to pick up his body. Doing so transports you to the Magan Underworld near the recharge pool. You may also find that your wounds have been healed. Obviously, hit the recharge pool (I bet that feels good).
 

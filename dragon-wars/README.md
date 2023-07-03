@@ -59,7 +59,7 @@ So let's talk about all the different ways you can spend AP. Throughout this sec
 
 Attributes form the basic description of your character. Newly-generated characters start with a 10 in all primary attributes. All attributes start (conceptually) at zero and go up; higher numbers are always better.
 
-**Primary attributes** are the ones you can increase by spending AP. Each one has a specific effect, as I list below, but more generally the game will sometimes have a character make "an attribute check", in which case it rolls a d20 and compares it to their attribute value. If you roll under your attribute value, you succeed; having a 20 STR means you always pass STR checks, so it can be helpful to have high attributes even if you don't normally do the thing that's primarily associated with it (i.e. melee combat). Attributes can also be `(U)sed` as if they're skills in some places; I'll point out places where this matters later on.
+**Primary attributes** are the ones you can increase by spending AP. Each one has a specific effect, as I list below, but are also useful [more generally](#game-mechanics). Attributes can also be `(U)sed` as if they're skills in some places; I'll point out places where this matters later on.
 
 - [1 AP per pt] **Strength** **(STR)** is a required attribute for most melee weapons, grants bonus damage if it's high enough, and is handy for moving or knocking down things in your way.
 - [2] **Dexterity (DEX)** is similarly a required attribute for most missile weapons, and grants bonus damage the same way. Dexterity also determines your **AV** and **DV**, which are arguably the two most important attributes in the game. Finally, DEX influences your initiative count during combat.
@@ -342,9 +342,18 @@ Things get more complicated if you mix moving Ahead and Behind, though. Given th
 
 ### Game Mechanics
 
+**Attribute checks:** There are several points where the game will check the value of an attribute as if it were a skill. Like skill checks, the vast majority of these are pass/fail: for instance, a statue requires STR 23 to move it, and if your STR is below the threshold there's nothing you can do about it. However in a few places the check is more random:
+
+- Praying to Irkalla (1d20 vs Spirit)
+- Escaping Purgatory through the harbor without taking damage (1d20 vs Strength)
+- Lifting the stone covering the stairs down to the Tars Underground (1d**40** vs Strength)
+- Wrestling Enkidu (1d8 + 15 vs Strength)
+
+In these cases, the game rolls a die and compares it to your attribute; if the roll is *lower*, you succeed. In principle, this means that having a higher attribute value is useful for its own sake, but in practice there's rarely any real penalty for failure.
+
 **Lock picking:** When you come across a locked chest, you'll want to pick your best *Lockpick* to try to open it. Chests have a difficulty rating. If your skill level is below the difficulty, you can't open the chest. If it's equal, you have a 50% chance of opening the lock. That goes up to 60%, 70%, 75%, 80%, 85%, 90%, and 95% if your skill level is higher than the lock's difficulty. It tops out at 95%, so there's always a chance you might fail, but trying again is free.
 
-Most of the time, locked doors are all-or-nothing.
+Locked *doors*, on the other hand, are usually pass/fail; if you have enough ranks you unlock the door, and if you don't, you can't.
 
 ### Dealing With Loot
 

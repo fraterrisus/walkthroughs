@@ -6,6 +6,6 @@ Feel free to get in touch if you spot an error or have questions about anything,
 
 - [Bard's Tale 1](bards-tale-1/): This is just my personal maps, not a full walkthrough.
 - [Deathlord](deathlord/walkthrough-0.md): Highest-rated on GameFAQs before I stopped posting there.
-- [Dragon Wars](dragon-wars/walkthrough-0.md): Incredible exhaustive and based on code decompilation. (In the middle of a rewrite.)
+- [Dragon Wars](dragon-wars): Incredible exhaustive and based on code decompilation. (In the middle of a rewrite.)
 - [Pool of Radiance](pool-of-radiance/walkthrough.txt): An older effort; not quite complete but pretty close.
 - [Wasteland](wasteland/walkthrough.txt): Complete and fairly comphrehensive.

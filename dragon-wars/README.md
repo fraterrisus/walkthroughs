@@ -229,7 +229,7 @@ Those individual options are:
 
 - `(B)lock attack`: Cancels the first melee attack against you, but it's only available if you have a melee weapon readied. Not available in Quickfight.
 
-- `(C)ast spell:` If you know more than one school of magic, you'll need to pick `(L)ow`, `(H)igh`, `(D)ruid`, or `(S)un`. Schools other than Low will then make you pick a spell type, `(C)ombat`, `(H)eal`, or `(M)isc`. Finally, you'll get a list of spells of that school and type to pick from; type the first letter of the spell name.
+- `(C)ast spell:` If you know more than one school of magic, you'll need to pick `(L)ow`, `(H)igh`, `(D)ruid`, `(S)un`, or `(M)isc`. Schools other than Low will then make you pick a spell type, `(C)ombat`, `(H)eal`, or `(M)isc`. Finally, you'll get a list of spells of that school and type to pick from; type the first letter of the spell name.
 
 - `(U)se item` [-2 DV]: Dragon Stone, Healing Potion, or other magic item. Lots of things, including weapons, can be Used to great effect in combat; see the [Equipment](#things-and-stuff) section.
 
@@ -243,13 +243,19 @@ Those individual options are:
 
 At any time while giving individual orders, you can press `(Esc)` to back out of a menu or skip back to a previous player. You can even back all the way out to the turn menu and change your mind on Fight or Quickfight or Run. After you've given an order to every party member, you get a chance to confirm before executing the actions.
 
-**Targeting Groups:** Once you've chosen an action, if there are multiple groups of enemies, you get to pick which group you want to attack. If, when your turn comes up in the initiative order, the group you're attacking is out of range or no longer has any live opponents, then your action is wasted. So execution order (and therefore DEX) matters!
+#### Targeting Groups
 
-**Attack Rolls:** When a combatant attacks, the game rolls 1d16+2. A minimum roll (3) always hits and a maximum roll (18) always misses. Beyond that, the target is 13; you hit if you roll **equal or below** that, so lower numbers are better. Odds favor the attacker slightly: all other things being equal, you have a 68.75% (11 out of 16) chance of succeeding on any given attack. (Note that if you get multiple attacks, each one is rolled separately.)
+Once you've chosen an action, if there are multiple groups of enemies, you get to pick which group you want to attack. If, when your turn comes up in the initiative order, the group you're attacking is out of range or no longer has any live opponents, then your action is wasted. So execution order (and therefore DEX) matters!
+
+#### Attack Rolls
+
+When a combatant attacks, the game rolls 1d16+2. A minimum roll (3) always hits and a maximum roll (18) always misses. Beyond that, the target is 13; you hit if you roll **equal or below** that, so lower numbers are better. Odds favor the attacker slightly: all other things being equal, you have a 68.75% (11 out of 16) chance of succeeding on any given attack. (Note that if you get multiple attacks, each one is rolled separately.)
 
 Of course, "all other things" are basically *never* equal. The target number is increased (i.e. making it easier to hit the opponent) by your AV (DEX/4, plus equipment modifiers) and the number of ranks you have in the appropriate weapon skill (or *Fistfighting*, if you're unarmed). Likewise, the target number is decreased by the target's DV, making them harder to hit. When you're on defense it works the same way, using the monster's DEX and AV and your DV.
 
 (If you're casting a spell that requires an attack roll, it works the same way, but you use INT/4 to calculate your "magic AV", you don't get equipment modifiers, and you get to add ranks in your magic skill. The opponent's DV is the same.)
+
+#### Damage Rolls
 
 The game counts up the number of hits and rolls the damage die that many times.
 
@@ -258,6 +264,8 @@ If your weapon has a skill or attribute requirement, you get +1 bonus damage for
 If you hit with Mighty Attack, roll a bonus 1d4.
 
 Mighty damage and Skill bonus damage are rolled/calculated once, but they are applied to *each attack that hits.* One hit for 3d4 is different than three hits for 1d4 each, because the latter gets three bonuses and the former only gets one. The Gatlin Bow only requires DEX 10, so DEX 20 grants +2 damage *per arrow*. That adds up when you're hitting 20–30 times per attack.
+
+When you hit a group of monsters, the game applies damage to the first *unhit* monster. Once every monster in the group has been hit once (or killed), the bits are reset and you can hit the same monster a second time.
 
 When you're on defense, your armor reduces the damage you take. 1 point of AC reduces the damage *per attack* by 1, so if you've got AC 20 then a monster has to deal at least 20 damage before you even feel it. However, some monsters have a Mighty Attack that ignores armor.
 
@@ -305,9 +313,9 @@ Still with me? Okay, here we go:
 - Enter the building, fight off both Guardians, and exit the foyer.
 - Go straight S through a door, then 2W 1N through another door, then 1W. Those stairs take you down to the Underworld.
 - Follow the corridor all the way around until you can see a pit.
-- There's a corner with a missing guardrail. Step there and `(U)se` *Arcane Lore.* Toss a DEAD body into the pit (p128) and it will be returned to you alive but Stunned and with 1 HP.
+- There's a corner with a missing guardrail. Step there and `(U)se` *Arcane Lore.* Toss a Dead body into the pit `(p128)` and it will be returned to you alive but Stunned and with 1 HP.
 - Then `(U)se` *Bandage* to recover Health.
-- Now you have to get out of here; by going to the Underworld and back, the Necropolis map will reset, and the walls are immune to *D:Soften Stone.* So you either have to go back out through the Guardians again or through the spider hallway. Fortunately, the spider hallway doesn't reset, so if you've been here before that's the better choice.
+- Now you have to get out of here; by going to the Underworld and back, the Necropolis map will reset. You can go back out through the Guardians again or through the spider hallway. Fortunately, the spider hallway doesn't reset, so if you've been here before that's the better choice.
 
 ### Combat Strategies
 
@@ -321,7 +329,7 @@ One additional note that didn't fit anywhere else: when enemies feel like they'r
 
 **Weapon Choice:** I find thrown weapons to be pretty useless. They work like melee weapons with range, which is to say, you have to be in the front rank to use them. (I'm convinced this is a bug caused by an obscure 'greater-or-equal' instead of 'greater than' error.) However, most thrown weapons are single-use, so once you `(A)ttack`, you have no equipped weapon anymore, and you have to waste your next turn readying a `(N)ew` weapon. The Boomerang, at least, comes in a stack of 10 and does reasonable damage. The Trident has unlimited uses and comes back every time you throw it, but you find it around the same time as the Dragon's Teeth, which are better in just about every way.
 
-In the early game, missile weapons are kind of nice because you can get additional attacks from your back row, but managing an inventory full of arrows gets annoying fast. Most quivers don't do very much damage, although there's a bug you can exploit to get copies of the better ones. On the other hand, the Gatlin Bow / Magic Quiver combination is amazingly deadly; you'll likely do more damage with that combo than any melee weapon, all the way through the end of the game. My advice is to get bows for your back row as soon as possible (the Purgatory Arena, for example). Stop collecting arrows whenever you get sick of managing them, you find that your mages have better things to do, or you just have better things to do with the inventory slots. But don't get rid of the bows; spellcasting also uses your AV, so keeping a high-AV weapon (Ruby Dagger +3, Magic Bow +4) around is still a good idea.
+In the early game, missile weapons are kind of nice because you can get additional attacks from your back row, but managing an inventory full of arrows gets annoying fast. Most quivers don't do very much damage, although there's a bug you can exploit to get copies of the better ones. On the other hand, the Gatlin Bow / Magic Quiver combination is amazingly deadly; you'll likely do more damage with that combo than any melee weapon, all the way through the end of the game. My advice is to get bows for your back row as soon as possible (the Purgatory Arena, for example). Stop collecting arrows whenever you get sick of managing them, you find that your mages have better things to do, or you just need to free up the inventory slots. But don't get rid of the bows; spellcasting also uses your AV, so keeping a high-AV weapon (Ruby Dagger +3, Magic Bow +4) around is still a good idea.
 
 Melee weapons with a ranged attack are incredibly useful. You don't have to do anything special to activate the ranged attack; simply `(A)ttack` a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](things-and-stuff.md#weapons). I found that I often prioritized having 'reach' over a weapon that did more damage at 10'. You may have different preferences or combat styles.
 
@@ -384,14 +392,14 @@ When you see a low wooden fence, you can cast *D:Soften Stone* on it. The fence 
 
 Game maps reset whenever you leave them... mostly. In particular this means that any wall that you *Soften* regenerates if you leave and come back, and most "fixed" encounter points will reset as well. But I said "mostly"; certain fixed encounters are "unique" and you only get to do them once (Humbaba, Mystalvision, etc.) And once you plug the leak (or repair the statue of Lanac'toor) in Mud Toad, it stays plugged. Starting a new game, of course, resets everything about the game state (but not about your [characters](#appendices)).
 
-Speaking of unique encounters that shouldn't reset, *Dragon Wars* **mostly** does a good job maintaining continuity. But occasionally things happen that don't make sense; events repeat themselves, dead people come back to life, etc. I guess there's only so much you can do with "global state" in games from this era. One example: if you win the battle in Kingshome, then go back to Phoebus, Buck Ironhead is still there and you can still enlist in the army. You're sent to the Siege Camp again, which is empty.
+Speaking of unique encounters that shouldn't reset, *Dragon Wars* **mostly** does a good job maintaining continuity. If you kill Mystalvision in the Nisir, he can't be found in Phoebus. But occasionally things happen that don't make sense; events repeat themselves, dead people come back to life, etc. One example: if you win the battle in Kingshome, then go back to Phoebus, Buck Ironhead is still there and you can still enlist in the army. You're sent to the Siege Camp again, which is empty.
 
 I should note, though, that this is also an example of how the developers wrote in multiple solutions to almost everything, including the problem of navigating between islands. You can "enlist" in Phoebus and get transported to King's as many times as you want, so if you find yourself without *Arcane Lore*, you can still reliably get there. The ferry between Lansk and the Old Dock can get expensive, but also solves this problem.
 
 There are lots of duplicated items. Most of the time, they're identical, but sometimes they aren't:
 
 - The price of several items varies for no reason I can fathom. If you buy Plate Armor in a shop, it costs $3100; the suit you find in the Mystic Wood sells for $1550, which makes sense. But the suit you find in Phoebus sells for $1500. They're otherwise identical. There are two sets of Dragon Plate that do the same thing. Large Shields purchased in Freeport cost 1/10 what they do everywhere else. (Market inefficiencies?) The spell scrolls that Nergal gives you can't be sold, even though other copies of the same scroll can.
-- The Boomerang you find in Kingshome does much more damage (2–20 at 60') than the one you find on the second Guard Bridge (1–12 at 50'). The Kingshome "Pole Arm" (1–20, +2 AV) is a better weapon than the standard "Polearm" (1–10, +1 AV); I like to think that Namtar's weaponsmiths invented a better model with a space in the middle. Likewise the dwarves seem to have developed a Bomb (2d30) with twice the explosive power as the ones you find in the Underworld (1d30). However, the Slave Camp "Handaxe" and the standard "Hand Axe" are identical, as are the Kingshome "Magic Axe" and the "MagicAxe" found in the Byzanople crypt.
+- The Boomerang you find in Kingshome does much more damage (2d10 at 60') than the one you find on the second Guard Bridge (1d12 at 50'). The Kingshome "Pole Arm" (1d20, +2 AV) is a better weapon than the standard "Polearm" (1d10, +1 AV); I like to think that Namtar's weaponsmiths invented a better model with a space in the middle. Likewise the dwarves seem to have developed a Bomb (2d30) with twice the explosive power as the ones you find in the Underworld (1d30). However, the Slave Camp "Handaxe" and the standard "Hand Axe" are identical, as are the Kingshome "Magic Axe" and the "MagicAxe" found in the Byzanople crypt.
 - Several scrolls have clones with different names to fit the 12-character limitation on item names. The "Insct.Plague" scroll teaches you the same spell as "Insect Plag.", but one of them sells for more money than the other for no apparent reason. Similarly, you'll find both "Bolt" and "Bolts".
 
 While we're on the subject of inventory, there are a handful of items that inexplicably have spells attached to them, but they come with no charges. Did you somehow figure out that the Magic Chain you get in the Necropolis can cast *M:Zak's Speed*? Of course not. Well, it can, but only if you cast *S:Charger* on it first.
@@ -409,7 +417,7 @@ In Lanac'toor's Lab, if you take the stairs back up to Mud Toad, the statue of L
 
 The code that runs when you leave a map usually uses your current location as well as your current facing to determine where to send you. In most places this works the way you'd think, but the developers took a few shortcuts and made some "well it's gotta do *something*"-type decisions. For instance, if you leave the Bridge of Exiles to the E, you end up on King's Isle, and if you leave to the W, you end up on the Snake Pit side. But what happens if you leave to the N? You're on a bridge; there's only water on the Dilmun map to the N of here. So they drop you on the same place as if you'd left to the E or W. The problem, of course, is that if you exit to the N on the E side, you wind up on a fight with a bunch of Goblins. Run away from that fight while facing S... and you turn around and run into the water. There's a few other instances like this.
 
-Purgatory's got two of them; exit to the N (which, to be honest, there's not really any reason to ever do) and you get dropped in Dilmun. Turn around... and Purgatory isn't behind you, it's 2W of you. (I'm betting this one's a bug that never got QA'd, because who leaves Purgatory to the *north*?) An even better trick: take the secret door out, walk all the way around to the NE corner, and exit to the E. The game doesn't differentiate between walking E and swimming E, so you still wind up on the south side of Purgatory Bay near the refresh pool.
+Purgatory's got two of them; exit to the N and you get dropped in Dilmun. Turn around... and Purgatory isn't behind you, it's 2W of you. (I'm betting this one's a bug that never got QA'd, because who leaves Purgatory to the *north*?) An even better trick: take the secret door out, walk all the way around to the NE corner, and exit to the E. The game doesn't differentiate between walking E and swimming E, so you still wind up on the south side of Purgatory Bay near the refresh pool.
 
 If you're playing on a PC, the item beneath the statue on the Old Dock is a PS/2. If you're playing on an Apple emulator, it's a IIgs. It does the same thing either way, including granting +4 AC if you equip it.
 

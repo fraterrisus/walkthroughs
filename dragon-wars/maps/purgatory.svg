@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    sodipodi:docname="purgatory.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    inkscape:export-filename="/home/bcordes/pc-games/dragonwars/maps/tars-ruins-2.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -30,19 +30,21 @@
      objecttolerance="20"
      inkscape:snap-path-clip="false"
      inkscape:snap-perpendicular="true"
-     inkscape:zoom="3.267604"
-     inkscape:cx="350.40966"
-     inkscape:cy="868.67933"
+     inkscape:zoom="2.3105449"
+     inkscape:cx="1015.5613"
+     inkscape:cy="378.04934"
      inkscape:window-width="3023"
      inkscape:window-height="1762"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer2"
      gridtolerance="10000"
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-bbox="true"
-     inkscape:snap-text-baseline="true">
+     inkscape:snap-text-baseline="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid9"
@@ -1236,8 +1238,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Map"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:#6f93bc;fill-opacity:1;stroke:#6f93bc;stroke-width:0.599999;stroke-linecap:square;stroke-opacity:1"
        id="rect185544"
@@ -1930,7 +1931,7 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan245278">Dilmun</tspan></text>
+         id="tspan2245">Dilmun</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0,-0.26458333,0.26458333,0,-36.80623,386.3159)"
@@ -1940,13 +1941,21 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan245280">Dilmun</tspan></text>
+         id="tspan2247">Dilmun</tspan></text>
+    <rect
+       style="display:inline;fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.600001;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect20920-7-3"
+       width="2.5"
+       height="5"
+       x="318.75"
+       y="92.5" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Decoration"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     style="display:none">
     <circle
        style="fill:#b4c7dc;fill-opacity:1;stroke-width:0.2;stroke-linecap:square"
        id="circle78066"
@@ -2218,9 +2227,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245284">E<tspan
+         id="tspan2251">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245282">1</tspan></tspan></text>
+   id="tspan2249">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,321.57572,195.03008)"
@@ -2230,9 +2239,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245288">E<tspan
+         id="tspan2255">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245286">2</tspan></tspan></text>
+   id="tspan2253">2</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,321.53441,205.00085)"
@@ -2242,9 +2251,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245292">E<tspan
+         id="tspan2259">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245290">3</tspan></tspan></text>
+   id="tspan2257">3</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,321.48503,215.03008)"
@@ -2254,9 +2263,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245296">E<tspan
+         id="tspan2263">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245294">4</tspan></tspan></text>
+   id="tspan2261">4</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,161.44374,54.86668)"
@@ -2266,9 +2275,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245300">E<tspan
+         id="tspan2267">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245298">3</tspan></tspan></text>
+   id="tspan2265">3</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,91.575726,64.866679)"
@@ -2278,9 +2287,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245304">E<tspan
+         id="tspan2271">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245302">2</tspan></tspan></text>
+   id="tspan2269">2</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,281.53441,35.000853)"
@@ -2290,9 +2299,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245308">E<tspan
+         id="tspan2275">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245306">4</tspan></tspan></text>
+   id="tspan2273">4</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,322.92401,55.665076)"
@@ -2302,7 +2311,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245310">1</tspan></text>
+         id="tspan2277">1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,32.924016,215.66508)"
@@ -2312,7 +2321,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245312">1</tspan></text>
+         id="tspan2279">1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,322.99223,75.661975)"
@@ -2322,7 +2331,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245314">3</tspan></text>
+         id="tspan2281">3</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,323.01238,95.620117)"
@@ -2332,7 +2341,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245316">5</tspan></text>
+         id="tspan2283">5</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,322.95812,105.66198)"
@@ -2342,7 +2351,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245318">6</tspan></text>
+         id="tspan2285">6</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,322.99068,115.66508)"
@@ -2352,7 +2361,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245320">7</tspan></text>
+         id="tspan2287">7</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,322.98138,125.66198)"
@@ -2362,7 +2371,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245322">8</tspan></text>
+         id="tspan2289">8</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,162.95812,75.661975)"
@@ -2372,7 +2381,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245324">6</tspan></text>
+         id="tspan2291">6</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,262.99068,75.665076)"
@@ -2382,7 +2391,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245326">7</tspan></text>
+         id="tspan2293">7</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,200.92879,325.70693)"
@@ -2392,7 +2401,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245328">11</tspan></text>
+         id="tspan2295">11</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,40.903984,275.66508)"
@@ -2402,7 +2411,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245330">12</tspan></text>
+         id="tspan2297">12</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,222.98138,75.661975)"
@@ -2412,7 +2421,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245332">8</tspan></text>
+         id="tspan2299">8</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,152.4783)"
@@ -2420,7 +2429,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823);fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245334"> King's Guard (loss returns you to start square)</tspan></text>
+         id="tspan2301"> King's Guard (loss returns you to start square)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,172.42214)"
@@ -2428,7 +2437,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-7);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245336"> Gladiators (win for Citizenship Papers)</tspan></text>
+         id="tspan2303"> Gladiators (win for Citizenship Papers)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,162.42214)"
@@ -2436,7 +2445,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-7-8);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245338"> 6 Jail Keepers</tspan></text>
+         id="tspan2305"> 6 Jail Keepers</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,182.83245)"
@@ -2444,7 +2453,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-7-6);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245340"> Humbaba</tspan></text>
+         id="tspan2307"> Humbaba</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,202.42214)"
@@ -2452,7 +2461,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-7-6-1);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245342"> Unjustly Accused, Innocent Man, 7 Cannibals</tspan></text>
+         id="tspan2309"> Unjustly Accused, Innocent Man, 7 Cannibals</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,192.42216)"
@@ -2460,7 +2469,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-7-6-1-0);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245344"> 5 King's Guards, 6 Pikemen</tspan></text>
+         id="tspan2311"> 5 King's Guards, 6 Pikemen</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,22.832455)"
@@ -2468,7 +2477,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245346"> Statue of Irkalla</tspan></text>
+         id="tspan2313"> Statue of Irkalla</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,32.422144)"
@@ -2476,7 +2485,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-3);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245348"> Apsu Waters (to Underworld)</tspan></text>
+         id="tspan2315"> Apsu Waters (to Underworld)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,42.422144)"
@@ -2484,7 +2493,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-3-7);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245350"> Low Magic shop</tspan></text>
+         id="tspan2317"> Low Magic shop</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,52.422144)"
@@ -2492,7 +2501,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-3-7-2);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245352"> sell yourself into slavery (to Slave Mines)</tspan></text>
+         id="tspan2319"> sell yourself into slavery (to Slave Mines)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,62.832455)"
@@ -2500,7 +2509,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-3-7-2-8);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245354"> Black Market</tspan></text>
+         id="tspan2321"> Black Market</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,72.422144)"
@@ -2508,7 +2517,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-3-7-2-8-7);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245356"> Arena (equipment)</tspan></text>
+         id="tspan2323"> Arena (equipment)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,82.832455)"
@@ -2516,7 +2525,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-3-7-2-8-7-5);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245358"> Healer</tspan></text>
+         id="tspan2325"> Healer</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,102.42008)"
@@ -2524,7 +2533,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-3-7-2-8-7-5-0);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245360"> Morgue (use DEX to escape)</tspan></text>
+         id="tspan2327"> Morgue (use DEX to escape)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,112.42214)"
@@ -2532,7 +2541,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-3-7-2-8-7-5-0-9);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245362"> Gap in the walls (use Swim to escape)</tspan></text>
+         id="tspan2329"> Gap in the walls (use Swim to escape)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,122.42214)"
@@ -2540,7 +2549,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-3-7-2-8-7-5-0-9-1);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245364"> Recharge pool (POW)</tspan></text>
+         id="tspan2331"> Recharge pool (POW)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,132.42214)"
@@ -2550,9 +2559,9 @@
        y="0"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245368"><tspan
+         id="tspan2335"><tspan
            style="text-align:start"
-           id="tspan245366"> court of Clopin Trouillefou</tspan></tspan></text>
+           id="tspan2333"> court of Clopin Trouillefou</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69981,92.583374)"
@@ -2560,7 +2569,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-3-7-2-8-7-5-2);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245370"> Tavern (Ulrik)</tspan></text>
+         id="tspan2337"> Tavern (Ulrik)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69984,12.300188)"
@@ -2568,7 +2577,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-7-8);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan245372"> game start</tspan></text>
+         id="tspan2339"> game start</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.84984,-18.202115)"
@@ -2576,9 +2585,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-9-2);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="129.90237"
-         id="tspan245376"><tspan
+         id="tspan2343"><tspan
            style="font-size:16px"
-           id="tspan245374"> Pit trap</tspan></tspan></text>
+           id="tspan2341"> Pit trap</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,169.69984,-27.856917)"
@@ -2586,9 +2595,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-9-4);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="129.90237"
-         id="tspan245380"><tspan
+         id="tspan2347"><tspan
            style="font-size:16px"
-           id="tspan245378"> Door</tspan></tspan></text>
+           id="tspan2345"> Door</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,209.69984,-27.829011)"
@@ -2596,9 +2605,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-9-4-5);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="129.90237"
-         id="tspan245384"><tspan
+         id="tspan2351"><tspan
            style="font-size:16px"
-           id="tspan245382"> Secret Door</tspan></tspan></text>
+           id="tspan2349"> Secret Door</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,209.84984,-18.202115)"
@@ -2606,9 +2615,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-9-0);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="129.90237"
-         id="tspan245388"><tspan
+         id="tspan2355"><tspan
            style="font-size:16px"
-           id="tspan245386"> Spinner</tspan></tspan></text>
+           id="tspan2353"> Spinner</tspan></tspan></text>
     <path
        style="display:inline;fill:none;stroke:#444444;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 362.04197,12.057047 1.02113,1.873283 -1.08945,-0.407505 0.62742,0.980923 -1.52124,-0.216941 0.89484,0.722699 -1.09366,0.03436 0.69601,0.49558 -0.89484,0.729687 1.13192,-0.06883 -0.57369,0.998032 1.39969,-0.626377 -0.22184,1.115086 1.23145,-0.660736 0.36743,1.380742 0.5055,-1.808972 1.0488,1.623732 -0.20964,-1.628982 0.93641,0.983104 c 0,0 -0.19717,-1.542677 -0.17415,-1.384395 0.023,0.158284 1.79487,0.912408 1.79487,0.912408 l -1.2808,-1.358836 1.47483,0.08812 -1.18225,-0.830591 1.52783,-0.39309 -1.53539,-0.336597 2.05005,-0.513895 -1.98889,-0.311996 0.45881,-1.190789 -1.25424,1.02552 -0.0229,-1.583063 -0.83368,1.693243 -0.42067,-1.411036 -0.61951,1.651897 -0.69601,-1.899746 0.054,1.922093 c 0,0 -1.50109,-1.728809 -1.60818,-1.598129 z"
@@ -2660,7 +2669,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245390">3</tspan></text>
+         id="tspan2357">3</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,22.885259,215.66508)"
@@ -2670,7 +2679,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245392">E</tspan></text>
+         id="tspan2359">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,172.88526,205.66508)"
@@ -2680,7 +2689,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245394">E</tspan></text>
+         id="tspan2361">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,232.88526,205.66508)"
@@ -2690,7 +2699,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245396">E</tspan></text>
+         id="tspan2363">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,12.885259,185.66508)"
@@ -2700,7 +2709,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245398">E</tspan></text>
+         id="tspan2365">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,22.885259,225.66508)"
@@ -2710,7 +2719,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245400">E</tspan></text>
+         id="tspan2367">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,42.885259,245.66508)"
@@ -2720,7 +2729,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245402">E</tspan></text>
+         id="tspan2369">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,42.885259,255.66508)"
@@ -2730,7 +2739,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245404">E</tspan></text>
+         id="tspan2371">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,42.885259,165.66508)"
@@ -2740,7 +2749,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245406">E</tspan></text>
+         id="tspan2373">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,62.885259,135.66508)"
@@ -2750,7 +2759,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245408">E</tspan></text>
+         id="tspan2375">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,2.8852585,65.665076)"
@@ -2760,7 +2769,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245410">E</tspan></text>
+         id="tspan2377">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,61.559603,35.030076)"
@@ -2770,9 +2779,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245414">E<tspan
+         id="tspan2381">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245412">1</tspan></tspan></text>
+   id="tspan2379">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,51.559603,35.030076)"
@@ -2782,9 +2791,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245418">E<tspan
+         id="tspan2385">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245416">1</tspan></tspan></text>
+   id="tspan2383">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,281.5596,155.03008)"
@@ -2794,9 +2803,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245422">E<tspan
+         id="tspan2389">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245420">1</tspan></tspan></text>
+   id="tspan2387">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,201.48503,255.03008)"
@@ -2806,9 +2815,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245426">E<tspan
+         id="tspan2393">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245424">5</tspan></tspan></text>
+   id="tspan2391">5</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,171.54953,315.00085)"
@@ -2818,9 +2827,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245430">E<tspan
+         id="tspan2397">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245428">6</tspan></tspan></text>
+   id="tspan2395">6</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,321.54952,225.00085)"
@@ -2830,9 +2839,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245434">E<tspan
+         id="tspan2401">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245432">5</tspan></tspan></text>
+   id="tspan2399">5</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,321.54953,235.00085)"
@@ -2842,9 +2851,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245438">E<tspan
+         id="tspan2405">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245436">6</tspan></tspan></text>
+   id="tspan2403">6</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,162.88526,185.66508)"
@@ -2854,7 +2863,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245440">E</tspan></text>
+         id="tspan2407">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,182.88526,215.66508)"
@@ -2864,7 +2873,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245442">E</tspan></text>
+         id="tspan2409">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,142.88526,225.66508)"
@@ -2874,7 +2883,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245444">E</tspan></text>
+         id="tspan2411">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,192.88526,285.66508)"
@@ -2884,7 +2893,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245446">E</tspan></text>
+         id="tspan2413">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,72.885259,115.66508)"
@@ -2894,7 +2903,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245448">E</tspan></text>
+         id="tspan2415">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,162.88526,115.46435)"
@@ -2904,7 +2913,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245450">E</tspan></text>
+         id="tspan2417">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,62.885259,95.665076)"
@@ -2914,7 +2923,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245452">E</tspan></text>
+         id="tspan2419">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,93.012383,45.620117)"
@@ -2924,7 +2933,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245454">5</tspan></text>
+         id="tspan2421">5</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,152.88526,125.66508)"
@@ -2934,7 +2943,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245456">E</tspan></text>
+         id="tspan2423">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,162.88526,135.66508)"
@@ -2944,7 +2953,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245458">E</tspan></text>
+         id="tspan2425">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,172.88526,125.66508)"
@@ -2954,7 +2963,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245460">E</tspan></text>
+         id="tspan2427">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,232.88526,75.665076)"
@@ -2964,7 +2973,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245462">E</tspan></text>
+         id="tspan2429">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,252.88526,105.66508)"
@@ -2974,7 +2983,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245464">E</tspan></text>
+         id="tspan2431">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,242.88526,115.66508)"
@@ -2984,7 +2993,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245466">E</tspan></text>
+         id="tspan2433">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,251.5596,35.030076)"
@@ -2994,9 +3003,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245470">E<tspan
+         id="tspan2437">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan245468">1</tspan></tspan></text>
+   id="tspan2435">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,52.678671,265.66508)"
@@ -3006,7 +3015,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245472">E</tspan></text>
+         id="tspan2439">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,72.678672,265.66508)"
@@ -3016,7 +3025,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245474">E</tspan></text>
+         id="tspan2441">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,52.678672,275.66508)"
@@ -3026,7 +3035,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245476">E</tspan></text>
+         id="tspan2443">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,32.885259,275.66508)"
@@ -3036,7 +3045,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245478">E</tspan></text>
+         id="tspan2445">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,32.885259,285.66508)"
@@ -3046,7 +3055,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245480">E</tspan></text>
+         id="tspan2447">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,42.885259,285.66508)"
@@ -3056,7 +3065,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245482">E</tspan></text>
+         id="tspan2449">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,52.678671,306.29613)"
@@ -3066,7 +3075,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245484">E</tspan></text>
+         id="tspan2451">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,42.885259,265.66508)"
@@ -3076,7 +3085,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245486">E</tspan></text>
+         id="tspan2453">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,320.90398,155.66508)"
@@ -3086,7 +3095,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245488">11</tspan></text>
+         id="tspan2455">11</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,320.92879,165.70693)"
@@ -3096,7 +3105,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245490">12</tspan></text>
+         id="tspan2457">12</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,82.885259,265.66508)"
@@ -3106,7 +3115,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245492">E</tspan></text>
+         id="tspan2459">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,72.678672,275.66508)"
@@ -3116,7 +3125,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245494">E</tspan></text>
+         id="tspan2461">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,62.678672,275.66508)"
@@ -3126,7 +3135,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245496">E</tspan></text>
+         id="tspan2463">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,62.678672,285.66508)"
@@ -3136,7 +3145,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245498">E</tspan></text>
+         id="tspan2465">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,52.678671,296.29613)"
@@ -3146,7 +3155,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245500">E</tspan></text>
+         id="tspan2467">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,52.678671,285.66508)"
@@ -3156,7 +3165,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245502">E</tspan></text>
+         id="tspan2469">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,32.885259,265.66508)"
@@ -3166,7 +3175,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245504">E</tspan></text>
+         id="tspan2471">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,22.885259,275.66508)"
@@ -3176,7 +3185,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245506">E</tspan></text>
+         id="tspan2473">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,22.885259,285.66508)"
@@ -3186,7 +3195,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245508">E</tspan></text>
+         id="tspan2475">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,41.517056,225.31926)"
@@ -3196,7 +3205,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245510">2</tspan></text>
+         id="tspan2477">2</tspan></text>
     <path
        style="display:inline;fill:#ff4040;fill-opacity:1;stroke:#444444;stroke-width:0.199999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 87.5,225 v 2.5 h 0.625 L 86.87501,228.75 85.625,227.5 H 86.25 V 225 Z"
@@ -3211,7 +3220,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245512">2</tspan></text>
+         id="tspan2479">2</tspan></text>
     <path
        style="display:inline;fill:#ff4040;fill-opacity:1;stroke:#444444;stroke-width:0.199999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 367.5,65 v 2.5 h 0.625 l -1.24999,1.25 -1.25001,-1.25 h 0.625 V 65 Z"
@@ -3226,7 +3235,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245514">4</tspan></text>
+         id="tspan2481">4</tspan></text>
     <path
        style="display:inline;fill:#ff4040;fill-opacity:1;stroke:#444444;stroke-width:0.199999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 367.49999,84.999999 v 2.5 h 0.625 l -1.24999,1.25 -1.25001,-1.25 h 0.625 v -2.5 z"
@@ -3241,7 +3250,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245516">4</tspan></text>
+         id="tspan2483">4</tspan></text>
     <path
        style="display:inline;fill:#ff4040;fill-opacity:1;stroke:#444444;stroke-width:0.199999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 127.5,85 v 2.5 h 0.625 l -1.24999,1.25 -1.25001,-1.25 h 0.625 V 85 Z"
@@ -3256,7 +3265,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245518">9</tspan></text>
+         id="tspan2485">9</tspan></text>
     <path
        style="display:inline;fill:#ff4040;fill-opacity:1;stroke:#444444;stroke-width:0.199999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 367.5,135 v 2.5 h 0.625 l -1.24999,1.25 -1.25001,-1.25 h 0.625 V 135 Z"
@@ -3271,7 +3280,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan245520">9</tspan></text>
+         id="tspan2487">9</tspan></text>
     <path
        style="display:inline;fill:#ff4040;fill-opacity:1;stroke:#444444;stroke-width:0.199999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 327.49999,245 v 2.5 h 0.625 l -1.24999,1.25 -1.25001,-1.25 h 0.625 V 245 Z"
@@ -3286,7 +3295,7 @@
        y="0"><tspan
          x="151.18164"
          y="4.15625"
-         id="tspan245522">10</tspan></text>
+         id="tspan2489">10</tspan></text>
     <path
        style="display:inline;fill:#ff4040;fill-opacity:1;stroke:#444444;stroke-width:0.199999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 268.125,265 v 2.5 h 0.625 l -1.24999,1.25 -1.25001,-1.25 h 0.625 V 265 Z"
@@ -3301,7 +3310,7 @@
        y="0"><tspan
          x="151.18164"
          y="4.15625"
-         id="tspan245524">10</tspan></text>
+         id="tspan2491">10</tspan></text>
     <path
        style="display:inline;fill:#ff4040;fill-opacity:1;stroke:#444444;stroke-width:0.199999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 368.125,145 v 2.5 h 0.625 l -1.24999,1.25 -1.25001,-1.25 h 0.625 V 145 Z"

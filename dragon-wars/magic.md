@@ -70,7 +70,7 @@ If you wrestle Enkidu and win, he grants you *Druid Magic* 2 and most but not al
 | Armor of Light               |  6   |    1    |       |  Buff  |      —       | +2 DV for duration of battle<br />*The manual says AC, but it's wrong.* | Phoebus Dungon, Mud Toad                         |
 | Sun Stroke                   | var  |    1    |  20'  |  Zap   |      Y       | 1d8 hp / pt                                                  | Slave Camp, Tars Underground, Phoebus            |
 | Rage of Mithras              | var  |    1    |  70'  |  Zap   |      Y       | 1d6 hp / pt                                                  | Mud Toad                                         |
-| Exorcism                     |  5   |  group  |  50'  |  Zap   |      Y       | 6d6 hp, undead only                                          | Tars Ruins                                       |
+| Exorcism                     |  5   |  group  |  50'  |  Zap   |      Y       | 6d6 hp, Undead only                                          | Tars Ruins                                       |
 | Inferno                      | var. |   all   |  40'  |  Zap   |      Y       | 1d4 hp / pt<br />*best zap spell in the game*                | Necropolis                                       |
 | Wrath of Mithras             | var. |  group  |  90'  |  Zap   |      Y       | 1d4 hp / pt                                                  | *never, but monsters will use it* *against you!* |
 | Fire Storm                   |  20  |   all   |  60'  |  Zap   |      Y       | 6d6 hp                                                       | Lanac'toor's Laboratory                          |

@@ -2,6 +2,8 @@
 
 Instead of just breezing through the game as quickly as possible, I've written this walkthrough with the intent of *mostly* sticking to what feels to me like the most natural progression of the story while hitting just about everything there is to do in the game. Of course, *Dragon Wars* is a fairly non-linear RPG, so there are lots of places where you can divert from this path or skip entire sections and still win the game.
 
+Each section is a fairly comprehensive walkthrough of the map and its story, but if you want more details (and complete maps based on decompiling the game's data files), check out the files in the `maps` subdirectory.
+
 Where I've chosen a slightly odd path, I've inserted a **Game Note** into the walkthrough to explain what we're doing. You're definitely taking advantage of foreknowledge of the game in these cases. Of course, you're always free to play the game in whatever order you want, and just use my help in whatever city you happen to find yourself in.
 
 I've included a [Speed Run](README.md#the-speed-run) in the appendices, so if you have high-level characters already and just want to get through the game as fast as possible, check that out.
@@ -32,7 +34,7 @@ Speaking of sacrifices, let's go visit Irkalla. Due S of the Low Magic Shop ther
 
 (In case you didn't get what I was talking about, the "right hand rule" of dungeon exploration is a metaphor that implies that you're touching the wall with your right hand as you move forward, so as the wall turns, you turn with it.)
 
-This isn't a bad time for your first visit to the [Underworld](maps/magan-underworld.md), but first a note: if you get into a random encounter down there, **run**. You'll need a light source, but *L:Mage Light* works just fine. Good things to find on this trip are the **Recharge Pool**, the **Slicer**, and the cache of items with the **Rusty Axe**. That's a major melee upgrade. Don't get scared by the -3 AV on the Axe; Ulrik's got 3 ranks in Axe which will cancel it out. Also check out **Exposition Cavern** near where you pick up the Slicer; take note of the argument between Irkalla and Nergal, then hightail it back to Purgatory.
+This isn't a bad time for your first visit to the [Underworld](maps/magan-underworld.md), but first a note: if you get into a random encounter down there, **run**. You'll need a light source, but *L:Mage Light* works just fine. Good things to find on this trip are the **Recharge Pool**, the **Slicer**, and the cache of items with the **Rusty Axe**. That's a major melee upgrade. Don't get scared by the -3 AV on the Axe; Ulrik's got 3 ranks in Axe which will cancel it out. Also check out **Exposition Cavern** near where you pick up the Slicer; take note of the argument between Irkalla and Nergal, then hightail it back to Purgatory.
 
 One thing you may notice is that leaving a map and re-entering it resets the fixed encounters, including most of the fights you find in Purgatory. There are plenty of one-offs, like the Arena and the Humbaba, that don't reset – there's global game state that prevents you from hitting those encounters twice. At this point, though, you should be brushing aside most random fights, so it's just a bit of free XP.
 
@@ -55,15 +57,17 @@ Keep working around Purgatory anti-clockwise. Find, but don't take on, the big g
 
 Since it's one way to get out from Purgatory, let's talk about the Underworld for a minute. The Magan Underworld is a large uber-map that lies 'under' Dilmun. You don't *need* to come down here until midway through the game, but there are lots of connection points between the Underworld and "topside" so you'll likely visit it over and over again. However, the beasts down here are pretty fearsome for a low-level party, and I'm going to tempt you down here long before you're ready to take them on. So watch your step and keep your hand on the `(R)un` button.
 
-I'll talk more about the Underworld when we need to go here for the story reasons; meanwhile, check out the [map page](maps/magan-underworld.md) for more details. If you're using this as a way to escape Purgatory, you're probably most interested in getting to the Mystic Wood as quickly as possible, so cast *L:Mage Light* and then go 3W 2N 8W. (The stairs are unmarked, so it's easier to line yourself up like this.)
+I'll talk more about the Underworld when we need to go here for the story reasons; meanwhile, check out the [map page](maps/magan-underworld.md) for more details. If you're using this as a way to escape Purgatory, you're probably most interested in getting to the Mystic Wood as quickly as possible, so cast *L:Mage Light* and then go 3W 2N 8W. (The stairs are unmarked, so it's easier to line yourself up like this.)
 
 ### Slave Mines
 
 I don't really recommend selling yourself at the Slave Market as the best route out of Purgatory, but if that's what you've decided to do, I'll show you how to get out of here. It's not exactly hard, just annoying, but you should expect to get beat up a bunch.
 
-Upon signing the slaver's contract, you wake up in the Mines shackled in chains and missing all your equipment and gold. (See, I told you this was a bad idea.) Chains apply a -15 penalty to both your AV and AC, so if you do get into a fight, your only chance is to use magic. Thank everything that's holy that they didn't know how to program somatic components into this game. Feel free to explore randomly if you want; there are only a couple of encounters and if your entire party has *L:Mage Fire* they're mostly beatable. The Guards can be kind of tough, but they only do Stun damage. The map wraps around, so the automap can be hard to use sometimes.
+Upon signing the slaver's contract, you wake up in the Mines shackled in chains and missing all your equipment and gold. (See, I told you this was a bad idea.) Chains apply a -15 penalty to both your AV and AC, so if you do get into a fight, your only chance is to use magic. Thank everything that's holy that they didn't know how to program somatic components into this game.
 
-Forgive the practical nature of this section. There's not a whole lot of story to be found down here – Mog treats his slaves pretty badly, and right now that's all you have going for you. Generally speaking, the 'solution' to this dungeon is to break your chains, find your stuff, beat up the guards, and get out of here. That's a multi-part puzzle, though.
+There's not a whole lot of story to be found down here – Mog treats his slaves pretty badly, and there's not much else to say about that. Feel free to roam around if you want; you'll find some paragraphs and meet some people. There are only a couple of encounters and if your entire party has *L:Mage Fire* they're mostly beatable, but watch out for the (occasionally very large) group of Snakes. The Guards can be kind of tough, but they only do Stun damage. The map wraps around, so the automap can be hard to use sometimes.
+
+Generally speaking, the way to get out of here involves fashioning a tool that you can use to break your chains. Then find your old stuff, use it to beat up the guards, and break out of here. That's a multi-part puzzle, though.
 
 1. From your cell, go 1S and W until you hit a T intersection. Turn N and follow the hallway until you hit a large room. Go 3N 3W and N through the door. In that room you'll find a Battered Cup.
 2. Exit that room, then go 1E 5N 1E 2S 2E. In that room is an old pick Handle.
@@ -72,7 +76,7 @@ Forgive the practical nature of this section. There's not a whole lot of story t
 5. Go S until you hit a wall, then W, then S, etc. until you find a 3x3 room. In the middle of it is a pile of Rocks (and some Dragon Stones).
 6. `(U)se` any of the three miscellaneous items (except the Cup) to fashion a Crude Hammer `(p49)`. Then `(U)se` the Hammer to break your chains. Return to room (3) and get your equipment. This is the most annoying part, because you have to redistribute all your stuff back to your party members. Note that you have lost all your gold, which probably wasn't much to begin with anyway.
 
-The exit is just S of room (1). Before you go there, wrap around to the S wall and explore until you find a hidden door to the N with a secret chest. (When you find the fight with some guards, you're in the right place.) The Magic Sword is an upgrade over the Polearm and the Gauntlets are your first piece of miscellaneous armor, but there's nothing here that's really compelling. The Pierce Bolts are expensive, at least.
+The exit is just S of room (1). Before you go there, wrap around to the S wall and explore until you find a hidden door to the N with a secret chest. The Magic Sword is an upgrade over the Polearm and the Gauntlets are your first piece of miscellaneous armor, but there's nothing here that's really compelling. The Pierce Bolts are expensive, at least.
 
 You'll need to fight off some guards to get out `(p62)`. Stairs take you up into the shack in the NW corner of the Slave Estate. Just outside that shack there's a set of prints you can *Track* that will take you up to the door in the SW corner right outside the fight with the Gaze Demon (sorry, spoilers). If you want to [explore the estate](#nice-island-ya-got-here-slave-estate) now, you can skip down to that section, but my recommendation is to follow the tracks and then exit to the S and head back to Purgatory and/or the Slave Camp first.
 

@@ -4,7 +4,9 @@
 
 The Underworld serves as a map that joins several places "Topside" (i.e. in Dilmun), as well as the place you'll come to during the endgame to defeat Namtar for the last time. You can use it to scoot between the various islands, but beware: the monsters down here are "late game" tough, so early on in the game you'll want to run for almost everything.
 
-There are no fixed combats down here (at least until the endgame), but plenty of wandering monsters (1 in 50). The map is also dark, so you'll need to bring a light source with you.
+There are no fixed combats down here (at least until the endgame), but plenty of wandering monsters (1 in 50). Many of them count as "Undead" for the purposes of using *S:Exorcism*.
+
+The map is also dark, so you'll need to bring a light source with you.
 
 ## Exits
 
@@ -30,7 +32,7 @@ The map wraps, so all exits are "stairs" up to a Topside location:
 
 **Entrance to Irkalla's Realm (26,16):** You won't be allowed to pass through this doorway unless someone in your party has successfully prayed at a statue of Irkalla somewhere Topside (Purgatory or Smuggler's Cove).
 
-**The Leap of Faith (28,17):** There's absolutely no indication of this anywhere, but if you step over the railing to the N you will be rewarded with +5 AP.
+**The Leap of Faith (28,17):** There's absolutely no indication anywhere that you should do this, but if you step over the railing to the N you will be rewarded with +5 AP.
 
 **The Isle of Woe (04,16–06,18)**: You need the **Golden Boots** to get here; hop over from (02,17). On your first visit you'll find Irkalla in chains. Free her with the **Silver Key** (acquired from Nergal) and she'll give you the **Water Potion**. Later, once you've retrieved the **Skull of Roba** and given it to the Dwarven smiths, you can come back here to acquire the **Sword of Freedom** (1d100, +15 AV, +5 AC, STR 15).
 
@@ -88,7 +90,7 @@ The map wraps, so all exits are "stairs" up to a Topside location:
 
 ------
 
-Once you're into the Endgame, you have two more fights with Namtar. The first one, near the Recharge Pool, features a bunch of his goblin friends:
+Once you're into the Endgame, you have two more fights with Namtar. The first one, near the Recharge Pool, features a bunch of his goblin friends:
 
 **Namtar:** STR 00 DEX 30 INT 00 SPR 00, HD:10d4+200 (210-240), AV+3 DV+0, att:1, morale:10, spd:40', XP:2000
 

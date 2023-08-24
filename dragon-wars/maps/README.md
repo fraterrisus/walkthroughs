@@ -65,3 +65,9 @@ This directory contains annotated SVG maps of every board in the game along with
 - Sunken Ruins (below)
 - Dragon Valley
 
+## Salvation
+
+- Pilgrim Dock
+- Salvation
+- Depths of Nisir
+

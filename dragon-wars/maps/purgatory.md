@@ -16,11 +16,11 @@ Which side of the map you exit from determines where you end up:
 
 - West: [Dilmun](dilmun.md) (12,04)
 
-There's also the **Apsu Waters** (07,12), which will take you to the [Magan Underworld](magan-underworld.md) at (13,04). At (06,12), if you have *Town Lore*, you get an extra paragraph about the Waters.
+There's also the **Apsu Waters** (07,12), which will take you to the [Magan Underworld](magan-underworld.md) at (13,04).
 
 ## Points of Interest
 
-Because it's such a large map, I'm not bothering to list the random encounters or places where you can read paragraphs or color text that don't have any other effect on the game.
+**Game Start (20,13):** A new game starts here with some color text; Clopin will also drop you back here. There's some more color text at (20,15) if you have *Town Lore*.
 
 **Tavern (25,27):** There are some Drunks outside, but you can add Ulrik to your party here.
 
@@ -28,11 +28,15 @@ Because it's such a large map, I'm not bothering to list the random encounters o
 
 [**Black Market**]((../things-and-stuff.md#black-market)) **(12,30):** A useful source of early-game equipment and/or cash.
 
-**Town healer (29,27):** Charges $4/hp.
+**Town Healer (29,27):** Charges $4/hp.
 
 **The magic refresh pool (23,02):** Restores 100% of Power to all non-dead characters.
 
+**The Statue of Namtar (09,22):** Paragraph #9.
+
 **The Statue of Irkalla (06,13):** Sacrifice any item; that PC makes a Spirit check against 1d20. If successful, Irkalla is pleased and everyone in your party receives her blessing, which sets character flag `0x80`. (You need this flag to enter Irkalla's Domain in the Underworld, although this isn't the only place you can get it.)
+
+**The Apsu Waters (07,12):** An exit to the Undeworld. If you have *Town Lore* there's an extra paragraph about the Waters at (06,12); if not, you just see "strange waters".
 
 **The Arena (19,26):** If the total inventory of your party is fewer than three items per character, the Arenamaster offers you a choice of basic equipment. Then he bars the door behind you so you can fight the gladiators (19,29). If you beat them, you win a set of **Citizenship Papers**. Lose and they take all your gold.
 
@@ -52,7 +56,7 @@ Because it's such a large map, I'm not bothering to list the random encounters o
 
 **Secret Door #2 (02,31):** Another way into the City Walls, and another easy way to escape Purgatory. Head S down a long corridor to **Secret Door #3 (01,01)** which will let you outside the city. This is the closest thing Purgatory has to a 'front door', which is a little weird.
 
-**Inside the City Walls:** There are a number of fights here with City Guard. If you run away or lose, you get kicked back to the starting square (20,13).
+**Inside the City Walls:** There are a number of fights here with City Guard. If you run away or lose, you get kicked back to the starting square (20,13). In the SE corner of the map near the hole in the wall, you get different color text.
 
 **The hole in the wall (25,08):** Another way to escape; this one's harder to get to. Use *Climb* or *Swim* to jump into the bay; everyone in the party makes a Strength check against 1d20 or takes 1d10 damage. This sets character flag `0x40` which marks you as a friend of the Slave Camp.
 

@@ -9,7 +9,7 @@ You won't run into any random encounters down here, but there are some a few fix
 ## Exits
 
 - If you arrive from Purgatory, you're dropped at (07,08). This isn't an exit so much as a one-way entrance.
-- The actual exit is at (05,11), behind some guards. It takes you to the [Slave Estate](slave-estate.md).
+- The actual exit is at (05,11), behind some guards. It takes you to the [Slave Estate](slave-estate.md) (05,12).
 
 ## Points of Interest
 

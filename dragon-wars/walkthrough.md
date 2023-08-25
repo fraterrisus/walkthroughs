@@ -2,7 +2,7 @@
 
 Instead of just breezing through the game as quickly as possible, I've written this walkthrough with the intent of *mostly* sticking to what feels to me like the most natural progression of the story while hitting just about everything there is to do in the game. Of course, *Dragon Wars* is a fairly non-linear RPG, so there are lots of places where you can divert from this path or skip entire sections and still win the game.
 
-Each section is a fairly comprehensive walkthrough of the map and its story, but if you want more details (and complete info based on decompiling the game's data files), check out the [Maps](maps/README.md) directory.
+Each section is a fairly comprehensive walkthrough of the map and its story, but if you want more details (and complete info based on decompiling the game's data files), check out the [Maps](maps/README.md) directory.
 
 Where I've chosen a slightly odd path, I've inserted a **Game Note** into the walkthrough to explain what we're doing. You're definitely taking advantage of foreknowledge of the game in these cases. Of course, you're always free to play the game in whatever order you want, and just use my help in whatever city you happen to find yourself in.
 
@@ -100,7 +100,7 @@ Note that if you killed everyone in the camp and the wizard isn't here, you can 
 
 If someone in your party has *Forest Lore* and you explore the forest in the SW corner of the map (2S 3W of the door to the wizard's house), you can find the Nature Axe (1d30, -6 AV, 18 STR), but it carries a whopping penalty to AV. I'm not sure that's a good idea, even for Ulrik.
 
-Explore the rest of the Slave Camp for plenty of useful exposition about the current state of Dlimun. To the W there's a building with a blind man singing, who teaches you `(p68)` a bunch of things about Namtar, King Drake, and the Master Mages of Dilmun. To the N and slightly E there are some guys gambling who will update you on the political landscape  `(p88)` and name a couple of cities to look out for. In the NW corner you can visit the universal shrine and learn a bit more about Irkalla and Nergal `(p22)`. On the E road that runs N-S, there's a campfire where you can have a hot meal `(p63)` and have your wounds healed. It's sort of like the YMCA.
+Explore the rest of the Slave Camp for plenty of useful exposition about the current state of Dlimun. To the W there's a building with a blind man singing, who teaches you `(p68)` a bunch of things about Namtar, King Drake, and the Master Mages of Dilmun. To the N and slightly E there are some guys gambling who will update you on the political landscape  `(p88)` and name a couple of cities to look out for. In the NW corner you can visit the universal shrine and learn a bit more about Irkalla and Nergal `(p22)`. On the E road that runs N-S, there's a campfire where you can have a hot meal `(p63)` and have your wounds healed. It's sort of like the YMCA.
 
 That's about it for the Slave Camp. If you didn't come in that way, exit to the S and go find the health/magic regeneration pool at the end of the land. Otherwise, exit to the N to reach the rest of Forlorn. Purgatory is just NE of the Slave Camp.
 
@@ -120,11 +120,11 @@ Before you go back up to Purgatory and continue with the game in the order it's 
 
 If you decide to explore the eastern half of Forlorn, the place to start is with the arms cache hidden in the rocks 3W 1S of Purgatory (4S 1W of the Slave Estate). There's not much here that's useful except your third suit of Chain Armor. Don't even bother picking up the Low Magic scrolls.
 
-Inside the Slave Estate, walk along the wall to the E until you see the sign about the statue garden, then N along the water. Gosh these statues are awfully lifelike aren't they! I keep expecting one to speak to me. When you get to the NE of the building, go in the door there. In the center of the 3x3 room there's a treasure cache with another Ruby Dagger.
+Inside the Slave Estate, walk E along the wall until you see the sign about the statue garden, then N along the water. Gosh these statues are awfully lifelike aren't they! I keep expecting one to speak to me. When you get to the NE of the building, go in the door there. In the center of the 3x3 room there's a treasure cache with another Ruby Dagger and some Dragon Stones.
 
 Go through the door to the S `(p105)`. Go W, fight off some Goblins, and keep going until you find a spot where the floorboards creak. `(U)se` STR to break through and find a hidden, locked chest (difficulty 3). The Magic Lamp will cast a permanent(!) *L:Mage Light* for you, and you can't sell it. The armor's all worth a few points of AC and none of it carries an AV penalty, so distribute it at will — note that you *can* equip a Shield and a Two-hander at the same time. Go W through the secret door in the wall and fight off a nasty snake for a little bit more loot. Make sure to pick up a mirror from the stash in the SW; you'll need it in a minute.
 
-Go back to the room with p105 and go S again. The dining room is long forgotten. Head W into the indoor statue garden. Man, these statues `(p117)` get weirder and weirder, don't they? And who's this rich dude? It's an odd statue if it's supposed to be the owner of this estate. Go W again `(p1)`. Huh. So if these were carved, then who— oops, found some more goblins.
+Go back to the room with paragraph #105 and go S again. The dining room is long forgotten. Head W into the indoor statue garden. Man, these statues `(p117)` get weirder and weirder, don't they? And who's this rich dude? It's an odd statue if it's supposed to be the owner of this estate. Go W again `(p1)`. Huh. So if these were carved, then who— oops, found some more goblins.
 
 Let's continue in the same direction we've been going; go E back through the garden, then S again. That's odd, what's with all the smashed mirrors? Good thing I picked up a whole one a little while ago, eh? Head W down the hallway again— dammit, more goblins! These guys hurt a little, but they're worth good XP, too. There's a journal `(p99)` in the NE corner of this room. Ah ha, now it's starting to come together: those bad statues are Mog's, the good ones are the assistant's... and that statue of a rich guy in the sculpture garden is starting to make a little more sense.
 

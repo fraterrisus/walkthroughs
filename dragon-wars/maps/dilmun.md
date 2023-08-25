@@ -14,7 +14,7 @@ As a warning, you can't cast *D:Create Wall* here, and *D:Soften Stone* probably
 
 **[Slave Estate](slave-estate.md) (17,07)** and the Slave Mines beneath it.
 
-**[Tars](tars.md) (21,04)** and its dungeon.
+The ruins of **[Tars](tars-ruins.md) (21,04)** and its dungeon.
 
 **The Refresh Pool (14,01):** If you swim your way out of Purgatory, you wind up right next to this pool, which will refresh your Health, Stun, and Power for free.
 
@@ -110,20 +110,20 @@ The **[Pilgrim Dock](pilgrim-dock.md) (17,21)**: a one-way trip from the Old Doc
 
 Mount **[Salvation](salvation.md) (19,19)**, which is confusingly marked 'Nisir' during overland travel. Salvation connects to both the Underworld and to the Depths of Nisir.
 
-### Monsters
+## Monsters
 
-**Goblins:** STR 10 DEX 16 INT 06 SPR 10, HD:4d4+1 (5-17), AV+3 DV+0, att:1, morale:7, spd:30', XP:90
+**Goblins:** STR 10 DEX 16 INT 06 SPR 10, HD:4d4+1 (5-17), AV+3 DV+0, morale:7, spd:30', XP:90
 
 - Attacks: 4d6
 
-**Guard Goblins:** STR 00 DEX 20 INT 00 SPR 00, HD:4d4+20 (24-36), AV+4 DV+0, att:1, morale:8, spd:30', XP:120
+**Guard Goblins:** STR 00 DEX 20 INT 00 SPR 00, HD:4d4+20 (24-36), AV+4 DV+0, morale:8, spd:30', XP:120
 
 - Attacks: 6d6
 
-**Guards:** STR 20 DEX 16 INT 01 SPR 03, HD:2d8+3 (5-19), AV+1 DV+0, att:1, morale:6, spd:10', XP:100
+**Guards:** STR 20 DEX 16 INT 01 SPR 03, HD:2d8+3 (5-19), AV+1 DV+0, morale:6, spd:10', XP:100
 
 - Attacks: 1d20, 2d12
 
-**Murk Trees:** STR 00 DEX 16 INT 00 SPR 00, HD:8d10+15 (23-95), AV+4 DV+0, att:1, morale:8, spd:50', XP:150
+**Murk Trees:** STR 00 DEX 16 INT 00 SPR 00, HD:8d10+15 (23-95), AV+4 DV+0, morale:8, spd:50', XP:150
 
 - Attacks: 7d8

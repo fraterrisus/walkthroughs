@@ -2,7 +2,7 @@
 
 ![map](tars-ruins.svg)
 
-A ruined city, destroyed by dragons. Random (1 in 100) and fixed encounters abound, and some of them are pretty hard for an early-game party. If you're coming back after Freeport, you should be fine.
+A ruined city, destroyed by dragons. Random (1 in 100) and fixed encounters abound.
 
 *D:Soften Stone* works here, but none of the ruined buildings have anything in them.
 

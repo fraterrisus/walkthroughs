@@ -165,7 +165,7 @@ The Tars Underground map is an interesting one. Like the Magan Underworld, it wr
 
 Start by `(U)sing` the Magic Lamp for some light, and then have Valar cast *S:Guidance* for a sense of direction.
 
-From the entrance, go 1N 3W 1S. All the secret doors on this map can be identified by hollow-sounding footsteps nearby. *Dragon Wars* won't always be this nice to you, but take advantage of it while it's here. Inside this secret room you'll find the Stone Arms; don't drop them, you need them to solve a puzzle much later in the game.
+From the entrance, go 1N 3W 1S. All the secret doors on this map can be identified by hollow-sounding footsteps nearby. *Dragon Wars* won't always be this nice to you, but take advantage of it while it's here. Inside this secret room you'll find the Stone Arms; you'll need them to solve a puzzle much later in the game, so don't drop them.
 
 If you need to get to the Underworld (for instance, to go get the Slicer), you can do so 1N 1E 1S through another secret door. `(U)se` *Climb* to activate the shaft down to the Underworld.
 

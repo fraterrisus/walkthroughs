@@ -13,7 +13,7 @@ The map is also dark, so you'll need to bring a light source with you.
 The map wraps, so all exits are "stairs" up to a Topside location:
 
 - [Purgatory](purgatory.md) (13,04)
-- [Tars Undercity](tars-undercity.md) (19,04)
+- [Tars Underground](tars-underground.md) (19,04)
 - [Lansk Undercity](lansk-undercity.md) (16,14)
 - [Necropolis](necropolis.md) (27,16): You can't actually get to the Well of Souls building unless you came down from the Necropolis in the first place, so don't try using *Soften Stone* or anything.
 - [Mystic Wood](mystic-wood.md) (02,06)

@@ -165,37 +165,37 @@ The Tars Underground map is an interesting one. Like the Magan Underworld, it wr
 
 Start by `(U)sing` the Magic Lamp for some light, and then have Valar cast *S:Guidance* for a sense of direction.
 
-From the entrance, go 1N 3W 1S. All the secret doors on this map can be identified by hollow-sounding footsteps nearby. *Dragon Wars* won't always be this nice to you, but take advantage of it while it's here. Inside this secret room you'll find the Stone Arms; you'll need them to solve a puzzle much later in the game, so don't drop them.
+From the entrance, go 1N 3W 1S. All the secret doors on this map can be identified by hollow-sounding footsteps nearby. *Dragon Wars* won't always be this nice to you, but take advantage of it while it's here. Inside this secret room you'll find the Stone Arms; you'll need them to solve a puzzle much later in the game, so don't drop them. This is the only thing you actually *need* down here, so feel free to leave at this point.
 
 If you need to get to the Underworld (for instance, to go get the Slicer), you can do so 1N 1E 1S through another secret door. `(U)se` *Climb* to activate the shaft down to the Underworld.
 
-2N of the entry stairs (through a door) you'll find a rotting body. I couldn't figure out anything to do with it.
+From the entry stairs, go N into a small room and then N into a second room. There's a nasty combat with a handful of Adventurers and a Wizard. Stand back and blast them with Mage Fire until they get close, then attack the Adventurers and blast the Wizard from range. Once you kill them, there's a random encounter 1N of you. 
 
-The room N of there has a nasty combat with a handful of Adventurers and a Wizard. Stand back and blast them with Mage Fire until they get close, then attack the Adventurers and blast the Wizard from range. Once you kill them, there's a random encounter 1N of you. Step into the NE corner of the room, and when the game tells you it was a real shame, `(U)se` *Arcane Lore* for a second message, this time from the bridge of the starship *Enterprise*. No, that's not a typo.
+For the weirdest easter egg in the game, step into the NE corner of the room, and when the game tells you it was a real shame, `(U)se` *Arcane Lore* for a second message, this time from the bridge of the starship *Enterprise*. No, that's not a typo.
 
 In the SW corner of this room there's a secret door with nice cash and some spells. You probably don't need extra copies of *S:Sun Stroke* or *H:Fire Light*, but *D:Death Curse* is handy for its 40' range, if you don't already have it.
 
 Go back to the entry stairs again, then go 3E 2N to yet another secret door. This time you get a Healing Potion (casts *S:Heal* on target of your choice) and some Dragon Stones out of the deal. You might as well be selling the Dragon Stones; it's easier to carry around money than items, and you can always buy them back later. Hang on to a couple, maybe.
 
-The rest of the map is not really worth exploring. The combat is pretty hard, the XP is okay, and it's more likely to drain your resources than do you any good.
+The rest of the map is not really worth exploring. The wandering monsters are pretty hard, the XP is okay, and it's more likely to drain your resources than do you any good.
 
-However, if you go S from the entry stairs, you'll be in a winding hallway with a spinner in the midst of it. How does a *spinner* work in a game with an infallible automap? An excellent question. This one appears to work by changing which direction you're facing when you *exit* the spinner square. So it looks like you're moving in a straight line, but actually the game will send you in a random direction when you step forward. In this particular case, it doesn't even seem to care if there's a wall in the way; it's entirely possible the spinner will throw you through the S wall, in which case you land on a medium-sized fight. It gets really confused if you try to run from that fight, but eventually it finds somewhere to put you.
+However, if you go S from the entry stairs, you'll be in a winding hallway with a spinner in the midst of it. How does a *spinner* work in a game with an infallible automap? An excellent question. This one appears to work by changing which direction you're facing, but not redrawing the viewport on the screen. So it looks like you're moving in a straight line, but actually the game will send you in a random direction when you step off the square. (You can see this if you have *S:Guidance* running.) In this particular case, it doesn't even seem to care if there's a wall in the way; it's entirely possible the spinner will throw you through the S wall, in which case you land on a medium-sized fight. The game engine gets really confused if you try to run from that fight, but it does eventually find somewhere to put you.
 
 Let's head back to the surface, and cross our first bridge.
 
 ### Guard Bridge #1
 
-The bridge between Forlorn and Sun is just N of Purgatory. The first time you approach this bridge from the Forlorn side, you'll run into a group of Guards just S of the bridge. If you can't beat them, you probably shouldn't be leaving Forlorn anyway.
+The bridge between Forlorn and Sun is just N of Purgatory. The first time you approach this bridge from Forlorn, you'll run into a group of Guards just S of the bridge. If you can't beat them, you probably shouldn't be leaving Forlorn anyway.
 
-Read `(p12)` once you make it to the actual bridge map, but before you approach the bridge itself, step 3E 2N and find an arms cache. The Bladed Flail (1d12) isn't any better than the War Flail but sells for way more money. The Helm and Shield are free AC points. *S:Sun Light* is not amazing (heals 1-6 / 3pt instead of *L:Lesser Heal's* 1-4 / 2pt).
+Once you make it on to the actual bridge map you can read `(p12)`, but before you approach the bridge itself, step 3E 2N and find an arms cache. The Bladed Flail (1d12) isn't any better than the War Flail but sells for way more money. The Helm and Shield are free AC points. *S:Sun Light* is not amazing (heals 1-6 / 3pt instead of *L:Lesser Heal's* 1-4 / 2pt).
 
-To the W of the bridge there's a rock with a message written on it. Restoring the masters of magic is definitely on our agenda, so this is good to know. And it sounds like those Stone Arms we turned up will be useful for something. (Oh. You skipped Tars and came straight here? Ignore what I said about the Stone Arms then. It's the [name of a bar](#im-free-as-a-bird-now-freeport). Yup. Promise.)
+To the W of the bridge there's a rock with a message written on it. Restoring the masters of magic is definitely on our agenda, so this is good to know. And it sounds like those Stone Arms we turned up will be useful for something. (Oh. You skipped Tars and came straight here? Ignore what I said about the Stone Arms then. It's just the [name of a bar](#im-free-as-a-bird-now-freeport). Yup. Promise.)
 
 The bridge guards are pretty nasty. Your choices are to show your Citizenship Papers and pay a ~~bribe~~ toll ($10 per person, not so bad really), or to step forward defiantly and fight them off. Keep in mind that the guards can kill you, not just stun, so save first if you decide to fight. Also, they may call for help. Blast 'em with big spells. If you happen to come back through here heading towards Forlorn again, the guards will look at you funny, but let you pass when you show your papers.
 
 Feel free to drop your Citizenship Papers any time. This is the only place you need them, but pretty soon you'll be able to take on the guards without a problem, and if you ever get really stuck you can buy another set in Lansk.
 
-Step onto the bridge `(p13)`. It's infested with rats, and if you wait around long enough (hold down the ESC key for a while) you'll get jumped by a pack. They're worth 10 XP each and only have 1 HP, so if you've got a cheap group-zap spell (a 1-point *S:Inferno* is your best value for money here, but you don't have that spell yet) this is a great place to grind for experience. For now, 6 POW for *H:Elvar's Fire* is kind of a lot, but you can do pretty well running S to recharge, beating the guards, and then grinding against rats for a bit.
+Step onto the bridge `(p13)`. It's infested with rats, and if you wait around long enough (hold down the ESC key for a while) you'll get jumped by a pack. They're worth 10 XP each and only have 1 HP, so if you've got a cheap group-zap spell (a 1-point *S:Inferno* is your best value for money here, but you probably don't have that spell yet) this is a great way to grind for experience, if that's your thing. For now, 6 POW for *H:Elvar's Fire* is kind of a lot, but you can do pretty well running S to recharge, beating the guards, and then grinding against rats for a bit.
 
 Whenever you're done with that, you can exit to the N.
 
@@ -211,11 +211,11 @@ Speaking of the Mystic Wood, while you're exploring the island, circle around an
 
 From the S entrance, step 1N and then start going W. You'll find a stone that marks the grave of Zaton. Remember this place; we'll come back to it later.
 
-Go to the extreme SW corner of the map and find a locked chest (difficulty 2) with some Druid Magic spells in it. You might already have *D:Death Curse* and *D:Scare*, but if you leave them here they'll disappear. Take *D:Fire Blast* (zap *all*, not just 1 group!) and *D:Insect Plague.*
+Go to the extreme SW corner of the map and find a locked chest (difficulty 2) with some Druid Magic spells in it. You might already have *D:Death Curse* and *D:Scare*, but if you leave them here they'll disappear. Take *D:Fire Blast* (zap *all*, not just a group!) and *D:Insect Plague.*
 
-A few spaces N of there is a nasty fight with some Water Spirits or Lagooners. They're tough, but you've got two spellcasters with mass-effect zap spells. Burn up your Power; you can always run down to the Underworld to recharge. Your reward is some heavy armor: Plate Mail (+10 AC, -5 AV), Gauntlets (+2 AC), a Wand that casts *S:Major Healing* (a group heal spell), a Great Bow (+2 AV, 50'), and some Dragon Stones.
+A few spaces N of there is a nasty fight with some Lagooners. They're tough, but you've got two spellcasters with mass-effect zap spells. Burn up your Power; you can always run down to the Underworld to recharge. Your reward is some heavy armor: Plate Mail (+10 AC, -5 AV), Gauntlets (+2 AC), a Wand that casts *S:Major Healing* (a group heal spell), a Great Bow (+2 AV, 50'), and some Dragon Stones.
 
-If you go directly W from that chest, you'll find the Transportation Nexus. If someone in your party has *Arcane Lore*, this will let you teleport between here, King's Island, and Quag Island. It's extremely useful for getting around, especially combined with the well that takes you down to the Magan Underworld – to avoid fights, go 2W 10N 1W from the Nexus to the Well. On the other hand, if you don't have *Arcane Lore*, stepping on the square with the Nexus will randomly teleport you to one of the other locations. Good luck!
+If you go directly W from that chest, you'll find the Transportation Nexus. If someone in your party has *Arcane Lore*, this will let you teleport between here, King's Island, and Quag Island. It's extremely useful for getting around, especially combined with the well that takes you down to the Magan Underworld – to avoid fights, go 1W 10N 2W from the Nexus to the Well. On the other hand, if you don't have *Arcane Lore*, stepping on the square with the Nexus will randomly teleport you to one of the other locations. Good luck!
 
 Head E from the Well, and in the NE corner there's a spot where you can harvest some Mushrooms. These are a quest item for later, so hang onto them.
 
@@ -223,7 +223,7 @@ From the Mushroom spot, go 1E 6S. Face S towards the lake and `(U)se` Ulrik's *S
 
 A little NW of the lake is a spot where there are some tracks on the ground. If you `(U)se` *Tracker* to follow them, they'll lead you to a spot 2S of the Nexus. However, there's a fixed combat 1N of you, which is kind of a dirty trick if you ask me.
 
-Now comes the fun part. Visit the druid's shrine in the NW corner `(p6)`. Go up to the statue and pick up the Beast Horn, then `(U)se` it (you can also `(U)se` your SPR attribute). Enkidu himself comes to life `(p73)` and offers to wrestle. STR 15 always loses and STR 24 always wins, and your chance of winning goes up linearly between them. But you can retry as often as you like. When you win, Enkidu grants you *Druid Magic* 2 along with most of the combat spells. This is a great way to take advantage of Louie's abnormally high SPR and INT. You don't need the Beast Horn after this; if you `(U)se` it again, it just casts *D:Beast Call.*
+Now comes the fun part. Visit the druid's shrine in the NW corner `(p6)`. Go up to the statue and pick up the Beast Horn, then `(U)se` it (you can also `(U)se` your SPR attribute, or just cast *D:Beast Call* yourself if you want). Enkidu himself comes to life `(p73)` and offers to wrestle. This is a weird STR check (vs 1d8+15); STR 15 always loses, STR 24 always wins, and your chance of winning goes up linearly between them, but you can retry as often as you like. When you win, Enkidu grants you *Druid Magic* 2 along with most of the combat spells. This is a great way to take advantage of Louie's abnormally high SPR and INT. You don't need the Beast Horn after this; if you `(U)se` it again, it just casts *D:Beast Call.*
 
 Enkidu grants you *D:Death Curse, D:Fire Blast, D:Insect Plague, D:Whirl Wind, D:Scare, D:Greater Healing,* and *D:Beast Call.*
 

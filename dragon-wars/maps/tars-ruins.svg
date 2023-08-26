@@ -30,15 +30,15 @@
      objecttolerance="20"
      inkscape:snap-path-clip="false"
      inkscape:snap-perpendicular="true"
-     inkscape:zoom="1"
-     inkscape:cx="388"
-     inkscape:cy="308.5"
+     inkscape:zoom="2"
+     inkscape:cx="436.5"
+     inkscape:cy="260.25"
      inkscape:window-width="2346"
      inkscape:window-height="1768"
      inkscape:window-x="26"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer3"
      gridtolerance="10000"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1">
@@ -229,7 +229,11 @@
        refY="0"
        orient="auto"
        inkscape:stockid="Arrow2Mend"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       viewBox="0 0 6.9304588 5.1962256"
+       markerWidth="6.9304585"
+       markerHeight="5.1962252"
+       preserveAspectRatio="xMidYMid">
       <path
          transform="scale(-0.6)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
@@ -341,7 +345,8 @@
      inkscape:label="Grid"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        style="fill:none;stroke:#80d3ff;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.6, 0.6;stroke-dashoffset:0;stroke-opacity:1"
        d="m 10,20 v 0 h 160"
@@ -487,7 +492,7 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan6716">00</tspan></text>
+         id="tspan19941">00</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-137.24381,153.06275)"
@@ -497,7 +502,7 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan6718">05</tspan></text>
+         id="tspan19943">05</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-87.24381,153.06275)"
@@ -507,7 +512,7 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan6720">10</tspan></text>
+         id="tspan19945">10</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-37.24381,153.06275)"
@@ -517,7 +522,7 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan6722">15</tspan></text>
+         id="tspan19947">15</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-197.24381,143.06275)"
@@ -527,7 +532,7 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan6724">00</tspan></text>
+         id="tspan19949">00</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-197.24381,93.062751)"
@@ -537,7 +542,7 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan6726">05</tspan></text>
+         id="tspan19951">05</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-197.24381,43.062751)"
@@ -547,7 +552,7 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan6728">10</tspan></text>
+         id="tspan19953">10</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-197.24381,-6.93725)"
@@ -557,13 +562,14 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan6730">15</tspan></text>
+         id="tspan19955">15</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Map"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="display:inline;fill:#b4c7dc;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect170503"
@@ -693,7 +699,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="Decoration">
+     inkscape:label="Decoration"
+     sodipodi:insensitive="true">
     <circle
        style="display:inline;fill:#00a40b;fill-opacity:0.5;stroke-width:0.2;stroke-linecap:square"
        id="circle80271"
@@ -783,7 +790,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Points of Interest"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-17.114743,45.665077)"
@@ -793,7 +801,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6732">E</tspan></text>
+         id="tspan19957">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,12.885257,105.66508)"
@@ -803,7 +811,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6734">1</tspan></text>
+         id="tspan19959">1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,2.885257,135.66508)"
@@ -813,7 +821,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6736">E</tspan></text>
+         id="tspan19961">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-7.114743,165.66508)"
@@ -823,7 +831,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6738">E</tspan></text>
+         id="tspan19963">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,42.885257,165.66508)"
@@ -833,7 +841,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6740">E</tspan></text>
+         id="tspan19965">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,62.885257,135.66508)"
@@ -843,7 +851,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6742">E</tspan></text>
+         id="tspan19967">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,72.885257,155.66508)"
@@ -853,7 +861,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6744">E</tspan></text>
+         id="tspan19969">E</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,111.5596,115.03008)"
@@ -863,9 +871,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6748">E<tspan
+         id="tspan19973">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan6746">1</tspan></tspan></text>
+   id="tspan19971">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
@@ -880,9 +888,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6752">$<tspan
+         id="tspan19977">$<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan6750">1</tspan></tspan></text>
+   id="tspan19975">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-18.40629,175.12775)"
@@ -892,9 +900,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6756">$<tspan
+         id="tspan19981">$<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan6754">2</tspan></tspan></text>
+   id="tspan19979">2</tspan></tspan></text>
     <path
        style="fill:none;stroke:#444444;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 142.04194,42.057047 1.02113,1.873283 -1.08945,-0.407505 0.62742,0.980923 -1.52124,-0.216941 0.89484,0.722699 -1.09366,0.03436 0.69601,0.49558 -0.89484,0.729687 1.13192,-0.06883 -0.57369,0.998032 1.39969,-0.626377 -0.22184,1.115086 1.23145,-0.660736 0.36743,1.380742 0.5055,-1.808972 1.0488,1.623732 -0.20964,-1.628982 0.93641,0.983104 c 0,0 -0.19717,-1.542677 -0.17415,-1.384395 0.023,0.158284 1.79487,0.912408 1.79487,0.912408 l -1.2808,-1.358836 1.47483,0.08812 -1.18225,-0.830591 1.52783,-0.393089 -1.53539,-0.336598 2.05005,-0.513895 -1.98889,-0.311996 0.45881,-1.190789 -1.25424,1.025519 -0.0229,-1.583062 -0.83368,1.693243 -0.42067,-1.411036 -0.61951,1.651897 -0.69601,-1.899746 0.054,1.922093 c 0,0 -1.50109,-1.728809 -1.60818,-1.598129 z"
@@ -929,9 +937,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6760">E<tspan
+         id="tspan19985">E<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan6758">1</tspan></tspan></text>
+   id="tspan19983">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,152.92402,55.665076)"
@@ -941,7 +949,7 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6762">1</tspan></text>
+         id="tspan19987">1</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,0,32.832455)"
@@ -949,7 +957,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan6764"> Guardian Snake</tspan></text>
+         id="tspan19989"> Guardian Snake</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-1.9279281e-4,22.422144)"
@@ -957,7 +965,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan6766"> Tracks (follow to Underground)</tspan></text>
+         id="tspan19991"> Tracks (follow to Underground)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-1.9279281e-4,2.8324548)"
@@ -965,7 +973,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-7);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan6768"> in from Forlorn</tspan></text>
+         id="tspan19993"> in from Forlorn</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-1.9279281e-4,12.422144)"
@@ -973,7 +981,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-4-7-8);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="127.54297"
-         id="tspan6770"> down to Underground (use STR)</tspan></text>
+         id="tspan19995"> down to Underground (use STR)</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,0,32.851847)"
@@ -983,7 +991,7 @@
        y="0"><tspan
          x="755.90625"
          y="162.97849"
-         id="tspan6772"> Firesword, Large Shield, Dragon Stone x6</tspan></text>
+         id="tspan19997"> Firesword, Large Shield, Dragon Stone x6</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,151.59371,75.127747)"
@@ -993,9 +1001,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6776">$<tspan
+         id="tspan20001">$<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan6774">1</tspan></tspan></text>
+   id="tspan19999">1</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,151.59371,85.12775)"
@@ -1005,9 +1013,9 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6780">$<tspan
+         id="tspan20005">$<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan6778">2</tspan></tspan></text>
+   id="tspan20003">2</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1029,9 +1037,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-9-2);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="129.90237"
-         id="tspan6784"><tspan
+         id="tspan20009"><tspan
            style="font-size:16px"
-           id="tspan6782"> Pit trap</tspan></tspan></text>
+           id="tspan20007"> Pit trap</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-0.3001926,-27.856917)"
@@ -1039,9 +1047,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-9-4);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="129.90237"
-         id="tspan6788"><tspan
+         id="tspan20013"><tspan
            style="font-size:16px"
-           id="tspan6786"> Door</tspan></tspan></text>
+           id="tspan20011"> Door</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,39.699808,-27.829011)"
@@ -1049,9 +1057,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-9-4-5);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="129.90237"
-         id="tspan6792"><tspan
+         id="tspan20017"><tspan
            style="font-size:16px"
-           id="tspan6790"> Secret Door</tspan></tspan></text>
+           id="tspan20015"> Secret Door</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,39.849808,-18.202115)"
@@ -1059,9 +1067,9 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect117823-9-0);display:inline;fill:#000000;fill-opacity:0.941238;stroke:none;stroke-width:0.755906;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"><tspan
          x="755.90625"
          y="129.90237"
-         id="tspan6796"><tspan
+         id="tspan20021"><tspan
            style="font-size:16px"
-           id="tspan6794"> Spinner</tspan></tspan></text>
+           id="tspan20019"> Spinner</tspan></tspan></text>
     <path
        style="display:inline;fill:none;stroke:#444444;stroke-width:0.3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 192.04194,12.057047 1.02113,1.873283 -1.08945,-0.407505 0.62742,0.980923 -1.52124,-0.216941 0.89484,0.722699 -1.09366,0.03436 0.69601,0.49558 -0.89484,0.729687 1.13192,-0.06883 -0.57369,0.998032 1.39969,-0.626377 -0.22184,1.115086 1.23145,-0.660736 0.36743,1.380742 0.5055,-1.808972 1.0488,1.623732 -0.20964,-1.628982 0.93641,0.983104 c 0,0 -0.19717,-1.542677 -0.17415,-1.384395 0.023,0.158284 1.79487,0.912408 1.79487,0.912408 l -1.2808,-1.358836 1.47483,0.08812 -1.18225,-0.830591 1.52783,-0.39309 -1.53539,-0.336597 2.05005,-0.513895 -1.98889,-0.311996 0.45881,-1.190789 -1.25424,1.02552 -0.0229,-1.583063 -0.83368,1.693243 -0.42067,-1.411036 -0.61951,1.651897 -0.69601,-1.899746 0.054,1.922093 c 0,0 -1.50109,-1.728809 -1.60818,-1.598129 z"
@@ -1113,6 +1121,11 @@
        y="0"><tspan
          x="151.18164"
          y="6.234375"
-         id="tspan6798">E</tspan></text>
+         id="tspan20023">E</tspan></text>
+    <path
+       style="fill:none;stroke:#808080;stroke-width:0.4;stroke-linecap:square;stroke-dasharray:0.4, 1.2;stroke-dashoffset:0;marker-end:url(#Arrow2Mend-18);marker-start:url(#Arrow2Mend-18)"
+       d="M 34.999998,105 H 50 c 2.45477,-0.36331 4.98918,-0.59492 5,-5 V 79.999998 C 54.938538,76.059046 57.210846,75.189429 59.999998,75 c 4.020681,0.05562 4.782375,-2.273161 5.000001,-5.000001 V 59.999998 c -0.06461,-3.836869 2.126392,-4.846265 5,-4.999998 h 9.999999 c 4.409501,0.01192 4.63493,2.548084 5,4.999998 -0.03723,4.168884 2.38359,4.728054 5.000001,5.000001 H 130 c 3.04092,-0.09056 5.05608,-1.357549 5,-5.000001 V 50 c 0.21188,-2.739234 0.99539,-5.057029 5,-5.000001 h 10 c 4.17518,0.03625 4.72569,-2.388124 5,-5 1.17455,-3.47501 2.87088,-4.017986 5,-5.000001"
+       id="path18704"
+       sodipodi:nodetypes="cccccccccccccccccc" />
   </g>
 </svg>

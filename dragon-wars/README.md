@@ -145,7 +145,7 @@ There are plenty of good mid-game *Maces* and *Flails*, and if you're after raw 
 
 *Fistfighting* basically counts as a weapon skill in terms of adding effective AV if you aren't holding a weapon, but unlike weapon skills it also increases your damage. With no ranks, you punch for 1d4; that goes up to a maximum of 7 ranks (1d6, 3d6, 5d6, 3d8, 5d8, 3d10, 3d12). You could make a pretty formidable martial artist by spending 15 AP on STR 20 and *Fistfighting 5*; 5–40 damage is better than all but the best late-game weapons, and you'll absolutely tear through Purgatory like that. The downside is that you can't Block without a weapon, and you'll never get the tasty AV or AC bonuses for using weapons.
 
-Side note: I don't know what genius picked those damage dice, but going from 5–40 at *Fistfighting 5* to 3–30 at level 6 and 3–36 at level 7 is pretty dumb.
+Side note: I don't know what genius picked those damage dice, but going from 5–40 at *Fistfighting 5* to 3–30 at level 6 and 3–36 at level 7 is pretty dumb.
 
 Finally, we discussed **magic skills** already, but I didn't mention skill ranks. Magic skills act like weapon skills when you're making magical attack rolls, but since a "miss" on a magical attack roll still deals half damage, you may not notice the effects of a higher magical AV quite as much. More importantly, more skill ranks also allow you to put higher amounts of POW into your variable-power spells. *Druid Magic* doesn't have any variable-power spells, but does have plenty of zap. Being able to cast higher-point *S:Inferno* is a big deal though, so I definitely suggest investing in a few additional ranks of *Sun Magic*.
 
@@ -548,7 +548,7 @@ Moved to its own page for length, but here's a table of contents:
 
 Now that you've beaten Namtar – actually, you can do this any time you want – you can start over by reloading the game and indicating at the prompt that you want to `(B)egin` a new game instead of `(C)ontinuing` your old one. You keep your party as-is, including stats, spells, and any NPCs you've picked up, but (as happens when you get dumped into Purgatory) not including any of your equipment.
 
-The most notable use for this "cheat" is recycling the +5 AP [Irkalla](walkthrough.md#magan-underworld-highlights) bonus. All you have to do is start the game, visit the Underworld, find Irkalla's Realm, and step over the rail. Repeat that as often as you like. It's a good way to get Magic skills for your front line fighters; one trip gets a skill point in Low Magic, two trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. Just sayin'.
+The most notable use for this "cheat" is recycling the +5 AP [Irkalla](walkthrough.md#magan-underworld-highlights) bonus. All you have to do is start a new game, visit the Underworld, find Irkalla's Realm, and step over the rail. Repeat that as often as you like. It's a good way to get Magic skills for your front line fighters; one trip gets a skill point in Low Magic, two trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. Just sayin'.
 
 Otherwise, every map (mostly) resets every time you leave it, so the only other thing that starting a new game does is reset all the global state bits (looted chests, unique encounters like the Humbaba, etc). If you drop a unique quest item, though, this is your only choice.
 
@@ -607,7 +607,7 @@ The lowest-level characters with which I've ever beaten the game (without multip
 
 Much of the contents of this guide are based off of work I did to rip apart, decompile, and reassemble the data files from the IBM PC version of *Dragon Wars*. If you want to peek over my shoulder and see what I did, you should check out [my GitHub repository](https://github.com/fraterrisus/dragonwars-crack). There's a fairly extensive `doc/` directory in that repo with notes on the data format, and the Gradle file can be used to generate a number of `jars` that will decompile the data files for you.
 
-If all you're looking for are maps, there are some hand-drawn ones [here](./maps/), but they're a little out of date; at some point I'll get around to updating those with the stuff I've learned from decompilation.
+I've written up more extensive notes for each board alongside hand-drawn maps based on that decompliation work in the [`maps`](maps/) directory; you can check those out for more spoilers, or just use the maps.
 
 ### The Speed Run
 
@@ -615,11 +615,11 @@ If all you're looking for are maps, there are some hand-drawn ones [here](./maps
 
 My [walkthrough](walkthrough.md) touches every location and tries to tell the game's entire story, but you certainly don't have to do all of that in order to win. If all you're interested in is getting through the game with the minimum amount of work, then this section is for you!
 
-In theory, the only object that you literally cannot win the game without is the Golden Boots. Go to [Mud Toad](walkthrough.md#follow-the-yellow-mud-toad), plug up the leak, then visit the temple to get the Boots. From there, you can get to [Salvation](walkthrough.md#salvation) through the Underworld, use the Boots to jump the chasm, fall into [Nisir](walkthrough.md#nisir), and waltz through Namtar's army before taking out the man himself. Run the [Endgame](walkthrough.md#endgame) and toss Namtar into the pit to win. I'm obviously skipping some steps, but this is the fastest possible path through the game.
+In theory, the only object that you literally cannot win the game without is the Golden Boots. Go to [Mud Toad](walkthrough.md#follow-the-yellow-mud-toad), plug up the leak, then visit the temple to get the Boots. From there, you can get to [Salvation](walkthrough.md#salvation) through the Underworld, use the Boots to jump the chasm, fall into [Nisir](walkthrough.md#nisir), and waltz through Namtar's army (hah) before taking out the man himself. Run the [Endgame](walkthrough.md#endgame) and toss Namtar into the pit to win. I'm obviously skipping some steps, but this is the fastest possible path through the game.
 
 However, presuming that you aren't actually strong enough to beat Namtar's army by yourself, you'll also want the help of the Dragon Brood Queen. So we'll hit the [Lansk Undercity](walkthrough.md#putting-the-fun-back-in-funderworld-lansk-undercity) to get the gem and fight our way across [Dragon Valley](walkthrough.md#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley) in order to confront the Brood Queen. That makes the Endgame much easier.
 
-The thing is, even if you've already beaten the game once and are playing through a second time with high-AP characters, it's not really practical to try to beat the game without any equipment at all. Buff spells like *M:Zak's Speed, H:Cloak Arcane, S:Mithras' Bless,* etc. are useful, but will only get you so far. So we'll also make a couple of pit stops for Dragon's Teeth and a bunch of good armor, along with the more mandatory quest items above. (I'm not going to bother with the Sword of Freedom, because it's a long quest to lots of places I'd otherwise skip, and you probably won't miss it.)
+The thing is, even if you've already beaten the game once and are playing through a second time with high-AP characters, it's not really practical to try to beat the game without any equipment at all. Buff spells like *M:Zak's Speed, H:Cloak Arcane, S:Mithras' Bless,* etc. are useful, but will only get you so far. You're going to get hit in battle and there's no way you have enough Health to absorb all that damage without a bunch of armor. So we'll also make a couple of pit stops for Dragon's Teeth and a bunch of good armor, along with the more mandatory quest items above. (I'm not going to bother with the Sword of Freedom, because it's a long quest to lots of places I'd otherwise skip, and you probably won't miss it.)
 
 All caveats aside, this is an outline of the "fastest practical" way through the game. We're shooting for AC 20 or higher for all fighters, plus the Gatlin Bow / Magic Quiver combination to turn one of your mages into a pincushion powerhouse. On a good day, this run takes me about an hour. Obviously, you could go collect another ~10 points of AC for each player, but I called this "the Speed Run" for a reason.
 
@@ -657,25 +657,29 @@ All caveats aside, this is an outline of the "fastest practical" way through the
    - Take the Nexus to Quag.
    - Fix the wall and get the Golden Boots.
 10. Smuggler's Cove
-   - Slaughter the crew, get the boat and a suit of Heavy Plate.
+       - Slaughter the crew, get the boat and a suit of Heavy Plate.
 11. Dragon Valley
-   - Get the Dragon's Teeth.
-   - Meet the Queen and use the Dragon Gem.
-   - Armor in the SW: Dragon Helm, Dragon Shield, and Dragon Eyes
-   - Take the boat back to the Cove, the Nexus to the Mystic Wood, and the Well to the Underworld.
+
+       - Get the Dragon's Teeth.
+       - Meet the Queen and use the Dragon Gem.
+       - Armor in the SW: Dragon Helm, Dragon Shield, and Dragon Eyes
+       - Take the boat back to the Cove, the Nexus to the Mystic Wood, and the Well to the Underworld.
 12. Salvation
-   - *Scare* the Underworld fairies and climb the stairs to Salvation.
-   - Guarded chest to the W: Dragon Plate, Helm
-   - Use IQ and Climb, then cross the chasm with the boots and fall.
+
+       - *Scare* the Underworld fairies and climb the stairs to Salvation.
+       - Guarded chest to the W: Dragon Plate, Helm
+       - Use IQ and *Climb*, then cross the chasm with the boots and fall.
 13. Nisir
-   - Go N E S to the stairs, use *D:Soften Stone* twice to the S.
-   - Recast *L:Mage Light* and *H:Cloak Arcane.*
-   - Go E, hit the spinner, go SE, cast *H:Air Summon* (1pt) to cross the wide chasm.
-   - Go S, into the SW corner, use *D:Soften Stone* twice to the S.
-   - Hit the teleporter to find Namtar's army. Use the Dragon Gem.
-   - Kill Namtar three times.
+
+       - Go N E S to the stairs, use *D:Soften Stone* twice to the S.
+       - Recast *L:Mage Light* and *H:Cloak Arcane.*
+       - Go E, hit the spinner, go SE, cast *H:Air Summon* (1pt) to cross the wide chasm.
+       - Go S, into the SW corner, use *D:Soften Stone* twice to the S.
+       - Hit the teleporter to find Namtar's army. Use the Dragon Gem.
+       - Kill Namtar three times.
 14. Magan Underworld
-   - Run the Endgame.
+       - Run the Endgame.
+
 
 Everything else is just gravy, but here are some other big 'quests' you can do.
 

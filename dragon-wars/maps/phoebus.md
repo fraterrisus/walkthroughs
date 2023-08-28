@@ -2,6 +2,8 @@
 
 ![map](phoebus.svg)
 
+Home of Mystalvision, the High Priest of the Temple of the Sun and chief Sun Mage.
+
 This is one of the odd examples of a map whose size is inexplicably larger than it needs to be. Yes, there's technically ocean to the north and west, but you can't see it (*D:Soften Stone* doesn't work here). And the "exiting the map" code will stop you as soon as you move south from (08,01).
 
 You'll find random encounters (1 in 100) with Stosstrupen, Soldiers, and Sullen Citizens.

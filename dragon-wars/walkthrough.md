@@ -288,7 +288,7 @@ Now cross the bridge. You have two choices:
 - Refuse customs inspection; you have to fight off a bunch of Pikemen, but honestly if you can't take them out, you definitely won't be able to handle the next two battles, so this is the route I recommend.
 - Submit to customs inspection. They take the greater of $100 or 20% of your gold. If someone in your party has *Merchant* 2, they haggle their way out of it and you don't have to pay anything. That's impossible, though, because *Merchant* is an [easter egg](README.md#skills).
 
-On the N side of bridge, enter the Armory building, and get kicked out by a board official. The second time you go in, you'll have to fight off another batch of Pikemen. Cast *H:Sense Traps* (*S:Disarm Traps* would also work, but you don't have it yet) then go through the door to the S and avoid falling in a pit. *Bandage* if you need to. Then pick up a lot of nice weapons in the next room, including a bunch of Dragon Stones. Give the **Holy Mace** to your #2 fighter, the **Axe of Kalah** to Ulrik, the **Runed Flail** to Louie, and the **Gem Helm** (+2 AC) to whoever needs it most. If you've been following along with this guide, the **Firesword** is now your fifth-best melee weapon:
+On the N side of bridge, enter the Armory building, and get kicked out by a board official. The second time you go in, you'll have to fight off another batch of Pikemen. Cast *H:Sense Traps* (*S:Disarm Traps* would also work, but you don't have it yet) then go through the door to the S and avoid falling in a pit. *Bandage* if you need to. Then pick up a lot of nice weapons in the next room, including a bunch of Dragon Stones. Give the **Holy Mace** to your #2 fighter, the **Axe of Kalah** to Ulrik, the **Runed Flail** to Louie, and the **Gem Helm** and **Gauntlets** (+2 AC each) to whoever needs them most. If you've been following along with this guide, the **Firesword** is now your fifth-best melee weapon:
 
 | Item         | Damage | STR  | AV   | AC   | Other              |
 | ------------ | ------ | ---- | ---- | ---- | ------------------ |
@@ -298,11 +298,11 @@ On the N side of bridge, enter the Armory building, and get kicked out by a boar
 | Axe of Kalah | 1d12   | 18   | +4   |      | 1d20 at 50'        |
 | Firesword    | 1d12   | 17   | +2   | +1   |                    |
 
-Note the special properties on the Axe of Kalah: it does more damage when you throw it (1d20 at 50'), and it comes back to you automatically. The Boomerang (1d12 at 50'. +2 AV, -1 AC) comes in a pack of #10, but *doesn't come back when you throw it*. I don't make this stuff up, folks, I just write the walkthroughs.
+Note the special properties on the Axe of Kalah: it does more damage when you throw it (1d20 at 50'), and it comes back to you automatically. The Boomerang (1d12 at 50'. +2 AV, -1 AC) that you'll also pick up in the Armory comes in a pack of #10, but *doesn't come back when you throw it*. I don't make this stuff up, folks, I just write the walkthroughs.
 
 On the way out you'll get jumped by a nasty group of guards. Make sure you've used Dragon Stones to replenish Power before you cross the pit room again; you'll use a lot of magic in this fight.
 
-Exit the bridge to the S. You probably need a recharge, so use the well in the Mystic Wood to jump back to the Underworld and bathe in the recharge pool. You'll have to fight off the Pikemen again (or submit to the customs inspection and pay a variable fee that's likely to be $2000 or more).
+You probably need a recharge, so exit the bridge to the S and use the well in the Mystic Wood to jump back to the Underworld and bathe in the recharge pool. You'll have to deal with the Customs Inspection again, but oh well.
 
 ### The Most Boring City in the World (Lansk)
 

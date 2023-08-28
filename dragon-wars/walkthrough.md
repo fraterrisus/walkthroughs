@@ -308,7 +308,7 @@ You probably need a recharge, so exit the bridge to the S and use the well in th
 
 The bridge drops you onto tiny little Isle of Lansk, on which there is only one point of interest, the city of Lansk.
 
-What a lovely place! `(p64)` Lansk is comprised of an inner ring and an outer ring of buildings, broken up into four quadrants. In the center `(p35)` there's a giant gleaming fortress with the city's defense dragon within. Fat and bloated, just like the political machine that runs this town.
+What a lovely place! `(p64)` Lansk is comprised of an inner ring and an outer ring of buildings, broken up into four quadrants. In the center `(p35)` there's a giant gleaming fortress with the city's defense dragon within. Fat and bloated, just like the political machine that runs this town. However, this may clue you in that there's a level beneath Lansk, just like there was with Phoebus.
 
 Watch out for the combats; the Civil Servants will endlessly call for help, the Citizens run away, and the Adventurers are pretty tough because their Mage friend casts *S:Wrath of Mithras* on you from 90', which is a spell you can't even acquire. Unfair!
 

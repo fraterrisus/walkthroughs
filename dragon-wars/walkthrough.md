@@ -223,7 +223,7 @@ From the Mushroom spot, go 1E 6S. Face S towards the lake and `(U)se` Ulrik's *S
 
 A little NW of the lake is a spot where there are some tracks on the ground. If you `(U)se` *Tracker* to follow them, they'll lead you to a spot 2S of the Nexus. However, there's a fixed combat 1N of you, which is kind of a dirty trick if you ask me.
 
-Now comes the fun part. Visit the druid's shrine in the NW corner `(p6)`. Go up to the statue and pick up the Beast Horn, then `(U)se` it (you can also `(U)se` your SPR attribute, or just cast *D:Beast Call* yourself if you want). Enkidu himself comes to life `(p73)` and offers to wrestle. This is a weird STR check (vs 1d8+15); STR 15 always loses, STR 24 always wins, and your chance of winning goes up linearly between them, but you can retry as often as you like. When you win, Enkidu grants you *Druid Magic* 2 along with most of the combat spells. This is a great way to take advantage of Louie's abnormally high SPR and INT. You don't need the Beast Horn after this; if you `(U)se` it again, it just casts *D:Beast Call.*
+Now comes the fun part. Visit the druid's shrine in the NW corner `(p6)`. Go up to the statue and pick up the Beast Horn, then `(U)se` it (you can also `(U)se` your SPR attribute, or just cast *D:Beast Call* yourself if you want). Enkidu himself comes to life `(p73)` and offers to wrestle. This is a weird STR check (vs 1d8+15); STR 15 always loses, STR 24 always wins, and your chance of winning goes up linearly between them, but you can retry as often as you like. When you win, Enkidu grants you *Druid Magic* 2 along with most of the combat spells. This is a great way to take advantage of Louie's abnormally high SPR and INT. You don't need the Beast Horn after this; if you `(U)se` it again, it just casts *D:Beast Call.*
 
 Enkidu grants you *D:Death Curse, D:Fire Blast, D:Insect Plague, D:Whirl Wind, D:Scare, D:Greater Healing,* and *D:Beast Call.*
 
@@ -235,7 +235,7 @@ Yes, that's a Nazi reference. You're about to enter a town full of enemies calle
 
 Phoebus is in the NW corner of the Isle of the Sun. Read `(p26)` if this is your first trip here, then `(p25)`.
 
-The main peril here are the Stosstrupen wandering around. They will stun you for 20+ HP at a shot, but at least it's just Stun damage. You can definitely take out one before you all go down, two might be hard, more than that should send you for the `(R)un` button. When the game tells you that smart people don't walk here, don't go in the nearby door – there are 10 Stosstrupen inside.
+The main peril here are the Stosstrupen wandering around. They will stun you for 20+ HP (8d8) at a shot, but at least it's just Stun damage. You can definitely take out one before you all go down, two might be hard, more than that should send you for the `(R)un` button. When the game tells you that smart people don't walk here, don't go in the nearby door – there are 10 Stosstrupen inside.
 
 Midway up the W wall (10N 7W of the entrance) there's a small 2x1 room guarded by a bunch of thieves. Wipe the floor with them and step S to find a locked chest (difficulty 2) with some nice scrolls. *D:Create Wall* is crucial to completing the game, though you can also buy it in the [Lansk Undercity](#putting-the-fun-back-in-funderworld-lansk-undercity). *H:Poog's Vortex* is the big brother of *H:Elvar's Fire*, and *S:Mithras' Bless* is a nice defensive buff spell. *S:Sun Stroke* you've already found twice over, and if you've been following this guide in published order this is the second or third version of *D:Death Curse* you've found.
 
@@ -251,7 +251,7 @@ Mystalvision is waiting in the N central part of Phoebus. You might want to hit 
 
 ### Ridden Out of Town, on Rails (Phoeban Dungeon)
 
-You wake up in the Phoeban dungeon. After nine days (40-odd turns) of captivity you escape `(p101)`. Circle to the E and you'll hear moans. `(U)se` *Lockpick* and find out from another prisoner that apparently they're torturing "The Druid". Huh.
+You wake up in the Phoeban dungeon. After nine days (40-odd turns) of captivity you escape `(p101)` with the help of a fellow named Berengaria who promises to meet you at the Icarian Triumph after you get out of here. Circle to the E and you'll hear moans. `(U)se` *Lockpick* and find out from another prisoner that apparently they're torturing "The Druid". Huh.
 
 In the NW corner `(p102)` you sneak up on the guard. You can either fight them off by stepping forward (use a lot of magic), or `(U)se` Louie's *Hide* skill to get past them. In either case, if you fail, you get thrown back in the jail cell and get to try it all again. (Aren't you glad I told you to bring Dragon Stones?) Eventually, go through the door to the N.
 

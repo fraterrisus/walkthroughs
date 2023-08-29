@@ -358,11 +358,11 @@ Regardless of how you got here, go up the stairs to Lansk proper and exit the ci
 
 ### You Can't Fight Here, This is the War Bridge
 
-Enter the bridge to Quag. The guard asks for your pass, and (here's a first!) will actually let you by if you show it to him. Of course you can just try to bull your way through, but Pikemen and Guards are kinda tough, and getting the pass in [Lansk](#the-most-boring-city-in-the-world-lansk) isn't all that hard if you're following this guide.
+Enter the bridge to Quag. The guard asks for your pass, and — here's a first! — will simply let you cross the bridge if you show it to him. Of course you can also just bull your way through, but Pikemen and Guards are kinda tough, and getting the pass in [Lansk](#the-most-boring-city-in-the-world-lansk) isn't all that hard if you're following this guide.
 
-Murk Trees, I'm sorry to say, do 7d8 damage, which is potentially lethal if you don't have very good armor. And sometimes you have to face more than one of them. And there's one on the E side of this map, in a straight line off the bridge. Rather than face it, take a step to the N before exiting.
+Murk Trees, I'm sorry to say, do as much as 8d10 damage, which is potentially lethal. And sometimes you have to face more than one of them. And there's one on the E side of this map, in a straight line off the bridge. Rather than face it, take a step to the N before exiting.
 
-If you're up for a bit of surreality, you can visit the Quag Information Bureau `(p47)` to the N after you cross the bridge. However, there's a random(?) chance that the ladies in the Information Bureau will attack you with *H:Big Chill*! Ow!
+If you're up for a bit of surreality, you can visit the Quag Information Bureau `(p47)` to the N after you cross the bridge. However, there's a 1-in-5 chance that the ladies in the Information Bureau will attack you with *H:Big Chill*! Ow!
 
 ## Quag Isle
 

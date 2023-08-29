@@ -288,7 +288,7 @@ Now cross the bridge. You have two choices:
 - Refuse customs inspection; you have to fight off a bunch of Pikemen, but honestly if you can't take them out, you definitely won't be able to handle the next two battles, so this is the route I recommend.
 - Submit to customs inspection. They take the greater of $100 or 20% of your gold. If someone in your party has *Merchant* 2, they haggle their way out of it and you don't have to pay anything. That's impossible, though, because *Merchant* is an [easter egg](README.md#skills).
 
-On the N side of bridge, enter the Armory building, and get kicked out by a board official. The second time you go in, you'll have to fight off another batch of Pikemen. Cast *H:Sense Traps* (*S:Disarm Traps* would also work, but you don't have it yet) then go through the door to the S and avoid falling in a pit. *Bandage* if you need to. Then pick up a lot of nice weapons in the next room, including a bunch of Dragon Stones. Give the **Holy Mace** to your #2 fighter, the **Axe of Kalah** to Ulrik, the **Runed Flail** to Louie, and the **Gem Helm** and **Gauntlets** (+2 AC each) to whoever needs them most. If you've been following along with this guide, the **Firesword** is now your fifth-best melee weapon:
+On the N side of bridge, enter the Armory building, and get kicked out by a board official. The second time you go in, you'll have to fight off another batch of Pikemen. Cast *H:Sense Traps* (*S:Disarm Traps* would also work, but you don't have it yet) then go through the door to the S and avoid falling in a pit. *Bandage* if you need to. Then pick up a lot of nice weapons in the next room, including a bunch of Dragon Stones. Give the **Holy Mace** to your #2 fighter, the **Axe of Kalah** to Ulrik, the **Runed Flail** to Louie, and the **Gem Helm** and **Gauntlets** (+2 AC each) to whoever needs them most. If you've been following along with this guide, the **Firesword** is now your fifth-best melee weapon:
 
 | Item         | Damage | STR  | AV   | AC   | Other              |
 | ------------ | ------ | ---- | ---- | ---- | ------------------ |
@@ -304,6 +304,8 @@ On the way out you'll get jumped by a nasty group of guards. Make sure you've us
 
 You probably need a recharge, so exit the bridge to the S and use the well in the Mystic Wood to jump back to the Underworld and bathe in the recharge pool. You'll have to deal with the Customs Inspection again, but oh well.
 
+## Isle of Lansk
+
 ### The Most Boring City in the World (Lansk)
 
 The bridge drops you onto tiny little Isle of Lansk, on which there is only one point of interest, the city of Lansk.
@@ -317,7 +319,7 @@ The only real prize in this place is the Druid's Mace (+2 AV, +2 AC), which give
 There are a handful of "useful" buildings about, all of which are labeled. Here's the right order to visit them in:
 
 1. **Governor's Office**, outer ring, SW quadrant, S side (3N 3W of where you come in). Collect the papers. They'll direct you to the Office of Interior Affairs, which doesn't actually exist. Instead, go to the...
-2. **Department of Lubrication**, outer ring, NW quadrant, N side near the middle. `(U)se` your papers. If, instead, you `(U)se` *Bureaucracy* and offer at least $500, the official opens a hidden staircase down to the [Undercity](#putting-the-fun-back-in-funderworld-lansk-undercity). Apart from picking up *D:Cure All*, you don't need anything down there right now, and you can always get there from the Magan Underworld for free.
+2. **Department of Lubrication**, outer ring, NW quadrant, N side near the middle. `(U)se` your papers. If, instead, you `(U)se` *Bureaucracy* and offer at least $500, the official opens a hidden staircase down to the [Undercity](#putting-the-fun-back-in-funderworld-lansk-undercity). (Of course, you can also get there from the Underworld for free.)
 3. **Visitor's Information Bureau**, inner ring, SE quadrant, S side near the corner. Trade your papers for a Governor's Pass, which makes it easier to cross the bridge to Quag.
 
 You can also visit these lovely offices:
@@ -330,7 +332,29 @@ That's it. Get outta here before you die of boredom.
 
 p.s. For the sake of completeness, I'll note that the Governor's Pass is worth $100, and the Governor's Office will give you as many sets of papers as you want. I can't think of a good reason why you would ever need to farm gold, and this might be the slowest possible way to do it, but there you go. You can also buy a Governor's Pass for (no shock) $200 in the [Lansk Undercity](#putting-the-fun-back-in-funderworld-lansk-undercity). But once you cross the bridge to Quag you can sell the Governor's Pass at the first opportunity; you won't need it.
 
-## Quag Isle
+### Putting the "Fun" Back In "Funderworld" (Lansk Undercity)
+
+You could very well decide to put your shiny new Governor's Pass to work right away and cross the bridge to Quag. But maybe you bribed the official at the Department of Lubrication and wondered where the stairs went. Or you noticed the dragon and figured there must be a basement level to Lansk, just like there was in Phoebus. Or you already found the stairs up to Lansk from the Underworld and wanted to check it out. Either way, this is as good a time as any to visit the seedy undercity, since there's some story hints down here that will help us out once we hit Quag.
+
+Any way you decide to get here, read `(p121)`. Suddenly it's like you're in New Orleans during Mardi Gras. You should be able to handle at least some of the fights down here, and there are plenty, but be aware that some of these can kill you. In fact, if you came down the stairs from the city proper, there's a random fight waiting for you at the end of the hall.
+
+Wander around, but don't be afraid to run from most combats. In the four corners of town you'll find four statues. The NW corner has a statue of Irkalla `(p122)`, where you'll learn that she and Nergal don't always get along. (You knew this already if you visited Exposition Cavern.) `(U)se` Strength to move her statue and you'll find a locked chest (difficulty 3) with a bunch of Dragon Stones and the Glow Sword (1d30, +1 AV, STR 24, *Two-handers*).
+
+Speaking of Nergal, there's a statue of him `(p123)` in the NE corner. Apparently he hangs out in the Necropolis when he and Irkalla aren't getting along. He also has "a sense of humor", which might be an interesting thing to remember.
+
+The SW corner has a statue of the Universal God `(p124)`, which tells you more about Irkalla's son Roba than it does the Universal God. This is sort of a roundabout hint linking Irkalla and Roba (and his Skull) to the Sword of Freedom.
+
+Rounding out the set, the SE corner has a statue of Enkidu `(p125)`, but you met (and wrestled) him already and the paragraph doesn't have anything new to add.
+
+The one thing you really need to do here is visit the dragon in the center of the city. The entrance is on the E side; there's a secret door in the interior part of the wall with a locked door behind it. It's a sad dragon `(p126)`, and apparently it has a boo-boo. `(U)se` a Healing Potion on it and it will give you a Dragon Gem. (You can also cast any healing spell, or buy an Ankh from the [Mud Toad souvenir shop](things-and-stuff.md#souvenir-shop) for $50 and `(U)se` that instead.)
+
+**Merchants**: On the E side, just N of where you came in there's a healer, N of that is an [armor shop](things-and-stuff.md#exeters-fine-shield-and-armors), and N of that is a [weapons shop](things-and-stuff.md#doctor-deaths-killing-and-maiming-emporium).
+
+On the W side, the S-most building is "closed", but you can go through the secret door in the NW corner and find a [Druid Magic shop](things-and-stuff.md#magic-inc) where you can buy *D:Cure All,* the best group-cure spell in the game. You can also buy a copy of *D:Create Wall* in case you didn't pick it up in Phoebus.
+
+N of the magic shop is the [Ministry of EZ Paperwork](things-and-stuff.md#ministry-of-ez-paperwork), a shop where you can buy important papers like Citizenship Papers or the Governor's Pass. The "Kings Ticket" [sic] can be used on the N side by the docks to take a ferry to the Old Dock on King's Isle. I suppose that's useful if you don't have enough *Arcane Lore* to use the Nexus and don't want to enlist in Buck Ironhead's army (or destroyed Phoebus).
+
+Regardless of how you got here, go up the stairs to Lansk proper and exit the city; it's time to visit a new island. (Okay, if you already know what you're doing, you could go down to the Underworld, run over to the Mystic Wood, and take the Nexus to Quag if you want. I won't stop you.)
 
 ### You Can't Fight Here, This is the War Bridge
 
@@ -339,6 +363,8 @@ Enter the bridge to Quag. The guard asks for your pass, and (here's a first!) wi
 Murk Trees, I'm sorry to say, do 7d8 damage, which is potentially lethal if you don't have very good armor. And sometimes you have to face more than one of them. And there's one on the E side of this map, in a straight line off the bridge. Rather than face it, take a step to the N before exiting.
 
 If you're up for a bit of surreality, you can visit the Quag Information Bureau `(p47)` to the N after you cross the bridge. However, there's a random(?) chance that the ladies in the Information Bureau will attack you with *H:Big Chill*! Ow!
+
+## Quag Isle
 
 When you exit the bridge, you're on Quag. If anyone has *Forest Lore*, they'll notice that "something isn't right" about the woods ahead, which I guess is a hint (in case you walked around the Murk Tree on the War Bridge) that you're in for some weirdness. There's a Murk Tree directly ahead of you, so instead go 1N 3E and you'll wind up on the Transportation Nexus that takes you back to the Mystic Wood. (I mean, or maybe you used the Nexus to get here in the first place. Whatever.)
 
@@ -564,29 +590,11 @@ Once you're ready to leave, go through the (now unlocked) gate and exit Byzanopl
 
 ### Rescuing Irkalla (Magan Underworld)
 
-One of the plot points that we learned in Exposition Cavern involves the fact that Nergal and Irkalla don't seem to be getting along. When you visited Nergal in the Necropolis he made reference to being 'in exile' and that he knew what you were going to do with the Silver Key but didn't care. Let's not disappoint him.
+One of the plot points that we learned in Exposition Cavern involves the fact that Nergal and Irkalla don't seem to be getting along. (There's a reminder about this on the statues in the Lansk Undercity, if you happened to go there already.) When you visited Nergal in the Necropolis he made reference to being 'in exile' and that he knew what you were going to do with the Silver Key but didn't care. Let's not disappoint him.
 
 Take the Nexus to the Mystic Wood, climb down to the Underworld, and visit Irkalla's Realm. Head to the E shore and `(U)se` the Golden Boots to hop to the Isle of Woe, then `(U)se` the Silver Key to free Irkalla. She hands you 500 XP and a potion of water breathing (confusingly named the "Water Potion") and sends you out to the [Eastern Isles](#the-eastern-isles) to find Roba's Skull with instructions to bring it to the Dwarves afterwards. There are a few additional steps we need to take first, but we'll get there soon enough.
 
 The Silver Key should have been consumed rescuing Irkalla, but if it wasn't, you can drop it now.
-
-### Putting the "Fun" Back In "Funderworld" (Lansk Undercity)
-
-Remember that cesspool of bureaucracy, Lansk? Well, it turns out there's an underground city, too, and since we're in the Underworld anyway, we'll just use the basement entrance. If you're on King's, you could also take a ferry from the Old Dock directly to the Undercity for $500, or you could choose to find your way to Lansk topside and pay a bureaucrat at the Department of Lubrication a bunch of grease money. But this way's much easier; find the building between Irkalla's Realm and the Recharge Pool, then take the stairs up. Suddenly, it's like you're in New Orleans during Mardi Gras `(p121)`.
-
-You should be able to handle the fights down here, and there are plenty, but be aware that some of these can kill you.
-
-The one thing you really need to do here is visit the dragon in the center of the city. The entrance is on the E side; there's a secret door in the S of the interior part of the wall, with a locked door behind it. It's a sad dragon `(p126)`, and apparently it has a boo-boo. `(U)se` a Healing Potion on it and it will give you a Dragon Gem. (You can also cast any healing spell, or buy an Ankh from the [Mud Toad souvenir shop](things-and-stuff.md#souvenir-shop) for $50 and `(U)se` that instead.)
-
-If you take a tour of the corners, you can catch up on some of the mythology of the realm. In the NW corner there's a statue of Irkalla `(p122)`. `(U)se` Strength to move it, and you'll find a locked chest (difficulty 3) with a bunch of Dragon Stones and a Glow Sword (1d30, +1 AV), which requires STR 24 despite only being a one-handed weapon. Yikes! Nergal `(p123)` is in the NE corner, the Universal God `(p124)` in the SW corner, and Enkidu `(p125)` in the SE corner.
-
-**Merchants**: On the E side, just N of where you came in there's a healer, N of that is an [armor shop](things-and-stuff.md#exeters-fine-shield-and-armors), and N of that is a [weapons shop](things-and-stuff.md#doctor-deaths-killing-and-maiming-emporium).
-
-On the W side, the S-most building is "closed", but you can go through the secret door in the NW corner and find a [magic shop](things-and-stuff.md#magic-inc) where you can buy *D:Cure All,* the best group-cure spell in the game. You can also get a backup copy of *D:Create Wall*.
-
-N of the magic shop is the [Ministry of EZ Paperwork](things-and-stuff.md#ministry-of-ez-paperwork), a shop where you can buy important papers like Citizenship Papers or the Governor's Pass. The "Kings Ticket" [sic] can be used on the N side by the docks to take a ferry to the Old Dock on King's Isle. I suppose that's useful if you don't have enough *Arcane Lore* to use the Nexus.
-
-Opposite the magic shop there's a nasty combat, then stairs to the surface. These are one-way unless you've opened them from above, so I don't recommend ever taking them (because Lansk proper is an annoying place to be, and not just because of the bureaucracy). Head back out via the Underworld instead.
 
 ### I'm On A Boat (Smuggler's Cove)
 

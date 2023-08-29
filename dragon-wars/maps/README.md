@@ -31,7 +31,7 @@ A few notes on the notation used on the map pages:
 - [Phoeban Dungeon](phoeban-dungeon.md)
 - [Second Guard Bridge](guard-bridge-2.md)
 
-## Lansk
+## Isle of Lansk
 
 - [Lansk](lansk.md)
 - [Lansk Undercity](lansk-undercity.md)

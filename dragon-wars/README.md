@@ -514,12 +514,14 @@ Moved to its own page for length, but here's a table of contents:
   - [Phoebus](walkthrough.md#ss-is-the-key-combo-for-save-game-phoebus)
   - [Phoeban Dungeon](walkthrough.md#ridden-out-of-town,-on-rails-phoeban-dungeon)
   - [Guard Bridge #2](walkthrough.md#were-on-the-road-to-nowhere-guard-bridge-2)
+- [Isle of Lansk](walkthrough.md#isle-of-lansk)
   - [Lansk](walkthrough.md#the-most-boring-city-in-the-world-lansk)
-- [Quag Isle](walkthrough.md#quag-isle)
+  - [Lansk Undercity](walkthrough.md#putting-the-fun-back-in-funderworld-lansk-undercity)
   - [War Bridge](walkthrough.md#you-cant-fight-here-this-is-the-war-bridge)
+- [Quag Isle](walkthrough.md#quag-isle)
   - [Yellow Mud Toad](walkthrough.md#follow-the-yellow-mud-toad)
   - [Mystic Wood, Magan Underworld](walkthrough.md#jumpin-jack-flash-mystic-wood-magan-underworld) (side trip)
-  - [Smuggler's Cove](walkthrough.md#smugglers-blues-smugglers-cove)
+  - [Smuggler's Cove](walkthrough.md#smugglers-blues-smugglers-cove) (1)
   - [The Necropolis](walkthrough.md#all-we-wanna-do-is-eat-your-brains-the-necropolis)
 - [King's Isle](walkthrough.md#kings-isle)
   - [Bridge of Exiles, Snake Pit](walkthrough.md#le-roi-est-mort-bridge-of-exiles-snake-pit)
@@ -528,7 +530,6 @@ Moved to its own page for length, but here's a table of contents:
   - [Byzanople](walkthrough.md#the-siege-of-byzanople)
 - [The Eastern Isles](walkthrough.md#the-eastern-isles)
   - [Magan Underworld](walkthrough.md#rescuing-irkalla-magan-underworld)
-  - [Lansk Undercity](walkthrough.md#putting-the-fun-back-in-funderworld-lansk-undercity)
   - [Smuggler's Cove](walkthrough.md#im-on-a-boat-smugglers-cove) (2)
   - [Freeport](walkthrough.md#im-free-as-a-bird-now-freeport)
   - [Lanac'toor's Laboratory](walkthrough.md#and-see-whats-on-the-slab-lanactoorslaboratory)
@@ -607,7 +608,7 @@ The lowest-level characters with which I've ever beaten the game (without multip
 
 Much of the contents of this guide are based off of work I did to rip apart, decompile, and reassemble the data files from the IBM PC version of *Dragon Wars*. If you want to peek over my shoulder and see what I did, you should check out [my GitHub repository](https://github.com/fraterrisus/dragonwars-crack). There's a fairly extensive `doc/` directory in that repo with notes on the data format, and the Gradle file can be used to generate a number of `jars` that will decompile the data files for you.
 
-I've written up more extensive notes for each board alongside hand-drawn maps based on that decompliation work in the [`maps`](maps/) directory; you can check those out for more spoilers, or just use the maps.
+I've written up more extensive notes for each board alongside hand-drawn maps based on that decompliation work in the [`maps`](maps/) directory; you can check those out for more spoilers, or just use the maps.
 
 ### The Speed Run
 

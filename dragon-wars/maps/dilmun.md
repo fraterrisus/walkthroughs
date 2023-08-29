@@ -38,7 +38,7 @@ The ruins of **[Tars](tars-ruins.md) (21,04)** and its dungeon.
 
 **[Guard Bridge #2](guard-bridge-2.md) (14,12):** Connects you to Lansk.
 
-### Lansk
+### Isle of Lansk
 
 **[Guard Bridge #2](guard-bridge-2.md) (14,12):** Connects you to Sun.
 

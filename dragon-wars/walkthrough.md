@@ -642,7 +642,7 @@ Here's the thing: the Lab *sucks*. The fights are annoying and frequent, the mon
 
 1W of where you enter the lab there's an extremely helpful journal among the rubble `(p107)`. Reading it, you learn of the existence of the Magic College, and a hint that you'll need Lanac'toor's spectacles to find the entrance. You'll also learn that there's an entrance to the Magan Underworld that should maybe be sealed up with *D:Create Wall*, and that *D:Soften Stone* is going to be handy, but you should watch out for pockets of water. All of this is true, but the spectacles are the reason we're here.
 
-You can `(U)se` *Cave Lore* to determine whether *Softening* a wall will cause it to flood you or not, but that's probably more trouble than it's worth and there's only one place we need to go. If you're willing to blow a bunch of spell points and get out of here as quickly as possible – and you should be – do this: from the entrance, go 4S 2W 1S 1W 1S 2W. There's a wall in front of you; *Soften* it. Then go 1W 1S and cast *D:Soften Stone* again. This gets you into the treasure room and probably drains most of Louie's Power. Go 3S to find some spell scrolls, 1W from there to find the Spectacles, and 2W 1N from there to find a locked chest (difficulty 4).
+You can have Ulrik `(U)se` *Cave Lore* to determine whether *Softening* a wall will cause it to flood you or not, but that's probably more trouble than it's worth and there's only one place we need to go. If you're willing to blow a bunch of spell points and get out of here as quickly as possible – and you should be – do this: from the entrance, go 4S 2W 1S 1W 1S 2W. There's a wall in front of you; *Soften* it. Then go 1W 1S and cast *D:Soften Stone* again. This gets you into the treasure room and probably drains most of Louie's Power. Go 3S to find some spell scrolls, 1W from there to find the Spectacles, and 2W 1N from there to find a locked chest (difficulty 4).
 
 The useful things you get:
 
@@ -650,15 +650,15 @@ The useful things you get:
 - Lanac'toor's Spectacles, which will get you into the [Magic College](#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college)
 - Battle Wand, which casts *H:Battle Power*
 - another Healing Potion, but this one casts the group-heal *S:Major Healing.* Good luck remembering which potion is which.
-- *S:Fire Storm*, horribly inefficient, but has a longer range than *S:Inferno*
+- *S:Fire Storm*, which is horribly inefficient but has a longer range than *S:Inferno*
 - *M:Zak's Speed*, which grants +15 DEX
 - *M:Kill Ray*, zap 10-80 at 50'
 
 Miscellaneous Magic spells have a pretty high point cost, but they can be taught to anyone with (at least) Low Magic, which at this point may very well be your entire party. Remember what I said about *S:Charger* a few minutes ago? Go hang out by the Recharge Pool, *Charge* each scroll seven times, and now everyone in your party has a long-range high-damage zap spell.
 
-Now get the heck out of here. You can either retrace your steps, or go to the SE corner of the room and *Soften* the S wall. In the center of the square room there you'll find a one-way staircase down to the Magan Underworld, which is probably where you're going next anyway since you've spent all your spell points on *D:Soften Stone*.
+Since we're heading to the Underworld anyway, go to the SE corner of the room and *Soften* the S wall. In the center of the square room there you'll find a one-way staircase down to the Magan Underworld.
 
-There isn't anything else useful or interesting here. If you feel like wandering around a bunch more, you can cast *D:Create Wall* at the staircase down to the Underworld, and it will remove all encounters (including both the fixed ones and the random ones) from the map. Note that if you are standing *on* the staircase when you cast it, you build a wall around yourself and the only way out is down to the Underworld, which isn't such a bad choice.
+There isn't anything else useful or interesting in the lab. If you feel like wandering around a bunch more, you can cast *D:Create Wall* at the staircase down to the Underworld, and it will remove all encounters (including both the fixed ones and the random ones) from the map. Note that if you are standing *on* the staircase when you cast it, you build a wall around yourself and the only way out is down to the Underworld, which isn't such a bad choice.
 
 ### Killed H'self a B'ar When He Was Only Three (Game Preserve)
 

@@ -10,7 +10,7 @@ East: [Quag](dilmun.md) (26,08), which allows you to skip a Murk Tree fight.
 
 South: [Quag](dilmun.md) (25,07), which doesn't.
 
-There's also the hidden staircase down to [Lanac'toor's Laboratory](lanactoors-laboratory.md), once you repair the statue at (07,10).
+There's also the hidden staircase down to [Lanac'toor's Laboratory](lanactoor.md), once you repair the statue at (07,10).
 
 ## Points of Interest
 
@@ -20,7 +20,7 @@ There's also the hidden staircase down to [Lanac'toor's Laboratory](lanactoors-l
 
 **The Cavern Tavern (12,14):** The barkeep knows a bunch of interesting gossip, but there's no one to recruit here. However, if you navigated [Phoebus](phoebus.md) correctly, Berengaria is waiting for you at (13,14). Disappointingly, this doesn't advance the plot any, but you do receive scrolls of *S:Rage of Mithras, S:Holy Aim, S:Armor of Light, S:Major Healing*, and *S:Summon Salamander*.
 
-**The Statue of Lanac'toor (07,10):** Read paragraph #20. If you collect the four stone body parts from around Dilmun, you can use them here to repair the statue, which nets you 500 XP and opens the stairs down to [Lanac'toor's Laboratory](lanactoors-laboratory.md).
+**The Statue of Lanac'toor (07,10):** Read paragraph #20. If you collect the four stone body parts from around Dilmun, you can use them here to repair the statue, which nets you 500 XP and opens the stairs down to [Lanac'toor's Laboratory](lanactoor.md).
 
 **The Temple of the Mud Toad (04,13):** Read paragraph #17 to receive the quest to stop the Mud Leak. Once you seal up the leak, return here and read paragraph #113 to receive the **Golden Boots** (+2 AC, allows jumping).
 

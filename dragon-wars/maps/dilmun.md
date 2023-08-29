@@ -54,7 +54,7 @@ The ruins of **[Tars](tars-ruins.md) (21,04)** and its dungeon.
 
 **Transportation Nexus (22,13)**.
 
-**[Yellow Mud Toad](yellow-mud-toad.md) (25,08)** and Lanac'toor's Laboratory, which connects to the [Underworld](magan-underworld.md).
+**[Yellow Mud Toad](mud-toad.md) (25,08)** and Lanac'toor's Laboratory, which connects to the [Underworld](magan-underworld.md).
 
 **[Smuggler's Cove](smugglers-cove.md) (24,13)**, which contains a Boat Dock (eventually).
 

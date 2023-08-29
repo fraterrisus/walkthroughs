@@ -39,7 +39,8 @@ A few notes on the notation used on the map pages:
 
 ## Quag
 
-- Yellow Mud Toad
+- [Yellow Mud Toad](mud-toad.md)
+- Lanac'toor's Laboratory
 - Smuggler's Cove
 
 ## Necropolis
@@ -68,7 +69,7 @@ A few notes on the notation used on the map pages:
 ## Eastern Isles
 
 - Freeport
-- Sunken Ruins (topside)
+- Sunken Ruins (above)
 - Sunken Ruins (below)
 - Dragon Valley
 

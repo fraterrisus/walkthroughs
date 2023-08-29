@@ -41,7 +41,7 @@ A few notes on the notation used on the map pages:
 
 - [Yellow Mud Toad](mud-toad.md)
 - [Lanac'toor's Laboratory](lanactoor.md)
-- Smuggler's Cove
+- [Smuggler's Cove](smugglers-cove.md)
 
 ## Necropolis
 

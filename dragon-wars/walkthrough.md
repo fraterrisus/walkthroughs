@@ -432,7 +432,7 @@ Follow the hallway most of the way around. When you can see the end of the tunne
 
 Advance to the end of the tunnel and encounter Nergal `(p114)`. He drops you into a fight with Goblins, Ghouls, a Wraith, and some Skeletons. (The numbers are random, so if you get swamped you might benefit from run-and-retry or kill-emulator-and-reload.) Your strategy looks like this: blow all your Power and recharge as fast as you can. Wraiths breathe on you, so have your fighters cast zap spells on round 1, and use *S:Exorcism* (don't forget the Holy Mace) until he dies. Drop *H:Poog's Vortex* and *D:Fire Blast* on the Ghouls and Goblins, then mop up in melee. (If you have to pick, focus magic on Ghouls and melee on Goblins.) You should have a couple of 'off' turns where you can heal, recharge, and reorder your party if you need to. You should also take care of everyone nearby before the Skeletons even get close. Pepper them from distance and mop up in melee if needed.
 
-When you win, Nergal is amused `(p115)`. Give him the Mushrooms you picked in the Mystic Wood. He then demands that one of your party members serve him; pick anybody. Nergal does the classic circus geek trick `(p93)`, with a pleasant twist. In return, you get a few words of warning, the Silver Key(!), and some loot. The Holy Spear (1d30) is a thrown weapon. *H:Fire Light, D:Insect Plague,* and *D:Scare* are duplicates. The big winners are *H:Big Chill*, which is a zap-all version of Poog's Vortex, and *S:Inferno,* which is hands-down the most useful zap spell in the game: zap-all within a decent range (40') and good damage at variable power (1d4 / pt).
+When you win, Nergal is amused `(p115)`. Give him the Mushrooms you picked in the Mystic Wood. He then demands that one of your party members serve him; pick anybody. Nergal does the classic circus geek trick `(p93)` with a pleasant twist. In return, you get a few words of warning, the Silver Key(!), and some loot. The Holy Spear (1d30) is a thrown weapon. *H:Fire Light, D:Insect Plague,* and *D:Scare* are duplicates. The big winners are *H:Big Chill*, which is a zap-all version of Poog's Vortex, and *S:Inferno,* which is hands-down the most useful zap spell in the game: zap-all within a decent range (40') and good damage at variable power (1d4 / pt).
 
 You can drop the Mushrooms. Next time you're in the Underworld you can use the Silver Key to rescue Irkalla, but you may not get the chance right away. We'll get there [eventually](#rescuing-irkalla-magan-underworld), but for now let's find a way out of here. Retrace your steps to the N half of the map. Go past the door to the Guardian room, then turn E and follow the wall all the way to the end of the map. 3S from the corner is a door to the E.
 
@@ -445,7 +445,7 @@ Either way, at the end of the labyrinth there's a portal of power. `(U)se` *Arca
 - Dilmun, just N of Purgatory
 - Dilmun, just S of the Slave Camp
 - the Forlorn Guard Bridge
-- the entrance of Mud Toad
+- the entrance to Mud Toad
 - the statue of Irkalla in Smuggler's Cove
 - the E entrance to the Bridge of Exiles
 - the Necropolis boat dock

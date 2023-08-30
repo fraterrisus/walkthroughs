@@ -45,7 +45,7 @@ A few notes on the notation used on the map pages:
 
 ## Necropolis
 
-- Necropolis
+- [Necropolis](necropolis.md)
 
 ## King's Isle
 

@@ -51,9 +51,9 @@ A few notes on the notation used on the map pages:
 
 - [Kingshome](kingshome.md)
 - [Kingshome Dungeon](kingshome-dungeon.md)
-- Siege Camp
-- Byzanople
-- Byzanople Dungeon
+- [Siege Camp](siege-camp.md)
+- [Byzanople](byzanople.md)
+- [Byzanople Dungeon](byzanople-dungeon.md)
 - Dwarf Ruins
 - Dwarf Clan Hall
 - [Bridge of Exiles](bridge-of-exiles.md)

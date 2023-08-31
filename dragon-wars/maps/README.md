@@ -58,7 +58,7 @@ A few notes on the notation used on the map pages:
 - Dwarf Clan Hall
 - [Bridge of Exiles](bridge-of-exiles.md)
 - [Snake Pit](snake-pit.md)
-- Old Dock
+- [Old Dock](old-dock.md)
 
 ## Rustic
 
@@ -75,7 +75,7 @@ A few notes on the notation used on the map pages:
 
 ## Salvation
 
-- Pilgrim Dock
+- [Pilgrim Dock](pilgrim-dock.md)
 - Salvation
 - Depths of Nisir
 

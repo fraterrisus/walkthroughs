@@ -56,8 +56,8 @@ A few notes on the notation used on the map pages:
 - Byzanople Dungeon
 - Dwarf Ruins
 - Dwarf Clan Hall
-- Bridge of Exiles
-- Snake Pit
+- [Bridge of Exiles](bridge-of-exiles.md)
+- [Snake Pit](snake-pit.md)
 - Old Dock
 
 ## Rustic

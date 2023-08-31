@@ -49,8 +49,8 @@ A few notes on the notation used on the map pages:
 
 ## King's Isle
 
-- Kingshome
-- Kingshome Dungeon
+- [Kingshome](kingshome.md)
+- [Kingshome Dungeon](kingshome-dungeon.md)
 - Siege Camp
 - Byzanople
 - Byzanople Dungeon
@@ -63,7 +63,7 @@ A few notes on the notation used on the map pages:
 ## Rustic
 
 - Game Preserve
-- [Scorpion Bridge](scorpion-bridge.md)
+- Scorpion Bridge
 - Magic College
 
 ## Eastern Isles

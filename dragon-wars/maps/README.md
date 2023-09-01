@@ -69,8 +69,8 @@ A few notes on the notation used on the map pages:
 ## Eastern Isles
 
 - [Freeport](freeport.md)
-- Sunken Ruins (above)
-- Sunken Ruins (below)
+- [Sunken Ruins (above)](sunken-ruins.md)
+- [Sunken Ruins (below)](sunken-dungeon.md)
 - [Dragon Valley](dragon-valley.md)
 
 ## Salvation

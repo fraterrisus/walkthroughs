@@ -759,7 +759,7 @@ The submerged part is also quite small, and wraps around on itself. *S:Guidance*
 
 Return to the main stairs, then go 4N 2E and `(U)se` *Lockpick* on the locker — this is a level 2 door, not a chest. The Bloated Corpses go down pretty quickly, and the Dragon Plate (+14 AC, -3 AV) is really nice armor. The Dragon Sword (4d20, +3 AV, *Two-handers*, requires STR 21) and Trident (2d20 at 40', *Thrown Weapons* but it comes back after each throw) would also be good weapons if you didn't have the Teeth.
 
-As an aside, the only weapons that can beat the Dragon Teeth on pure damage are the Holy Lance, Spiked Flail, Dragon Sword, and the Heavy Sword (found in Nisir). But none of those have range, several of them are Two-handers so they need enormous STR to use, and you can't beat +8 AV. Unless you're the Sword of Freedom (1d100, +15 AV, +5 AC).
+As an aside, the only weapons that can beat the Dragon Teeth on pure damage are the Holy Lance, Spiked Flail, Dragon Sword, and Heavy Sword (found in Nisir). But none of those have range, several of them are Two-handers so they need enormous STR to use, and you can't beat +8 AV. Unless you're the Sword of Freedom (1d100, +15 AV, +5 AC).
 
 From the main stairs again, go 2S 1W 1N through a secret door. A locked chest (difficulty 3) holds three of the Useless Quartet (*H:Earth Summon, H:Air Summon, H:Water Summon*) and a batch of Dragon Stones that you might not need right now.
 

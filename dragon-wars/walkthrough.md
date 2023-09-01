@@ -668,7 +668,7 @@ There isn't anything else useful or interesting in the lab. If you feel like wan
 
 FYI, Rustic is a completely optional side trip – there's a few bits of story here and a chance to collect a bunch of High Magic and Druid Magic spells, but nothing that you have to do in order to beat the game. You can skip the next three sections completely and [sail towards](#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley) the Sunken Ruins instead if you want.
 
-That being said, make sure you have [Lanac'toor's Spectacles](#and-see-whats-on-the-slab-lanactoors-laboratory) and the [Enkidu Totem](#jumpin-jack-flash-mystic-wood-magan-underworld), then head back to Pirates' Cove and take the boat to **Rustic**. The Royal Game Preserve is 4W 1S from where the boat drops you. The best entry is from the N, which puts you on the W side of the river. If you `(U)se` *Forest Lore*, it tells you that there's probably a gamewarden here, and in fact the forest is full of snare traps – you can `(U)se` Strength (18 required) to break the ropes if you get caught, but it's probably worth just keeping a few points of *H:Sense Traps* running while you're here.
+That being said, make sure you have [Lanac'toor's Spectacles](#and-see-whats-on-the-slab-lanactoors-laboratory) and the [Enkidu Totem](#jumpin-jack-flash-mystic-wood-magan-underworld), then head back to Pirates' Cove and take the boat to **Rustic**. The Royal Game Preserve is 4W 1S from where the boat drops you. The best entry is from the N, which puts you on the W side of the river. If you `(U)se` *Forest Lore*, it tells you that there's probably a gamewarden here, and in fact the forest is full of snare traps – you can `(U)se` Strength (18 required) or any weapon to break the ropes if you get caught, but it's probably worth just keeping a few points of *H:Sense Traps* running while you're here.
 
 Likewise, your *Tracker* will tell you that there's probably game to be found near the river. Find the ford/bridge and `(U)se` *Tracker* or *Hiding* to meet a Stag. Kill it — if it's just going to stand there and wait for you, I recommend closing to 20' and shooting it with your Gatlin Bow — and you'll run into Old Jack `(p92)`, the warden of the preserve. `(U)se` your Signet Ring and break the bad news to him `(p74)`. You get a Magic Bow (70', +4 AV) out of the deal, although you found one of those already. It's not a bad idea to hang on to it, even only temporarily, because you'll need your mages to be able to deal physical damage in the next section. A weapon with 70' range is also handy against some of the wandering forest monsters.
 
@@ -682,7 +682,7 @@ The only other thing the Game Preserve is good for is racking up XP, but the fig
 
 The rest of Rustic Isle is empty. You'll find the Scorpion Bridge in the SE corner `(p48)`, so named because of the two scorpion/person guardians. You don't want to rumble with these two. Instead, `(U)se` the Enkidu Totem to get past. You have a two-square-wide path to choose from; stick to the N. When you enter the bridge you'll find a side tunnel to the N, at the end of which is another Magic Shield (+3 AC) and another Barbed Flail (1d30, +2 AC). These fights aren't too bad, but if you don't have the Totem, the fight with the guard scorpions can be brutal. Don't go down the side tunnel to the S; there's nothing there.
 
-Exit the Scorpion Bridge and head to the NE. The only thing on this side of the bridge is the Magic College. You can drop the Enkidu Totem (you don't need it to get back across the bridge).
+Exit the Scorpion Bridge and head to the NE. The only thing on this side of the bridge is the Magic College.
 
 Once you find the College, walk around the outside of the building until you see tracks (in the SW corner). `(U)se` *Arcane Lore* for a hint, but *H:Reveal Glamour* won't work; face the building and `(U)se` the Spectacles. (It makes you wonder how anyone besides Lanac'toor gets in here.) Utnapishtim the Faraway, the master of the college, welcomes(?) you and will now pose you several puzzles. A "final exam", if you will. You have to solve a puzzle in each room to advance, usually by casting a spell. Don't ever take a step into the room, just do the right thing, and you'll be teleported to the next room immediately. (Sometimes this is a bit of a visual trick, such as room 2 to room 3.)
 
@@ -696,7 +696,7 @@ Once you find the College, walk around the outside of the building until you see
 
 The complete list of scrolls: *H:Fire Light, H:Elvar's Fire, H:Poog's Vortex, H:Ice Chill, H:Big Chill, H:Dazzle, H:Group Heal, H:Fire Summon*
 
-You can drop the Spectacles. Or, keep them; if you're a glutton for punishment, you can use them to take the test again. Just make sure you leave the map and come back or else one of the doors won't reset properly.
+You can drop the Spectacles. Or, keep them; if you're a glutton for punishment, you can use them to take the test again. Just make sure you leave the map and come back or else one of the doors won't reset properly. You can also drop the Enkidu Totem (you won't need it to get back across the bridge).
 
 ### Pepsi Brings Your Ancestors Back From The Dead (Mystic Wood)
 

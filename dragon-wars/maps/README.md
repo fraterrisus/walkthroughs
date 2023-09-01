@@ -63,7 +63,7 @@ A few notes on the notation used on the map pages:
 ## Rustic
 
 - [Game Preserve](game-preserve.md)
-- Scorpion Bridge
+- [Scorpion Bridge](scorpion-bridge.md)
 - Magic College
 
 ## Eastern Isles

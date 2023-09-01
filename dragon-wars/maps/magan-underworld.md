@@ -6,23 +6,23 @@ The Underworld serves as a map that joins several places "Topside" (i.e. in Dilm
 
 There are no fixed combats down here (at least until the endgame), but plenty of wandering monsters (1 in 50). Many of them count as "Undead" for the purposes of using *S:Exorcism*.
 
-The map is also dark, so you'll need to bring a light source with you.
+The map is also **dark**, so you'll need to bring a light source with you.
 
 ## Exits
 
-(13,04): Stairs up to [Purgatory](purgatory.md) ()
+(13,04): Stairs up to [Purgatory](purgatory.md) (07,12)
 
-(19,04): Stairs up to [Tars Underground](tars-underground.md) ()
+(19,04): Stairs up to [Tars Underground](tars-underground.md) (00,05)
 
-(16,14): Stairs up to the [Lansk Undercity](lansk-undercity.md) ()
+(16,14): Stairs up to the [Lansk Undercity](lansk-undercity.md) (14,05)
 
-(27,16): Stairs up to the [Necropolis](necropolis.md); you can't actually get to the Well of Souls building unless you came down from the Necropolis in the first place, so don't try using *Soften Stone* or anything.
+(27,16): Stairs up to the [Necropolis](necropolis.md) (00,07); you can't actually get to the Well of Souls building unless you came down from the Necropolis in the first place, so don't try using *Soften Stone* or anything.
 
-(02,06): Stairs up to the [Mystic Wood](mystic-wood.md) ()
+(02,06): Stairs up to the [Mystic Wood](mystic-wood.md) (04,15)
 
 (10,21): Stairs up to the [Dwarf Clan Hall](dwarf-clan-hall.md) forge (00,08)
 
-(19,19): Stairs up to [Salvation](salvation.md) ()
+(19,19): Stairs up to [Salvation](salvation.md) (03,04)
 
 ## Points of Interest
 

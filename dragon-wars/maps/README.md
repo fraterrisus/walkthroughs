@@ -71,7 +71,7 @@ A few notes on the notation used on the map pages:
 - [Freeport](freeport.md)
 - Sunken Ruins (above)
 - Sunken Ruins (below)
-- Dragon Valley
+- [Dragon Valley](dragon-valley.md)
 
 ## Salvation
 

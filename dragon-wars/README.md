@@ -388,9 +388,9 @@ Some random notes I've collected on my journeys through Dilmun...
 
 I mentioned this already under [Health and Stun](#health-and-stun), but I find the "target a slot, not a party member" thing to be very strange and also very annoying. "Hey, *you're* not Thog!"
 
-There are a few maps that allow you to use *D:Soften Stone* to pass through the ostensible "outer" walls of the map. Sometimes (the Kingshome dungeon, Dwarf Clan Hall, the +5 AP leap of faith in the Underworld) this allows you to go wandering so far off-course that the automap stops drawing anything. If you keep moving far enough in one direction, the map will eventually wrap around and you'll find the opposite edge of the map, like Columbus trying to find India. My guess is that happens at 256 steps but I haven't bothered to count. You rarely find anything interesting out there except the odd random encounter, so this is more of a curiosity than anything.
+There are a few maps that allow you to use *D:Soften Stone* to pass through the ostensible "outer" walls of the map. If the map doesn't have the "wrapping" flag set (i.e. the Kingshome Dungeon, Dwarf Clan Hall) this allows you to go wandering so far off-course that the automap stops drawing anything. If you keep moving far enough in one direction, the map will eventually wrap around and you'll find the opposite edge of the map, like Columbus trying to find India. Since the X and Y coordinates of your party are kept in 8-bit registers, this seems to happen at 256 steps. You won't find anything interesting out there except the odd random encounter, so this is more of a curiosity than anything.
 
-If you're running around inside the outer walls of Purgatory, and you encounter some King's Guard, and you run away, the game dumps you back at the start square as if you've been "captured" again. (At least it doesn't take all our inventory and gold.)
+If you're running around inside the outer walls of Purgatory, and you encounter some King's Guard, and you run away, the game dumps you back at the start square as if you've been "captured" again. (At least it doesn't take all your inventory and gold.)
 
 When you see a low wooden fence, you can cast *D:Soften Stone* on it. The fence goes away, but nothing else changes. If you weren't able to move through/past the fence before, you still can't.
 

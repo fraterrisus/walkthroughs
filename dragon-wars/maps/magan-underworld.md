@@ -10,15 +10,19 @@ The map is also dark, so you'll need to bring a light source with you.
 
 ## Exits
 
-The map wraps, so all exits are "stairs" up to a Topside location:
+(13,04): Stairs up to [Purgatory](purgatory.md) ()
 
-- [Purgatory](purgatory.md) (13,04)
-- [Tars Underground](tars-underground.md) (19,04)
-- [Lansk Undercity](lansk-undercity.md) (16,14)
-- [Necropolis](necropolis.md) (27,16): You can't actually get to the Well of Souls building unless you came down from the Necropolis in the first place, so don't try using *Soften Stone* or anything.
-- [Mystic Wood](mystic-wood.md) (02,06)
-- [Dwarf Clan Hall](dwarf-clan-hall.md) forge (10,21)
-- [Salvation](salvation.md) (19,19)
+(19,04): Stairs up to [Tars Underground](tars-underground.md) ()
+
+(16,14): Stairs up to the [Lansk Undercity](lansk-undercity.md) ()
+
+(27,16): Stairs up to the [Necropolis](necropolis.md); you can't actually get to the Well of Souls building unless you came down from the Necropolis in the first place, so don't try using *Soften Stone* or anything.
+
+(02,06): Stairs up to the [Mystic Wood](mystic-wood.md) ()
+
+(10,21): Stairs up to the [Dwarf Clan Hall](dwarf-clan-hall.md) forge (00,08)
+
+(19,19): Stairs up to [Salvation](salvation.md) ()
 
 ## Points of Interest
 

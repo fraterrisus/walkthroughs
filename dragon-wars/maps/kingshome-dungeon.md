@@ -2,7 +2,7 @@
 
 ![map](kingshome-dungeon.svg)
 
-Plenty of random encounters (1 in 100), as if the fixed ones you have to fight weren't bad enough. You also need a light and a compass. The map doesn't have the "wrapping" bit set, which means if you *Soften* a wall and go running around in the backstage area, you find lots of weird territory to run through.
+Plenty of random encounters (1 in 100), as if the fixed ones you have to fight weren't bad enough. You also need a **light** and a **compass**. The map doesn't have the "wrapping" bit set, which means if you *Soften* a wall and go running around in the backstage area, you find lots of weird territory to run through that the automap doesn't know how to draw or keep track of.
 
 ## Exits
 

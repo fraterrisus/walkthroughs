@@ -20,7 +20,7 @@ If you killed everyone in camp, then the door to his treasure room is locked (le
 
 **The Arms Cache (07,07):** Hidden in a little alcove behind the wizard's house is a locked chest (difficulty 1): Scrolls of *H:Healing*, *H:Cloak Arcane*, *H:Sense Traps*, and *D:Scare*, plus **Chain Armor**, and two each **Leather** (+3 AC, -1 AV) and **Brigandine** (+4 AC, -1 AV).
 
-There's an odd bug; the flag that determines whether you've raided this chest was [accidentally?] reused for the chest in the [Dwarf Ruins](dwarf-ruins.md) that holds the **Dwarven Hammer**. The High Magic scrolls in this chest are unique, though.
+There's an odd bug; the flag that determines whether you've raided this chest was [accidentally?] reused for the chest in the [Dwarf Ruins](dwarf-ruins.md) that holds the **Dwarf Hammer**. The High Magic scrolls in this chest are unique, though, and you need this armor now more than you need that weapon then.
 
 **The Sick Man (10,06):** When you visit him (08,07), there's a 1 in 20 chance that he goes mad and attacks you (although he'll immediately flee). Otherwise, you have the chance to heal him (use *Bandage* or any healing spell), in which case he gives you a little bit of exposition. In either case you can find copies of *D:Greater Heal* and *S:Sun Stroke* here.
 
@@ -50,7 +50,7 @@ And you'll have to fight off the Spirit Ward to get at the wizard's treasure:
 
 **Spirit Ward:** STR 01 DEX 19 INT 20 SPR 20, HD:10d6+0 (10-60), AV+1 DV+0, att:1, morale:8, spd:10', XP:500
 
-- Attacks: *H:Elvar's Fire*, *H:Fire Light*, 7d4
+- Attacks: *H:Elvar's Fire*, *H:Fire Light*, 7d4
 
 ------
 

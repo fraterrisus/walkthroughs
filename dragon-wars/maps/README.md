@@ -54,8 +54,8 @@ A few notes on the notation used on the map pages:
 - [Siege Camp](siege-camp.md)
 - [Byzanople](byzanople.md)
 - [Byzanople Dungeon](byzanople-dungeon.md)
-- Dwarf Ruins
-- Dwarf Clan Hall
+- [Dwarf Ruins](dwarf-ruins.md)
+- [Dwarf Clan Hall](dwarf-clan-hall.md)
 - [Bridge of Exiles](bridge-of-exiles.md)
 - [Snake Pit](snake-pit.md)
 - [Old Dock](old-dock.md)

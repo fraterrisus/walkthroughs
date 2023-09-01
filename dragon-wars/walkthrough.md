@@ -700,13 +700,13 @@ You can drop the Spectacles. Or, keep them; if you're a glutton for punishment, 
 
 ### Pepsi Brings Your Ancestors Back From The Dead (Mystic Wood)
 
-Let's make good use of that Soul Bowl. From the Magic College, cross the Scorpion Bridge (a couple of fights there), go W, N, and E and back to your boat. Take it to Smuggler's Cove, then hit the Quag Nexus and return to the Mystic Wood. Head back to the Underworld if you need to recharge.
+Let's make good use of that Soul Bowl. From the Magic College, cross the Scorpion Bridge (a couple of fights there), go W, N, and E and back to your boat. Take it to Smuggler's Cove, then hit the Nexus on Quag and return to the Mystic Wood. Head back to the Underworld if you need to recharge.
 
-From the Nexus go 2W 4S to find Zaton's monument, and `(U)se` the Soul Bowl `(p79)`. You get 500 XP plus a large selection of Druid Magic, much of which you already have, but you can actually give Louie a complete set of spells now, if you want.
+From the Nexus go 2W 4S to find Zaton's monument and `(U)se` the Soul Bowl `(p79)`. You get 500 XP plus a large selection of Druid Magic, much of which you already have. You can actually give Louie a complete set of spells now, if you want.
 
 The list: *D:Brambles* (unique! but still useless!), *D:Greater Heal, D:Cure All, D:Create Wall, D:Invoke Spirit* (also unique! also useless!), *D:Beast Call, D:Wood Spirit.*
 
-Raising Zaton's spirit also gets rid of all random encounters on this map, which would be nice if we ever planned to come back here, but this is the last time you have to return to the Mystic Wood. I promise. Apart from using it to get between the Underworld and the Nexus.
+Raising Zaton's spirit also gets rid of all random encounters on this map, which would be nice if we ever planned to come back here, but I *promise* you this is the last time you have to return to the Mystic Wood. Apart from using it to get between the Underworld and the Nexus, of course.
 
 You can drop the Soul Bowl.
 

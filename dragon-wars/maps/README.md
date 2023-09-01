@@ -64,7 +64,7 @@ A few notes on the notation used on the map pages:
 
 - [Game Preserve](game-preserve.md)
 - [Scorpion Bridge](scorpion-bridge.md)
-- Magic College
+- [Magic College](magic-college.md)
 
 ## Eastern Isles
 

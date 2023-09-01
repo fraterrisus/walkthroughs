@@ -62,13 +62,13 @@ A few notes on the notation used on the map pages:
 
 ## Rustic
 
-- Game Preserve
+- [Game Preserve](game-preserve.md)
 - Scorpion Bridge
 - Magic College
 
 ## Eastern Isles
 
-- Freeport
+- [Freeport](freeport.md)
 - Sunken Ruins (above)
 - Sunken Ruins (below)
 - Dragon Valley

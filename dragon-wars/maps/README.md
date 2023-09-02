@@ -76,6 +76,6 @@ A few notes on the notation used on the map pages:
 ## Salvation
 
 - [Pilgrim Dock](pilgrim-dock.md)
-- Salvation
+- [Salvation](salvation.md)
 - Depths of Nisir
 

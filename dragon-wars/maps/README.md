@@ -1,12 +1,12 @@
 # Maps
 
-This directory contains annotated SVG maps of every board in the game along with Markdown files describing all of the various items, monsters, and points of interest. There's more detail here than there is in the [walkthrough](../walkthrough.md), including a bunch of easter eggs and other random tidbits that aren't necessarily relevant. They're probably more useful if you're going through the game multiple times and want the "completionist" experience.
+This directory contains annotated SVG maps of every board in the game along with Markdown files describing all of the various items, monsters, and points of interest. There's more detail here than there is in the [walkthrough](../walkthrough.md), including a bunch of easter eggs and other random tidbits that aren't necessarily relevant. They're probably more useful if you're going through the game multiple times and want the "complete" experience.
 
 A few notes on the notation used on the map pages:
 
 - Some monsters exist more than once on a given board's monster list. This data is taken straight from the decompiled files, so if they're on the list twice, they're in the data twice. There's usually no way to tell them apart in-game, even though they may have significantly different statistics and/or abilities. Sorry.
 - Monster AV and DV values are *bonuses*; they don't include the base DEX / 4 value. A monster's STR, INT, and SPR aren't actually used anywhere in combat calculations, but DEX is.
-- I've listed all possible attacks for a given monster. Monsters pick their action based on their morale, whether or not they've been damaged, and whether or not the party is in melee range, so you may never see some of these attacks. If you want to know more, you should go read my extensive notes in the [decompilation library](https://github.com/fraterrisus/dragonwars-crack).
+- I've listed all possible attacks for a given monster. Monsters pick their action based on their morale, whether or not they've been attacked or damaged, and whether or not the party is in melee range, so you may never see some of these attacks. If you want to know more, you should go read my extensive notes in the [decompilation library](https://github.com/fraterrisus/dragonwars-crack).
 - Monster melee attacks (i.e. "3d6") deal full-value Stun damage and half as much Health. Stun-only attacks ("1d8 stun") deal **full** Stun and **zero** Health, while Health-only attacks ("1d4 health") deal **zero** Stun and **half** Health. That's just how the game data tracks it. There are also quarter-strength attacks ("4d8 x ¼"), attacks that ignore armor ("3d6 piercing"), and breath weapons that hit everyone in the party ("1d8 breath"). Monsters may also attempt to "flee" and "call for help".
 
 ## Outside
@@ -77,5 +77,5 @@ A few notes on the notation used on the map pages:
 
 - [Pilgrim Dock](pilgrim-dock.md)
 - [Salvation](salvation.md)
-- Depths of Nisir
+- [Depths of Nisir](nisir.md)
 

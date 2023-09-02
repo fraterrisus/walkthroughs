@@ -34,7 +34,7 @@ Speaking of sacrifices, let's go visit Irkalla. Due S of the Low Magic Shop ther
 
 (In case you didn't get what I was talking about, the "right hand rule" of dungeon exploration is a metaphor that implies that you're touching the wall with your right hand as you move forward, so as the wall turns, you turn with it.)
 
-This isn't a bad time for your first visit to the [Underworld](maps/magan-underworld.md), but first a note: if you get into a random encounter down there, **run**. You'll need a light source, but *L:Mage Light* works just fine. Good things to find on this trip are the **Recharge Pool**, the **Slicer**, and the cache of items with the **Rusty Axe**. That's a major melee upgrade. Don't get scared by the -3 AV on the Axe; Ulrik's got 3 ranks in Axe which will cancel it out. Also check out **Exposition Cavern** near where you pick up the Slicer; take note of the argument between Irkalla and Nergal, then hightail it back to Purgatory.
+This isn't a bad time for your first visit to the [Underworld](maps/magan-underworld.md), but first a note: if you get into a random encounter down there, **run**. You'll need a light source, but *L:Mage Light* works just fine. Good things to find on this trip are the **Refresh Pool**, the **Slicer**, and the cache of items with the **Rusty Axe**. That's a major melee upgrade. Don't get scared by the -3 AV on the Axe; Ulrik's got 3 ranks in Axe which will cancel it out. Also check out **Exposition Cavern** near where you pick up the Slicer; take note of the argument between Irkalla and Nergal, then hightail it back to Purgatory.
 
 One thing you may notice is that leaving a map and re-entering it resets the fixed encounters, including most of the fights you find in Purgatory. There are plenty of one-offs, like the Arena and the Humbaba, that don't reset – there's global game state that prevents you from hitting those encounters twice. At this point, though, you should be brushing aside most random fights, so it's just a bit of free XP.
 
@@ -247,7 +247,7 @@ Ignore the parade grounds in the SE. If you go in, you'll be drafted into the ar
 
 The last place you want to check out before visiting the kook who runs this place is in the NW corner. There's a 1x1 room with a big batch of Soldiers out front, plus a Stosstrupen. Drop *H:Poog's Vortex* on the Soldiers (one should be enough for you to mop up the rest in melee), and beat up the Stosstrupen as quickly as possible. Their chest is locked (difficulty 2). A second suit of Plate Mail (+10 AC, -5 AV) may seem like a tough sell for Ulrik, but remember that he has a 3 points in Axes, so his AV is higher than it seems. The Tri-Cross (30', +1 AV) is neat because it shoots one or three bolts at a time. But the real prize here is the Magic Shield (+4 AC, no AV penalty). This one is special; the others you find are only +3 AC.
 
-Mystalvision is waiting in the N central part of Phoebus. You might want to hit a recharge pool and maybe pick up some extra Dragon Stones somewhere first though. At the end of the central N-S street you'll hit a combat with some Stosstroopen. Circle to the N and fight off the guards. Try to be sparing on Power here, you'll need it soon. Enter the Temple of the Sun and request an audience with Mystalvision `(p66)`. Then get your asses handed to you by the Stosstrupen. *Don't bother trying to win this fight; save your Power*. It's just Stun damage, and even if you do win (say, you're on your second trip through the game with 15th level characters), the game casts a "powerful sleep spell" on you and throws you in the dungeon anyway!
+Mystalvision is waiting in the N central part of Phoebus. You might want to hit a Refresh Pool and maybe pick up some extra Dragon Stones somewhere first though. At the end of the central N-S street you'll hit a combat with some Stosstroopen. Circle to the N and fight off the guards. Try to be sparing on Power here, you'll need it soon. Enter the Temple of the Sun and request an audience with Mystalvision `(p66)`. Then get your asses handed to you by the Stosstrupen. *Don't bother trying to win this fight; save your Power*. It's just Stun damage, and even if you do win (say, you're on your second trip through the game with 15th level characters), the game casts a "powerful sleep spell" on you and throws you in the dungeon anyway!
 
 ### Ridden Out of Town, on Rails (Phoeban Dungeon)
 
@@ -302,7 +302,7 @@ Note the special properties on the Axe of Kalah: it does more damage when you th
 
 On the way out you'll get jumped by a nasty group of guards. Make sure you've used Dragon Stones to replenish Power before you cross the pit room again; you'll use a lot of magic in this fight.
 
-You probably need a recharge, so exit the bridge to the S and use the well in the Mystic Wood to jump back to the Underworld and bathe in the recharge pool. You'll have to deal with the Customs Inspection again, but oh well.
+You probably need a recharge, so exit the bridge to the S and use the well in the Mystic Wood to jump back to the Underworld and bathe in the Refresh Pool. You'll have to deal with the Customs Inspection again, but oh well.
 
 ## Isle of Lansk
 
@@ -658,7 +658,7 @@ The useful things you get:
 - *M:Zak's Speed*, which grants +15 DEX
 - *M:Kill Ray*, zap 10-80 at 50'
 
-Miscellaneous Magic spells have a pretty high point cost, but they can be taught to anyone with (at least) Low Magic, which at this point may very well be your entire party. Remember what I said about *S:Charger* a few minutes ago? Go hang out by the Recharge Pool, *Charge* each scroll seven times, and now everyone in your party has a long-range high-damage zap spell.
+Miscellaneous Magic spells have a pretty high point cost, but they can be taught to anyone with (at least) Low Magic, which at this point may very well be your entire party. Remember what I said about *S:Charger* a few minutes ago? Go hang out by the Refresh Pool, *Charge* each scroll seven times, and now everyone in your party has a long-range high-damage zap spell.
 
 Since we're heading to the Underworld anyway, go to the SE corner of the room and *Soften* the S wall. In the center of the square room there you'll find a one-way staircase down to the Magan Underworld.
 
@@ -706,7 +706,7 @@ From the Nexus go 2W 4S to find Zaton's monument and `(U)se` the Soul Bowl `(p79
 
 The list: *D:Brambles* (unique! but still useless!), *D:Greater Heal, D:Cure All, D:Create Wall, D:Invoke Spirit* (also unique! also useless!), *D:Beast Call, D:Wood Spirit.*
 
-Raising Zaton's spirit also gets rid of all random encounters on this map, which would be nice if we ever planned to come back here, but I *promise* you this is the last time you have to return to the Mystic Wood. Apart from using it to get between the Underworld and the Nexus, of course.
+Raising Zaton's spirit also gets rid of all random encounters on this map, which would be nice if we ever planned to come back here, but I *promise* you this is the last time you have to return to the Mystic Wood. Apart from using it to get between the Underworld and the Nexus, of course.
 
 You can drop the Soul Bowl.
 
@@ -833,7 +833,7 @@ Proceed to the SE and find Namtar's tower `(p55)`. `(U)se` the Golden Boots to j
 
 ### Nisir
 
-The Nisir is a giant dungeon — 32x32, making a nice bookend with Purgatory — that's hard to get around and has tons of nooks and crannies. The fights aren't much fun either; you'll do a lot of running. You can spend a long time just exploring the caverns, getting into an absolute ton of moderately difficult fights, and getting lost in spinners and teleporters (unless you spend a lot of time paying close attention to the automap). The silver lining is that there is no treasure down here and very little to actually *do*, even for the sake of the story, so unless you feel like crawling the whole dungeon and building your own map, we're going to take some shortcuts.
+The Nisir is a giant dungeon — 32x32, making a nice bookend with Purgatory — that's hard to get around and has tons of nooks and crannies. The fights aren't much fun either; you'll do a lot of running. You can spend a long time just exploring the caverns, getting into an absolute ton of moderately difficult fights, and getting lost in spinners and teleporters (unless you spend a lot of time paying close attention to the automap). The silver lining is that there is no treasure down here and very little to actually *do*, even for the sake of the story, so unless you feel like crawling the whole dungeon and building your own map, we're going to take some shortcuts. If you want more details on the couple of places I'm skipping over, check the [maps directory](maps/nisir.md).
 
 Make sure everybody has the Dragon Teeth equipped; you'll need the ranged attack more than the Freedom Sword's raw damage, most of the time. A single Lich (casts *Ice Chill*) is pretty easy to take out at range. Young Dragons are hard and hurt a lot (2d4 breath weapon); one is doable, two is worth running from. Run from pretty much everything else.
 
@@ -860,24 +860,24 @@ Once you're in the barracks, go E until you hit the wall, then 4S. There's a doo
 #### Mystalvision
 Retrace your steps out of the barracks. Remember where I said to turn S when there was a door to the N? We're going through that door, but you should save and make sure you're healed up before you do. There's a random combat on the other side of the door. Turn W and walk through the doors. If you hug the N wall (1N 2W 1S 1W) as you cross the rooms you'll skip two more combats. Eventually you'll end up in a hall that hurts every time you take a step. It's like swimming across the Purgatory bay: you can Bandage whenever you want, but even turning (or hitting ESC to pause!) hurts.
 
-Go 2N 4E, turn to the N, then use *Bandage*. Mystalvision waits 1N of you in the center of the Solarium. He's not so tough; he'll close to 40' and then cast three-point *S:Infernos* on you. Zap him with spells and hit him with the Dragon Teeth and he'll go down pretty quickly (152–174 HP). When he dies (700 XP) he curses you by sending you to another cavern just W of the one you actually started in. The game lies and says you're "back where you started", which isn't quite true. Worse, you're surrounded by random fights. Instead, turn W, cast *D:Soften Stone*, go 1W, and cast it again. You'll walk through another icy pain-and-anti-magic wind. Then go 3N to a locked door.
+Go 2N 4E, turn to the N, then use *Bandage*. Mystalvision waits 1N of you in the center of the Solarium. He's not so tough; he'll close to 40' and then cast three-point *S:Infernos* on you. Zap him with spells and hit him with the Dragon Teeth and he'll go down pretty quickly (150–170 HP). When he dies (700 XP) he curses you by sending you to another cavern just W of the one you actually started in. The game lies and says you're "back where you started", which isn't quite true. Worse, you're surrounded by random fights. Instead, turn W, cast *D:Soften Stone*, go 1W, and cast it again. You'll walk through another icy pain-and-anti-magic wind. Then go 3N to a locked door.
 
 #### The Swamp
 Proceed W through the locked door and S through a couple of 3x3 rooms – it's getting pretty grizzly down here – until you reach the swamp under the mountain. (If you rescued the prisoner from the Dock, this is the place he told you about.) The exit's in the SW corner.
 
 #### Hell on Earth
-You're now in an 8x8 room with a 4x4 room in the center of it. There are squares scattered around the outside that will sap your HP (and your will to live, by trying to discourage you), but you should be okay if you keep *Bandaging*. Your goal is to reach that inner square and use *D:Soften Stone* to get inside it. (It's not as hard as I'm making it sound.) Once inside you'll find your way into a spiral-ish thing. At the center you'll find a teleporter that takes you to...
+You're now in an 8x8 room with a 4x4 room in the center of it. There are squares scattered around the outside that will do 1d8 HP (and sap your will to live, by trying to discourage you), but you can avoid them with a trap-detection spell. Your goal is to reach that inner square and use *D:Soften Stone* to get inside it. (It's not as hard as I'm making it sound.) Once inside you'll find your way into a spiral-ish thing. At the center you'll find a teleporter that takes you to...
 
 #### The Big One
 Be awe-struck at the amazing battle plain that lies in front of you. Actually it's just a different part of the Nisir map. Sorry to break the mystique.
 
-This really is a point of no return, so do whatever you're gonna – *Bandage*, cast buffs like *H:Cloak Arcane*, stock up on and/or restore your Power with Dragon Eyes, whatever. You won't get another out-of-combat turn until you beat Namtar three times. If you really want a full recharge, you can step 1N and find a staircase that drops you on the Isle of Woe. Hit the recharge pool, pass the fairies, come up through Salvation and take the shortcut to get back here, and all it costs you is four *D:Soften Stones* and a 1-pt *H:Air Summon.*
+This really is a point of no return, so do whatever you're gonna do to prepare – *Bandage*, cast buffs like *H:Cloak Arcane*, restore your Power with Dragon Eyes, whatever. You won't get another out-of-combat turn until you beat Namtar three times. If you really want a full recharge, you can step 1N and find a staircase that drops you back in the Underworld next to the Refresh Pool. Come up through Salvation and take the shortcut to get back here, and all it costs you is four *D:Soften Stones* and a 1-pt *H:Air Summon* (presuming you have the Magic Lamp and the Computer, anyway).
 
 When you're feeling ready, proceed S until the game says you'd be a fool to go any farther, then `(U)se` the Dragon Gem. Actually, if you save first, it's kind of fun to step 1S again and look at just what you're up against. The game tries to throw you up against 10 Young Dragons, 31 Lizard Warriors, 31 Enforcers, and 31 Namtar Guards. But there's a limitation in the code of 50 monsters per combat, so some of those last guys get dropped. The trouble here is that the Young Dragons can have anywhere up to 420 HP and they do 2d4 of unblockable breath damage each. You'll need characters with hundreds of AP to have any chance of surviving. And if you somehow manage to beat them, you're dropped immediately into combat with Namtar without a chance to rest — although props to the developers for actually writing the code to handle that path, unlikely as it is.
 
 Anyway, use the Dragon Gem. You get a fun couple of paragraphs as the Dragon Brood Queen spanks Namtar's army, then scorches his body to a crisp.
 
-Unfortunately, you're not done yet; Namtar springs back to life and faces you in combat. You'll now have to kill him three times. I recommend erring on the side of caution during these fights: if you're trying to choose between a healing spell and an attack spell, cast the healing spell, even if it might be redundant. It's pretty easy for Louie to die outright, and you won't be able to bring him back if that happens. Chances are pretty good you'll need to kill your emulator and reload a couple of times before you manage to knock him down for good without dying.
+Unfortunately, you're not done yet; Namtar springs back to life and faces you in combat. You'll now have to kill him three times. I recommend erring on the side of caution during these fights: if you're trying to choose between a healing spell and an attack spell, cast the healing spell, even if it might be redundant. It's pretty easy for Louie to die outright, and you won't be able to bring him back if that happens. Chances are pretty good you'll need to kill your emulator and reload a couple of times before you manage to knock him down.
 
 Remember the following magic items, which if you're like me you may not have used much to this point:
 
@@ -887,15 +887,15 @@ Remember the following magic items, which if you're like me you may not have use
 - Healing Potion: try to remember which ones cast *S:Heal* and which ones cast *S:Major Healing*; the difference will save your life
 - Druid's Mace: casts *D:Cure All*
 
-Manage your front and rear ranks carefully, and don't be afraid to `(M)ove` party members around in combat to reorder. Between slayings, the game will rearrange your party back into its original marching order, which might or might not be good for you. Nothing worse than having Namtar resurrect with one of your fighters sitting on 1 HP.
+Manage your front and rear ranks carefully, and don't be afraid to `(M)ove` party members around in combat to reorder. Between slayings, the game will rearrange your party back into its original marching order, which might or might not be good for you. Nothing worse than having Namtar resurrect with one of your fighters sitting on 1 Health.
 
-Okay, onto the tactics. Kill Namtar once (750–850 HP). The second time (around 360 HP), he'll close to 10' and then use *D:Whirl Wind* to push you back. He almost always goes first (DEX 34 will do that), but you can use that to your advantage. Just keep attacking with the Dragon Teeth and you'll knock him down quickly enough. The third time (around 900 HP) is the hardest, because you're already depleted and haven't had a round to rest in a while. You may have more luck closing to 20' so your archer can hit him, and countering his breath weapon with *D:Cure All* and/or *S:Major Healing*. If you find yourself within 10', he will hammer you for 10d10 stun per round; I suggest using `(B)lock` with most of your front line and letting your archer do the work.
+Okay, onto the tactics. Kill Namtar once (750–850 HP). The second time (around 360 HP), he'll close to 10' and then use *D:Whirl Wind* to push you back. He almost always goes first (DEX 34 will do that), but you can use that to your advantage. Just keep attacking with the Dragon Teeth and you'll knock him down quickly enough. The third time (around 900 HP) is the hardest, because you're already depleted and haven't had a round to rest in a while. You may have more luck closing to 20' so your archer can hit him and countering his breath weapon with *D:Cure All* and/or *S:Major Healing*. If you find yourself within 10', he will hammer you for 10d10 stun per round; I suggest using `(B)lock` with most of your front line and letting your archer do the work.
 
 ### Endgame
 
-Once you do manage to beat Namtar three times, you get to pick up his body. Doing so transports you to the Magan Underworld near the recharge pool. You may also find that your wounds have been healed. Obviously, hit the recharge pool (I bet that feels good).
+Once you do manage to beat Namtar three times, you get to pick up his body. Doing so transports you to the [Magan Underworld](magan-underworld.md) near the Refresh Pool. You may also find that your wounds have been healed. Obviously, hit the Refresh Pool (I bet that feels good).
 
-2S of the recharge pool at the choke point is a battle with 30 Goblins, and these are about twice as tough as the normal ones. Block with your front line, blow all your magic on big group-zap spells, and with a little luck you may wipe out the whole group of Goblins before they can stun anyone. Namtar is getting weaker (210–240 HP), so just clean him up again and hit the recharge pool again afterwards.
+2S of the Pool at the choke point is a battle with 30 Goblins, and these are about twice as tough as the normal ones. Block with your front line, blow all your magic on big group-zap spells, and with a little luck you may wipe out the whole group of Goblins before they can stun anyone. Namtar is getting weaker (210–240 HP), so just clean him up and hit the Refresh Pool again afterwards.
 
 You're free to wander the Underworld at this point, but now that you're in the endgame, you're stuck down here – none of the stairs up will work. Which is a shame, because I really want to know what happens if you throw him into the Well of Souls under the Necropolis. Ah well. If you're out of Dragon Stones and feel like you need more (you don't, because you have the refresh pool now), check out the cache near the Mystic Wood stairs.
 

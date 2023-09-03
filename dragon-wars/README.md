@@ -1,6 +1,6 @@
 # Yet Another Dragon Wars Walkthrough
 
-Version 3.0, July 2023
+Version 3.0, September 2023
 
 ## Administrivia
 
@@ -29,7 +29,7 @@ The [**Classic Gaming** page](http://www.classicgaming.cc/pc/dragonwars/) on *Dr
 - v1.5, October 2015: reflowed text, editing
 - v2.0, August 2022: rewrite in GameFAQs HTML format
 - v2.1, September 2022: lots of updates and rewrites based on an additional playthrough
-- v3.0, July 2023: rewrite in GitHub Markdown and updates from decompilation work
+- v3.0, September 2023: port to GitHub, rewrite in Markdown, add data from decompilation work
 
 ### Game Introduction
 

@@ -10,9 +10,11 @@ The thing to know about the Nisir is that there is almost nothing to do down her
 
 (17,16): Stairs up to the [Underworld](magan-underworld.md) (08,15) from the starting area.
 
-(23,06): Stairs up to the [Underworld](magan-underworld.md) (08,15) from the final battle with Namtar and his army.
+(23,06): Stairs up to the [Underworld](magan-underworld.md) (08,15) from the final battle with Namtar and his army.
 
 ## Points of Interest
+
+*Easter Egg:* The item list for this board includes a **Dragon Wand** (+2 AV, *H:Fire Light* @20), but that item is never referenced anywhere (there aren't any chests in the Nisir) and doesn't appear anywhere else in the game.
 
 **The Icy Caves (11,15 - 20,23):** When you first arrive in the Nisir you're in a cavern. Break through the wall with *D:Soften Stone*, and the area outside that cavern is full of "icy winds" which will extinguish any light source and deal 1 HP damage. If you walk in a straight line you'll probably be okay, but there are spinner traps in the corners that make it more challenging to navigate. (The missing square at (20,23) is not a mistake, or at least, not one on the part of your humble mapmaker. That's a coding bug. You can cast a light spell in that corner and see for yourself.)
 
@@ -38,7 +40,7 @@ The hallway just outside these caves also features spinner traps and teleporters
 
 If you advance S without using the Gem, you have to fight Namtar's army on your own. It is technically possible to defeat them, in the sense that the code does have a path to follow if you do, but it's extremely unlikely. All that happens if you do is you get to read a few different paragraphs, and Namtar doesn't taunt you quite as hard. But it doesn't actually change anything else.
 
-Eventually you wind up in combat with Namtar himself. You must defeat him three times in a row. You cannot run from these fights, and if you lose, you simply re-enter combat. If you win all three times, you get to pick up his **Dead Body**. Doing so teleports you to the [Underworld](magan-underworld.md) (08,15) near the Refresh Pool.
+Eventually you wind up in combat with Namtar himself. You must defeat him three times in a row. You cannot run from these fights, and if you lose, you simply re-enter combat. If you win all three times, you get to pick up his **Dead Body**. Doing so teleports you to the [Underworld](magan-underworld.md) (08,15) near the Refresh Pool.
 
 ## Monsters
 

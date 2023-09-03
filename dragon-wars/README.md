@@ -105,25 +105,25 @@ You have seven slots but you can only create up to four characters. You can fill
 
 Characters 1–4 in the marching order are the only ones who can melee, so generally you'll want four fighter types and three mage types behind them. Of the NPCs, **Ulrik** is an obvious choice for the front lines. **Louie** could swing either way (for a fighter, he's got a high SPR) but he doesn't start with any magic skills. **Valar** is already a great Sun mage. **Halifax** is a fighter, but he doesn't appear until super late in the game, and by the time you can pick him up you probably don't want to get rid of anyone else.
 
-That being said, creating two fighters and two mages is probably your best bet. But that begs the question of which magic skills to take, and there's not really a single correct answer. Every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded, so you don't need your own, but if you were going to double up on a school, this is the one I'd pick. **Druid Magic** is *required* in order to win the game, but because of that it's possible to pick it up in-game for free. You could let a strong fighter become a Druid mage instead of making one; I've had success letting Louie take this role.
+That being said, creating two fighters and two mages is probably your best bet. But that begs the question of which magic skills to take, and there's not really a single correct answer. Every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded, so you don't need your own, but if you were going to double up on a school, this is the one I'd pick. There are two **Druid Magic** spells that are literally *required* in order to win the game, but because of that it's possible to pick it up in-game for free. You could let a strong fighter become a Druid mage instead of making one; I've had success letting Louie take this role.
 
-Okay, fine, you're here for opinions, here's mine: For a fresh party, I almost always take *High Magic* and *Druid Magic*. My High Mage sits in slot 5 with a high DEX, and they get the Gatlin Bow / Magic Quiver combo in the second half of the game. I pick up Valar early to round out the set, and Louie gets *Druid* from Enkidu once he's ready. Having two Druid mages is no bad thing (*D:Cure All*). But this is definitely not the only way to do it.
+Okay, fine, you're here for opinions, here's mine: For a fresh party, I almost always take *High Magic* and *Druid Magic*. My High Mage sits in slot 5 with a high DEX, and they get the Gatlin Bow / Magic Quiver combo in the second half of the game. I pick up Valar early to round out the set, and Louie gets *Druid Magic* from Enkidu once he's ready. Having two Druid mages is no bad thing (*D:Cure All*). But this is definitely not the only way to do it.
 
 #### Attributes
-Whoever's going to wrestle Enkidu for *Druid Magic* needs at least STR 16. Fighters will need at least STR 17 to use the good *Swords*. (If you have it early, consider taking a Greatsword from the Purgatory Arena.) There are a number of 'puzzles' (rocks to move, etc.) that you'll need STR 18 to defeat. A 20 is the minimum to use the good *Axes*, 22 gets you all the *Two-Handers*, and a few statues can only be moved with a 24. If your STR is higher than the minimum for a melee weapon, you get +1 bonus damage for every five points above the requirement, so for example if you use a Hand Axe (min STR 5) with a 20 STR you deal 1d6+3 damage.
+**Strength**: Whoever's going to wrestle Enkidu for *Druid Magic* needs at least STR 16, which also gets you all the *Flails*. You're almost certainly going to want STR 17 in order to use every *Sword*; if you have it early, consider taking a Greatsword from the Purgatory Arena. STR 18 gets you most *Axes* and *Maces* and solves most Strength-based puzzles (moving loose rocks, etc). Ulrik starts with STR 20, which gets you every melee weapon except some *Two-handers*. There's one pesky statue near the end that requires STR 24 to move. And if you really want to use the Heavy Sword, you need STR 25. But keep in mind: if your STR is higher than the minimum for a melee weapon, you get +1 bonus damage for every five points above the requirement, so for example if you use a Hand Axe (requires STR 5) with a 20 STR you deal 1d6+3 damage.
 
-I think DEX 20 is generally a good idea, both for the +5 AV / DV and because it puts you solidly in the middle of the pack compared to the enemies you'll be fighting (for the sake of combat order). You'll hit first against most "scrubs" and probably go after most "big" enemies. Spending the 8 AP to get to DEX 24 isn't worth it, although DEX 21 plus the three point boost from the Universal God at the end of the game is nice before you plunge into the depths of the Nisir. Your spellcasters can start lower and work their way up later, and if you have a Druid mage in the back row it's not a terrible idea to follow the manual's suggestion and leave their DEX low so they can cast group-heal spells at the *end* of the round. (Don't also make them your *Bows* specialist, though; they'll want a high DEX for the damage bonus.)
+**Dexterity:** I think DEX 20 is generally a good idea, both for the +5 AV / DV and because it puts you solidly in the middle of the pack compared to the enemies you'll be fighting (for the sake of combat order). You'll hit first against most "scrubs" and probably go after most "big" enemies. Spending the 8 AP to get to DEX 24 isn't worth it, although DEX 21 plus the three-point boost from the Universal God at the end of the game is nice before you plunge into the depths of the Nisir. Your spellcasters can start lower and work their way up later, and if you have a Druid mage in the back row it's not a terrible idea to follow the suggestion in the game's manual and leave their DEX low so they can cast group-heal spells at the *end* of the round. (Don't also make them your *Bows* specialist, though; they'll want a high DEX for the damage bonus.)
 
-INT is useful for mages that cast attack spells. Check out the [Magic](#magic) section and look for spells that require an "Attack Roll"; they use INT instead of DEX (and magic skill instead of weapon skill) to calculate the effective AV. Note that zap spells don't "miss", they just deal half damage on an unsuccessful attack roll, so don't sweat this too much. And don't bother spending any points on your fighters' INT.
+**Intelligence:** INT is useful for mages that cast attack spells. Check out the [Magic](#magic) section and look for spells that require an "Attack Roll"; they use INT instead of DEX (and magic skill instead of weapon skill) to calculate the effective AV. Note that zap spells don't "miss", they just deal half damage on an unsuccessful attack roll, so don't sweat this too much. And don't bother spending any points on your fighters' INT.
 
 #### Skills
 There are lots of ways to build an effective party in *Dragon Wars*, but the most important piece of advice I have is to lean heavily into *Bandage*. Set aside one of your PCs to be your medic and don't let your fighters' HP stat outpace the medic's skill level by more than one or two ranks, and you'll dramatically reduce your dependence on magical healing. That, in turn, will reduce your dependence on Dragon Stones, and you'll thank me for that later. The downside is your medic won't have any other skills and might lag a bit behind the rest of the party in attributes, but it's worth it.
 
-You also definitely want to take *Lockpick*: one rank is pretty much required and three gets you through nearly everything; see [Game Mechanics](#game-mechanics). I recommend *Lockpick 3*, eventually.
+You definitely want to take *Lockpick*: one rank is pretty much required and three gets you through nearly everything (see [Game Mechanics](#game-mechanics)). I recommend *Lockpick 3*, eventually.
 
 I also strongly suggest one rank in *Climb*, because you need it to use the well to get from the Mystic Wood to the Underworld and it's handy in a few other places as well.
 
-One rank in *Arcane Lore* allows you to use the Transportation Nexus intentionally, instead of being randomly teleported every time you step on it. Technically Halifax comes with it, but he's on the wrong side of the world.
+One rank in *Arcane Lore* allows you to use the Transportation Nexus, which is super handy. The Nexus in the Mystic Wood will teleport you randomly to one of the other two locations if you don't have *Arcane Lore*; the other two locations simply won't work at all. Technically Halifax comes with it, but he's on the wrong side of the world.
 
 You'll want roughly two of *Tracker*, *Bureaucracy*, and *Hiding*, but you don't need all three and Louie comes with *Hiding* so you can narrow that down (unless you aren't planning to pick up Louie for some reason). Search the walkthrough for more information.
 
@@ -139,7 +139,7 @@ Think of your AV as a one-for-one bonus added to your to-hit roll, and your oppo
 
 - Ulrik shows up with *Axes 3*, and heavy Axes often have AV penalties, so giving all your axes to Ulrik and increasing his skill might be worth your time.
 - Personally, I think the Dragon Teeth (2d20, 60' range, +8 AV, +2 AC) are the best weapons in the game, and they're Swords. You won't get them until near the end, but once you do, I bet you won't use anything else. So throwing points in *Swords* doesn't hurt.
-- The Gatlin Bow / Magic Quiver combo is incredibly deadly (theoretical maximum of **252 HP** plus high-DEX bonus per round), so having one of your back row specialize in *Bows* is nice.
+- The Gatlin Bow / Magic Quiver combo is incredibly deadly (theoretical maximum of **252 HP** plus high-DEX bonus per round), so having one of your back row specialize in *Bows* is nice. I usually have my High mage do this because I need my Druid mage to be casting healing spells and my Sun mage to be casting *Inferno*.
 
 There are plenty of good mid-game *Maces* and *Flails*, and if you're after raw damage, *Two-Handers* may be the way to go. But I found I swapped weapons around too much to limit myself by taking lots of ranks in one weapon skill. Also, there aren't enough *Crossbows* to be worthwhile, and the combat mechanics make *Thrown Weapons* too hard to use effectively.
 
@@ -388,6 +388,8 @@ Some random notes I've collected on my journeys through Dilmun...
 
 I mentioned this already under [Health and Stun](#health-and-stun), but I find the "target a slot, not a party member" thing to be very strange and also very annoying. "Hey, *you're* not Thog!"
 
+If you pay a healer for healing — and I've pretty much never done it except to test it out for the purpose of writing this guide — the game will automatically pool all of your gold with the first PC. *Dragon Wars* stores a character's gold haul in a four-byte number, meaning they can carry around $4.3 billion before something bad happens, so unlike some other games   I could name (**cough** *[Deathlord](../deathlord/walkthrough.md)* **cough**) this doesn't have any sort of destructive effect. It's just a little confusing the next time you go to look for who has all the gold in the party.
+
 There are a few maps that allow you to use *D:Soften Stone* to pass through the ostensible "outer" walls of the map. If the map doesn't have the "wrapping" flag set (i.e. the Kingshome Dungeon, Dwarf Clan Hall) this allows you to go wandering so far off-course that the automap stops drawing anything. If you keep moving far enough in one direction, the map will eventually wrap around and you'll find the opposite edge of the map, like Columbus trying to find India. Since the X and Y coordinates of your party are kept in 8-bit registers, this seems to happen at 256 steps. You won't find anything interesting out there except the odd random encounter, so this is more of a curiosity than anything.
 
 If you're running around inside the outer walls of Purgatory, and you encounter some King's Guard, and you run away, the game dumps you back at the start square as if you've been "captured" again. (At least it doesn't take all your inventory and gold.)
@@ -413,7 +415,7 @@ While we're on the subject of inventory, there are a handful of items that inexp
 - Mage Ring (Kingshome Dungeon): *D:Whirl Wind* — note that the Magic Ring (Phoebus Dungeon) will cast this spell normally
 - Branches (Snake Pit): *D:Beast Call*
 
-Final note on inventory: keep an eye out throughout this document for **Easter Eggs**. In my exploration of the the decompiled data files I found a number of references to items, encounters, skills, spells, etc. that can't actually be found in the game. I've included their stats just for the sake of completeness, and your entertainment.
+Final note on inventory: keep an eye out throughout these documents for **Easter Eggs**. In my exploration of the decompiled data files I found a number of references to items, encounters, skills, spells, etc. that can't actually be found in the game. I've included their stats just for the sake of completeness, and your entertainment.
 
 The Dead Bolt does some serious damage (1d20), but it also has a very odd feature: you can cast *S:Charger* on it to refill it as if it were a magic item. It's the only quiver that this works on. Internally it has similar bits set to the Magic Quiver, but that one 'recharges itself'.
 
@@ -421,7 +423,7 @@ In Lanac'toor's Lab, if you take the stairs back up to Mud Toad, the statue of L
 
 The code that runs when you leave a map usually uses your current location as well as your current facing to determine where to send you. In most places this works the way you'd think, but the developers took a few shortcuts and made some "well it's gotta do *something*"-type decisions. For instance, if you leave the Bridge of Exiles to the E, you end up on King's Isle, and if you leave to the W, you end up on the Snake Pit side. But what happens if you leave to the N? You're on a bridge; there's only water on the Dilmun map to the N of here. So they drop you on the same place as if you'd left to the E or W. The problem, of course, is that if you exit to the N on the E side, you wind up on a fight with a bunch of Goblins. Run away from that fight while facing S... and you turn around and run into the water. There's a few other instances like this.
 
-Purgatory's got two of them; exit to the N and you get dropped in Dilmun. Turn around... and Purgatory isn't behind you, it's 2W of you. (I'm betting this one's a bug that never got QA'd, because who leaves Purgatory to the *north*?) An even better trick: take the secret door out, walk all the way around to the NE corner, and exit to the E. The game doesn't differentiate between walking E and swimming E, so you still wind up on the south side of Purgatory Bay near the refresh pool.
+Purgatory's got two of them; exit to the N and you get dropped in Dilmun. Turn around... and Purgatory isn't behind you, it's 2W of you. (I'm betting this one's a bug that never got QA'd, because who leaves Purgatory to the *north*?) An even better trick: take the secret door out, walk all the way around to the NE corner, and exit to the E. The game can't differentiate between walking E and swimming E, so you still wind up on the south side of Purgatory Bay near the refresh pool.
 
 If you're playing on a PC, the item beneath the statue on the Old Dock is a PS/2. If you're playing on an Apple emulator, it's a IIgs. It does the same thing either way, including granting +4 AC if you equip it.
 
@@ -616,7 +618,7 @@ I've written up more extensive notes for each board alongside hand-drawn maps ba
 
 My [walkthrough](walkthrough.md) touches every location and tries to tell the game's entire story, but you certainly don't have to do all of that in order to win. If all you're interested in is getting through the game with the minimum amount of work, then this section is for you!
 
-In theory, the only object that you literally cannot win the game without is the Golden Boots. Go to [Mud Toad](walkthrough.md#follow-the-yellow-mud-toad), plug up the leak, then visit the temple to get the Boots. From there, you can get to [Salvation](walkthrough.md#salvation) through the Underworld, use the Boots to jump the chasm, fall into [Nisir](walkthrough.md#nisir), and waltz through Namtar's army (hah) before taking out the man himself. Run the [Endgame](walkthrough.md#endgame) and toss Namtar into the pit to win. I'm obviously skipping some steps, but this is the fastest possible path through the game.
+In theory, the only object that you literally cannot win the game without is the Golden Boots. You'll also need *D:Create Wall* to get the boots, and *D:Soften Stone* to navigate the Nisir. Go to [Mud Toad](walkthrough.md#follow-the-yellow-mud-toad), plug up the leak, then visit the temple to get the Boots. From there, you can get to [Salvation](walkthrough.md#salvation) through the Underworld, use the Boots to jump the chasm, fall into [Nisir](walkthrough.md#nisir), and waltz through Namtar's army (hah) before taking out the man himself. Run the [Endgame](walkthrough.md#endgame) and toss Namtar into the pit to win. I'm obviously skipping some steps, but this is the fastest possible path through the game.
 
 However, presuming that you aren't actually strong enough to beat Namtar's army by yourself, you'll also want the help of the Dragon Brood Queen. So we'll hit the [Lansk Undercity](walkthrough.md#putting-the-fun-back-in-funderworld-lansk-undercity) to get the gem and fight our way across [Dragon Valley](walkthrough.md#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley) in order to confront the Brood Queen. That makes the Endgame much easier.
 
@@ -641,10 +643,10 @@ All caveats aside, this is an outline of the "fastest practical" way through the
    - Magic Mouth treasure vault: Magic Quiver, Magic Ring
    - Let the dragon destroy Phoebus.
 6. Lansk Undercity
-   - Get the Axe of Kalah (optional).
+   - Get the Axe of Kalah (optional) from the Guard Bridge.
    - Take the Mystic Wood well to the Underworld to Lansk.
    - Heal the dragon to get the Dragon Gem.
-   - Buy a copy of *D:Cure All* ($100) for your newly-minted Druid (optional).
+   - Buy a copy of *D:Cure All* ($100) for your newly-minted Druid (optional) and *D:Create Wall* if you don't have it already.
    - Take the ferry to King's Isle or backtrack up through the Mystic Wood and take the Nexus.
 7. Kingshome Dungeon
    - Get knocked out by the guards in the NE corner of King's Isle.
@@ -659,6 +661,7 @@ All caveats aside, this is an outline of the "fastest practical" way through the
    - Fix the wall and get the Golden Boots.
 10. Smuggler's Cove
        - Slaughter the crew, get the boat and a suit of Heavy Plate.
+       - If you don't have *D:Soften Stone* already, take the boat to Freeport and buy a copy there.
 11. Dragon Valley
 
        - Get the Dragon's Teeth.

@@ -52,7 +52,7 @@ The ruins of **[Tars](tars-ruins.md) (21,04)** and its dungeon.
 
 **Murk Trees (20,12; 20,08; 25,11; 25,07; 26,09):** Dangerous.
 
-**Transportation Nexus (22,13)**.
+**Transportation Nexus (22,13)**. Allows you to teleport to the Mystic Wood, but only if you have *Arcane Lore*.
 
 **[Yellow Mud Toad](mud-toad.md) (25,08)** and Lanac'toor's Laboratory, which connects to the [Underworld](magan-underworld.md).
 
@@ -64,7 +64,7 @@ The ruins of **[Tars](tars-ruins.md) (21,04)** and its dungeon.
 
 ### King's Isle
 
-**Transportation Nexus (19,23)**.
+**Transportation Nexus (19,23)**. Allows you to teleport to the Mystic Wood, but only if you have *Arcane Lore*.
 
 **Goblins (17,24; 17,26; 18,25; 19,26):** almost like they're guarding Kingshome.
 

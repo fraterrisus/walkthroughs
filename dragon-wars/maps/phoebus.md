@@ -12,7 +12,7 @@ You'll find random encounters (1 in 100) with Stosstrupen, Soldiers, and Sullen 
 
 The southern exit (08,01) from the city drops you back on the [Isle of the Sun](dilmun.md) (05,10).
 
-There aren't any other proper exits, although the fight with Mystalvision will dump you into the [Phoeban Dungeon](phoeban-dungeon.md), and eventually you'll come back up from the dungeon at (02,14).
+There aren't any other proper exits, although the fight with Mystalvision will dump you into the [Phoeban Dungeon](phoeban-dungeon.md), and eventually you'll come back up from the dungeon at (02,14). (Technically, you come up at 02,13, read a paragraph, and then are pushed to 02,14, but that's all transparent to the player.)
 
 ## Places of Interest
 
@@ -31,6 +31,8 @@ There aren't any other proper exits, although the fight with Mystalvision will d
 **The Icarian Triumph Tavern (15,15):** Ulrik is here to be recruited. If you're coming back after going through the Dungeon, Berengaria isn't actually here but the barkeep tells you to meet him at the Cavern Tavern in Yellow Mud Toad instead.
 
 **Mystalvision's Temple (08,13):** First, fight off a few Stosstrupen. Then circle around to the N and fight off some Soldiers. Enter the temple and meet Mystalvision, who eventually attacks with a bunch more Stosstrupen. Regardless of whether you win or lose this battle, you're knocked out and dragged down into the [Dungeon](phoeban-dungeon.md) (12,03).
+
+If you've already been to the [Nisir](nisir.md) and killed Mystalvision there, he's not here, which means you can't get into the Dungeon. Otherwise you can repeat this as often as you like.
 
 ## Monsters
 

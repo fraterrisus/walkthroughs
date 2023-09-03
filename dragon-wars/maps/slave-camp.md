@@ -36,26 +36,118 @@ There's an odd bug; the flag that determines whether you've raided this chest wa
 
 If you don't appease the camp's residents, you have to kill several of them:
 
-**Escaped Slaves:** STR 10 DEX 10 INT 10 SPR 10, HD:2d6+3 (5-15), AV+0 DV+0, att:1, morale:4, spd:10', XP:70
-
-- Attacks: 2d6, call for help, flee (30%)
-
-**Old Gladiators:** STR 15 DEX 17 INT 10 SPR 15, HD:3d8+4 (7-28), AV+3 DV+0, att:1, morale:5, spd:20', XP:100
-
-- Attacks: 4d6, block, 3d8, dodge, flee (50%)
-
-------
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+    <tr>
+    <td><b>Escaped Slaves</b></td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+    <td>2d6+3</td>
+    <td>5-15</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>70</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6, call for help, flee</td>
+  </tr>
+  <tr>
+    <td><b>Old Gladiators</b></td>
+    <td>15</td>
+    <td>17</td>
+    <td>10</td>
+    <td>15</td>
+    <td>3d8+4</td>
+    <td>7-28</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">4d6, block, 3d8, dodge, flee</td>
+  </tr>
+</table>
 
 And you'll have to fight off the Spirit Ward to get at the wizard's treasure:
 
-**Spirit Ward:** STR 01 DEX 19 INT 20 SPR 20, HD:10d6+0 (10-60), AV+1 DV+0, att:1, morale:8, spd:10', XP:500
-
-- Attacks: *H:Elvar's Fire*, *H:Fire Light*, 7d4
-
-------
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Spirit Ward</b></td>
+    <td>1</td>
+    <td>19</td>
+    <td>20</td>
+    <td>20</td>
+    <td>10d6+0</td>
+    <td>10-60</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>500</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>H:Elvar's Fire</i>, 7d4</td>
+  </tr>
+</table>
 
 On the off chance that The Sick Man attacks you:
 
-**Man with a fever:** STR 01 DEX 01 INT 01 SPR 01, HD:10d20+100 (110-300), AV+1 DV+0, att:1, morale:3, spd:10', XP:320
-
-- Attacks: flee (100%)
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Man with a fever</b></td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>10d20+100</td>
+    <td>110-300</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>320</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">flee</td>
+  </tr>
+</table>

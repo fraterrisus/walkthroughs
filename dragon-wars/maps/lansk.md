@@ -10,7 +10,7 @@ There aren't any random encounters, but the fixed ones are tough enough as it is
 
 South: [Isle of Lansk](dilmun.md) (16,13)
 
-(05,08): Stairs down to the [Lansk Undercity](lansk-undercity.md), but you'll have to bribe an official to use them.
+(05,08): Stairs down to the [Lansk Undercity](lansk-undercity.md), but you'll have to bribe an official to use them.
 
 ## Points of Interest
 
@@ -32,12 +32,98 @@ South: [Isle of Lansk](dilmun.md) (16,13)
 
 ## Monsters
 
-​    [00] Guard\s (he/him) [#5], STR 15 DEX 16 INT 09 SPR 10, HD:4d6+18 (22-42), AV+3 DV+0, att:1, morale:4, spd:30', XP:220, awards gold, image:Halbard Guard, [24]:0x02; 7d6, call for help
-
-​    [01] Adventurer\s (he/him) [#4], STR 20 DEX 20 INT 20 SPR 02, HD:5d8+17 (22-57), AV+2 DV+0, att:1, morale:7, spd:50', XP:140, image:Adventurer, [0d]:0x66, [24]:0x02; 7d6, 5d6 stun, call for help
-
-​    [02] Citizen\s (he/him) [#4], STR 10 DEX 13 INT 10 SPR 30, HD:4d6+14 (18-38), AV+4 DV+0, att:1, morale:6, spd:10', XP:90, image:Old Man, [24]:0x02; flee
-
-​    [03] Civil Servant\s (he/him) [#0], STR 03 DEX 03 INT 01 SPR 03, HD:10d10+0 (10-100), AV+6 DV+0, att:1, morale:3, spd:120', XP:1, image:Old Man, [24]:0x02; dodge, flee, call for help
-
-​    [04] Mage (he/him) [#0], STR 00 DEX 19 INT 00 SPR 00, HD:4d8+5 (9-37), AV+4 DV+0, att:1, morale:7, spd:20', XP:200, image:Creepy Mage; *S:Wrath of Mithras*@2
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Adventurers</b></td>
+    <td>20</td>
+    <td>20</td>
+    <td>20</td>
+    <td>2</td>
+    <td>5d8+17</td>
+    <td>22-57</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>140</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d6, 5d6 stun, call for help</td>
+  </tr>
+  <tr>
+    <td><b>Citizens</b></td>
+    <td>10</td>
+    <td>13</td>
+    <td>10</td>
+    <td>30</td>
+    <td>4d6+14</td>
+    <td>18-38</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">flee</td>
+  </tr>
+  <tr>
+    <td><b>Civil Servants</b></td>
+    <td>3</td>
+    <td>3</td>
+    <td>1</td>
+    <td>3</td>
+    <td>10d10+0</td>
+    <td>10-100</td>
+    <td>+6</td>
+    <td>+0</td>
+    <td>120'</td>
+    <td>1</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">dodge, flee, call for help</td>
+  </tr>
+  <tr>
+    <td><b>Guards</b></td>
+    <td>15</td>
+    <td>16</td>
+    <td>9</td>
+    <td>10</td>
+    <td>4d6+18</td>
+    <td>22-42</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>220</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d6, call for help — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Mage</b></td>
+    <td>0</td>
+    <td>19</td>
+    <td>0</td>
+    <td>0</td>
+    <td>4d8+5</td>
+    <td>9-37</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>S:Wrath of Mithras</i> @2</td>
+  </tr>
+</table>

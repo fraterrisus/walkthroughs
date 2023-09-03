@@ -8,6 +8,8 @@ A few notes on the notation used on the map pages:
 - Monster AV and DV values are *bonuses*; they don't include the base DEX / 4 value. A monster's STR, INT, and SPR aren't actually used anywhere in combat calculations, but DEX is.
 - I've listed all possible attacks for a given monster. Monsters pick their action based on their morale, whether or not they've been attacked or damaged, and whether or not the party is in melee range, so you may never see some of these attacks. If you want to know more, you should go read my extensive notes in the [decompilation library](https://github.com/fraterrisus/dragonwars-crack).
 - Monster melee attacks (i.e. "3d6") deal full-value Stun damage and half as much Health. Stun-only attacks ("1d8 stun") deal **full** Stun and **zero** Health, while Health-only attacks ("1d4 health") deal **zero** Stun and **half** Health. That's just how the game data tracks it. There are also quarter-strength attacks ("4d8 x ¼"), attacks that ignore armor ("3d6 piercing"), and breath weapons that hit everyone in the party ("1d8 breath"). Monsters may also attempt to "flee" and "call for help".
+- Human guards sometimes give you money; if so, you collect 1d40 gold per kill.
+- Creatures marked as "undead" are only relevant to whether or not you can cast *S:Exorcism* on them. This isn't always the creatures you'd expect.
 
 ## Outside
 

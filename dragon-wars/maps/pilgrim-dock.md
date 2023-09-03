@@ -81,9 +81,6 @@ There's a teleporter at (00,01), west of your Jail Cell, that will send you stra
     <td colspan=10>10d12 stun</td>
   </tr>
 </table>
-
-------
-
 Your fellow **Pilgrims** also appear as a monster on this board, but there's no code that triggers an encounter with them.
 
 <table>

@@ -39,38 +39,242 @@ Technically, you can exit this map to the west, east, or south. These will retur
 
 ## Monsters
 
-    [00] Goblin\s (he/him) [#29], STR 10 DEX 19 INT 06 SPR 10, HD:4d4+17 (21-33), AV+2 DV+0, att:1, morale:1, spd:30', XP:30, image:Goblin, [24]:0x01
-      GOOD/ALWAYS:Attack(5d6, 10')
-      HALP/ALWAYS:Flee(100%)
-    [01] Giant Snake\s (it) [#2], STR 20 DEX 15 INT 01 SPR 03, HD:3d8+25 (28-49), AV+4 DV+0, att:1, morale:10, spd:00', XP:150, can't be disarmed, image:Snake, [0d]:0x64, [24]:0x05
-      GOOD/ALWAYS:Breath(1d4, 10')
-      HALP/ALWAYS:Flee(60%)
-    [02] Spitting Lizard\s (it) [#2], STR 05 DEX 17 INT 05 SPR 10, HD:3d8+22 (25-46), AV+4 DV+0, att:1, morale:8, spd:20', XP:150, image:Dragon Lizard
-      GOOD/ALWAYS:Breath(1d4, 10')
-      OKAY/ALWAYS:Breath(1d4, 10')
-    [03] Serpent Warrior\s (it) [#7], STR 20 DEX 19 INT 08 SPR 10, HD:3d8+25 (28-49), AV+3 DV+0, att:1, morale:8, spd:20', XP:140, image:Lizardman, [24]:0x02
-      GOOD/ALWAYS:Attack(11d4, 10')
-    [04] Scorpion Lizard\s (it) [#1], STR 12 DEX 22 INT 03 SPR 05, HD:4d8+25 (29-57), AV+4 DV+0, att:1, morale:8, spd:30', XP:150, image:Dragon Lizard, [24]:0x01
-      GOOD/ALWAYS:Attack(7d8, 10')
-      HALP/ALWAYS:Flee(70%)
-    [05] Ghoul\s (it) [#2], STR 25 DEX 20 INT 03 SPR 05, HD:5d6+25 (30-55), AV+3 DV+0, att:1, morale:8, spd:20', XP:150, Undead, image:Zombie, [24]:0x02
-      GOOD/ALWAYS:Attack(10d4, 10')
-      HALP/ALWAYS:Dodge
-    [06] Wraith\s (it) [#0], STR 00 DEX 25 INT 00 SPR 00, HD:2d8+15 (17-31), AV+4 DV+0, att:1, morale:8, spd:00', XP:170, Undead, image:Wraith
-      GOOD/ALWAYS:Breath(2d4, 10')
-    [07] Skeleton\s (it) [#7], STR 08 DEX 02 INT 08 SPR 08, HD:3d8+25 (28-49), AV+12 DV+0, att:1, morale:8, spd:10', XP:170, Undead, image:Skeleton, [24]:0x02
-      GOOD/ALWAYS:Attack(1d4 piercing, 10')
-    [08] Magic Ghoul\s (it) [#2], STR 13 DEX 40 INT 05 SPR 05, HD:3d4+35 (38-47), AV+4 DV+0, att:1, morale:3, spd:20', XP:190, Undead, image:Zombie
-      GOOD/ALWAYS:Cast(S:Rage of Mithras, pow:1, target)
-    [09] Ghoul\s (it) [#7], STR 12 DEX 20 INT 01 SPR 01, HD:5d8+25 (30-65), AV+2 DV+0, att:1, morale:8, spd:20', XP:150, Undead, image:Zombie, [0d]:0x96, [24]:0x02
-      GOOD/ALWAYS:Attack(10d4, 10')
-    [0a] Wraith\s (it) [#0], STR 03 DEX 25 INT 00 SPR 40, HD:2d8+25 (27-41), AV+4 DV+0, att:1, morale:9, spd:00', XP:180, Undead, image:Wraith
-      GOOD/ALWAYS:Breath(2d4, 10')
-    [0b] Stone Demon\s (it) [#0], STR 00 DEX 04 INT 00 SPR 00, HD:10d100+5000 (5010-6000), AV+4 DV+0, att:1, morale:8, spd:30', XP:1500, image:Gaze Demon
-      GOOD/CLOSE:Flee(100%)
-      GOOD/ALWAYS:Breath(1d4, 10')
-    [0c] Grim Guardian\s (he/him) [#0], STR 00 DEX 24 INT 00 SPR 00, HD:5d8+45 (50-85), AV+6 DV+0, att:1, morale:15, spd:40', XP:200, Undead, image:Wraith
-      GOOD/ALWAYS:Breath(1d6, 10')
-    [0d] Spider\s (it) [#0], STR 00 DEX 22 INT 00 SPR 00, HD:3d8+49 (52-73), AV+4 DV+0, att:1, morale:8, spd:90', XP:170, image:Spider
-      GOOD/ALWAYS:Attack(7d8, 10')
-    
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Ghouls</b></td>
+    <td>25</td>
+    <td>20</td>
+    <td>3</td>
+    <td>5</td>
+    <td>5d6+25</td>
+    <td>30-55</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d4 — undead</td>
+  </tr>
+  <tr>
+    <td><b>Ghouls</b></td>
+    <td>12</td>
+    <td>20</td>
+    <td>1</td>
+    <td>1</td>
+    <td>5d8+25</td>
+    <td>30-65</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d4 — undead</td>
+  </tr>
+  <tr>
+    <td><b>Giant Snakes</b></td>
+    <td>20</td>
+    <td>15</td>
+    <td>1</td>
+    <td>3</td>
+    <td>3d8+25</td>
+    <td>28-49</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>00'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 breath, flee — can't be disarmed</td>
+  </tr>
+  <tr>
+    <td><b>Goblins</b></td>
+    <td>10</td>
+    <td>19</td>
+    <td>6</td>
+    <td>10</td>
+    <td>4d4+17</td>
+    <td>21-33</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>30</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6, flee</td>
+  </tr>
+  <tr>
+    <td><b>Grim Guardians</b></td>
+    <td>0</td>
+    <td>24</td>
+    <td>0</td>
+    <td>0</td>
+    <td>5d8+45</td>
+    <td>50-85</td>
+    <td>+6</td>
+    <td>+0</td>
+    <td>40'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d6 breath — undead</td>
+  </tr>
+  <tr>
+    <td><b>Magic Ghouls</b></td>
+    <td>13</td>
+    <td>40</td>
+    <td>5</td>
+    <td>5</td>
+    <td>3d4+35</td>
+    <td>38-47</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>190</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>S:Rage of Mithras</i> @1 — undead</td>
+  </tr>
+  <tr>
+    <td><b>Scorpion Lizards</b></td>
+    <td>12</td>
+    <td>22</td>
+    <td>3</td>
+    <td>5</td>
+    <td>4d8+25</td>
+    <td>29-57</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d8, flee</td>
+  </tr>
+  <tr>
+    <td><b>Serpent Warriors</b></td>
+    <td>20</td>
+    <td>19</td>
+    <td>8</td>
+    <td>10</td>
+    <td>3d8+25</td>
+    <td>28-49</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>140</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">11d4</td>
+  </tr>
+  <tr>
+    <td><b>Skeletons</b></td>
+    <td>8</td>
+    <td>2</td>
+    <td>8</td>
+    <td>8</td>
+    <td>3d8+25</td>
+    <td>28-49</td>
+    <td>+12</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>170</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 piercing — undead</td>
+  </tr>
+  <tr>
+    <td><b>Spiders</b></td>
+    <td>0</td>
+    <td>22</td>
+    <td>0</td>
+    <td>0</td>
+    <td>3d8+49</td>
+    <td>52-73</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>90'</td>
+    <td>170</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d8</td>
+  </tr>
+  <tr>
+    <td><b>Spitting Lizards</b></td>
+    <td>5</td>
+    <td>17</td>
+    <td>5</td>
+    <td>10</td>
+    <td>3d8+22</td>
+    <td>25-46</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 breath</td>
+  </tr>
+  <tr>
+    <td><b>Stone Demons</b></td>
+    <td>0</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td>10d100+5000</td>
+    <td>5010-6000</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>1500</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 breath, flee</td>
+  </tr>
+  <tr>
+    <td><b>Wraiths</b></td>
+    <td>3</td>
+    <td>25</td>
+    <td>0</td>
+    <td>40</td>
+    <td>2d8+25</td>
+    <td>27-41</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>00'</td>
+    <td>180</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 breath — undead</td>
+  </tr>
+  <tr>
+    <td><b>Wraiths</b></td>
+    <td>0</td>
+    <td>25</td>
+    <td>0</td>
+    <td>0</td>
+    <td>2d8+15</td>
+    <td>17-31</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>00'</td>
+    <td>170</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 breath — undead</td>
+  </tr>
+</table>

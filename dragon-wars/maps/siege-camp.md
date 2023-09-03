@@ -30,22 +30,98 @@ Note: Once the War of Byzanople has been decided (in either direction), the Camp
 
 ### Monsters
 
-    [00] Pikem/an\en (he/him) [#2], STR 15 DEX 14 INT 09 SPR 10, HD:4d6+12 (16-36), AV+2 DV+0, att:1, morale:7, spd:10', XP:190, awards gold, image:Lance Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(6d6, 10')
-      OKAY/ALWAYS:Attack(5d8, 10')
-      HALP/ALWAYS:Call(50%, 3)
-      GOOD/DAMAGED:Call(20%, 3)
-    [01] Guard\s (he/him) [#5], STR 12 DEX 16 INT 10 SPR 10, HD:5d6+12 (17-42), AV+2 DV+0, att:1, morale:7, spd:10', XP:200, awards gold, image:Halbard Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(5d6, 10')
-      OKAY/ALWAYS:Attack(3d6 piercing, 10')
-    [02] Royal Guard\s (he/him) [#2], STR 18 DEX 18 INT 18 SPR 18, HD:5d6+6 (11-36), AV+2 DV+0, att:1, morale:7, spd:20', XP:220, awards gold, image:Spear Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(6d6, 10')
-      EDGY/ALWAYS:Cast(L:Mage Fire, pow:0, target)
-      HALP/ALWAYS:Call(70%, 3)
-      HALP/ATTACKED:Cast(L:Mage Fire, pow:0, target)
-    [03] Mercenar/y\ies (he/him) [#3], STR 12 DEX 16 INT 14 SPR 30, HD:4d6+6 (10-30), AV+3 DV+0, att:1, morale:9, spd:30', XP:100, awards gold, image:Executioner, [24]:0x02
-      GOOD/ALWAYS:Attack(4d8 / 4, 10')
-      EDGY/ALWAYS:Dodge
-      HALP/ALWAYS:Flee(40%)
-    [04] Kingshomer Captain\s (he/him) [#0], STR 33 DEX 19 INT 10 SPR 10, HD:6d6+75 (81-111), AV+4 DV+0, att:1, morale:7, spd:10', XP:300, awards gold, image:Spear Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(10d4, 10')
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Guards</b></td>
+    <td>12</td>
+    <td>16</td>
+    <td>10</td>
+    <td>10</td>
+    <td>5d6+12</td>
+    <td>17-42</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6, 3d6 piercing — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Kingshomer Captains</b></td>
+    <td>33</td>
+    <td>19</td>
+    <td>10</td>
+    <td>10</td>
+    <td>6d6+75</td>
+    <td>81-111</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>300</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d4 — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Mercenaries</b></td>
+    <td>12</td>
+    <td>16</td>
+    <td>14</td>
+    <td>30</td>
+    <td>4d6+6</td>
+    <td>10-30</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">4d8 x ¼, dodge, flee — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Pikemen</b></td>
+    <td>15</td>
+    <td>14</td>
+    <td>9</td>
+    <td>10</td>
+    <td>4d6+12</td>
+    <td>16-36</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>190</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">6d6, 5d8, call for help — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Royal Guards</b></td>
+    <td>18</td>
+    <td>18</td>
+    <td>18</td>
+    <td>18</td>
+    <td>5d6+6</td>
+    <td>11-36</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>220</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">6d6, <i>L:Mage Fire</i>, call for help — awards gold</td>
+  </tr>
+</table>

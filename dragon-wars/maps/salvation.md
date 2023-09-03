@@ -14,7 +14,7 @@ Those stairs are at (03,04) on this map and connect to (19,19) in the [Underworl
 
 The northern exit from this map drops you on the [Isle of Salvation](dilmun.md) (19,20).
 
-You can plunge into the [Depths of the Nisir](nisir.md) at (13,02 - 14,03).
+You can plunge into the [Depths of the Nisir](nisir.md) at (13,02 - 14,03).
 
 ## Points of Interest
 
@@ -24,23 +24,102 @@ You can plunge into the [Depths of the Nisir](nisir.md) at (13,02 - 14,03).
 
 **The Mountain Pass (05,07):** The door just north of here is easily unlocked (level 1), but this provides an easier way and avoids a significant fight at (07,08). Use *Intelligence* or *Mountain Lore*, then use *Climb* to hop over to (06,06).
 
-**The Alarm Bells (??):** An alarm sounds; reset the encounter at (07,08). It doesn't seem like there's anything that triggers this code, though.
-
-**The Crevasse (08,03):** Read paragraph #55, then use the **Golden Boots** to hop across. Proceed to the inner sanctum and fall down to the [Nisir](nisir.md) to continue your hunt for Namtar.
+**The Alarm Bells (??):** An alarm sounds; reset the encounter at (07,08). It doesn't seem like there's anything that triggers this code, though.
 
 ## Monsters
 
-    [00] Guard\s (he/him) [#5], STR 15 DEX 12 INT 09 SPR 10, HD:4d10+60 (64-100), AV+5 DV+0, att:1, morale:11, spd:10', XP:200, awards gold, image:Halbard Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(8d8, 10')
-    [01] Stosstrupen (he/him) [#2], STR 20 DEX 20 INT 20 SPR 02, HD:5d8+50 (55-90), AV+5 DV+0, att:1, morale:11, spd:50', XP:180, image:Stosstrupen, [0d]:0x66, [24]:0x02
-      GOOD/ALWAYS:Attack(10d12 stun, 10')
-    [02] Pilgrim\s (he/him) [#4], STR 10 DEX 10 INT 10 SPR 30, HD:2d6+24 (26-36), AV+4 DV+0, att:1, morale:6, spd:10', XP:50, image:Pilgrim, [24]:0x02
-      GOOD/ALWAYS:Flee(50%)
-      OKAY/ALWAYS:Flee(50%)
-      EDGY/ALWAYS:Flee(50%)
-      HALP/ALWAYS:Flee(50%)
-    [03] Rock M/an\en (it) [#7], STR 20 DEX 18 INT 08 SPR 10, HD:4d10+56 (60-96), AV+4 DV+0, att:1, morale:12, spd:20', XP:220, image:Rock Man, [24]:0x03
-      GOOD/ALWAYS:Attack(8d8, 10')
-
-    [04] Warrior\s (it) [#4], STR 12 DEX 28 INT 03 SPR 05, HD:4d8+45 (49-77), AV+5 DV+0, att:1, morale:11, spd:30', XP:200, awards gold, image:Halbard Guard, [24]:0x01
-      GOOD/ALWAYS:Attack(8d8, 10') — these might be an easter egg, I don't think encounter #3 is possible and nothing else references monster #4
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+<tr>
+    <td><b>Guards</b></td>
+    <td>15</td>
+    <td>12</td>
+    <td>9</td>
+    <td>10</td>
+    <td>4d10+60</td>
+    <td>64-100</td>
+    <td>+5</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d8 — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Pilgrims</b></td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+    <td>30</td>
+    <td>2d6+24</td>
+    <td>26-36</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>50</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">flee</td>
+  </tr>
+<tr>
+    <td><b>Rock Men</b></td>
+    <td>20</td>
+    <td>18</td>
+    <td>8</td>
+    <td>10</td>
+    <td>4d10+56</td>
+    <td>60-96</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>220</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d8</td>
+  </tr>
+  <tr>
+    <td><b>Stosstrupen</b></td>
+    <td>20</td>
+    <td>20</td>
+    <td>20</td>
+    <td>2</td>
+    <td>5d8+50</td>
+    <td>55-90</td>
+    <td>+5</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>180</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d12 stun</td>
+  </tr>
+  <tr>
+    <td><b>Warriors</b></td>
+    <td>12</td>
+    <td>28</td>
+    <td>3</td>
+    <td>5</td>
+    <td>4d8+45</td>
+    <td>49-77</td>
+    <td>+5</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d8 — awards gold, but I think they're an easter egg</td>
+  </tr>
+</table>

@@ -40,16 +40,116 @@ You can also buy a ticket to take the ferry (08,15) to the [Old Dock](old-dock.m
 
 ## Monsters
 
-​    [00] Pikem/an\en (he/him) [#7], STR 15 DEX 12 INT 09 SPR 10, HD:6d8+10 (16-58), AV+2 DV+0, att:1, morale:4, spd:10', XP:150, awards gold, image:Lance Guard, [24]:0x02; 5d8, call for help
-
-​    [01] Midget Maniac\s (he/him) [#5], STR 08 DEX 19 INT 02 SPR 03, HD:4d8+9 (13-41), AV+5 DV+0, att:1, morale:6, spd:50', XP:160, image:Wild Boy, [0d]:0x64; 1d4 piercing, 1d4 health, flee
-
-​    [02] Wild Wom/an\en (she/her) [#11], STR 05 DEX 15 INT 05 SPR 05, HD:5d4+10 (15-30), AV+1 DV+0, att:1, morale:5, spd:10', XP:100, image:Old Crone, [24]:0x02; 9d4 stun
-
-​    [03] Muscular Clown\s (he/him) [#5], STR 20 DEX 16 INT 06 SPR 05, HD:6d8+15 (21-63), AV+2 DV+0, att:1, morale:5, spd:10', XP:180, image:Barbarian, [24]:0x02; 10d4 stun, flee
-
-------
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Midget Maniacs</b></td>
+    <td>8</td>
+    <td>19</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4d8+9</td>
+    <td>13-41</td>
+    <td>+5</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>160</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 piercing, 1d4 health, flee</td>
+  </tr>
+  <tr>
+    <td><b>Muscular Clowns</b></td>
+    <td>20</td>
+    <td>16</td>
+    <td>6</td>
+    <td>5</td>
+    <td>6d8+15</td>
+    <td>21-63</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>180</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d4 stun, flee</td>
+  </tr>
+  <tr>
+    <td><b>Pikemen</b></td>
+    <td>15</td>
+    <td>12</td>
+    <td>9</td>
+    <td>10</td>
+    <td>6d8+10</td>
+    <td>16-58</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d8, call for help — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Wild Women</b></td>
+    <td>5</td>
+    <td>15</td>
+    <td>5</td>
+    <td>5</td>
+    <td>5d4+10</td>
+    <td>15-30</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">9d4 stun</td>
+  </tr>
+</table>
 
 There's no way to actually attack the dragon (and you wouldn't want to, woof), but he is listed as a monster:
 
-​    [04] Dragon (it) [#0], STR 100 DEX 100 INT 100 SPR 100, HD:10d100+10 (20-1010), AV+200 DV+0, att:1, morale:31, spd:10', XP:1600, can't be disarmed, image:Dragon Whelp, [24]:0x05; 32d20
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Dragon</b></td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>10d100+10</td>
+    <td>20-1010</td>
+    <td>+200</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>1600</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">32d20 — can't be disarmed</td>
+  </tr>
+</table>

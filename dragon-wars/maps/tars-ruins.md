@@ -116,7 +116,7 @@ The stone slab at (15,15) hides stairs down to the [Tars Underground](tars-under
   </tr>
   <tr>
     <td></td>
-    <td colspan=10>4d6, 1d8 — Undead</td>
+    <td colspan=10>4d6, 1d8 — undead</td>
   </tr>
   <tr>
     <td><b>Spiders</b></td>
@@ -187,3 +187,4 @@ The stone slab at (15,15) hides stairs down to the [Tars Underground](tars-under
     <td colspan=10>5d6, flee</td>
   </tr>
 </table>
+

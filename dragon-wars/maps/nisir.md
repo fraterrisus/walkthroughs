@@ -14,7 +14,7 @@ The thing to know about the Nisir is that there is almost nothing to do down her
 
 ## Points of Interest
 
-*Easter Egg:* The item list for this board includes a **Dragon Wand** (+2 AV, *H:Fire Light* @20), but that item is never referenced anywhere (there aren't any chests in the Nisir) and doesn't appear anywhere else in the game.
+*Easter Egg:* The item list for this board includes a **Dragon Wand** (+2 AV, *H:Fire Light* @20), but that item is never referenced anywhere (there aren't any chests in the Nisir) and doesn't appear anywhere else in the game.
 
 **The Icy Caves (11,15 - 20,23):** When you first arrive in the Nisir you're in a cavern. Break through the wall with *D:Soften Stone*, and the area outside that cavern is full of "icy winds" which will extinguish any light source and deal 1 HP damage. If you walk in a straight line you'll probably be okay, but there are spinner traps in the corners that make it more challenging to navigate. (The missing square at (20,23) is not a mistake, or at least, not one on the part of your humble mapmaker. That's a coding bug. You can cast a light spell in that corner and see for yourself.)
 
@@ -44,28 +44,230 @@ Eventually you wind up in combat with Namtar himself. You must defeat him three 
 
 ## Monsters
 
-    [00] Lich\s (it) [#1], STR 00 DEX 22 INT 22 SPR 01, HD:12d12+12 (24-156), AV+4 DV+0, att:1, morale:10, spd:30', XP:400, image:Zombie, [24]:0x02
-      GOOD/ALWAYS:Cast(H:Ice Chill, pow:2, target)
-    [01] Lizard Warrior\s (it) [#8], STR 90 DEX 23 INT 01 SPR 01, HD:8d8+45 (53-109), AV+4 DV+0, att:1, morale:12, spd:30', XP:170, image:Lizardman, [24]:0x02
-      GOOD/ALWAYS:Attack(10d8 stun, 10')
-    [02] Young Dragon\s (it) [#2], STR 120 DEX 20 INT 10 SPR 20, HD:20d20+20 (40-420), AV+5 DV+0, att:1, morale:12, spd:50', XP:400, image:Dragon Whelp, [24]:0x03
-      GOOD/ALWAYS:Breath(2d4, 10')
-    [03] Namtar Guard\s (he/him) [#4], STR 150 DEX 18 INT 20 SPR 40, HD:20d8+50 (70-210), AV+3 DV+0, att:1, morale:12, spd:30', XP:300, image:Adventurer, [24]:0x02
-      GOOD/ALWAYS:Attack(9d8, 20')
-    [04] Unholy Guard\s (it) [#2], STR 200 DEX 25 INT 100 SPR 100, HD:10d6+50 (60-110), AV+4 DV+0, att:1, morale:12, spd:10', XP:400, image:Wraith, [24]:0x02
-      GOOD/ALWAYS:Breath(2d4, 10')
-    [05] Enforcer\s (he/him) [#1], STR 00 DEX 23 INT 00 SPR 00, HD:1d30+45 (46-75), AV+6 DV+0, att:1, morale:12, spd:50', XP:300, image:Adventurer, [24]:0x02
-      GOOD/ALWAYS:Attack(8d8, 10')
-    [06] Mystalvision (he/him) [#0], STR 00 DEX 22 INT 24 SPR 00, HD:2d12+150 (152-174), AV+4 DV+0, att:1, morale:12, spd:20', XP:700, image:Wizard, [24]:0x02
-      GOOD/ALWAYS:Cast(S:Inferno, pow:3, target)
-    [07] Buck Ironhead (he/him) [#0], STR 00 DEX 26 INT 00 SPR 00, HD:1d4+200 (201-204), AV+5 DV+0, att:1, morale:12, spd:40', XP:600, image:Adventurer, [24]:0x02
-      GOOD/ALWAYS:Attack(10d8, 40')
-    [08] Namtar #1 (he/him) [#0], STR 00 DEX 25 INT 40 SPR 00, HD:10d10+750 (760-850), AV+6 DV+0, att:1, morale:15, spd:90', XP:1200, image:Namtar, [24]:0x02
-      GOOD/ALWAYS:Attack(9d8, 20')
-    [09] Namtar #2 (he/him) [#0], STR 00 DEX 34 INT 40 SPR 00, HD:2d8+350 (352-366), AV+6 DV+0, att:1, morale:12, spd:20', XP:1200, image:Namtar, [24]:0x02
-      GOOD/CLOSE:Cast(D:Whirl Wind, pow:25, target)
-      GOOD/DAMAGED:Attack(9d8, 20')
-      GOOD/ALWAYS:Breath(2d6, 10')
-    [0a] Namtar #3 (he/him) [#0], STR 00 DEX 34 INT 40 SPR 00, HD:2d8+900 (902-916), AV+6 DV+0, att:1, morale:15, spd:10', XP:1000, image:Namtar, [24]:0x02
-      GOOD/CLOSE:Attack(10d10 stun, 10')
-      GOOD/ALWAYS:Breath(2d6, 10')
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Enforcers</b></td>
+    <td>0</td>
+    <td>23</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1d30+45</td>
+    <td>46-75</td>
+    <td>+6</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>300</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d8</td>
+  </tr>
+  <tr>
+    <td><b>Lichs</b></td>
+    <td>0</td>
+    <td>22</td>
+    <td>22</td>
+    <td>1</td>
+    <td>12d12+12</td>
+    <td>24-156</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>400</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>H:Ice Chill</i> @2</td>
+  </tr>
+  <tr>
+    <td><b>Lizard Warriors</b></td>
+    <td>90</td>
+    <td>23</td>
+    <td>1</td>
+    <td>1</td>
+    <td>8d8+45</td>
+    <td>53-109</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>170</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d8 stun</td>
+  </tr>
+  <tr>
+    <td><b>Namtar Guards</b></td>
+    <td>150</td>
+    <td>18</td>
+    <td>20</td>
+    <td>40</td>
+    <td>20d8+50</td>
+    <td>70-210</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>300</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">9d8</td>
+  </tr>
+  <tr>
+    <td><b>Unholy Guards</b></td>
+    <td>200</td>
+    <td>25</td>
+    <td>100</td>
+    <td>100</td>
+    <td>10d6+50</td>
+    <td>60-110</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>400</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 breath</td>
+  </tr>
+  <tr>
+    <td><b>Young Dragons</b></td>
+    <td>120</td>
+    <td>20</td>
+    <td>10</td>
+    <td>20</td>
+    <td>20d20+20</td>
+    <td>40-420</td>
+    <td>+5</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>400</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 breath</td>
+  </tr>
+</table>
+
+Namtar's Lieutenants:
+
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Buck Ironhead</b></td>
+    <td>0</td>
+    <td>26</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1d4+200</td>
+    <td>201-204</td>
+    <td>+5</td>
+    <td>+0</td>
+    <td>40'</td>
+    <td>600</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d8 at 40'</td>
+  </tr>
+  <tr>
+    <td><b>Mystalvision</b></td>
+    <td>0</td>
+    <td>22</td>
+    <td>24</td>
+    <td>0</td>
+    <td>2d12+150</td>
+    <td>152-174</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>700</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>S:Inferno</i> @3</td>
+  </tr>
+</table>
+
+And, of course, the big man himself:
+
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Namtar (I)</b></td>
+    <td>0</td>
+    <td>25</td>
+    <td>40</td>
+    <td>0</td>
+    <td>10d10+750</td>
+    <td>760-850</td>
+    <td>+6</td>
+    <td>+0</td>
+    <td>90'</td>
+    <td>1200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">9d8 at 20'</td>
+  </tr>
+  <tr>
+    <td><b>Namtar (II)</b></td>
+    <td>0</td>
+    <td>34</td>
+    <td>40</td>
+    <td>0</td>
+    <td>2d8+350</td>
+    <td>352-366</td>
+    <td>+6</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>1200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 breath, 9d8 at 20', <i>D:Whirl Wind</i></td>
+  </tr>
+  <tr>
+    <td><b>Namtar (III)</b></td>
+    <td>0</td>
+    <td>34</td>
+    <td>40</td>
+    <td>0</td>
+    <td>2d8+900</td>
+    <td>902-916</td>
+    <td>+6</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>1000</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 breath, 10d10 stun</td>
+  </tr>
+</table>

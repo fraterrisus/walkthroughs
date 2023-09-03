@@ -111,7 +111,7 @@ To slip past the guards, go to (10,05) and use *Hide*. This reveals the secret d
   </tr>
   <tr>
     <td></td>
-    <td colspan=10><i>D:Elvar's Fire</i>@3, <i>D:Whirl Wind</i></td>
+    <td colspan=10><i>D:Elvar's Fire</i> @3, <i>D:Whirl Wind</i></td>
   </tr>
   <tr>
     <td><b>Mystal's Boys</b></td>
@@ -147,6 +147,5 @@ To slip past the guards, go to (10,05) and use *Hide*. This reveals the secret d
     <td></td>
     <td colspan=10>5d6 stun, 3d6, dodge</td>
   </tr>
-
 </table>
 

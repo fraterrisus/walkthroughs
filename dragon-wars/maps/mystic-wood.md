@@ -38,18 +38,147 @@ Enkidu's library: *D:Death Curse, D:Fire Blast, D:Insect Plague, D:Whirl Wind, D
 
 ## Monsters
 
-​    [00] Old Guy\s (he/him) [#1], STR 10 DEX 15 INT 30 SPR 60, HD:6d6+15 (21-51), AV+2 DV+0, att:1, morale:5, spd:10', XP:240, image:Robed Man, [24]:0x02; *H:Fire Light*, *H:Ice Chill*, flee
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Dire Wolves</b></td>
+    <td>20</td>
+    <td>20</td>
+    <td>3</td>
+    <td>10</td>
+    <td>5d6+6</td>
+    <td>11-36</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>220</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6, 4d6, flee</td>
+  </tr>
+  <tr>
+    <td><b>Earth Men</b></td>
+    <td>45</td>
+    <td>16</td>
+    <td>5</td>
+    <td>10</td>
+    <td>5d10+10</td>
+    <td>15-60</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>180</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d10 stun, call for help, flee — can't be disarmed</td>
+  </tr>
+  <tr>
+    <td><b>Lagooners</b></td>
+    <td>50</td>
+    <td>23</td>
+    <td>1</td>
+    <td>1</td>
+    <td>10d4+20</td>
+    <td>30-60</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>300</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d6 stun</td>
+  </tr>
+  <tr>
+    <td><b>Old Guys</b></td>
+    <td>10</td>
+    <td>15</td>
+    <td>30</td>
+    <td>60</td>
+    <td>6d6+15</td>
+    <td>21-51</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>240</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>H:Fire Light</i> @2, <i>H:Ice Chill</i> @2, flee</td>
+  </tr>
+  <tr>
+    <td><b>Rock Men</b></td>
+    <td>10</td>
+    <td>20</td>
+    <td>30</td>
+    <td>30</td>
+    <td>6d6+6</td>
+    <td>12-42</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>400</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 breath</td>
+  </tr>
+  <tr>
+    <td><b>Water Spirits</b></td>
+    <td>3</td>
+    <td>15</td>
+    <td>30</td>
+    <td>50</td>
+    <td>2d10+30</td>
+    <td>32-50</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 breath, 7d8 stun</td>
+  </tr>
+  <tr>
+    <td><b>Wild Dogs</b></td>
+    <td>20</td>
+    <td>14</td>
+    <td>8</td>
+    <td>10</td>
+    <td>4d8+10</td>
+    <td>14-42</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">4d8, 3d8, flee</td>
+  </tr>
+  <tr>
+    <td><b>Wild Dogs</b></td>
+    <td>12</td>
+    <td>19</td>
+    <td>3</td>
+    <td>5</td>
+    <td>6d6+3</td>
+    <td>9-39</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">4d8, 3d8, 3d8 health, flee</td>
+  </tr>
+</table>
 
-​    [01] Water Spirit\s (it) [#3], STR 03 DEX 15 INT 30 SPR 50, HD:2d10+30 (32-50), AV+2 DV+0, att:1, morale:4, spd:10', XP:200, image:Water Spirit; 2d4 breath, 7d8 stun (40')
-
-​    [02] Earth M/an\en (he/him) [#1], STR 45 DEX 16 INT 05 SPR 10, HD:5d10+10 (15-60), AV+2 DV+0, att:1, morale:9, spd:10', XP:180, can't be disarmed, image:Rock Man, [0d]:0x66, [24]:0x04; 5d10 stun, call for help, flee
-
-​    [03] Wild Dog\s (it) [#7], STR 20 DEX 14 INT 08 SPR 10, HD:4d8+10 (14-42), AV+3 DV+0, att:1, morale:9, spd:20', XP:200, image:Wolf, [24]:0x03; 4d8, 3d8, flee
-
-​    [04] Wild Dog\s (it) [#1], STR 12 DEX 19 INT 03 SPR 05, HD:6d6+3 (9-39), AV+2 DV+0, att:1, morale:8, spd:30', XP:100, image:Wolf, [24]:0x01; 4d8, 3d8, 3d8 health, flee
-
-​    [05] Dire Wol/f\ves (it) [#3], STR 20 DEX 20 INT 03 SPR 10, HD:5d6+6 (11-36), AV+2 DV+0, att:1, morale:5, spd:30', XP:220, image:Wolf, [24]:0x02; 5d6, 4d6, flee
-
-​    [06] Lagooner\s (it) [#2], STR 50 DEX 23 INT 01 SPR 01, HD:10d4+20 (30-60), AV+3 DV+0, att:1, morale:7, spd:30', XP:300, image:Water Spirit; 10d6 stun
-
-​    [07] Rock Man (it) [#0], STR 10 DEX 20 INT 30 SPR 30, HD:6d6+6 (12-42), AV+2 DV+0, att:1, morale:9, spd:30', XP:400, image:Rock Man; 2d4 breath

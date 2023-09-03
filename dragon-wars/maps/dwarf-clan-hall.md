@@ -85,10 +85,7 @@ If you start out by reanimating the clan, all the combat down here goes away.
     <td colspan=10>2d6 breath</td>
   </tr>
 </table>    
-
-------
-
-There's a whole encounter set up for the Dwarves to attack you if you steal from them before reviving them, but it never gets called:
+There's a whole encounter set up for the Dwarves to attack you if you steal from them before reviving them, but technically this is an easter egg because there's no trigger in the code:
 
 <table>
   <tr>
@@ -121,4 +118,3 @@ There's a whole encounter set up for the Dwarves to attack you if you steal from
     <td colspan=10>8d8, 2d4 breath</td>
   </tr>
 </table>
-

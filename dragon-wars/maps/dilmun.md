@@ -30,7 +30,123 @@ The ruins of **[Tars](tars-ruins.md) (21,04)** and its dungeon.
 
 **Goblins (12,09):** A bunch of Goblins wait for you on the N side of the bridge. This combat regenerates, so you'll have to fight it every time you come to Sun.
 
-**Goblin Brothers (05,10):** Just outside Phoebus, there's another bunch of Goblins that are angry that you beat up their brothers at (12,09). You only have to fight them once, though.
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>City Militiamen</b></td>
+    <td>15
+    <td>16
+    <td>09
+    <td>10
+    <td>5d6+3
+    <td>8-33
+    <td>+2
+    <td>+0
+    <td>10'
+    <td>120
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan=10>5d6, 5d8, 5d8 piercing, call for help
+  </tr>
+  <tr>
+    <td><b></b></td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan=10>
+  </tr>
+  <tr>
+    <td><b></b></td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan=10>
+  </tr>
+  <tr>
+    <td><b></b></td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan=10>
+  </tr>
+  <tr>
+    <td><b></b></td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+    <td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan=10>
+  </tr>
+  <tr>
+    <td><b>Royal Guards</b></td>
+    <td>12
+    <td>22
+    <td>10
+    <td>10
+    <td>6d6+30
+    <td>36-66
+    <td>+4
+    <td>+0
+    <td>
+    <td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan=10>
+  </tr>
+</table>
 
 **[Phoebus](phoebus.md) (05,11)**. Can be destroyed by a dragon.
 
@@ -112,18 +228,82 @@ Mount **[Salvation](salvation.md) (19,19)**, which is confusingly marked 'Nisir'
 
 ## Monsters
 
-**Goblins:** STR 10 DEX 16 INT 06 SPR 10, HD:4d4+1 (5-17), AV+3 DV+0, morale:7, spd:30', XP:90
-
-- Attacks: 4d6
-
-**Guard Goblins:** STR 00 DEX 20 INT 00 SPR 00, HD:4d4+20 (24-36), AV+4 DV+0, morale:8, spd:30', XP:120
-
-- Attacks: 6d6
-
-**Guards:** STR 20 DEX 16 INT 01 SPR 03, HD:2d8+3 (5-19), AV+1 DV+0, morale:6, spd:10', XP:100
-
-- Attacks: 1d20, 2d12
-
-**Murk Trees:** STR 00 DEX 16 INT 00 SPR 00, HD:8d10+15 (23-95), AV+4 DV+0, morale:8, spd:50', XP:150
-
-- Attacks: 7d8
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Goblins</b></td>
+    <td>10</td>
+    <td>16</td>
+    <td>6</td>
+    <td>10</td>
+    <td>4d4+1</td>
+    <td>5-17</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">4d6</td>
+  </tr>
+  <tr>
+    <td><b>Guard Goblins</b></td>
+    <td>0</td>
+    <td>20</td>
+    <td>0</td>
+    <td>0</td>
+    <td>4d4+20</td>
+    <td>24-36</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">6d6</td>
+  </tr>
+  <tr>
+    <td><b>Guards</b></td>
+    <td>20</td>
+    <td>16</td>
+    <td>1</td>
+    <td>3</td>
+    <td>2d8+3</td>
+    <td>5-19</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d20, 2d12</td>
+  </tr>
+  <tr>
+    <td><b>Murk Trees</b></td>
+    <td>0</td>
+    <td>16</td>
+    <td>0</td>
+    <td>0</td>
+    <td>8d10+15</td>
+    <td>23-95</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d8</td>
+  </tr>
+</table>

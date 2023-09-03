@@ -83,7 +83,7 @@ East: [Quag](dilmun.md) (19,12)
   </tr>
   <tr>
     <td></td>
-    <td colspan=10>7d8, 8d10, flee</td>
+    <td colspan=10>7d8, 8d10, flee — can't be disarmed</td>
   </tr>
   <tr>
     <td><b>Pikemen</b></td>

@@ -9,7 +9,7 @@ You won't run into any random encounters down here, but there are some a few fix
 ## Exits
 
 - If you arrive from Purgatory, you're dropped at (07,08). This isn't an exit so much as a one-way entrance.
-- The actual exit is at (05,11), behind some guards. It takes you to the [Slave Estate](slave-estate.md) (05,12).
+- The actual exit is at (05,11), behind some guards. It takes you to the [Slave Estate](slave-estate.md) (05,12).
 
 ## Points of Interest
 
@@ -37,26 +37,116 @@ You won't run into any random encounters down here, but there are some a few fix
 
 ## Monsters
 
-**Guards: **STR 15 DEX 17 INT 09 SPR 10, HD:3d6+12 (15-30), AV+3 DV+0, att:1, morale:4, spd:10', XP:90
-
-- Attacks: 3d8 stun
-
-**Snakes:** STR 08 DEX 19 INT 02 SPR 03, HD:1d4+2 (3-6), AV+1 DV+0, att:1, morale:5, spd:50', XP:90
-
-- Attacks: 1d4, flee (75%)
-
-**Spiders:** STR 05 DEX 12 INT 05 SPR 05, HD:1d4+0 (1-4), AV+1 DV+0, att:1, morale:4, spd:10', XP:1
-
-- Attacks: 1d4
-
-------
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Guards</b></td>
+    <td>15</td>
+    <td>17</td>
+    <td>9</td>
+    <td>10</td>
+    <td>3d6+12</td>
+    <td>15-30</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d8 stun</td>
+  </tr>
+  <tr>
+    <td><b>Snakes</b></td>
+    <td>8</td>
+    <td>19</td>
+    <td>2</td>
+    <td>3</td>
+    <td>1d4+2</td>
+    <td>3-6</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4, flee</td>
+  </tr>
+  <tr>
+    <td><b>Spider\s</b></td>
+    <td>5</td>
+    <td>12</td>
+    <td>5</td>
+    <td>5</td>
+    <td>1d4+0</td>
+    <td>1-4</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>1</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4</td>
+  </tr>
+</table>
 
 There's a party of harder guards near the exit:
 
-**Cruel Slave Boss:** STR 20 DEX 14 INT 06 SPR 05, HD:3d8+5 (8-29), AV+1 DV+0, att:1, morale:5, spd:10', XP:100
-
-- Attacks: 3d8, flee (50%)
-
-**Guards:** STR 15 DEX 17 INT 00 SPR 00, HD:3d6+0 (3-18), AV+1 DV+0, att:1, morale:2, spd:10', XP:120
-
-- Attacks: 2d8
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Cruel Slave Boss</b></td>
+    <td>20</td>
+    <td>14</td>
+    <td>6</td>
+    <td>5</td>
+    <td>3d8+5</td>
+    <td>8-29</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d8, flee</td>
+  </tr>
+  <tr>
+    <td><b>Guards</b></td>
+    <td>15</td>
+    <td>17</td>
+    <td>0</td>
+    <td>0</td>
+    <td>3d6+0</td>
+    <td>3-18</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d8</td>
+  </tr>
+</table>

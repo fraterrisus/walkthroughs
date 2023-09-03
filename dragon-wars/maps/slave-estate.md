@@ -24,19 +24,105 @@ You can't take the stairs down to the [Slave Mines](slave-mines.md), but if you 
 
 **The other pile of mirrors (04,03):** If you pick one of these up, you can use it to kill Mog without fighting him.
 
-**The Gaze Demon (03,04):** Use a mirror fragment at (04,03) or (03,02) to petrify the Demon without fighting it. Or step onto (03,04) and combat starts.
+**The Gaze Demon (03,04):** Use a mirror fragment at (04,03) or (03,02) to petrify the Demon without fighting it. Or step onto (03,04) and combat starts.
 
 ## Monsters
 
-**Gaze Demon:** STR 20 DEX 24 INT 20 SPR 50, HD:5d12+50 (55-110), AV+1 DV+0, att:1, morale:11, spd:50', XP:400
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Goblins</b></td>
+    <td>12</td>
+    <td>14</td>
+    <td>10</td>
+    <td>10</td>
+    <td>3d6+3</td>
+    <td>6-21</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d6</td>
+  </tr>
+  <tr>
+    <td><b>Snakes</b></td>
+    <td>18</td>
+    <td>22</td>
+    <td>18</td>
+    <td>18</td>
+    <td>5d6+6</td>
+    <td>11-36</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d10, 3d6, <i>H:Fire Light</i> @3, call for help</td>
+  </tr>
+</table>
 
-- Attacks: 3d6, breath weapon (3d6)
+There are two Gaze Demons in the board data, and two encounters (one where he shatters any mirrors you have in your inventory, and one where he doesn't). I presume that those two encounters were supposed to reference a stronger or weaker Demon, but they don't.
 
-**Goblins:** STR 12 DEX 14 INT 10 SPR 10, HD:3d6+3 (6-21), AV+1 DV+0, att:1, morale:4, spd:10', XP:90
-
-- Attacks: 3d6
-
-**Snake:** STR 18 DEX 22 INT 18 SPR 18, HD:5d6+6 (11-36), AV+2 DV+0, att:1, morale:7, spd:10', XP:200
-
-- Attacks: 2d10, 3d6, *H:Fire Light*, call for help
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Gaze Demon</b></td>
+    <td>20</td>
+    <td>24</td>
+    <td>20</td>
+    <td>50</td>
+    <td>5d12+50</td>
+    <td>55-110</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>400</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 breath, 3d6</td>
+  </tr>
+  <tr>
+    <td><b>Gaze Demon<br/>(easter egg)</b></td>
+    <td>0</td>
+    <td>24</td>
+    <td>0</td>
+    <td>0</td>
+    <td>5d12+50</td>
+    <td>55-110</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>400</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d6 breath, 3d6</td>
+  </tr>
+</table>
 

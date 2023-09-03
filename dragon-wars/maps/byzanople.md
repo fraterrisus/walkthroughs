@@ -4,15 +4,15 @@
 
 ## Exits
 
-(06,00): Back to the [Siege Camp](siege-camp.md) (09,15)
+(06,00): Back to the [Siege Camp](siege-camp.md) (09,15)
 
-(09,01): To the longer tunnel in the [Byzanople Dungeon](byzanople-dungeon.md) (09,01)
+(09,01): To the longer tunnel in the [Byzanople Dungeon](byzanople-dungeon.md) (09,01)
 
 (07,04): To the shorter tunnel in the [Byzanople Dungeon](byzanople-dungeon.md) (07,04)
 
-(09,07): To the "final fight" portion of the [Siege Camp](siege-camp.md) (02,05)
+(09,07): To the "final fight" portion of the [Siege Camp](siege-camp.md) (02,05)
 
-(06,09): Down to the [Byzanople Dungeon](byzanople-dungeon.md) (06,09)
+(06,09): Down to the [Byzanople Dungeon](byzanople-dungeon.md) (06,09)
 
 ## Points of Interest
 
@@ -44,25 +44,98 @@ Note: Once the war is over, everything in the SW portion of the map goes away (t
 
 ## Monsters
 
-    [00] Pikem/an\en (he/him) [#2], STR 15 DEX 15 INT 09 SPR 10, HD:6d6+12 (18-48), AV+2 DV+0, att:1, morale:4, spd:10', XP:120, awards gold, image:Lance Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(5d6, 10')
-      OKAY/ALWAYS:Attack(5d8 / 4, 10')
-      EDGY/ALWAYS:Attack(5d8 piercing, 10')
-      HALP/ALWAYS:Call(50%, 3)
-      GOOD/DAMAGED:Call(20%, 3)
-    [01] Guard\s (he/him) [#5], STR 12 DEX 13 INT 10 SPR 10, HD:3d6+3 (6-21), AV+2 DV+0, att:1, morale:5, spd:10', XP:120, awards gold, image:Halbard Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(5d6, 10')
-      EDGY/ALWAYS:Block
-      HALP/ALWAYS:Call(30%, 3)
-    [02] Royal Guard\s (he/him) [#2], STR 18 DEX 18 INT 18 SPR 18, HD:5d6+6 (11-36), AV+3 DV+0, att:1, morale:7, spd:20', XP:150, awards gold, image:Spear Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(7d6 stun, 10')
-      OKAY/ALWAYS:Attack(5d6 piercing, 10')
-      EDGY/ALWAYS:Cast(L:Mage Fire, pow:0, target)
-      HALP/ALWAYS:Call(70%, 3)
-      HALP/ATTACKED:Cast(L:Mage Fire, pow:0, target)
-    [03] Princess Myrilla (she/her) [#0], STR 12 DEX 24 INT 14 SPR 30, HD:6d6+6 (12-42), AV+3 DV+0, att:1, morale:9, spd:30', XP:300, image:Pilgrim, [24]:0x02
-      GOOD/ALWAYS:Attack(6d6, 10')
-      EDGY/ALWAYS:Cast(L:Mage Fire, pow:0, target)
-      HALP/ALWAYS:Cast(L:Mage Fire, pow:0, target)
-    [04] Hydra\s (it) [#0], STR 18 DEX 30 INT 01 SPR 10, HD:8d4+90 (98-122), AV+3 DV+0, att:1, morale:9, spd:30', XP:500, image:Hydra, [24]:0x03
-      GOOD/ALWAYS:Breath(2d6, 10')
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Guards</b></td>
+    <td>12</td>
+    <td>13</td>
+    <td>10</td>
+    <td>10</td>
+    <td>3d6+3</td>
+    <td>6-21</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6, block, call for help — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Hydra</b></td>
+    <td>18</td>
+    <td>30</td>
+    <td>1</td>
+    <td>10</td>
+    <td>8d4+90</td>
+    <td>98-122</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>500</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 breath</td>
+  </tr>
+  <tr>
+    <td><b>Pikemen</b></td>
+    <td>15</td>
+    <td>15</td>
+    <td>9</td>
+    <td>10</td>
+    <td>6d6+12</td>
+    <td>18-48</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6, 5d8 x ¼, 5d8 piercing, call for help — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Princess Myrilla</b></td>
+    <td>12</td>
+    <td>24</td>
+    <td>14</td>
+    <td>30</td>
+    <td>6d6+6</td>
+    <td>12-42</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>300</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">6d6, <i>L:Mage Fire</i></td>
+  </tr>
+  <tr>
+    <td><b>Royal Guards</b></td>
+    <td>18</td>
+    <td>18</td>
+    <td>18</td>
+    <td>18</td>
+    <td>5d6+6</td>
+    <td>11-36</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6 piercing, 7d6 stun, <i>L:Mage Fire</i>, call for help — awards gold</td>
+  </tr>
+</table>

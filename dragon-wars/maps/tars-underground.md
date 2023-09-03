@@ -10,7 +10,7 @@ This is a proper dungeon, so you need a light source to see and a compass to get
 
 (02,05) Stairs up to the ruins of [Tars](tars-ruins.md).
 
-(00,05) A pit that you can *Climb* down to the [Underworld](magan-underworld.md), behind a secret door.
+(00,05) A pit that you can *Climb* down to the [Underworld](magan-underworld.md), behind a secret door.
 
 ## Points of Interest
 
@@ -40,31 +40,260 @@ This is hands-down the weirdest easter egg in the entire game. I screamed out lo
 
 ## Monsters
 
-​    [0c] Adventurer\s (he/him) [#0], STR 12 DEX 16 INT 12 SPR 12, HD:4d6+15 (19-39), AV+2 DV+0, att:1, morale:5, spd:10', XP:130, image:Adventurer, [24]:0x02; 6d4, dodge, flee
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Cave Snakes</b></td>
+    <td>3</td>
+    <td>19</td>
+    <td>1</td>
+    <td>1</td>
+    <td>6d4+10</td>
+    <td>16-34</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>80'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6, 4d4</td>
+  </tr>
+ <tr>
+    <td><b>Cave Wolves</b></td>
+    <td>13</td>
+    <td>13</td>
+    <td>5</td>
+    <td>10</td>
+    <td>3d8+10</td>
+    <td>13-34</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d4, 7d4, flee</td>
+  </tr>
+  <tr>
+    <td><b>Ghouls</b></td>
+    <td>12</td>
+    <td>16</td>
+    <td>1</td>
+    <td>1</td>
+    <td>3d6+16</td>
+    <td>19-34</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d4 — undead</td>
+  </tr>
+  <tr>
+    <td><b>Giant Snake</b></td>
+    <td>20</td>
+    <td>22</td>
+    <td>1</td>
+    <td>3</td>
+    <td>3d8+10</td>
+    <td>13-34</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d8 — can't be disarmed</td>
+  </tr>
+ <tr>
+    <td><b>Goblin</b></td>
+    <td>10</td>
+    <td>12</td>
+    <td>6</td>
+    <td>10</td>
+    <td>3d8+10</td>
+    <td>13-34</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">4d6, 6d4 stun</td>
+  </tr>
+  <tr>
+    <td><b>Guard Goblin</b></td>
+    <td>20</td>
+    <td>10</td>
+    <td>8</td>
+    <td>10</td>
+    <td>3d8+16</td>
+    <td>19-40</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6, 4d6</td>
+  </tr>
+  <tr>
+    <td><b>Lizard Men</b></td>
+    <td>25</td>
+    <td>17</td>
+    <td>3</td>
+    <td>5</td>
+    <td>4d6+12</td>
+    <td>16-36</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d8, 4d6</td>
+  </tr>
+  <tr>
+    <td><b>Lizard Men</b></td>
+    <td>33</td>
+    <td>12</td>
+    <td>10</td>
+    <td>12</td>
+    <td>3d12+12</td>
+    <td>15-48</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d4, call for help — can't be disarmed</td>
+  </tr>
+  <tr>
+    <td><b>Skeletons</b></td>
+    <td>8</td>
+    <td>14</td>
+    <td>8</td>
+    <td>8</td>
+    <td>3d8+9</td>
+    <td>12-33</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>80</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">4d6, 4d4, 1d8 — undead</td>
+  </tr>
+  <tr>
+    <td><b>Spiders</b></td>
+    <td>12</td>
+    <td>17</td>
+    <td>3</td>
+    <td>5</td>
+    <td>1d4+5</td>
+    <td>6-9</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>70</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d8, 4d6</td>
+  </tr>
+  <tr>
+    <td><b>Spitting Snake</b></td>
+    <td>5</td>
+    <td>15</td>
+    <td>5</td>
+    <td>10</td>
+    <td>2d4+10</td>
+    <td>12-18</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d8 breath, 3d8</td>
+  </tr>
+  <tr>
+    <td><b>Wraiths</b></td>
+    <td>3</td>
+    <td>22</td>
+    <td>30</td>
+    <td>40</td>
+    <td>3d10+10</td>
+    <td>13-40</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>180</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>H:Fire Light</i> @3 — undead</td>
+  </tr>
+</table>
 
-​    [06] Cave Snake\s (it) [#3], STR 03 DEX 19 INT 01 SPR 01, HD:6d4+10 (16-34), AV+2 DV+0, att:1, morale:6, spd:80', XP:120, image:Snake; 5d6, 4d4
+The adventuring party:
 
-​    [08] Cave Wol/f\ves (it) [#4], STR 13 DEX 13 INT 05 SPR 10, HD:3d8+10 (13-34), AV+3 DV+0, att:1, morale:6, spd:20', XP:120, image:Wolf, [24]:0x01; 5d4, 7d4, flee
-
-​    [09] Ghoul\s (she/her) [#1], STR 12 DEX 16 INT 01 SPR 01, HD:3d6+16 (19-34), AV+4 DV+0, att:1, morale:6, spd:20', XP:150, Undead, image:Zombie, [0d]:0x96, [24]:0x02; 7d4
-
-​    [01] Giant Snake\s (it) [#1], STR 20 DEX 22 INT 01 SPR 03, HD:3d8+10 (13-34), AV+2 DV+0, att:1, morale:6, spd:10', XP:100, can't be disarmed, image:Snake, [0d]:0x64, [24]:0x05; 3d8
-
-​    [00] Goblin\s (he/him) [#9], STR 10 DEX 12 INT 06 SPR 10, HD:3d8+10 (13-34), AV+4 DV+0, att:1, morale:3, spd:30', XP:120, image:Goblin, [24]:0x01; 4d6, 6d4 stun
-
-​    [03] Guard Goblin\s (it) [#7], STR 20 DEX 10 INT 08 SPR 10, HD:3d8+16 (19-40), AV+3 DV+0, att:1, morale:6, spd:20', XP:90, image:Goblin, [24]:0x03; 5d6, 4d6
-
-​    [05] Lizard M/an\en (he/him) [#2], STR 25 DEX 17 INT 03 SPR 05, HD:4d6+12 (16-36), AV+2 DV+0, att:1, morale:6, spd:20', XP:120, image:Lizardman, [24]:0x03; 3d8, 4d6
-
-​    [0b] Lizard M/an\en (it) [#2], STR 33 DEX 12 INT 10 SPR 12, HD:3d12+12 (15-48), AV+2 DV+0, att:1, morale:7, spd:20', XP:150, can't be disarmed, image:Lizardman, [24]:0x04; 8d4, call for help
-
-​    [07] Skeleton\s (it) [#7], STR 08 DEX 14 INT 08 SPR 08, HD:3d8+9 (12-33), AV+2 DV+0, att:1, morale:6, spd:10', XP:80, Undead, image:Skeleton, [24]:0x02; 4d6, 4d4, 1d8
-
-​    [04] Spider\s (it) [#9], STR 12 DEX 17 INT 03 SPR 05, HD:1d4+5 (6-9), AV+2 DV+0, att:1, morale:6, spd:30', XP:70, image:Spider; 3d8, 4d6
-
-​    [02] Spitting Snake\s (it) [#2], STR 05 DEX 15 INT 05 SPR 10, HD:2d4+10 (12-18), AV+2 DV+0, att:1, morale:6, spd:20', XP:90, image:Snake; breath weapon 2d8, 3d8
-
-​    [0d] Wizard (he/him) [#0], STR 10 DEX 14 INT 20 SPR 30, HD:3d4+18 (21-30), AV+3 DV+0, att:1, morale:5, spd:10', XP:250, image:Robed Man, [24]:0x02; H:Fire Light@2, D:Whirl Wind, flee
-
-​    [0a] Wraith\s (it) [#0], STR 03 DEX 22 INT 30 SPR 40, HD:3d10+10 (13-40), AV+2 DV+0, att:1, morale:9, spd:10', XP:180, Undead, image:Wraith; H:Fire Light@3
-
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Adventurers</b></td>
+    <td>12</td>
+    <td>16</td>
+    <td>12</td>
+    <td>12</td>
+    <td>4d6+15</td>
+    <td>19-39</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>130</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">6d4, dodge, flee</td>
+  </tr>
+  <tr>
+    <td><b>Wizard</b></td>
+    <td>10</td>
+    <td>14</td>
+    <td>20</td>
+    <td>30</td>
+    <td>3d4+18</td>
+    <td>21-30</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>250</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>H:Fire Light</i> @2, <i>D:Whirl Wind</i>, flee</td>
+  </tr>
+</table>

@@ -2,6 +2,8 @@
 
 ![map](snake-pit.svg)
 
+A lovely little vacation home for the criminally insane (or, at least, those who will become insane after being declared criminals by Namtar...)
+
 ## Exits
 
 East: [Isle of the Damned](dilmun.md) (03,19).

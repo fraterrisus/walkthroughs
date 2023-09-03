@@ -4,7 +4,7 @@
 
 The Underworld serves as a map that joins several places "Topside" (i.e. in Dilmun), as well as the place you'll come to during the endgame to defeat Namtar for the last time. You can use it to scoot between the various islands, but beware: the monsters down here are "late game" tough, so early on in the game you'll want to run for almost everything.
 
-There are no fixed combats down here (at least until the endgame), but plenty of wandering monsters (1 in 50). Many of them count as "Undead" for the purposes of using *S:Exorcism*.
+There are no fixed combats down here (at least until the endgame), but plenty of wandering monsters (1 in 50). Many of them count as "undead" for the purposes of using *S:Exorcism*.
 
 The map is also **dark**, so you'll need to bring a light source with you.
 
@@ -14,9 +14,9 @@ The map is also **dark**, so you'll need to bring a light source with you.
 
 (19,04): Stairs up to [Tars Underground](tars-underground.md) (00,05)
 
-(16,14): Stairs up to the [Lansk Undercity](lansk-undercity.md) (14,05)
+(16,14): Stairs up to the [Lansk Undercity](lansk-undercity.md) (14,05)
 
-(27,16): Stairs up to the [Necropolis](necropolis.md) (00,07); you can't actually get to the Well of Souls building unless you came down from the Necropolis in the first place, so don't try using *Soften Stone* or anything.
+(27,16): Stairs up to the [Necropolis](necropolis.md) (00,07); you can't actually get to the Well of Souls building unless you came down from the Necropolis in the first place, so don't try using *Soften Stone* or anything.
 
 (02,06): Stairs up to the [Mystic Wood](mystic-wood.md) (04,15)
 
@@ -24,7 +24,197 @@ The map is also **dark**, so you'll need to bring a light source with you.
 
 (19,19): Stairs up to [Salvation](salvation.md) (03,04)
 
-## Points of Interest
+## <table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Ghouls</b></td>
+    <td>25</td>
+    <td>20</td>
+    <td>3</td>
+    <td>5</td>
+    <td>5d6+25</td>
+    <td>30-55</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d4 — undead</td>
+  </tr>
+  <tr>
+    <td><b>Ghouls</b></td>
+    <td>12</td>
+    <td>20</td>
+    <td>1</td>
+    <td>1</td>
+    <td>5d8+25</td>
+    <td>30-65</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d4 — undead</td>
+  </tr>
+  <tr>
+    <td><b>Giant Snakes</b></td>
+    <td>20</td>
+    <td>15</td>
+    <td>1</td>
+    <td>3</td>
+    <td>3d8+25</td>
+    <td>28-49</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>00'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 breath, flee — can't be disarmed</td>
+  </tr>
+  <tr>
+    <td><b>Goblins</b></td>
+    <td>10</td>
+    <td>19</td>
+    <td>6</td>
+    <td>10</td>
+    <td>4d4+35</td>
+    <td>39-51</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>30</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6, flee</td>
+  </tr>
+  <tr>
+    <td><b>Magic Ghouls</b></td>
+    <td>13</td>
+    <td>40</td>
+    <td>5</td>
+    <td>5</td>
+    <td>3d4+35</td>
+    <td>38-47</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>190</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>S:Rage of Mithras</i> — undead</td>
+  </tr>
+  <tr>
+    <td><b>Scorpion Snakes</b></td>
+    <td>12</td>
+    <td>22</td>
+    <td>3</td>
+    <td>5</td>
+    <td>4d8+25</td>
+    <td>29-57</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d8, flee</td>
+  </tr>
+  <tr>
+    <td><b>Serpent Warriors</b></td>
+    <td>20</td>
+    <td>19</td>
+    <td>8</td>
+    <td>10</td>
+    <td>3d8+25</td>
+    <td>28-49</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>140</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">11d4</td>
+  </tr>
+  <tr>
+    <td><b>Skeletons</b></td>
+    <td>8</td>
+    <td>2</td>
+    <td>8</td>
+    <td>8</td>
+    <td>3d8+25</td>
+    <td>28-49</td>
+    <td>+12</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>170</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 piercing — undead</td>
+  </tr>
+  <tr>
+    <td><b>Spitting Snakes</b></td>
+    <td>5</td>
+    <td>17</td>
+    <td>5</td>
+    <td>10</td>
+    <td>3d8+22</td>
+    <td>25-46</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 breath</td>
+  </tr>
+  <tr>
+    <td><b>Wraiths</b></td>
+    <td>0</td>
+    <td>25</td>
+    <td>0</td>
+    <td>0</td>
+    <td>2d8+15</td>
+    <td>17-31</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>00'</td>
+    <td>170</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 breath — undead</td>
+  </tr>
+  <tr>
+    <td><b>Wraiths</b></td>
+    <td>3</td>
+    <td>25</td>
+    <td>0</td>
+    <td>40</td>
+    <td>2d8+25</td>
+    <td>27-41</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>00'</td>
+    <td>180</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 breath — undead</td>
+  </tr
+</table>
 
 **The Refresh Pool (09,14)**: Conveniently located just N of the stairs from Purgatory, stepping onto this square refreshes your party's Power. You'll also wind up near here at the start of the [Endgame](../walkthrough.md#endgame).
 
@@ -48,67 +238,278 @@ The map is also **dark**, so you'll need to bring a light source with you.
 
 ## Monsters
 
-**Ghouls:** STR 12 DEX 20 INT 01 SPR 01, HD:5d6+17 (22-47), AV+2 DV+0, att:1, morale:5, spd:20', XP:110, Undead
-
-- Attacks: 7d6
-
-**Giant Snakes:** STR 20 DEX 22 INT 01 SPR 03, HD:3d8+12 (15-36), AV+2 DV+0, att:1, morale:6, spd:10', XP:150
-
-- Attacks: 7d6, 2d6 breath, flee (60%)
-
-**Goblins:** STR 10 DEX 20 INT 06 SPR 10, HD:4d4+10 (14-26), AV+3 DV+0, att:1, morale:5, spd:30', XP:90
-
-- Attacks: 4d6, call for help (50%, 5)
-
-**Lizard Men:** STR 25 DEX 20 INT 03 SPR 05, HD:4d6+15 (19-39), AV+1 DV+0, att:1, morale:6, spd:20', XP:110
-
-- Attacks: 7d6
-
-**Serpent Men:** STR 12 DEX 17 INT 03 SPR 05, HD:4d6+15 (19-39), AV+2 DV+0, att:1, morale:6, spd:30', XP:120
-
-- Attacks: 6d6, flee (70%)
-
-**Serpent Warriors:** STR 20 DEX 04 INT 08 SPR 10, HD:3d8+20 (23-44), AV+6 DV+0, att:1, morale:6, spd:20', XP:110
-
-- Attacks: 7d6 x ¼
-
-**Skeletons**: STR 08 DEX 16 INT 08 SPR 08, HD:5d8+12 (17-52), AV+3 DV+0, att:1, morale:5, spd:10', XP:120, Undead
-
-- Attacks: 10d4
-
-**Spiders:** STR 03 DEX 03 INT 01 SPR 01, HD:2d6+12 (14-24), AV+7 DV+0, att:1, morale:6, spd:80', XP:50
-
-- Attacks: 1d4 piercing
-
-**Spitting Snakes:** STR 05 DEX 15 INT 05 SPR 10, HD:4d4+15 (19-31), AV+2 DV+0, att:1, morale:5, spd:20', XP:120
-
-- Attacks: 1d4 breath
-
-**Vampire Wolves:** STR 13 DEX 20 INT 05 SPR 10, HD:6d8+9 (15-57), AV+3 DV+0, att:1, morale:5, spd:20', XP:130, Undead
-
-- Attacks: 7d6
-
-**Wraiths:** STR 03 DEX 15 INT 30 SPR 40, HD:5d8+15 (20-55), AV+4 DV+0, att:1, morale:9, spd:10', XP:180, Undead
-
-- Attacks: *S:Sun Stroke*
-
-------
-
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Ghouls</b></td>
+    <td>12</td>
+    <td>20</td>
+    <td>1</td>
+    <td>1</td>
+    <td>5d6+17</td>
+    <td>22-47</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>110</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d6 — undead</td>
+  </tr>
+  <tr>
+    <td><b>Giant Snakes</b></td>
+    <td>20</td>
+    <td>22</td>
+    <td>1</td>
+    <td>3</td>
+    <td>3d8+12</td>
+    <td>15-36</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 breath, 7d6, flee</td>
+  </tr>
+  <tr>
+    <td><b>Goblins</b></td>
+    <td>10</td>
+    <td>20</td>
+    <td>6</td>
+    <td>10</td>
+    <td>4d4+10</td>
+    <td>14-26</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">4d6, call for help</td>
+  </tr>
+  <tr>
+    <td><b>Lizard Men</b></td>
+    <td>25</td>
+    <td>20</td>
+    <td>3</td>
+    <td>5</td>
+    <td>4d6+15</td>
+    <td>19-39</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>110</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d6</td>
+  </tr>
+  <tr>
+    <td><b>Serpent Men</b></td>
+    <td>12</td>
+    <td>17</td>
+    <td>3</td>
+    <td>5</td>
+    <td>4d6+15</td>
+    <td>19-39</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">6d6, flee</td>
+  </tr>
+  <tr>
+    <td><b>Serpent Warriors</b></td>
+    <td>20</td>
+    <td>4</td>
+    <td>8</td>
+    <td>10</td>
+    <td>3d8+20</td>
+    <td>23-44</td>
+    <td>+6</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>110</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d6 x ¼</td>
+  </tr>
+  <tr>
+    <td><b>Skeletons</b></td>
+    <td>8</td>
+    <td>16</td>
+    <td>8</td>
+    <td>8</td>
+    <td>5d8+12</td>
+    <td>17-52</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d4 — undead</td>
+  </tr>
+  <tr>
+    <td><b>Spiders</b></td>
+    <td>3</td>
+    <td>3</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2d6+12</td>
+    <td>14-24</td>
+    <td>+7</td>
+    <td>+0</td>
+    <td>80'</td>
+    <td>50</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 piercing</td>
+  </tr>
+  <tr>
+    <td><b>Spitting Snakes</b></td>
+    <td>5</td>
+    <td>15</td>
+    <td>5</td>
+    <td>10</td>
+    <td>4d4+15</td>
+    <td>19-31</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 breath</td>
+  </tr>
+  <tr>
+    <td><b>Vampire Wolves</b></td>
+    <td>13</td>
+    <td>20</td>
+    <td>5</td>
+    <td>10</td>
+    <td>6d8+9</td>
+    <td>15-57</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>130</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d6 — undead</td>
+  </tr>
+  <tr>
+    <td><b>Wraiths</b></td>
+    <td>3</td>
+    <td>15</td>
+    <td>30</td>
+    <td>40</td>
+    <td>5d8+15</td>
+    <td>20-55</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>180</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>S:Sun Stroke</i> — undead</td>
+  </tr>
+</table>
 Once you're into the Endgame, you have two more fights with Namtar. The first one, near the Recharge Pool, features a bunch of his goblin friends:
 
-**Namtar:** STR 00 DEX 30 INT 00 SPR 00, HD:10d4+200 (210-240), AV+3 DV+0, att:1, morale:10, spd:40', XP:2000
-
-- Attacks: 7d8
-
-**Goblins:** STR 00 DEX 20 INT 00 SPR 00, HD:2d8+25 (27-41), AV+4 DV+0, att:1, morale:10, spd:30', XP:200
-
-- Attacks: 7d8
-
-------
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Namtar (I)</b></td>
+    <td>0</td>
+    <td>30</td>
+    <td>0</td>
+    <td>0</td>
+    <td>10d4+200</td>
+    <td>210-240</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>40'</td>
+    <td>2000</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d8</td>
+  </tr>
+  <tr>
+    <td><b>Goblins</b></td>
+    <td>0</td>
+    <td>20</td>
+    <td>0</td>
+    <td>0</td>
+    <td>2d8+25</td>
+    <td>27-41</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d8</td>
+  </tr>
+</table>
 
 Finally, you bring Namtar's body to The Pit, where he tries to run away from you (until you hit him for the first time, at least).
 
-**Namtar:** STR 00 DEX 32 INT 00 SPR 00, HD:2d8+1000 (1002-1016), AV+4 DV+0, att:1, morale:10, spd:40', XP:2000
-
-- Attacks: 9d8, flee (0%)
-
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+  <tr>
+    <td><b>Namtar (II)</b></td>
+    <td>0</td>
+    <td>32</td>
+    <td>0</td>
+    <td>0</td>
+    <td>2d8+1000</td>
+    <td>1002-1016</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>40'</td>
+    <td>2000</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">flee, 9d8</td>
+  </tr>
+</table>

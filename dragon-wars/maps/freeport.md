@@ -40,18 +40,82 @@ However, there's a logic bug here. As soon as the Sword is revealed, the townspe
 
 ## Monsters
 
-    [00] Guard\s (he/him) [#5], STR 15 DEX 22 INT 09 SPR 10, HD:4d6+35 (39-59), AV+3 DV+0, att:1, morale:9, spd:10', XP:150, awards gold, image:Halbard Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(8d8, 10')
-    [01] Adventurer\s (he/him) [#4], STR 20 DEX 30 INT 20 SPR 02, HD:5d8+35 (40-75), AV+2 DV+0, att:1, morale:7, spd:50', XP:140, image:Adventurer, [0d]:0x66, [24]:0x02
-      GOOD/ALWAYS:Attack(8d8, 10')
-    [02] Citizen\s (he/him) [#4], STR 10 DEX 18 INT 10 SPR 30, HD:2d6+15 (17-27), AV+3 DV+0, att:1, morale:6, spd:10', XP:50, image:Old Man, [24]:0x02
-      GOOD/ALWAYS:Flee(50%)
-      OKAY/ALWAYS:Flee(50%)
-      EDGY/ALWAYS:Flee(50%)
-      HALP/ALWAYS:Flee(50%)
-    [03] Doomsayer\s (he/him) [#0], STR 05 DEX 05 INT 05 SPR 05, HD:1d4+0 (1-4), AV+10 DV+0, att:1, morale:2, spd:60', XP:40, image:Beggar, [24]:0x02
-      GOOD/ALWAYS:Flee(100%)
-      OKAY/ALWAYS:Flee(100%)
-      EDGY/ALWAYS:Flee(100%)
-      HALP/ALWAYS:Flee(100%)
-    
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Adventurers</b></td>
+    <td>20</td>
+    <td>30</td>
+    <td>20</td>
+    <td>2</td>
+    <td>5d8+35</td>
+    <td>40-75</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>140</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d8</td>
+  </tr>
+  <tr>
+    <td><b>Citizens</b></td>
+    <td>10</td>
+    <td>18</td>
+    <td>10</td>
+    <td>30</td>
+    <td>2d6+15</td>
+    <td>17-27</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>50</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">flee</td>
+  </tr>
+  <tr>
+    <td><b>Doomsayers</b></td>
+    <td>5</td>
+    <td>5</td>
+    <td>5</td>
+    <td>5</td>
+    <td>1d4+0</td>
+    <td>1-4</td>
+    <td>+10</td>
+    <td>+0</td>
+    <td>60'</td>
+    <td>40</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">flee</td>
+  </tr>
+  <tr>
+    <td><b>Guards</b></td>
+    <td>15</td>
+    <td>22</td>
+    <td>9</td>
+    <td>10</td>
+    <td>4d6+35</td>
+    <td>39-59</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d8 – awards gold</td>
+  </tr>
+</table>

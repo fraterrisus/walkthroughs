@@ -22,16 +22,114 @@ If you're coming from the east, the flag that forces you to fight the Scorpions 
 
 ## Monsters
 
-    [00] Scorpion\s (-) [#1], STR 60 DEX 60 INT 60 SPR 60, HD:10d12+12 (22-132), AV+6 DV+0, att:1, morale:25, spd:60', XP:500, image:Scorpion, [24]:0x03
-      GOOD/ALWAYS:Attack(8d8, 10')
-    [01] Evil Spirit\s (it) [#9], STR 03 DEX 12 INT 30 SPR 50, HD:10d4+0 (10-40), AV+4 DV+0, att:1, morale:10, spd:10', XP:200, image:Wraith
-      GOOD/ALWAYS:Cast(L:Mage Fire, pow:0, target)
-    [02] Bear\s (he/him) [#3], STR 45 DEX 16 INT 05 SPR 10, HD:8d10+10 (18-90), AV+4 DV+0, att:1, morale:9, spd:10', XP:180, can't be disarmed, image:Bear, [0d]:0x66, [24]:0x04
-      GOOD/ALWAYS:Attack(10d8 stun, 10')
-    [03] Cave Bear\s (it) [#2], STR 20 DEX 10 INT 08 SPR 10, HD:3d8+25 (28-49), AV+4 DV+0, att:1, morale:8, spd:20', XP:150, image:Bear, [24]:0x03
-      GOOD/ALWAYS:Attack(8d8, 10')
-      HALP/ALWAYS:Flee(100%)
-    [04] Wild Dog\s (it) [#7], STR 12 DEX 28 INT 03 SPR 05, HD:3d6+20 (23-38), AV+3 DV+0, att:1, morale:8, spd:30', XP:150, image:Wolf, [24]:0x01
-      GOOD/ALWAYS:Attack(6d8, 10')
-    [05] Bridge Wol/f\ves (it) [#3], STR 20 DEX 20 INT 03 SPR 10, HD:5d6+25 (30-55), AV+8 DV+0, att:1, morale:8, spd:30', XP:160, image:Wolf, [24]:0x02
-      GOOD/ALWAYS:Attack(6d8, 10')
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Bears</b></td>
+    <td>45</td>
+    <td>16</td>
+    <td>5</td>
+    <td>10</td>
+    <td>8d10+10</td>
+    <td>18-90</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>180</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d8 stun — can't be disarmed</td>
+  </tr>
+  <tr>
+    <td><b>Bridge Wolves</b></td>
+    <td>20</td>
+    <td>20</td>
+    <td>3</td>
+    <td>10</td>
+    <td>5d6+25</td>
+    <td>30-55</td>
+    <td>+8</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>160</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">6d8</td>
+  </tr>
+  <tr>
+    <td><b>Cave Bears</b></td>
+    <td>20</td>
+    <td>10</td>
+    <td>8</td>
+    <td>10</td>
+    <td>3d8+25</td>
+    <td>28-49</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d8, flee</td>
+  </tr>
+  <tr>
+    <td><b>Evil Spirits</b></td>
+    <td>3</td>
+    <td>12</td>
+    <td>30</td>
+    <td>50</td>
+    <td>10d4+0</td>
+    <td>10-40</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>L:Mage Fire</i></td>
+  </tr>
+  <tr>
+    <td><b>Scorpions</b></td>
+    <td>60</td>
+    <td>60</td>
+    <td>60</td>
+    <td>60</td>
+    <td>10d12+12</td>
+    <td>22-132</td>
+    <td>+6</td>
+    <td>+0</td>
+    <td>60'</td>
+    <td>500</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d8</td>
+  </tr>
+  <tr>
+    <td><b>Wild Dogs</b></td>
+    <td>12</td>
+    <td>28</td>
+    <td>3</td>
+    <td>5</td>
+    <td>3d6+20</td>
+    <td>23-38</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">6d8</td>
+  </tr>
+</table>

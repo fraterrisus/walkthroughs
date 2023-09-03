@@ -4,13 +4,13 @@
 
 Plenty of random encounters (1 in 33), and even more traps. It's worth running a trap-detection spell while you're here.
 
+At any point, you can use *Forest Lore* for a hint that there's probably a game warden around, and use *Tracker* for a hint that there's probably some game near the river.
+
 ## Exits
 
 You can leave on foot in any direction, which brings you to the expected place on [Rustic](dilmun.md) near (25,27).
 
 ## Points of Interest
-
-At any point, you can use *Forest Lore* for a hint that there's probably a game warden around, and use *Tracker* for a hint that there's probably some game near the river.
 
 **Snare traps (various):** The warden has set a number of snare traps around the map. You can avoid them if you have a trap-detection spell running. If you get caught in one, you're stuck for 40 turns unless you use a weapon (ammunition doesn't count) or Strength (18 or better) to break out of the trap.
 
@@ -26,38 +26,249 @@ At any point, you can use *Forest Lore* for a hint that there's probably a game 
 
 ## Monsters
 
-    [00] Bush Wizard\s (it) [#1], STR 10 DEX 04 INT 30 SPR 60, HD:8d8+25 (33-89), AV+7 DV+0, att:1, morale:9, spd:10', XP:240, image:Robed Man, [24]:0x02
-      GOOD/ALWAYS:Cast(H:Fire Light, pow:2, target)
-      HALP/ALWAYS:Flee(50%)
-      GOOD/DAMAGED:Flee(70%)
-    [01] Wood Spirit\s (it) [#9], STR 03 DEX 12 INT 30 SPR 50, HD:4d8+25 (29-57), AV+3 DV+0, att:1, morale:10, spd:10', XP:200, image:Murk Tree
-      GOOD/ALWAYS:Cast(D:Brambles, pow:1, target)
-    [02] Ogre\s (he/him) [#3], STR 45 DEX 10 INT 05 SPR 10, HD:8d10+10 (18-90), AV+3 DV+0, att:1, morale:9, spd:10', XP:180, can't be disarmed, image:Humbaba, [0d]:0x66, [24]:0x04
-      GOOD/ALWAYS:Attack(8d6, 10')
-      HALP/ALWAYS:Flee(40%)
-    [03] Spit Snake\s (it) [#2], STR 40 DEX 20 INT 08 SPR 10, HD:3d20+15 (18-75), AV+2 DV+0, att:1, morale:8, spd:20', XP:160, can't be disarmed, image:Snake, [24]:0x06
-      GOOD/ALWAYS:Breath(2d6, 10')
-      HALP/ALWAYS:Flee(50%)
-    [04] Spider\s (it) [#6], STR 12 DEX 22 INT 03 SPR 05, HD:2d8+15 (17-31), AV+3 DV+0, att:1, morale:3, spd:30', XP:180, image:Spider, [24]:0x01
-      GOOD/ALWAYS:Attack(11d4, 10')
-      OKAY/ALWAYS:Attack(2d4 piercing, 10')
-      HALP/ALWAYS:Flee(70%)
-    [05] Hell Hound\s (it) [#8], STR 20 DEX 20 INT 03 SPR 10, HD:10d6+20 (30-80), AV+3 DV+0, att:1, morale:7, spd:30', XP:170, image:Wolf, [24]:0x02
-      GOOD/ALWAYS:Breath(2d4, 10')
-    [06] Elemental\s (it) [#2], STR 50 DEX 04 INT 01 SPR 01, HD:10d4+10 (20-50), AV+6 DV+0, att:1, morale:8, spd:30', XP:400, image:Gaze Demon
-      GOOD/CLOSE:Cast(S:Fire Storm, pow:1, target)
-      GOOD/ALWAYS:Cast(S:Wrath of Mithras, pow:1, target)
-    [07] Stag (he/him) [#0], STR 20 DEX 24 INT 08 SPR 20, HD:4d8+0 (4-32), AV+3 DV+0, att:1, morale:4, spd:00', XP:1, image:Stag, [24]:0x03
-      GOOD/ALWAYS:Attack(4d4, 10')
-    [08] Bandit\s (he/him) [#7], STR 20 DEX 15 INT 05 SPR 10, HD:8d8+15 (23-79), AV+3 DV+0, att:1, morale:7, spd:10', XP:160, image:Goblin, [24]:0x02
-      GOOD/ALWAYS:Attack(8d6, 10')
-      EDGY/ALWAYS:Dodge
-      HALP/ALWAYS:Flee(70%)
-    [09] Bandit Leader\s (he/him) [#0], STR 35 DEX 30 INT 15 SPR 30, HD:10d8+30 (40-110), AV+2 DV+0, att:1, morale:11, spd:30', XP:220, awards gold, image:Halbard Guard, [24]:0x02
-      GOOD/ALWAYS:Breath(1d8, 10')
-      GOOD/CLOSE:Attack(5d6, 10')
-      EDGY/ALWAYS:Dodge
-      HALP/ALWAYS:Attack(5d6 piercing, 10')
-    
-    [0a] Old Jack (he/him) [#0], STR 20 DEX 24 INT 12 SPR 30, HD:8d8+15 (23-79), AV+2 DV+0, att:1, morale:10, spd:50', XP:400, image:Forester, [24]:0x02
-      GOOD/ALWAYS:Attack(1d6 piercing, 120')
+It seems weird to me that there would be so many supernatural creatures running around King Drake's Game Preserve. Maybe it's Namtar's influence... or maybe Jack's not very good at his job, eh?
+
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Bush Wizard</b></td>
+    <td>10</td>
+    <td>4</td>
+    <td>30</td>
+    <td>60</td>
+    <td>8d8+25</td>
+    <td>33-89</td>
+    <td>+7</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>240</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>H:Fire Light</i> @2, flee</td>
+  </tr>
+  <tr>
+    <td><b>Elementals</b></td>
+    <td>50</td>
+    <td>4</td>
+    <td>1</td>
+    <td>1</td>
+    <td>10d4+10</td>
+    <td>20-50</td>
+    <td>+6</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>400</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>S:Wrath of Mithras</i>, <i>S:Fire Storm</i></td>
+  </tr>
+  <tr>
+    <td><b>Hell Hounds</b></td>
+    <td>20</td>
+    <td>20</td>
+    <td>3</td>
+    <td>10</td>
+    <td>10d6+20</td>
+    <td>30-80</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>170</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 breath</td>
+  </tr>
+  <tr>
+    <td><b>Ogre</b></td>
+    <td>45</td>
+    <td>10</td>
+    <td>5</td>
+    <td>10</td>
+    <td>8d10+10</td>
+    <td>18-90</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>180</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d6, flee — can't be disarmed</td>
+  </tr>
+  <tr>
+    <td><b>Spiders</b></td>
+    <td>12</td>
+    <td>22</td>
+    <td>3</td>
+    <td>5</td>
+    <td>2d8+15</td>
+    <td>17-31</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>180</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">11d4, 2d4 piercing, flee</td>
+  </tr>
+  <tr>
+    <td><b>Spit Snakes</b></td>
+    <td>40</td>
+    <td>20</td>
+    <td>8</td>
+    <td>10</td>
+    <td>3d20+15</td>
+    <td>18-75</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>160</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 breath, flee — can't be disarmed</td>
+  </tr>
+  <tr>
+    <td><b>Wood Spirit</b></td>
+    <td>3</td>
+    <td>12</td>
+    <td>30</td>
+    <td>50</td>
+    <td>4d8+25</td>
+    <td>29-57</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>D:Brambles</i></td>
+  </tr></table>
+
+The Stag:
+
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Stag</b></td>
+    <td>20</td>
+    <td>24</td>
+    <td>8</td>
+    <td>20</td>
+    <td>4d8+0</td>
+    <td>4-32</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>00'</td>
+    <td>1</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">4d4</td>
+  </tr>
+</table>
+
+The bandit party:
+
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Bandits</b></td>
+    <td>20</td>
+    <td>15</td>
+    <td>5</td>
+    <td>10</td>
+    <td>8d8+15</td>
+    <td>23-79</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>160</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">8d6, dodge, flee</td>
+  </tr>
+  <tr>
+    <td><b>Bandit Leader</b></td>
+    <td>35</td>
+    <td>30</td>
+    <td>15</td>
+    <td>30</td>
+    <td>10d8+30</td>
+    <td>40-110</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>220</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d8 breath, 5d6, dodge, 5d6 piercing — awards gold</td>
+  </tr>
+</table>
+
+The forest's warden:
+
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Old Jack</b></td>
+    <td>20</td>
+    <td>24</td>
+    <td>12</td>
+    <td>30</td>
+    <td>8d8+15</td>
+    <td>23-79</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>400</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d6 piercing</td>
+  </tr>
+</table>

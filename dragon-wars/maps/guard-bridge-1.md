@@ -26,6 +26,50 @@ These exits are true even if you exit to the East or West from the appropriate s
 
 ## Monsters
 
-​    [00] Bridge Guard\s (he/him) [#2], STR 15 DEX 20 INT 09 SPR 10, HD:10d6+5 (15-65), AV+20 DV+0, att:1, morale:4, spd:10', XP:320, awards gold, image:Halbard Guard, [24]:0x02; 4d8, call for help
-
-​    [01] Rat\s! (it) [#19], STR 08 DEX 18 INT 02 SPR 03, HD:1d4+0 (1-4), AV+6 DV+0, att:1, morale:3, spd:50', XP:70, image:Rat, [0d]:0x64; 3d4, 1d4 health, flee
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Bridge Guards</b></td>
+    <td>15</td>
+    <td>20</td>
+    <td>9</td>
+    <td>10</td>
+    <td>10d6+5</td>
+    <td>15-65</td>
+    <td>+20</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>320</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">4d8, call for help — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Rats!</b></td>
+    <td>8</td>
+    <td>18</td>
+    <td>2</td>
+    <td>3</td>
+    <td>1d4+0</td>
+    <td>1-4</td>
+    <td>+6</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>70</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d4, flee, 1d4 health</td>
+  </tr>
+</table>

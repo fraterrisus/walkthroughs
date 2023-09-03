@@ -28,27 +28,150 @@ The only actual exit from this map is the stairs at (06,09) that take you up to 
 
 ## Monsters
 
-    [00] City Militam/an\en (he/him) [#2], STR 15 DEX 16 INT 09 SPR 10, HD:5d6+3 (8-33), AV+2 DV+0, att:1, morale:6, spd:10', XP:120, awards gold, image:Halbard Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(5d6, 10')
-      OKAY/ALWAYS:Attack(5d8, 10')
-      EDGY/ALWAYS:Attack(5d8 piercing, 10')
-      HALP/ALWAYS:Call(50%, 3)
-      GOOD/DAMAGED:Call(20%, 3)
-    [01] Royal Guard\s (he/him) [#5], STR 12 DEX 22 INT 10 SPR 10, HD:6d6+30 (36-66), AV+4 DV+0, att:1, morale:6, spd:10', XP:130, awards gold, image:Spear Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(10d6 stun, 10')
-      OKAY/ALWAYS:Attack(1d6 piercing, 10')
-      EDGY/ALWAYS:Block
-      HALP/ALWAYS:Call(30%, 3)
-    [02] Throneroom Guard\s (he/him) [#2], STR 18 DEX 18 INT 18 SPR 18, HD:5d6+32 (37-62), AV+38 DV+0, att:1, morale:7, spd:10', XP:150, awards gold, image:Spear Guard, [24]:0x02
-      GOOD/ALWAYS:Attack(5d6, 10')
-      EDGY/ALWAYS:Cast(L:Mage Fire, pow:0, target)
-      HALP/ALWAYS:Call(70%, 3)
-      HALP/ATTACKED:Cast(L:Mage Fire, pow:0, target)
-    [03] Princess Myrolla (she/her) [#0], STR 12 DEX 24 INT 14 SPR 30, HD:6d6+15 (21-51), AV+3 DV+0, att:1, morale:9, spd:10', XP:200, image:Pilgrim, [24]:0x02
-      GOOD/ALWAYS:Cast(H:Ice Chill, pow:2, target)
-      EDGY/ALWAYS:Flee(100%)
-      HALP/ALWAYS:Flee(40%)
-    [04] Prince Jordan (he/him) [#0], STR 33 DEX 30 INT 10 SPR 10, HD:6d6+30 (36-66), AV+1 DV+0, att:1, morale:7, spd:10', XP:150, image:Adventurer, [24]:0x02
-      GOOD/ALWAYS:Attack(6d6, 10')
-    [05] Zombie\s (he/him) [#6], STR 40 DEX 14 INT 01 SPR 01, HD:10d4+4 (14-44), AV+3 DV+0, att:1, morale:4, spd:10', XP:130, image:Zombie, [24]:0x02
-      GOOD/ALWAYS:Attack(7d6, 10')
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>City Militamen</b></td>
+    <td>15</td>
+    <td>16</td>
+    <td>9</td>
+    <td>10</td>
+    <td>5d6+3</td>
+    <td>8-33</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>120</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6, 5d8, 5d8 piercing, call for help — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Royal Guards</b></td>
+    <td>12</td>
+    <td>22</td>
+    <td>10</td>
+    <td>10</td>
+    <td>6d6+30</td>
+    <td>36-66</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>130</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d6 stun, 1d6 piercing, block, call for help — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Throneroom Guards</b></td>
+    <td>18</td>
+    <td>18</td>
+    <td>18</td>
+    <td>18</td>
+    <td>5d6+32</td>
+    <td>37-62</td>
+    <td>+38</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">5d6, <i>L:Mage Fire</i>, call for help — awards gold</td>
+  </tr>
+</table>
+
+The royal siblings:
+
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>  
+  <tr>
+    <td><b>Princess Myrolla</b></td>
+    <td>12</td>
+    <td>24</td>
+    <td>14</td>
+    <td>30</td>
+    <td>6d6+15</td>
+    <td>21-51</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>H:Ice Chill</i> @2, flee</td>
+  </tr>
+  <tr>
+    <td><b>Prince Jordan</b></td>
+    <td>33</td>
+    <td>30</td>
+    <td>10</td>
+    <td>10</td>
+    <td>6d6+30</td>
+    <td>36-66</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>150</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">6d6</td>
+  </tr>
+</table>
+
+The guardians of the vault:
+
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Zombies</b></td>
+    <td>40</td>
+    <td>14</td>
+    <td>1</td>
+    <td>1</td>
+    <td>10d4+4</td>
+    <td>14-44</td>
+    <td>+3</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>130</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d6</td>
+  </tr>
+</table>

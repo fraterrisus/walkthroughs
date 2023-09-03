@@ -10,7 +10,7 @@ Paragraph #147 sure looks like it belongs here, but isn't ever referenced.
 
 ## Exits
 
-South (07,00): Exit to the [Eastern Isles](dilmun.md) (34,14).
+South (07,00): Exit to the [Eastern Isles](dilmun.md) (34,14).
 
 ## Points of Interest
 
@@ -20,19 +20,122 @@ South (07,00): Exit to the [Eastern Isles](dilmun.md) (34,14).
 
 **The Magic Cache (14,14):** A tough chest (difficulty 5) with some scrolls: *H:Sala's Swift, H:Vorn's Guard*, and *H:Cowardice*.
 
-**The Dragon Queen (06,12):** Read paragraph #134. Your only hope is to use the **Dragon Gem** that you received from the dragon in [Lansk](lansk-undercity.md); read paragraph #120 and gain 500 XP. If you try to run away, she attacks — and with a 10d12 breath weapon she *will* win, at which point you are blown back to the entrance (07,00).
+**The Dragon Queen (06,12):** Read paragraph #134. Your only hope is to use the **Dragon Gem** that you received from the dragon in [Lansk](lansk-undercity.md); read paragraph #120 and gain 500 XP. If you try to run away, she attacks. With 100 DEX and a 10d12 breath weapon she *will* win, at which point you are blown back to the entrance (07,00).
 
 If you somehow manage to defeat her, she "surrenders" and swears to answer the call of the Dragon Gem next time you use it. However, this path *doesn't set the global flag* that gets checked when you face Namtar's army in the Nisir, so I don't even think it would work.
 
 ## Monsters
 
-    [00] Fanger\s (it) [#2], STR 60 DEX 16 INT 01 SPR 01, HD:2d10+11 (13-31), AV+5 DV+0, att:1, morale:12, spd:60', XP:100, image:Turtle, [24]:0x01
-      GOOD/ALWAYS:Attack(1d4 piercing, 10')
-    [01] Cockatrice (it) [#0], STR 90 DEX 20 INT 01 SPR 01, HD:8d8+35 (43-99), AV+2 DV+0, att:1, morale:8, spd:40', XP:210, image:Cocatrice, [24]:0x03
-      GOOD/ALWAYS:Breath(1d6, 10')
-    [02] Dragon warrior\s (it) [#3], STR 120 DEX 26 INT 10 SPR 20, HD:10d8+35 (45-115), AV+4 DV+0, att:1, morale:9, spd:30', XP:300, image:Dragon Warrior, [24]:0x02
-      GOOD/ALWAYS:Attack(7d8, 10')
-    [03] Mage\s (he/him) [#0], STR 00 DEX 22 INT 00 SPR 00, HD:3d10+45 (48-75), AV+4 DV+0, att:1, morale:10, spd:10', XP:230, image:Creepy Mage
-      GOOD/ALWAYS:Cast(D:Brambles, pow:10, target)
-    [04] Dragon Brood Queen (she/her) [#0], STR 200 DEX 100 INT 100 SPR 100, HD:4d100+100 (104-500), AV+200 DV+0, att:1, morale:31, spd:150', XP:3200, can't be disarmed, image:Dragon Queen, [24]:0x07
-      GOOD/ALWAYS:Breath(10d12, 10')
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Cockatrices</b></td>
+    <td>90</td>
+    <td>20</td>
+    <td>1</td>
+    <td>1</td>
+    <td>8d8+35</td>
+    <td>43-99</td>
+    <td>+2</td>
+    <td>+0</td>
+    <td>40'</td>
+    <td>210</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d6 breath</td>
+  </tr>
+  <tr>
+    <td><b>Dragon warriors</b></td>
+    <td>120</td>
+    <td>26</td>
+    <td>10</td>
+    <td>20</td>
+    <td>10d8+35</td>
+    <td>45-115</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>300</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">7d8</td>
+  </tr>
+  <tr>
+    <td><b>Fangers</b></td>
+    <td>60</td>
+    <td>16</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2d10+11</td>
+    <td>13-31</td>
+    <td>+5</td>
+    <td>+0</td>
+    <td>60'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 piercing</td>
+  </tr>
+  <tr>
+    <td><b>Mages</b></td>
+    <td>0</td>
+    <td>22</td>
+    <td>0</td>
+    <td>0</td>
+    <td>3d10+45</td>
+    <td>48-75</td>
+    <td>+4</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>230</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10"><i>D:Brambles</i></td>
+  </tr>
+</table>
+
+You really don't want to rumble with the Queen:
+
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>  
+  <tr>
+    <td><b>Dragon Brood Queen</b></td>
+    <td>200</td>
+    <td>100</td>
+    <td>100</td>
+    <td>100</td>
+    <td>4d100+100</td>
+    <td>104-500</td>
+    <td>+200</td>
+    <td>+0</td>
+    <td>150'</td>
+    <td>3200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">10d12 breath — can't be disarmed</td>
+  </tr>
+</table>

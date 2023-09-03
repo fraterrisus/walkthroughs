@@ -10,7 +10,7 @@ West: [King's Isle](dilmun.md) (15,17)
 
 (05,05): The ferry to the [Lansk Undercity](lansk-undercity.md) (07,15). Requires a ticket.
 
-(03,06): The ferry to the [Pilgrim Dock](pilgrim-dock.md) (02,07). Requires Pilgrim Garb.
+(03,06): The ferry to the [Pilgrim Dock](pilgrim-dock.md) (02,07). Requires Pilgrim Garb.
 
 ## Points of Interest
 

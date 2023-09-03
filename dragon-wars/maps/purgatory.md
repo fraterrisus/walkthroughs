@@ -64,83 +64,418 @@ There's also the **Apsu Waters** (07,12), which will take you to the [Magan Unde
 
 ## Monsters
 
-**Bandits:** STR 10 DEX 16 INT 09 SPR 09, HD:3d8+0 (3-24), AV+0 DV+0, morale:4, spd:20', XP:80
-
-- Attacks: 1d8 stun, flee
-
-**Big Dogs:** STR 17 DEX 12 INT 03 SPR 10, HD:3d4+8 (11-20), AV+0 DV+0, morale:4, spd:30', XP:80
-
-- Attacks: 2d6 stun
-
-**Born Losers:** STR 03 DEX 10 INT 03 SPR 05, HD:2d4+0 (2-8), AV+0 DV+0, morale:1, spd:10', XP:60
-
-- Attacks: 2d4 stun
-
-**Cannibals:** STR 08 DEX 15 INT 04 SPR 01, HD:1d10+0 (1-10), AV+0 DV+0, morale:1, spd:30', XP:30
-
-- Attacks: 2d4 stun, 2d6
-
-**Drunks:** STR 16 DEX 09 INT 03 SPR 15, HD:5d6+4 (9-34), AV+1 DV+0, morale:3, spd:10', XP:90
-- Attacks: 1d4 stun
-
-**Fanatics:** STR 12 DEX 10 INT 03 SPR 15, HD:2d8+2 (4-18), AV+0 DV+0, morale:4, spd:20', XP:80
-- Attacks: 2d4 stun
-
-**Giant Spiders:** STR 22 DEX 24 INT 01 SPR 06, HD:6d4+10 (16-34), AV+0 DV+0, morale:5, spd:50', XP:110, can't be disarmed
-- Attacks: 2d8, flee
-
-**Gladiators:** STR 15 DEX 23 INT 15 SPR 16, HD:3d8+4 (7-28), AV+1 DV+0, morale:4, spd:20', XP:130
-- Attacks: 3d6
-
-**Humbaba:** STR 66 DEX 18 INT 05 SPR 20, HD:10d6+50 (60-110), AV+1 DV+0, morale:5, spd:20', XP:1000
-- Attacks: 3d10
-
-**Innocent Men:** STR 10 DEX 10 INT 10 SPR 15, HD:2d6+2 (4-14), AV+0 DV+0, morale:4, spd:10', XP:80
-- Attacks: 2d6 stun
-
-**Jail Keepers:** STR 03 DEX 19 INT 03 SPR 07, HD:2d6+8 (10-20), AV+1 DV+0, morale:4, spd:90', XP:80, awards gold
-- Attacks: 2d6
-
-**King's Guards:** STR 12 DEX 16 INT 08 SPR 10, HD:3d6+3 (6-21), AV+0 DV+0, morale:4, spd:10', XP:100, awards gold
-- Attacks: 3d6, 3d8
-
-**Loons:** STR 10 DEX 10 INT 05 SPR 03, HD:2d4+1 (3-9), AV+0 DV+0, morale:2, spd:10', XP:40
-- Attacks: 2d4, 1d4 health
-
-**Pikemen:** STR 16 DEX 12 INT 10 SPR 10, HD:3d8+8 (11-32), AV+0 DV+0, morale:5, spd:10', XP:90, awards gold
-- Attacks: 3d4, flee
-
-**Robbers:** STR 06 DEX 08 INT 07 SPR 05, HD:1d6+0 (1-6), AV+0 DV+0, morale:5, spd:10', XP:80
-
-- Attacks: 1d8 stun
-
-**Rock Spiders:** STR 05 DEX 22 INT 03 SPR 01, HD:2d4+7 (9-15), AV+1 DV+0, morale:3, spd:30', XP:90
-- Attacks: 2d4 stun
-
-**Rock Spiders:** STR 09 DEX 22 INT 04 SPR 02, HD:3d12+0 (3-36), AV+1 DV+0, morale:5, spd:60', XP:200
-- Attacks: 1d10 stun
-
-**Soldiers:** STR 14 DEX 12 INT 07 SPR 08, HD:3d6+0 (3-18), AV+0 DV+0, morale:2, spd:10', XP:100, awards gold
-- Attacks: 3d4
-
-**Spiders:** STR 08 DEX 16 INT 01 SPR 01, HD:2d4+5 (7-13), AV+0 DV+0, morale:2, spd:50', XP:40
-- Attacks: 2d6 stun
-
-**Spiders:** STR 03 DEX 21 INT 04 SPR 02, HD:1d8+5 (6-13), AV+1 DV+0, morale:2, spd:50', XP:80
-- Attacks: 2d6 stun, flee
-
-**Unjustly Accused:** STR 15 DEX 10 INT 12 SPR 13, HD:3d6+3 (6-21), AV+0 DV+0, morale:4, spd:10', XP:90
-- Attacks: 2d6 stun
-
-**Wild Dogs:** STR 11 DEX 15 INT 01 SPR 01, HD:3d10+3 (6-33), AV+0 DV+0, morale:2, spd:10', XP:100
-- Attacks: 2d8 stun
-
-**Wild Hounds:** STR 05 DEX 20 INT 04 SPR 12, HD:2d4+5 (7-13), AV+0 DV+0, morale:4, spd:50', XP:80
-- ATtacks: 2d4 stun
-
-**Yonderboys:** STR 12 DEX 15 INT 08 SPR 12, HD:2d10+5 (7-25), AV+0 DV+0, morale:3, spd:10', XP:70
-- Attacks: 1d10 stun, 2d8, call for help
-
-**Wolves:** STR 09 DEX 16 INT 05 SPR 06, HD:4d6+3 (7-27), AV+1 DV+0, morale:3, spd:40', XP:80
-- Attacks: 2d6 stun
-
+<table>
+  <tr>
+    <th></th>
+    <th>STR</th>
+    <th>DEX</th>
+    <th>INT</th>
+    <th>SPR</th>
+    <th>HD</th>
+    <th>HP</th>
+    <th>AV</th>
+    <th>DV</th>
+    <th>Speed</th>
+    <th>XP</th>
+  </tr>
+  <tr>
+    <td><b>Bandits</b></td>
+    <td>10</td>
+    <td>16</td>
+    <td>9</td>
+    <td>9</td>
+    <td>3d8+0</td>
+    <td>3-24</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>80</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d8 stun, flee</td>
+  </tr>
+  <tr>
+    <td><b>Big Dogs</b></td>
+    <td>17</td>
+    <td>12</td>
+    <td>3</td>
+    <td>10</td>
+    <td>3d4+8</td>
+    <td>11-20</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>80</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 stun</td>
+  </tr>
+  <tr>
+    <td><b>Born Losers</b></td>
+    <td>3</td>
+    <td>10</td>
+    <td>3</td>
+    <td>5</td>
+    <td>2d4+0</td>
+    <td>2-8</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>60</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 stun</td>
+  </tr>
+  <tr>
+    <td><b>Cannibals</b></td>
+    <td>8</td>
+    <td>15</td>
+    <td>4</td>
+    <td>1</td>
+    <td>1d10+0</td>
+    <td>1-10</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>30</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 stun, 2d6</td>
+  </tr>
+  <tr>
+    <td><b>Drunks</b></td>
+    <td>16</td>
+    <td>9</td>
+    <td>3</td>
+    <td>15</td>
+    <td>5d6+4</td>
+    <td>9-34</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d4 stun</td>
+  </tr>
+  <tr>
+    <td><b>Fanatics</b></td>
+    <td>12</td>
+    <td>10</td>
+    <td>3</td>
+    <td>15</td>
+    <td>2d8+2</td>
+    <td>4-18</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>80</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 stun</td>
+  </tr>
+  <tr>
+    <td><b>Giant Spiders</b></td>
+    <td>22</td>
+    <td>24</td>
+    <td>1</td>
+    <td>6</td>
+    <td>6d4+10</td>
+    <td>16-34</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>110</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d8, flee — can't be disarmed</td>
+  </tr>
+  <tr>
+    <td><b>Gladiators</b></td>
+    <td>15</td>
+    <td>23</td>
+    <td>15</td>
+    <td>16</td>
+    <td>3d8+4</td>
+    <td>7-28</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>130</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d6</td>
+  </tr>
+  <tr>
+    <td><b>Humbaba</b></td>
+    <td>66</td>
+    <td>18</td>
+    <td>5</td>
+    <td>20</td>
+    <td>10d6+50</td>
+    <td>60-110</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>20'</td>
+    <td>1000</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d10</td>
+  </tr>
+  <tr>
+    <td><b>Innocent Men</b></td>
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+    <td>15</td>
+    <td>2d6+2</td>
+    <td>4-14</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>80</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6</td>
+  </tr>
+  <tr>
+    <td><b>Jail Keepers</b></td>
+    <td>3</td>
+    <td>19</td>
+    <td>3</td>
+    <td>7</td>
+    <td>2d6+8</td>
+    <td>10-20</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>90'</td>
+    <td>80</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>King's Guard</b></td>
+    <td>12</td>
+    <td>16</td>
+    <td>8</td>
+    <td>10</td>
+    <td>3d6+3</td>
+    <td>6-21</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d6, 3d8 — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Loons</b></td>
+    <td>10</td>
+    <td>10</td>
+    <td>5</td>
+    <td>3</td>
+    <td>2d4+1</td>
+    <td>3-9</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>40</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4, 1d4 health</td>
+  </tr>
+  <tr>
+    <td><b>Pikemen</b></td>
+    <td>16</td>
+    <td>12</td>
+    <td>10</td>
+    <td>10</td>
+    <td>3d8+8</td>
+    <td>11-32</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d4, flee — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Robbers</b></td>
+    <td>6</td>
+    <td>8</td>
+    <td>7</td>
+    <td>5</td>
+    <td>1d6+0</td>
+    <td>1-6</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>80</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d8</td>
+  </tr>
+  <tr>
+    <td><b>Rock Spiders</b></td>
+    <td>9</td>
+    <td>22</td>
+    <td>4</td>
+    <td>2</td>
+    <td>3d12+0</td>
+    <td>3-36</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>60'</td>
+    <td>200</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">1d10 stun</td>
+  </tr>
+  <tr>
+    <td><b>Rock Spiders</b></td>
+    <td>5</td>
+    <td>22</td>
+    <td>3</td>
+    <td>1</td>
+    <td>2d4+7</td>
+    <td>9-15</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>30'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 stun</td>
+  </tr>
+  <tr>
+    <td><b>Soldiers</b></td>
+    <td>14</td>
+    <td>12</td>
+    <td>7</td>
+    <td>8</td>
+    <td>3d6+0</td>
+    <td>3-18</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">3d4 — awards gold</td>
+  </tr>
+  <tr>
+    <td><b>Spiders</b></td>
+    <td>3</td>
+    <td>21</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1d8+5</td>
+    <td>6-13</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>80</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 stun, flee</td>
+  </tr>
+  <tr>
+    <td><b>Spiders</b></td>
+    <td>8</td>
+    <td>16</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2d4+5</td>
+    <td>7-13</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>40</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 stun</td>
+  </tr>
+  <tr>
+    <td><b>Unjustly Accused</b></td>
+    <td>15</td>
+    <td>10</td>
+    <td>12</td>
+    <td>13</td>
+    <td>3d6+3</td>
+    <td>6-21</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>90</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 stun, flee</td>
+  </tr>
+  <tr>
+    <td><b>Wild Dogs</b></td>
+    <td>11</td>
+    <td>15</td>
+    <td>1</td>
+    <td>1</td>
+    <td>3d10+3</td>
+    <td>6-33</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>100</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d8 stun</td>
+  </tr>
+  <tr>
+    <td><b>Wild hounds</b></td>
+    <td>5</td>
+    <td>20</td>
+    <td>4</td>
+    <td>12</td>
+    <td>2d4+5</td>
+    <td>7-13</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>50'</td>
+    <td>80</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d4 stun</td>
+  </tr>
+  <tr>
+    <td><b>Wolves</b></td>
+    <td>9</td>
+    <td>16</td>
+    <td>5</td>
+    <td>6</td>
+    <td>4d6+3</td>
+    <td>7-27</td>
+    <td>+1</td>
+    <td>+0</td>
+    <td>40'</td>
+    <td>80</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d6 stun</td>
+  </tr>
+  <tr>
+    <td><b>Yonderboys</b></td>
+    <td>12</td>
+    <td>15</td>
+    <td>8</td>
+    <td>12</td>
+    <td>2d10+5</td>
+    <td>7-25</td>
+    <td>+0</td>
+    <td>+0</td>
+    <td>10'</td>
+    <td>70</td>
+  </tr><tr>
+    <td></td>
+    <td colspan="10">2d8, 1d10 stun, call for help</td>
+  </tr>
+</table>

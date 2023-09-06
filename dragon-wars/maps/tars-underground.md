@@ -4,7 +4,7 @@
 
 A tiny but confusing board, thanks to a spinner and a wrapping map. Your best bet is to get in and get out... although the easter egg is pretty epic.
 
-This is a proper dungeon, so you need a light source to see and a compass to get your bearings. There are also far too many types of wandering monsters (1 in 100) for a board this small.
+This is a proper dungeon, so you need a **light** source to see and a **compass** to get your bearings. There are also far too many types of wandering monsters (1 in 100) for a board this small.
 
 ## Exits
 

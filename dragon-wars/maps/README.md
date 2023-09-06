@@ -4,6 +4,8 @@ This directory contains annotated SVG maps of every board in the game along with
 
 A few notes on the notation used on the map pages:
 
+- By default, boards are well-lit (so you don't need a light source) and allow you to get your bearings (so you don't need a magical compass). If that isn't true, there's a note in the board intro. I've also noted if the map is marked as "wrapping", although keep in mind that maps sometimes wrap even if they aren't marked that way (see [Weird Stuff](../README.md)).
+- Boards may have "Wandering" encounters, which have a random chance of appearing every time you take a step. (The frequency will be noted in the board intro.) "Fixed" encounters will be marked on the maps with an **E**; "Static" encounters with known opponents will have a subscript and an entry on the legend, and "Random" encounters won't have a subscript.
 - Some monsters exist more than once on a given board's monster list. This data is taken straight from the decompiled files, so if they're on the list twice, they're in the data twice. There's usually no way to tell them apart in-game, even though they may have significantly different statistics and/or abilities. Sorry.
 - Monster AV and DV values are *bonuses*; they don't include the base DEX / 4 value. A monster's STR, INT, and SPR aren't actually used anywhere in combat calculations, but DEX is.
 - I've listed all possible attacks for a given monster. Monsters pick their action based on their morale, whether or not they've been attacked or damaged, and whether or not the party is in melee range, so you may never see some of these attacks. If you want to know more, you should go read my extensive notes in the [decompilation library](https://github.com/fraterrisus/dragonwars-crack).

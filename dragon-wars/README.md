@@ -51,75 +51,73 @@ If this is your first time playing the game, this is a good time to take the sta
 
 ## Creating Characters
 
-Unlike many other CRPGs, *Dragon Wars* doesn't force you to roll dice, or at least, doesn't force you to hit the space bar a million times while it randomly generates statistics for you until you get ones that are high enough to make you happy. Instead, you start the game with very pedestrian statistics and 50 **advancement points** (hereafter **AP**) to distribute as you wish among your attributes and skills. This is a far less frustrating way to create characters, and will be familiar to those of you who played *Wasteland*.
+Unlike many other CRPGs, *Dragon Wars* doesn't force you to roll dice, or at least, doesn't force you to hit the space bar a million times while it randomly generates statistics for you until you get ones that are high enough to make you happy. Instead, you start the game with very pedestrian statistics and 50 **character points** (hereafter **CP**) to distribute as you wish among your attributes and skills. This is a far less frustrating way to create characters, and will be familiar to those of you who played *Wasteland*.
 
-So let's talk about all the different ways you can spend AP. Throughout this section, numbers in [brackets] indicate the number of AP you need to spend to increase the attribute (or skill) by one level. If there are two numbers (mostly for magic skills), then the first number is the initial AP cost of level 1, and the second number is the AP cost of additional levels.
+So let's talk about all the different ways you can spend CP. Throughout this section, numbers in [brackets] indicate the number of CP you need to spend to increase the attribute (or skill) by one level. If there are two numbers (mostly for magic skills), then the first number is the initial CP cost of level 1, and the second number is the CP cost of additional levels.
 
 ### Attributes
 
 Attributes form the basic description of your character. Newly-generated characters start with a 10 in all primary attributes. All attributes start (conceptually) at zero and go up; higher numbers are always better.
 
-**Primary attributes** are the ones you can increase by spending AP. Each one has a specific effect, as I list below, but are also useful [more generally](#game-mechanics). Attributes can also be `(U)sed` as if they're skills in some places; I'll point out places where this matters later on.
+**Primary attributes** are the ones you can increase by spending CP. Each one has a specific effect, as I list below, but are also useful [more generally](#game-mechanics). Attributes can also be `(U)sed` as if they're skills in some places; I'll point out places where this matters later on.
 
-- [1 AP per pt] **Strength** **(STR)** is a required attribute for most melee weapons, grants bonus damage if it's high enough, and is handy for moving or knocking down things in your way.
+- [1 CP per pt] **Strength** **(STR)** is a required attribute for most melee weapons, grants bonus damage if it's high enough, and is handy for moving or knocking down things in your way.
 - [2] **Dexterity (DEX)** is similarly a required attribute for most missile weapons and grants bonus damage the same way. Dexterity also determines your **AV** and **DV**, which are arguably the two most important attributes in the game. Finally, DEX influences your initiative count during combat.
-- [1] **Intelligence (INT)** is used in place of DEX when calculating the "AV" equivalent for a spell that requires an attack roll. See the section on [Magic](#magic) for more.
+- [1] **Intelligence (INT)** is used in place of DEX when calculating the AV for a spell that requires an attack roll. See the section on [Magic](#magic) for more.
 - [2] **Spirit (SPR)** sets the maximum value of **Power**, which is plenty of reason to have a lot of it (assuming you cast spells).
 - [2] **Health (HP)** determines your maximum **Health** and **Stun**, similarly.
 
-**Secondary attributes** are derived from your primary attributes and (often) your equipment; you can't change them directly with AP.
+**Secondary attributes** are derived from your primary attributes and (often) your equipment; you can't change them directly with CP.
 
 - **Power (POW)**: Equal to **SPR** x 2. This is your "mana" or "spell points" stat. Each spell you cast has a base Power cost. Some spells also allow you to spend more points; spending more Power gives you a more, well, *powerful* effect. Usually that means more damage or a longer duration; see the [spell descriptions](#magic) for more on this.
 - **Stun**: *Dragon Wars* uses a two-tiered health system; Stun is separate from Health, but your maximum Stun is equal to your maximum **HP**. See the section on [Health and Stun](#health-and-stun).
 - **Armor Class (AC)**: In *Dragon Wars*, a high AC reduces the damage you take *after* an opponent hits you. It is quite possible to have a high enough AC that a successful hit does zero damage. Unsurprisingly, putting on armor increases your AC. Some other items, including some weapons, will also modify your AC.
-- **Attack Value (AV)**: Starts at **DEX** / 4 (round down). Increases your chance of hitting your opponent with weapons and spells. Also modified by weapons (usually up) and heavy armor (usually down).
+- **Attack Value (AV)**: Starts at **DEX** / 4 (round down). Increases your chance of hitting your opponent in combat. Also modified by weapons (usually up) and heavy armor (usually down).
 - **Defense Value (DV)**: Also starts at **DEX** / 4 (round down), and doesn't get modified by much of anything, for good or for ill. Reduces the chance that an opponent hits you with an attack.
 
 ### Skills
 
-One of the things that makes *Dragon Wars* such a classic game is that the designers allowed for multiple solutions to most puzzles in the game. Often you have the option to fight your way through, but you also often have the choice of one or more skills you can use, and in a pinch, sometimes just using an attribute is good enough as a substitute. So very few of these skills are "necessary" in the sense of being mandatory or irreplaceable.
-
-This section just explains what each skill is for; check out [General Advice](#general-advice), below, for more specific opinions on whether you should take it or not.
+One of the things that makes *Dragon Wars* such a classic game is that the designers allowed for multiple solutions to most puzzles in the game. Often you have the option to fight your way through, but you also often have the choice of one or more skills you can use, and in a pinch, sometimes just using an attribute is good enough as a substitute. This section just explains what each skill is for; check out [General Advice](#general-advice), below, for more specific opinions on whether you should take it or not.
 
 - [1] *Arcane Lore, Cave Lore, Forest Lore, Mountain Lore, Town Lore*: Knowledge and understanding of various objects and situations.
-- [2] *Bandage*: Outside of combat, using this skill will heal a character up to (ranks+10) *Health* for free. For my money, this is the most useful skill in the game.
-- [1] *Climb*: Used to scale walls and mountains and climb down dark holes to dangerous places. Recommended.
+- [2] *Bandage*: Outside of combat, using this skill will heal a character up to (10 + ranks) *Health*.
+- [1] *Climb*: Used to scale walls and mountains and climb down dark holes to dangerous places.
 - [1] *Fistfighting*: Like a weapon skill, but for your fists. Increases your effective AV *and* your damage output when unarmed.
 - [2] *Hiding*: A general "be sneaky" skill.
-- [2] *Lockpick*: Does what it says on the tin. Nearly mandatory if you want to beat the game.
-- [1] *Pickpocket*: Lets you steal items from some unaware chump. 
+- [2] *Lockpick*: Does what it says on the tin.
+- [1] *Pickpocket*: Allows you to steal items from some unaware chumps. 
 - [1] *Swim*: Allows you to navigate difficult waters safely.
 - [1] *Tracker*: Allows you to follow tracks you find in the ground.
 - [1] *Bureaucracy*: Skill in oration, convincing people you're on their side, and navigating authority figures who want things from you.
 - [10/2] *Druid Magic, High Magic, Sun Magic*: Allows access to magic schools. Increases effective AV when casting spells requiring an attack roll. Also sets the upper bound on POWER for variable-cost spells (2 * ranks).
 - [5/2] *Low Magic*: Required before you can take any other magic skill.
-- [—] *Merchant*: An easter egg; the designers added support for this skill and even wrote a few encounters that use it, but removed it from the "level up" screen for some reason. It's inaccessible unless you hex-edit your characters, so don't worry about trying to spend AP on it.
+- [—] *Merchant*: An easter egg; the designers added support for this skill and even wrote a few encounters that use it, but removed it from the "level up" screen for some reason. It's inaccessible unless you hex-edit your characters, so don't worry about trying to spend CP on it.
 - [2] *Axes, Flails, Maces, Swords, Two-Handers, Bows, Crossbows, Thrown Weapons*: Weapon skills. Increases effective AV when using weapons of that class.
 
 ### General Advice
 
-Here's some things to keep in mind when spending AP on your party, both at creation time and whenever you gain levels. Of course you should also feel free to do your own thing and ignore everything in this section. No offense taken.
+Here's some things to keep in mind when spending CP on your party, both at creation time and whenever you gain levels. Of course you should also feel free to do your own thing and ignore everything in this section. No offense taken.
 
 #### Party build
 You have seven slots but you can only create up to four characters. You can fill the other slots with NPCs you meet along the way or by casting summoning spells, or you can leave them empty if you want the challenge. I always play with persistent NPCs, since you can pick up three of them very quickly (especially if you cheat just a bit), and summoned creatures have a nasty habit of disappearing on you at inconvenient times.
 
 Characters 1–4 in the marching order are the only ones who can melee, so generally you'll want four fighter types and three mage types behind them. Of the NPCs, **Ulrik** is an obvious choice for the front lines. **Louie** could swing either way (for a fighter, he's got a high SPR) but he doesn't start with any magic skills. **Valar** is already a great Sun mage. **Halifax** is a fighter, but he doesn't appear until super late in the game, and by the time you can pick him up you probably don't want to get rid of anyone else.
 
-That being said, creating two fighters and two mages is probably your best bet. But that begs the question of which magic skills to take, and there's not really a single correct answer. Every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded, so you don't need your own, but if you were going to double up on a school, this is the one I'd pick. There are two **Druid Magic** spells that are literally *required* in order to win the game, but because of that it's possible to pick it up in-game for free. You could let a strong fighter become a Druid mage instead of making one; I've had success letting Louie take this role.
+That being said, creating two fighters and two mages is probably your best bet. But that begs the question of which magic skills to take, and there's not really a single correct answer. Every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded, so you don't need your own, but if you were going to double up on a school, this is the one I'd pick. There are two **Druid Magic** spells that are literally *required* in order to win the game, but because of that it's possible to pick it up in-game for free. I suppose you could build a Druid Mage by spending 6–8 CP on STR (so they can wrestle Enkidu) instead of 15 on *Low Magic 1* and *Druid Magic 1*, if you wanted to...
 
 Okay, fine, you're here for opinions, here's mine: For a fresh party, I almost always take *High Magic* and *Druid Magic*. My High Mage sits in slot 5 with a high DEX, and they get the Gatlin Bow / Magic Quiver combo in the second half of the game. I pick up Valar early to round out the set, and Louie gets *Druid Magic* from Enkidu once he's ready. Having two Druid mages is no bad thing (*D:Cure All*). But this is definitely not the only way to do it.
 
 #### Attributes
 **Strength**: Whoever's going to wrestle Enkidu for *Druid Magic* needs at least STR 16, which also gets you all the *Flails*. You're almost certainly going to want STR 17 in order to use every *Sword*; if you have it early, consider taking a Greatsword from the Purgatory Arena. STR 18 gets you most *Axes* and *Maces* and solves most Strength-based puzzles (moving loose rocks, etc). Ulrik starts with STR 20, which gets you every melee weapon except some *Two-handers*. There's one pesky statue near the end that requires STR 24 to move. And if you really want to use the Heavy Sword, you need STR 25. But keep in mind: if your STR is higher than the minimum for a melee weapon, you get +1 bonus damage for every five points above the requirement, so for example if you use a Hand Axe (requires STR 5) with a 20 STR you deal 1d6+3 damage.
 
-**Dexterity:** I think DEX 20 is generally a good idea, both for the +5 AV / DV and because it puts you solidly in the middle of the pack compared to the enemies you'll be fighting (for the sake of combat order). You'll hit first against most "scrubs" and probably go after most "big" enemies. Spending the 8 AP to get to DEX 24 isn't worth it, although DEX 21 plus the three-point boost from the Universal God at the end of the game is nice before you plunge into the depths of the Nisir. Your spellcasters can start lower and work their way up later, and if you have a Druid mage in the back row it's not a terrible idea to follow the suggestion in the game's manual and leave their DEX low so they can cast group-heal spells at the *end* of the round. (Don't also make them your *Bows* specialist, though; they'll want a high DEX for the damage bonus.)
+**Dexterity:** I think DEX 20 is generally a good idea, both for the +5 AV / DV and because it puts you solidly in the middle of the pack compared to the enemies you'll be fighting (for the sake of combat order). You'll hit first against most "scrubs" and probably go after most "big" enemies. Spending the 8 CP to get to DEX 24 isn't worth it, although DEX 21 plus the three-point boost from the Universal God at the end of the game is nice before you plunge into the depths of the Nisir. Your spellcasters can start lower and work their way up later, and if you have a Druid mage in the back row it's not a terrible idea to follow the suggestion in the game's manual and leave their DEX low so they can cast group-heal spells at the *end* of the round. (Don't also make them your *Bows* specialist, though; they'll want a high DEX for the damage bonus.)
 
 **Intelligence:** INT is useful for mages that cast attack spells. Check out the [Magic](#magic) section and look for spells that require an "Attack Roll"; they use INT instead of DEX (and magic skill instead of weapon skill) to calculate the effective AV. Note that zap spells don't "miss", they just deal half damage on an unsuccessful attack roll, so don't sweat this too much. And don't bother spending any points on your fighters' INT.
 
 #### Skills
 There are lots of ways to build an effective party in *Dragon Wars*, but the most important piece of advice I have is to lean heavily into *Bandage*. Set aside one of your PCs to be your medic and don't let your fighters' HP stat outpace the medic's skill level by more than one or two ranks, and you'll dramatically reduce your dependence on magical healing. That, in turn, will reduce your dependence on Dragon Stones, and you'll thank me for that later. The downside is your medic won't have any other skills and might lag a bit behind the rest of the party in attributes, but it's worth it.
 
-You definitely want to take *Lockpick*: one rank is pretty much required and three gets you through nearly everything (see [Game Mechanics](#game-mechanics)). I recommend *Lockpick 3*, eventually.
+You definitely want to take *Lockpick*: one rank is pretty much required and three gets you through nearly everything (see [Game Mechanics](#game-mechanics)). I recommend building up to *Lockpick 3* in time to clean out the second Guard Bridge.
 
 I also strongly suggest one rank in *Climb*, because you need it to use the well to get from the Mystic Wood to the Underworld and it's handy in a few other places as well.
 
@@ -129,7 +127,7 @@ You'll want roughly two of *Tracker*, *Bureaucracy*, and *Hiding*, but you don't
 
 Don't take:
 
-- The other *Lore* skills. Broadly speaking, they give you a few extra bonuses throughout the game, but most of that is exposition in the form of paragraphs. Ulrik comes with *Cave Lore*, so you don't need to take it. *Forest Lore* reveals the Nature Axe and you need *Mountain Lore 2* to use the Mountain Sword, but I don't think either of those weapons are worth the AP. Any other uses are mentioned (and spoiled) in the walkthrough.
+- The other *Lore* skills. Broadly speaking, they give you a few extra bonuses throughout the game, but most of that is exposition in the form of paragraphs. Ulrik comes with *Cave Lore*, so you don't need to take it. *Forest Lore* reveals the Nature Axe and you need *Mountain Lore 2* to use the Mountain Sword, but I don't think either of those weapons are worth the CP. Any other uses are mentioned (and spoiled) in the walkthrough.
 - *Pickpocket*: Useful once, but Louie comes with it.
 - *Swim*: Useful once, but Ulrik comes with it.
 
@@ -143,7 +141,7 @@ Think of your AV as a one-for-one bonus added to your to-hit roll, and your oppo
 
 There are plenty of good mid-game *Maces* and *Flails*, and if you're after raw damage, *Two-Handers* may be the way to go. But I found I swapped weapons around too much to limit myself by taking lots of ranks in one weapon skill. Also, there aren't enough *Crossbows* to be worthwhile, and the combat mechanics make *Thrown Weapons* too hard to use effectively.
 
-*Fistfighting* basically counts as a weapon skill in terms of adding effective AV if you aren't holding a weapon, but unlike weapon skills it also increases your damage. With no ranks, you punch for 1d4; that goes up to a maximum of 7 ranks (1d6, 3d6, 5d6, 3d8, 5d8, 3d10, 3d12). You could make a pretty formidable martial artist by spending 15 AP on STR 20 and *Fistfighting 5*; 5–40 damage is better than all but the best late-game weapons, and you'll absolutely tear through Purgatory like that. The downside is that you can't Block without a weapon, and you'll never get the tasty AV or AC bonuses for using weapons.
+*Fistfighting* basically counts as a weapon skill in terms of adding effective AV if you aren't holding a weapon, but unlike weapon skills it also increases your damage. With no ranks, you punch for 1d4; that goes up to a maximum of 7 ranks (1d6, 3d6, 5d6, 3d8, 5d8, 3d10, 3d12). You could make a pretty formidable martial artist by spending 15 CP on STR 20 and *Fistfighting 5*; 5–40 damage is better than all but the best late-game weapons, and you'll absolutely tear through Purgatory like that. The downside is that you can't Block without a weapon, and you'll never get the tasty AV or AC bonuses for using weapons.
 
 Side note: I don't know what genius picked those damage dice, but going from 5–40 at *Fistfighting 5* to 3–30 at level 6 and 3–36 at level 7 is pretty dumb.
 
@@ -208,9 +206,9 @@ Note that when you hit a new level, the game resets your XP counter to 0, so the
 
 12th level and all levels after that require the same +6600 xp to advance. So at least the curve stops getting steeper.
 
-Every time you hit a new level, you get 2 AP to spend. Hit `(X)` and then pick a character to spend them. Note that you don't have to spend AP as soon as you get them; you can hold on to them (if you're saving up for a new Magic skill, for instance). Sometimes it's better to wait on that Health upgrade until your Bandage specialist gets another rank...
+Every time you hit a new level, you get 2 CP to spend. Hit `(X)` and then pick a character to spend them. Note that you don't have to spend CP as soon as you get them; you can hold on to them (if you're saving up for a new Magic skill, for instance). Sometimes it's better to wait on that Health upgrade until your Bandage specialist gets another rank...
 
-I'm fairly completionist, but when I start with a fresh party I always seem to finish the game at 12th or 13th level. That means you can expect to gain around 30 AP over the course of the game beyond what you start with, including the +5 Irkalla bonus. See the previous sections for more details on my suggested improvement paths for your PCs.
+I'm fairly completionist, but when I start with a fresh party I always seem to finish the game at 12th or 13th level. That means you can expect to gain around 30 CP over the course of the game beyond what you start with, including the +5 Irkalla bonus. See the previous sections for more details on my suggested improvement paths for your PCs.
 
 ## Combat and General Information
 
@@ -388,7 +386,7 @@ Some random notes I've collected on my journeys through Dilmun...
 
 I mentioned this already under [Health and Stun](#health-and-stun), but I find the "target a slot, not a party member" thing to be very strange and also very annoying. "Hey, *you're* not Thog!"
 
-If you pay a healer for healing — and I've pretty much never done it except to test it out for the purpose of writing this guide — the game will automatically pool all of your gold with the first PC. *Dragon Wars* stores a character's gold haul in a four-byte number, meaning they can carry around $4.3 billion before something bad happens, so unlike some other games   I could name (**cough** *[Deathlord](../deathlord/walkthrough.md)* **cough**) this doesn't have any sort of destructive effect. It's just a little confusing the next time you go to look for who has all the gold in the party.
+If you pay a healer for healing — and I've pretty much never done it except to test it out for the purpose of writing this guide — the game will automatically pool all of your gold with the first PC. *Dragon Wars* stores a character's gold haul in a four-byte number, meaning they can carry around $4.3 billion before something bad happens, so unlike some other games   I could name (**cough** *[Deathlord](../deathlord/walkthrough.md)* **cough**) this doesn't have any sort of destructive effect. It's just a little confusing the next time you go to look for who has all the gold in the party.
 
 There are a few maps that allow you to use *D:Soften Stone* to pass through the ostensible "outer" walls of the map. If the map doesn't have the "wrapping" flag set (i.e. the Kingshome Dungeon, Dwarf Clan Hall) this allows you to go wandering so far off-course that the automap stops drawing anything. If you keep moving far enough in one direction, the map will eventually wrap around and you'll find the opposite edge of the map, like Columbus trying to find India. Since the X and Y coordinates of your party are kept in 8-bit registers, this seems to happen at 256 steps. You won't find anything interesting out there except the odd random encounter, so this is more of a curiosity than anything.
 
@@ -551,7 +549,7 @@ Moved to its own page for length, but here's a table of contents:
 
 Now that you've beaten Namtar – actually, you can do this any time you want – you can start over by reloading the game and indicating at the prompt that you want to `(B)egin` a new game instead of `(C)ontinuing` your old one. You keep your party as-is, including stats, spells, and any NPCs you've picked up, but (as happens when you get dumped into Purgatory) not including any of your equipment.
 
-The most notable use for this "cheat" is recycling the +5 AP [Irkalla](walkthrough.md#magan-underworld-highlights) bonus. All you have to do is start a new game, visit the Underworld, find Irkalla's Realm, and step over the rail. Repeat that as often as you like. It's a good way to get Magic skills for your front line fighters; one trip gets a skill point in Low Magic, two trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. Just sayin'.
+The most notable use for this "cheat" is recycling the +5 CP [Irkalla](walkthrough.md#magan-underworld-highlights) bonus. All you have to do is start a new game, visit the Underworld, find Irkalla's Realm, and step over the rail. Repeat that as often as you like. It's a good way to get Magic skills for your front line fighters; one trip gets a skill point in Low Magic, two trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. Just sayin'.
 
 Otherwise, every map (mostly) resets every time you leave it, so the only other thing that starting a new game does is reset all the global state bits (looted chests, unique encounters like the Humbaba, etc). If you drop a unique quest item, though, this is your only choice.
 
@@ -604,7 +602,7 @@ Here are some stats for my party after defeating Namtar for the last time.
   - *Weapons:* Gatlin Bow, Magic Quiver           
   - *Spells:* L:all, H:all except *Earth Summon* 
 
-The lowest-level characters with which I've ever beaten the game (without multiple Irkalla runs) were 12th level. Experience level, of course, is basically irrelevant to the game except as a means for gaining AP, so you could alternately call those 77 AP $(50 + 5 + 2 \cdot (12-1))$ characters.
+The lowest-level characters with which I've ever beaten the game (without multiple Irkalla runs) were 12th level. Experience level, of course, is basically irrelevant to the game except as a means for gaining CP, so you could alternately call those 77 CP $(50 + 5 + 2 \cdot (12-1))$ characters.
 
 ### Decompilation
 
@@ -622,14 +620,14 @@ In theory, the only object that you literally cannot win the game without is the
 
 However, presuming that you aren't actually strong enough to beat Namtar's army by yourself, you'll also want the help of the Dragon Brood Queen. So we'll hit the [Lansk Undercity](walkthrough.md#putting-the-fun-back-in-funderworld-lansk-undercity) to get the gem and fight our way across [Dragon Valley](walkthrough.md#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley) in order to confront the Brood Queen. That makes the Endgame much easier.
 
-The thing is, even if you've already beaten the game once and are playing through a second time with high-AP characters, it's not really practical to try to beat the game without any equipment at all. Buff spells like *M:Zak's Speed, H:Cloak Arcane, S:Mithras' Bless,* etc. are useful, but will only get you so far. You're going to get hit in battle and there's no way you have enough Health to absorb all that damage without a bunch of armor. So we'll also make a couple of pit stops for Dragon's Teeth and a bunch of good armor, along with the more mandatory quest items above. (I'm not going to bother with the Sword of Freedom, because it's a long quest to lots of places I'd otherwise skip, and you probably won't miss it.)
+The thing is, even if you've already beaten the game once and are playing through a second time with high-CP characters, it's not really practical to try to beat the game without any equipment at all. Buff spells like *M:Zak's Speed, H:Cloak Arcane, S:Mithras' Bless,* etc. are useful, but will only get you so far. You're going to get hit in battle and there's no way you have enough Health to absorb all that damage without a bunch of armor. So we'll also make a couple of pit stops for Dragon's Teeth and a bunch of good armor, along with the more mandatory quest items above. (I'm not going to bother with the Sword of Freedom, because it's a long quest to lots of places I'd otherwise skip, and you probably won't miss it.)
 
 All caveats aside, this is an outline of the "fastest practical" way through the game. We're shooting for AC 20 or higher for all fighters, plus the Gatlin Bow / Magic Quiver combination to turn one of your mages into a pincushion powerhouse. On a good day, this run takes me about an hour. Obviously, you could go collect another ~10 points of AC for each player, but I called this "the Speed Run" for a reason.
 
 1. Purgatory
    - Use the Apsu Waters to enter the Underworld.
 2. Underworld
-   - Get the 5 AP bonus (optional).
+   - Get the 5 CP bonus (optional).
    - Get the Slicer (optional, if you need intermediate weapons).
    - Go up to the Mystic Wood.
 3. Mystic Wood
@@ -697,7 +695,7 @@ On a second play-through, this trip is only really useful if you missed some spe
 5. Solve Utnapishtim's puzzles for a bunch of High Magic. Take the Soul Bowl to the Mystic Wood for a bunch of Druid Magic.
 
 #### The Sword of Freedom
-Again, I don't think there's much point to doing this on a second play-through; the Dragon Teeth are marginally better when fighting Namtar because you won't get a lot of 10' melee attacks against him. It might help to have infinite 10-point *S:Inferno* castings if you're trying to beat his army without the Dragon Queen's help. But the +3 attribute bonus from the Universal God only works once per character, not once per game like the +5 AP Irkalla bonus.
+Again, I don't think there's much point to doing this on a second play-through; the Dragon Teeth are marginally better when fighting Namtar because you won't get a lot of 10' melee attacks against him. It might help to have infinite 10-point *S:Inferno* castings if you're trying to beat his army without the Dragon Queen's help. But the +3 attribute bonus from the Universal God only works once per character, not once per game like the +5 CP Irkalla bonus.
 
 1. Get the Mushrooms from the Mystic Wood.
 2. Kill Ugly to get the Jade Eyes and his boat. Go to the Necropolis and feed the mushrooms to Nergal for the Silver Key.

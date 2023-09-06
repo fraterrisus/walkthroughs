@@ -125,4 +125,3 @@ There are two Gaze Demons in the board data, and two encounters (one where he sh
     <td colspan="10">3d6 breath, 3d6</td>
   </tr>
 </table>
-

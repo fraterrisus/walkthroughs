@@ -10,7 +10,7 @@ North: [Isle of the Sun](dilmun.md) (12,08)
 
 South: [Forlorn](dilmun.md) (12,06)
 
-These exits are true even if you exit to the East or West from the appropriate side of the bridge.
+These exits are correct even if you exit to the East or West from the appropriate side of the bridge.
 
 ## Points of Interest
 

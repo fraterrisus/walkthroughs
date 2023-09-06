@@ -24,7 +24,7 @@ You're dropped in a cell at (00,15) by the ambush on King's Isle.
 
 **The Crossbow Trap (14,16):** For anyone foolish enough to explore the northern branch of the secret hallway, take 1d6 damage unless you have a trap-detection spell running.
 
-### Monsters
+## Monsters
 
 <table>
   <tr>

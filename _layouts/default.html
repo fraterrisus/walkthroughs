@@ -10,11 +10,16 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/toc.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/toc.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+    <!--<link rel="stylesheet" href="{{ '/assets/toc.css?v=' | append: site.github.build_revision | relative_url }}">-->
+    <script src="{{ '/assets/js/toc.js?v=' | append: site.github.build_revision | relative_url }}"></script>
     {% include head-custom.html %}
   </head>
   <body>
+
+    {% if page.navbar %}
+    {% include navbar.html %}
+    {% endif %}
+
     <main id="content" class="main-content" role="main">
       {{ content }}
 
@@ -23,7 +28,7 @@
         <div id="toc-header">
           <b>Contents</b>
           <div style="float: right;">
-            <img src="{{ '/assets/menu.png?v=' | append: site.github.build_revision | relative_url }}" 
+            <img src="{{ '/assets/img/menu.png?v=' | append: site.github.build_revision | relative_url }}" 
               id="toc-collapse" height="25px" width="25px" />
           </div>
         </div>

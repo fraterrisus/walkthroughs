@@ -89,6 +89,6 @@ Miscellaneous Magic spells can be learned and used by anyone with Low Magic.
 | Spell       | POW  | Targets | Range | Type | Attack Roll? | Effect                                                 | Where Found             |
 | ----------- | :--: | :-----: | :---: | :--: | :----------: | ------------------------------------------------------ | ----------------------- |
 | Zak's Speed |  10  |  party  |       | Buff |      —       | +15 DEX for duration of combat                         | Lanac'toor's Laboratory |
-| Kill Ray    |  15  |    1    |  50'  | Zap  |      Y       | 10–80 hp                                               | Lanac'toor's Laboratory |
+| Kill Ray    |  15  |    1    |  50'  | Zap  |      Y       | 10d8 hp                                                | Lanac'toor's Laboratory |
 | Prison      |  8   |  group  |  60'  | Buff |      Y       | Prevents targets from Advancing for duration of combat | *Easter Egg*            |
 

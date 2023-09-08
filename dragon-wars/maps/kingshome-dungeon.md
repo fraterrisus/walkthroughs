@@ -20,11 +20,13 @@ You're dropped in a cell at (00,15) by the ambush on King's Isle.
 
 **The Kingshome Armory (07,15):** A **Black Helm** (+3 AC, *M:Zak's Speed*), a **Fire Shield** (+2 AC, -2 AV, STR 12), the **Mage Ring** (+4 AC, +1 AV, *D:Whirl Wind*, requires *Low Magic 3*), the **Throw Mace** (2d12, 1d12 at 30', +1 AV, STR 18), the **Gatlin Bow** (20', DEX 10, allows full-auto fire), a quiver of **Grey Arrows** (1d20, +2 AV), and *twenty* **Dragon Stones**.
 
+See the [Byzanople](byzanople.md) file for more on the Fire Shield.
+
 **Drake's Old Throne**: At (11,10) there's a secret door to the E. Follow the tunnel and turn S, then pass through a secret door to find his throne, $1000, and his **Crown** (worth $5000).
 
 **The Crossbow Trap (14,16):** For anyone foolish enough to explore the northern branch of the secret hallway, take 1d6 damage unless you have a trap-detection spell running.
 
-### Monsters
+## Bestiary
 
 <table>
   <tr>

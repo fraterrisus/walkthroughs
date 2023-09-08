@@ -30,7 +30,7 @@ There's a teleporter at (00,01), west of your Jail Cell, that will send you stra
 
 **Statue of the Universal God (05,04):** Read paragraph #84.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

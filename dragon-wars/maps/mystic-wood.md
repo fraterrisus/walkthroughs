@@ -36,7 +36,7 @@ Enkidu's library: *D:Death Curse, D:Fire Blast, D:Insect Plague, D:Whirl Wind, D
 
 **More Druid Magic Scrolls (01,00):** A locked chest (difficulty 2) with even more Druid Magic scrolls: *D:Death Curse, D:Fire Blast, D:Insect Plague, D:Scare*.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

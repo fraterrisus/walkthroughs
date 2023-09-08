@@ -18,7 +18,7 @@ East: [Quag](dilmun.md) (19,12)
 
 **The Quag Visitor's Bureau (06,06):** There is a 1 in 5 chance that the Crazed Old Ladies of the Bureau decide to attack you instead of help you (paragraph #47).
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

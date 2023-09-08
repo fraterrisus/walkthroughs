@@ -24,7 +24,7 @@ Technically, you can exit this map to the west, east, or south. These will retur
 
 **Nergal's Throne Room (05,07):** Fight off a large number of undead. Then feed Nergal the **Mushrooms** from the Mystic Wood. Pick a party member to "serve" Nergal (with no lasting effect). Then he gives you the **Silver Key**, the **Holy Spear** (1d30, DEX 14), and scrolls of *H:Fire Light, H:Big Chill, D:Insect Plague, D:Scare*, and *S:Inferno*.
 
-**The Well of Souls (00,07):** This is the only way to get to the portion of the [Underworld](magan-underworld.md) that links up with the Well of Souls. It's almost certainly not worth it.
+**The Well of Souls (00,07):** This is the only way to get to the portion of the [Underworld](magan-underworld.md) that links up with the Well of Souls. It's almost certainly [not worth it](../README.md#resurrecting-dead-characters).
 
 **The Web-filled Hallway (13,09):** Every square in this winding hallway has a combat with a Spider, along with its webs. If you cast a fire-based spell, it burns out all the spiders and the webs and leaves the hallway empty.
 
@@ -37,7 +37,7 @@ Technically, you can exit this map to the west, east, or south. These will retur
 - the statue of Irkalla in [Smuggler's Cove](smugglers-cove.md)
 - the E entrance to the [Bridge of Exiles](bridge-of-exiles.md)
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

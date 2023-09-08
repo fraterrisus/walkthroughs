@@ -28,7 +28,7 @@ The stone slab at (15,15) hides stairs down to the [Tars Underground](tars-under
 
 **The Stone Slab (15,15):** You can examine it with *Cave Lore*, *Mountain Lore*, *Lockpick*, or *Tracker*, but I'm not sure what good that does you. To move it, make a STR check vs 1d40. There's no penalty for missing. Once you move the slab, you find stairs down to the Tars Underground.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

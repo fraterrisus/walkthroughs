@@ -24,7 +24,7 @@ You can leave on foot in any direction, which brings you to the expected place o
 
 **The Bandit Campsite (11,01):** The Bandits (who look an awful lot like Goblins) are hanging out around their campfire. They have a chest that contains paragraph #91, some **Magic Arrows** (1d20, +3 AV), and scrolls of *S:Battle Power* and *S:Column of Fire*.
 
-## Monsters
+## Bestiary
 
 It seems weird to me that there would be so many supernatural creatures running around King Drake's Game Preserve. Maybe it's Namtar's influence... or maybe Jack's not very good at his job, eh?
 

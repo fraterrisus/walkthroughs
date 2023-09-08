@@ -32,7 +32,7 @@ I love this one: the "fight" with Utnapishtim is just fake color text that *look
 
 **Victory (06,05):** Utnapishtim asks you to pick a prize. The **Laugh Staff** and **Sing Ring** are useless. The **Soul Bowl** can be used in the [Mystic Wood](mystic-wood.md) to revive Zaton's spirit. You also receive scrolls of *H:Fire Light, H:Elvar's Fire, H:Poog's Vortex, H:Ice Chill, H:Big Chill, H:Dazzle, H:Group Heal*, and *H:Fire Summon*.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

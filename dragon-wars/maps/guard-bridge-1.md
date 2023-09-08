@@ -10,7 +10,7 @@ North: [Isle of the Sun](dilmun.md) (12,08)
 
 South: [Forlorn](dilmun.md) (12,06)
 
-These exits are true even if you exit to the East or West from the appropriate side of the bridge.
+These exits are correct even if you exit to the East or West from the appropriate side of the bridge.
 
 ## Points of Interest
 
@@ -24,7 +24,7 @@ These exits are true even if you exit to the East or West from the appropriate s
 
 **The Bridge (04,03 - 04,04):** If you didn't appease the Guards, they attack. Otherwise, there's a 1 in 10 chance of getting swarmed by some Rats.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

@@ -26,7 +26,7 @@ The only actual exit from this map is the stairs at (06,09) that take you up to 
 
 **The Crypt (14,01 - 01,10):** Down a hallway past two locked doors (level 1), you'll read paragraph #111 and find a bunch of encounters with Zombies. In the SW corner of the crypt is a chest containing the **MagicAxe** (1d30, +1 AV, STR 20).
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

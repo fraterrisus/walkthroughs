@@ -24,197 +24,7 @@ The map is also **dark**, so you'll need to bring a light source with you.
 
 (19,19): Stairs up to [Salvation](salvation.md) (03,04)
 
-## <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Ghouls</b></td>
-    <td>25</td>
-    <td>20</td>
-    <td>3</td>
-    <td>5</td>
-    <td>5d6+25</td>
-    <td>30-55</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d4 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Ghouls</b></td>
-    <td>12</td>
-    <td>20</td>
-    <td>1</td>
-    <td>1</td>
-    <td>5d8+25</td>
-    <td>30-65</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d4 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Giant Snakes</b></td>
-    <td>20</td>
-    <td>15</td>
-    <td>1</td>
-    <td>3</td>
-    <td>3d8+25</td>
-    <td>28-49</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>00'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 breath, flee — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Goblins</b></td>
-    <td>10</td>
-    <td>19</td>
-    <td>6</td>
-    <td>10</td>
-    <td>4d4+35</td>
-    <td>39-51</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>30</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d6, flee</td>
-  </tr>
-  <tr>
-    <td><b>Magic Ghouls</b></td>
-    <td>13</td>
-    <td>40</td>
-    <td>5</td>
-    <td>5</td>
-    <td>3d4+35</td>
-    <td>38-47</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>190</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>S:Rage of Mithras</i> — undead</td>
-  </tr>
-  <tr>
-    <td><b>Scorpion Snakes</b></td>
-    <td>12</td>
-    <td>22</td>
-    <td>3</td>
-    <td>5</td>
-    <td>4d8+25</td>
-    <td>29-57</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d8, flee</td>
-  </tr>
-  <tr>
-    <td><b>Serpent Warriors</b></td>
-    <td>20</td>
-    <td>19</td>
-    <td>8</td>
-    <td>10</td>
-    <td>3d8+25</td>
-    <td>28-49</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>140</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">11d4</td>
-  </tr>
-  <tr>
-    <td><b>Skeletons</b></td>
-    <td>8</td>
-    <td>2</td>
-    <td>8</td>
-    <td>8</td>
-    <td>3d8+25</td>
-    <td>28-49</td>
-    <td>+12</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>170</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 piercing — undead</td>
-  </tr>
-  <tr>
-    <td><b>Spitting Snakes</b></td>
-    <td>5</td>
-    <td>17</td>
-    <td>5</td>
-    <td>10</td>
-    <td>3d8+22</td>
-    <td>25-46</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 breath</td>
-  </tr>
-  <tr>
-    <td><b>Wraiths</b></td>
-    <td>0</td>
-    <td>25</td>
-    <td>0</td>
-    <td>0</td>
-    <td>2d8+15</td>
-    <td>17-31</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>00'</td>
-    <td>170</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 breath — undead</td>
-  </tr>
-  <tr>
-    <td><b>Wraiths</b></td>
-    <td>3</td>
-    <td>25</td>
-    <td>0</td>
-    <td>40</td>
-    <td>2d8+25</td>
-    <td>27-41</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>00'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 breath — undead</td>
-  </tr
-</table>
+## Points of Interest
 
 **The Refresh Pool (09,14)**: Conveniently located just N of the stairs from Purgatory, stepping onto this square refreshes your party's Power. You'll also wind up near here at the start of the [Endgame](../walkthrough.md#endgame).
 
@@ -226,17 +36,17 @@ The map is also **dark**, so you'll need to bring a light source with you.
 
 **Entrance to Irkalla's Realm (26,16):** You won't be allowed to pass through this doorway unless someone in your party has successfully prayed at a statue of Irkalla somewhere Topside (Purgatory or Smuggler's Cove).
 
-**The Leap of Faith (28,17):** There's absolutely no indication anywhere that you should do this, but if you step over the railing to the N you will be rewarded with +5 AP.
+**The Leap of Faith (28,17):** There's absolutely no indication anywhere that you should do this, but if you step over the railing to the N you will be rewarded with +5 CP.
 
 **The Isle of Woe (04,16–06,18)**: You need the **Golden Boots** to get here; hop over from (02,17). On your first visit you'll find Irkalla in chains. Free her with the **Silver Key** (acquired from Nergal) and she'll give you the **Water Potion**. Later, once you've retrieved the **Skull of Roba** and given it to the Dwarven smiths, you can come back here to acquire the **Sword of Freedom** (1d100, +15 AV, +5 AC, STR 15).
 
-**The Evil Fairies (20,20):** Accept their bargain and they take all but 1 HP (and 1 Stun) from your entire party. Refuse and they won't let you pass. Cast *D:Scare* at them and they will forever get out of your way.
+**The Evil Fairies (20,20):** Accept their bargain and they take all but 1 HP (and 1 Stun) from your entire party. Refuse and they won't let you pass. Or cast *D:Scare* at them and they will forever get out of your way.
 
 **The Root of Salvation (19,17–21,19)**: Just past the fairies is a small island. Apart from the staircase up to Salvation, this is where you need to come to defeat Namtar for the final time during the [Endgame](../walthrough.md). Step up to any railing and `(U)se` his dead body to win the game.
 
 **The Well of Souls (03,11)**: only accessible from the Necropolis stairs (*D:Soften Stone* doesn't work). `(U)se` *Arcane Lore* and throw a dead PC's body into the Well and they'll be resurrected (Stunned with 1 HP).
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

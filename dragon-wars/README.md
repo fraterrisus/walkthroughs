@@ -29,7 +29,7 @@ The [**Classic Gaming** page](http://www.classicgaming.cc/pc/dragonwars/) on *Dr
 - v1.5, October 2015: reflowed text, editing
 - v2.0, August 2022: rewrite in GameFAQs HTML format
 - v2.1, September 2022: lots of updates and rewrites based on an additional playthrough
-- v3.0, September 2023: port to GitHub, rewrite in Markdown, add data from decompilation work
+- v3.0, September 2023: rewrite in Markdown, add data from decompilation work, move to GitHub
 
 ### Game Introduction
 
@@ -51,75 +51,73 @@ If this is your first time playing the game, this is a good time to take the sta
 
 ## Creating Characters
 
-Unlike many other CRPGs, *Dragon Wars* doesn't force you to roll dice, or at least, doesn't force you to hit the space bar a million times while it randomly generates statistics for you until you get ones that are high enough to make you happy. Instead, you start the game with very pedestrian statistics and 50 **advancement points** (hereafter **AP**) to distribute as you wish among your attributes and skills. This is a far less frustrating way to create characters, and will be familiar to those of you who played *Wasteland*.
+Unlike many other CRPGs, *Dragon Wars* doesn't force you to roll dice, or at least, doesn't force you to hit the space bar a million times while it randomly generates statistics for you until you get ones that are high enough to make you happy. Instead, you start the game with very pedestrian statistics and 50 **character points** (hereafter **CP**) to distribute as you wish among your attributes and skills. This is a far less frustrating way to create characters, and will be familiar to those of you who played *Wasteland*.
 
-So let's talk about all the different ways you can spend AP. Throughout this section, numbers in [brackets] indicate the number of AP you need to spend to increase the attribute (or skill) by one level. If there are two numbers (mostly for magic skills), then the first number is the initial AP cost of level 1, and the second number is the AP cost of additional levels.
+So let's talk about all the different ways you can spend CP. Throughout this section, numbers in [brackets] indicate the number of CP you need to spend to increase the attribute (or skill) by one level. If there are two numbers (mostly for magic skills), then the first number is the initial CP cost of level 1, and the second number is the CP cost of additional levels.
 
 ### Attributes
 
 Attributes form the basic description of your character. Newly-generated characters start with a 10 in all primary attributes. All attributes start (conceptually) at zero and go up; higher numbers are always better.
 
-**Primary attributes** are the ones you can increase by spending AP. Each one has a specific effect, as I list below, but are also useful [more generally](#game-mechanics). Attributes can also be `(U)sed` as if they're skills in some places; I'll point out places where this matters later on.
+**Primary attributes** are the ones you can increase by spending CP. Each one has a specific effect, as I list below, but are also useful [more generally](#game-mechanics). Attributes can also be `(U)sed` as if they're skills in some places; I'll point out places where this matters later on.
 
-- [1 AP per pt] **Strength** **(STR)** is a required attribute for most melee weapons, grants bonus damage if it's high enough, and is handy for moving or knocking down things in your way.
+- [1 CP per pt] **Strength** **(STR)** is a required attribute for most melee weapons, grants bonus damage if it's high enough, and is handy for moving or knocking down things in your way.
 - [2] **Dexterity (DEX)** is similarly a required attribute for most missile weapons and grants bonus damage the same way. Dexterity also determines your **AV** and **DV**, which are arguably the two most important attributes in the game. Finally, DEX influences your initiative count during combat.
-- [1] **Intelligence (INT)** is used in place of DEX when calculating the "AV" equivalent for a spell that requires an attack roll. See the section on [Magic](#magic) for more.
+- [1] **Intelligence (INT)** is used in place of DEX when calculating the AV for a spell that requires an attack roll. See the section on [Magic](#magic) for more.
 - [2] **Spirit (SPR)** sets the maximum value of **Power**, which is plenty of reason to have a lot of it (assuming you cast spells).
 - [2] **Health (HP)** determines your maximum **Health** and **Stun**, similarly.
 
-**Secondary attributes** are derived from your primary attributes and (often) your equipment; you can't change them directly with AP.
+**Secondary attributes** are derived from your primary attributes and (often) your equipment; you can't change them directly with CP.
 
 - **Power (POW)**: Equal to **SPR** x 2. This is your "mana" or "spell points" stat. Each spell you cast has a base Power cost. Some spells also allow you to spend more points; spending more Power gives you a more, well, *powerful* effect. Usually that means more damage or a longer duration; see the [spell descriptions](#magic) for more on this.
 - **Stun**: *Dragon Wars* uses a two-tiered health system; Stun is separate from Health, but your maximum Stun is equal to your maximum **HP**. See the section on [Health and Stun](#health-and-stun).
 - **Armor Class (AC)**: In *Dragon Wars*, a high AC reduces the damage you take *after* an opponent hits you. It is quite possible to have a high enough AC that a successful hit does zero damage. Unsurprisingly, putting on armor increases your AC. Some other items, including some weapons, will also modify your AC.
-- **Attack Value (AV)**: Starts at **DEX** / 4 (round down). Increases your chance of hitting your opponent with weapons and spells. Also modified by weapons (usually up) and heavy armor (usually down).
+- **Attack Value (AV)**: Starts at **DEX** / 4 (round down). Increases your chance of hitting your opponent in combat. Also modified by weapons (usually up) and heavy armor (usually down).
 - **Defense Value (DV)**: Also starts at **DEX** / 4 (round down), and doesn't get modified by much of anything, for good or for ill. Reduces the chance that an opponent hits you with an attack.
 
 ### Skills
 
-One of the things that makes *Dragon Wars* such a classic game is that the designers allowed for multiple solutions to most puzzles in the game. Often you have the option to fight your way through, but you also often have the choice of one or more skills you can use, and in a pinch, sometimes just using an attribute is good enough as a substitute. So very few of these skills are "necessary" in the sense of being mandatory or irreplaceable.
-
-This section just explains what each skill is for; check out [General Advice](#general-advice), below, for more specific opinions on whether you should take it or not.
+One of the things that makes *Dragon Wars* such a classic game is that the designers allowed for multiple solutions to most puzzles in the game. Often you have the option to fight your way through, but you also often have the choice of one or more skills you can use, and in a pinch, sometimes just using an attribute is good enough as a substitute. This section just explains what each skill is for; check out [General Advice](#general-advice), below, for more specific opinions on whether you should take it or not.
 
 - [1] *Arcane Lore, Cave Lore, Forest Lore, Mountain Lore, Town Lore*: Knowledge and understanding of various objects and situations.
-- [2] *Bandage*: Outside of combat, using this skill will heal a character up to (ranks+10) *Health* for free. For my money, this is the most useful skill in the game.
-- [1] *Climb*: Used to scale walls and mountains and climb down dark holes to dangerous places. Recommended.
+- [2] *Bandage*: Outside of combat, using this skill will heal a character up to (10 + ranks) *Health*.
+- [1] *Climb*: Used to scale walls and mountains and climb down dark holes to dangerous places.
 - [1] *Fistfighting*: Like a weapon skill, but for your fists. Increases your effective AV *and* your damage output when unarmed.
 - [2] *Hiding*: A general "be sneaky" skill.
-- [2] *Lockpick*: Does what it says on the tin. Nearly mandatory if you want to beat the game.
-- [1] *Pickpocket*: Lets you steal items from some unaware chump. 
+- [2] *Lockpick*: Does what it says on the tin.
+- [1] *Pickpocket*: Allows you to steal items from some unaware chumps. 
 - [1] *Swim*: Allows you to navigate difficult waters safely.
 - [1] *Tracker*: Allows you to follow tracks you find in the ground.
 - [1] *Bureaucracy*: Skill in oration, convincing people you're on their side, and navigating authority figures who want things from you.
 - [10/2] *Druid Magic, High Magic, Sun Magic*: Allows access to magic schools. Increases effective AV when casting spells requiring an attack roll. Also sets the upper bound on POWER for variable-cost spells (2 * ranks).
 - [5/2] *Low Magic*: Required before you can take any other magic skill.
-- [—] *Merchant*: An easter egg; the designers added support for this skill and even wrote a few encounters that use it, but removed it from the "level up" screen for some reason. It's inaccessible unless you hex-edit your characters, so don't worry about trying to spend AP on it.
+- [—] *Merchant*: An easter egg; the designers added support for this skill and even wrote a few encounters that use it, but removed it from the "level up" screen for some reason. It's inaccessible unless you hex-edit your characters, so don't worry about trying to spend CP on it.
 - [2] *Axes, Flails, Maces, Swords, Two-Handers, Bows, Crossbows, Thrown Weapons*: Weapon skills. Increases effective AV when using weapons of that class.
 
 ### General Advice
 
-Here's some things to keep in mind when spending AP on your party, both at creation time and whenever you gain levels. Of course you should also feel free to do your own thing and ignore everything in this section. No offense taken.
+Here's some things to keep in mind when spending CP on your party, both at creation time and whenever you gain levels. Of course you should also feel free to do your own thing and ignore everything in this section. No offense taken.
 
 #### Party build
 You have seven slots but you can only create up to four characters. You can fill the other slots with NPCs you meet along the way or by casting summoning spells, or you can leave them empty if you want the challenge. I always play with persistent NPCs, since you can pick up three of them very quickly (especially if you cheat just a bit), and summoned creatures have a nasty habit of disappearing on you at inconvenient times.
 
 Characters 1–4 in the marching order are the only ones who can melee, so generally you'll want four fighter types and three mage types behind them. Of the NPCs, **Ulrik** is an obvious choice for the front lines. **Louie** could swing either way (for a fighter, he's got a high SPR) but he doesn't start with any magic skills. **Valar** is already a great Sun mage. **Halifax** is a fighter, but he doesn't appear until super late in the game, and by the time you can pick him up you probably don't want to get rid of anyone else.
 
-That being said, creating two fighters and two mages is probably your best bet. But that begs the question of which magic skills to take, and there's not really a single correct answer. Every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded, so you don't need your own, but if you were going to double up on a school, this is the one I'd pick. There are two **Druid Magic** spells that are literally *required* in order to win the game, but because of that it's possible to pick it up in-game for free. You could let a strong fighter become a Druid mage instead of making one; I've had success letting Louie take this role.
+That being said, creating two fighters and two mages is probably your best bet. But that begs the question of which magic skills to take, and there's not really a single correct answer. Every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded, so you don't need your own, but if you were going to double up on a school, this is the one I'd pick. There are two **Druid Magic** spells that are literally *required* in order to win the game, but because of that it's possible to pick it up in-game for free. I suppose you could build a Druid Mage by spending 6–8 CP on STR (so they can wrestle Enkidu) instead of 15 on *Low Magic 1* and *Druid Magic 1*, if you wanted to...
 
 Okay, fine, you're here for opinions, here's mine: For a fresh party, I almost always take *High Magic* and *Druid Magic*. My High Mage sits in slot 5 with a high DEX, and they get the Gatlin Bow / Magic Quiver combo in the second half of the game. I pick up Valar early to round out the set, and Louie gets *Druid Magic* from Enkidu once he's ready. Having two Druid mages is no bad thing (*D:Cure All*). But this is definitely not the only way to do it.
 
 #### Attributes
 **Strength**: Whoever's going to wrestle Enkidu for *Druid Magic* needs at least STR 16, which also gets you all the *Flails*. You're almost certainly going to want STR 17 in order to use every *Sword*; if you have it early, consider taking a Greatsword from the Purgatory Arena. STR 18 gets you most *Axes* and *Maces* and solves most Strength-based puzzles (moving loose rocks, etc). Ulrik starts with STR 20, which gets you every melee weapon except some *Two-handers*. There's one pesky statue near the end that requires STR 24 to move. And if you really want to use the Heavy Sword, you need STR 25. But keep in mind: if your STR is higher than the minimum for a melee weapon, you get +1 bonus damage for every five points above the requirement, so for example if you use a Hand Axe (requires STR 5) with a 20 STR you deal 1d6+3 damage.
 
-**Dexterity:** I think DEX 20 is generally a good idea, both for the +5 AV / DV and because it puts you solidly in the middle of the pack compared to the enemies you'll be fighting (for the sake of combat order). You'll hit first against most "scrubs" and probably go after most "big" enemies. Spending the 8 AP to get to DEX 24 isn't worth it, although DEX 21 plus the three-point boost from the Universal God at the end of the game is nice before you plunge into the depths of the Nisir. Your spellcasters can start lower and work their way up later, and if you have a Druid mage in the back row it's not a terrible idea to follow the suggestion in the game's manual and leave their DEX low so they can cast group-heal spells at the *end* of the round. (Don't also make them your *Bows* specialist, though; they'll want a high DEX for the damage bonus.)
+**Dexterity:** I think DEX 20 is generally a good idea, both for the +5 AV / DV and because it puts you solidly in the middle of the pack compared to the enemies you'll be fighting (for the sake of combat order). You'll hit first against most "scrubs" and probably go after most "big" enemies. Spending the 8 CP to get to DEX 24 isn't worth it, although DEX 21 plus the three-point boost from the Universal God at the end of the game is nice before you plunge into the depths of the Nisir. Your spellcasters can start lower and work their way up later, and if you have a Druid mage in the back row it's not a terrible idea to follow the suggestion in the game's manual and leave their DEX low so they can cast group-heal spells at the *end* of the round. (Don't also make them your *Bows* specialist, though; they'll want a high DEX for the damage bonus.)
 
 **Intelligence:** INT is useful for mages that cast attack spells. Check out the [Magic](#magic) section and look for spells that require an "Attack Roll"; they use INT instead of DEX (and magic skill instead of weapon skill) to calculate the effective AV. Note that zap spells don't "miss", they just deal half damage on an unsuccessful attack roll, so don't sweat this too much. And don't bother spending any points on your fighters' INT.
 
 #### Skills
 There are lots of ways to build an effective party in *Dragon Wars*, but the most important piece of advice I have is to lean heavily into *Bandage*. Set aside one of your PCs to be your medic and don't let your fighters' HP stat outpace the medic's skill level by more than one or two ranks, and you'll dramatically reduce your dependence on magical healing. That, in turn, will reduce your dependence on Dragon Stones, and you'll thank me for that later. The downside is your medic won't have any other skills and might lag a bit behind the rest of the party in attributes, but it's worth it.
 
-You definitely want to take *Lockpick*: one rank is pretty much required and three gets you through nearly everything (see [Game Mechanics](#game-mechanics)). I recommend *Lockpick 3*, eventually.
+You definitely want to take *Lockpick*: one rank is pretty much required and three gets you through nearly everything (see [Game Mechanics](#game-mechanics)). I recommend building up to *Lockpick 3* in time to clean out the second Guard Bridge.
 
 I also strongly suggest one rank in *Climb*, because you need it to use the well to get from the Mystic Wood to the Underworld and it's handy in a few other places as well.
 
@@ -129,7 +127,7 @@ You'll want roughly two of *Tracker*, *Bureaucracy*, and *Hiding*, but you don't
 
 Don't take:
 
-- The other *Lore* skills. Broadly speaking, they give you a few extra bonuses throughout the game, but most of that is exposition in the form of paragraphs. Ulrik comes with *Cave Lore*, so you don't need to take it. *Forest Lore* reveals the Nature Axe and you need *Mountain Lore 2* to use the Mountain Sword, but I don't think either of those weapons are worth the AP. Any other uses are mentioned (and spoiled) in the walkthrough.
+- The other *Lore* skills. Broadly speaking, they give you a few extra bonuses throughout the game, but most of that is exposition in the form of paragraphs. Ulrik comes with *Cave Lore*, so you don't need to take it. *Forest Lore* reveals the Nature Axe and you need *Mountain Lore 2* to use the Mountain Sword, but I don't think either of those weapons are worth the CP. Any other uses are mentioned (and spoiled) in the walkthrough.
 - *Pickpocket*: Useful once, but Louie comes with it.
 - *Swim*: Useful once, but Ulrik comes with it.
 
@@ -143,7 +141,7 @@ Think of your AV as a one-for-one bonus added to your to-hit roll, and your oppo
 
 There are plenty of good mid-game *Maces* and *Flails*, and if you're after raw damage, *Two-Handers* may be the way to go. But I found I swapped weapons around too much to limit myself by taking lots of ranks in one weapon skill. Also, there aren't enough *Crossbows* to be worthwhile, and the combat mechanics make *Thrown Weapons* too hard to use effectively.
 
-*Fistfighting* basically counts as a weapon skill in terms of adding effective AV if you aren't holding a weapon, but unlike weapon skills it also increases your damage. With no ranks, you punch for 1d4; that goes up to a maximum of 7 ranks (1d6, 3d6, 5d6, 3d8, 5d8, 3d10, 3d12). You could make a pretty formidable martial artist by spending 15 AP on STR 20 and *Fistfighting 5*; 5–40 damage is better than all but the best late-game weapons, and you'll absolutely tear through Purgatory like that. The downside is that you can't Block without a weapon, and you'll never get the tasty AV or AC bonuses for using weapons.
+*Fistfighting* basically counts as a weapon skill in terms of adding effective AV if you aren't holding a weapon, but unlike weapon skills it also increases your damage. With no ranks, you punch for 1d4; that goes up to a maximum of 7 ranks (1d6, 3d6, 5d6, 3d8, 5d8, 3d10, 3d12). You could make a pretty formidable martial artist by spending 15 CP on STR 20 and *Fistfighting 5*; 5–40 damage is better than all but the best late-game weapons, and you'll absolutely tear through Purgatory like that. The downside is that you can't Block without a weapon, and you'll never get the tasty AV or AC bonuses for using weapons.
 
 Side note: I don't know what genius picked those damage dice, but going from 5–40 at *Fistfighting 5* to 3–30 at level 6 and 3–36 at level 7 is pretty dumb.
 
@@ -208,9 +206,9 @@ Note that when you hit a new level, the game resets your XP counter to 0, so the
 
 12th level and all levels after that require the same +6600 xp to advance. So at least the curve stops getting steeper.
 
-Every time you hit a new level, you get 2 AP to spend. Hit `(X)` and then pick a character to spend them. Note that you don't have to spend AP as soon as you get them; you can hold on to them (if you're saving up for a new Magic skill, for instance). Sometimes it's better to wait on that Health upgrade until your Bandage specialist gets another rank...
+Every time you hit a new level, you get 2 CP to spend. Hit `(X)` and then pick a character to spend them. Note that you don't have to spend CP as soon as you get them; you can hold on to them (if you're saving up for a new Magic skill, for instance). Sometimes it's better to wait on that Health upgrade until your Bandage specialist gets another rank...
 
-I'm fairly completionist, but when I start with a fresh party I always seem to finish the game at 12th or 13th level. That means you can expect to gain around 30 AP over the course of the game beyond what you start with, including the +5 Irkalla bonus. See the previous sections for more details on my suggested improvement paths for your PCs.
+I'm fairly completionist, but when I start with a fresh party I always seem to finish the game at 12th or 13th level. That means you can expect to gain around 30 CP over the course of the game beyond what you start with, including the +5 Irkalla bonus. See the previous sections for more details on my suggested improvement paths for your PCs.
 
 ## Combat and General Information
 
@@ -388,7 +386,7 @@ Some random notes I've collected on my journeys through Dilmun...
 
 I mentioned this already under [Health and Stun](#health-and-stun), but I find the "target a slot, not a party member" thing to be very strange and also very annoying. "Hey, *you're* not Thog!"
 
-If you pay a healer for healing — and I've pretty much never done it except to test it out for the purpose of writing this guide — the game will automatically pool all of your gold with the first PC. *Dragon Wars* stores a character's gold haul in a four-byte number, meaning they can carry around $4.3 billion before something bad happens, so unlike some other games   I could name (**cough** *[Deathlord](../deathlord/walkthrough.md)* **cough**) this doesn't have any sort of destructive effect. It's just a little confusing the next time you go to look for who has all the gold in the party.
+If you pay a healer for healing — and I've pretty much never done it except to test it out for the purpose of writing this guide — the game will automatically pool all of your gold with the first PC. *Dragon Wars* stores a character's gold haul in a four-byte number, meaning they can carry around $4.3 billion before something bad happens, so unlike some other games I could name (**cough** *[Deathlord](../deathlord/walkthrough.md)* **cough**) this doesn't have any sort of destructive effect. It's just a little confusing the next time you go to look for who has all the gold in the party.
 
 There are a few maps that allow you to use *D:Soften Stone* to pass through the ostensible "outer" walls of the map. If the map doesn't have the "wrapping" flag set (i.e. the Kingshome Dungeon, Dwarf Clan Hall) this allows you to go wandering so far off-course that the automap stops drawing anything. If you keep moving far enough in one direction, the map will eventually wrap around and you'll find the opposite edge of the map, like Columbus trying to find India. Since the X and Y coordinates of your party are kept in 8-bit registers, this seems to happen at 256 steps. You won't find anything interesting out there except the odd random encounter, so this is more of a curiosity than anything.
 
@@ -398,13 +396,13 @@ When you see a low wooden fence, you can cast *D:Soften Stone* on it. The fence 
 
 Game maps reset whenever you leave them... mostly. In particular this means that any wall that you *Soften* regenerates if you leave and come back, and most "fixed" encounter points will reset as well. But I said "mostly"; certain fixed encounters are "unique" and you only get to do them once (Humbaba, Mystalvision, etc.) And once you plug the leak (or repair the statue of Lanac'toor) in Mud Toad, it stays plugged. Starting a new game, of course, resets everything about the game state (but not about your [characters](#appendices)).
 
-Speaking of unique encounters that shouldn't reset, *Dragon Wars* **mostly** does a good job maintaining continuity. If you kill Mystalvision in the Nisir, he can't be found in Phoebus. But occasionally things happen that don't make sense; events repeat themselves, dead people come back to life, etc. One example: if you win the battle in Kingshome, then go back to Phoebus, Buck Ironhead is still there and you can still enlist in the army. You're sent to the Siege Camp again, which is empty.
+Speaking of unique encounters that shouldn't reset, *Dragon Wars* **mostly** does a good job maintaining continuity. If you kill Mystalvision in the Nisir, he can't be found in Phoebus (which means you can't get back into the Phoeban Dungeon). But occasionally things happen that don't make sense; events repeat themselves, dead people come back to life, etc. One example: if you win the battle in Byzanople, then go back to Phoebus, Buck Ironhead is still there and you can still enlist in the army. You're sent to the Siege Camp again, which is empty.
 
-I should note, though, that this is also an example of how the developers wrote in multiple solutions to almost everything, including the problem of navigating between islands. You can "enlist" in Phoebus and get transported to King's as many times as you want, so if you find yourself without *Arcane Lore*, you can still reliably get there. The ferry between Lansk and the Old Dock can get expensive, but also solves this problem.
+I should note, though, that this is also an example of how the developers wrote in multiple solutions to almost everything, including the problem of navigating between islands. You can "enlist" in Phoebus and get transported to King's as many times as you want, so if you find yourself without *Arcane Lore*, you can still reliably get there. The ferry between Lansk and the Old Dock can get expensive, but also solves this problem. And of course the rest of the islands are connected by bridges, which may require you to beat up and/or bribe a lot of guards but at least it can be done.
 
-There are lots of duplicated items. Most of the time, they're identical, but sometimes they aren't:
+There are lots of duplicated items. Most of the time, they're identical, but sometimes they aren't. This is a function of the fact that item data isn't stored centrally, it's copy-and-pasted into each individual board where the item appears or can be used. A few examples:
 
-- The price of several items varies for no reason I can fathom. If you buy Plate Armor in a shop, it costs $3100; the suit you find in the Mystic Wood sells for $1550, which makes sense. But the suit you find in Phoebus sells for $1500. They're otherwise identical. There are two sets of Dragon Plate that do the same thing. Large Shields purchased in Freeport cost 1/10 what they do everywhere else. (Market inefficiencies?) The spell scrolls that Nergal gives you can't be sold, even though other copies of the same scroll can.
+- The price of several items varies for no reason I can fathom. If you buy Plate Armor in a shop, it costs $3100; the suit you find in the Mystic Wood sells for $1550, which makes sense. But the suit you find in Phoebus sells for $1500. They're otherwise identical. There are two sets of Dragon Plate that do the same thing. Large Shields purchased in Freeport cost a *tenth* of what they do everywhere else. (Market inefficiencies?) The spell scrolls that Nergal gives you can't be sold, even though other copies of the same scroll can.
 - The Boomerang you find in Kingshome does much more damage (2d10 at 60') than the one you find on the second Guard Bridge (1d12 at 50'). The Kingshome "Pole Arm" (1d20, +2 AV) is a better weapon than the standard "Polearm" (1d10, +1 AV); I like to think that Namtar's weaponsmiths invented a better model with a space in the middle. Likewise the dwarves seem to have developed a Bomb (2d30) with twice the explosive power as the ones you find in the Underworld (1d30). However, the Slave Camp "Handaxe" and the standard "Hand Axe" are identical, as are the Kingshome "Magic Axe" and the "MagicAxe" found in the Byzanople crypt.
 - Several scrolls have clones with different names to fit the 12-character limitation on item names. The "Insct.Plague" scroll teaches you the same spell as "Insect Plag.", but one of them sells for more money than the other for no apparent reason. Similarly, you'll find both "Bolt" and "Bolts".
 
@@ -415,17 +413,19 @@ While we're on the subject of inventory, there are a handful of items that inexp
 - Mage Ring (Kingshome Dungeon): *D:Whirl Wind* — note that the Magic Ring (Phoebus Dungeon) will cast this spell normally
 - Branches (Snake Pit): *D:Beast Call*
 
-Final note on inventory: keep an eye out throughout these documents for **Easter Eggs**. In my exploration of the decompiled data files I found a number of references to items, encounters, skills, spells, etc. that can't actually be found in the game. I've included their stats just for the sake of completeness, and your entertainment.
-
-The Dead Bolt does some serious damage (1d20), but it also has a very odd feature: you can cast *S:Charger* on it to refill it as if it were a magic item. It's the only quiver that this works on. Internally it has similar bits set to the Magic Quiver, but that one 'recharges itself'.
-
-In Lanac'toor's Lab, if you take the stairs back up to Mud Toad, the statue of Lanac'toor is mysteriously broken again. As soon as you take any move (including checking the automap or turning), the statue reforms. This appears to be a minor bug in how the game keeps track of which parts of the statue you've returned.
-
-The code that runs when you leave a map usually uses your current location as well as your current facing to determine where to send you. In most places this works the way you'd think, but the developers took a few shortcuts and made some "well it's gotta do *something*"-type decisions. For instance, if you leave the Bridge of Exiles to the E, you end up on King's Isle, and if you leave to the W, you end up on the Snake Pit side. But what happens if you leave to the N? You're on a bridge; there's only water on the Dilmun map to the N of here. So they drop you on the same place as if you'd left to the E or W. The problem, of course, is that if you exit to the N on the E side, you wind up on a fight with a bunch of Goblins. Run away from that fight while facing S... and you turn around and run into the water. There's a few other instances like this.
-
-Purgatory's got two of them; exit to the N and you get dropped in Dilmun. Turn around... and Purgatory isn't behind you, it's 2W of you. (I'm betting this one's a bug that never got QA'd, because who leaves Purgatory to the *north*?) An even better trick: take the secret door out, walk all the way around to the NE corner, and exit to the E. The game can't differentiate between walking E and swimming E, so you still wind up on the south side of Purgatory Bay near the refresh pool.
+And speaking of strange uses for *S:Charger*, for some reason the Dead Bolt can be refilled as if it were a magic item. It's the only quiver that this works on, but the fact that it shows up in the Necropolis means I can't quite tell if this is a bug or if the developers intended for it to work this way. Internally it has similar bits set to the Magic Quiver, but that one 'recharges itself'.
 
 If you're playing on a PC, the item beneath the statue on the Old Dock is a PS/2. If you're playing on an Apple emulator, it's a IIgs. It does the same thing either way, including granting +4 AC if you equip it.
+
+Final note on inventory: keep an eye out throughout these documents for **Easter Eggs**. In my exploration of the decompiled data files I found a number of references to items, encounters, skills, spells, etc. that can't actually be found in the game. I've included their stats for the sake of completeness and your entertainment.
+
+In Lanac'toor's Lab, if you take the stairs back up to Mud Toad, the statue of Lanac'toor is mysteriously broken again. As soon as you take any move (including checking the automap or turning), the statue reforms. This appears to be a side effect of how the game keeps track of which parts of the statue you've returned.
+
+The code that runs when you leave a map usually uses your current location as well as your current facing to determine where to send you. In most places this works the way you'd think, but the developers took a few shortcuts and made some "well it's gotta do *something*"-type decisions. For instance, if you leave the Bridge of Exiles to the E, you end up on King's Isle, and if you leave to the W, you end up on the Isle of the Damned. But what happens if you leave to the N? You're on a bridge; there's only water on the Dilmun map to the N of here. So they drop you on the same place as if you'd left to the E or W. The problem, of course, is that if you exit to the N on the E side, you wind up on a fight with a bunch of Goblins. Run away from that fight while facing S... and you turn around and run into the water.
+
+The spinner trap in the Tars Underground has a similar problem. It changes your facing without redrawing the viewport, which means the next time you step forward, the game engine (which looks at the viewport to determine what's in front of you) decides that you're allowed to step forward even though you're ostensible facing a wall. Poof, you've just ghosted through a stone wall.
+
+There are also just a few flat-out bugs: exit Purgatory to the N and you're on Forlorn. Turn around... and Purgatory isn't behind you, it's 2W of you. (Of course, who actually leaves Purgatory to the *north*?) Even better, if you walk all the way around to the NE corner and exit to the E, the game doesn't differentiate between walking E and swimming E, so you wind up on the south side of Purgatory Bay near the refresh pool. There's a similar bug when you leave the Old Dock on the Isle of Salvation.
 
 ## Things and Stuff
 
@@ -478,9 +478,9 @@ You've probably already noticed that throughout this document, when I refer to s
 
 Spells don't have any concept of a "level", so as soon as you gain your first rank of the associated skill, you are eligible to learn *all* spells in that school. (The Miscellaneous school only requires Low Magic.) To learn a spell, you simply have to find and `(U)se` a scroll with that spell on it. Presuming you have the right magic skill, you have now learned the spell and can cast it whenever you want.
 
-Of course, there is no random loot in this game and everything is in a predetermined position, so you'll find scrolls when the game decides to give them to you, and not (much) before. I've listed the area of every spell scroll in the table below, so you can get a rough idea of when you'll be able to learn the spell. That doesn't include spell grants, like the Druid spells you learn by wrestling Enkidu. More details are in the guide for each area.
+Of course, there is no random loot in this game and everything is in a predetermined position, so you'll find scrolls when the game decides to give them to you, and not (much) before. I've listed the location of every spell scroll in the table so you can get a rough idea of when you'll be able to learn the spell. That doesn't include spell grants, like the Druid spells you learn by wrestling Enkidu. More details are in the guide for each area.
 
-To cast a spell you must have enough Power to pay the cost. Costs are listed in the table below; some spells are variable cost, which means you can pick how many Power points to spend on it. The maximum cost is double the number of ranks you have in the associated skill, so a caster with *Sun Magic 3* can cast up to a six-point *S:Inferno.*
+To cast a spell you must have enough Power to pay the cost. Some spells are variable cost, which means you can pick how many Power points to spend on it. The maximum cost is double the number of ranks you have in the associated skill, so a caster with *Sun Magic 3* can cast up to a six-point *S:Inferno.*
 
 Spells are roughly sorted into the following types:
 
@@ -493,7 +493,7 @@ Spells are roughly sorted into the following types:
 
 This is close to, but not *quite* the same, as the game's distinction between "Combat", "Heal", and "Misc" categories.
 
-Zap spells (as well as a few others, marked in the tables below) require an **attack roll** per target. This works similarly to a melee attack roll, but you use INT for your "AV" and your magic skill in place of a weapon skill. Defenders get to use their normal DV. The basic roll (1d16+2) is the same, and you're still trying to roll equal or below a target of 12 + your skill ranks + your AV – defender's DV. The game only rolls damage once, but any target you "miss" takes half damage instead. The damage the game reports back to you is the average across all your hits and misses, so you have a sense of how effective you were... but not a very good one.
+Zap spells (as well as a few others) require an **attack roll** per target. This works similarly to a melee attack roll, but you use INT for your "AV" and your magic skill in place of a weapon skill. Defenders get to use their normal DV. The basic roll (1d16+2) is the same, and you're still trying to roll equal or below a target of 12 + your skill ranks + your AV – defender's DV. The game only rolls damage once, but any target you "miss" takes half damage instead. The damage the game reports back to you is the average across all your hits and misses, so you have a sense of how effective you were... but not a very good one.
 
 One more weird tip I'll leave you with: it *looks* like scrolls are single-use, because they don't have any charges listed next to them. However, once you reach Freeport and acquire *S:Charger*, you can use it to add additional "charges" to a scroll. (Just make sure you have *two* charges before you use it, because it will disappear as soon as the charge count reaches zero.) Probably the most interesting use of this hack is to pass Lanac'toor's Miscellaneous Magic scrolls around your entire party, but on a second playthrough you could also use it to replicate everything else... like *S:Inferno*.
 
@@ -512,7 +512,7 @@ Moved to its own page for length, but here's a table of contents:
   - [Tars Underground](walkthrough.md#look-an-actual-dungeon-tars-underground-)
   - [Guard Bridge #1](walkthrough.md#guard-bridge-1)
 - [Isle of the Sun](walkthrough.md#isle-of-the-sun)
-  - [Mystic Wood](walkthrough.md#isnt-it-good-mystic-wood) (1)
+  - [Mystic Wood](walkthrough.md#isnt-it-good-mystic-wood)
   - [Phoebus](walkthrough.md#ss-is-the-key-combo-for-save-game-phoebus)
   - [Phoeban Dungeon](walkthrough.md#ridden-out-of-town,-on-rails-phoeban-dungeon)
   - [Guard Bridge #2](walkthrough.md#were-on-the-road-to-nowhere-guard-bridge-2)
@@ -522,25 +522,25 @@ Moved to its own page for length, but here's a table of contents:
   - [War Bridge](walkthrough.md#you-cant-fight-here-this-is-the-war-bridge)
 - [Quag Isle](walkthrough.md#quag-isle)
   - [Yellow Mud Toad](walkthrough.md#follow-the-yellow-mud-toad)
-  - [Mystic Wood, Magan Underworld](walkthrough.md#jumpin-jack-flash-mystic-wood-magan-underworld) (side trip)
-  - [Smuggler's Cove](walkthrough.md#smugglers-blues-smugglers-cove) (1)
+  - [Mystic Wood, Magan Underworld](walkthrough.md#jumpin-jack-flash-mystic-wood-magan-underworld)
+  - [Smuggler's Cove](walkthrough.md#smugglers-blues-smugglers-cove)
   - [The Necropolis](walkthrough.md#all-we-wanna-do-is-eat-your-brains-the-necropolis)
 - [King's Isle](walkthrough.md#kings-isle)
   - [Bridge of Exiles, Snake Pit](walkthrough.md#le-roi-est-mort-bridge-of-exiles-snake-pit)
   - [Kingshome](walkthrough.md#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome)
   - [Siege Camp](walkthrough.md#yo-dawg-why-you-gotta-front-siege-camp)
   - [Byzanople](walkthrough.md#the-siege-of-byzanople)
-- [The Eastern Isles](walkthrough.md#the-eastern-isles)
   - [Magan Underworld](walkthrough.md#rescuing-irkalla-magan-underworld)
-  - [Smuggler's Cove](walkthrough.md#im-on-a-boat-smugglers-cove) (2)
+- [The Eastern Isles](walkthrough.md#the-eastern-isles)
+  - [Smuggler's Cove](walkthrough.md#im-on-a-boat-smugglers-cove)
   - [Freeport](walkthrough.md#im-free-as-a-bird-now-freeport)
   - [Lanac'toor's Laboratory](walkthrough.md#and-see-whats-on-the-slab-lanactoorslaboratory)
   - [Game Preserve](walkthrough.md#killed-hself-a-bar-when-he-was-only-three-game-preserve)
   - [Scorpion Bridge, Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college)
-  - [Mystic Wood](walkthrough.md#pepsi-brings-your-ancestors-back-from-the-dead-mystic-wood) (2)
+  - [Mystic Wood](walkthrough.md#pepsi-brings-your-ancestors-back-from-the-dead-mystic-wood)
   - [Dragon Valley](walkthrough.md#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley)
   - [Sunken Ruins](walkthrough.md#the-skull-of-roba-sunken-ruins)
-  - [Dwarf Clan Hall](walkthrough.md#everybody-must-get-unstoned-dwarf-clan-hall)
+  - [Dwarf Ruins, Dwarf Clan Hall](walkthrough.md#everybody-must-get-unstoned-dwarf-clan-hall)
 - [Isle of Salvation](walkthrough.md#isle-of-salvation)
   - [Old Dock, Pilgrim Dock](walkthrough.md#hickory-dickory-dock-old-dock-pilgrim-dock)
   - [Salvation](walkthrough.md#salvation)
@@ -551,11 +551,11 @@ Moved to its own page for length, but here's a table of contents:
 
 Now that you've beaten Namtar – actually, you can do this any time you want – you can start over by reloading the game and indicating at the prompt that you want to `(B)egin` a new game instead of `(C)ontinuing` your old one. You keep your party as-is, including stats, spells, and any NPCs you've picked up, but (as happens when you get dumped into Purgatory) not including any of your equipment.
 
-The most notable use for this "cheat" is recycling the +5 AP [Irkalla](walkthrough.md#magan-underworld-highlights) bonus. All you have to do is start a new game, visit the Underworld, find Irkalla's Realm, and step over the rail. Repeat that as often as you like. It's a good way to get Magic skills for your front line fighters; one trip gets a skill point in Low Magic, two trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. Just sayin'.
+The reason I didn't mention this until all the way down here in the Appendix is that you can pretty easily cheat by recycling the +5 CP [Irkalla](walkthrough.md#magan-underworld-highlights) bonus as many times as you like. All you have to do is start a new game, work your way over to the Apsu Waters, visit Irkalla's Realm, and step over the rail. It's a good way to get magic skills for your front line fighters; one trip gets a skill point in Low Magic, two more trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. You can build up extremely strong "level 1" characters from nothing this way and just breeze through the first half of the game.
 
-Otherwise, every map (mostly) resets every time you leave it, so the only other thing that starting a new game does is reset all the global state bits (looted chests, unique encounters like the Humbaba, etc). If you drop a unique quest item, though, this is your only choice.
+Otherwise, every map (mostly) resets every time you leave it, so the only other thing that starting a new game does is reset all the *global* state bits (looted chests, unique encounters like the Humbaba, etc). If you drop a unique quest item, though, this may be your only choice.
 
-Note that some global state bits are actually kept on the character, not on the game state. So you can only receive the blessing of Irkalla, Enkidu, and the Universal God once. And once you've swum your way out of Purgatory, you'll always be a friend of the Slave Camp.
+Note that some state bits are actually kept on the character, not on the game state. So you can only receive the blessings of Irkalla, Enkidu, and the Universal God once. And once you've swum your way out of Purgatory, you'll always be a friend of the Slave Camp.
 
 ### Final Characters
 
@@ -604,33 +604,36 @@ Here are some stats for my party after defeating Namtar for the last time.
   - *Weapons:* Gatlin Bow, Magic Quiver           
   - *Spells:* L:all, H:all except *Earth Summon* 
 
-The lowest-level characters with which I've ever beaten the game (without multiple Irkalla runs) were 12th level. Experience level, of course, is basically irrelevant to the game except as a means for gaining AP, so you could alternately call those 77 AP $(50 + 5 + 2 \cdot (12-1))$ characters.
+The lowest-level characters with which I've ever beaten the game (without multiple Irkalla runs) were 12th level. Experience level, of course, is basically irrelevant to the game except as a means for gaining CP, so you could alternately call those 77 CP $(50 + 5 + 2 \cdot (12-1))$ characters.
 
 ### Decompilation
 
 Much of the contents of this guide are based off of work I did to rip apart, decompile, and reassemble the data files from the IBM PC version of *Dragon Wars*. If you want to peek over my shoulder and see what I did, you should check out [my GitHub repository](https://github.com/fraterrisus/dragonwars-crack). There's a fairly extensive `doc/` directory in that repo with notes on the data format, and the Gradle file can be used to generate a number of `jars` that will decompile the data files for you.
 
-I've written up more extensive notes for each board alongside hand-drawn maps based on that decompliation work in the [`maps`](maps/) directory; you can check those out for more spoilers, or just use the maps.
+I've also written up more extensive notes for each board alongside hand-drawn maps based on that decompliation work in the [`maps`](maps/) directory; you can check those out for more spoilers, or just use the maps.
 
 ### The Speed Run
 
-*Dragon Wars* is a fairly non-linear RPG; you're not restricted in what order you visit the various cities and dungeons, except that in some cases if you try to go to one that you're not sufficiently equipped for, you can find yourself stuck and unable to get out of where you are. But that's why you're backing up your save files, right?
+*Dragon Wars* is a fairly non-linear RPG; you're not really restricted in what order you visit the various cities and dungeons, except that in some cases if you try to go to one that you're not sufficiently equipped for, you can find yourself stuck and unable to get out of where you are. But that's why you're backing up your save files, right?
 
 My [walkthrough](walkthrough.md) touches every location and tries to tell the game's entire story, but you certainly don't have to do all of that in order to win. If all you're interested in is getting through the game with the minimum amount of work, then this section is for you!
 
-In theory, the only object that you literally cannot win the game without is the Golden Boots. You'll also need *D:Create Wall* to get the boots, and *D:Soften Stone* to navigate the Nisir. Go to [Mud Toad](walkthrough.md#follow-the-yellow-mud-toad), plug up the leak, then visit the temple to get the Boots. From there, you can get to [Salvation](walkthrough.md#salvation) through the Underworld, use the Boots to jump the chasm, fall into [Nisir](walkthrough.md#nisir), and waltz through Namtar's army (hah) before taking out the man himself. Run the [Endgame](walkthrough.md#endgame) and toss Namtar into the pit to win. I'm obviously skipping some steps, but this is the fastest possible path through the game.
+In theory, the only object that you literally cannot win the game without is the Golden Boots. It's impossible to get into the Nisir otherwise. So, head to [Mud Toad](walkthrough.md#follow-the-yellow-mud-toad) and plug up the leak, then visit the temple to get the Boots. First problem: if you're starting from scratch and don't already have a complete collection of spells, you need a copy of *D:Create Wall* to plug up the leak. That's easy enough to acquire from the Lansk Undercity, which is accessible from the Underworld.
 
-However, presuming that you aren't actually strong enough to beat Namtar's army by yourself, you'll also want the help of the Dragon Brood Queen. So we'll hit the [Lansk Undercity](walkthrough.md#putting-the-fun-back-in-funderworld-lansk-undercity) to get the gem and fight our way across [Dragon Valley](walkthrough.md#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley) in order to confront the Brood Queen. That makes the Endgame much easier.
+Okay, so we get the Golden Boots. Then we climb [Salvation](walkthrough.md#salvation) via the Underworld, use the Boots to jump the chasm, fall into [Nisir](walkthrough.md#nisir), and track down Namtar. Problem number two: you can't actually navigate the Nisir if you don't have *D:Soften Stone*. That requires a trip out to Freeport, and *that* requires you to kill Ugly and his crew so you can steal his boat.
 
-The thing is, even if you've already beaten the game once and are playing through a second time with high-AP characters, it's not really practical to try to beat the game without any equipment at all. Buff spells like *M:Zak's Speed, H:Cloak Arcane, S:Mithras' Bless,* etc. are useful, but will only get you so far. You're going to get hit in battle and there's no way you have enough Health to absorb all that damage without a bunch of armor. So we'll also make a couple of pit stops for Dragon's Teeth and a bunch of good armor, along with the more mandatory quest items above. (I'm not going to bother with the Sword of Freedom, because it's a long quest to lots of places I'd otherwise skip, and you probably won't miss it.)
+Furthermore, once you actually find Namtar, I'm still not entirely convinced that it's possible to develop characters strong enough to defeat his army. You can't block breath weapons no matter how much armor you have. So in practice, you're going to need the Brood Queen's help. That means a stop at the Lansk Undercity for the Dragon Gem, stealing the boat, and navigating [Dragon Valley](walkthrough.md#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley).
 
-All caveats aside, this is an outline of the "fastest practical" way through the game. We're shooting for AC 20 or higher for all fighters, plus the Gatlin Bow / Magic Quiver combination to turn one of your mages into a pincushion powerhouse. On a good day, this run takes me about an hour. Obviously, you could go collect another ~10 points of AC for each player, but I called this "the Speed Run" for a reason.
+And frankly, it's just not practical to try to beat the game without any equipment at all. You're going to get hit in battle and there's no way you have enough Health to absorb all that damage without a bunch of armor. And if you don't have any good weapons, you'll need an infinite supply of Dragon Stones to power seven strong Sun Mages blowing *S:Inferno* all over the place.
+
+So what I've assembled here is a "fastest practical" route through the game, assuming a pre-filled party of seven characters. We'll shoot for AC 20 or higher for the front line plus the Dragon Teeth, Gatlin Bow, and Magic Quiver. I'll skip the Sword of Freedom because it's a long quest, and you probably won't miss it. On a good day, this run takes me about an hour. If you tried, you could collect another ~10 points of AC for each character in your party, but I called this "the Speed Run" for a reason.
 
 1. Purgatory
+   - Acquire stupid weapons for everyone so you can at least Block.
    - Use the Apsu Waters to enter the Underworld.
 2. Underworld
-   - Get the 5 AP bonus (optional).
-   - Get the Slicer (optional, if you need intermediate weapons).
+   - Get the +5 CP bonus (optional).
+   - Get the Slicer and the Rusty Axe (optional).
    - Go up to the Mystic Wood.
 3. Mystic Wood
    - Wrestle Enkidu (optional).
@@ -642,26 +645,27 @@ All caveats aside, this is an outline of the "fastest practical" way through the
 5. Phoeban Dungeon
    - Magic Mouth treasure vault: Magic Quiver, Magic Ring
    - Let the dragon destroy Phoebus.
-6. Lansk Undercity
-   - Get the Axe of Kalah (optional) from the Guard Bridge.
    - Take the Mystic Wood well to the Underworld to Lansk.
+6. Lansk Undercity
    - Heal the dragon to get the Dragon Gem.
-   - Buy a copy of *D:Cure All* ($100) for your newly-minted Druid (optional) and *D:Create Wall* if you don't have it already.
+   - Buy a copy of *D:Cure All* for your newly-minted Druid (optional) and *D:Create Wall* if you don't have it already.
    - Take the ferry to King's Isle or backtrack up through the Mystic Wood and take the Nexus.
 7. Kingshome Dungeon
    - Get knocked out by the guards in the NE corner of King's Isle.
-   - Use *D:Soften Stone* to skip all the fights.
-   - Find the Treasury: Gatlin Bow, Black Helm, Fire Shield, Mage Ring
+   - Use *D:Soften Stone* to skip all the fights, if you can.
+   - Find the Treasury: Gatlin Bow, Black Helm, Mage Ring, Throw Mace
    - Take the stairs up to Namtar's bedroom.
 8. Kingshome
    - Meet Namtar (optional).
-   - Go N into the halls and E to the treasury: Magic Chain, Lucky Boots
-9. Yellow Mud Toad
+   - Go N into the halls and E to the treasury: Magic Chain, Lucky Boots, Pole Arm
    - Take the Nexus to Quag.
+9. Yellow Mud Toad
    - Fix the wall and get the Golden Boots.
+   - Take out the Militia: Barbed Flail, Lucky Boots (optional)
 10. Smuggler's Cove
        - Slaughter the crew, get the boat and a suit of Heavy Plate.
        - If you don't have *D:Soften Stone* already, take the boat to Freeport and buy a copy there.
+       - Take the boat to Sunken Ruins.
 11. Dragon Valley
 
        - Get the Dragon's Teeth.
@@ -671,15 +675,12 @@ All caveats aside, this is an outline of the "fastest practical" way through the
 12. Salvation
 
        - *Scare* the Underworld fairies and climb the stairs to Salvation.
-       - Guarded chest to the W: Dragon Plate, Helm
-       - Use IQ and *Climb*, then cross the chasm with the boots and fall.
+       - Guarded chest to the W: Dragon Plate, Dragon Helm
+       - Use IQ and *Climb*, then cross the chasm with the Boots and fall.
 13. Nisir
 
-       - Go N E S to the stairs, use *D:Soften Stone* twice to the S.
-       - Recast *L:Mage Light* and *H:Cloak Arcane.*
-       - Go E, hit the spinner, go SE, cast *H:Air Summon* (1pt) to cross the wide chasm.
-       - Go S, into the SW corner, use *D:Soften Stone* twice to the S.
-       - Hit the teleporter to find Namtar's army. Use the Dragon Gem.
+       - Use "The Swamp" route to reach the final teleporter; this costs you three castings of *D:Soften Stone* plus a light spell, a compass spell, and whatever other buffs you like to have running.
+       - Use the Dragon Gem to kill Namtar's army.
        - Kill Namtar three times.
 14. Magan Underworld
        - Run the Endgame.
@@ -691,13 +692,13 @@ Everything else is just gravy, but here are some other big 'quests' you can do.
 On a second play-through, this trip is only really useful if you missed some spells or if you're trying to train up a mage in a new magic skill (High or Druid).
 
 1. Kill Ugly for his boat.
-2. Collect the four parts of the statue of Lanac'toor. The Arms are in Tars Underground, which is in easy reach. The Legs are held by the Order of the Sword in Freeport and the Trunk is in the Guardian room of the Necropolis, both of which are straightforward once you have the boat. The Head is in Snake Pit.
-3. Reassemble the statue in Mud Toad for access to Lanac'toor's Lab, and get the Spectacles and the Miscellaneous Magic.
-4. Get the Enkidu Totem from the Mystic Wood, use it to cross the Scorpion Bridge (or fight the Scorpions, ow), and go to the Magic College.
+2. Collect the four parts of the statue of Lanac'toor. The Arms are in Tars Underground and easily accessible from the Underworld. The Legs are held by the Order of the Sword in Freeport and the Trunk is in the Guardian room of the Necropolis, both of which are straightforward once you have the boat. The Head is in Snake Pit.
+3. Reassemble the statue in Mud Toad for access to Lanac'toor's Lab. Find the Spectacles and the Miscellaneous Magic.
+4. Once you have the boots, get the Enkidu Totem from the Mystic Wood, use it to cross the Scorpion Bridge (or fight the Scorpions, ow), and go to the Magic College.
 5. Solve Utnapishtim's puzzles for a bunch of High Magic. Take the Soul Bowl to the Mystic Wood for a bunch of Druid Magic.
 
 #### The Sword of Freedom
-Again, I don't think there's much point to doing this on a second play-through; the Dragon Teeth are marginally better when fighting Namtar because you won't get a lot of 10' melee attacks against him. It might help to have infinite 10-point *S:Inferno* castings if you're trying to beat his army without the Dragon Queen's help. But the +3 attribute bonus from the Universal God only works once per character, not once per game like the +5 AP Irkalla bonus.
+Again, I don't think there's much point to doing this on a second play-through; the Dragon Teeth are marginally better when fighting Namtar because you won't get a ton of 10' melee attacks against him anyway. It might help to have forty 10-point *S:Inferno* castings if you're trying to beat his army without the Dragon Queen's help. But the +3 attribute bonus from the Universal God only works once per character, not once per game like the +5 CP Irkalla bonus.
 
 1. Get the Mushrooms from the Mystic Wood.
 2. Kill Ugly to get the Jade Eyes and his boat. Go to the Necropolis and feed the mushrooms to Nergal for the Silver Key.
@@ -721,7 +722,7 @@ But the game designers also wanted to make sure you didn't just read the paragra
 - \#54: Lanac'toor is never revived.
 - \#78: There's no reason this couldn't show up in the Snake Pit, but it doesn't.
 - \#95: Mog's an asshole, but you're not digging a tunnel.
-- \#112: There is no desert, there is no live volcano, and the riches in Dragon Valley are definitely not "free for the t\aking".
+- \#112: There is no desert, there is no live volcano, and the riches in Dragon Valley are definitely not "free for the taking".
 - \#116: There is no blind juggler, although the rest is more or less accurate.
 - \#129: An underground resistance would be pretty cool, if it actually existed.
 - \#132: Still no vampire lords.

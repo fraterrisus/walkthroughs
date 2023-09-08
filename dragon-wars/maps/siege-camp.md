@@ -28,7 +28,7 @@ Note: Once the War of Byzanople has been decided (in either direction), the Camp
 
 **The Final Fight (03,09):** If you're on Prince Jordan's side and come through the tunnel from the city to (02,04), this is the big fight that decides the siege. If you win, you get 500 XP and they install a historic plaque in your honor. If you lose or run away, Buck throws you in the [Kingshome Dungeon](kingshome-dungeon.md). If you're standing on this square and not in the middle of a fight, you can use either DEX or *Climb* to squeeze through a passage to the rest of the camp (03,07).
 
-### Monsters
+## Bestiary
 
 <table>
   <tr>

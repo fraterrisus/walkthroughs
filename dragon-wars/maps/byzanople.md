@@ -36,13 +36,15 @@ Note: Once the war is over, everything in the SW portion of the map goes away (t
 
 **The Hidden Shield (13,04):** Walk through the secret door at (12,12) and head S to find a chest (difficulty 3) containing the **Fire Shield** (+2 AC, -2 AV, STR 12).
 
+The game's item data on the Fire Shield (both this one and the one you find in the Kingshome Dungeon) claims that, if it were a weapon, it would do 1d12 at 40'. But as far as I know, there's no code in the combat handler that would know how to look for a *shield* that could be used as a melee weapon.
+
 **[Marik's Armory](../things-and-stuff.md#mariks-armory) (07,11):** They carry **Plate Mail** (+10 AC, -5 AV) and **Dragon Stones**.
 
 **[Bart's Weaponsmithing](../things-and-stuff.md#barts-weaponsmithing) (08,11):** The **Long Mace** (1d20 at 20', +1 AV, STR 15) may be of interest.
 
 **Town Healer (09,11):** Charges $4 per point of Health.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

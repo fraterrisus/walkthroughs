@@ -1,14 +1,16 @@
 # Maps
 
-This directory contains annotated SVG maps of every board in the game along with Markdown files describing all of the various items, monsters, and points of interest. There's more detail here than there is in the [walkthrough](../walkthrough.md), including a bunch of easter eggs and other random tidbits that aren't necessarily relevant. They're probably more useful if you're going through the game multiple times and want the "complete" experience.
+This directory contains annotated SVG maps of every board in the game along with Markdown files describing all of the various items, monsters, and points of interest. There's more detail here than there is in the [walkthrough](../walkthrough.md), including a bunch of easter eggs and other random tidbits that aren't necessarily relevant. They're probably more useful if you're going through the game multiple times and want a more "complete" experience.
 
 A few notes on the notation used on the map pages:
 
+- By default, boards are well-lit (so you don't need a light source) and allow you to get your bearings (so you don't need a magical compass). If that isn't true, there's a note in the board intro. I've also noted if the map is marked as "wrapping", although keep in mind that maps can wrap even if they aren't marked that way (see [Weird Stuff](../README.md)).
+- Boards may have "Wandering" encounters, which have a random chance of appearing every time you take a step. (The frequency will be noted in the board intro.) "Fixed" encounters will be marked on the maps with an **E**; "Static" encounters with known opponents will have a subscript and an entry on the legend, and "Random" encounters won't have a subscript.
 - Some monsters exist more than once on a given board's monster list. This data is taken straight from the decompiled files, so if they're on the list twice, they're in the data twice. There's usually no way to tell them apart in-game, even though they may have significantly different statistics and/or abilities. Sorry.
 - Monster AV and DV values are *bonuses*; they don't include the base DEX / 4 value. A monster's STR, INT, and SPR aren't actually used anywhere in combat calculations, but DEX is.
 - I've listed all possible attacks for a given monster. Monsters pick their action based on their morale, whether or not they've been attacked or damaged, and whether or not the party is in melee range, so you may never see some of these attacks. If you want to know more, you should go read my extensive notes in the [decompilation library](https://github.com/fraterrisus/dragonwars-crack).
 - Monster melee attacks (i.e. "3d6") deal full-value Stun damage and half as much Health. Stun-only attacks ("1d8 stun") deal **full** Stun and **zero** Health, while Health-only attacks ("1d4 health") deal **zero** Stun and **half** Health. That's just how the game data tracks it. There are also quarter-strength attacks ("4d8 x ¼"), attacks that ignore armor ("3d6 piercing"), and breath weapons that hit everyone in the party ("1d8 breath"). Monsters may also attempt to "flee" and "call for help".
-- Human guards sometimes give you money; if so, you collect 1d40 gold per kill.
+- Human guards sometimes have money on them; if so, you collect 1d40 gold per kill.
 - Creatures marked as "undead" are only relevant to whether or not you can cast *S:Exorcism* on them. This isn't always the creatures you'd expect.
 
 ## Outside

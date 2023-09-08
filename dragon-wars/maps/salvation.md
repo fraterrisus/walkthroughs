@@ -26,7 +26,7 @@ You can plunge into the [Depths of the Nisir](nisir.md) at (13,02 - 14,03).
 
 **The Alarm Bells (??):** An alarm sounds; reset the encounter at (07,08). It doesn't seem like there's anything that triggers this code, though.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

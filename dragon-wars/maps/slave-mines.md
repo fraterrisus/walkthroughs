@@ -35,7 +35,7 @@ You won't run into any random encounters down here, but there are some a few fix
 
 **The Exit (05,12):** If you're still wearing chains, the guards drag you back into the Mines. Otherwise, you have to fight off the Cruel Slave Boss and his friends.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

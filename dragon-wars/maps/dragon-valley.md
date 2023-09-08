@@ -24,7 +24,7 @@ South (07,00): Exit to the [Eastern Isles](dilmun.md) (34,14).
 
 If you somehow manage to defeat her, she "surrenders" and swears to answer the call of the Dragon Gem next time you use it. However, this path *doesn't set the global flag* that gets checked when you face Namtar's army in the Nisir, so I don't even think it would work.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

@@ -1,3 +1,8 @@
+---
+toc:
+  enabled: true
+  h_min: 2
+---
 # Things and Stuff
 
 ## Weapons

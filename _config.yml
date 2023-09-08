@@ -47,6 +47,17 @@ plugins:
   - jekyll-remote-theme
 #  - jekyll-feed
 
+# Front matter defaults
+defaults:
+  -
+    scope: 
+      path: ""
+    values:
+      toc:
+        enabled: false
+        h_min: 1
+        h_max: 6
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

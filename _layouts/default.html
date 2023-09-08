@@ -10,11 +10,28 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/toc.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/toc.js?v=' | append: site.github.build_revision | relative_url }}"></script>
     {% include head-custom.html %}
   </head>
   <body>
     <main id="content" class="main-content" role="main">
       {{ content }}
+
+      {% if page.toc.enabled %}
+      <div id="table-of-contents">
+        <div id="toc-header">
+          <b>Contents</b>
+          <div style="float: right;">
+            <img src="{{ '/assets/menu.png?v=' | append: site.github.build_revision | relative_url }}" 
+              id="toc-collapse" height="25px" width="25px" />
+          </div>
+        </div>
+        <div id="toc" class="toc-hidden">
+          {% include toc.html html=content h_min=page.toc.h_min h_max=page.toc.h_max %}
+        </div>
+      </div>
+      {% endif %}
 
       <footer class="site-footer">
         {% if site.github.is_project_page %}

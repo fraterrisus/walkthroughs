@@ -1,3 +1,10 @@
+---
+title: Yet Another Dragon Wars Walkthrough
+toc:
+  enabled: true
+  h_min: 2
+  h_max: 3
+---
 # Yet Another Dragon Wars Walkthrough
 
 Version 3.0, September 2023

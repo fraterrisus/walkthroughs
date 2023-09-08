@@ -6,6 +6,8 @@ Apologies, again, for the obnoxious alignment of this large, wrapping map. You'l
 
 The thing to know about the Nisir is that there is almost nothing to do down here that doesn't involve making your way directly to Namtar. You can get lost exploring the caves forever – and there are plenty of teleport traps that will make it very difficult to map this place – but there's no reason to do so unless you feel like fighting off a whole lot of random encounters (1 in 100).
 
+*Easter Eggs:* The item list for this board includes a **Dragon Wand** (+2 AV, *H:Fire Light* @20) and the **Dragon Sword** (4d20, +3 AV) but neither item is referenced anywhere else (there aren't any chests in the Nisir). You can pick up a Dragon Sword in Salvation, so it's at least possible that you were supposed to *use* it somewhere as opposed to *finding* it somewhere. But my guess – and it's purely a guess – is that the Wand was supposed to be a reward for beating Mystalvision, and the Sword was supposed to be a reward for beating Buck Ironhead, but they decided to take those out at the last minute.
+
 ## Exits
 
 (17,16): Stairs up to the [Underworld](magan-underworld.md) (08,15) from the starting area.
@@ -13,8 +15,6 @@ The thing to know about the Nisir is that there is almost nothing to do down her
 (23,06): Stairs up to the [Underworld](magan-underworld.md) (08,15) from the final battle with Namtar and his army.
 
 ## Points of Interest
-
-*Easter Egg:* The item list for this board includes a **Dragon Wand** (+2 AV, *H:Fire Light* @20), but that item is never referenced anywhere (there aren't any chests in the Nisir) and doesn't appear anywhere else in the game.
 
 **The Icy Caves (11,15 - 20,23):** When you first arrive in the Nisir you're in a cavern. Break through the wall with *D:Soften Stone*, and the area outside that cavern is full of "icy winds" which will extinguish any light source and deal 1 HP damage. If you walk in a straight line you'll probably be okay, but there are spinner traps in the corners that make it more challenging to navigate. (The missing square at (20,23) is not a mistake, or at least, not one on the part of your humble mapmaker. That's a coding bug. You can cast a light spell in that corner and see for yourself.)
 
@@ -26,7 +26,7 @@ The hallway just outside these caves also features spinner traps and teleporters
 
 **The Flaming Corridor (13,30 - 20,02):** Enter at (21,29); Mystalvision hangs out in a corridor full of heatstroke, which you'll have to traverse before you can kill him. Afterwards he teleports you to The Other Icy Caves, above.
 
-**The Twin Warrens (14,07 - 19,12 and 27,20 - 00,25):** Two sets of nearly-identical 3x3 rooms with a teleporter in the center that moves you from one to the other. Neither one leads you anywhere useful or interesting.
+**The Twin Warrens (14,07 - 19,12 and 27,20 - 00,25):** Two 3x3 sets of nearly-identical 2x2 rooms with a teleporter in the center that moves you from one to the other. Neither one leads you anywhere useful or interesting.
 
 **The Invisible Maze (08,06 - 12,12):** This room is full of invisible walls; cast *H:Reveal Glamour* to reveal them, or just have fun bashing your way through a pointless maze. Your prize, if you make it to the S end of the room, is a corridor with an infinite teleport trap and a couple of rooms with fixed encounters in them.
 

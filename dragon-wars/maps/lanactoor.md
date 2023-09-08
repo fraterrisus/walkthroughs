@@ -4,7 +4,7 @@
 
 A mystical place, just as badly flooded as Mud Toad and even more confusingly laid out.
 
-Wandering monsters abound (1 in 25). Also, it's dark down here and you need a compass. And just for grins, the map wraps around.
+Wandering monsters abound (1 in 25). Also, it's **dark** down here and you need a **compass**. And just for grins, the map wraps around.
 
 ## Exits
 

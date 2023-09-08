@@ -1,3 +1,8 @@
+---
+toc:
+  enabled: true
+  h_min: 2
+---
 # Things and Stuff
 
 ## Weapons
@@ -6,43 +11,123 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 
 ### Axes
 
-| Item         | Price | Dmg  | STR  |  AV  |  AC  | Other                |
-| :----------- | :---: | :--: | :--: | :--: | :--: | -------------------- |
-| Small Pick   |  50   | 1d4  |  4   |      |      |                      |
-| Pick         |  60   | 1d6  |  7   |      |      |                      |
-| Hand Axe     |  60   | 1d6  |  5   |      |      |                      |
-| Battle Axe   |  70   | 1d12 |  17  |  -1  |      |                      |
-| War Axe      |  700  | 1d12 |  18  |  -3  |      |                      |
-| Rusty Axe    | 2000  | 1d20 |  18  |  -3  |      |                      |
-| Axe of Kalah | 7000  | 1d12 |  18  |  +4  |      | 50' range (1d20 dmg) |
-| Magic Axe    |  700  | 1d30 |  20  |  +1  |      |                      |
-| Nature Axe   | 1500  | 1d30 |  18  |  -6  |      |                      |
+| Item         | Price | Dmg  | STR  |  AV  |  AC  |
+| :----------- | :---: | :--: | :--: | :--: | :--: |
+| Small Pick   |  50   | 1d4  |  4   |      |      |
+| Pick         |  60   | 1d6  |  7   |      |      |
+| Hand Axe     |  60   | 1d6  |  5   |      |      |
+| Battle Axe   |  70   | 1d12 |  17  |  -1  |      |
+| War Axe      |  700  | 1d12 |  18  |  -3  |      |
+| Rusty Axe    | 2000  | 1d20 |  18  |  -3  |      |
+| Axe of Kalah | 7000  | 1d12<br/>1d20 at 50' |  18  |  +4  |      |
+| Magic Axe    |  700  | 1d30 |  20  |  +1  |      |
+| Nature Axe   | 1500  | 1d30 |  18  |  -6  |      |
 
 ### Flails
 
-| Item         | Price | Dmg  | STR  |  AV  |  AC  | Other |
-| ------------ | :---: | :--: | :--: | :--: | :--: | ----- |
-| Flail        |  40   | 1d6  |  10  |      |      |       |
-| War Flail    |  400  | 1d12 |  10  |      |      |       |
-| Bladed Flail | 1000  | 1d12 |  10  |      |      |       |
-| Runed Flail  | 2000  | 1d20 |  14  |  +2  |  +1  |       |
-| Barbed Flail | 2000  | 1d30 |  16  |      |  +2  |       |
-| Spiked Flail | 3000  | 4d20 |  16  |  +2  |  +1  |       |
+| Item         | Price | Dmg  | STR  |  AV  |  AC  |
+| ------------ | :---: | :--: | :--: | :--: | :--: |
+| Flail        |  40   | 1d6  |  10  |      |      |
+| War Flail    |  400  | 1d12 |  10  |      |      |
+| Bladed Flail | 1000  | 1d12 |  10  |      |      |
+| Runed Flail  | 2000  | 1d20 |  14  |  +2  |  +1  |
+| Barbed Flail | 2000  | 1d30 |  16  |      |  +2  |
+| Spiked Flail | 3000  | 4d20 |  16  |  +2  |  +1  |
 
 ### Swords
-
-| Item                                | Price |  Dmg  | STR  |  AV  |  AC  | Other                        |
-| ----------------------------------- | :---: | :---: | :--: | :--: | :--: | ---------------------------- |
-| Dagger                              |  30   |  1d4  |  3   |  +1  |      |                              |
-| Ruby Dagger                         |  40   |  1d4  |  3   |  +3  |      |                              |
-| Shortsword                          |  50   |  1d6  |  8   |  +1  |      |                              |
-| Broadsword                          |  60   |  1d8  |  12  |  +1  |      |                              |
-| Hook                                |  60   |  1d8  |  10  |  +1  |      |                              |
-| Firesword                           |  900  | 1d12  |  17  |  +2  |  +1  |                              |
-| Lance Sword                         |  60   | 1d20  |  12  |  +1  |      | 20' range                    |
-| The Slicer                          |   —   | 1d30  |  17  |  +4  |  +2  |                              |
-| Dragon Tooth                        | 6000  | 2d20  |  12  |  +8  |  +2  | 60' range                    |
-| Freedom Sw.<br />[Sword of Freedom] |   —   | 1d100 |  15  | +15  |  +5  | casts *S:Inferno* if blessed |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Dmg</th>
+        <th>STR</th>
+        <th>AV</th>
+        <th>AC</th>
+    </tr>
+    <tr>
+        <td>Dagger</td>
+        <td style="text-align:center">30</td>
+        <td style="text-align:center">1d4</td>
+        <td style="text-align:center">3</td>
+        <td style="text-align:center">+1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Ruby Dagger</td>
+        <td style="text-align:center">40</td>
+        <td style="text-align:center">1d4</td>
+        <td style="text-align:center">3</td>
+        <td style="text-align:center">+3</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Shortsword</td>
+        <td style="text-align:center">50</td>
+        <td style="text-align:center">1d6</td>
+        <td style="text-align:center">8</td>
+        <td style="text-align:center">+1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Broadsword</td>
+        <td style="text-align:center">60</td>
+        <td style="text-align:center">1d8</td>
+        <td style="text-align:center">12</td>
+        <td style="text-align:center">+1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Hook</td>
+        <td style="text-align:center">60</td>
+        <td style="text-align:center">1d8</td>
+        <td style="text-align:center">10</td>
+        <td style="text-align:center">+1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Firesword</td>
+        <td style="text-align:center">900</td>
+        <td style="text-align:center">1d12</td>
+        <td style="text-align:center">17</td>
+        <td style="text-align:center">+2</td>
+        <td style="text-align:center">+1</td>
+    </tr>
+    <tr>
+        <td>Lance Sword</td>
+        <td style="text-align:center">60</td>
+        <td style="text-align:center">1d20 at 20'</td>
+        <td style="text-align:center">12</td>
+        <td style="text-align:center">+1</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>The Slicer</td>
+        <td style="text-align:center">&ndash;</td>
+        <td style="text-align:center">1d30</td>
+        <td style="text-align:center">17</td>
+        <td style="text-align:center">+4</td>
+        <td style="text-align:center">+2</td>
+    </tr>
+    <tr>
+        <td>Dragon Tooth</td>
+        <td style="text-align:center">6000</td>
+        <td style="text-align:center">2d20 at 60'</td>
+        <td style="text-align:center">12</td>
+        <td style="text-align:center">+8</td>
+        <td style="text-align:center">+2</td>
+    </tr>
+    <tr>
+        <td rowspan=2>Freedom Sw.<br />[Sword of Freedom]</td>
+        <td style="text-align:center">&ndash;</td>
+        <td style="text-align:center">1d100</td>
+        <td style="text-align:center">15</td>
+        <td style="text-align:center">+15</td>
+        <td style="text-align:center">+5</td>
+    </tr>
+    <tr>
+        <td colspan=5>casts <i>S:Inferno</i> if blessed by the Universal God</td>
+    </tr>
+</table>
 
 ### Two-Handed Weapons
 
@@ -82,21 +167,79 @@ Two-handers conflict with Full Shields, but not regular Shields.
 
 Bows, like Two-handers, conflict with Full Shields but not regular Shields.
 
-| Item         |  Price   | Dmg  | Range | DEX  |  AV  | Other                   |
-| ------------ | :------: | :--: | :---: | :--: | :--: | ----------------------- |
-| Bow          | 60 or 80 |      |  20'  |  10  |      |                         |
-| Long Bow     |    90    |      |  40'  |  14  |  +1  |                         |
-| Great Bow    |   310    |      |  50'  |  16  |  +2  |                         |
-| Archer's Bow |   900    |      |  50'  |  18  |  +3  |                         |
-| Magic Bow    |    60    |      |  70'  |  10  |  +4  |                         |
-| Gatlin Bow   |    60    |      |  20'  |  10  |      | can fire x1, x3, or all |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Range</th>
+        <th>DEX</th>
+        <th>AV</th>
+    </tr><tr>
+        <td>Crossbow</td>
+        <td style="text-align:center">60</td>
+        <td style="text-align:center">20'</td>
+        <td style="text-align:center">10</td>
+        <td></td>
+    </tr><tr>
+        <td>Long Bow</td>
+        <td style="text-align:center">90</td>
+        <td style="text-align:center">40'</td>
+        <td style="text-align:center">14</td>
+        <td style="text-align:center">+1</td>
+    </tr><tr>
+        <td>Great Bow</td>
+        <td style="text-align:center">310</td>
+        <td style="text-align:center">50'</td>
+        <td style="text-align:center">16</td>
+        <td style="text-align:center">+2</td>
+    </tr><tr>
+        <td>Archer's Bow</td>
+        <td style="text-align:center">900</td>
+        <td style="text-align:center">50'</td>
+        <td style="text-align:center">18</td>
+        <td style="text-align:center">+3</td>
+    </tr><tr>
+        <td>Magic Bow</td>
+        <td style="text-align:center">60</td>
+        <td style="text-align:center">70'</td>
+        <td style="text-align:center">10</td>
+        <td style="text-align:center">+4</td>
+    </tr><tr>
+        <td rowspan=2>Gatlin Bow</td>
+        <td style="text-align:center">60</td>
+        <td style="text-align:center">20'</td>
+        <td style="text-align:center">10</td>
+        <td></td>
+    </tr><tr>
+        <td colspan=4>can fire <b>single</b>, <b>burst</b> (x3), or <b>full auto</b></td>
+    </tr>
+</table>
 
 ### Crossbows
 
-| Item         |  Price   | Dmg  | Range | DEX  |  AV  | Other                   |
-| ------------ | :------: | :--: | :---: | :--: | :--: | ----------------------- |
-| Crossbow     |    60    |      |  30'  |  12  |      |                         |
-| Tri-Cross    |   600    |      |  30'  |  15  |  +1  | can fire x1 or x3       |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Range</th>
+        <th>DEX</th>
+        <th>AV</th>
+    </tr><tr>
+        <td>Crossbow</td>
+        <td style="text-align:center">60</td>
+        <td style="text-align:center">30'</td>
+        <td style="text-align:center">12</td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2>Tri-Cross</td>
+        <td style="text-align:center">600</td>
+        <td style="text-align:center">30'</td>
+        <td style="text-align:center">15</td>
+        <td style="text-align:center">+1</td>
+    </tr><tr>
+        <td colspan=4>Can fire <b>single</b> or <b>burst</b> (x3)</td>
+    </tr>
+</table>
 
 ### Guns
 No, there aren't actually any guns in *Dragon Wars*; this is an easter egg. There's no corresponding weapon skill, either. But there sure is an "item type" in the code for it, along with one for "Ammo Clips" (as distinct from Ammunition, below).
@@ -162,10 +305,10 @@ Body Armor comes in a bunch of different "item types", like "Leather" and "Cuir 
 
 Technically, the Silver Gloves are "Mage Gloves" instead of "Gloves", but the distinction doesn't matter.
 
-| Item          | Price |  AC  |  AV  | Other |
-| ------------- | ----: | :--: | :--: | ----- |
-| Gauntlets     |  700  |  +2  |      |       |
-| Silver Gloves | 2000  |  +3  |      |       |
+| Item          | Price |  AC  |  AV  |
+| ------------- | ----: | :--: | :--: |
+| Gauntlets     |  700  |  +2  |      |
+| Silver Gloves | 2000  |  +3  |      |
 
 ### Shields
 
@@ -176,35 +319,83 @@ Everything listed on this table is a "Full Shield" except for the basic "Shield"
 | Shield                            |    1000     |  10  |  +2  |      |
 | Fire Shield                       |    5000     |  12  |  +2  | -2   |
 | Large Shield                      | 100 or 1000 |  12  |  +3  | -2   |
-| Magic Shield (Byzanople, College) |    3000     |  10  |  +3  |      |
-| Magic Shield (Phoebus)            |    10000    |  10  |  +4  |      |
+| Magic Shield<br />(Byzanople, College) |    3000     |  10  |  +3  |      |
+| Magic Shield<br />(Phoebus)            |    10000    |  10  |  +4  |      |
 | Dragon Shield                     |    12000    |  10  |  +5  |      |
 
 No, it *doesn't* make any sense that Shields and Large Shields cost the same amount of gold. Thanks for asking.
 
 ### Helms
 
-| Item        | Price |  AC  |  AV  | Other                 |
-| ----------- | :---: | :--: | :--: | --------------------- |
-| Helm        | 1000  |  +1  |      |                       |
-| Gem Helm    | 2000  |  +2  |      |                       |
-| Black Helm  | 3000  |  +3  |      | casts *M:Zak's Speed* |
-| Dragon Helm | 7000  |  +4  |  -1  |                       |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>AC</th>
+        <th>AV</th>
+    </tr><tr>
+        <td>Helm</td>
+        <td style="text-align:center">1000</td>
+        <td style="text-align:center">+1</td>
+        <td></td>
+    </tr><tr>
+        <td>Gem Helm</td>
+        <td style="text-align:center">2000</td>
+        <td style="text-align:center">+2</td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2>Black Helm</td>
+        <td style="text-align:center">3000</td>
+        <td style="text-align:center">+3</td>
+        <td></td>
+    </tr><tr>
+        <td colspan=3>casts <i>M:Zak's Speed</i></td>
+    </tr><tr>
+        <td>Dragon Helm</td>
+        <td style="text-align:center">7000</td>
+        <td style="text-align:center">+4</td>
+        <td style="text-align:center">-1</td>
+    </tr>
+</table>
 
 ### Boots
 
-| Item         | Price |  AC  |  AV  | Other |
-| ------------ | :---: | :--: | :--: | ----- |
-| Lucky Boots  | 2000  |  +1  |      |       |
-| Golden Boots |   —   |  +2  |      |       |
+| Item         | Price |  AC  |  AV  |
+| ------------ | :---: | :--: | :--: |
+| Lucky Boots  | 2000  |  +1  |      |
+| Golden Boots |   —   |  +2  |      |
 
 ### Rings
 
-| Item       | Price |  AC  |  AV  | Other                                                       |
-| ---------- | :---: | :--: | :--: | ----------------------------------------------------------- |
-| The Ring   | 1250  |  +2  |  +2  | casts *H:Cloak Arcane*                                      |
-| Mage Ring  | 2000  |  +1  |  +4  | requires *Low Magic* 3<br />casts *D:Whirl Wind* if charged |
-| Magic Ring |   —   |  +2  |  +1  | casts *D:Whirl Wind*                                        |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>AC</th>
+        <th>AV</th>
+    </tr><tr>
+        <td rowspan=2>The Ring</td>
+        <td style="text-align:center">1250</td>
+        <td style="text-align:center">+2</td>
+        <td style="text-align:center">+2</td>
+    </tr><tr>
+        <td colspan=3>casts <i>H:Cloak Arcane</i></td>
+    </tr><tr>
+        <td rowspan=2>Mage Ring</td>
+        <td style="text-align:center">2000</td>
+        <td style="text-align:center">+1</td>
+        <td style="text-align:center">+4</td>
+    </tr><tr>
+        <td colspan=3>requires *Low Magic 3*<br />casts <i>D:Whirl Wind</i></td>
+    </tr><tr>
+        <td rowspan=2>Magic Ring</td>
+        <td style="text-align:center">&ndash;</td>
+        <td style="text-align:center">+2</td>
+        <td style="text-align:center">+1</td>
+    </tr><tr>
+        <td colspan=3>casts <i>D:Whirl Wind</i></td>
+    </tr>
+</table>
 
 ## Unique Items
 

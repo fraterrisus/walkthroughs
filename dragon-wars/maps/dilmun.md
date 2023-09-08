@@ -226,7 +226,7 @@ The **[Pilgrim Dock](pilgrim-dock.md) (17,21)**: a one-way trip from the Old Doc
 
 Mount **[Salvation](salvation.md) (19,19)**, which is confusingly marked 'Nisir' during overland travel. Salvation connects to both the Underworld and to the Depths of Nisir.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

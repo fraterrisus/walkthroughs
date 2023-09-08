@@ -42,7 +42,7 @@ If you advance S without using the Gem, you have to fight Namtar's army on your 
 
 Eventually you wind up in combat with Namtar himself. You must defeat him three times in a row. You cannot run from these fights, and if you lose, you simply re-enter combat. If you win all three times, you get to pick up his **Dead Body**. Doing so teleports you to the [Underworld](magan-underworld.md) (08,15) near the Refresh Pool.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

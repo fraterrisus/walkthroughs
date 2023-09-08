@@ -24,7 +24,7 @@ If you take the S door, Ugly transports you (one-way, of course) to the [Necropo
 
 If you take the W door, Ugly and his crew will fight to the death (i.e. if you run away or get Stunned, combat just restarts). Beat them and find a locked chest (difficulty 2) containing $3000, a suit of **Pilgrim Garb**, Peg's **Old Peg Leg** (1d8, +1 AV, STR 10), Ugly's **Hook** (1d8, +1 AV, STR 10), a **Parrot** (useless), a suit of **Heavy Plate** (+12 AC, -6 AV), and the **Jade Eyes**, which are used to get into the Dwarf Clan Hall. Then you get to use the normal Boat Dock.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

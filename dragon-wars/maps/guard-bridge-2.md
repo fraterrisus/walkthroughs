@@ -32,7 +32,7 @@ The chest at (04,06) contains the **Axe of Kalah** (1d12 or 1d20 at 50', +4 AV, 
 
 However, on the way back out, you have a much more difficult fight at (05,07).
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

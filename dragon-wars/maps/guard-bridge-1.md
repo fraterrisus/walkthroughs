@@ -24,7 +24,7 @@ These exits are correct even if you exit to the East or West from the appropriat
 
 **The Bridge (04,03 - 04,04):** If you didn't appease the Guards, they attack. Otherwise, there's a 1 in 10 chance of getting swarmed by some Rats.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

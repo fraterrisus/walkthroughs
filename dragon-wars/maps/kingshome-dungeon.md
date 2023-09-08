@@ -26,7 +26,7 @@ See the [Byzanople](byzanople.md) file for more on the Fire Shield.
 
 **The Crossbow Trap (14,16):** For anyone foolish enough to explore the northern branch of the secret hallway, take 1d6 damage unless you have a trap-detection spell running.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

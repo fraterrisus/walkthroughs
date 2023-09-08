@@ -46,7 +46,7 @@ The map is also **dark**, so you'll need to bring a light source with you.
 
 **The Well of Souls (03,11)**: only accessible from the Necropolis stairs (*D:Soften Stone* doesn't work). `(U)se` *Arcane Lore* and throw a dead PC's body into the Well and they'll be resurrected (Stunned with 1 HP).
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

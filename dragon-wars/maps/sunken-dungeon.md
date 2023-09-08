@@ -16,7 +16,7 @@ Another small, wrapping dungeon map with a spinner, much like the Tars Dungeon. 
 
 **Javy Dones' Locker (07,07):** A fight with some Bloated Corpses. Their locker requires *Lockpick 2* and contains the **Trident** (2d20 at 40', +3 AV, +2 AC, DEX 15, returns to thrower), **Dragon Plate** (+14 AC, -3 AV), and the **Dragon Sword** (4d20, +2 AV, STR 21).
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

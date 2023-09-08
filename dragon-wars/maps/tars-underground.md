@@ -38,7 +38,7 @@ Whenever "your footsteps sound hollow", there's a secret door nearby. Face the w
 
 This is hands-down the weirdest easter egg in the entire game. I screamed out loud, booted up an old save file, and ran to that spot to verify it for myself.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

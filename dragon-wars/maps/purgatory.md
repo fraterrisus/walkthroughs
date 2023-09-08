@@ -62,7 +62,7 @@ There's also the **Apsu Waters** (07,12), which will take you to the [Magan Unde
 
 **Rough Waters (southern and eastern sides of the map):** Every PC without *Swim* takes 1 damage every turn. You do not need *Swim* in order to move, and you can also use other skills or items.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

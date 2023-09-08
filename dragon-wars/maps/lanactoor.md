@@ -22,7 +22,7 @@ Wandering monsters abound (1 in 25). Also, it's **dark** down here and you need 
 
 **Lanac'toor's Inner Sanctum (00,00 and thereabouts):** There's a 4x4 room straddling the corners of the map that contains Lanac'toor's treasures. At (14,00) you'll find a **Healing Potion** (*S:Major Healing*), the **Battle Wand** (*S:Battle Power*), and the **Dragon Shield** (+5 AC, STR 10). **Lanac'toor's Spectacles** are at (00,15); they'll get you into the [Magic College](magic-college.md). Finally, there are several interesting scrolls at (01,15): *L:Mage Fire, S:Fire Storm, S:Sun Stroke, H:Dazzle, M:Zak's Speed*, and *M:Kill Ray*.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

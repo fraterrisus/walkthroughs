@@ -30,7 +30,7 @@ To slip past the guards, go to (10,05) and use *Hide*. This reveals the secret d
 
 **Mystalvision, Part Two (07,15):** Accompanied by some Old Jailers. If you beat him, you find scrolls of *S:Armor of Light, S:Major Healing, S:Disarm Trap, S:Holy Aim*, and *D:Wood Spirit* (what?)
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

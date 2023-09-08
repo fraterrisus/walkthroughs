@@ -32,7 +32,7 @@ There's an odd bug; the flag that determines whether you've raided this chest wa
 
 **The Dice Game (04,13):** Exposition on the political climate and the names of some cities to look out for.
 
-## Monsters
+## Bestiary
 
 If you don't appease the camp's residents, you have to kill several of them:
 

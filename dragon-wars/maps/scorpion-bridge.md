@@ -20,7 +20,7 @@ If you're coming from the east, the flag that forces you to fight the Scorpions 
 
 **The Secret Treasure (04,06):** Some **Bones**, a **Barbed Flail** (1d30, +2 AC, STR 16), and a **Magic Shield** (+3 AC, STR 10).
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

@@ -16,7 +16,7 @@ The [Eastern Isles](dilmun.md) near (38,15).
 
 **The Open Well (05,04):** *Swim* and *Climb* won't do you any good, although they do give you a hint that you'll need something to "allow you to survive underwater", like the **Water Potion** you got from [Irkalla](magan-underworld.md).
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

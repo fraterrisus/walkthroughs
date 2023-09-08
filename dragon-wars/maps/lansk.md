@@ -30,7 +30,7 @@ South: [Isle of Lansk](dilmun.md) (16,13)
 
 **Quarter Master's Office (12,13):** You're informed that Slaveholder Mog has died and left you his estate. There's no explanation, and no impact on the rest of the game.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

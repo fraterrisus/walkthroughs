@@ -37,7 +37,7 @@ Technically, you can exit this map to the west, east, or south. These will retur
 - the statue of Irkalla in [Smuggler's Cove](smugglers-cove.md)
 - the E entrance to the [Bridge of Exiles](bridge-of-exiles.md)
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

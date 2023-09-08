@@ -38,7 +38,7 @@ You can also buy a ticket to take the ferry (08,15) to the [Old Dock](old-dock.m
 
 **The Statue of Enkidu (14,02):** Paragraph #125 tells you about Enkidu, who you've already met (and wrestled) a long time ago.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

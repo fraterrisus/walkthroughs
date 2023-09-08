@@ -44,7 +44,7 @@ The game's item data on the Fire Shield (both this one and the one you find in t
 
 **Town Healer (09,11):** Charges $4 per point of Health.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

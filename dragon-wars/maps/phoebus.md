@@ -34,7 +34,7 @@ There aren't any other proper exits, although the fight with Mystalvision will d
 
 If you've already been to the [Nisir](nisir.md) and killed Mystalvision there, he's not here, which means you can't get into the Dungeon. Otherwise you can repeat this as often as you like.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

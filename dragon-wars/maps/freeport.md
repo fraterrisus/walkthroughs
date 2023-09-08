@@ -38,7 +38,7 @@ If you step on (03,04), the game asks you to take the Sword. It's a trap, of cou
 
 However, there's a logic bug here. As soon as the Sword is revealed, the townspeople are supposed to flee in panic, turning Freeport into a ghost town. In practice, this only happens if you step on (02,05) or leave and re-enter Freeport. So if you reveal the fake Sword, you have the option of (carefully) continuing to run around town and do whatever you want. But don't leave until you're done.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

@@ -26,7 +26,7 @@ You can't take the stairs down to the [Slave Mines](slave-mines.md), but if you 
 
 **The Gaze Demon (03,04):** Use a mirror fragment at (04,03) or (03,02) to petrify the Demon without fighting it. Or step onto (03,04) and combat starts.
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

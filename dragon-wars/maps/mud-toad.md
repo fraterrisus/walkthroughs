@@ -30,7 +30,7 @@ There's also the hidden staircase down to [Lanac'toor's Laboratory](lanactoor.md
 
 **The Militia (02,02):** Climb through the walls at (14,12), then walk all the way around until you meet the militia (paragraph #32). Kill them and keep searching E until you find their treasure at (06,02). You find scrolls of *H:Water Summon* and *H:Reveal Glamour*, plus the **Barbed Flail** (1d30, +2 AC, STR 16), **Mountain Sword** (1d30, +3 AV, +2 AC, *H:Earth Summon*, requires *Mountain Lore 2*), and a pair of **Lucky Boots** (+1 AC).
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

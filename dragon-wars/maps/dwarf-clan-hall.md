@@ -34,7 +34,7 @@ If you start out by reanimating the clan, all the combat down here goes away.
 
 **The Even More Hidden Treasury (00,15):** Contains $1000 and the **Dragon Horn** (*S:Rage of Mithras* @12, requires *Low Magic 1*)
 
-## Monsters
+## Bestiary
 
 <table>
   <tr>

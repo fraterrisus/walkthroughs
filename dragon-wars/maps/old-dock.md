@@ -1,6 +1,6 @@
 # Old Dock
 
-![map](old-dock.svg)
+[![map](old-dock.svg)](old-dock.svg)
 
 A transit point for multiple ferries, but you probably won't come here until you're ready to take on Namtar.
 

@@ -1,6 +1,6 @@
 # Salvation
 
-![map](salvation.svg)
+[![map](salvation.svg)](salvation.svg)
 
 The destination of many a pilgrim's trek, and your first step towards the endgame.
 

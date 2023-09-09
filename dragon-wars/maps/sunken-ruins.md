@@ -1,6 +1,6 @@
 # Sunken Ruins (above)
 
-![map](sunken-ruins.svg)
+[![map](sunken-ruins.svg)](sunken-ruins.svg)
 
 ## Exits
 

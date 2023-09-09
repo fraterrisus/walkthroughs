@@ -1,6 +1,6 @@
 # Guard Bridge #1
 
-![map](guard-bridge-1.svg)
+[![map](guard-bridge-1.svg)](guard-bridge-1.svg)
 
 Allows passage between Forlorn and Isle of the Sun, but you won't get there without some hassle.
 

@@ -1,6 +1,6 @@
 # Dwarf Clan Hall
 
-![map](dwarf-clan-hall.svg)
+[![map](dwarf-clan-hall.svg)](dwarf-clan-hall.svg)
 
 A grim underground habitat for a clan of dwarves who had an unfortunate run-in with a Gorgon, and have now all been petrified. True to their Tolkien-esque roots, the dwarves are unparalleled smiths and inventors; make friends with them (and boldly walk through a few secret doors) and you'll get to share in their talents.
 

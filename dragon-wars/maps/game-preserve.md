@@ -1,6 +1,6 @@
 # Game Preserve
 
-![map](game-preserve.svg)
+[![map](game-preserve.svg)](game-preserve.svg)
 
 Plenty of random encounters (1 in 33), and even more traps. It's worth running a trap-detection spell while you're here.
 

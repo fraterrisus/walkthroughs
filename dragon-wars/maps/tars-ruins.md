@@ -1,6 +1,6 @@
 # Tars Ruins
 
-![map](tars-ruins.svg)
+[![map](tars-ruins.svg)](tars-ruins.svg)
 
 A ruined city, destroyed by dragons. Random (1 in 100) and fixed encounters abound.
 

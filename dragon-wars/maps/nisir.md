@@ -1,6 +1,6 @@
 # Nisir
 
-![map](nisir.svg)
+[![map](nisir.svg)](nisir.svg)
 
 Apologies, again, for the obnoxious alignment of this large, wrapping map. You'll need **light** and a **compass** to navigate down here, and with a handful of spinners, you'll really want them both.
 

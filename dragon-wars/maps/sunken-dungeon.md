@@ -1,6 +1,6 @@
 # Sunken Ruins (below)
 
-![map](sunken-dungeon.svg)
+[![map](sunken-dungeon.svg)](sunken-dungeon.svg)
 
 Another small, wrapping dungeon map with a spinner, much like the Tars Dungeon. You'll need **light** and a **compass**.
 

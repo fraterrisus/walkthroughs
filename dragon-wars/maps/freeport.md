@@ -1,6 +1,6 @@
 # Freeport
 
-![map](freeport.svg)
+[![map](freeport.svg)](freeport.svg)
 
 The last holdout from Namtar's rule... mostly because it's literally the furthest away.
 

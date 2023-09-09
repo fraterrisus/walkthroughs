@@ -1,8 +1,8 @@
 # Dilmun
 
-![map](dilmun.svg)
+[![map](dilmun.svg)](dilmun.svg)
 
-As a warning, you can't cast *D:Create Wall* here, and *D:Soften Stone* probably won't get you anywhere. Just in case you were tempted to try. Also, the map wraps, not that you can actually go sailing over the water.
+As a warning, you can't cast *D:Create Wall* here and *D:Soften Stone* probably won't get you anywhere. Just in case you were tempted to try. Also, the map wraps, not that you can actually go sailing over the water.
 
 ## Points of Interest
 
@@ -29,124 +29,6 @@ The ruins of **[Tars](tars-ruins.md) (21,04)** and its dungeon.
 **[Guard Bridge #1](guard-bridge-1.md) (12,07):** Connects you to Forlorn.
 
 **Goblins (12,09):** A bunch of Goblins wait for you on the N side of the bridge. This combat regenerates, so you'll have to fight it every time you come to Sun.
-
-<table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>City Militiamen</b></td>
-    <td>15
-    <td>16
-    <td>09
-    <td>10
-    <td>5d6+3
-    <td>8-33
-    <td>+2
-    <td>+0
-    <td>10'
-    <td>120
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>5d6, 5d8, 5d8 piercing, call for help
-  </tr>
-  <tr>
-    <td><b></b></td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>
-  </tr>
-  <tr>
-    <td><b></b></td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>
-  </tr>
-  <tr>
-    <td><b></b></td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>
-  </tr>
-  <tr>
-    <td><b></b></td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-    <td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>
-  </tr>
-  <tr>
-    <td><b>Royal Guards</b></td>
-    <td>12
-    <td>22
-    <td>10
-    <td>10
-    <td>6d6+30
-    <td>36-66
-    <td>+4
-    <td>+0
-    <td>
-    <td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>
-  </tr>
-</table>
 
 **[Phoebus](phoebus.md) (05,11)**. Can be destroyed by a dragon.
 

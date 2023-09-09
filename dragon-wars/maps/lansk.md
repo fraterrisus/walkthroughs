@@ -1,6 +1,6 @@
 # Lansk
 
-![map](lansk.svg)
+[![map](lansk.svg)](lansk.svg)
 
 Dust off your *Bureaucracy* skill, we're going hunting for paperwork! (Actually, you won't need that skill at all.)
 

@@ -1,6 +1,6 @@
 # Phoebus
 
-![map](phoebus.svg)
+[![map](phoebus.svg)](phoebus.svg)
 
 Home of Mystalvision, the High Priest of the Temple of the Sun and chief Sun Mage.
 

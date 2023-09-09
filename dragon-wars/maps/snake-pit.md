@@ -1,6 +1,6 @@
 # Snake Pit
 
-![map](snake-pit.svg)
+[![map](snake-pit.svg)](snake-pit.svg)
 
 A lovely little vacation home for the criminally insane (or, at least, those who will become insane after being declared criminals by Namtar...)
 

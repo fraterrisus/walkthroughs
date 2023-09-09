@@ -1,6 +1,6 @@
 # Slave Camp
 
-![map](slave-camp.svg)
+[![map](slave-camp.svg)](slave-camp.svg)
 
 There are two paths through the Slave Camp. If you can get the residents [on your side](../walkthrough.md#the-purgatory-day-spa-and-salon-slave-camp), you get to explore the camp and meet everybody. If not, the camp is empty except for a few nasty spirits.
 

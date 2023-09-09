@@ -1,6 +1,6 @@
 # Necropolis
 
-![map](necropolis.svg)
+[![map](necropolis.svg)](necropolis.svg)
 
 Nergal's summer palace, aka where he hangs out when Irkalla's angry at him.
 

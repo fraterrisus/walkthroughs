@@ -1,6 +1,6 @@
 # Phoeban Dungeon
 
-![map](phoeban-dungeon.svg)
+[![map](phoeban-dungeon.svg)](phoeban-dungeon.svg)
 
 After your little encounter with Mystalvision, you're dropped into a jail cell. However, you'll have a chance to exact your revenge sooner than you think...
 

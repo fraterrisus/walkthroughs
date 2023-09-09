@@ -1,6 +1,6 @@
 # Scorpion Bridge
 
-![map](scorpion-bridge.svg)
+[![map](scorpion-bridge.svg)](scorpion-bridge.svg)
 
 Connects Rustic Isle to the island with the Magic College.
 

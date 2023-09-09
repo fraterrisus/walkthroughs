@@ -1,6 +1,6 @@
 # Tars Underground
 
-![map](tars-underground.svg)
+[![map](tars-underground.svg)](tars-underground.svg)
 
 A tiny but confusing board, thanks to a spinner and a wrapping map. Your best bet is to get in and get out... although the easter egg is pretty epic.
 

@@ -1,6 +1,6 @@
 # War Bridge
 
-![map](war-bridge.svg)
+[![map](war-bridge.svg)](war-bridge.svg)
 
 Simple enough, if you have the Governor's Pass from Lansk. Just watch out for the Murk Tree.
 

@@ -1,6 +1,6 @@
 # Lanac'toor's Laboratory
 
-![map](lanactoor.svg)
+[![map](lanactoor.svg)](lanactoor.svg)
 
 A mystical place, just as badly flooded as Mud Toad and even more confusingly laid out.
 

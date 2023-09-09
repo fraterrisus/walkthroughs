@@ -1,6 +1,6 @@
 # Mystic Wood
 
-![map](mystic-wood.svg)
+[![map](mystic-wood.svg)](mystic-wood.svg)
 
 A place that you'll come back to again and again over the course of the game. It has both a Transportation Nexus and an easy route to the Underworld, which makes it a highly useful conduit between the two.
 

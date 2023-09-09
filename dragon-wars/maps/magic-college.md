@@ -1,6 +1,6 @@
 # Magic College
 
-![map](magic-college.svg)
+[![map](magic-college.svg)](magic-college.svg)
 
 Utnapishtim the Faraway welcomes(?) you to his college of magical trickery. I almost didn't bother drawing a map for this one, because it's not particularly useful.
 

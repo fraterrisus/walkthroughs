@@ -1,6 +1,6 @@
 # Guard Bridge #2
 
-![map](guard-bridge-2.svg)
+[![map](guard-bridge-2.svg)](guard-bridge-2.svg)
 
 Allows passage between the Isle of the Sun and Lansk. Also contains several tasty bits of kit to go after.
 

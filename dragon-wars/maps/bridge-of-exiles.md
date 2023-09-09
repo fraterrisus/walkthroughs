@@ -1,6 +1,6 @@
 # Bridge of Exiles
 
-![map](bridge-of-exiles.svg)
+[![map](bridge-of-exiles.svg)](bridge-of-exiles.svg)
 
 The most straightforward board in the entire game. No monsters, just a one-way door and a bunch of screaming.
 

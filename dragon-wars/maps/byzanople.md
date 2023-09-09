@@ -1,6 +1,6 @@
 # Byzanople
 
-![map](byzanople.svg)
+[![map](byzanople.svg)](byzanople.svg)
 
 ## Exits
 

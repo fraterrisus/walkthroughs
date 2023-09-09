@@ -1,6 +1,6 @@
 # Smuggler's Cove
 
-![map](smugglers-cove.svg)
+[![map](smugglers-cove.svg)](smugglers-cove.svg)
 
 Home base for Ugly and his crew of pirates, and the good ship *Prairie Madness* which you'll eventually steal.
 

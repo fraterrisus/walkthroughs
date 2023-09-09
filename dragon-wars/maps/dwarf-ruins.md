@@ -1,6 +1,6 @@
 # Dwarf Ruins
 
-![map](dwarf-ruins.svg)
+[![map](dwarf-ruins.svg)](dwarf-ruins.svg)
 
 ## Exits
 

@@ -1,6 +1,6 @@
 # Siege Camp
 
-![map](siege-camp.svg)
+[![map](siege-camp.svg)](siege-camp.svg)
 
 ## Exits
 

@@ -1,12 +1,13 @@
 <header class="page-navbar">
-  <a href="../">Other Games</a>
-  {% if page.dir == '/dragon-wars/' %}
+  <a href={{ "/" | relative_url }}>Other Games</a>
+  {% assign segments = page.dir | split: '/' %}
+  {% if segments[1] == 'dragon-wars' %}
   &mdash; <b>Dragon Wars</b>
-  &mdash; <a href="index.html">Guide</a>
-  &mdash; <a href="things-and-stuff.html">Items</a>
-  &mdash; <a href="magic.html">Magic</a>
-  &mdash; <a href="walkthrough.html">Walkthrough</a>
-  &mdash; <a href="maps/">Maps</a>
+  &mdash; <a href={{ "/dragon-wars/" | relative_url }}>Guide</a>
+  &mdash; <a href={{ "/dragon-wars/things-and-stuff.html" | relative_url}}>Items</a>
+  &mdash; <a href={{ "/dragon-wars/magic.html" | relative_url }}>Magic</a>
+  &mdash; <a href={{ "/dragon-wars/walkthrough.html" | relative_url }}>Walkthrough</a>
+  &mdash; <a href={{ "/dragon-wars/maps/" | relative_url }}>Maps</a>
   {% endif %}
 </header>
 

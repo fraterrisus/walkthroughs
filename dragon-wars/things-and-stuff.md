@@ -35,6 +35,7 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 | Spiked Flail | 3000  | 4d20 |  16  |  +2  |  +1  |
 
 ### Swords
+
 <table>
     <tr>
         <th>Item</th>
@@ -46,83 +47,83 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
     </tr>
     <tr>
         <td>Dagger</td>
-        <td style="text-align:center">30</td>
-        <td style="text-align:center">1d4</td>
-        <td style="text-align:center">3</td>
-        <td style="text-align:center">+1</td>
+        <td class="c">30</td>
+        <td class="c">1d4</td>
+        <td class="c">3</td>
+        <td class="c">+1</td>
         <td></td>
     </tr>
     <tr>
         <td>Ruby Dagger</td>
-        <td style="text-align:center">40</td>
-        <td style="text-align:center">1d4</td>
-        <td style="text-align:center">3</td>
-        <td style="text-align:center">+3</td>
+        <td class="c">40</td>
+        <td class="c">1d4</td>
+        <td class="c">3</td>
+        <td class="c">+3</td>
         <td></td>
     </tr>
     <tr>
         <td>Shortsword</td>
-        <td style="text-align:center">50</td>
-        <td style="text-align:center">1d6</td>
-        <td style="text-align:center">8</td>
-        <td style="text-align:center">+1</td>
+        <td class="c">50</td>
+        <td class="c">1d6</td>
+        <td class="c">8</td>
+        <td class="c">+1</td>
         <td></td>
     </tr>
     <tr>
         <td>Broadsword</td>
-        <td style="text-align:center">60</td>
-        <td style="text-align:center">1d8</td>
-        <td style="text-align:center">12</td>
-        <td style="text-align:center">+1</td>
+        <td class="c">60</td>
+        <td class="c">1d8</td>
+        <td class="c">12</td>
+        <td class="c">+1</td>
         <td></td>
     </tr>
     <tr>
         <td>Hook</td>
-        <td style="text-align:center">60</td>
-        <td style="text-align:center">1d8</td>
-        <td style="text-align:center">10</td>
-        <td style="text-align:center">+1</td>
+        <td class="c">60</td>
+        <td class="c">1d8</td>
+        <td class="c">10</td>
+        <td class="c">+1</td>
         <td></td>
     </tr>
     <tr>
         <td>Firesword</td>
-        <td style="text-align:center">900</td>
-        <td style="text-align:center">1d12</td>
-        <td style="text-align:center">17</td>
-        <td style="text-align:center">+2</td>
-        <td style="text-align:center">+1</td>
+        <td class="c">900</td>
+        <td class="c">1d12</td>
+        <td class="c">17</td>
+        <td class="c">+2</td>
+        <td class="c">+1</td>
     </tr>
     <tr>
         <td>Lance Sword</td>
-        <td style="text-align:center">60</td>
-        <td style="text-align:center">1d20 at 20'</td>
-        <td style="text-align:center">12</td>
-        <td style="text-align:center">+1</td>
+        <td class="c">60</td>
+        <td class="c">1d20 at 20'</td>
+        <td class="c">12</td>
+        <td class="c">+1</td>
         <td></td>
     </tr>
     <tr>
         <td>The Slicer</td>
-        <td style="text-align:center">&ndash;</td>
-        <td style="text-align:center">1d30</td>
-        <td style="text-align:center">17</td>
-        <td style="text-align:center">+4</td>
-        <td style="text-align:center">+2</td>
+        <td class="c">&ndash;</td>
+        <td class="c">1d30</td>
+        <td class="c">17</td>
+        <td class="c">+4</td>
+        <td class="c">+2</td>
     </tr>
     <tr>
         <td>Dragon Tooth</td>
-        <td style="text-align:center">6000</td>
-        <td style="text-align:center">2d20 at 60'</td>
-        <td style="text-align:center">12</td>
-        <td style="text-align:center">+8</td>
-        <td style="text-align:center">+2</td>
+        <td class="c">6000</td>
+        <td class="c">2d20 at 60'</td>
+        <td class="c">12</td>
+        <td class="c">+8</td>
+        <td class="c">+2</td>
     </tr>
     <tr>
         <td rowspan=2>Freedom Sw.<br />[Sword of Freedom]</td>
-        <td style="text-align:center">&ndash;</td>
-        <td style="text-align:center">1d100</td>
-        <td style="text-align:center">15</td>
-        <td style="text-align:center">+15</td>
-        <td style="text-align:center">+5</td>
+        <td class="c">&ndash;</td>
+        <td class="c">1d100</td>
+        <td class="c">15</td>
+        <td class="c">+15</td>
+        <td class="c">+5</td>
     </tr>
     <tr>
         <td colspan=5>casts <i>S:Inferno</i> if blessed by the Universal God</td>
@@ -133,35 +134,184 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 
 Two-handers conflict with Full Shields, but not regular Shields.
 
-| Item                 | Price | Dmg  | STR  |  AV  |  AC  | Other                                                  |
-| -------------------- | :---: | :--: | :--: | :--: | :--: | ------------------------------------------------------ |
-| Polearm              |  90   | 1d10 |  13  |  +1  |      |                                                        |
-| Pole Arm (Kingshome) |  90   | 1d20 |  16  |  +2  |      |                                                        |
-| Greatsword           |  80   | 1d12 |  17  |  +1  |      |                                                        |
-| Magic Sword          |  80   | 1d12 |  17  |  +1  |      |                                                        |
-| Grand Sword          | 5000  | 2d12 |  22  |  +1  |      |                                                        |
-| Mntn. Sword<br />[Mountain Sword] | 2000  | 1d30 |  —   |  +3  |  +2  | requires *Mountain Lore* 2<br />casts *H:Earth Summon* if charged |
-| Glow Sword           | 8000  | 1d30 |  24  |  +1  |      |                                                        |
-| Holy Lance           | 9000  | 3d20 |  13  |  +4  |      |                                                        |
-| Heavy Sword          | 8000  | 8d8 |  25  |  -3  |  -2  |                                                        |
-| Dragon Sword         | 5000  | 4d20 |  21  |  +3  |      |                                                        |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Dmg</th>
+        <th>STR</th>
+        <th>AV</th>
+        <th>AC</th>
+    </tr><tr>
+        <td>Polearm</td>
+        <td class="c">90</td>
+        <td class="c">1d10</td>
+        <td class="c">13</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td>Pole arm (Kingshome)</td>
+        <td class="c">90</td>
+        <td class="c">1d20</td>
+        <td class="c">16</td>
+        <td class="c">+2</td>
+        <td></td>
+    </tr><tr>
+        <td>Greatsword<br />Magic Sword</td>
+        <td class="c">80</td>
+        <td class="c">1d12</td>
+        <td class="c">17</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td>Grand Sword</td>
+        <td class="c">5000</td>
+        <td class="c">2d12</td>
+        <td class="c">22</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2>Mntn. Sword<br />[Mountain Sword]</td>
+        <td class="c">2000</td>
+        <td class="c">1d30</td>
+        <td class="c">&ndash;</td>
+        <td class="c">+3</td>
+        <td class="c">+2</td>
+    </tr><tr>
+        <td colspan=5>requires <i>Mountain Lore 2</i>; casts <i>H:Earth Summon</i></td>
+    </tr><tr>
+        <td>Glow Sword</td>
+        <td class="c">8000</td>
+        <td class="c">1d30</td>
+        <td class="c">24</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td>Holy Lance</td>
+        <td class="c">9000</td>
+        <td class="c">3d20</td>
+        <td class="c">13</td>
+        <td class="c">+4</td>
+        <td></td>
+    </tr><tr>
+        <td>Heavy Sword</td>
+        <td class="c">8000</td>
+        <td class="c">8d8</td>
+        <td class="c">25</td>
+        <td class="c">-3</td>
+        <td class="c">-2</td>
+    </tr><tr>
+        <td>Dragon Sword</td>
+        <td class="c">5000</td>
+        <td class="c">4d20</td>
+        <td class="c">21</td>
+        <td class="c">+3</td>
+        <td></td>
+    </tr>
+</table>
 
 ### Maces
 
-| Item         | Price | Dmg  | STR  |  AV  |  AC  | Other                  |
-| ------------ | :---: | :--: | :--: | :--: | :--: | ---------------------- |
-| Mace         |  40   | 1d8  |  10  |      |      |                        |
-| Old Peg Leg  |  200  | 1d8  |  10  |  +1  |      |                        |
-| Hammer       |  40   | 1d10 |  12  |      |      |                        |
-| Long Mace    | 2000  | 1d20 |  15  |  +1  |      | 20' range              |
-| Holy Mace    | 4000  | 1d20 |  12  |  +2  |  +1  | casts *S:Exorcism*     |
-| Druid's Mace | 2000  | 1d20 |  12  |  +2  |  +2  | casts *D:Cure All*     |
-| Throw Mace   | 4000  | 2d12 |  18  |  +1  |      | 30' range (1d12 dmg)   |
-| Spiked Mace  | 4000  | 2d20 |  18  |      |      |                        |
-| Crush Mace   | 4000  | 4d10 |  15  |      |      |                        |
-| Dwarf Hammer |   —   | 1d30 |  20  |      |      | 60' range              |
-| Spell Staff  | 7000  | 1d10 |  —   |  +5  |  +8  | requires *Low Magic* 1 |
-| Mage Staff   | 20000 | 1d20 |  —   | +10  |      |                        |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Dmg</th>
+        <th>STR</th>
+        <th>AV</th>
+        <th>AC</th>
+    </tr><tr>
+        <td>Mace</td>
+        <td class="c">40</td>
+        <td class="c">1d8</td>
+        <td class="c">10</td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td>Old Peg Leg</td>
+        <td class="c">200</td>
+        <td class="c">1d8</td>
+        <td class="c">10</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td>Hammer</td>
+        <td class="c">40</td>
+        <td class="c">1d10</td>
+        <td class="c">12</td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td>Long Mace (Byzanople)</td>
+        <td class="c">2000</td>
+        <td class="c">1d20 at 20'</td>
+        <td class="c">15</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td>Long Mace (Freeport)</td>
+        <td class="c">200</td>
+        <td class="c">1d12</td>
+        <td class="c">15</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2>Holy Mace</td>
+        <td class="c">4000</td>
+        <td class="c">1d20</td>
+        <td class="c">12</td>
+        <td class="c">+2</td>
+        <td class="c">+1</td>
+    </tr><tr>
+        <td colspan=5>casts <i>S:Exorcism</i></td>
+    </tr><tr>
+        <td rowspan=2>Druid Mace</td>
+        <td class="c">2000</td>
+        <td class="c">1d20</td>
+        <td class="c">12</td>
+        <td class="c">+2</td>
+        <td class="c">+2</td>
+    </tr><tr>
+        <td colspan=5>casts <i>D:Cure All</i></td>
+    </tr><tr>
+        <td>Throw Mace</td>
+        <td class="c">4000</td>
+        <td class="c">2d12<br />1d12 at 30'</td>
+        <td class="c">18</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td>Crush Mace</td>
+        <td class="c">4000</td>
+        <td class="c">4d10</td>
+        <td class="c">15</td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td>Dwarf Hammer</td>
+        <td class="c">&ndash;</td>
+        <td class="c">1d30 at 60'</td>
+        <td class="c">20</td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2>Spell Staff</td>
+        <td class="c">7000</td>
+        <td class="c">1d10</td>
+        <td class="c">&ndash;</td>
+        <td class="c">+5</td>
+        <td class="c">+8</td>
+    </tr><tr>
+        <td colspan=5>requires <i>Low Magic 1</i></td>
+    </tr><tr>
+        <td>Mage Staff</td>
+        <td class="c">20000</td>
+        <td class="c">1d20</td>
+        <td class="c">&ndash;</td>
+        <td class="c">+10</td>
+        <td></td>
+    </tr>
+</table>
 
 ### Bows
 
@@ -176,39 +326,39 @@ Bows, like Two-handers, conflict with Full Shields but not regular Shields.
         <th>AV</th>
     </tr><tr>
         <td>Crossbow</td>
-        <td style="text-align:center">60</td>
-        <td style="text-align:center">20'</td>
-        <td style="text-align:center">10</td>
+        <td class="c">60</td>
+        <td class="c">20'</td>
+        <td class="c">10</td>
         <td></td>
     </tr><tr>
         <td>Long Bow</td>
-        <td style="text-align:center">90</td>
-        <td style="text-align:center">40'</td>
-        <td style="text-align:center">14</td>
-        <td style="text-align:center">+1</td>
+        <td class="c">90</td>
+        <td class="c">40'</td>
+        <td class="c">14</td>
+        <td class="c">+1</td>
     </tr><tr>
         <td>Great Bow</td>
-        <td style="text-align:center">310</td>
-        <td style="text-align:center">50'</td>
-        <td style="text-align:center">16</td>
-        <td style="text-align:center">+2</td>
+        <td class="c">310</td>
+        <td class="c">50'</td>
+        <td class="c">16</td>
+        <td class="c">+2</td>
     </tr><tr>
         <td>Archer's Bow</td>
-        <td style="text-align:center">900</td>
-        <td style="text-align:center">50'</td>
-        <td style="text-align:center">18</td>
-        <td style="text-align:center">+3</td>
+        <td class="c">900</td>
+        <td class="c">50'</td>
+        <td class="c">18</td>
+        <td class="c">+3</td>
     </tr><tr>
         <td>Magic Bow</td>
-        <td style="text-align:center">60</td>
-        <td style="text-align:center">70'</td>
-        <td style="text-align:center">10</td>
-        <td style="text-align:center">+4</td>
+        <td class="c">60</td>
+        <td class="c">70'</td>
+        <td class="c">10</td>
+        <td class="c">+4</td>
     </tr><tr>
         <td rowspan=2>Gatlin Bow</td>
-        <td style="text-align:center">60</td>
-        <td style="text-align:center">20'</td>
-        <td style="text-align:center">10</td>
+        <td class="c">60</td>
+        <td class="c">20'</td>
+        <td class="c">10</td>
         <td></td>
     </tr><tr>
         <td colspan=4>can fire <b>single</b>, <b>burst</b> (x3), or <b>full auto</b></td>
@@ -226,16 +376,16 @@ Bows, like Two-handers, conflict with Full Shields but not regular Shields.
         <th>AV</th>
     </tr><tr>
         <td>Crossbow</td>
-        <td style="text-align:center">60</td>
-        <td style="text-align:center">30'</td>
-        <td style="text-align:center">12</td>
+        <td class="c">60</td>
+        <td class="c">30'</td>
+        <td class="c">12</td>
         <td></td>
     </tr><tr>
         <td rowspan=2>Tri-Cross</td>
-        <td style="text-align:center">600</td>
-        <td style="text-align:center">30'</td>
-        <td style="text-align:center">15</td>
-        <td style="text-align:center">+1</td>
+        <td class="c">600</td>
+        <td class="c">30'</td>
+        <td class="c">15</td>
+        <td class="c">+1</td>
     </tr><tr>
         <td colspan=4>Can fire <b>single</b> or <b>burst</b> (x3)</td>
     </tr>
@@ -250,34 +400,173 @@ The item conflict rules are written such that you have to equip ammunition *afte
 
 Ammunition also carries an "ammo type" flag which determines whether it can be loaded into a Bow ("Arrows" and "Quivers", type 0) or Crossbow ("Bolts", type 1).
 
-| Item         | Price | Dmg  | Range | DEX  |  AV  | Other                   |
-| ------------ | :---: | :--: | :---: | :--: | :--: | ----------------------- |
-| Arrow        |  50   | 1d6  |       |      |      |                         |
-| White Arrow  |  150  | 1d8  |       |      |      |                         |
-| Silver Arrow |  500  | 1d12 |       |      |      |                         |
-| Grey Arrow   |  50   | 1d20 |       |      |      |                         |
-| Magic Arrow  |  700  | 1d20 |       |      |      |                         |
-| Magic Quiver |  50   | 1d4  |       |      |      | auto-refills each round |
-| Bolt         |  60   | 1d4  |       |      |      |                         |
-| Long Bolt    |  200  | 1d4  | +20'  |      |      |                         |
-| Pierce Bolt  | 1200  | 1d6  |       |      |  +1  |                         |
-| Mega Bolt    |  600  | 1d20 |       |      |      |                         |
-| Dead Bolt    |  100  | 1d20 |       |      |      | refill with *S:Charger* |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Dmg</th>
+        <th>AV</th>
+    </tr><tr>
+        <td>Arrow</td>
+        <td class="c">50</td>
+        <td class="c">1d6</td>
+        <td></td>
+    </tr><tr>
+        <td>White Arrow</td>
+        <td class="c">150</td>
+        <td class="c">1d8</td>
+        <td></td>
+    </tr><tr>
+        <td>Silver Arrow</td>
+        <td class="c">500</td>
+        <td class="c">1d12</td>
+        <td></td>
+    </tr><tr>
+        <td>Grey Arrow</td>
+        <td class="c">50</td>
+        <td class="c">1d20</td>
+        <td></td>
+    </tr><tr>
+        <td>Magic Arrow</td>
+        <td class="c">700</td>
+        <td class="c">1d20</td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2 style="border-bottom-width: 4px;">Magic Quiver</td>
+        <td class="c">50</td>
+        <td class="c">1d4</td>
+        <td></td>
+    </tr><tr>
+        <td colspan=3 style="border-bottom-width: 4px;">auto-refills each round</td>
+    </tr><tr>
+        <td>Bolt / Bolts</td>
+        <td class="c">60</td>
+        <td class="c">1d4</td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2>Long Bolt</td>
+        <td class="c">60</td>
+        <td class="c">1d4</td>
+        <td></td>
+    </tr><tr>
+        <td colspan=4>+20' range</td>
+    </tr><tr>
+        <td>Pierce Bolt</td>
+        <td class="c">1200</td>
+        <td class="c">1d6</td>
+        <td class="c">+1</td>
+    </tr><tr>
+        <td>Mega Bolt</td>
+        <td class="c">600</td>
+        <td class="c">1d20</td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2>Dead Bolt</td>
+        <td class="c">600</td>
+        <td class="c">1d20</td>
+        <td></td>
+    </tr><tr>
+        <td colspan=4>refill with <i>S:Charger</i></td>
+    </tr>
+</table>
 
 ### Thrown Weapons
 
-| Item                     | Price | Dmg  | Range | DEX  |  AV  |  AC  | Other                            |
-| ------------------------ | :---: | :--: | :---: | :--: | :--: | :--: | -------------------------------- |
-| Javelin                  |  40   | 1d6  |  30'  |  12  |      |      |                                  |
-| Spear                    |  40   | 1d8  |  40'  |  12  |      |      |                                  |
-| Holy Spear               |  40   | 1d30 |  10'  |  14  |      |      |                                  |
-| Bomb (Underworld)        |  200  | 1d30 |  10'  |  —   |      |      | casts *M:Zak's Speed* if charged |
-| Bomb (Dwarf Hall)        |  200  | 2d30 |  10'  |  —   |      |      |                                  |
-| Fire Spear               |  400  | 1d12 |  50'  |  14  |      |      |                                  |
-| Boomerang (Guard Bridge) |  700  | 1d12 |  50'  |  12  |  +2  |  -1  |                                  |
-| Boomerang (Kingshome)    | 2000  | 2d20 |  60'  |  14  |  +2  |  -1  |                                  |
-| Barbed Spear             | 4000  | 1d20 |  40'  |  16  |      |      |                                  |
-| Trident                  | 4000  | 2d20 |  40'  |  15  |      |      | returns to thrower               |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Dmg</th>
+        <th>Range</th>
+        <th>DEX</th>
+        <th>AV</th>
+        <th>AC</th>
+    </tr><tr>
+        <td>Javelin</td>
+        <td class="c">40</td>
+        <td class="c">1d6</td>
+        <td class="c">30'</td>
+        <td class="c">12</td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td>Spear</td>
+        <td class="c">40</td>
+        <td class="c">1d8</td>
+        <td class="c">40'</td>
+        <td class="c">12</td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td>Holy Spear</td>
+        <td class="c">40</td>
+        <td class="c">1d30</td>
+        <td class="c">10'</td>
+        <td class="c">14</td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2>Bomb (Underworld)</td>
+        <td class="c">200</td>
+        <td class="c">1d30</td>
+        <td class="c">10'</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td colspan=6>casts <i>M:Zak's Speed</i></td>
+    </tr><tr>
+        <td>Bomb (Dwarves)</td>
+        <td class="c">200</td>
+        <td class="c">2d30</td>
+        <td class="c">10'</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td>Fire Spear</td>
+        <td class="c">400</td>
+        <td class="c">1d12</td>
+        <td class="c">50'</td>
+        <td class="c">14</td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td>Boomerang (Bridge)</td>
+        <td class="c">700</td>
+        <td class="c">1d12</td>
+        <td class="c">50'</td>
+        <td class="c">12</td>
+        <td class="c">+2</td>
+        <td class="c">-1</td>
+    </tr><tr>
+        <td>Boomerang (Kingshome)</td>
+        <td class="c">2000</td>
+        <td class="c">2d20</td>
+        <td class="c">60'</td>
+        <td class="c">14</td>
+        <td class="c">+2</td>
+        <td class="c">-1</td>
+    </tr><tr>
+        <td>Barbed Spear</td>
+        <td class="c">4000</td>
+        <td class="c">1d20</td>
+        <td class="c">40'</td>
+        <td class="c">16</td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2>Trident</td>
+        <td class="c">4000</td>
+        <td class="c">2d20</td>
+        <td class="c">40'</td>
+        <td class="c">15</td>
+        <td></td>
+        <td></td>
+    </tr><tr>
+        <td colspan=6>returns to thrower</td>
+    </tr>
+</table>
 
 ## Armor
 
@@ -285,21 +574,85 @@ Ammunition also carries an "ammo type" flag which determines whether it can be l
 
 Body Armor comes in a bunch of different "item types", like "Leather" and "Cuir Bouilli" and "Plate and Chain", but it doesn't make any difference to the game.
 
-| Item                                     | Price |  AC  |  AV  | Other                                            |
-| ---------------------------------------- | :---: | :--: | :--: | ------------------------------------------------ |
-| Cloth Armor                              |  25   |  +1  |      |                                                  |
-| Pilgrim Garb                             |  20   |  +1  |      |                                                  |
-| Royal Robe                               | 2000  |  +1  |      |                                                  |
-| Mage Cloth                               | 2500  |  +3  |      | requires *Low Magic 1*<br />casts *L:Mage Light* |
-| Leather Armor                            |  50   |  +3  |  -1  |                                                  |
-| Brigandine                               |  80   |  +4  |  -1  |                                                  |
-| Scale Armor                              |  250  |  +6  |  -2  |                                                  |
-| Chain Armor                              |  310  |  +7  |  -3  |                                                  |
-| Magic Chain                              | 6000  |  +7  |      | casts *M:Zak's Speed* if charged                 |
-| Plate Mail                               | 3100  | +10  |  -5  |                                                  |
-| Magic Plate                              | 50000 | +10  |  -2  |                                                  |
-| Heavy Plate<br />Great Plate (Kingshome) | 4000  | +12  |  -6  | *"Great Plate" is an easter egg*                 |
-| Dragon Plate                             | 3100  | +14  |  -3  |                                                  |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>AC</th>
+        <th>AV</th>
+    </tr><tr>
+        <td>Cloth Armor</td>
+        <td class="c">25</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td>Pilgrim Garb</td>
+        <td class="c">20</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td>Royal Robe</td>
+        <td class="c">2000</td>
+        <td class="c">+1</td>
+        <td></td>
+    </tr><tr>
+        <td rowspan=2>Mage Cloth</td>
+        <td class="c">2500</td>
+        <td class="c">+3</td>
+        <td></td>
+    </tr><tr>
+        <td colspan=3>requires <i>Low Magic 1</i>; casts <i>L:Mage Light</i></td>
+    </tr><tr>
+        <td>Leather Armor</td>
+        <td class="c">50</td>
+        <td class="c">+3</td>
+        <td class="c">-1</td>
+    </tr><tr>
+        <td>Brigandine</td>
+        <td class="c">80</td>
+        <td class="c">+4</td>
+        <td class="c">-1</td>
+    </tr><tr>
+        <td>Scale Armor</td>
+        <td class="c">250</td>
+        <td class="c">+6</td>
+        <td class="c">-2</td>
+    </tr><tr>
+        <td>Chain Armor</td>
+        <td class="c">310</td>
+        <td class="c">+7</td>
+        <td class="c">-3</td>
+    </tr><tr>
+        <td rowspan=2>Magic Chain</td>
+        <td class="c">6000</td>
+        <td class="c">+7</td>
+        <td></td>
+    </tr><tr>
+        <td colspan=3>casts <i>M:Zak's Speed</i></td>
+    </tr><tr>
+        <td>Plate Mail</td>
+        <td class="c">3100</td>
+        <td class="c">+10</td>
+        <td class="c">-5</td>
+    </tr><tr>
+        <td>Magic Plate</td>
+        <td class="c">50000</td>
+        <td class="c">+10</td>
+        <td class="c">-2</td>
+    </tr><tr>
+        <td rowspan=2>Heavy Plate<br />Great Plate (Kingshome)</td>
+        <td class="c">4000</td>
+        <td class="c">+12</td>
+        <td class="c">-6</td>
+    </tr><tr>
+        <td colspan=3>"Great" Plate is an easter egg</td>
+    </tr><tr>
+        <td>Dragon Plate</td>
+        <td class="c">3100</td>
+        <td class="c">+14</td>
+        <td class="c">-3</td>
+    </tr>
+</table>
 
 ### Gloves
 
@@ -314,14 +667,53 @@ Technically, the Silver Gloves are "Mage Gloves" instead of "Gloves", but the di
 
 Everything listed on this table is a "Full Shield" except for the basic "Shield". Full Shields can't be used with Two-handers or Bows.
 
-| Item                              |    Price    | STR  |  AC  | AV   |
-| --------------------------------- | :---------: | :--: | :--: | ---- |
-| Shield                            |    1000     |  10  |  +2  |      |
-| Fire Shield                       |    5000     |  12  |  +2  | -2   |
-| Large Shield                      | 100 or 1000 |  12  |  +3  | -2   |
-| Magic Shield<br />(Byzanople, College) |    3000     |  10  |  +3  |      |
-| Magic Shield<br />(Phoebus)            |    10000    |  10  |  +4  |      |
-| Dragon Shield                     |    12000    |  10  |  +5  |      |
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>STR</th>
+        <th>AC</th>
+        <th>AV</th>
+    </tr><tr>
+        <td class="b">Shield</td>
+        <td class="b c">1000</td>
+        <td class="b c">10</td>
+        <td class="b c">+2</td>
+        <td class="b"></td>
+    </tr><tr>
+        <td rowspan=2>Fire Shield</td>
+        <td class="c">5000</td>
+        <td class="c">12</td>
+        <td class="c">+2</td>
+        <td class="c">-2</td>
+    </tr><tr>
+        <td colspan=4>1d12 at 40' (easter egg???)</td>
+    </tr><tr>
+        <td>Large Shield</td>
+        <td class="c">1000<br />100 (Freeport)</td>
+        <td class="c">12</td>
+        <td class="c">+3</td>
+        <td class="c">-2</td>
+    </tr><tr>
+        <td>Magic Shield<br />(Byzanople, College)</td>
+        <td class="c">3000</td>
+        <td class="c">10</td>
+        <td class="c">+3</td>
+        <td></td>
+    </tr><tr>
+        <td>Magic Shield<br />(Phoebus)</td>
+        <td class="c">1000<br />100 (Freeport)</td>
+        <td class="c">10</td>
+        <td class="c">+4</td>
+        <td></td>
+    </tr><tr>
+        <td>Dragon Shield</td>
+        <td class="c">12000</td>
+        <td class="c">10</td>
+        <td class="c">+5</td>
+        <td></td>
+    </tr>
+</table>
 
 No, it *doesn't* make any sense that Shields and Large Shields cost the same amount of gold. Thanks for asking.
 
@@ -335,26 +727,26 @@ No, it *doesn't* make any sense that Shields and Large Shields cost the same amo
         <th>AV</th>
     </tr><tr>
         <td>Helm</td>
-        <td style="text-align:center">1000</td>
-        <td style="text-align:center">+1</td>
+        <td class="c">1000</td>
+        <td class="c">+1</td>
         <td></td>
     </tr><tr>
         <td>Gem Helm</td>
-        <td style="text-align:center">2000</td>
-        <td style="text-align:center">+2</td>
+        <td class="c">2000</td>
+        <td class="c">+2</td>
         <td></td>
     </tr><tr>
         <td rowspan=2>Black Helm</td>
-        <td style="text-align:center">3000</td>
-        <td style="text-align:center">+3</td>
+        <td class="c">3000</td>
+        <td class="c">+3</td>
         <td></td>
     </tr><tr>
         <td colspan=3>casts <i>M:Zak's Speed</i></td>
     </tr><tr>
         <td>Dragon Helm</td>
-        <td style="text-align:center">7000</td>
-        <td style="text-align:center">+4</td>
-        <td style="text-align:center">-1</td>
+        <td class="c">7000</td>
+        <td class="c">+4</td>
+        <td class="c">-1</td>
     </tr>
 </table>
 
@@ -375,23 +767,23 @@ No, it *doesn't* make any sense that Shields and Large Shields cost the same amo
         <th>AV</th>
     </tr><tr>
         <td rowspan=2>The Ring</td>
-        <td style="text-align:center">1250</td>
-        <td style="text-align:center">+2</td>
-        <td style="text-align:center">+2</td>
+        <td class="c">1250</td>
+        <td class="c">+2</td>
+        <td class="c">+2</td>
     </tr><tr>
         <td colspan=3>casts <i>H:Cloak Arcane</i></td>
     </tr><tr>
         <td rowspan=2>Mage Ring</td>
-        <td style="text-align:center">2000</td>
-        <td style="text-align:center">+1</td>
-        <td style="text-align:center">+4</td>
+        <td class="c">2000</td>
+        <td class="c">+1</td>
+        <td class="c">+4</td>
     </tr><tr>
         <td colspan=3>requires *Low Magic 3*<br />casts <i>D:Whirl Wind</i></td>
     </tr><tr>
         <td rowspan=2>Magic Ring</td>
-        <td style="text-align:center">&ndash;</td>
-        <td style="text-align:center">+2</td>
-        <td style="text-align:center">+1</td>
+        <td class="c">&ndash;</td>
+        <td class="c">+2</td>
+        <td class="c">+1</td>
     </tr><tr>
         <td colspan=3>casts <i>D:Whirl Wind</i></td>
     </tr>

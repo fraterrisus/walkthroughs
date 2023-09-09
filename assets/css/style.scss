@@ -1,8 +1,18 @@
 ---
 ---
 
+$table-border-color: #ccc;
+
 @import "{{ site.theme }}";
 @import "toc";
+
+td.c {
+  text-align: center;
+}
+
+th, td.b {
+  border-bottom-width: 4px !important;
+}
 
 .page-navbar {
   font-size: 125%;

@@ -36,7 +36,7 @@ The [**Classic Gaming** page](http://www.classicgaming.cc/pc/dragonwars/) on *Dr
 - v1.5, October 2015: reflowed text, editing
 - v2.0, August 2022: rewrite in GameFAQs HTML format
 - v2.1, September 2022: lots of updates and rewrites based on an additional playthrough
-- v3.0, September 2023: rewrite in Markdown, add data from decompilation work, move to GitHub
+- v3.0, September 2023: port to GitHub Sites, add data from decompilation work
 
 ### Game Introduction
 
@@ -580,7 +580,7 @@ Here are some stats for my party after defeating Namtar for the last time.
   - *Armor:* Dragon Plate, Gauntlets, Magic Shield, Dragon Helm, Golden Boots 
   - *Weapons:* Dragon Tooth                                                 
   - *Magic:* L:all                                                        
-- Ulrik, Level 13
+- **Ulrik**, Level 13
   - STR 23 DEX 24 INT 13 SPR 17 HP 20 AV 10 DV 6 AC 30 
   - *Skills:* Cave Lore 3, Swim 1, Low Magic 1, Axes 3                     
   - *Armor:* Dragon Plate, Gauntlets, Dragon Shield, Dragon Helm, Lucky Boots 
@@ -670,27 +670,24 @@ So what I've assembled here is a "fastest practical" route through the game, ass
    - Fix the wall and get the Golden Boots.
    - Take out the Militia: Barbed Flail, Lucky Boots (optional)
 10. Smuggler's Cove
-       - Slaughter the crew, get the boat and a suit of Heavy Plate.
-       - If you don't have *D:Soften Stone* already, take the boat to Freeport and buy a copy there.
-       - Take the boat to Sunken Ruins.
+   - Slaughter the crew, get the boat and a suit of Heavy Plate.
+   - If you don't have *D:Soften Stone* already, take the boat to Freeport and buy a copy there.
+   - Take the boat to Sunken Ruins.
 11. Dragon Valley
-
-       - Get the Dragon's Teeth.
-       - Meet the Queen and use the Dragon Gem.
-       - Armor in the SW: Dragon Helm, Dragon Shield, and Dragon Eyes
-       - Take the boat back to the Cove, the Nexus to the Mystic Wood, and the Well to the Underworld.
+   - Get the Dragon's Teeth.
+   - Meet the Queen and use the Dragon Gem.
+   - Armor in the SW: Dragon Helm, Dragon Shield, and Dragon Eyes
+   - Take the boat back to the Cove, the Nexus to the Mystic Wood, and the Well to the Underworld.
 12. Salvation
-
-       - *Scare* the Underworld fairies and climb the stairs to Salvation.
-       - Guarded chest to the W: Dragon Plate, Dragon Helm
-       - Use IQ and *Climb*, then cross the chasm with the Boots and fall.
+   - *Scare* the Underworld fairies and climb the stairs to Salvation.
+   - Guarded chest to the W: Dragon Plate, Dragon Helm
+   - Use IQ and *Climb*, then cross the chasm with the Boots and fall.
 13. Nisir
-
-       - Use "The Swamp" route to reach the final teleporter; this costs you three castings of *D:Soften Stone* plus a light spell, a compass spell, and whatever other buffs you like to have running.
-       - Use the Dragon Gem to kill Namtar's army.
-       - Kill Namtar three times.
+   - Use "The Swamp" route to reach the final teleporter; this costs you three castings of *D:Soften Stone* plus a light spell, a compass spell, and whatever other buffs you like to have running.
+   - Use the Dragon Gem to kill Namtar's army.
+   - Kill Namtar three times.
 14. Magan Underworld
-       - Run the Endgame.
+   - Run the Endgame.
 
 
 Everything else is just gravy, but here are some other big 'quests' you can do.

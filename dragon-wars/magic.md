@@ -1,94 +1,650 @@
+---
+toc:
+enabled: true
+h_min: 2
+---
 # Magic
+
+Spell scrolls, like all inventory items, are limited to 12 characters. The spell name in bold is what it's called in your spell list when you're casting a spell, but if there are scrolls that use abbreviations I've tried to include them in the table.
+
+A reminder: all **Zap** and **Debuff** spells require an attack roll. If you "miss" with a Zap spell, it deals half damage.
+
+*D:Scare* acts like a "debuff" spell in the sense that it requires an attack roll against an opposing group. However, if it's successful, it actually grants +2 AV to everyone in *the party* for the duration of combat, which is effective against *all* opponents, not just the ones you "hit" with the spell.
 
 ## Low Magic
 
 All Low Magic spells can be found for free in the Purgatory magic shoppe. Low Magic scrolls appear in random additional places throughout the game as well, but nowhere else matters because if you ever need them again (say, after giving Low Magic to your fighters later in life), Purgatory is never really all that far away.
 
-| Spell       | POW  | Targets | Range |  Type  | Attack Roll? | Effect                                                       |
-| ----------- | :--: | :-----: | :---: | :----: | :----------: | ------------------------------------------------------------ |
-| Charm       |  3   |    1    |       |  Buff  |      —       | Heal 1–4 hp, +1 AV for duration of battle                    |
-| Lesser Heal |  2   |    1    |       |  Heal  |      —       | Heal 1–4 hp                                                  |
-| Luck        |  3   |    1    |       |  Buff  |      —       | +2 DV for duration of battle                                 |
-| Mage Fire   |  2   |    1    |  30'  |  Zap   |      Y       | 1–8 dmg<br />*makes a nice 'missile weapon' for front line PCs* |
-| Disarm      |  4   |    1    |  30'  | Debuff |      Y       | Disarms target<br />*not all monsters can be Disarmed; some shrug it off* |
-| Mage Light  | var. |         |  20'  | Misc.  |      —       | Light, 3hr / pt                                              |
+<table>
+<thead>
+<tr>
+  <th>Spell</th>
+  <th>POW</th>
+  <th>Targets</th>
+  <th>Range</th>
+  <th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td rowspan=2><b>Charm</b></td>
+  <td class="c">3</td>
+  <td class="c">1</td>
+  <td></td>
+  <td class="c">Buff</td>
+</tr><tr>
+  <td colspan=5>Heal 1–4 hp, +1 AV for duration of battle</td>
+</tr><tr>
+  <td rowspan=2><b>Lesser Heal</b></td>
+  <td class="c">2</td>
+  <td class="c">1</td>
+  <td></td>
+  <td class="c">Heal</td>
+</tr><tr>
+  <td colspan=5>Heal 1–4 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Luck</b></td>
+  <td class="c">3</td>
+  <td class="c">1</td>
+  <td></td>
+  <td class="c">Buff</td>
+</tr><tr>
+  <td colspan=5>+2 DV for duration of battle</td>
+</tr><tr>
+  <td rowspan=2><b>Mage Fire</b></td>
+  <td class="c">2</td>
+  <td class="c">1</td>
+  <td class="c">30’</td>
+  <td class="c">Zap</td>
+</tr><tr>
+  <td colspan=5>1–8 dmg<br><i>makes a nice ‘missile weapon’ for front line PCs</i></td>
+</tr><tr>
+  <td rowspan=2><b>Disarm</b></td>
+  <td class="c">4</td>
+  <td class="c">1</td>
+  <td class="c">30’</td>
+  <td class="c">Debuff</td>
+</tr><tr>
+  <td colspan=5>Disarms target; not all monsters can be Disarmed</td>
+</tr><tr>
+  <td rowspan=2><b>Mage Light</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td class="c">20’</td>
+  <td class="c">Misc.</td>
+</tr><tr>
+  <td colspan=5>Light, 3hr / pt, 30' range</td>
+</tr>
+</tbody>
+</table>
 
 ## High Magic
 
-| Spell          | POW  | Targets | Range |  Type  | Attack Roll? | Effect                                                       | Where Found                                             |
-| -------------- | :--: | :-----: | :---: | :----: | :----------: | ------------------------------------------------------------ | ------------------------------------------------------- |
-| Healing        |  3   |    1    |       |  Heal  |      —       | 1d6 hp                                                       | Slave Camp                                              |
-| Group Heal     |  6   |  party  |       |  Heal  |      —       | 1d6 hp                                                       | Magic College                                           |
-| Mystic Might   |  4   |    1    |       |  Buff  |      —       | +15 STR for duration of battle                               | Freeport, Dwarf Clan Hall                               |
-| Sala's Swift   |  8   |    1    |       |  Buff  |      —       | +8 DEX for duration of battle<br />*try M:Zak's Speed instead* | Freeport, Dragon Valley                               |
-| Vorn's Guard   |  6   |  party  |       |  Buff  |      —       | +2 AC for duration of battle                                 | Freeport, Dragon Valley                                 |
-| Cloak Arcane   | var. |  party  |       |  Buff  |      —       | +2 AC, lasts 1hr / pt                                        | Slave Camp                                              |
-| Fire Light     | var. |    1    |  30'  |  Zap   |      Y       | 1d6 hp / pt                                                  | Slave Camp, Necropolis, Tars Underground, Magic College |
-| Ice Chill      | var. |    1    |  50'  |  Zap   |      Y       | 1d4 hp / pt                                                  | Lansk Guard Bridge, Magic College                       |
-| Elvar's Fire   |  6   |  group  |  30'  |  Zap   |      Y       | 2d6 hp                                                       | Tars Ruins, Magic College                               |
-| Poog's Vortex  |  11  |  group  |  20'  |  Zap   |      Y       | 4d6 hp                                                       | Phoebus, Magic College                                  |
-| Big Chill      |  15  |   all   |  30'  |  Zap   |      Y       | 4d6 hp                                                       | Necropolis, Magic College, Byzanople Underground        |
-| Reveal Glamour |  2   |         |  40'  | Misc.  |      —       | Dispels illusions                                            | Mud Toad, Freeport                                      |
-| Sense Traps    | var. |         |       | Misc.  |      —       | Ignore traps, lasts 2hr / pt* *                              | Slave Camp                                              |
-| Dazzle         |  3   |    1    |  30'  | Debuff |      Y       | Enemy misses next turn                                       | Byzanople Underground, Freeport, Magic College          |
-| Cowardice      |  8   |  group  |  60'  | Debuff |      Y       | Group runs away                                              | Freeport, Dragon Valley                                 |
-| Air Summon     | var. |         |       | Summon |      —       | *can be used to cross the Nisir*                             | Tars Ruins, Sunken Ruins                                |
-| Water Summon   | var. |         |       | Summon |      —       |                                                              | Mud Toad, Sunken Ruins                                  |
-| Earth Summon   | var. |         |       | Summon |      —       |                                                              | Sunken Ruins, Pilgrim Dock                              |
-| Fire Summon    | var. |         |       | Summon |      —       |                                                              | Magic College                                           |
+<table>
+<thead>
+<tr>
+  <th>Spell</th>
+  <th>POW</th>
+  <th>Targets</th>
+  <th>Range</th>
+  <th>Type</th>
+  <th>Where Found</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td rowspan=2><b>Healing</b></td>
+  <td class="c">3</td>
+  <td class="c">1</td>
+  <td></td>
+  <td class="c">Heal</td>
+  <td rowspan=2>Slave Camp</td>
+</tr><tr>
+  <td colspan=5>1d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Group&nbsp;Heal</b></td>
+  <td class="c">6</td>
+  <td class="c">party</td>
+  <td></td>
+  <td class="c">Heal</td>
+  <td rowspan=2>Magic College</td>
+</tr><tr>
+  <td colspan=5>1d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Mystic&nbsp;Might</b></td>
+  <td class="c">4</td>
+  <td class="c">1</td>
+  <td></td>
+  <td class="c">Buff</td>
+  <td rowspan=2>Freeport,<br/>Dwarf Clan Hall</td>
+</tr><tr>
+  <td colspan=5>+15 STR for duration of battle</td>
+</tr><tr>
+  <td rowspan=2><b>Sala’s&nbsp;Swift</b></td>
+  <td class="c">8</td>
+  <td class="c">1</td>
+  <td></td>
+  <td class="c">Buff</td>
+  <td rowspan=2>Freeport,<br/> Dragon Valley</td>
+</tr><tr>
+  <td colspan=5>+8 DEX for duration of battle</td>
+</tr><tr>
+  <td rowspan=2><b>Vorn’s&nbsp;Guard</b></td>
+  <td class="c">6</td>
+  <td class="c">party</td>
+  <td></td>
+  <td class="c">Buff</td>
+  <td rowspan=2>Freeport,<br/> Dragon Valley</td>
+</tr><tr>
+  <td colspan=5>+2 AC for duration of battle</td>
+</tr><tr>
+  <td rowspan=2><b>Cloak&nbsp;Arcane</b></td>
+  <td class="c">var.</td>
+  <td class="c">party</td>
+  <td></td>
+  <td class="c">Buff</td>
+  <td rowspan=2>Slave Camp</td>
+</tr><tr>
+  <td colspan=5>+2 AC, lasts 1hr / pt</td>
+</tr><tr>
+  <td rowspan=2><b>Fire&nbsp;Light</b></td>
+  <td class="c">var.</td>
+  <td class="c">1</td>
+  <td class="c">30’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Slave Camp, Necropolis,<br/>Tars Underground,<br/>Magic College</td>
+</tr><tr>
+  <td colspan=5>1d6 hp / pt</td>
+</tr><tr>
+  <td rowspan=2><b>Ice&nbsp;Chill</b></td>
+  <td class="c">var.</td>
+  <td class="c">1</td>
+  <td class="c">50’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Lansk Guard Bridge,<br/>Magic College</td>
+</tr><tr>
+  <td colspan=5>1d4 hp / pt</td>
+</tr><tr>
+  <td rowspan=2><b>Elvar’s&nbsp;Fire</b></td>
+  <td class="c">6</td>
+  <td class="c">group</td>
+  <td class="c">30’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Tars Ruins,<br/>Magic College</td>
+</tr><tr>
+  <td colspan=5>2d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Poog’s&nbsp;Vortex</b></td>
+  <td class="c">11</td>
+  <td class="c">group</td>
+  <td class="c">20’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Phoebus,<br/>Magic College</td>
+</tr><tr>
+  <td colspan=5>4d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Big&nbsp;Chill</b></td>
+  <td class="c">15</td>
+  <td class="c">all</td>
+  <td class="c">30’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Necropolis,<br/>Magic College,<br/>Byzanople Dungeon</td>
+</tr><tr>
+  <td colspan=5>4d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Reveal&nbsp;Glamour</b><br/>(Rev. Glamour)</td>
+  <td class="c">2</td>
+  <td></td>
+  <td class="c">40’</td>
+  <td class="c">Misc.</td>
+  <td rowspan=2>Mud Toad, Freeport</td>
+</tr><tr>
+  <td colspan=5>Dispels illusions</td>
+</tr><tr>
+  <td rowspan=2><b>Sense&nbsp;Traps</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Misc.</td>
+  <td rowspan=2>Slave Camp</td>
+</tr><tr>
+  <td colspan=5>Ignore traps, lasts 2hr / pt</td>
+</tr><tr>
+  <td rowspan=2><b>Dazzle</b></td>
+  <td class="c">3</td>
+  <td class="c">1</td>
+  <td class="c">30’</td>
+  <td class="c">Debuff</td>
+  <td rowspan=2>Byzanople Dungeon,<br/>Freeport,<br/>Magic College</td>
+</tr><tr>
+  <td colspan=5>Enemy misses next turn</td>
+</tr><tr>
+  <td rowspan=2><b>Cowardice</b></td>
+  <td class="c">8</td>
+  <td class="c">group</td>
+  <td class="c">60’</td>
+  <td class="c">Debuff</td>
+  <td rowspan=2>Freeport,<br/>Dragon Valley</td>
+</tr><tr>
+  <td colspan=5>Group runs away</td>
+</tr><tr>
+  <td rowspan=2><b>Air&nbsp;Summon</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Summon</td>
+  <td rowspan=2>Tars Ruins,<br/>Sunken Ruins</td>
+</tr><tr>
+  <td colspan=5><i>can be used to cross the Nisir</i></td>
+</tr><tr>
+  <td rowspan=2><b>Water&nbsp;Summon</b><br/>(Water Sum.)</td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Summon</td>
+  <td rowspan=2>Mud Toad,<br/>Sunken Ruins</td>
+</tr><tr>
+  <td colspan=5>&nbsp;</td>
+</tr><tr>
+  <td rowspan=2><b>Earth&nbsp;Summon</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Summon</td>
+  <td rowspan=2>Sunken Ruins,<br/>Pilgrim Dock</td>
+</tr><tr>
+  <td colspan=5>&nbsp;</td>
+</tr><tr>
+  <td rowspan=2><b>Fire&nbsp;Summon</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Summon</td>
+  <td rowspan=2>Magic College</td>
+</tr><tr>
+  <td colspan=5>&nbsp;</td>
+</tr>
+</tbody>
+</table>
 
 ## Druid Magic
 
 If you wrestle Enkidu and win, he grants you *Druid Magic* 2 and most but not all of the Druid Magic library. I haven't included those spells here; if "Where Found" includes Mystic Wood, it's on a scroll somewhere.
 
-| Spell           | POW  | Targets | Range |  Type  | Attack Roll? | Effect                                  | Where Found                            |
-| --------------- | :--: | :-----: | :---: | :----: | :----------: | --------------------------------------- | -------------------------------------- |
-| Greater Healing |  4   |    1    |       |  Heal  |      —       | 1d6 hp<br />*use L:LESSER HEAL instead* | Slave Camp, Mystic Wood                |
-| Cure All        |  6   |  party  |       |  Heal  |      —       | 1d8 hp<br />*best group-heal spell*     | Lansk Undercity, Mystic Wood           |
-| Scare           |  4   |  party  |  20'  |  Buff  |      Y       | +2 AV for duration of combat            | Slave Camp, Necropolis, Mystic Wood    |
-| Death Curse     |  6   |    1    |  40'  |  Zap   |      Y       | 3d6 hp                                  | Tars Underground, Mystic Wood, Phoebus |
-| Fire Blast      |  12  |  group  |  30'  |  Zap   |      Y       | 4d6 hp                                  | Mystic Wood                            |
-| Insect Plague   |  4   |  group  |  60'  | Debuff |      Y       | -2 AV, -2 DV for duration of combat     | Mystic Wood, Necropolis                |
-| Whirl Wind      |  4   |  group  |  40'  | Debuff |      Y       | Pushes the group back 30'               | Mystic Wood                            |
-| Brambles        |  5   |  group  |  60'  | Debuff |      Y       | Enemies miss next turn                  | Mystic Wood                            |
-| Create Wall     |  5   |         |       | Misc.  |      —       | *Use to repair the Mud God's temple*    | Phoebus, Mystic Wood, Lansk Undercity  |
-| Soften Stone    |  6   |         |       | Misc.  |      —       | *Useful for getting around dungeons*    | Freeport (x2)                          |
-| Beast Call      | var. |         |       | Summon |      —       |                                         | Mystic Wood, Snake Pit                 |
-| Wood Spirit     | var. |         |       | Summon |      —       |                                         | Mystic Wood Phoebus Dungeon            |
-| Invoke Spirit   | var. |         |       | Summon |      —       |                                         | Mystic Wood                            |
+<table>
+<thead>
+<tr>
+  <th>Spell</th>
+  <th>POW</th>
+  <th>Targets</th>
+  <th>Range</th>
+  <th>Type</th>
+  <th>Where Found</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td rowspan=2><b>Greater&nbsp;Healing</b></td>
+  <td class="c">4</td>
+  <td class="c">1</td>
+  <td></td>
+  <td class="c">Heal</td>
+  <td rowspan=2>Slave Camp, Mystic Wood</td>
+</tr><tr>
+  <td colspan=5>1d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Cure&nbsp;All</b></td>
+  <td class="c">6</td>
+  <td class="c">party</td>
+  <td></td>
+  <td class="c">Heal</td>
+  <td rowspan=2>Lansk Undercity, Mystic Wood</td>
+</tr><tr>
+  <td colspan=5>1d8 hp; <i>best group-heal spell</i></td>
+</tr><tr>
+  <td rowspan=2><b>Scare</b></td>
+  <td class="c">4</td>
+  <td class="c">party</td>
+  <td class="c">20’</td>
+  <td class="c">Buff</td>
+  <td rowspan=2>Slave Camp, Necropolis, Mystic Wood</td>
+</tr><tr>
+  <td colspan=5>+2 AV for duration of combat</td>
+</tr><tr>
+  <td rowspan=2><b>Death&nbsp;Curse</b></td>
+  <td class="c">6</td>
+  <td class="c">1</td>
+  <td class="c">40’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Tars Underground, Mystic Wood, Phoebus</td>
+</tr><tr>
+  <td colspan=5>3d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Fire&nbsp;Blast</b></td>
+  <td class="c">12</td>
+  <td class="c">group</td>
+  <td class="c">30’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Mystic Wood</td>
+</tr><tr>
+  <td colspan=5>4d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Insect&nbsp;Plague</b><br/>(Insect Plag.)<br/>(Insct.Plague)</td>
+  <td class="c">4</td>
+  <td class="c">group</td>
+  <td class="c">60’</td>
+  <td class="c">Debuff</td>
+  <td rowspan=2>Mystic Wood, Necropolis</td>
+</tr><tr>
+  <td colspan=5>-2 AV, -2 DV for duration of combat</td>
+</tr><tr>
+  <td rowspan=2><b>Whirl&nbsp;Wind</b></td>
+  <td class="c">4</td>
+  <td class="c">group</td>
+  <td class="c">40’</td>
+  <td class="c">Debuff</td>
+  <td rowspan=2>Mystic Wood</td>
+</tr><tr>
+  <td colspan=5>Pushes the group back 30’</td>
+</tr><tr>
+  <td rowspan=2><b>Brambles</b></td>
+  <td class="c">5</td>
+  <td class="c">group</td>
+  <td class="c">60’</td>
+  <td class="c">Debuff</td>
+  <td rowspan=2>Mystic Wood</td>
+</tr><tr>
+  <td colspan=5>Enemies miss next turn</td>
+</tr><tr>
+  <td rowspan=2><b>Create&nbsp;Wall</b></td>
+  <td class="c">5</td>
+  <td></td>
+  <td></td>
+  <td class="c">Misc.</td>
+  <td rowspan=2>Phoebus, Mystic Wood, Lansk Undercity</td>
+</tr><tr>
+  <td colspan=5><i>Use to repair the Mud God’s temple</i></td>
+</tr><tr>
+  <td rowspan=2><b>Soften&nbsp;Stone</b></td>
+  <td class="c">6</td>
+  <td></td>
+  <td></td>
+  <td class="c">Misc.</td>
+  <td rowspan=2>Freeport (x2)</td>
+</tr><tr>
+  <td colspan=5><i>Useful for getting around dungeons</i></td>
+</tr><tr>
+  <td rowspan=2><b>Beast&nbsp;Call</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Summon</td>
+  <td rowspan=2>Mystic Wood, Snake Pit</td>
+</tr><tr>
+  <td colspan=5>&nbsp;</td>
+</tr><tr>
+  <td rowspan=2><b>Wood&nbsp;Spirit</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Summon</td>
+  <td rowspan=2>Mystic Wood Phoebus Dungeon</td>
+</tr><tr>
+  <td colspan=5>&nbsp;</td>
+</tr><tr>
+  <td rowspan=2><b>Invoke&nbsp;Spirit</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Summon</td>
+  <td rowspan=2>Mystic Wood</td>
+</tr><tr>
+  <td colspan=5>&nbsp;</td>
+</tr>
+</tbody>
+</table>
 
 ## Sun Magic
 
-| Spell                        | POW  | Targets | Range |  Type  | Attack Roll? | Effect                                                       | Where Found                                      |
-| ---------------------------- | :--: | :-----: | :---: | :----: | :----------: | ------------------------------------------------------------ | ------------------------------------------------ |
-| Sun Light                    |  3   |    1    |       |  Heal  |      —       | 1d6 hp                                                       | Forlorn Guard Bridge                             |
-| Heal                         |  4   |    1    |       |  Heal  |      —       | 1d8 hp                                                       | *never, but Valar comes with it*                 |
-| Major Heal(ing)              |  6   |  party  |       |  Heal  |      —       | 1d6 hp                                                       | Phoebus Dungeon, Mud Toad                        |
-| Holy Aim                     |  5   |  party  |       |  Buff  |      —       | +2 AV for duration of battle                                 | Phoebus Dungeon, Mud Toad                        |
-| Battle Power                 |  8   |  party  |       |  Buff  |      —       | +10 STR for duration of battle                               | Game Preserve                                    |
-| Mithras' Bless               |  5   |  party  |       |  Buff  |      —       | +3 DV for duration of battle                                 | Phoebus                                          |
-| Armor of Light               |  6   |    1    |       |  Buff  |      —       | +2 DV for duration of battle<br />*The manual says AC, but it's wrong.* | Phoebus Dungon, Mud Toad                         |
-| Sun Stroke                   | var  |    1    |  20'  |  Zap   |      Y       | 1d8 hp / pt                                                  | Slave Camp, Tars Underground, Phoebus            |
-| Rage of Mithras              | var  |    1    |  70'  |  Zap   |      Y       | 1d6 hp / pt                                                  | Mud Toad                                         |
-| Exorcism                     |  5   |  group  |  50'  |  Zap   |      Y       | 6d6 hp, Undead only                                          | Tars Ruins                                       |
-| Inferno                      | var. |   all   |  40'  |  Zap   |      Y       | 1d4 hp / pt<br />*best zap spell in the game*                | Necropolis                                       |
-| Wrath of Mithras             | var. |  group  |  90'  |  Zap   |      Y       | 1d4 hp / pt                                                  | *never, but monsters will use it* *against you!* |
-| Fire Storm                   |  20  |   all   |  60'  |  Zap   |      Y       | 6d6 hp                                                       | Lanac'toor's Laboratory                          |
-| Charger                      |  8   |         |       | Misc.  |      —       | Adds 1 charge to a magic item                                | Freeport                                         |
-| Disarm Trap                  | var. |         |       | Misc.  |      —       | Ignore traps, lasts 2hr / pt                                 | Phoebus Dungeon, Lansk Guard Bridge              |
-| Guidance                     | var. |         |       | Misc.  |      —       | Adds a compass to the UI, 3hr / pt                           | Tars Ruins                                       |
-| Radiance                     | var. |         |  40'  | Misc.  |      —       | Light, 2hr / pt<br />*longer range than L:Mage Light*        | Lansk Guard Bridge                               |
-| Fire Column (Column of Fire) |  5   |  group  |  40'  | Debuff |      Y       | Prevents group from advancing (once)                         | Game Preserve                                    |
-| Light Flash                  |  6   |  group  |  50'  | Debuff |      Y       | Enemies miss next turn                                       | *Easter Egg*                                     |
-| Summon Salamander            | var. |         |       | Summon |              |                                                              | Mud Toad                                         |
+<table>
+<thead>
+<tr>
+  <th>Spell</th>
+  <th>POW</th>
+  <th>Targets</th>
+  <th>Range</th>
+  <th>Type</th>
+  <th>Where Found</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td rowspan=2><b>Sun&nbsp;Light</b></td>
+  <td class="c">3</td>
+  <td class="c">1</td>
+  <td></td>
+  <td class="c">Heal</td>
+  <td rowspan=2>Forlorn Guard Bridge</td>
+</tr><tr>
+  <td colspan=5>1d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Heal</b></td>
+  <td class="c">4</td>
+  <td class="c">1</td>
+  <td></td>
+  <td class="c">Heal</td>
+  <td rowspan=2><i>never, but Valar comes with it</i></td>
+</tr><tr>
+  <td colspan=5>1d8 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Major&nbsp;Healing</b><br/>(Major&nbsp;Heal)</td>
+  <td class="c">6</td>
+  <td class="c">party</td>
+  <td></td>
+  <td class="c">Heal</td>
+  <td rowspan=2>Phoebus Dungeon, Mud Toad</td>
+</tr><tr>
+  <td colspan=5>1d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Holy&nbsp;Aim</b></td>
+  <td class="c">5</td>
+  <td class="c">party</td>
+  <td></td>
+  <td class="c">Buff</td>
+  <td rowspan=2>Phoebus Dungeon, Mud Toad</td>
+</tr><tr>
+  <td colspan=5>+2 AV for duration of battle</td>
+</tr><tr>
+  <td rowspan=2><b>Battle&nbsp;Power</b></td>
+  <td class="c">8</td>
+  <td class="c">party</td>
+  <td></td>
+  <td class="c">Buff</td>
+  <td rowspan=2>Game Preserve</td>
+</tr><tr>
+  <td colspan=5>+10 STR for duration of battle</td>
+</tr><tr>
+  <td rowspan=2><b>Mithras’&nbsp;Bless</b><br/>(Mit. Bless)</td>
+  <td class="c">5</td>
+  <td class="c">party</td>
+  <td></td>
+  <td class="c">Buff</td>
+  <td rowspan=2>Phoebus</td>
+</tr><tr>
+  <td colspan=5>+3 DV for duration of battle</td>
+</tr><tr>
+  <td rowspan=2><b>Armor&nbsp;of&nbsp;Light</b><br/>(Armor of Lt.)</td>
+  <td class="c">6</td>
+  <td class="c">1</td>
+  <td></td>
+  <td class="c">Buff</td>
+  <td rowspan=2>Phoebus Dungon, Mud Toad</td>
+</tr><tr>
+  <td colspan=5>+2 DV for duration of battle<br><i>The manual says AC, but it’s wrong.</i></td>
+</tr><tr>
+  <td rowspan=2><b>Sun&nbsp;Stroke</b></td>
+  <td class="c">var</td>
+  <td class="c">1</td>
+  <td class="c">20’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Slave Camp, Tars Underground, Phoebus</td>
+</tr><tr>
+  <td colspan=5>1d8 hp / pt</td>
+</tr><tr>
+  <td rowspan=2><b>Rage&nbsp;of&nbsp;Mithras</b><br/>(Rage of Mit.)</td>
+  <td class="c">var</td>
+  <td class="c">1</td>
+  <td class="c">70’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Mud Toad</td>
+</tr><tr>
+  <td colspan=5>1d6 hp / pt</td>
+</tr><tr>
+  <td rowspan=2><b>Exorcism</b></td>
+  <td class="c">5</td>
+  <td class="c">group</td>
+  <td class="c">50’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Tars Ruins</td>
+</tr><tr>
+  <td colspan=5>6d6 hp, Undead only</td>
+</tr><tr>
+  <td rowspan=2><b>Inferno</b></td>
+  <td class="c">var.</td>
+  <td class="c">all</td>
+  <td class="c">40’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Necropolis</td>
+</tr><tr>
+  <td colspan=5>1d4 hp / pt; <i>best zap spell in the game</i></td>
+</tr><tr>
+  <td rowspan=2><b>Wrath&nbsp;of&nbsp;Mithras</b></td>
+  <td class="c">var.</td>
+  <td class="c">group</td>
+  <td class="c">90’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2><i>never, but monsters will use it</i> against <i>you!</i></td>
+</tr><tr>
+  <td colspan=5>1d4 hp / pt</td>
+</tr><tr>
+  <td rowspan=2><b>Fire&nbsp;Storm</b></td>
+  <td class="c">20</td>
+  <td class="c">all</td>
+  <td class="c">60’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Lanac’toor’s Laboratory</td>
+</tr><tr>
+  <td colspan=5>6d6 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Charger</b></td>
+  <td class="c">8</td>
+  <td></td>
+  <td></td>
+  <td class="c">Misc.</td>
+  <td rowspan=2>Freeport</td>
+</tr><tr>
+  <td colspan=5>Adds 1 charge to a magic item</td>
+</tr><tr>
+  <td rowspan=2><b>Disarm&nbsp;Trap</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Misc.</td>
+  <td rowspan=2>Phoebus Dungeon, Lansk Guard Bridge</td>
+</tr><tr>
+  <td colspan=5>Ignore traps, lasts 2hr / pt</td>
+</tr><tr>
+  <td rowspan=2><b>Guidance</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Misc.</td>
+  <td rowspan=2>Tars Ruins</td>
+</tr><tr>
+  <td colspan=5>Adds a compass to the UI, 3hr / pt</td>
+</tr><tr>
+  <td rowspan=2><b>Radiance</b></td>
+  <td class="c">var.</td>
+  <td></td>
+  <td class="c">40’</td>
+  <td class="c">Misc.</td>
+  <td rowspan=2>Lansk Guard Bridge</td>
+</tr><tr>
+  <td colspan=5>Light, 2hr / pt, 40' range</td>
+</tr><tr>
+  <td rowspan=2><b>Column&nbsp;of&nbsp;Fire</b><br/>(Fire&nbsp;Column)</td>
+  <td class="c">5</td>
+  <td class="c">group</td>
+  <td class="c">40’</td>
+  <td class="c">Debuff</td>
+  <td rowspan=2>Game Preserve</td>
+</tr><tr>
+  <td colspan=5>Prevents group from Advancing (one round)</td>
+</tr><tr>
+  <td rowspan=2><b>Light&nbsp;Flash</b></td>
+  <td class="c">6</td>
+  <td class="c">group</td>
+  <td class="c">50’</td>
+  <td class="c">Debuff</td>
+  <td rowspan=2><i>easter egg</i></td>
+</tr><tr>
+  <td colspan=5>Enemies miss next turn</td>
+</tr><tr>
+  <td rowspan=2><b>Summon&nbsp;Salamander</b><br/>(Sum. Salam.)</td>
+  <td class="c">var.</td>
+  <td></td>
+  <td></td>
+  <td class="c">Summon</td>
+  <td rowspan=2>Mud Toad</td>
+</tr><tr>
+  <td colspan=5>&nbsp;</td>
+</tr>
+</tbody>
+</table>
 
 ## Miscellaneous Magic
 
 Miscellaneous Magic spells can be learned and used by anyone with Low Magic.
 
-| Spell       | POW  | Targets | Range | Type | Attack Roll? | Effect                                                 | Where Found             |
-| ----------- | :--: | :-----: | :---: | :--: | :----------: | ------------------------------------------------------ | ----------------------- |
-| Zak's Speed |  10  |  party  |       | Buff |      —       | +15 DEX for duration of combat                         | Lanac'toor's Laboratory |
-| Kill Ray    |  15  |    1    |  50'  | Zap  |      Y       | 10d8 hp                                                | Lanac'toor's Laboratory |
-| Prison      |  8   |  group  |  60'  | Buff |      Y       | Prevents targets from Advancing for duration of combat | *Easter Egg*            |
-
+<table>
+<thead>
+<tr>
+  <th>Spell</th>
+  <th>POW</th>
+  <th>Targets</th>
+  <th>Range</th>
+  <th>Type</th>
+  <th>Where Found</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td rowspan=2><b>Zak’s&nbsp;Speed</b></td>
+  <td class="c">10</td>
+  <td class="c">party</td>
+  <td></td>
+  <td class="c">Buff</td>
+  <td rowspan=2>Lanac’toor’s Lab</td>
+</tr><tr>
+  <td colspan=5>+15 DEX for duration of combat</td>
+</tr><tr>
+  <td rowspan=2><b>Kill&nbsp;Ray</b></td>
+  <td class="c">15</td>
+  <td class="c">1</td>
+  <td class="c">50’</td>
+  <td class="c">Zap</td>
+  <td rowspan=2>Lanac’toor’s Lab</td>
+</tr><tr>
+  <td colspan=5>10d8 hp</td>
+</tr><tr>
+  <td rowspan=2><b>Prison</b></td>
+  <td class="c">8</td>
+  <td class="c">group</td>
+  <td class="c">60’</td>
+  <td class="c">Debuff</td>
+  <td rowspan=2><i>easter egg</i></td>
+</tr><tr>
+  <td colspan=5>Prevents targets from Advancing for duration of combat</td>
+</tr>
+</tbody>
+</table>

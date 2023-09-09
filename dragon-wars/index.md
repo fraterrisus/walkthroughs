@@ -96,7 +96,7 @@ One of the things that makes *Dragon Wars* such a classic game is that the desig
 - [1] *Swim*: Allows you to navigate difficult waters safely.
 - [1] *Tracker*: Allows you to follow tracks you find in the ground.
 - [1] *Bureaucracy*: Skill in oration, convincing people you're on their side, and navigating authority figures who want things from you.
-- [10/2] *Druid Magic, High Magic, Sun Magic*: Allows access to magic schools. Increases effective AV when casting spells requiring an attack roll. Also sets the upper bound on POWER for variable-cost spells (2 * ranks).
+- [10/2] *Druid Magic, High Magic, Sun Magic*: Allows access to magic schools. Increases effective AV when casting spells requiring an attack roll. Also sets the upper bound on Power for variable-cost spells (2 * ranks).
 - [5/2] *Low Magic*: Required before you can take any other magic skill.
 - [—] *Merchant*: An easter egg; the designers added support for this skill and even wrote a few encounters that use it, but removed it from the "level up" screen for some reason. It's inaccessible unless you hex-edit your characters, so don't worry about trying to spend CP on it.
 - [2] *Axes, Flails, Maces, Swords, Two-Handers, Bows, Crossbows, Thrown Weapons*: Weapon skills. Increases effective AV when using weapons of that class.
@@ -500,7 +500,7 @@ Spells are roughly sorted into the following types:
 
 This is close to, but not *quite* the same, as the game's distinction between "Combat", "Heal", and "Misc" categories.
 
-Zap spells (as well as a few others) require an **attack roll** per target. This works similarly to a melee attack roll, but you use INT for your "AV" and your magic skill in place of a weapon skill. Defenders get to use their normal DV. The basic roll (1d16+2) is the same, and you're still trying to roll equal or below a target of 12 + your skill ranks + your AV – defender's DV. The game only rolls damage once, but any target you "miss" takes half damage instead. The damage the game reports back to you is the average across all your hits and misses, so you have a sense of how effective you were... but not a very good one.
+Zap and Debuff spells require an **attack roll** per target. This works similarly to a melee attack roll, but you use INT for your "AV" and your magic skill in place of a weapon skill. Defenders get to use their normal DV. The basic roll (1d16+2) is the same, and you're still trying to roll equal or below a target of 12 + your skill ranks + your AV – defender's DV. The game only rolls damage once, but any target you "miss" takes half damage instead. The damage the game reports back to you is the average across all your hits and misses, so you have a sense of how effective you were... but not a very good one.
 
 One more weird tip I'll leave you with: it *looks* like scrolls are single-use, because they don't have any charges listed next to them. However, once you reach Freeport and acquire *S:Charger*, you can use it to add additional "charges" to a scroll. (Just make sure you have *two* charges before you use it, because it will disappear as soon as the charge count reaches zero.) Probably the most interesting use of this hack is to pass Lanac'toor's Miscellaneous Magic scrolls around your entire party, but on a second playthrough you could also use it to replicate everything else... like *S:Inferno*.
 

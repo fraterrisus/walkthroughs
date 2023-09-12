@@ -644,7 +644,7 @@ Miscellaneous Magic spells can be learned and used by anyone with Low Magic.
             <td class="c">Debuff</td>
             <td rowspan=2><i>easter egg</i></td>
         </tr><tr>
-            <td colspan=5>Prevents targets from Advancing for duration of combat</td>
+            <td colspan=5>Prevents targets from Advancing<br/>for duration of combat</td>
         </tr>
     </tbody>
 </table>

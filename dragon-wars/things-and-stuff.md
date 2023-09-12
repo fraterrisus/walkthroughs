@@ -265,7 +265,7 @@ Two-handers conflict with Full Shields, but not regular Shields.
     </tr><tr>
         <td colspan=5>casts <i>S:Exorcism</i></td>
     </tr><tr>
-        <td rowspan=2>Druid Mace</td>
+        <td rowspan=2>Druids Mace</td>
         <td class="c">2000</td>
         <td class="c">1d20</td>
         <td class="c">12</td>

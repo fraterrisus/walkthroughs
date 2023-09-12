@@ -76,11 +76,13 @@ Attributes form the basic description of your character. Newly-generated charact
 
 **Secondary attributes** are derived from your primary attributes and (often) your equipment; you can't change them directly with CP.
 
-- **Power (POW)**: Equal to **SPR** x 2. This is your "mana" or "spell points" stat. Each spell you cast has a base Power cost. Some spells also allow you to spend more points; spending more Power gives you a more, well, *powerful* effect. Usually that means more damage or a longer duration; see the [spell descriptions](#magic) for more on this.
+- **Power (POW)**: Equal to **SPR** x 2. This is your "mana" or "spell points" stat. Each spell you cast has a base Power cost. Some spells also allow you to spend more points; spending more Power gives you a more, well, *powerful* effect. Usually that means more damage or a longer duration; see the [spell descriptions](magic.md) for more on this.
 - **Stun**: *Dragon Wars* uses a two-tiered health system; Stun is separate from Health, but your maximum Stun is equal to your maximum **HP**. See the section on [Health and Stun](#health-and-stun).
 - **Armor Class (AC)**: In *Dragon Wars*, a high AC reduces the damage you take *after* an opponent hits you. It is quite possible to have a high enough AC that a successful hit does zero damage. Unsurprisingly, putting on armor increases your AC. Some other items, including some weapons, will also modify your AC.
 - **Attack Value (AV)**: Starts at **DEX** / 4 (round down). Increases your chance of hitting your opponent in combat. Also modified by weapons (usually up) and heavy armor (usually down).
-- **Defense Value (DV)**: Also starts at **DEX** / 4 (round down), and doesn't get modified by much of anything, for good or for ill. Reduces the chance that an opponent hits you with an attack.
+- **Defense Value (DV)**: Also starts at **DEX** / 4 (round down), and doesn't get modified by much of anything, for good or for ill. Reduces the chance that an opponent hits you with an attack or spell.
+
+Note that almost everything here can be affected, at least temporarily, by [buff spells](magic.md), including AC, AV, and DV.
 
 ### Skills
 
@@ -158,42 +160,152 @@ Finally, we discussed **magic skills** already, but I didn't mention skill ranks
 
 Here's a sample set of starting characters that I took through the game. This will give you an idea of how I build my party, based on the advice above. You'll see them again in [Final Characters](#final-characters), towards the end of this guide.
 
-- **Thog**: Level 1, STR 19, DEX 20, INT 10, SPR 10, HP 15<br />
-  *Skills:* Low Magic 1, Climb 2, Lockpick 2<br />
-  *Upgrades:* Climb 4, Lockpick 4, STR 20+, Low 3, HP 20
-- **Alex**: Level 1, STR 16, DEX 20, INT 10, SPR 10, HP 15<br />
-  *Skills:* Low Magic 1, Bandage 4, Tracker 1<br />
-  *Upgrades:* STR 18+, Bandage 10, HP 20
-- **Arthur**: Level 1, STR 12, DEX 12, INT 13, SPR 19, HP 13<br />
-  *Skills:* Low Magic 1, Druid Magic 1, Arcane Lore 1, Bureaucracy 1<br />
-  *Upgrades:* DEX 13, Druid 3, INT 15, HP 15, SPR++
-- **Valerie**: Level 1, STR 10, DEX 16, INT 15, SPR 16, HP 13<br />
-  *Skills:* Low Magic 1, High Magic 1<br />
-  *Upgrades:* High 3, DEX 20+, Bows+, HP 15, SPR++
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Level</th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>Health</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=3><b>Thog</b></td>
+      <td class="c">1</td>
+      <td class="c">19</td>
+      <td class="c">20</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">15</td>
+    </tr><tr>
+      <td colspan=6><i>Skills:</i> Low Magic 1, Climb 2, Lockpick 2</td>
+    </tr><tr>
+      <td colspan=6><i>Upgrades:</i> Climb 4, Lockpick 4, STR 20+, Low 3, HP 20</td>
+    </tr><tr>
+      <td rowspan=3><b>Alex</b></td>
+      <td class="c">1</td>
+      <td class="c">16</td>
+      <td class="c">20</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">15</td>
+    </tr><tr>
+      <td colspan=6><i>Skills:</i> Low Magic 1, Bandage 4, Tracker 1</td>
+    </tr><tr>
+      <td colspan=6><i>Upgrades:</i> STR 18+, Bandage 10, HP 20</td>
+    </tr><tr>
+      <td rowspan=3><b>Arthur</b></td>
+      <td class="c">1</td>
+      <td class="c">12</td>
+      <td class="c">12</td>
+      <td class="c">13</td>
+      <td class="c">19</td>
+      <td class="c">13</td>
+    </tr><tr>
+      <td colspan=6><i>Skills:</i> Low Magic 1, Druid Magic 1, Arcane Lore 1, Bureaucracy 1</td>
+    </tr><tr>
+      <td colspan=6><i>Upgrades:</i> DEX 13, Druid 3, INT 15, HP 15, SPR++</td>
+    </tr><tr>
+      <td rowspan=3><b>Valerie</b></td>
+      <td class="c">1</td>
+      <td class="c">10</td>
+      <td class="c">16</td>
+      <td class="c">15</td>
+      <td class="c">16</td>
+      <td class="c">13</td>
+    </tr><tr>
+      <td colspan=6><i>Skills:</i> Low Magic 1, High Magic 1</td>
+    </tr><tr>
+      <td colspan=6><i>Upgrades:</i> High 3, DEX 20+, Bows+, HP 15, SPR++</td>
+    </tr>
+  </tbody>
+</table>
 
 ### NPCs
 
 The game's NPCs are in a fixed place and always appear with the same stats and same level, no matter when you pick them up.
 
-- **Ulrik**: Level 3, STR 20, DEX 17, INT 08, SPR 14, HP 15<br />
-  *Where?* Purgatory bar<br />
-  *Skills:* Cave Lore 3, Swim 1, Axes 3<br />
-  *Equipment:* Hand Axe, Leather Armor<br />
-  *Upgrades:* Low Magic 1, DEX 21, HP 20
-- **Louie**: Level 2, STR 14, DEX 16, INT 16, SPR 16, HP 15<br />
-  *Where?* Slave Camp "bar"<br />
-  *Skills:* Hiding 2, Pickpocket 2<br />
-  *Upgrades:* Low Magic 1, DEX 21, STR 18, HP++
-- **Valar**: Level 2, STR 11, DEX 14, INT 18, SPR 16, HP 19<br />
-  *Where?* Phoebus bar<br />
-  *Skills:* Low Magic 1, Sun Magic 1<br />
-  *Spells:* L:everything; S:Sun Stroke, Heal, Armor of Light, Guidance<br />
-  *Upgrades:* Sun 3, DEX 17, SPR++                                       
-- **Halifax**: Level 6, STR 21, DEX 18, INT 14, SPR 14, HP 23<br />
-  *Where?* Freeport bar<br />
-  *Skills:* Arcane Lore 2, Cave Lore 3, Climb 1, Swim 2, Maces 3<br />
-  *Equipment:* Long Mace, Large Shield, Chain Armor<br />
-  *Upgrades:* I never bother taking him in the first place.
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Level</th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>Health</th>
+      <th>Where?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=4><b>Ulrik</b></td>
+      <td class="c">3</td>
+      <td class="c">20</td>
+      <td class="c">17</td>
+      <td class="c">08</td>
+      <td class="c">14</td>
+      <td class="c">15</td>
+      <td>Purgatory</td>
+    </tr><tr>
+      <td colspan=7><i>Skills:</i> Cave Lore 3, Swim 1, Axes 3</td>
+    </tr><tr>
+      <td colspan=7><i>Equipment:</i> Hand Axe, Leather Armor</td>
+    </tr><tr>
+      <td colspan=7><i>Upgrades:</i> Low Magic 1, DEX 21, HP 20</td>
+    </tr><tr>
+      <td rowspan=4><b>Louie</b></td>
+      <td class="c">2</td>
+      <td class="c">14</td>
+      <td class="c">16</td>
+      <td class="c">16</td>
+      <td class="c">16</td>
+      <td class="c">15</td>
+      <td>Slave Camp</td>
+    </tr><tr>
+      <td colspan=7><i>Skills:</i> Hiding 2, Pickpocket 2</td>
+    </tr><tr>
+      <td colspan=7><i>Equipment:</i> None</td>
+    </tr><tr>
+      <td colspan=7><i>Upgrades:</i> Low Magic 1, DEX 21, STR 18, HP++</td>
+    </tr><tr>
+      <td rowspan=4><b>Valar</b></td>
+      <td class="c">2</td>
+      <td class="c">11</td>
+      <td class="c">14</td>
+      <td class="c">18</td>
+      <td class="c">16</td>
+      <td class="c">19</td>
+      <td>Phoebus</td>
+    </tr><tr>
+      <td colspan=7><i>Skills:</i> Low Magic 1, Sun Magic 1</td>
+    </tr><tr>
+      <td colspan=7><i>Spells:</i> L:everything; S:Sun Stroke, Heal, Armor of Light, Guidance</td>
+    </tr><tr>
+      <td colspan=7><i>Upgrades:</i> Sun 3, DEX 17, SPR++</td>
+    </tr><tr>
+      <td rowspan=4><b>Halifax</b></td>
+      <td class="c">6</td>
+      <td class="c">21</td>
+      <td class="c">18</td>
+      <td class="c">14</td>
+      <td class="c">14</td>
+      <td class="c">23</td>
+      <td>Freeport</td>
+    </tr><tr>
+      <td colspan=7><i>Skills:</i> Arcane Lore 2, Cave Lore 3, Climb 1, Swim 2, Maces 3</td>
+    </tr><tr>
+      <td colspan=7><i>Equipment:</i> Long Mace, Large Shield, Chain Armor</td>
+    </tr><tr>
+      <td colspan=7><i>Upgrades:</i> I never bother taking him in the first place.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Leveling Up
 
@@ -221,33 +333,33 @@ I'm fairly completionist, but when I start with a fresh party I always seem to f
 
 ### Combat Basics
 
-Combat in *Dragon Wars* uses a turn-based system that will be familiar to fans of *Bard's Tale* or most other early CRPGs. On each turn you pick actions for your party, the computer picks actions for your enemies, and then it simulates the battle round. Action order is determined by 2d6 + your DEX; higher numbers go first. If your action executes at a point where it isn't useful, too bad!
+Combat in *Dragon Wars* uses a turn-based system that will be familiar to fans of *Bard's Tale* or most other early CRPGs. On each turn you pick actions for your party, the computer picks actions for your enemies, and then it simulates the battle round. 
+
+Turn order is regenerated each combat round; each combatant rolls 1d10+1 (2-11) and adds their DEX. Highest score goes first, etc. If your action executes at a point where it isn't useful, too bad!
 
 Of the seven character slots in your party, only the first four can attack with melee weapons. Note that this is true even if your melee weapon has a ranged attack, like the Axe of Kalah, or you're using a thrown weapon, like the Boomerang; you must still be in the front four in order to `(A)ttack` with it. Also, it cuts both ways: only the first four slots can be attacked with melee, so your spellcasters are safe(ish) in the back line. Anyone (slots 1–7) can attack with missile weapons. Note that the bow determines the *range*, but the quiver determines the *damage*.
+
+#### Party Actions
 
 At the start of each combat round, you're presented with the options to `(F)ight`, `(Q)uickly fight`, `(R)un`, or `(A)dvance`. In reverse order, `(A)dvance` [-2 DV] takes up your whole turn and moves the whole party 10' closer to the opponents. `(R)un` [-2 DV] directs every individual party member to try to flee from combat. `(Q)uickfight` gives you fewer options than `(F)ight`, but they both allow you to give individual orders to each character.
 
 Those individual options are:
 
-- `(A)ttack:` You'll be doing this a lot, obviously. If you *aren't* in Quickfight, you may get a secondary choice. Some missile weapons have the option to shoot more than one arrow. For melee weapons, you get to pick from:
-  - `(A)ttack blow:` The default.
+- `(A)ttack:` You'll be doing this a lot, obviously. If you *aren't* in Quickfight, you may get a secondary choice. For melee weapons, you get to pick from:
+  - `(A)ttack blow`: The default.
   - `(M)ighty blow` [-4 AV]: Adds 1d4 damage.
   - `(D)isarm` [-3 AV, -1 DV]: If successful, deals 1 HP damage and forces the target to drop their weapon. They lose a turn picking it back up.
-  
+- Some missile weapons also have firing options:
+  - `(S)ingle`: one arrow or bolt
+  - `(B)urst`: three. Available with the Tri-Cross and the Gatlin Bow.
+  - `(F)ull auto`: empty the entire quiver, available only with the Gatlin Bow.
 - `(D)odge` [+3 DV]: Makes you harder to hit for the rest of the round.
-
 - `(B)lock attack`: Cancels the first melee attack against you, but it's only available if you have a melee weapon readied. Not available in Quickfight.
-
 - `(C)ast spell:` If you know more than one school of magic, you'll need to pick `(L)ow`, `(H)igh`, `(D)ruid`, `(S)un`, or `(M)isc`. Schools other than Low will then make you pick a spell type, `(C)ombat`, `(H)eal`, or `(M)isc`. Finally, you'll get a list of spells of that school and type to pick from; type the first letter of the spell name.
-
 - `(U)se item` [-2 DV]: Dragon Stone, Healing Potion, or other magic item. Lots of things, including weapons, can be Used to great effect in combat; see the [Equipment](#things-and-stuff) section.
-
 - `(N)ew weapon` [-1 DV]: Equip a different weapon.
-
 - `(L)oad weapon` [-1 DV]: Equip a different ammunition item.
-
 - `(R)un` [-2 DV]: Order this character to flee combat. There is no random component beyond your initiative roll; it either works or (in some encounters) it doesn't.
-
 - `(M)ove` / `(A)head` [-1 DV] or `(B)ehind` [+1 DV]: Shuffles the marching order in the middle of a turn. A character who moves Ahead swaps with the character in front of them, and vice versa. Not available in Quickfight.
 
 At any time while giving individual orders, you can press `(Esc)` to back out of a menu or skip back to a previous player. You can even back all the way out to the turn menu and change your mind on Fight or Quickfight or Run. After you've given an order to every party member, you get a chance to confirm before executing the actions.
@@ -258,17 +370,22 @@ Once you've chosen an action, if there are multiple groups of enemies, you get t
 
 #### Attack Rolls
 
-When a combatant attacks, the game rolls 1d16+2. A minimum roll (3) always hits and a maximum roll (18) always misses. Beyond that, the target is 13; you hit if you roll **equal or below** that, so lower numbers are better. Odds favor the attacker slightly: all other things being equal, you have a 68.75% (11 out of 16) chance of succeeding on any given attack. (Note that if you get multiple attacks, each one is rolled separately.)
+When a combatant attacks, the game rolls 1d16+2. A minimum roll (3) always hits and a maximum roll (18) always misses. Beyond that, the target is 13; you hit if you roll **equal or below** that, so lower numbers are better. Odds favor the attacker: all other things being equal, you have a 11-in-16 (68.75%) chance of succeeding on any given attack. If you have multiple attacks (because you're firing multiple missiles), each one is rolled separately.
 
-Of course, "all other things" are basically *never* equal. The target number is increased (i.e. making it easier to hit the opponent) by your AV (DEX/4, plus equipment modifiers) and the number of ranks you have in the appropriate weapon skill (or *Fistfighting*, if you're unarmed). Likewise, the target number is decreased by the target's DV, making them harder to hit. When you're on defense it works the same way, using the monster's DEX and AV and your DV.
+Of course, "all other things" are basically *never* equal. The target number is modified upwards (making a hit *more* likely) by the attacker's AV and downwards (less likely) by the defender's DV. As a reminder, AV and DV are a combination of:
+- DEX (divided by 4)
+- equipment modifiers (AV only)
+- weapon skills (or *Fistfighting*, AV only)
+- buff spells
 
-(If you're casting a spell that requires an attack roll, it works the same way, but you use INT/4 to calculate your "magic AV", you don't get equipment modifiers, and you get to add ranks in your magic skill. The opponent's DV is the same.)
+
+If you're casting a spell that requires an attack roll, your "magic AV" is INT/4 (instead of DEX) plus the number of ranks you have in the appropriate magic skill. (Equipment AV bonuses aren't applied here.) Your opponent's DV is the same as it is for physical attacks.
 
 #### Damage Rolls
 
 The game counts up the number of hits and rolls the damage die that many times.
 
-If your weapon has a skill or attribute requirement, you get +1 bonus damage for every 5 ranks that you exceed the requirement (round down). This is true regardless of whether the weapon requires STR, DEX, or *Mountain Lore*. However, if you take *seven* ranks of *Mountain Lore* in order to get +1 damage from the Mountain Sword I will personally come to your house and give you a wedgie. Monsters don't have weapon skills.
+If your weapon has a skill or attribute requirement, you get +1 bonus damage for every 5 ranks that you exceed the requirement (round down). This is true regardless of whether the weapon requires STR, DEX, or *Mountain Lore*. However, if you take *seven* ranks of *Mountain Lore* in order to get +1 damage from the Mountain Sword I will personally come to your house and give you a wedgie. Monsters don't have weapon skills, so they don't get bonus damage this way.
 
 If you hit with Mighty Attack, roll a bonus 1d4.
 
@@ -276,17 +393,34 @@ Mighty damage and Skill bonus damage are rolled/calculated once, but they are ap
 
 When you hit a group of monsters, the game applies damage to the first *unhit* monster. Once every monster in the group has been hit once (or killed), the bits are reset and you can hit the same monster a second time.
 
-When you're on defense, your armor reduces the damage you take. 1 point of AC reduces the damage *per attack* by 1, so if you've got AC 20 then a monster has to deal at least 20 damage before you even feel it. However, some monsters have a Mighty Attack that ignores armor.
+When you're on defense, your armor reduces the damage you take. 1 point of AC reduces the damage *per attack* by 1, so if you've got AC 20 then a monster has to deal at least 20 damage before you even feel it. However, some monsters have a Mighty Attack that ignores armor. Monsters don't have armor or an AC, but they tend to have much more Health than you do.
+
+#### Monster Actions
+
+*Dragon Wars* has a complicated internal system for navigating the actions that monsters within an encounter are allowed to take during combat. I'll summarize it here, but if you want to see how it works in all its gory detail, you should go check out my [decompilation repository](https://github.com/fraterrisus/dragonwars-crack).
+
+Monsters pick their action each turn based on their **morale**, whether or not they've been **attacked** or **damaged**, and whether or not they're **in range** for a melee attack. In the "Bestiary" sections of the [map data](maps/) I've listed each individual monster's possible actions, but for the sake of simplicity I've left out any indication of which ones are most likely to happen. It's pretty common for the same action to exist multiple times in different flavors; the developers especially like changing the damage that melee attacks cause after the monster has been damaged.
+
+For the purposes of this section, here are the combat actions that monsters can take:
+- A **melee** attack that deals damage; sometimes these only do Stun damage, and sometimes they only do Health damage. They may have more than a 10' range. Monster melee attacks use the same attack rolls as yours but they don't get bonus damage for high attributes. They also technically don't have equipment or "weapon skills", but they do have a DEX score and individual modifiers to AV and DV that work the same way, and they can be buffed or debuffed.
+- A **piercing** melee attack that ignores armor if it hits. This is the monster equivalent of a "mighty" attack, kinda.
+- Monsters can **block** and **dodge** just like you, although dodging grants +5 DV instead of +3.
+- Attempt to **flee** combat; this has a percentage chance of success that is hard-coded and not influenced by the party in any way.
+- Cast a **spell**, from the same [list](magic.md) that you pull from.
+- **Breath weapons** are very similar to group-zap spells — they hit everyone in the party, but the monster has to make a spell attack roll for each target and deals half damage on a miss.
+- Attempt to **call for help**; similar to fleeing, this has a percentage chance of success and also a maximum number of compatriots that can be summoned to their group.
+
+One more point about morale before we move on: morale is a function of the monster's innate confidence level, an extra confidence factor attached to the encounter description (which may be positive or negative), and the average character level of your party. Once the encounter starts, the morale rating does not change. It is occasionally, but far from always, true that a monster with lower morale is more likely to try to flee or call for help rather than attack. But if you're playing through the game a second (or fifth) time with high-CP characters, don't be surprised when monsters act differently than they did the first time through.
 
 ### Health and Stun
 
-The most novel aspect of combat in *Dragon Wars* is the multi-tier health system. Everyone in your party has two sets of hit points, Health (the orange bar) and Stun (the green bar). (Your enemies only have Health; they can't be Stunned, and therefore can't return to combat once they're knocked out.) In general, everything deals twice as much impact on Stun as it does on Health, which is to say that you are far more likely to run out of Stun than you are to run out of Health. If either value hits 0, you become incapacitated ('stunned' or 'dead', respectively). Characters that are incapacitated at the end of the combat round are shuffled to the end of the marching order; if you're not in combat, they stay where you put them.
+The most novel aspect of combat in *Dragon Wars* is the multi-tier health system. Everyone in your party has two sets of hit points, Health (the orange bar) and Stun (the green bar). (Your enemies only have Health; they can't be Stunned, and therefore can't return to combat once they're knocked out.) In general, everything deals twice as much impact on Stun as it does on Health, which is to say that you are far more likely to run out of Stun than you are to run out of Health. If either value hits zero, you become incapacitated ('stunned' or 'dead', respectively) and won't be targeted by any more attacks. If you're still incapacitated at the end of the combat round, you'll be shuffled to the end of the marching order; if you're not in combat, the previous marching order is retained.
 
 Dead characters cannot practically be resurrected. It is literally *possible* to do, but so annoying as to never be worth your time. You're better off restoring from your last save game. If you really want to know, there are directions down at the bottom of this section.
 
 After combat ends, all non-Dead characters automatically heal Stun up to full. Health damage is permanent until you heal it. Between combats, the easiest way to restore Health points is to `(U)se` the *Bandage* skill. *Bandage* always works, takes no time (i.e. you can't be interrupted in the middle of healing your whole party even though it requires multiple actions), and always brings you up to (10+skill) Health. This is why it's important for your healer to have a skill value that's (nearly) high enough to heal your fighters. You'll pretty quickly develop the muscle memory of typing `(U)se (#) (S)kill (A)bility (B)andage` over and over. If you're clever when building your party and don't give your healer any other Ability skills (or any other skills at all), you can save keypresses.
 
-During combat, the only way to heal is through magic. Healing spells work so long as you have living casters with Power. You can also `(U)se` a Healing Potion, of which you'll find a couple along the way. Healing magic restores Stun as well as Health, and will revive a Stunned character. It is totally possible (and often a good idea) to cast a healing spell on a character who *might* become Stunned during a round. If they are Stunned early in the round, the healing spell will revive them later, and they won't get shuffled to the bottom of the marching order at the end of the round if they're still standing. This is why it's not a bad idea to give your Druid a low DEX: they will act towards the end of the round, and *D:Cure All* is pretty awesome.
+During combat, the only way to heal is through magic. Healing spells work so long as you have living casters with Power. You can also `(U)se` a Healing Potion, of which you'll find a couple along the way. Healing magic restores Stun as well as Health and will revive a Stunned character. It is totally possible (and often a good idea) to cast a healing spell on a character who *might* become Stunned during a round. If they are Stunned early in the round, the healing spell will revive them later, and they won't get shuffled to the bottom of the marching order at the end of the round if they're still standing. This is why it's not a bad idea to give your Druid a low DEX: they will act towards the end of the round, and *D:Cure All* is pretty awesome.
 
 Beware of the effects of magical healing on Health and Stun. As I said before, Stun is affected twice as much as Health, and that's true in both directions. If you're in a long, drawn-out battle, it's quite possible to run out of Stun a couple of times and find yourself dipping into the single digits of Health even after healing back up to near-full Stun. This is how characters die. Keep an eye on that orange bar.
 
@@ -332,17 +466,19 @@ The #1 problem that you will be faced with while in combat — well, okay, aside
 
 Here's a particular example: one group of monsters is 20' away from you. If you `(A)dvance`, they will choose `(F)ight` actions. If you go first, you step into melee range, and they get free hits. On the other hand, if you stand your ground and give `(F)ight` actions, there's a chance that they will `(A)dvance` first, and then you get free hits. This is almost always the right idea, even at the cost of a few wasted swings at monsters that are too far away. The exception is if you're fighting multiple groups, and the distant group has a ranged attack, and you need to close to a certain distance in order to hit them with your ranged attack and/or spells.
 
-I've tried to lay out useful strategies for some of the harder encounters in the walkthrough. But mostly you'll just figure this stuff out by the time you leave Purgatory.
+I've tried to lay out useful strategies for some of the harder encounters in the walkthrough, but really I expect you'll have a reasonable sense of tactics by the time you leave Purgatory.
 
-One additional note that didn't fit anywhere else: when enemies feel like they're overpowered — say, because you're playing through a fifth time and your PCs are 20th level — they will sometimes try to run away, and sometimes try to call for help. This especially happens with the various types of Guards you'll run into. I'm not totally sure how this affects your XP, but you definitely earn some for enemies that run away.
+**Weapon Choice:** I find thrown weapons too hard to use to be worthwhile. They work like melee weapons with range, which is to say, you have to be in the front rank to use them<sup>1</sup>. However, most thrown weapons are single-use, so once you `(A)ttack`, you have no equipped weapon anymore, and you have to waste your next turn readying a `(N)ew` weapon. And since they don't stack, if you wanted to carry (say) a half dozen of them around, it would eat up most of your inventory. The unique ones like the Holy Spear (1d30) seem like they do nice damage, but you'll only ever find exactly one of them, so once you use it, it's gone.
 
-**Weapon Choice:** I find thrown weapons to be pretty useless. They work like melee weapons with range, which is to say, you have to be in the front rank to use them. (I'm convinced this is a bug caused by an obscure 'greater-or-equal' instead of 'greater than' error.) However, most thrown weapons are single-use, so once you `(A)ttack`, you have no equipped weapon anymore, and you have to waste your next turn readying a `(N)ew` weapon. The Boomerang, at least, comes in a stack of 10 and does reasonable damage. The Trident has unlimited uses and comes back every time you throw it, but you find it around the same time as the Dragon's Teeth, which are better in just about every way.
+There's a few ameliorating edge cases here: if you use *Fistfighting* you don't have to ready a weapon to attack, so you don't "lose" that intermediate turn. Likewise, the Boomerang comes in a stack of ten. The Trident has unlimited uses and comes back every time you throw it... but you find it around the same time as the Dragon's Teeth, which are better in just about every way. None of that adds up for me personally; if someone has found a strategy that makes thrown weapons useful, I'd love to hear about it.
 
-In the early game, missile weapons are kind of nice because you can get additional attacks from your back row, but managing an inventory full of arrows gets annoying fast. Most quivers don't do very much damage, although there's a bug you can exploit to get copies of the better ones. On the other hand, the Gatlin Bow / Magic Quiver combination is amazingly deadly; you'll likely do more damage with that combo than any melee weapon, all the way through the end of the game. My advice is to get bows for your back row as soon as possible (the Purgatory Arena, for example). Stop collecting arrows whenever you get sick of managing them, you find that your mages have better things to do, or you just need to free up the inventory slots. But don't get rid of the bows; spellcasting also uses your AV, so keeping a high-AV weapon (Ruby Dagger +3, Magic Bow +4) around is still a good idea.
+> 1: Having dug through the code, I'm convinced this is an off-by-one bug caused by a "greater-or-equal" check that should have been "greater than". If the back rank could use thrown weapons, I'd happily have my mages throw Bombs around and then go back to casting spells without the need to ready a `(N)ew` weapon.
 
-Melee weapons with a ranged attack are incredibly useful. You don't have to do anything special to activate the ranged attack; simply `(A)ttack` a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](things-and-stuff.md#weapons). I found that I often prioritized having 'reach' over a weapon that did more damage at 10'. You may have different preferences or combat styles.
+In the early game, missile weapons are kind of nice because you can get additional attacks from your back row, but managing an inventory full of arrows gets annoying fast. Most quivers don't do very much damage, although you can exploit the [Bridge Bug](walkthrough.md#were-on-the-road-to-nowhere-guard-bridge-2) to acquire infinite Grey Arrows. On the other hand, the Gatlin Bow / Magic Quiver combination is amazingly deadly; you'll likely do more damage with that combo than any melee weapon all the way through the end of the game. My advice is to get bows for your back row as soon as possible (the Purgatory Arena, for example). Stop collecting arrows whenever you get sick of managing them, you find that your mages have better things to do, or you just need to free up the inventory slots.
 
-Also remember that some armor and weapons have additional magical actions that can be useful in combat. `(U)sing` the weapon during a combat round will activate the spell on your turn. For example, if you use the Druid's Mace in combat, it casts *D:Cure All*, which coincidentally is the best group-heal spell in the game.
+Melee weapons with reach (a range greater than 10') are incredibly useful. You don't have to do anything special to activate the ranged attack; simply `(A)ttack` a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](things-and-stuff.md#weapons). I found that I often prioritized having 'reach' over a weapon that did more damage at 10'. You may have different preferences or combat styles.
+
+Also remember that some armor and weapons have additional magical actions that can be useful in combat. `(U)sing` the weapon during a combat round will activate the spell on your turn. For example, if you use the Druids Mace in combat, it casts *D:Cure All*, which coincidentally is the best group-heal spell in the game.
 
 **Attack Styles:** I mostly just use normal attacks. All other things being equal, 1 point of AV translates into a 6.25% chance to hit, so Mighty Attack is a 25% penalty for +1d4 damage (average 2.5 HP), which probably isn't worth it – if you've got a high-enough AV that you're going to hit even at -4, you're also likely doing enough damage that the bonus doesn't matter. And since you can't see your opponent's Health, you don't really have enough information to know when it might be useful.
 
@@ -356,7 +492,7 @@ Let's say your party is Alice, Bob, Charlie, Dave, Eric, Frank, and Grace, arran
 
 Now, if you *also* told Eric to Move Behind, then his destination is slot 6. Eventually (assuming everyone gets to move and no one becomes incapacitated), the result is that Frank will (eventually) wind up all the way forward in slot 4, followed by Dave, then Eric. You can use this trick to propel someone from rank 7 to rank 1 in one turn, if you're willing to spend your entire turn having everyone in the party Move Behind.
 
-Things get more complicated if you mix moving Ahead and Behind, though. Given the original party order, if you tell Charlie to Move Behind and Eric to Move Ahead, what happens? Well, it depends on which order Charlie and Eric go; you might wind up Dave-Eric-Charlie, or you might wind up Eric-Charlie-Dave. I don't recommend trying to play with this one; the results are sometimes hilarious (note: not actually hilarious).
+Things get more complicated if you mix moving Ahead and Behind, though. Given the original party order, if you tell Charlie to Move Behind and Eric to Move Ahead, what happens? Well, it depends on whether Charlie or Eric go first; you might wind up Dave-Eric-Charlie, or you might wind up Eric-Charlie-Dave. I don't recommend trying to play with this one in a serious fight; the results will be hilarious (note: not actually hilarious).
 
 ### Game Mechanics
 
@@ -367,25 +503,25 @@ Things get more complicated if you mix moving Ahead and Behind, though. Given th
 - Lifting the stone covering the stairs down to the Tars Underground (1d**40** vs Strength)
 - Wrestling Enkidu (1d8 + 15 vs Strength)
 
-In these cases, the game rolls a die and compares it to your attribute; if the roll is *lower*, you succeed. In principle, this means that having a higher attribute value is useful for its own sake, but in practice there's rarely any real penalty for failure.
+In these cases, the game rolls a random number and compares it to your attribute; if the roll is *lower*, you succeed. In principle, this means that having a higher attribute value is useful for its own sake, but in practice there's rarely any real penalty for failure. Just try it a couple of times until it works.
 
 **Lock picking:** There are two types of lockpick checks. Locked **doors** are pass/fail; if you have enough ranks you unlock the door, and if you don't, you can't. There are some level 3 locks you'll want to be able to open, and a few level 4 locks as well but you can go around those.
 
-Locked **chests** work differently: if your skill is higher than the difficulty rating, you open it immediately. If it's equal, you have a 95% chance of opening the lock, and if it's lower, that goes down to 90%, 85%, 80%, 75%, 70%, 60%, and 50% if your skill is 7 or more ranks lower. However, in practice, the worst chest in the game has difficulty 5, so even *Lockpick 1* has a 75% chance of opening it. 
+Locked **chests** work differently: if your skill is higher than the difficulty rating, you open it immediately. If it's equal you have a 95% chance of opening the lock, and if it's lower that goes down to 90%, 85%, 80%, 75%, 70%, 60%, and 50% if your skill is 7 or more ranks lower. In practice, the hardest chest in the game has difficulty 5 so even *Lockpick 1* has a 75% chance of opening it, and again, there's no real penalty for failure.
 
 ### Dealing With Loot
 
-The first thing you need to know about *Dragon Wars* is that there is no random loot. The location of every object that you can pick up is pre-programmed and never changes. Combats do not drop random objects (although Guards are likely to drop a few coins). I admit this reduces the replayability of the game a bit, but it also makes writing a walkthrough *much* easier.
+The first thing you need to know about *Dragon Wars* is that there is no random loot (with the exception of the gold that you pick up off some Guards). The location of every object that you can pick up is pre-programmed and never changes. Combats do not drop random objects. I admit this reduces the replayability of the game a bit, but it also makes writing a walkthrough *much* easier.
 
 Like many CRPGs of the era, the game's economy is kind of broken. Money is basically never an issue. Sure, you start in Purgatory as a bunch of penniless paupers, but who cares? The Arena will give you everything you need to get started. From then on you should have no problems keeping yourself well-funded. I ended the game with almost $60,000. Inventory management becomes a huge headache if you try to keep and sell everything. If you find yourself with more than $10,000 in cash, you should feel free to start dropping stuff instead of hanging onto it to sell.
 
 You also have the option of not picking up things in the first place. When presented with a chest, if you leave some things behind, they are likely to stay there and you can come back for them later (at least until you leave the map). Don't worry about accidentally "leaving" a chest in order to shuffle your inventory around; just hit ESC once or twice and the chest should come back. There are a few exceptions to this rule, which I've tried to note when I found them.
 
-The game generally does a nice job at providing equipment upgrades at the right time, instead of forcing you to buy them. You'll farm enough gold to buy your first round of equipment in Purgatory, but it's optional. From then you may not buy another piece of armor or weaponry until Freeport, which is almost 2/3 of the way through the game.
+The game generally does a nice job at providing equipment upgrades at the right time, instead of forcing you to buy them. I'll have you farm enough gold to buy your first round of equipment in Purgatory, but that's optional. From then you may not buy another piece of armor or weaponry until Freeport, which is almost two-thirds of the way through the game.
 
-When you do go to sell stuff, you can largely sell anything anywhere for half of its purchase price. The most useful places to sell things are the Purgatory Black Market, the Lansk Undercity shops, the Byzanople Siege Camp Black Market, and the Mud Toad souvenir shop. Several items have no purpose beyond their resale value; when in doubt, see the list of [Unique Items](things-and-stuff#unique-items). Keep in mind that selling something is similar to discarding it – once it leaves your inventory, it's gone. You can't buy unique items back from the shop you sold them to.
+When you do go to sell stuff, you can largely sell anything anywhere for half of its purchase price. The most useful places to sell things are the Purgatory Black Market, the Byzanople Siege Camp Black Market, and the Mud Toad souvenir shop. Several items have no purpose beyond their resale value; when in doubt, see the list of [Unique Items](things-and-stuff#unique-items). Keep in mind that selling something is similar to discarding it – once it leaves your inventory, it's gone. You can't buy unique items back from the shop you sold them to.
 
-All of the hint guides basically tell you to horde Dragon Stones as if they're the most precious resource on Oceana. I find this advice *ridiculous,* but that may be because I put so many points into *Bandage* that I'm not as reliant on magical healing. Because there are several spots where you can regenerate Power without using a Dragon Stone, I really only need them for deep dungeon dives. Also, you'll find Dragon Stones all over the place, and even if you don't, most of the good shops have them for sale and money will never really be an issue. So use a Stone whenever you want and don't worry about stuffing your mages' inventory full of them. Make sure you always have a handful, and if you can't remember where the last stash was, buy a few more.
+All of the other hint guides I've seen basically tell you to horde Dragon Stones as if they're the most precious resource on Oceana. I find this advice *ridiculous,* but that may be because I put so many points into *Bandage* that I'm not as reliant on magical healing. Because there are several spots where you can regenerate Power without using a Dragon Stone, I really only need them for deep dungeon dives. Also, you'll find Dragon Stones all over the place, and even if you don't, most of the good shops have them for sale and money will never really be an issue. So use a Stone whenever you want and don't worry about stuffing your mages' inventory full of them. Make sure you always have a handful, and if you can't remember where the last stash was, buy a few more.
 
 ### Weird Stuff
 
@@ -395,19 +531,19 @@ I mentioned this already under [Health and Stun](#health-and-stun), but I find t
 
 If you pay a healer for healing — and I've pretty much never done it except to test it out for the purpose of writing this guide — the game will automatically pool all of your gold with the first PC. *Dragon Wars* stores a character's gold haul in a four-byte number, meaning they can carry around $4.3 billion before something bad happens, so unlike some other games I could name (**cough** *[Deathlord](../deathlord)* **cough**) this doesn't have any sort of destructive effect. It's just a little confusing the next time you go to look for who has all the gold in the party.
 
-There are a few maps that allow you to use *D:Soften Stone* to pass through the ostensible "outer" walls of the map. If the map doesn't have the "wrapping" flag set (i.e. the Kingshome Dungeon, Dwarf Clan Hall) this allows you to go wandering so far off-course that the automap stops drawing anything. If you keep moving far enough in one direction, the map will eventually wrap around and you'll find the opposite edge of the map, like Columbus trying to find India. Since the X and Y coordinates of your party are kept in 8-bit registers, this seems to happen at 256 steps. You won't find anything interesting out there except the odd random encounter, so this is more of a curiosity than anything.
+There are a few maps that allow you to use *D:Soften Stone* to pass through the ostensible "outer" walls of the map. If the map doesn't have the "wrapping" flag set (i.e. Kingshome Dungeon, Dwarf Clan Hall) this allows you to go wandering so far off-course that the automap stops drawing anything. If you keep moving far enough in one direction, the map will eventually wrap around and you'll find the opposite edge of the map, like Columbus trying to find India. Since the X and Y coordinates of your party are kept in 8-bit registers, this seems to happen at 256 steps. You won't find anything interesting out there except the odd random encounter, so this is more of a curiosity than anything.
 
 If you're running around inside the outer walls of Purgatory, and you encounter some King's Guard, and you run away, the game dumps you back at the start square as if you've been "captured" again. (At least it doesn't take all your inventory and gold.)
 
-When you see a low wooden fence, you can cast *D:Soften Stone* on it. The fence goes away, but nothing else changes. If you weren't able to move through/past the fence before, you still can't.
+When you see a low wooden fence, you can often cast *D:Soften Stone* on it. The fence goes away, but nothing else changes. If you weren't able to move through/past the fence before, you still can't.
 
-Game maps reset whenever you leave them... mostly. In particular this means that any wall that you *Soften* regenerates if you leave and come back, and most "fixed" encounter points will reset as well. But I said "mostly"; certain fixed encounters are "unique" and you only get to do them once (Humbaba, Mystalvision, etc.) And once you plug the leak (or repair the statue of Lanac'toor) in Mud Toad, it stays plugged. Starting a new game, of course, resets everything about the game state (but not about your [characters](#appendices)).
+Game maps reset whenever you leave them... mostly. In particular this means that any wall that you *Soften* regenerates if you leave and come back, and most "fixed" encounter points will reset as well. But I said "mostly"; certain fixed encounters are "unique" and you only get to do them once (Humbaba, Mystalvision, etc). Once you plug the leak (or repair the statue of Lanac'toor) in Mud Toad, it stays plugged. Starting a new game, of course, resets everything about the game state (but not about your [characters](#appendices)).
 
-Speaking of unique encounters that shouldn't reset, *Dragon Wars* **mostly** does a good job maintaining continuity. If you kill Mystalvision in the Nisir, he can't be found in Phoebus (which means you can't get back into the Phoeban Dungeon). But occasionally things happen that don't make sense; events repeat themselves, dead people come back to life, etc. One example: if you win the battle in Byzanople, then go back to Phoebus, Buck Ironhead is still there and you can still enlist in the army. You're sent to the Siege Camp again, which is empty.
+Speaking of unique encounters that shouldn't reset, *Dragon Wars* **mostly** does a good job maintaining story continuity. If you kill Mystalvision in the Nisir, he can't be found in Phoebus (which means you can't get back into the Phoeban Dungeon). But occasionally things happen that don't make sense; events repeat themselves, dead people come back to life, etc. One example: if you win the battle in Byzanople and then go back to Phoebus, Buck Ironhead is still there and you can still enlist in the army. You're sent to the Siege Camp again, which is empty.
 
-I should note, though, that this is also an example of how the developers wrote in multiple solutions to almost everything, including the problem of navigating between islands. You can "enlist" in Phoebus and get transported to King's as many times as you want, so if you find yourself without *Arcane Lore*, you can still reliably get there. The ferry between Lansk and the Old Dock can get expensive, but also solves this problem. And of course the rest of the islands are connected by bridges, which may require you to beat up and/or bribe a lot of guards but at least it can be done.
+I should note, though, that this is also an example of how the developers wrote in multiple solutions to almost everything, including the problem of navigating between islands. You can "enlist" in Phoebus and get transported to King's as many times as you want, so if you find yourself without *Arcane Lore*, you can still reliably get there. The ferry between Lansk and the Old Dock gets expensive but also solves this problem, and of course you can always come up from the Underworld through the Dwarf Clan Hall... but only once you've repaired the statue. Forlorn, Sun, Lansk, and Quag are all connected by bridges, which may require you to beat up and/or bribe a lot of guards but at least it can be done.
 
-There are lots of duplicated items. Most of the time, they're identical, but sometimes they aren't. This is a function of the fact that item data isn't stored centrally, it's copy-and-pasted into each individual board where the item appears or can be used. A few examples:
+There are lots of duplicated items. Most of the time they're identical, but sometimes they aren't. This is a function of the fact that item data isn't stored centrally, it's copy-and-pasted into each individual board where the item appears or can be used. A few examples:
 
 - The price of several items varies for no reason I can fathom. If you buy Plate Armor in a shop, it costs $3100; the suit you find in the Mystic Wood sells for $1550, which makes sense. But the suit you find in Phoebus sells for $1500. They're otherwise identical. There are two sets of Dragon Plate that do the same thing. Large Shields purchased in Freeport cost a *tenth* of what they do everywhere else. (Market inefficiencies?) The spell scrolls that Nergal gives you can't be sold, even though other copies of the same scroll can.
 - The Boomerang you find in Kingshome does much more damage (2d10 at 60') than the one you find on the second Guard Bridge (1d12 at 50'). The Kingshome "Pole Arm" (1d20, +2 AV) is a better weapon than the standard "Polearm" (1d10, +1 AV); I like to think that Namtar's weaponsmiths invented a better model with a space in the middle. Likewise the dwarves seem to have developed a Bomb (2d30) with twice the explosive power as the ones you find in the Underworld (1d30). However, the Slave Camp "Handaxe" and the standard "Hand Axe" are identical, as are the Kingshome "Magic Axe" and the "MagicAxe" found in the Byzanople crypt.
@@ -424,15 +560,15 @@ And speaking of strange uses for *S:Charger*, for some reason the Dead Bolt can 
 
 If you're playing on a PC, the item beneath the statue on the Old Dock is a PS/2. If you're playing on an Apple emulator, it's a IIgs. It does the same thing either way, including granting +4 AC if you equip it.
 
-Final note on inventory: keep an eye out throughout these documents for **Easter Eggs**. In my exploration of the decompiled data files I found a number of references to items, encounters, skills, spells, etc. that can't actually be found in the game. I've included their stats for the sake of completeness and your entertainment.
+Final note on inventory: keep an eye out throughout these documents for **Easter Eggs**. In my exploration of the decompiled data files I found a number of references to items, encounters, skills, spells, etc. that exist in the code but aren't referenced in a way that allows them to show up in-game. I've included reference points for your entertainment, for the sake of completeness, and quite possibly just to show off a little bit since I'm pretty sure there's some stuff here that I've never seen in anyone else's guide.
 
 In Lanac'toor's Lab, if you take the stairs back up to Mud Toad, the statue of Lanac'toor is mysteriously broken again. As soon as you take any move (including checking the automap or turning), the statue reforms. This appears to be a side effect of how the game keeps track of which parts of the statue you've returned.
 
-The code that runs when you leave a map usually uses your current location as well as your current facing to determine where to send you. In most places this works the way you'd think, but the developers took a few shortcuts and made some "well it's gotta do *something*"-type decisions. For instance, if you leave the Bridge of Exiles to the E, you end up on King's Isle, and if you leave to the W, you end up on the Isle of the Damned. But what happens if you leave to the N? You're on a bridge; there's only water on the Dilmun map to the N of here. So they drop you on the same place as if you'd left to the E or W. The problem, of course, is that if you exit to the N on the E side, you wind up on a fight with a bunch of Goblins. Run away from that fight while facing S... and you turn around and run into the water.
+The code that runs when you leave a map usually uses your current location and/or facing to determine where to send you. In most places this works the way you'd think, but the developers took a few shortcuts and made some "well it's gotta do *something*"-type decisions. For instance, if you leave the Bridge of Exiles to the E you end up on King's Isle (on top of a party of Goblins), and if you leave to the W you end up on the Isle of the Damned. But what happens if you leave to the N? You're on a bridge; there's only water on the Dilmun map to the N of here. So they drop you on the same place as if you'd left to the E or W, but (crucially) without changing your facing. The problem here is that if you exit to the N on the E side of the bridge you wind up in a fight, and if you run away from that fight, you'll turn around and run S, striaght into the water. You can't walk on water, of course, so the game turns you around and moves you forward onto the square with the fight...
 
-The spinner trap in the Tars Underground has a similar problem. It changes your facing without redrawing the viewport, which means the next time you step forward, the game engine (which looks at the viewport to determine what's in front of you) decides that you're allowed to step forward even though you're ostensible facing a wall. Poof, you've just ghosted through a stone wall.
+The spinner trap in the Tars Underground has a similar problem. It changes your facing without redrawing the viewport, which means the next time you step forward, the game engine (which looks at the viewport to determine what's in front of you) decides that you're allowed to step forward even though you may very well actually be facing a wall. Poof, you've just ghosted through a stone wall. Even better, if you wound up facing S there's a fight there. What do you think happens if you run away from *that*? I won't spoil it; try it for yourself.
 
-There are also just a few flat-out bugs: exit Purgatory to the N and you're on Forlorn. Turn around... and Purgatory isn't behind you, it's 2W of you. (Of course, who actually leaves Purgatory to the *north*?) Even better, if you walk all the way around to the NE corner and exit to the E, the game doesn't differentiate between walking E and swimming E, so you wind up on the south side of Purgatory Bay near the refresh pool. There's a similar bug when you leave the Old Dock on the Isle of Salvation.
+There are also just a few flat-out bugs: exit Purgatory to the N and you're on Forlorn. Turn around... and Purgatory isn't behind you, it's 2W of you. (Of course, who actually leaves Purgatory to the *north*?) Even better, if you walk all the way around to the NE corner and exit to the E, the game doesn't differentiate between walking E and swimming E, so you wind up on the south side of Purgatory Bay near the refresh pool. There's a similar bug when you leave the Pilgrim Dock on the Isle of Salvation.
 
 ## Things and Stuff
 
@@ -481,9 +617,9 @@ In *Dragon Wars*, spells are associated with a **school**:
 - [Sun Magic](magic.md#sun-magic)
 - [Miscellaneous Magic](magic.md#miscellaneous-magic)
 
-You've probably already noticed that throughout this document, when I refer to spells, I prefix it with the first letter of the school. That should make it easier for you to remember who's got what spell, unless you decided two Sun Magicians was a good idea.
+You've probably already noticed that throughout this document, when I refer to spells, I prefix it with the first letter of the school. That should make it easier for you to remember who's got what spell, unless you decided having two Sun mages in your party was a good idea.
 
-Spells don't have any concept of a "level", so as soon as you gain your first rank of the associated skill, you are eligible to learn *all* spells in that school. (The Miscellaneous school only requires Low Magic.) To learn a spell, you simply have to find and `(U)se` a scroll with that spell on it. Presuming you have the right magic skill, you have now learned the spell and can cast it whenever you want.
+Spells don't have any concept of a "level", so as soon as you gain your first rank of the associated skill, you are eligible to learn every spell in that school. (The Miscellaneous school only requires Low Magic.) To learn a spell, you simply have to find and `(U)se` a scroll with that spell on it. Presuming you have the right magic skill, you have now learned the spell and can cast it whenever you want.
 
 Of course, there is no random loot in this game and everything is in a predetermined position, so you'll find scrolls when the game decides to give them to you, and not (much) before. I've listed the location of every spell scroll in the table so you can get a rough idea of when you'll be able to learn the spell. That doesn't include spell grants, like the Druid spells you learn by wrestling Enkidu. More details are in the guide for each area.
 
@@ -502,7 +638,7 @@ This is close to, but not *quite* the same, as the game's distinction between "C
 
 Zap and Debuff spells require an **attack roll** per target. This works similarly to a melee attack roll, but you use INT for your "AV" and your magic skill in place of a weapon skill. Defenders get to use their normal DV. The basic roll (1d16+2) is the same, and you're still trying to roll equal or below a target of 12 + your skill ranks + your AV – defender's DV. The game only rolls damage once, but any target you "miss" takes half damage instead. The damage the game reports back to you is the average across all your hits and misses, so you have a sense of how effective you were... but not a very good one.
 
-One more weird tip I'll leave you with: it *looks* like scrolls are single-use, because they don't have any charges listed next to them. However, once you reach Freeport and acquire *S:Charger*, you can use it to add additional "charges" to a scroll. (Just make sure you have *two* charges before you use it, because it will disappear as soon as the charge count reaches zero.) Probably the most interesting use of this hack is to pass Lanac'toor's Miscellaneous Magic scrolls around your entire party, but on a second playthrough you could also use it to replicate everything else... like *S:Inferno*.
+One more weird tip I'll leave you with: it *looks* like scrolls are single-use, because they don't have any charges listed next to them. However, once you reach Freeport and acquire *S:Charger*, you can use it to add additional "charges" to a scroll. (Just make sure you have *two* charges, because each time you use it one charge will go away, and the scroll will disappear as soon as the charge count reaches zero.) Probably the most interesting use of this hack is to pass Lanac'toor's Miscellaneous Magic scrolls around your entire party, but on a second playthrough you could also use it to replicate everything else... like *S:Inferno*.
 
 ## Walkthrough
 
@@ -556,7 +692,7 @@ Moved to its own page for length, but here's a table of contents:
 
 ## Appendices
 
-Now that you've beaten Namtar – actually, you can do this any time you want – you can start over by reloading the game and indicating at the prompt that you want to `(B)egin` a new game instead of `(C)ontinuing` your old one. You keep your party as-is, including stats, spells, and any NPCs you've picked up, but (as happens when you get dumped into Purgatory) not including any of your equipment.
+Now that you've beaten Namtar – actually, you can do this any time you want – you can start over by reloading the game and indicating at the prompt that you want to `(B)egin` a new game instead of `(C)ontinuing` your old one. You keep your party as-is, including character levels, attributes, spells, and any NPCs you've picked up, but (as happens when you get dumped into Purgatory) not including any of your equipment.
 
 The reason I didn't mention this until all the way down here in the Appendix is that you can pretty easily cheat by recycling the +5 CP [Irkalla](walkthrough.md#magan-underworld-highlights) bonus as many times as you like. All you have to do is start a new game, work your way over to the Apsu Waters, visit Irkalla's Realm, and step over the rail. It's a good way to get magic skills for your front line fighters; one trip gets a skill point in Low Magic, two more trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. You can build up extremely strong "level 1" characters from nothing this way and just breeze through the first half of the game.
 
@@ -568,50 +704,146 @@ Note that some state bits are actually kept on the character, not on the game st
 
 Here are some stats for my party after defeating Namtar for the last time.
 
-- **Thog**, Level 13
-  - STR 25 DEX 24 INT 13 SPR 13 HP 20 AV 15 DV 6 AC 35
-  - *Skills:* Climb 4, Lockpick 4, Low Magic 3, Swords 2
-  - *Armor:* Heavy Plate, Silver Gloves, Dragon Shield, Dragon Helm, Mage Ring
-  - *Weapons:* Freedom Sword, Dragon Tooth
-  - *Magic:* L:all
-- **Alex**, Level 13
-  - STR 24 DEX 24 INT 13 SPR 13 HP 20 AV 10 DV 6 AC 29 
-  - *Skills:* Bandage 10, Tracker 1, Low Magic 1                           
-  - *Armor:* Dragon Plate, Gauntlets, Magic Shield, Dragon Helm, Golden Boots 
-  - *Weapons:* Dragon Tooth                                                 
-  - *Magic:* L:all                                                        
-- **Ulrik**, Level 13
-  - STR 23 DEX 24 INT 13 SPR 17 HP 20 AV 10 DV 6 AC 30 
-  - *Skills:* Cave Lore 3, Swim 1, Low Magic 1, Axes 3                     
-  - *Armor:* Dragon Plate, Gauntlets, Dragon Shield, Dragon Helm, Lucky Boots 
-  - *Weapons:* Dragon Tooth                                                 
-  - *Magic:* L:all                                                        
-- **Louie**, Level 12
-  - STR 21 DEX 24 INT 19 SPR 19 HP 18 AV 13 DV 6 AC 26 
-  - *Skills:* Hiding 2, Pickpocket 2, Low Magic 1, Druid Magic 2           
-  - *Armor:* Magic Plate, Gauntlets, Magic Shield, Black Helm, Lucky Boots, Magic Ring 
-  - *Weapons:* Dragon Tooth                                                 
-  - *Magic* L:all, D:all except *Brambles*                               
-- **Valar**, Level 12
-  - STR 14 DEX 23 INT 22 SPR 23 HP 19 AV 10 DV 5 AC 22 
-  - *Skills:* Low Magic 1, Sun Magic 3            
-  - *Armor:* Magic Chain, Magic Shield, Gem Helm 
-  - *Weapons:* Spell Staff                         
-  - *Magic:* L:all, S:all                        
-- **Arthur**, Level 13
-  - STR 15 DEX 16 INT 19 SPR 30 HP 15 AV 14 DV 4 AC 14 
-  - *Skills:* Low Magic 1, Druid Magic 3, Arcane Lore 1, Bureaucracy 1     
-  - *Armor:* Magic Chain, Shield, Black Helm                              
-  - *Weapons:* Mage Staff                                                   
-  - *Magic:* L:all; D:all except *Whirl Wind, Invoke Spirit*; M:*Zak's Speed, Kill Ray* 
-- **Valerie**, Level 13
-  - STR 13 DEX 24 INT 19 SPR 24 HP 14 AV 6 DV 6 AC 12 
-  - *Skills:* Low Magic 1, High Magic 3, Bows 1  
-  - *Armor:* Magic Chain, Shield, Helm          
-  - *Weapons:* Gatlin Bow, Magic Quiver           
-  - *Spells:* L:all, H:all except *Earth Summon* 
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Level</th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>Health</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>AC</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=4><b>Thog</b></td>
+      <td class="c">13</td>
+      <td class="c">25</td>
+      <td class="c">24</td>
+      <td class="c">13</td>
+      <td class="c">13</td>
+      <td class="c">20</td>
+      <td class="c">15</td>
+      <td class="c">6</td>
+      <td class="c">35</td>
+    </tr><tr>
+      <td colspan=9><i>Skills:</i> Climb 4, Lockpick 4, Low Magic 3, Swords 2</td>
+    </tr><tr>
+      <td colspan=9><i>Equipment:</i> Heavy Plate, Silver Gloves, Dragon Shield, Dragon Helm, Mage Ring, Freedom Sword, Dragon Tooth</td>
+    </tr><tr>
+      <td colspan=9><i>Magic:</i> Low: all</td>
+    </tr><tr>
+      <td rowspan=4><b>Alex</b></td>
+      <td class="c">13</td>
+      <td class="c">24</td>
+      <td class="c">24</td>
+      <td class="c">13</td>
+      <td class="c">13</td>
+      <td class="c">20</td>
+      <td class="c">10</td>
+      <td class="c">6</td>
+      <td class="c">29</td>
+    </tr><tr>
+      <td colspan=9><i>Skills:</i> Bandage 10, Tracker 1, Low Magic 1</td>
+    </tr><tr>
+      <td colspan=9><i>Equipment:</i> Dragon Plate, Gauntlets, Magic Shield, Dragon Helm, Golden Boots, Dragon Tooth</td>
+    </tr><tr>
+      <td colspan=9><i>Magic:</i> Low: all</td>
+    </tr><tr>
+      <td rowspan=4><b>Ulrik</b></td>
+      <td class="c">13</td>
+      <td class="c">23</td>
+      <td class="c">24</td>
+      <td class="c">13</td>
+      <td class="c">17</td>
+      <td class="c">20</td>
+      <td class="c">10</td>
+      <td class="c">6</td>
+      <td class="c">30</td>
+    </tr><tr>
+      <td colspan=9><i>Skills:</i> Cave Lore 3, Swim 1, Low Magic 1, Axes 3</td>
+    </tr><tr>
+      <td colspan=9><i>Equipment:</i> Dragon Plate, Gauntlets, Dragon Shield, Dragon Helm, Lucky Boots, Dragon Tooth</td>
+    </tr><tr>
+      <td colspan=9><i>Magic:</i> Low: all</td>
+    </tr><tr>
+      <td rowspan=4><b>Louie</b></td>
+      <td class="c">12</td>
+      <td class="c">21</td>
+      <td class="c">24</td>
+      <td class="c">19</td>
+      <td class="c">19</td>
+      <td class="c">18</td>
+      <td class="c">13</td>
+      <td class="c">6</td>
+      <td class="c">26</td>
+    </tr><tr>
+      <td colspan=9><i>Skills:</i> Hiding 2, Pickpocket 2, Low Magic 1, Druid Magic 2</td>
+    </tr><tr>
+      <td colspan=9><i>Equipment:</i>Magic Plate, Gauntlets, Magic Shield, Black Helm, Lucky Boots, Magic Ring, Dragon Tooth</td>
+    </tr><tr>
+      <td colspan=9><i>Magic:</i> Low: all, Druid: all except <i>Brambles</i></td>
+    </tr><tr>
+      <td rowspan=4><b>Valar</b></td>
+      <td class="c">12</td>
+      <td class="c">14</td>
+      <td class="c">23</td>
+      <td class="c">22</td>
+      <td class="c">23</td>
+      <td class="c">19</td>
+      <td class="c">10</td>
+      <td class="c">5</td>
+      <td class="c">22</td>
+    </tr><tr>
+      <td colspan=9><i>Skills:</i> Low Magic 1, Sun Magic 3</td>
+    </tr><tr>
+      <td colspan=9><i>Equipment:</i> Magic Chain, Magic Shield, Gem Helm, Spell Staff</td>
+    </tr><tr>
+      <td colspan=9><i>Magic:</i> Low: all, Sun: all</td>
+    </tr><tr>
+      <td rowspan=4><b>Arthur</b></td>
+      <td class="c">13</td>
+      <td class="c">15</td>
+      <td class="c">16</td>
+      <td class="c">19</td>
+      <td class="c">30</td>
+      <td class="c">15</td>
+      <td class="c">14</td>
+      <td class="c">4</td>
+      <td class="c">14</td>
+    </tr><tr>
+      <td colspan=9><i>Skills:</i> Low Magic 1, Druid Magic 3, Arcane Lore 1, Bureaucracy 1</td>
+    </tr><tr>
+      <td colspan=9><i>Equipment:</i> Magic Chain, Shield, Black Helm, Mage Staff</td>
+    </tr><tr>
+      <td colspan=9><i>Magic:</i> Low: all, Druid: all except <i>Whirl Wind, Invoke Spirit</i>; Misc: <i>Zak's Speed, Kill Ray</i></td>
+    </tr><tr>
+      <td rowspan=4><b>Valerie</b></td>
+      <td class="c">13</td>
+      <td class="c">13</td>
+      <td class="c">24</td>
+      <td class="c">19</td>
+      <td class="c">24</td>
+      <td class="c">14</td>
+      <td class="c">6</td>
+      <td class="c">6</td>
+      <td class="c">12</td>
+    </tr><tr>
+      <td colspan=9><i>Skills:</i> Low Magic 1, High Magic 3, Bows 1</td>
+    </tr><tr>
+      <td colspan=9><i>Equipment:</i> Magic Chain, Shield, Helm, Gatlin Bow, Magic Quiver</td>
+    </tr><tr>
+      <td colspan=9><i>Magic:</i> Low: all, High: all except <i>Earth Summon</i></td>
+    </tr>
+  </tbody>
+</table>
 
-The lowest-level characters with which I've ever beaten the game (without multiple Irkalla runs) were 12th level. Experience level, of course, is basically irrelevant to the game except as a means for gaining CP, so you could alternately call those 77 CP $(50 + 5 + 2 \cdot (12-1))$ characters.
+The lowest-level characters with which I've ever beaten the game (without multiple Irkalla runs) were 12th level. Experience level, of course, is basically irrelevant to the game except as a means for gaining CP, so you could alternately call those 77 CP (50 + 5 + 2 x (12-1)) characters.
 
 ### Decompilation
 

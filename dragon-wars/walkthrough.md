@@ -392,13 +392,17 @@ Regardless of how you got here, go up the stairs to Lansk proper and exit the ci
 
 Enter the bridge to Quag. The guard asks for your pass, and — here's a first! — will simply let you cross the bridge if you show it to him. Of course you can also just bull your way through, but Pikemen and Guards are kinda tough, and getting the pass in [Lansk](#the-most-boring-city-in-the-world-lansk) isn't all that hard.
 
-Murk Trees, I'm sorry to say, do as much as 8d10 damage. That's a max of 80 Stun and 40 Health *per attack*, which I don't need to tell you is potentially lethal. And sometimes you have to face more than one of them. And there's one on the E side of this map, in a straight line off the bridge. Rather than face it, take a step to the N before exiting. You won't be able to avoid all of them this easily.
+There's a Murk Tree on the E side of the map, which you'll hit if you walk in a straight line off the bridge. Rather than face it, take a step to the N before exiting. You won't be able to avoid all of them this easily, so take advantage of it while you can. Also, you never want to come back to the War Bridge from Quag because you'll have to fight that Murk Tree first thing. More about Murk Trees in a second.
 
 If you're up for a bit of surreality, you can visit the Quag Information Bureau `(p47)` to the N after you cross the bridge. The ladies of the Bureau will tell you about Mud Toad and how it's sinking uncontrollably into the swamp. However, there's also a 1-in-5 chance that they'll attack you with *H:Big Chill*! Ow!
 
 ## Quag Isle
 
-When you exit the bridge, you're on Quag. If anyone has *Forest Lore*, they'll notice that "something isn't right" about the woods ahead, which I guess is a hint (in case you walked around the Murk Tree on the War Bridge) that you're in for some weirdness. There's a Murk Tree directly ahead of you, so instead go 1N 3E and you'll wind up on the Transportation Nexus that takes you back to the Mystic Wood. (I mean, or maybe you used the Nexus to get here in the first place. Whatever.)
+When you exit the bridge, you're on Quag. If anyone has *Forest Lore*, they'll notice that "something isn't right" about the woods ahead, which I guess is a hint (in case you walked around the Murk Tree on the War Bridge) that you're in for some weirdness.
+
+A serious word of advice: whenever you happen to visit Quag, which will happen with some frequency, I want you to save your game before you go anywhere. The reason is that Murk Trees do as much as **8d10** damage. That's a max of 80 Stun and 40 Health *per attack*, which I don't need to tell you is potentially lethal. And sometimes you have to face more than one of them. If your whole front line has AC 20 then *probably* none of them will die. But do you really want to take the risk?
+
+With that being said, if you've just come from the War Bridge then there's a Murk Tree directly ahead of you, so instead go 1N 3E and you'll wind up on the Transportation Nexus that takes you back to the Mystic Wood. (I mean, or maybe you used the Nexus to get here in the first place. Whatever.)
 
 The Murk Trees are in fixed locations, which means you can avoid most of them. As offsets from the Nexus:
 

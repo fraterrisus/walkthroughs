@@ -820,7 +820,7 @@ Being a list of every item in the game I haven't already mentioned (and a few I 
 - **Chains**
   - "find" in the Slave Mines
   - –15AV and –15AC, which makes you pretty useless in combat
-- **Citizen Pap.** (Citizenship Papers)
+- **Citizenship Papers** [Citizen Pap.]
   - get from Arena battle in Purgatory
   - find in old wizard's house in the Slave Camp
   - purchase in the Lansk Undercity
@@ -866,11 +866,6 @@ Being a list of every item in the game I haven't already mentioned (and a few I 
 - **Flotsam**
   - find in the Sunken Ruins (topside)
   - useless
-- **Freedom Sw.** (Sword of Freedom)
-  - find on the Isle of Woe after having the dwarves reforge it
-  - equip for +15 AV, +5 AC; does 1d100 damage
-  - show to the Universal God in Salvation for a blessing
-  - casts *S:Inferno* with 10 POW after being blessed
 - **Golden Boots**
   - find in Mud Toad after closing up the leak
   - equip for +2 AC
@@ -878,7 +873,7 @@ Being a list of every item in the game I haven't already mentioned (and a few I 
   - use to hop to the island shrine in the Mystic Wood
   - use to hop to the Sword of Freedom island in Freeport
   - use to hop over the gap in Salvation
-- **Govern. Pass** (Governor's Pass)
+- **Governor's Pass** [Govern. Pass]
   - get by following the Lansk bureaucracy maze
   - purchase in the Lansk Undercity Ministry of EZ Paperwork
   - use to cross the War Bridge
@@ -886,7 +881,7 @@ Being a list of every item in the game I haven't already mentioned (and a few I 
 - **Handle**
   - find in the Slave Mines
   - use with **Rock** and **Laces** to make the **Crude Hammer**
-- **Healing Pot.** (Healing Potion)
+- **Healing Potion** [Healing Pot.]
   - find in the Tars Underground (casts *S:Heal*, sells for $50)
   - find in the creaky chest on the Lansk Guard Bridge (casts *S:Heal*, can't be sold)
   - find in Lanac'toor's Laboratory (casts *S:Major Healing*, sells for $1000*)*
@@ -1026,6 +1021,11 @@ Being a list of every item in the game I haven't already mentioned (and a few I 
 - **Stone Trunk**
   - find in the Necropolis
   - use to repair the statue in Mud Toad
+- **Sword of Freedom** [Freedom Sw.]
+  - find on the Isle of Woe after having the dwarves reforge it
+  - equip for +15 AV, +5 AC; does 1d100 damage
+  - show to the Universal God in Salvation for a blessing
+  - casts *S:Inferno* with 10 POW after being blessed
 - **Wand**
   - find in the Mystic Wood from some Water Spirits
   - casts *S:Major Healing*
@@ -1040,7 +1040,7 @@ There are a handful of cities throughout Dilmun that have stores where you can b
 
 Most shops specialize in what goods they sell, but you can sell anything (with value) to any shop regardless. Prices listed are the purchase price; items sell for 50% of their purchase price. Most items have consistent pricing, with a couple of very notable exceptions (larger packs of Bolts in Mud Toad, Large Shields in Freeport).
 
-As a side note, if a shop is broken up into departments (or if there are multiple stores in the same location) you'll usually find Dragon Stones under "Armor".
+As a side note, if a shop is broken up into departments, or if there are multiple shops in the same location, you'll usually find Dragon Stones in the same place as armor.
 
 ### Purgatory
 

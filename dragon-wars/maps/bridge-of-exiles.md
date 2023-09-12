@@ -17,4 +17,3 @@ For hilarity, try exiting to the north on the east side of the bridge, then run 
 ## Points of Interest
 
 **The One-way Door (02,04):** The sign says "Door closes automatically", and it means it. When you go through it, the door is erased and you're stuck on the Isle of the Damned.
-

@@ -2,7 +2,9 @@
 
 [![map](dilmun.svg)](dilmun.svg)
 
-As a warning, you can't cast *D:Create Wall* here and *D:Soften Stone* probably won't get you anywhere. Just in case you were tempted to try. Also, the map wraps, not that you can actually go sailing over the water.
+The overworld map through which your party will adventure.
+
+As a warning, you can't cast *D:Create Wall* here and I don't think there are any walls that you can usefully *D:Soften Stone*. Just in case you were tempted to try. Also, the map wraps, not that there's any way to actually go sailing over the water.
 
 ## Points of Interest
 
@@ -117,7 +119,6 @@ Mount **[Salvation](salvation.md) (19,19)**, which is confusingly marked 'Nisir'
     <th>DEX</th>
     <th>INT</th>
     <th>SPR</th>
-    <th>HD</th>
     <th>HP</th>
     <th>AV</th>
     <th>DV</th>
@@ -125,67 +126,59 @@ Mount **[Salvation](salvation.md) (19,19)**, which is confusingly marked 'Nisir'
     <th>XP</th>
   </tr>
   <tr>
-    <td><b>Goblins</b></td>
-    <td>10</td>
-    <td>16</td>
-    <td>6</td>
-    <td>10</td>
-    <td>4d4+1</td>
-    <td>5-17</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>90</td>
+    <td rowspan=2><b>Goblins</b></td>
+    <td class="c">10</td>
+    <td class="c">16</td>
+    <td class="c">6</td>
+    <td class="c">10</td>
+    <td class="c">5&ndash;17</td>
+    <td class="c">+3</td>
+    <td class="c">+0</td>
+    <td class="c">30'</td>
+    <td class="c">90</td>
   </tr><tr>
-    <td></td>
     <td colspan="10">4d6</td>
   </tr>
   <tr>
-    <td><b>Guard Goblins</b></td>
-    <td>0</td>
-    <td>20</td>
-    <td>0</td>
-    <td>0</td>
-    <td>4d4+20</td>
-    <td>24-36</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>120</td>
+    <td rowspan=2><b>Guard Goblins</b></td>
+    <td class="c">0</td>
+    <td class="c">20</td>
+    <td class="c">0</td>
+    <td class="c">0</td>
+    <td class="c">24&ndash;36</td>
+    <td class="c">+4</td>
+    <td class="c">+0</td>
+    <td class="c">30'</td>
+    <td class="c">120</td>
   </tr><tr>
-    <td></td>
     <td colspan="10">6d6</td>
   </tr>
   <tr>
-    <td><b>Guards</b></td>
-    <td>20</td>
-    <td>16</td>
-    <td>1</td>
-    <td>3</td>
-    <td>2d8+3</td>
-    <td>5-19</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>100</td>
+    <td rowspan=2><b>Guards</b></td>
+    <td class="c">20</td>
+    <td class="c">16</td>
+    <td class="c">1</td>
+    <td class="c">3</td>
+    <td class="c">5&ndash;19</td>
+    <td class="c">+1</td>
+    <td class="c">+0</td>
+    <td class="c">10'</td>
+    <td class="c">100</td>
   </tr><tr>
-    <td></td>
     <td colspan="10">1d20, 2d12</td>
   </tr>
   <tr>
-    <td><b>Murk Trees</b></td>
-    <td>0</td>
-    <td>16</td>
-    <td>0</td>
-    <td>0</td>
-    <td>8d10+15</td>
-    <td>23-95</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>150</td>
+    <td rowspan=2><b>Murk Trees</b></td>
+    <td class="c">0</td>
+    <td class="c">16</td>
+    <td class="c">0</td>
+    <td class="c">0</td>
+    <td class="c">23&ndash;95</td>
+    <td class="c">+4</td>
+    <td class="c">+0</td>
+    <td class="c">50'</td>
+    <td class="c">150</td>
   </tr><tr>
-    <td></td>
     <td colspan="10">7d8</td>
   </tr>
 </table>

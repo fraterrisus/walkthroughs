@@ -31,97 +31,86 @@ Note: Once the War of Byzanople has been decided (in either direction), the Camp
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Guards</b></td>
-    <td>12</td>
-    <td>16</td>
-    <td>10</td>
-    <td>10</td>
-    <td>5d6+12</td>
-    <td>17-42</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d6, 3d6 piercing — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Kingshomer Captains</b></td>
-    <td>33</td>
-    <td>19</td>
-    <td>10</td>
-    <td>10</td>
-    <td>6d6+75</td>
-    <td>81-111</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>300</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d4 — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Mercenaries</b></td>
-    <td>12</td>
-    <td>16</td>
-    <td>14</td>
-    <td>30</td>
-    <td>4d6+6</td>
-    <td>10-30</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>100</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">4d8 x ¼, dodge, flee — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Pikemen</b></td>
-    <td>15</td>
-    <td>14</td>
-    <td>9</td>
-    <td>10</td>
-    <td>4d6+12</td>
-    <td>16-36</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>190</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">6d6, 5d8, call for help — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Royal Guards</b></td>
-    <td>18</td>
-    <td>18</td>
-    <td>18</td>
-    <td>18</td>
-    <td>5d6+6</td>
-    <td>11-36</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>220</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">6d6, <i>L:Mage Fire</i>, call for help — awards gold</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Guards</b></td>
+      <td class="c">12</td>
+      <td class="c">16</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">17&ndash;42</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9>5d6, 3d6 piercing — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Kingshomer<br/>Captains</b></td>
+      <td class="c">33</td>
+      <td class="c">19</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">81&ndash;111</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">300</td>
+    </tr><tr>
+      <td colspan=9>10d4 — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Mercenaries</b></td>
+      <td class="c">12</td>
+      <td class="c">16</td>
+      <td class="c">14</td>
+      <td class="c">30</td>
+      <td class="c">10&ndash;30</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">100</td>
+    </tr><tr>
+      <td colspan=9>4d8 x ¼, dodge, flee — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Pikemen</b></td>
+      <td class="c">15</td>
+      <td class="c">14</td>
+      <td class="c">9</td>
+      <td class="c">10</td>
+      <td class="c">16&ndash;36</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">190</td>
+    </tr><tr>
+      <td colspan=9>6d6, 5d8, call for help — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Royal Guards</b></td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">11&ndash;36</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">220</td>
+    </tr><tr>
+      <td colspan=9>6d6, <i>L:Mage Fire</i>, call for help — awards gold</td>
+    </tr>
+  </tbody>
 </table>

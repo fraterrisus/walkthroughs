@@ -31,160 +31,151 @@ The stone slab at (15,15) hides stairs down to the [Tars Underground](tars-under
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Goblins</b></td>
-    <td>10</td><td>19</td><td>06</td><td>10</td>
-    <td>3d4+10</td><td>13-22</td><td>+3</td><td>+0</td>
-    <td>30'</td><td>90</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>4d6, dodge, call for help</td>
-  </tr>
-  <tr>
-    <td><b>Giant Snakes</b></td>
-    <td>20</td><td>17</td><td>01</td><td>03</td>
-    <td>4d4+10</td><td>14-26</td><td>+2</td><td>+0</td>
-    <td>10'</td><td>100</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>3d10, 2d12, flee — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Guardian Snake</b></td>
-    <td>15</td><td>20</td><td>20</td><td>20</td>
-    <td>3d10+60</td><td>63-90</td><td>+4</td><td>+0</td>
-    <td>40'</td><td>1200</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>4d8</td>
-  </tr>
-  <tr>
-    <td><b>Lizard Apes</b></td>
-    <td>25</td><td>19</td><td>03</td><td>05</td>
-    <td>4d6+10</td><td>14-34</td><td>+2</td><td>+0</td>
-    <td>20'</td><td>90</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>5d6, 3d6, call for help, dodge</td>
-  </tr>
-  <tr>
-    <td><b>Shadow Spiders</b></td>
-    <td>12</td>
-    <td>19</td>
-    <td>03</td>
-    <td>05</td>
-    <td>3d6+10</td>
-    <td>13-28</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>120</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>4d6, 3d8 health, flee</td>
-  </tr>
-  <tr>
-    <td><b>Skeletons</b></td>
-    <td>08</td>
-    <td>08</td>
-    <td>08</td>
-    <td>08</td>
-    <td>2d8+10</td>
-    <td>12-26</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>80</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>4d6, 1d8 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Spiders</b></td>
-    <td>03</td>
-    <td>19</td>
-    <td>01</td>
-    <td>01</td>
-    <td>2d4+8</td>
-    <td>10-16</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>80'</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>5d4, 4d6, 2d4 health</td>
-  </tr>
-  <tr>
-    <td><b>Spitting Lizards</b></td>
-    <td>05</td>
-    <td>14</td>
-    <td>05</td>
-    <td>10</td>
-    <td>3d4+10</td>
-    <td>13-22</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>70</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>1d4 breath, 4d4 breath, 3d6 breath, flee</td>
-  </tr>
-  <tr>
-    <td><b>Underworld Beasts</b></td>
-    <td>20</td>
-    <td>10</td>
-    <td>08</td>
-    <td>10</td>
-    <td>3d8+10</td>
-    <td>13-34</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>110</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>5d6, 3d6, flee</td>
-  </tr>
-  <tr>
-    <td><b>Wolves</b></td>
-    <td>13</td>
-    <td>15</td>
-    <td>05</td>
-    <td>05</td>
-    <td>3d4+10</td>
-    <td>13-22</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>70</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>5d6, flee</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Goblins</b></td>
+      <td class="c">10</td>
+      <td class="c">19</td>
+      <td class="c">06</td>
+      <td class="c">10</td>
+      <td class="c">13&ndash;22</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">90</td>
+    </tr><tr>
+      <td colspan=9>4d6, dodge, call for help</td>
+    </tr><tr>
+      <td rowspan=2><b>Giant Snakes</b></td>
+      <td class="c">20</td>
+      <td class="c">17</td>
+      <td class="c">01</td>
+      <td class="c">03</td>
+      <td class="c">14&ndash;26</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">100</td>
+    </tr><tr>
+      <td colspan=9>3d10, 2d12, flee — can't be disarmed</td>
+    </tr><tr>
+      <td rowspan=2><b>Guardian Snake</b></td>
+      <td class="c">15</td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">63&ndash;90</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">40'</td>
+      <td class="c">1200</td>
+    </tr><tr>
+      <td colspan=9>4d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Lizard Apes</b></td>
+      <td class="c">25</td>
+      <td class="c">19</td>
+      <td class="c">03</td>
+      <td class="c">05</td>
+      <td class="c">14&ndash;34</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">90</td>
+    </tr><tr>
+      <td colspan=9>5d6, 3d6, call for help, dodge</td>
+    </tr><tr>
+      <td rowspan=2><b>Shadow Spiders</b></td>
+      <td class="c">12</td>
+      <td class="c">19</td>
+      <td class="c">03</td>
+      <td class="c">05</td>
+      <td class="c">13&ndash;28</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>4d6, 3d8 health, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Skeletons</b></td>
+      <td class="c">08</td>
+      <td class="c">08</td>
+      <td class="c">08</td>
+      <td class="c">08</td>
+      <td class="c">12&ndash;26</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>4d6, 1d8 — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Spiders</b></td>
+      <td class="c">03</td>
+      <td class="c">19</td>
+      <td class="c">01</td>
+      <td class="c">01</td>
+      <td class="c">10&ndash;16</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">80'</td>
+      <td class="c">50</td>
+    </tr><tr>
+      <td colspan=9>5d4, 4d6, 2d4 health</td>
+    </tr><tr>
+      <td rowspan=2><b>Spitting Lizards</b></td>
+      <td class="c">05</td>
+      <td class="c">14</td>
+      <td class="c">05</td>
+      <td class="c">10</td>
+      <td class="c">13&ndash;22</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">70</td>
+    </tr><tr>
+      <td colspan=9>1d4 breath, 4d4 breath, 3d6 breath, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Underworld Beasts</b></td>
+      <td class="c">20</td>
+      <td class="c">10</td>
+      <td class="c">08</td>
+      <td class="c">10</td>
+      <td class="c">13&ndash;34</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">110</td>
+    </tr><tr>
+      <td colspan=9>5d6, 3d6, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Wolves</b></td>
+      <td class="c">13</td>
+      <td class="c">15</td>
+      <td class="c">05</td>
+      <td class="c">05</td>
+      <td class="c">13&ndash;22</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">70</td>
+    </tr><tr>
+      <td colspan=9>5d6, flee</td>
+    </tr>
+  </tbody>
 </table>
-

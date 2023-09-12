@@ -6,7 +6,7 @@ Apologies, again, for the obnoxious alignment of this large, wrapping map. You'l
 
 The thing to know about the Nisir is that there is almost nothing to do down here that doesn't involve making your way directly to Namtar. You can get lost exploring the caves forever – and there are plenty of teleport traps that will make it very difficult to map this place – but there's no reason to do so unless you feel like fighting off a whole lot of random encounters (1 in 100).
 
-*Easter Eggs:* The item list for this board includes a **Dragon Wand** (+2 AV, *H:Fire Light* @20) and the **Dragon Sword** (4d20, +3 AV) but neither item is referenced anywhere else (there aren't any chests in the Nisir). You can pick up a Dragon Sword in the Sunken Ruins, so it's at least possible that you were supposed to *use* it somewhere as opposed to *finding* it somewhere. But my guess – and it's purely a guess – is that the Wand was supposed to be a reward for beating Mystalvision, and the Sword was supposed to be a reward for beating Buck Ironhead, but they decided to take those out at the last minute.
+*Easter Eggs:* The item list for this board includes a **Dragon Wand** (+2 AV, *H:Fire Light* @20) and the **Dragon Sword** (4d20, +3 AV) but neither item is referenced anywhere else (there aren't any chests in the Nisir). You can pick up a Dragon Sword in the [Sunken Ruins](sunken-dungeon.md), so it's at least possible that you were supposed to *use* it somewhere as opposed to *finding* it somewhere. But my guess – and it's purely a guess – is that the Wand was supposed to be a reward for beating Mystalvision, and the Sword was supposed to be a reward for beating Buck Ironhead, but they decided to take those out at the last minute.
 
 ## Exits
 
@@ -38,236 +38,215 @@ The hallway just outside these caves also features spinner traps and teleporters
 
 **The Battle Plain (21,00 - 23,06):** Namtar's army waits just S of you. When the game says you'd be a fool to continue any further, use the **Dragon Gem** and watch the Dragon Queen roast Namtar's army for you. (If you didn't show the Gem to the Queen already, nothing happens.)
 
-If you advance S without using the Gem, you have to fight Namtar's army on your own. It is technically possible to defeat them, in the sense that the code does have a path to follow if you do, but it's extremely unlikely. All that happens if you do is you get to read a few different paragraphs, and Namtar doesn't taunt you quite as hard. But it doesn't actually change anything else.
+If you advance S without using the Gem, you have to fight Namtar's army on your own. It is ostensibly possible to defeat them, in the sense that the code does have a path to follow if you do, but it's extremely unlikely. All that happens if you do is you get to read a few different paragraphs, and Namtar doesn't taunt you quite as hard. But it doesn't actually change anything else.
 
 Eventually you wind up in combat with Namtar himself. You must defeat him three times in a row. You cannot run from these fights, and if you lose, you simply re-enter combat. If you win all three times, you get to pick up his **Dead Body**. Doing so teleports you to the [Underworld](magan-underworld.md) (08,15) near the Refresh Pool.
 
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Enforcers</b></td>
-    <td>0</td>
-    <td>23</td>
-    <td>0</td>
-    <td>0</td>
-    <td>1d30+45</td>
-    <td>46-75</td>
-    <td>+6</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>300</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d8</td>
-  </tr>
-  <tr>
-    <td><b>Lichs</b></td>
-    <td>0</td>
-    <td>22</td>
-    <td>22</td>
-    <td>1</td>
-    <td>12d12+12</td>
-    <td>24-156</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>400</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>H:Ice Chill</i> @2</td>
-  </tr>
-  <tr>
-    <td><b>Lizard Warriors</b></td>
-    <td>90</td>
-    <td>23</td>
-    <td>1</td>
-    <td>1</td>
-    <td>8d8+45</td>
-    <td>53-109</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>170</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d8 stun</td>
-  </tr>
-  <tr>
-    <td><b>Namtar Guards</b></td>
-    <td>150</td>
-    <td>18</td>
-    <td>20</td>
-    <td>40</td>
-    <td>20d8+50</td>
-    <td>70-210</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>300</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">9d8</td>
-  </tr>
-  <tr>
-    <td><b>Unholy Guards</b></td>
-    <td>200</td>
-    <td>25</td>
-    <td>100</td>
-    <td>100</td>
-    <td>10d6+50</td>
-    <td>60-110</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>400</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 breath</td>
-  </tr>
-  <tr>
-    <td><b>Young Dragons</b></td>
-    <td>120</td>
-    <td>20</td>
-    <td>10</td>
-    <td>20</td>
-    <td>20d20+20</td>
-    <td>40-420</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>400</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 breath</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Enforcers</b></td>
+      <td class="c">0</td>
+      <td class="c">23</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">46&ndash;75</td>
+      <td class="c">+6</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">300</td>
+    </tr><tr>
+      <td colspan=9>8d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Lichs</b></td>
+      <td class="c">0</td>
+      <td class="c">22</td>
+      <td class="c">22</td>
+      <td class="c">1</td>
+      <td class="c">24&ndash;156</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">400</td>
+    </tr><tr>
+      <td colspan=9><i>H:Ice Chill</i> @2</td>
+    </tr><tr>
+      <td rowspan=2><b>Lizard Warriors</b></td>
+      <td class="c">90</td>
+      <td class="c">23</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">53&ndash;109</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">170</td>
+    </tr><tr>
+      <td colspan=9>10d8 stun</td>
+    </tr><tr>
+      <td rowspan=2><b>Namtar Guards</b></td>
+      <td class="c">150</td>
+      <td class="c">18</td>
+      <td class="c">20</td>
+      <td class="c">40</td>
+      <td class="c">70&ndash;210</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">300</td>
+    </tr><tr>
+      <td colspan=9>9d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Unholy Guards</b></td>
+      <td class="c">200</td>
+      <td class="c">25</td>
+      <td class="c">100</td>
+      <td class="c">100</td>
+      <td class="c">60&ndash;110</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">400</td>
+    </tr><tr>
+      <td colspan=9>2d4 breath</td>
+    </tr><tr>
+      <td rowspan=2><b>Young Dragons</b></td>
+      <td class="c">120</td>
+      <td class="c">20</td>
+      <td class="c">10</td>
+      <td class="c">20</td>
+      <td class="c">40&ndash;420</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">400</td>
+    </tr><tr>
+      <td colspan=9>2d4 breath</td>
+    </tr>
+  </tbody>
 </table>
 
 Namtar's Lieutenants:
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Buck Ironhead</b></td>
-    <td>0</td>
-    <td>26</td>
-    <td>0</td>
-    <td>0</td>
-    <td>1d4+200</td>
-    <td>201-204</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>40'</td>
-    <td>600</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d8 at 40'</td>
-  </tr>
-  <tr>
-    <td><b>Mystalvision</b></td>
-    <td>0</td>
-    <td>22</td>
-    <td>24</td>
-    <td>0</td>
-    <td>2d12+150</td>
-    <td>152-174</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>700</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>S:Inferno</i> @3</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Buck Ironhead</b></td>
+      <td class="c">0</td>
+      <td class="c">26</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">201&ndash;204</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">40'</td>
+      <td class="c">600</td>
+    </tr><tr>
+      <td colspan=9>10d8 at 40'</td>
+    </tr><tr>
+      <td rowspan=2><b>Mystalvision</b></td>
+      <td class="c">0</td>
+      <td class="c">22</td>
+      <td class="c">24</td>
+      <td class="c">0</td>
+      <td class="c">152&ndash;174</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">700</td>
+    </tr><tr>
+      <td colspan=9><i>S:Inferno</i> @3</td>
+    </tr>
+  </tbody>
 </table>
 
 And, of course, the big man himself:
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Namtar (I)</b></td>
-    <td>0</td>
-    <td>25</td>
-    <td>40</td>
-    <td>0</td>
-    <td>10d10+750</td>
-    <td>760-850</td>
-    <td>+6</td>
-    <td>+0</td>
-    <td>90'</td>
-    <td>1200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">9d8 at 20'</td>
-  </tr>
-  <tr>
-    <td><b>Namtar (II)</b></td>
-    <td>0</td>
-    <td>34</td>
-    <td>40</td>
-    <td>0</td>
-    <td>2d8+350</td>
-    <td>352-366</td>
-    <td>+6</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>1200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 breath, 9d8 at 20', <i>D:Whirl Wind</i></td>
-  </tr>
-  <tr>
-    <td><b>Namtar (III)</b></td>
-    <td>0</td>
-    <td>34</td>
-    <td>40</td>
-    <td>0</td>
-    <td>2d8+900</td>
-    <td>902-916</td>
-    <td>+6</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>1000</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 breath, 10d10 stun</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Namtar (I)</b></td>
+      <td class="c">0</td>
+      <td class="c">25</td>
+      <td class="c">40</td>
+      <td class="c">0</td>
+      <td class="c">760&ndash;850</td>
+      <td class="c">+6</td>
+      <td class="c">+0</td>
+      <td class="c">90'</td>
+      <td class="c">1200</td>
+    </tr><tr>
+      <td colspan=9>9d8 at 20'</td>
+    </tr><tr>
+      <td rowspan=2><b>Namtar (II)</b></td>
+      <td class="c">0</td>
+      <td class="c">34</td>
+      <td class="c">40</td>
+      <td class="c">0</td>
+      <td class="c">352&ndash;366</td>
+      <td class="c">+6</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">1200</td>
+    </tr><tr>
+      <td colspan=9>2d6 breath, 9d8 at 20', <i>D:Whirl Wind</i></td>
+    </tr><tr>
+      <td rowspan=2><b>Namtar (III)</b></td>
+      <td class="c">0</td>
+      <td class="c">34</td>
+      <td class="c">40</td>
+      <td class="c">0</td>
+      <td class="c">902&ndash;916</td>
+      <td class="c">+6</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">1000</td>
+    </tr><tr>
+      <td colspan=9>2d6 breath, 10d10 stun</td>
+    </tr>
+  </tbody>
 </table>

@@ -33,85 +33,60 @@ There's a teleporter at (00,01), west of your Jail Cell, that will send you stra
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Guards</b></td>
-    <td>15</td>
-    <td>12</td>
-    <td>09</td>
-    <td>10</td>
-    <td>4d6+45</td>
-    <td>49-69</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>220</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>8d8 — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Stosstrupen</b></td>
-    <td>20</td>
-    <td>20</td>
-    <td>20</td>
-    <td>02</td>
-    <td>5d8+45</td>
-    <td>50-85</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>40'</td>
-    <td>180</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>10d12 stun</td>
-  </tr>
-</table>
-Your fellow **Pilgrims** also appear as a monster on this board, but there's no code that triggers an encounter with them.
-
-<table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Pilgrims</b></td>
-    <td>10</td>
-    <td>10</td>
-    <td>10</td>
-    <td>30</td>
-    <td>3d6+22</td>
-    <td>24-34</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>flee</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Guards</b></td>
+      <td class="c">15</td>
+      <td class="c">12</td>
+      <td class="c">09</td>
+      <td class="c">10</td>
+      <td class="c">49&ndash;69</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">220</td>
+    </tr><tr>
+      <td colspan=9>8d8 — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Pilgrims</b></td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">30</td>
+      <td class="c">24&ndash;34</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">50</td>
+    </tr><tr>
+      <td colspan=9>flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Stosstrupen</b></td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">02</td>
+      <td class="c">50&ndash;85</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">40'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>10d12 stun</td>
+    </tr>
+  </tbody>
 </table>

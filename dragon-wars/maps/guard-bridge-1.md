@@ -27,49 +27,47 @@ These exits are correct even if you exit to the East or West from the appropriat
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Bridge Guards</b></td>
-    <td>15</td>
-    <td>20</td>
-    <td>9</td>
-    <td>10</td>
-    <td>10d6+5</td>
-    <td>15-65</td>
-    <td>+20</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>320</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">4d8, call for help — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Rats!</b></td>
-    <td>8</td>
-    <td>18</td>
-    <td>2</td>
-    <td>3</td>
-    <td>1d4+0</td>
-    <td>1-4</td>
-    <td>+6</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>70</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">3d4, flee, 1d4 health</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Bridge Guards</b></td>
+      <td class="c">15</td>
+      <td class="c">20</td>
+      <td class="c">9</td>
+      <td class="c">10</td>
+      <td class="c">15&ndash;65</td>
+      <td class="c">+20</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">320</td>
+    </tr><tr>
+      <td colspan=9>4d8, call for help — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Rats!</b></td>
+      <td class="c">8</td>
+      <td class="c">18</td>
+      <td class="c">2</td>
+      <td class="c">3</td>
+      <td class="c">1&ndash;4</td>
+      <td class="c">+6</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">70</td>
+    </tr><tr>
+      <td colspan=9>3d4, flee, 1d4 health</td>
+    </tr>
+  </tbody>
 </table>

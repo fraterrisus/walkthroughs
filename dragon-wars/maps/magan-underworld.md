@@ -49,277 +49,247 @@ The map is also **dark**, so you'll need to bring a light source with you.
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Ghouls</b></td>
-    <td>12</td>
-    <td>20</td>
-    <td>1</td>
-    <td>1</td>
-    <td>5d6+17</td>
-    <td>22-47</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>110</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d6 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Giant Snakes</b></td>
-    <td>20</td>
-    <td>22</td>
-    <td>1</td>
-    <td>3</td>
-    <td>3d8+12</td>
-    <td>15-36</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 breath, 7d6, flee</td>
-  </tr>
-  <tr>
-    <td><b>Goblins</b></td>
-    <td>10</td>
-    <td>20</td>
-    <td>6</td>
-    <td>10</td>
-    <td>4d4+10</td>
-    <td>14-26</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>90</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">4d6, call for help</td>
-  </tr>
-  <tr>
-    <td><b>Lizard Men</b></td>
-    <td>25</td>
-    <td>20</td>
-    <td>3</td>
-    <td>5</td>
-    <td>4d6+15</td>
-    <td>19-39</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>110</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d6</td>
-  </tr>
-  <tr>
-    <td><b>Serpent Men</b></td>
-    <td>12</td>
-    <td>17</td>
-    <td>3</td>
-    <td>5</td>
-    <td>4d6+15</td>
-    <td>19-39</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>120</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">6d6, flee</td>
-  </tr>
-  <tr>
-    <td><b>Serpent Warriors</b></td>
-    <td>20</td>
-    <td>4</td>
-    <td>8</td>
-    <td>10</td>
-    <td>3d8+20</td>
-    <td>23-44</td>
-    <td>+6</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>110</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d6 x ¼</td>
-  </tr>
-  <tr>
-    <td><b>Skeletons</b></td>
-    <td>8</td>
-    <td>16</td>
-    <td>8</td>
-    <td>8</td>
-    <td>5d8+12</td>
-    <td>17-52</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>120</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d4 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Spiders</b></td>
-    <td>3</td>
-    <td>3</td>
-    <td>1</td>
-    <td>1</td>
-    <td>2d6+12</td>
-    <td>14-24</td>
-    <td>+7</td>
-    <td>+0</td>
-    <td>80'</td>
-    <td>50</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 piercing</td>
-  </tr>
-  <tr>
-    <td><b>Spitting Snakes</b></td>
-    <td>5</td>
-    <td>15</td>
-    <td>5</td>
-    <td>10</td>
-    <td>4d4+15</td>
-    <td>19-31</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>120</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 breath</td>
-  </tr>
-  <tr>
-    <td><b>Vampire Wolves</b></td>
-    <td>13</td>
-    <td>20</td>
-    <td>5</td>
-    <td>10</td>
-    <td>6d8+9</td>
-    <td>15-57</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>130</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d6 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Wraiths</b></td>
-    <td>3</td>
-    <td>15</td>
-    <td>30</td>
-    <td>40</td>
-    <td>5d8+15</td>
-    <td>20-55</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>S:Sun Stroke</i> — undead</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Ghouls</b></td>
+      <td class="c">12</td>
+      <td class="c">20</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">22&ndash;47</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">110</td>
+    </tr><tr>
+      <td colspan="10">7d6 — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Giant Snakes</b></td>
+      <td class="c">20</td>
+      <td class="c">22</td>
+      <td class="c">1</td>
+      <td class="c">3</td>
+      <td class="c">15&ndash;36</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan="10">2d6 breath, 7d6, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Goblins</b></td>
+      <td class="c">10</td>
+      <td class="c">20</td>
+      <td class="c">6</td>
+      <td class="c">10</td>
+      <td class="c">14&ndash;26</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">90</td>
+    </tr><tr>
+      <td colspan="10">4d6, call for help</td>
+    </tr><tr>
+      <td rowspan=2><b>Lizard Men</b></td>
+      <td class="c">25</td>
+      <td class="c">20</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">19&ndash;39</td>
+      <td class="c">+1</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">110</td>
+    </tr><tr>
+      <td colspan="10">7d6</td>
+    </tr><tr>
+      <td rowspan=2><b>Serpent Men</b></td>
+      <td class="c">12</td>
+      <td class="c">17</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">19&ndash;39</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan="10">6d6, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Serpent Warriors</b></td>
+      <td class="c">20</td>
+      <td class="c">4</td>
+      <td class="c">8</td>
+      <td class="c">10</td>
+      <td class="c">23&ndash;44</td>
+      <td class="c">+6</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">110</td>
+    </tr><tr>
+      <td colspan="10">7d6 x ¼</td>
+    </tr><tr>
+      <td rowspan=2><b>Skeletons</b></td>
+      <td class="c">8</td>
+      <td class="c">16</td>
+      <td class="c">8</td>
+      <td class="c">8</td>
+      <td class="c">17&ndash;52</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan="10">10d4 — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Spiders</b></td>
+      <td class="c">3</td>
+      <td class="c">3</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">14&ndash;24</td>
+      <td class="c">+7</td>
+      <td class="c">+0</td>
+      <td class="c">80'</td>
+      <td class="c">50</td>
+    </tr><tr>
+      <td colspan="10">1d4 piercing</td>
+    </tr><tr>
+      <td rowspan=2><b>Spitting Snakes</b></td>
+      <td class="c">5</td>
+      <td class="c">15</td>
+      <td class="c">5</td>
+      <td class="c">10</td>
+      <td class="c">19&ndash;31</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan="10">1d4 breath</td>
+    </tr><tr>
+      <td rowspan=2><b>Vampire Wolves</b></td>
+      <td class="c">13</td>
+      <td class="c">20</td>
+      <td class="c">5</td>
+      <td class="c">10</td>
+      <td class="c">15&ndash;57</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">130</td>
+    </tr><tr>
+      <td colspan="10">7d6 — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Wraiths</b></td>
+      <td class="c">3</td>
+      <td class="c">15</td>
+      <td class="c">30</td>
+      <td class="c">40</td>
+      <td class="c">20&ndash;55</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan="10"><i>S:Sun Stroke</i> — undead</td>
+    </tr>
+  </tbody>
 </table>
+
 Once you're into the Endgame, you have two more fights with Namtar. The first one, near the Recharge Pool, features a bunch of his goblin friends:
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Namtar (I)</b></td>
-    <td>0</td>
-    <td>30</td>
-    <td>0</td>
-    <td>0</td>
-    <td>10d4+200</td>
-    <td>210-240</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>40'</td>
-    <td>2000</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d8</td>
-  </tr>
-  <tr>
-    <td><b>Goblins</b></td>
-    <td>0</td>
-    <td>20</td>
-    <td>0</td>
-    <td>0</td>
-    <td>2d8+25</td>
-    <td>27-41</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d8</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Namtar (I)</b></td>
+      <td class="c">0</td>
+      <td class="c">30</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">210&ndash;240</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">40'</td>
+      <td class="c">2000</td>
+    </tr><tr>
+      <td colspan="10">7d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Goblins</b></td>
+      <td class="c">0</td>
+      <td class="c">20</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">27&ndash;41</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan="10">7d8</td>
+    </tr>
+  </tbody>
 </table>
 
 Finally, you bring Namtar's body to The Pit, where he tries to run away from you (until you hit him for the first time, at least).
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-  <tr>
-    <td><b>Namtar (II)</b></td>
-    <td>0</td>
-    <td>32</td>
-    <td>0</td>
-    <td>0</td>
-    <td>2d8+1000</td>
-    <td>1002-1016</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>40'</td>
-    <td>2000</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">flee, 9d8</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Namtar (II)</b></td>
+      <td class="c">0</td>
+      <td class="c">32</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">1002&ndash;1016</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">40'</td>
+      <td class="c">2000</td>
+    </tr><tr>
+      <td colspan="10">flee, 9d8</td>
+    </tr>
+  </tbody>
 </table>

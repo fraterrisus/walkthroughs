@@ -29,246 +29,230 @@ You can leave on foot in any direction, which brings you to the expected place o
 It seems weird to me that there would be so many supernatural creatures running around King Drake's Game Preserve. Maybe it's Namtar's influence... or maybe Jack's not very good at his job, eh?
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Bush Wizard</b></td>
-    <td>10</td>
-    <td>4</td>
-    <td>30</td>
-    <td>60</td>
-    <td>8d8+25</td>
-    <td>33-89</td>
-    <td>+7</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>240</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>H:Fire Light</i> @2, flee</td>
-  </tr>
-  <tr>
-    <td><b>Elementals</b></td>
-    <td>50</td>
-    <td>4</td>
-    <td>1</td>
-    <td>1</td>
-    <td>10d4+10</td>
-    <td>20-50</td>
-    <td>+6</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>400</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>S:Wrath of Mithras</i>, <i>S:Fire Storm</i></td>
-  </tr>
-  <tr>
-    <td><b>Hell Hounds</b></td>
-    <td>20</td>
-    <td>20</td>
-    <td>3</td>
-    <td>10</td>
-    <td>10d6+20</td>
-    <td>30-80</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>170</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 breath</td>
-  </tr>
-  <tr>
-    <td><b>Ogre</b></td>
-    <td>45</td>
-    <td>10</td>
-    <td>5</td>
-    <td>10</td>
-    <td>8d10+10</td>
-    <td>18-90</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d6, flee — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Spiders</b></td>
-    <td>12</td>
-    <td>22</td>
-    <td>3</td>
-    <td>5</td>
-    <td>2d8+15</td>
-    <td>17-31</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">11d4, 2d4 piercing, flee</td>
-  </tr>
-  <tr>
-    <td><b>Spit Snakes</b></td>
-    <td>40</td>
-    <td>20</td>
-    <td>8</td>
-    <td>10</td>
-    <td>3d20+15</td>
-    <td>18-75</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>160</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 breath, flee — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Wood Spirit</b></td>
-    <td>3</td>
-    <td>12</td>
-    <td>30</td>
-    <td>50</td>
-    <td>4d8+25</td>
-    <td>29-57</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>D:Brambles</i></td>
-  </tr></table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Bush Wizard</b></td>
+      <td class="c">10</td>
+      <td class="c">4</td>
+      <td class="c">30</td>
+      <td class="c">60</td>
+      <td class="c">33&ndash;89</td>
+      <td class="c">+7</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">240</td>
+    </tr><tr>
+      <td colspan=9><i>H:Fire Light</i> @2, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Elementals</b></td>
+      <td class="c">50</td>
+      <td class="c">4</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">20&ndash;50</td>
+      <td class="c">+6</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">400</td>
+    </tr><tr>
+      <td colspan=9><i>S:Wrath of Mithras</i>, <i>S:Fire Storm</i></td>
+    </tr><tr>
+      <td rowspan=2><b>Hell Hounds</b></td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">3</td>
+      <td class="c">10</td>
+      <td class="c">30&ndash;80</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">170</td>
+    </tr><tr>
+      <td colspan=9>2d4 breath</td>
+    </tr><tr>
+      <td rowspan=2><b>Ogre</b></td>
+      <td class="c">45</td>
+      <td class="c">10</td>
+      <td class="c">5</td>
+      <td class="c">10</td>
+      <td class="c">18&ndash;90</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>8d6, flee — can't be disarmed</td>
+    </tr><tr>
+      <td rowspan=2><b>Spiders</b></td>
+      <td class="c">12</td>
+      <td class="c">22</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">17&ndash;31</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>11d4, 2d4 piercing, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Spit Snakes</b></td>
+      <td class="c">40</td>
+      <td class="c">20</td>
+      <td class="c">8</td>
+      <td class="c">10</td>
+      <td class="c">18&ndash;75</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">160</td>
+    </tr><tr>
+      <td colspan=9>2d6 breath, flee — can't be disarmed</td>
+    </tr><tr>
+      <td rowspan=2><b>Wood Spirit</b></td>
+      <td class="c">3</td>
+      <td class="c">12</td>
+      <td class="c">30</td>
+      <td class="c">50</td>
+      <td class="c">29&ndash;57</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9><i>D:Brambles</i></td>
+    </tr>
+  </tbody>
+</table>
 
 The Stag:
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Stag</b></td>
-    <td>20</td>
-    <td>24</td>
-    <td>8</td>
-    <td>20</td>
-    <td>4d8+0</td>
-    <td>4-32</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>00'</td>
-    <td>1</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">4d4</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Stag</b></td>
+      <td class="c">20</td>
+      <td class="c">24</td>
+      <td class="c">8</td>
+      <td class="c">20</td>
+      <td class="c">4&ndash;32</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">00'</td>
+      <td class="c">1</td>
+    </tr><tr>
+      <td colspan=9>4d4</td>
+    </tr>
+  </tbody>
 </table>
 
 The bandit party:
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Bandits</b></td>
-    <td>20</td>
-    <td>15</td>
-    <td>5</td>
-    <td>10</td>
-    <td>8d8+15</td>
-    <td>23-79</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>160</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d6, dodge, flee</td>
-  </tr>
-  <tr>
-    <td><b>Bandit Leader</b></td>
-    <td>35</td>
-    <td>30</td>
-    <td>15</td>
-    <td>30</td>
-    <td>10d8+30</td>
-    <td>40-110</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>220</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d8 breath, 5d6, dodge, 5d6 piercing — awards gold</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Bandits</b></td>
+      <td class="c">20</td>
+      <td class="c">15</td>
+      <td class="c">5</td>
+      <td class="c">10</td>
+      <td class="c">23&ndash;79</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">160</td>
+    </tr><tr>
+      <td colspan=9>8d6, dodge, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Bandit Leader</b></td>
+      <td class="c">35</td>
+      <td class="c">30</td>
+      <td class="c">15</td>
+      <td class="c">30</td>
+      <td class="c">40&ndash;110</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">220</td>
+    </tr><tr>
+      <td colspan=9>1d8 breath, 5d6, dodge, 5d6 piercing — awards gold</td>
+    </tr>
+  </tbody>
 </table>
 
 The forest's warden:
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Old Jack</b></td>
-    <td>20</td>
-    <td>24</td>
-    <td>12</td>
-    <td>30</td>
-    <td>8d8+15</td>
-    <td>23-79</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>400</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d6 piercing</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Old Jack</b></td>
+      <td class="c">20</td>
+      <td class="c">24</td>
+      <td class="c">12</td>
+      <td class="c">30</td>
+      <td class="c">23&ndash;79</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">400</td>
+    </tr><tr>
+      <td colspan=9>1d6 piercing</td>
+    </tr>
+  </tbody>
 </table>

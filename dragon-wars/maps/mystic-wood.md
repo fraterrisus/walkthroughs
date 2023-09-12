@@ -39,146 +39,126 @@ Enkidu's library: *D:Death Curse, D:Fire Blast, D:Insect Plague, D:Whirl Wind, D
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Dire Wolves</b></td>
-    <td>20</td>
-    <td>20</td>
-    <td>3</td>
-    <td>10</td>
-    <td>5d6+6</td>
-    <td>11-36</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>220</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d6, 4d6, flee</td>
-  </tr>
-  <tr>
-    <td><b>Earth Men</b></td>
-    <td>45</td>
-    <td>16</td>
-    <td>5</td>
-    <td>10</td>
-    <td>5d10+10</td>
-    <td>15-60</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d10 stun, call for help, flee — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Lagooners</b></td>
-    <td>50</td>
-    <td>23</td>
-    <td>1</td>
-    <td>1</td>
-    <td>10d4+20</td>
-    <td>30-60</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>300</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d6 stun</td>
-  </tr>
-  <tr>
-    <td><b>Old Guys</b></td>
-    <td>10</td>
-    <td>15</td>
-    <td>30</td>
-    <td>60</td>
-    <td>6d6+15</td>
-    <td>21-51</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>240</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>H:Fire Light</i> @2, <i>H:Ice Chill</i> @2, flee</td>
-  </tr>
-  <tr>
-    <td><b>Rock Men</b></td>
-    <td>10</td>
-    <td>20</td>
-    <td>30</td>
-    <td>30</td>
-    <td>6d6+6</td>
-    <td>12-42</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>400</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 breath</td>
-  </tr>
-  <tr>
-    <td><b>Water Spirits</b></td>
-    <td>3</td>
-    <td>15</td>
-    <td>30</td>
-    <td>50</td>
-    <td>2d10+30</td>
-    <td>32-50</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 breath, 7d8 stun</td>
-  </tr>
-  <tr>
-    <td><b>Wild Dogs</b></td>
-    <td>20</td>
-    <td>14</td>
-    <td>8</td>
-    <td>10</td>
-    <td>4d8+10</td>
-    <td>14-42</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">4d8, 3d8, flee</td>
-  </tr>
-  <tr>
-    <td><b>Wild Dogs</b></td>
-    <td>12</td>
-    <td>19</td>
-    <td>3</td>
-    <td>5</td>
-    <td>6d6+3</td>
-    <td>9-39</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>100</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">4d8, 3d8, 3d8 health, flee</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Dire Wolves</b></td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">3</td>
+      <td class="c">10</td>
+      <td class="c">11&ndash;36</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">220</td>
+    </tr><tr>
+      <td colspan=9>5d6, 4d6, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Earth Men</b></td>
+      <td class="c">45</td>
+      <td class="c">16</td>
+      <td class="c">5</td>
+      <td class="c">10</td>
+      <td class="c">15&ndash;60</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>5d10 stun, call for help, flee — can't be disarmed</td>
+    </tr><tr>
+      <td rowspan=2><b>Lagooners</b></td>
+      <td class="c">50</td>
+      <td class="c">23</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">30&ndash;60</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">300</td>
+    </tr><tr>
+      <td colspan=9>10d6 stun</td>
+    </tr><tr>
+      <td rowspan=2><b>Old Guys</b></td>
+      <td class="c">10</td>
+      <td class="c">15</td>
+      <td class="c">30</td>
+      <td class="c">60</td>
+      <td class="c">21&ndash;51</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">240</td>
+    </tr><tr>
+      <td colspan=9><i>H:Fire Light</i> @2, <i>H:Ice Chill</i> @2, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Rock Men</b></td>
+      <td class="c">10</td>
+      <td class="c">20</td>
+      <td class="c">30</td>
+      <td class="c">30</td>
+      <td class="c">12&ndash;42</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">400</td>
+    </tr><tr>
+      <td colspan=9>2d4 breath</td>
+    </tr><tr>
+      <td rowspan=2><b>Water Spirits</b></td>
+      <td class="c">3</td>
+      <td class="c">15</td>
+      <td class="c">30</td>
+      <td class="c">50</td>
+      <td class="c">32&ndash;50</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9>2d4 breath, 7d8 stun</td>
+    </tr><tr>
+      <td rowspan=2><b>Wild Dogs</b></td>
+      <td class="c">20</td>
+      <td class="c">14</td>
+      <td class="c">8</td>
+      <td class="c">10</td>
+      <td class="c">14&ndash;42</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9>4d8, 3d8, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Wild Dogs</b></td>
+      <td class="c">12</td>
+      <td class="c">19</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">9&ndash;39</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">100</td>
+    </tr><tr>
+      <td colspan=9>4d8, 3d8, 3d8 health, flee</td>
+    </tr>
+  </tbody>
 </table>
 

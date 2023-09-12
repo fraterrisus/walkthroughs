@@ -35,51 +35,47 @@ However, on the way back out, you have a much more difficult fight at (05,07).
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Guards</b></td>
-    <td>12</td>
-    <td>16</td>
-    <td>10</td>
-    <td>10</td>
-    <td>6d6+8</td>
-    <td>14-44</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>190</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>6d6, 5d6 stun, block, call for help – awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Pikemen</b></td>
-    <td>15</td>
-    <td>15</td>
-    <td>09</td>
-    <td>10</td>
-    <td>6d6+3</td>
-    <td>9-39</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>6d6, 5d8 stun – awards gold</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Guards</b></td>
+      <td class="c">12</td>
+      <td class="c">16</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">14&ndash;44</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">190</td>
+    </tr><tr>
+      <td colspan=9>6d6, 5d6 stun, block, call for help – awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Pikemen</b></td>
+      <td class="c">15</td>
+      <td class="c">15</td>
+      <td class="c">09</td>
+      <td class="c">10</td>
+      <td class="c">9&ndash;39</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9>6d6, 5d8 stun – awards gold</td>
+    </tr>
+  </tbody>
 </table>

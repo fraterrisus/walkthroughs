@@ -10,7 +10,7 @@ Another small, wrapping dungeon map with a spinner, much like the Tars Dungeon. 
 
 ## Points of Interest
 
-**The Magic Clam (01,06):** (Settle down.) The Skull of Roba is inside. When the game offers to let you take the Skull, say no, otherwise the clam shell crunches you for 1d3 damage. Take the entire Clam instead. When next you climb the stairs to the upper level, the Clam melts away and leaves you with **Roba's Skull**.
+**The Magic Clam (01,06):** (Settle down.) The skull of Roba is inside. When the game offers to let you take the skull, say no, otherwise the clam shell crunches you for 1d3 damage. Take the entire Clam instead. When next you climb the stairs to the upper level, the Clam melts away and leaves you with **Roba's Skull**.
 
 **The Secret Closet (04,02):** A locked chest (difficulty 4) with scrolls of *H:Earth Summon, H:Air Summon, H:Water Summon*, and ten **Dragon Stones**.
 
@@ -19,113 +19,99 @@ Another small, wrapping dungeon map with a spinner, much like the Tars Dungeon. 
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Bloated Corpses</b></td>
-    <td>0</td>
-    <td>24</td>
-    <td>0</td>
-    <td>0</td>
-    <td>5d8+30</td>
-    <td>35-70</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>300</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d8</td>
-  </tr>
-  <tr>
-    <td><b>Goblin Beach Bums</b></td>
-    <td>10</td>
-    <td>16</td>
-    <td>5</td>
-    <td>5</td>
-    <td>5d4+20</td>
-    <td>25-40</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>40'</td>
-    <td>120</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">6d8, flee</td>
-  </tr>
-  <tr>
-    <td><b>Lagooners</b></td>
-    <td>50</td>
-    <td>30</td>
-    <td>1</td>
-    <td>50</td>
-    <td>5d12+25</td>
-    <td>30-85</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>120'</td>
-    <td>320</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d8 — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Sea Snakes</b></td>
-    <td>15</td>
-    <td>15</td>
-    <td>3</td>
-    <td>3</td>
-    <td>4d6+15</td>
-    <td>19-39</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>140</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d6</td>
-  </tr>
-  <tr>
-    <td><b>Sea Spiders</b></td>
-    <td>10</td>
-    <td>10</td>
-    <td>10</td>
-    <td>30</td>
-    <td>2d6+30</td>
-    <td>32-42</td>
-    <td>+6</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d8</td>
-  </tr>
-  <tr>
-    <td><b>Serpent Swimmers</b></td>
-    <td>20</td>
-    <td>22</td>
-    <td>20</td>
-    <td>2</td>
-    <td>7d8+45</td>
-    <td>52-101</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>40'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">12d4</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Bloated Corpses</b></td>
+      <td class="c">0</td>
+      <td class="c">24</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">35&ndash;70</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">300</td>
+    </tr><tr>
+      <td colspan=9>8d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Goblin Beach Bums</b></td>
+      <td class="c">10</td>
+      <td class="c">16</td>
+      <td class="c">5</td>
+      <td class="c">5</td>
+      <td class="c">25&ndash;40</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">40'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>6d8, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Lagooners</b></td>
+      <td class="c">50</td>
+      <td class="c">30</td>
+      <td class="c">1</td>
+      <td class="c">50</td>
+      <td class="c">30&ndash;85</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">120'</td>
+      <td class="c">320</td>
+    </tr><tr>
+      <td colspan=9>7d8 — can't be disarmed</td>
+    </tr><tr>
+      <td rowspan=2><b>Sea Snakes</b></td>
+      <td class="c">15</td>
+      <td class="c">15</td>
+      <td class="c">3</td>
+      <td class="c">3</td>
+      <td class="c">19&ndash;39</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">140</td>
+    </tr><tr>
+      <td colspan=9>7d6</td>
+    </tr><tr>
+      <td rowspan=2><b>Sea Spiders</b></td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">30</td>
+      <td class="c">32&ndash;42</td>
+      <td class="c">+6</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>7d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Serpent Swimmers</b></td>
+      <td class="c">20</td>
+      <td class="c">22</td>
+      <td class="c">20</td>
+      <td class="c">2</td>
+      <td class="c">52&ndash;101</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">40'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>12d4</td>
+    </tr>
+  </tbody>
 </table>

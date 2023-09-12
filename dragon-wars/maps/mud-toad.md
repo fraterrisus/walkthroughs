@@ -33,170 +33,138 @@ There's also the hidden staircase down to [Lanac'toor's Laboratory](lanactoor.md
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Crazed Militamen</b></td>
-    <td>15</td>
-    <td>15</td>
-    <td>09</td>
-    <td>10</td>
-    <td>6d8+17</td>
-    <td>23-65</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>150</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>7d6 – awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Frothy Swamp Dogs</b></td>
-    <td>12</td>
-    <td>40</td>
-    <td>03</td>
-    <td>05</td>
-    <td>4d6+20</td>
-    <td>24-44</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>170</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>1d6 breath, flee</td>
-  </tr>
-  <tr>
-    <td><b>Loopy Citizens</b></td>
-    <td>10</td>
-    <td>10</td>
-    <td>10</td>
-    <td>30</td>
-    <td>6d6+15</td>
-    <td>21-51</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>120</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>flee</td>
-  </tr>
-  <tr>
-    <td><b>Robbers</b></td>
-    <td>05</td>
-    <td>15</td>
-    <td>05</td>
-    <td>05</td>
-    <td>1d10+20</td>
-    <td>21-30</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>150</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>7d6, 10d10 stun, call for help, flee</td>
-  </tr>
-  <tr>
-    <td><b>Snap Turtles</b></td>
-    <td>12</td>
-    <td>10</td>
-    <td>01</td>
-    <td>01</td>
-    <td>5d8+20</td>
-    <td>25-60</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>7d6</td>
-  </tr>
-  <tr>
-    <td><b>Swamp Dogs</b></td>
-    <td>20</td>
-    <td>40</td>
-    <td>03</td>
-    <td>03</td>
-    <td>4d10+20</td>
-    <td>24-60</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>60'</td>
-    <td>150</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>1d6 breath, 8d6</td>
-  </tr>
-  <tr>
-    <td><b>Swamp Rats</b></td>
-    <td>15</td>
-    <td>12</td>
-    <td>03</td>
-    <td>06</td>
-    <td>4d10+20</td>
-    <td>24-60</td>
-    <td>+12</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>120</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>8d6, dodge, flee</td>
-  </tr>
-  <tr>
-    <td><b>Swamp Turtles</b></td>
-    <td>08</td>
-    <td>24</td>
-    <td>03</td>
-    <td>03</td>
-    <td>3d10+20</td>
-    <td>23-50</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>160</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>10d4</td>
-  </tr>
-  <tr>
-    <td><b>Thieves</b></td>
-    <td>10</td>
-    <td>18</td>
-    <td>12</td>
-    <td>14</td>
-    <td>6d8+25</td>
-    <td>31-73</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>120</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>1d4 x ¼, 10d8 stun, 3d4, 3d4 piercing</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Crazed Militamen</b></td>
+      <td class="c">15</td>
+      <td class="c">15</td>
+      <td class="c">09</td>
+      <td class="c">10</td>
+      <td class="c">23&ndash;65</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>7d6 – awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Frothy Swamp Dogs</b></td>
+      <td class="c">12</td>
+      <td class="c">40</td>
+      <td class="c">03</td>
+      <td class="c">05</td>
+      <td class="c">24&ndash;44</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">170</td>
+    </tr><tr>
+      <td colspan=9>1d6 breath, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Loopy Citizens</b></td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">30</td>
+      <td class="c">21&ndash;51</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Robbers</b></td>
+      <td class="c">05</td>
+      <td class="c">15</td>
+      <td class="c">05</td>
+      <td class="c">05</td>
+      <td class="c">21&ndash;30</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>7d6, 10d10 stun, call for help, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Snap Turtles</b></td>
+      <td class="c">12</td>
+      <td class="c">10</td>
+      <td class="c">01</td>
+      <td class="c">01</td>
+      <td class="c">25&ndash;60</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>7d6</td>
+    </tr><tr>
+      <td rowspan=2><b>Swamp Dogs</b></td>
+      <td class="c">20</td>
+      <td class="c">40</td>
+      <td class="c">03</td>
+      <td class="c">03</td>
+      <td class="c">24&ndash;60</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">60'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>1d6 breath, 8d6</td>
+    </tr><tr>
+      <td rowspan=2><b>Swamp Rats</b></td>
+      <td class="c">15</td>
+      <td class="c">12</td>
+      <td class="c">03</td>
+      <td class="c">06</td>
+      <td class="c">24&ndash;60</td>
+      <td class="c">+12</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>8d6, dodge, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Swamp Turtles</b></td>
+      <td class="c">08</td>
+      <td class="c">24</td>
+      <td class="c">03</td>
+      <td class="c">03</td>
+      <td class="c">23&ndash;50</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">160</td>
+    </tr><tr>
+      <td colspan=9>10d4</td>
+    </tr><tr>
+      <td rowspan=2><b>Thieves</b></td>
+      <td class="c">10</td>
+      <td class="c">18</td>
+      <td class="c">12</td>
+      <td class="c">14</td>
+      <td class="c">31&ndash;73</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>1d4 x ¼, 10d8 stun, 3d4, 3d4 piercing</td>
+    </tr>
+  </tbody>
 </table>

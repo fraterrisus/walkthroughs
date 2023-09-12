@@ -37,84 +37,81 @@ If you start out by reanimating the clan, all the combat down here goes away.
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Automata</b></td>
-    <td>99</td>
-    <td>22</td>
-    <td>05</td>
-    <td>10</td>
-    <td>10d10+100</td>
-    <td>110-200</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>500</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>8d8 at 150'</td>
-  </tr>
-  <tr>
-    <td><b>Gorgon</b></td>
-    <td>20</td>
-    <td>20</td>
-    <td>20</td>
-    <td>00</td>
-    <td>5d8+75</td>
-    <td>80-115</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>500</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>2d6 breath</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Automata</b></td>
+      <td class="c">99</td>
+      <td class="c">22</td>
+      <td class="c">05</td>
+      <td class="c">10</td>
+      <td class="c">110&ndash;200</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">500</td>
+    </tr><tr>
+      <td colspan=9>8d8 at 150'</td>
+    </tr><tr>
+      <td rowspan=2><b>Gorgon</b></td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">00</td>
+      <td class="c">80&ndash;115</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">500</td>
+    </tr><tr>
+      <td colspan=9>2d6 breath</td>
+    </tr>
+  </tbody>
 </table>    
+
 There's a whole encounter set up for the Dwarves to attack you if you steal from them before reviving them, but technically this is an easter egg because there's no trigger in the code:
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr><tr>
-    <td><b>Dwarves</b></td>
-    <td>24</td>
-    <td>25</td>
-    <td>09</td>
-    <td>10</td>
-    <td>4d8+35</td>
-    <td>39-67</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>180</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>8d8, 2d4 breath</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody><tr>
+      <td rowspan=2><b>Dwarves</b></td>
+      <td class="c">24</td>
+      <td class="c">25</td>
+      <td class="c">09</td>
+      <td class="c">10</td>
+      <td class="c">39&ndash;67</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>8d8, 2d4 breath</td>
+    </tr>
+  </tbody>
 </table>

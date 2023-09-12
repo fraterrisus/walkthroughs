@@ -23,113 +23,99 @@ If you're coming from the east, the flag that forces you to fight the Scorpions 
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Bears</b></td>
-    <td>45</td>
-    <td>16</td>
-    <td>5</td>
-    <td>10</td>
-    <td>8d10+10</td>
-    <td>18-90</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d8 stun — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Bridge Wolves</b></td>
-    <td>20</td>
-    <td>20</td>
-    <td>3</td>
-    <td>10</td>
-    <td>5d6+25</td>
-    <td>30-55</td>
-    <td>+8</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>160</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">6d8</td>
-  </tr>
-  <tr>
-    <td><b>Cave Bears</b></td>
-    <td>20</td>
-    <td>10</td>
-    <td>8</td>
-    <td>10</td>
-    <td>3d8+25</td>
-    <td>28-49</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d8, flee</td>
-  </tr>
-  <tr>
-    <td><b>Evil Spirits</b></td>
-    <td>3</td>
-    <td>12</td>
-    <td>30</td>
-    <td>50</td>
-    <td>10d4+0</td>
-    <td>10-40</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>L:Mage Fire</i></td>
-  </tr>
-  <tr>
-    <td><b>Scorpions</b></td>
-    <td>60</td>
-    <td>60</td>
-    <td>60</td>
-    <td>60</td>
-    <td>10d12+12</td>
-    <td>22-132</td>
-    <td>+6</td>
-    <td>+0</td>
-    <td>60'</td>
-    <td>500</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d8</td>
-  </tr>
-  <tr>
-    <td><b>Wild Dogs</b></td>
-    <td>12</td>
-    <td>28</td>
-    <td>3</td>
-    <td>5</td>
-    <td>3d6+20</td>
-    <td>23-38</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">6d8</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Bears</b></td>
+      <td class="c">45</td>
+      <td class="c">16</td>
+      <td class="c">5</td>
+      <td class="c">10</td>
+      <td class="c">18&ndash;90</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>10d8 stun — can't be disarmed</td>
+    </tr><tr>
+      <td rowspan=2><b>Bridge Wolves</b></td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">3</td>
+      <td class="c">10</td>
+      <td class="c">30&ndash;55</td>
+      <td class="c">+8</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">160</td>
+    </tr><tr>
+      <td colspan=9>6d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Cave Bears</b></td>
+      <td class="c">20</td>
+      <td class="c">10</td>
+      <td class="c">8</td>
+      <td class="c">10</td>
+      <td class="c">28&ndash;49</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>8d8, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Evil Spirits</b></td>
+      <td class="c">3</td>
+      <td class="c">12</td>
+      <td class="c">30</td>
+      <td class="c">50</td>
+      <td class="c">10&ndash;40</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9><i>L:Mage Fire</i></td>
+    </tr><tr>
+      <td rowspan=2><b>Scorpions</b></td>
+      <td class="c">60</td>
+      <td class="c">60</td>
+      <td class="c">60</td>
+      <td class="c">60</td>
+      <td class="c">22&ndash;132</td>
+      <td class="c">+6</td>
+      <td class="c">+0</td>
+      <td class="c">60'</td>
+      <td class="c">500</td>
+    </tr><tr>
+      <td colspan=9>8d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Wild Dogs</b></td>
+      <td class="c">12</td>
+      <td class="c">28</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">23&ndash;38</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>6d8</td>
+    </tr>
+  </tbody>
 </table>

@@ -29,97 +29,86 @@ You can plunge into the [Depths of the Nisir](nisir.md) at (13,02 - 14,03).
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-<tr>
-    <td><b>Guards</b></td>
-    <td>15</td>
-    <td>12</td>
-    <td>9</td>
-    <td>10</td>
-    <td>4d10+60</td>
-    <td>64-100</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d8 — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Pilgrims</b></td>
-    <td>10</td>
-    <td>10</td>
-    <td>10</td>
-    <td>30</td>
-    <td>2d6+24</td>
-    <td>26-36</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>50</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">flee</td>
-  </tr>
-<tr>
-    <td><b>Rock Men</b></td>
-    <td>20</td>
-    <td>18</td>
-    <td>8</td>
-    <td>10</td>
-    <td>4d10+56</td>
-    <td>60-96</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>220</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d8</td>
-  </tr>
-  <tr>
-    <td><b>Stosstrupen</b></td>
-    <td>20</td>
-    <td>20</td>
-    <td>20</td>
-    <td>2</td>
-    <td>5d8+50</td>
-    <td>55-90</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d12 stun</td>
-  </tr>
-  <tr>
-    <td><b>Warriors</b></td>
-    <td>12</td>
-    <td>28</td>
-    <td>3</td>
-    <td>5</td>
-    <td>4d8+45</td>
-    <td>49-77</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d8 — awards gold, but I think they're an easter egg</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Guards</b></td>
+      <td class="c">15</td>
+      <td class="c">12</td>
+      <td class="c">9</td>
+      <td class="c">10</td>
+      <td class="c">64&ndash;100</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9>8d8 — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Pilgrims</b></td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">30</td>
+      <td class="c">26&ndash;36</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">50</td>
+    </tr><tr>
+      <td colspan=9>flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Rock Men</b></td>
+      <td class="c">20</td>
+      <td class="c">18</td>
+      <td class="c">8</td>
+      <td class="c">10</td>
+      <td class="c">60&ndash;96</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">220</td>
+    </tr><tr>
+      <td colspan=9>8d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Stosstrupen</b></td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">20</td>
+      <td class="c">2</td>
+      <td class="c">55&ndash;90</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>10d12 stun</td>
+    </tr><tr>
+      <td rowspan=2><b>Warriors</b></td>
+      <td class="c">12</td>
+      <td class="c">28</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">49&ndash;77</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9>8d8 — awards gold, but I think they're an easter egg</td>
+    </tr>
+  </tbody>
 </table>

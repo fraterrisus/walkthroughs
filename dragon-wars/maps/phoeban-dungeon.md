@@ -33,119 +33,100 @@ To slip past the guards, go to (10,05) and use *Hide*. This reveals the secret d
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Dungeon Guards</b></td>
-    <td>12</td>
-    <td>16</td>
-    <td>10</td>
-    <td>10</td>
-    <td>4d8+3</td>
-    <td>7-35</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>190</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>5d6, block, call for help
-  </tr>
-  <tr>
-    <td><b>Dungeon Patrolers</b></td>
-    <td>15</td>
-    <td>17</td>
-    <td>09</td>
-    <td>10</td>
-    <td>4d6+3</td>
-    <td>7-27</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>180</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>4d8, 5d8 stun, call for help</td>
-  </tr>
-  <tr>
-    <td><b>Guard Captains</b></td>
-    <td>33</td>
-    <td>22</td>
-    <td>10</td>
-    <td>10</td>
-    <td>6d6+6</td>
-    <td>12-42</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>220</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>3d10</td>
-  </tr>  <tr>
-    <td><b>Mystalvision</b></td>
-    <td>20</td>
-    <td>23</td>
-    <td>60</td>
-    <td>75</td>
-    <td>8d6+6</td>
-    <td>14-54</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>700</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10><i>D:Elvar's Fire</i> @3, <i>D:Whirl Wind</i></td>
-  </tr>
-  <tr>
-    <td><b>Mystal's Boys</b></td>
-    <td>18</td>
-    <td>18</td>
-    <td>18</td>
-    <td>18</td>
-    <td>5d6+15</td>
-    <td>20-45</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>9d6 stun, call for help</td>
-  </tr>
-  <tr>
-    <td><b>Old Jailor</b></td>
-    <td>12</td>
-    <td>20</td>
-    <td>14</td>
-    <td>30</td>
-    <td>6d6+6</td>
-    <td>12-42</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>180</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>5d6 stun, 3d6, dodge</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Dungeon Guards</b></td>
+      <td class="c">12</td>
+      <td class="c">16</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">7&ndash;35</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">190</td>
+    </tr><tr>
+      <td colspan=9>5d6, block, call for help</td>
+    </tr><tr>
+      <td rowspan=2><b>Dungeon Patrolers</b></td>
+      <td class="c">15</td>
+      <td class="c">17</td>
+      <td class="c">09</td>
+      <td class="c">10</td>
+      <td class="c">7&ndash;27</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>4d8, 5d8 stun, call for help</td>
+    </tr><tr>
+      <td rowspan=2><b>Guard Captains</b></td>
+      <td class="c">33</td>
+      <td class="c">22</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">12&ndash;42</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">220</td>
+    </tr><tr>
+      <td colspan=9>3d10</td>
+    </tr>  <tr>
+      <td rowspan=2><b>Mystalvision</b></td>
+      <td class="c">20</td>
+      <td class="c">23</td>
+      <td class="c">60</td>
+      <td class="c">75</td>
+      <td class="c">14&ndash;54</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">700</td>
+    </tr><tr>
+      <td colspan=9><i>D:Elvar's Fire</i> @3, <i>D:Whirl Wind</i></td>
+    </tr><tr>
+      <td rowspan=2><b>Mystal's Boys</b></td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">20&ndash;45</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9>9d6 stun, call for help</td>
+    </tr><tr>
+      <td rowspan=2><b>Old Jailor</b></td>
+      <td class="c">12</td>
+      <td class="c">20</td>
+      <td class="c">14</td>
+      <td class="c">30</td>
+      <td class="c">12&ndash;42</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>5d6 stun, 3d6, dodge</td>
+    </tr>
+  </tbody>
 </table>
 

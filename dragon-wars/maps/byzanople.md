@@ -47,97 +47,108 @@ The game's item data on the Fire Shield (both this one and the one you find in t
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Guards</b></td>
-    <td>12</td>
-    <td>13</td>
-    <td>10</td>
-    <td>10</td>
-    <td>3d6+3</td>
-    <td>6-21</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>120</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d6, block, call for help — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Hydra</b></td>
-    <td>18</td>
-    <td>30</td>
-    <td>1</td>
-    <td>10</td>
-    <td>8d4+90</td>
-    <td>98-122</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>500</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 breath</td>
-  </tr>
-  <tr>
-    <td><b>Pikemen</b></td>
-    <td>15</td>
-    <td>15</td>
-    <td>9</td>
-    <td>10</td>
-    <td>6d6+12</td>
-    <td>18-48</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>120</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d6, 5d8 x ¼, 5d8 piercing, call for help — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Princess Myrilla</b></td>
-    <td>12</td>
-    <td>24</td>
-    <td>14</td>
-    <td>30</td>
-    <td>6d6+6</td>
-    <td>12-42</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>300</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">6d6, <i>L:Mage Fire</i></td>
-  </tr>
-  <tr>
-    <td><b>Royal Guards</b></td>
-    <td>18</td>
-    <td>18</td>
-    <td>18</td>
-    <td>18</td>
-    <td>5d6+6</td>
-    <td>11-36</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d6 piercing, 7d6 stun, <i>L:Mage Fire</i>, call for help — awards gold</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Guards</b></td>
+      <td class="c">12</td>
+      <td class="c">13</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">6&ndash;21</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>5d6, block, call for help — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Hydra</b></td>
+      <td class="c">18</td>
+      <td class="c">30</td>
+      <td class="c">1</td>
+      <td class="c">10</td>
+      <td class="c">98&ndash;122</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">500</td>
+    </tr><tr>
+      <td colspan=9>2d6 breath</td>
+    </tr><tr>
+      <td rowspan=2><b>Pikemen</b></td>
+      <td class="c">15</td>
+      <td class="c">15</td>
+      <td class="c">9</td>
+      <td class="c">10</td>
+      <td class="c">18&ndash;48</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>5d6, 5d8 x ¼, 5d8 piercing, call for help — awards gold</td>
+    </tr>
+  </tbody>
+</table>
+
+If you decide to fight the Byzanople army:
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Princess Myrilla</b></td>
+      <td class="c">12</td>
+      <td class="c">24</td>
+      <td class="c">14</td>
+      <td class="c">30</td>
+      <td class="c">12&ndash;42</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">300</td>
+    </tr><tr>
+      <td colspan=9>6d6, <i>L:Mage Fire</i></td>
+    </tr><tr>
+      <td rowspan=2><b>Royal Guards</b></td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">11&ndash;36</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>5d6 piercing, 7d6 stun, <i>L:Mage Fire</i>, call for help — awards gold</td>
+    </tr>
+  </tbody>
 </table>

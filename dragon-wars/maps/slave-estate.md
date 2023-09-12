@@ -35,7 +35,6 @@ You can't take the stairs down to the [Slave Mines](slave-mines.md), but if you 
     <th>DEX</th>
     <th>INT</th>
     <th>SPR</th>
-    <th>HD</th>
     <th>HP</th>
     <th>AV</th>
     <th>DV</th>
@@ -43,36 +42,32 @@ You can't take the stairs down to the [Slave Mines](slave-mines.md), but if you 
     <th>XP</th>
   </tr>
   <tr>
-    <td><b>Goblins</b></td>
-    <td>12</td>
-    <td>14</td>
-    <td>10</td>
-    <td>10</td>
-    <td>3d6+3</td>
-    <td>6-21</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>90</td>
+    <td rowspan=2><b>Goblins</b></td>
+    <td class="c">12</td>
+    <td class="c">14</td>
+    <td class="c">10</td>
+    <td class="c">10</td>
+    <td class="c">6&ndash;21</td>
+    <td class="c">+1</td>
+    <td class="c">+0</td>
+    <td class="c">10'</td>
+    <td class="c">90</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">3d6</td>
+    <td colspan=9>3d6</td>
   </tr>
   <tr>
-    <td><b>Snakes</b></td>
-    <td>18</td>
-    <td>22</td>
-    <td>18</td>
-    <td>18</td>
-    <td>5d6+6</td>
-    <td>11-36</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>200</td>
+    <td rowspan=2><b>Snakes</b></td>
+    <td class="c">18</td>
+    <td class="c">22</td>
+    <td class="c">18</td>
+    <td class="c">18</td>
+    <td class="c">11&ndash;36</td>
+    <td class="c">+2</td>
+    <td class="c">+0</td>
+    <td class="c">10'</td>
+    <td class="c">200</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">2d10, 3d6, <i>H:Fire Light</i> @3, call for help</td>
+    <td colspan=9>2d10, 3d6, <i>H:Fire Light</i> @3, call for help</td>
   </tr>
 </table>
 
@@ -85,7 +80,6 @@ There are two Gaze Demons in the board data, and two encounters (one where he sh
     <th>DEX</th>
     <th>INT</th>
     <th>SPR</th>
-    <th>HD</th>
     <th>HP</th>
     <th>AV</th>
     <th>DV</th>
@@ -93,35 +87,31 @@ There are two Gaze Demons in the board data, and two encounters (one where he sh
     <th>XP</th>
   </tr>
   <tr>
-    <td><b>Gaze Demon</b></td>
-    <td>20</td>
-    <td>24</td>
-    <td>20</td>
-    <td>50</td>
-    <td>5d12+50</td>
-    <td>55-110</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>400</td>
+    <td rowspan=2><b>Gaze Demon</b></td>
+    <td class="c">20</td>
+    <td class="c">24</td>
+    <td class="c">20</td>
+    <td class="c">50</td>
+    <td class="c">55&ndash;110</td>
+    <td class="c">+1</td>
+    <td class="c">+0</td>
+    <td class="c">50'</td>
+    <td class="c">400</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 breath, 3d6</td>
+    <td colspan=9>2d6 breath, 3d6</td>
   </tr>
   <tr>
-    <td><b>Gaze Demon<br/>(easter egg)</b></td>
-    <td>0</td>
-    <td>24</td>
-    <td>0</td>
-    <td>0</td>
-    <td>5d12+50</td>
-    <td>55-110</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>400</td>
+    <td rowspan=2><b>Gaze Demon<br/>(easter egg)</b></td>
+    <td class="c">0</td>
+    <td class="c">24</td>
+    <td class="c">0</td>
+    <td class="c">0</td>
+    <td class="c">55&ndash;110</td>
+    <td class="c">+1</td>
+    <td class="c">+0</td>
+    <td class="c">50'</td>
+    <td class="c">400</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">3d6 breath, 3d6</td>
+    <td colspan=9>3d6 breath, 3d6</td>
   </tr>
 </table>

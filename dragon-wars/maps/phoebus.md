@@ -37,170 +37,160 @@ If you've already been to the [Nisir](nisir.md) and killed Mystalvision there, h
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Dirty Rats</b></td>
-    <td>08</td>
-    <td>19</td>
-    <td>03</td>
-    <td>03</td>
-    <td>1d6+0</td>
-    <td>1-6</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>4d4, flee</td>
-  </tr>
-  <tr>
-    <td><b>Mad Dogs</b></td>
-    <td>12</td>
-    <td>22</td>
-    <td>03</td>
-    <td>05</td>
-    <td>4d6+3</td>
-    <td>7-27</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>70</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>3d8, 3d8 health, flee</td>
-  </tr>
-  <tr>
-    <td><b>Mystalvision</b></td>
-    <td>10</td>
-    <td>20</td>
-    <td>30</td>
-    <td>100</td>
-    <td>12d8+4</td>
-    <td>16-100</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>400</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10><i>S:Inferno</i>@4, flee</td>
-  </tr>
-  <tr>
-    <td><b>Ominous Fellow</b></td>
-    <td>10</td>
-    <td>255</td>
-    <td>10</td>
-    <td>10</td>
-    <td>1d4+0</td>
-    <td>1-4</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>flee</td>
-  </tr>
-  <tr>
-    <td><b>Soldiers</b></td>
-    <td>15</td>
-    <td>15</td>
-    <td>09</td>
-    <td>10</td>
-    <td>4d6+3</td>
-    <td>7-27</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>180</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>4d8, 6d8 stun, 3d8, call for help — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Stosstrupen</b></td>
-    <td>20</td>
-    <td>22</td>
-    <td>20</td>
-    <td>02</td>
-    <td>5d8+8</td>
-    <td>13-48</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>200</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>8d8 stun, call for help</td>
-  </tr>
-  <tr>
-    <td><b>Sullen Citizens</b></td>
-    <td>10</td>
-    <td>10</td>
-    <td>10</td>
-    <td>30</td>
-    <td>2d6+3</td>
-    <td>5-15</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>130</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>flee</td>
-  </tr>
-  <tr>
-    <td><b>Thieves</b></td>
-    <td>05</td>
-    <td>11</td>
-    <td>05</td>
-    <td>05</td>
-    <td>1d6+1</td>
-    <td>2-7</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>30</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>3d6, call for help, flee</td>
-  </tr>
-  <tr>
-    <td><b>Thieves</b></td>
-    <td>10</td>
-    <td>18</td>
-    <td>12</td>
-    <td>14</td>
-    <td>3d4+4</td>
-    <td>7-16</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>100</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>5d4, 1d4 x ¼, flee</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Dirty Rats</b></td>
+      <td class="c">08</td>
+      <td class="c">19</td>
+      <td class="c">03</td>
+      <td class="c">03</td>
+      <td class="c">1&ndash;6</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">50</td>
+    </tr><tr>
+      <td colspan=9>4d4, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Mad Dogs</b></td>
+      <td class="c">12</td>
+      <td class="c">22</td>
+      <td class="c">03</td>
+      <td class="c">05</td>
+      <td class="c">7&ndash;27</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">70</td>
+    </tr><tr>
+      <td colspan=9>3d8, 3d8 health, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Ominous Fellow</b></td>
+      <td class="c">10</td>
+      <td class="c">255</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">1&ndash;4</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">1</td>
+    </tr><tr>
+      <td colspan=9>flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Soldiers</b></td>
+      <td class="c">15</td>
+      <td class="c">15</td>
+      <td class="c">09</td>
+      <td class="c">10</td>
+      <td class="c">7&ndash;27</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>4d8, 6d8 stun, 3d8, call for help — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Stosstrupen</b></td>
+      <td class="c">20</td>
+      <td class="c">22</td>
+      <td class="c">20</td>
+      <td class="c">02</td>
+      <td class="c">13&ndash;48</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9>8d8 stun, call for help</td>
+    </tr><tr>
+      <td rowspan=2><b>Sullen Citizens</b></td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">30</td>
+      <td class="c">5&ndash;15</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">130</td>
+    </tr><tr>
+      <td colspan=9>flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Thieves</b></td>
+      <td class="c">05</td>
+      <td class="c">11</td>
+      <td class="c">05</td>
+      <td class="c">05</td>
+      <td class="c">2&ndash;7</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">30</td>
+    </tr><tr>
+      <td colspan=9>3d6, call for help, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Thieves</b></td>
+      <td class="c">10</td>
+      <td class="c">18</td>
+      <td class="c">12</td>
+      <td class="c">14</td>
+      <td class="c">7&ndash;16</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">100</td>
+    </tr><tr>
+      <td colspan=9>5d4, 1d4 x ¼, flee</td>
+    </tr>
+  </tbody>
+</table>
+
+While it is possible to defeat Mystalvision (and his Stosstrupen friends), the game cheats and throws you in the dungeon anyway.
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Mystalvision</b></td>
+      <td class="c">10</td>
+      <td class="c">20</td>
+      <td class="c">30</td>
+      <td class="c">100</td>
+      <td class="c">16&ndash;100</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">400</td>
+    </tr><tr>
+      <td colspan=9><i>S:Inferno</i>@4, flee</td>
+    </tr>
+  </tbody>
 </table>

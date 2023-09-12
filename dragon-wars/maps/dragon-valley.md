@@ -27,115 +27,108 @@ If you somehow manage to defeat her, she "surrenders" and swears to answer the c
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Cockatrices</b></td>
-    <td>90</td>
-    <td>20</td>
-    <td>1</td>
-    <td>1</td>
-    <td>8d8+35</td>
-    <td>43-99</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>40'</td>
-    <td>210</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d6 breath</td>
-  </tr>
-  <tr>
-    <td><b>Dragon warriors</b></td>
-    <td>120</td>
-    <td>26</td>
-    <td>10</td>
-    <td>20</td>
-    <td>10d8+35</td>
-    <td>45-115</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>300</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d8</td>
-  </tr>
-  <tr>
-    <td><b>Fangers</b></td>
-    <td>60</td>
-    <td>16</td>
-    <td>1</td>
-    <td>1</td>
-    <td>2d10+11</td>
-    <td>13-31</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>60'</td>
-    <td>100</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 piercing</td>
-  </tr>
-  <tr>
-    <td><b>Mages</b></td>
-    <td>0</td>
-    <td>22</td>
-    <td>0</td>
-    <td>0</td>
-    <td>3d10+45</td>
-    <td>48-75</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>230</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>D:Brambles</i></td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Cockatrices</b></td>
+      <td class="c">90</td>
+      <td class="c">20</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">43&ndash;99</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">40'</td>
+      <td class="c">210</td>
+    </tr><tr>
+      <td colspan=9>1d6 breath</td>
+    </tr><tr>
+      <td rowspan=2><b>Dragon warriors</b></td>
+      <td class="c">120</td>
+      <td class="c">26</td>
+      <td class="c">10</td>
+      <td class="c">20</td>
+      <td class="c">45&ndash;115</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">300</td>
+    </tr><tr>
+      <td colspan=9>7d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Fangers</b></td>
+      <td class="c">60</td>
+      <td class="c">16</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">13&ndash;31</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">60'</td>
+      <td class="c">100</td>
+    </tr><tr>
+      <td colspan=9>1d4 piercing</td>
+    </tr><tr>
+      <td rowspan=2><b>Mages</b></td>
+      <td class="c">0</td>
+      <td class="c">22</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">48&ndash;75</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">230</td>
+    </tr><tr>
+      <td colspan=9><i>D:Brambles</i></td>
+    </tr>
+  </tbody>
 </table>
 
 You really don't want to rumble with the Queen:
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>  
-  <tr>
-    <td><b>Dragon Brood Queen</b></td>
-    <td>200</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>4d100+100</td>
-    <td>104-500</td>
-    <td>+200</td>
-    <td>+0</td>
-    <td>150'</td>
-    <td>3200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d12 breath — can't be disarmed</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>  
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Dragon Brood Queen</b></td>
+      <td class="c">200</td>
+      <td class="c">100</td>
+      <td class="c">100</td>
+      <td class="c">100</td>
+      <td class="c">104&ndash;500</td>
+      <td class="c">+200</td>
+      <td class="c">+0</td>
+      <td class="c">150'</td>
+      <td class="c">3200</td>
+    </tr><tr>
+      <td colspan=9>10d12 breath — can't be disarmed</td>
+    </tr>
+  </tbody>
 </table>

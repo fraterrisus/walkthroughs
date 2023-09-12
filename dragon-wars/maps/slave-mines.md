@@ -44,7 +44,6 @@ You won't run into any random encounters down here, but there are some a few fix
     <th>DEX</th>
     <th>INT</th>
     <th>SPR</th>
-    <th>HD</th>
     <th>HP</th>
     <th>AV</th>
     <th>DV</th>
@@ -52,56 +51,50 @@ You won't run into any random encounters down here, but there are some a few fix
     <th>XP</th>
   </tr>
   <tr>
-    <td><b>Guards</b></td>
-    <td>15</td>
-    <td>17</td>
-    <td>9</td>
-    <td>10</td>
-    <td>3d6+12</td>
-    <td>15-30</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>90</td>
+    <td rowspan=2><b>Guards</b></td>
+    <td class="c">15</td>
+    <td class="c">17</td>
+    <td class="c">9</td>
+    <td class="c">10</td>
+    <td class="c">15&ndash;30</td>
+    <td class="c">+3</td>
+    <td class="c">+0</td>
+    <td class="c">10'</td>
+    <td class="c">90</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">3d8 stun</td>
+    <td colspan=9>3d8 stun</td>
   </tr>
   <tr>
-    <td><b>Snakes</b></td>
-    <td>8</td>
-    <td>19</td>
-    <td>2</td>
-    <td>3</td>
-    <td>1d4+2</td>
-    <td>3-6</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>90</td>
+    <td rowspan=2><b>Snakes</b></td>
+    <td class="c">8</td>
+    <td class="c">19</td>
+    <td class="c">2</td>
+    <td class="c">3</td>
+    <td class="c">3&ndash;6</td>
+    <td class="c">+1</td>
+    <td class="c">+0</td>
+    <td class="c">50'</td>
+    <td class="c">90</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">1d4, flee</td>
+    <td colspan=9>1d4, flee</td>
   </tr>
   <tr>
-    <td><b>Spider\s</b></td>
-    <td>5</td>
-    <td>12</td>
-    <td>5</td>
-    <td>5</td>
-    <td>1d4+0</td>
-    <td>1-4</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>1</td>
+    <td rowspan=2><b>Spiders</b></td>
+    <td class="c">5</td>
+    <td class="c">12</td>
+    <td class="c">5</td>
+    <td class="c">5</td>
+    <td class="c">1&ndash;4</td>
+    <td class="c">+1</td>
+    <td class="c">+0</td>
+    <td class="c">10'</td>
+    <td class="c">1</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">1d4</td>
+    <td colspan=9>1d4</td>
   </tr>
 </table>
 
-There's a party of harder guards near the exit:
+There's a party of more difficult guards near the exit:
 
 <table>
   <tr>
@@ -110,7 +103,6 @@ There's a party of harder guards near the exit:
     <th>DEX</th>
     <th>INT</th>
     <th>SPR</th>
-    <th>HD</th>
     <th>HP</th>
     <th>AV</th>
     <th>DV</th>
@@ -118,35 +110,31 @@ There's a party of harder guards near the exit:
     <th>XP</th>
   </tr>
   <tr>
-    <td><b>Cruel Slave Boss</b></td>
-    <td>20</td>
-    <td>14</td>
-    <td>6</td>
-    <td>5</td>
-    <td>3d8+5</td>
-    <td>8-29</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>100</td>
+    <td rowspan=2><b>Cruel Slave Boss</b></td>
+    <td class="c">20</td>
+    <td class="c">14</td>
+    <td class="c">6</td>
+    <td class="c">5</td>
+    <td class="c">8&ndash;29</td>
+    <td class="c">+1</td>
+    <td class="c">+0</td>
+    <td class="c">10'</td>
+    <td class="c">100</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">2d8, flee</td>
+    <td colspan=9>2d8, flee</td>
   </tr>
   <tr>
-    <td><b>Guards</b></td>
-    <td>15</td>
-    <td>17</td>
-    <td>0</td>
-    <td>0</td>
-    <td>3d6+0</td>
-    <td>3-18</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>120</td>
+    <td rowspan=2><b>Guards</b></td>
+    <td class="c">15</td>
+    <td class="c">17</td>
+    <td class="c">0</td>
+    <td class="c">0</td>
+    <td class="c">3&ndash;18</td>
+    <td class="c">+1</td>
+    <td class="c">+0</td>
+    <td class="c">10'</td>
+    <td class="c">120</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">2d8</td>
+    <td colspan=9>2d8</td>
   </tr>
 </table>

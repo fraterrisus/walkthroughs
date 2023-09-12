@@ -43,7 +43,6 @@ If you don't appease the camp's residents, you have to kill several of them:
     <th>DEX</th>
     <th>INT</th>
     <th>SPR</th>
-    <th>HD</th>
     <th>HP</th>
     <th>AV</th>
     <th>DV</th>
@@ -51,36 +50,32 @@ If you don't appease the camp's residents, you have to kill several of them:
     <th>XP</th>
   </tr>
     <tr>
-    <td><b>Escaped Slaves</b></td>
-    <td>10</td>
-    <td>10</td>
-    <td>10</td>
-    <td>10</td>
-    <td>2d6+3</td>
-    <td>5-15</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>70</td>
+    <td rowspan=2><b>Escaped Slaves</b></td>
+    <td class="c">10</td>
+    <td class="c">10</td>
+    <td class="c">10</td>
+    <td class="c">10</td>
+    <td class="c">5&ndash;15</td>
+    <td class="c">+0</td>
+    <td class="c">+0</td>
+    <td class="c">10'</td>
+    <td class="c">70</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">2d6, call for help, flee</td>
+    <td colspan=9>2d6, call for help, flee</td>
   </tr>
   <tr>
-    <td><b>Old Gladiators</b></td>
-    <td>15</td>
-    <td>17</td>
-    <td>10</td>
-    <td>15</td>
-    <td>3d8+4</td>
-    <td>7-28</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>100</td>
+    <td rowspan=2><b>Old Gladiators</b></td>
+    <td class="c">15</td>
+    <td class="c">17</td>
+    <td class="c">10</td>
+    <td class="c">15</td>
+    <td class="c">7&ndash;28</td>
+    <td class="c">+3</td>
+    <td class="c">+0</td>
+    <td class="c">20'</td>
+    <td class="c">100</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">4d6, block, 3d8, dodge, flee</td>
+    <td colspan=9>4d6, block, 3d8, dodge, flee</td>
   </tr>
 </table>
 
@@ -93,7 +88,6 @@ And you'll have to fight off the Spirit Ward to get at the wizard's treasure:
     <th>DEX</th>
     <th>INT</th>
     <th>SPR</th>
-    <th>HD</th>
     <th>HP</th>
     <th>AV</th>
     <th>DV</th>
@@ -101,20 +95,18 @@ And you'll have to fight off the Spirit Ward to get at the wizard's treasure:
     <th>XP</th>
   </tr>
   <tr>
-    <td><b>Spirit Ward</b></td>
-    <td>1</td>
-    <td>19</td>
-    <td>20</td>
-    <td>20</td>
-    <td>10d6+0</td>
-    <td>10-60</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>500</td>
+    <td rowspan=2><b>Spirit Ward</b></td>
+    <td class="c">1</td>
+    <td class="c">19</td>
+    <td class="c">20</td>
+    <td class="c">20</td>
+    <td class="c">10&ndash;60</td>
+    <td class="c">+1</td>
+    <td class="c">+0</td>
+    <td class="c">10'</td>
+    <td class="c">500</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10"><i>H:Elvar's Fire</i>, 7d4</td>
+    <td colspan=9><i>H:Elvar's Fire</i>, 7d4</td>
   </tr>
 </table>
 
@@ -127,7 +119,6 @@ On the off chance that The Sick Man attacks you:
     <th>DEX</th>
     <th>INT</th>
     <th>SPR</th>
-    <th>HD</th>
     <th>HP</th>
     <th>AV</th>
     <th>DV</th>
@@ -135,19 +126,17 @@ On the off chance that The Sick Man attacks you:
     <th>XP</th>
   </tr>
   <tr>
-    <td><b>Man with a fever</b></td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>10d20+100</td>
-    <td>110-300</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>320</td>
+    <td rowspan=2><b>Man with a fever</b></td>
+    <td class="c">1</td>
+    <td class="c">1</td>
+    <td class="c">1</td>
+    <td class="c">1</td>
+    <td class="c">110&ndash;300</td>
+    <td class="c">+1</td>
+    <td class="c">+0</td>
+    <td class="c">10'</td>
+    <td class="c">320</td>
   </tr><tr>
-    <td></td>
-    <td colspan="10">flee</td>
+    <td colspan=9>flee</td>
   </tr>
 </table>

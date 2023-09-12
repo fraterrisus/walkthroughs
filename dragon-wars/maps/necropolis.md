@@ -40,241 +40,225 @@ Technically, you can exit this map to the west, east, or south. These will retur
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Ghouls</b></td>
-    <td>25</td>
-    <td>20</td>
-    <td>3</td>
-    <td>5</td>
-    <td>5d6+25</td>
-    <td>30-55</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d4 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Ghouls</b></td>
-    <td>12</td>
-    <td>20</td>
-    <td>1</td>
-    <td>1</td>
-    <td>5d8+25</td>
-    <td>30-65</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d4 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Giant Snakes</b></td>
-    <td>20</td>
-    <td>15</td>
-    <td>1</td>
-    <td>3</td>
-    <td>3d8+25</td>
-    <td>28-49</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>00'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 breath, flee — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Goblins</b></td>
-    <td>10</td>
-    <td>19</td>
-    <td>6</td>
-    <td>10</td>
-    <td>4d4+17</td>
-    <td>21-33</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>30</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d6, flee</td>
-  </tr>
-  <tr>
-    <td><b>Grim Guardians</b></td>
-    <td>0</td>
-    <td>24</td>
-    <td>0</td>
-    <td>0</td>
-    <td>5d8+45</td>
-    <td>50-85</td>
-    <td>+6</td>
-    <td>+0</td>
-    <td>40'</td>
-    <td>200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d6 breath — undead</td>
-  </tr>
-  <tr>
-    <td><b>Magic Ghouls</b></td>
-    <td>13</td>
-    <td>40</td>
-    <td>5</td>
-    <td>5</td>
-    <td>3d4+35</td>
-    <td>38-47</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>190</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>S:Rage of Mithras</i> @1 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Scorpion Lizards</b></td>
-    <td>12</td>
-    <td>22</td>
-    <td>3</td>
-    <td>5</td>
-    <td>4d8+25</td>
-    <td>29-57</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d8, flee</td>
-  </tr>
-  <tr>
-    <td><b>Serpent Warriors</b></td>
-    <td>20</td>
-    <td>19</td>
-    <td>8</td>
-    <td>10</td>
-    <td>3d8+25</td>
-    <td>28-49</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>140</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">11d4</td>
-  </tr>
-  <tr>
-    <td><b>Skeletons</b></td>
-    <td>8</td>
-    <td>2</td>
-    <td>8</td>
-    <td>8</td>
-    <td>3d8+25</td>
-    <td>28-49</td>
-    <td>+12</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>170</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 piercing — undead</td>
-  </tr>
-  <tr>
-    <td><b>Spiders</b></td>
-    <td>0</td>
-    <td>22</td>
-    <td>0</td>
-    <td>0</td>
-    <td>3d8+49</td>
-    <td>52-73</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>90'</td>
-    <td>170</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d8</td>
-  </tr>
-  <tr>
-    <td><b>Spitting Lizards</b></td>
-    <td>5</td>
-    <td>17</td>
-    <td>5</td>
-    <td>10</td>
-    <td>3d8+22</td>
-    <td>25-46</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 breath</td>
-  </tr>
-  <tr>
-    <td><b>Stone Demons</b></td>
-    <td>0</td>
-    <td>4</td>
-    <td>0</td>
-    <td>0</td>
-    <td>10d100+5000</td>
-    <td>5010-6000</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>1500</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 breath, flee</td>
-  </tr>
-  <tr>
-    <td><b>Wraiths</b></td>
-    <td>3</td>
-    <td>25</td>
-    <td>0</td>
-    <td>40</td>
-    <td>2d8+25</td>
-    <td>27-41</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>00'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 breath — undead</td>
-  </tr>
-  <tr>
-    <td><b>Wraiths</b></td>
-    <td>0</td>
-    <td>25</td>
-    <td>0</td>
-    <td>0</td>
-    <td>2d8+15</td>
-    <td>17-31</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>00'</td>
-    <td>170</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 breath — undead</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Ghouls</b></td>
+      <td class="c">25</td>
+      <td class="c">20</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">30&ndash;55</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>10d4 — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Ghouls</b></td>
+      <td class="c">12</td>
+      <td class="c">20</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">30&ndash;65</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>10d4 — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Giant Snakes</b></td>
+      <td class="c">20</td>
+      <td class="c">15</td>
+      <td class="c">1</td>
+      <td class="c">3</td>
+      <td class="c">28&ndash;49</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">00'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>1d4 breath, flee — can't be disarmed</td>
+    </tr><tr>
+      <td rowspan=2><b>Goblins</b></td>
+      <td class="c">10</td>
+      <td class="c">19</td>
+      <td class="c">6</td>
+      <td class="c">10</td>
+      <td class="c">21&ndash;33</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">30</td>
+    </tr><tr>
+      <td colspan=9>5d6, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Grim Guardians</b></td>
+      <td class="c">0</td>
+      <td class="c">24</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">50&ndash;85</td>
+      <td class="c">+6</td>
+      <td class="c">+0</td>
+      <td class="c">40'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9>1d6 breath — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Magic Ghouls</b></td>
+      <td class="c">13</td>
+      <td class="c">40</td>
+      <td class="c">5</td>
+      <td class="c">5</td>
+      <td class="c">38&ndash;47</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">190</td>
+    </tr><tr>
+      <td colspan=9><i>S:Rage of Mithras</i> @1 — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Scorpion Lizards</b></td>
+      <td class="c">12</td>
+      <td class="c">22</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">29&ndash;57</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>7d8, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Serpent Warriors</b></td>
+      <td class="c">20</td>
+      <td class="c">19</td>
+      <td class="c">8</td>
+      <td class="c">10</td>
+      <td class="c">28&ndash;49</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">140</td>
+    </tr><tr>
+      <td colspan=9>11d4</td>
+    </tr><tr>
+      <td rowspan=2><b>Skeletons</b></td>
+      <td class="c">8</td>
+      <td class="c">2</td>
+      <td class="c">8</td>
+      <td class="c">8</td>
+      <td class="c">28&ndash;49</td>
+      <td class="c">+12</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">170</td>
+    </tr><tr>
+      <td colspan=9>1d4 piercing — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Spiders</b></td>
+      <td class="c">0</td>
+      <td class="c">22</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">52&ndash;73</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">90'</td>
+      <td class="c">170</td>
+    </tr><tr>
+      <td colspan=9>7d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Spitting Lizards</b></td>
+      <td class="c">5</td>
+      <td class="c">17</td>
+      <td class="c">5</td>
+      <td class="c">10</td>
+      <td class="c">25&ndash;46</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>1d4 breath</td>
+    </tr><tr>
+      <td rowspan=2><b>Wraiths</b></td>
+      <td class="c">3</td>
+      <td class="c">25</td>
+      <td class="c">0</td>
+      <td class="c">40</td>
+      <td class="c">27&ndash;41</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">00'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>2d4 breath — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Wraiths</b></td>
+      <td class="c">0</td>
+      <td class="c">25</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">17&ndash;31</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">00'</td>
+      <td class="c">170</td>
+    </tr><tr>
+      <td colspan=9>2d4 breath — undead</td>
+    </tr>
+  </tbody>
+</table>
+
+Don't even try it with this guy.
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Stone Demon</b></td>
+      <td class="c">0</td>
+      <td class="c">4</td>
+      <td class="c">0</td>
+      <td class="c">0</td>
+      <td class="c">5010&ndash;6000</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">1500</td>
+    </tr><tr>
+      <td colspan=9>1d4 breath, flee</td>
+    </tr>
+  </tbody>
 </table>

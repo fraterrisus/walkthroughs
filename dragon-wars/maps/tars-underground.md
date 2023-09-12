@@ -41,259 +41,225 @@ This is hands-down the weirdest easter egg in the entire game. I screamed out lo
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Cave Snakes</b></td>
-    <td>3</td>
-    <td>19</td>
-    <td>1</td>
-    <td>1</td>
-    <td>6d4+10</td>
-    <td>16-34</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>80'</td>
-    <td>120</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d6, 4d4</td>
-  </tr>
- <tr>
-    <td><b>Cave Wolves</b></td>
-    <td>13</td>
-    <td>13</td>
-    <td>5</td>
-    <td>10</td>
-    <td>3d8+10</td>
-    <td>13-34</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>120</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d4, 7d4, flee</td>
-  </tr>
-  <tr>
-    <td><b>Ghouls</b></td>
-    <td>12</td>
-    <td>16</td>
-    <td>1</td>
-    <td>1</td>
-    <td>3d6+16</td>
-    <td>19-34</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">7d4 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Giant Snake</b></td>
-    <td>20</td>
-    <td>22</td>
-    <td>1</td>
-    <td>3</td>
-    <td>3d8+10</td>
-    <td>13-34</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>100</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">3d8 — can't be disarmed</td>
-  </tr>
- <tr>
-    <td><b>Goblin</b></td>
-    <td>10</td>
-    <td>12</td>
-    <td>6</td>
-    <td>10</td>
-    <td>3d8+10</td>
-    <td>13-34</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>120</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">4d6, 6d4 stun</td>
-  </tr>
-  <tr>
-    <td><b>Guard Goblin</b></td>
-    <td>20</td>
-    <td>10</td>
-    <td>8</td>
-    <td>10</td>
-    <td>3d8+16</td>
-    <td>19-40</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>90</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d6, 4d6</td>
-  </tr>
-  <tr>
-    <td><b>Lizard Men</b></td>
-    <td>25</td>
-    <td>17</td>
-    <td>3</td>
-    <td>5</td>
-    <td>4d6+12</td>
-    <td>16-36</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>120</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">3d8, 4d6</td>
-  </tr>
-  <tr>
-    <td><b>Lizard Men</b></td>
-    <td>33</td>
-    <td>12</td>
-    <td>10</td>
-    <td>12</td>
-    <td>3d12+12</td>
-    <td>15-48</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d4, call for help — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Skeletons</b></td>
-    <td>8</td>
-    <td>14</td>
-    <td>8</td>
-    <td>8</td>
-    <td>3d8+9</td>
-    <td>12-33</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>80</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">4d6, 4d4, 1d8 — undead</td>
-  </tr>
-  <tr>
-    <td><b>Spiders</b></td>
-    <td>12</td>
-    <td>17</td>
-    <td>3</td>
-    <td>5</td>
-    <td>1d4+5</td>
-    <td>6-9</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>70</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">3d8, 4d6</td>
-  </tr>
-  <tr>
-    <td><b>Spitting Snake</b></td>
-    <td>5</td>
-    <td>15</td>
-    <td>5</td>
-    <td>10</td>
-    <td>2d4+10</td>
-    <td>12-18</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>90</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d8 breath, 3d8</td>
-  </tr>
-  <tr>
-    <td><b>Wraiths</b></td>
-    <td>3</td>
-    <td>22</td>
-    <td>30</td>
-    <td>40</td>
-    <td>3d10+10</td>
-    <td>13-40</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>H:Fire Light</i> @3 — undead</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Cave Snakes</b></td>
+      <td class="c">3</td>
+      <td class="c">19</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">16&ndash;34</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">80'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>5d6, 4d4</td>
+    </tr><tr>
+      <td rowspan=2><b>Cave Wolves</b></td>
+      <td class="c">13</td>
+      <td class="c">13</td>
+      <td class="c">5</td>
+      <td class="c">10</td>
+      <td class="c">13&ndash;34</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>5d4, 7d4, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Ghouls</b></td>
+      <td class="c">12</td>
+      <td class="c">16</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">19&ndash;34</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>7d4 — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Giant Snake</b></td>
+      <td class="c">20</td>
+      <td class="c">22</td>
+      <td class="c">1</td>
+      <td class="c">3</td>
+      <td class="c">13&ndash;34</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">100</td>
+    </tr><tr>
+      <td colspan=9>3d8 — can't be disarmed</td>
+    </tr><tr>
+      <td rowspan=2><b>Goblin</b></td>
+      <td class="c">10</td>
+      <td class="c">12</td>
+      <td class="c">6</td>
+      <td class="c">10</td>
+      <td class="c">13&ndash;34</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>4d6, 6d4 stun</td>
+    </tr><tr>
+      <td rowspan=2><b>Guard Goblin</b></td>
+      <td class="c">20</td>
+      <td class="c">10</td>
+      <td class="c">8</td>
+      <td class="c">10</td>
+      <td class="c">19&ndash;40</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">90</td>
+    </tr><tr>
+      <td colspan=9>5d6, 4d6</td>
+    </tr><tr>
+      <td rowspan=2><b>Lizard Men</b></td>
+      <td class="c">25</td>
+      <td class="c">17</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">16&ndash;36</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>3d8, 4d6</td>
+    </tr><tr>
+      <td rowspan=2><b>Lizard Men</b></td>
+      <td class="c">33</td>
+      <td class="c">12</td>
+      <td class="c">10</td>
+      <td class="c">12</td>
+      <td class="c">15&ndash;48</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>8d4, call for help — can't be disarmed</td>
+    </tr><tr>
+      <td rowspan=2><b>Skeletons</b></td>
+      <td class="c">8</td>
+      <td class="c">14</td>
+      <td class="c">8</td>
+      <td class="c">8</td>
+      <td class="c">12&ndash;33</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>4d6, 4d4, 1d8 — undead</td>
+    </tr><tr>
+      <td rowspan=2><b>Spiders</b></td>
+      <td class="c">12</td>
+      <td class="c">17</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">6&ndash;9</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">70</td>
+    </tr><tr>
+      <td colspan=9>3d8, 4d6</td>
+    </tr><tr>
+      <td rowspan=2><b>Spitting Snake</b></td>
+      <td class="c">5</td>
+      <td class="c">15</td>
+      <td class="c">5</td>
+      <td class="c">10</td>
+      <td class="c">12&ndash;18</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">90</td>
+    </tr><tr>
+      <td colspan=9>2d8 breath, 3d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Wraiths</b></td>
+      <td class="c">3</td>
+      <td class="c">22</td>
+      <td class="c">30</td>
+      <td class="c">40</td>
+      <td class="c">13&ndash;40</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9><i>H:Fire Light</i> @3 — undead</td>
+    </tr>
+  </tbody>
 </table>
 
 The adventuring party:
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Adventurers</b></td>
-    <td>12</td>
-    <td>16</td>
-    <td>12</td>
-    <td>12</td>
-    <td>4d6+15</td>
-    <td>19-39</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>130</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">6d4, dodge, flee</td>
-  </tr>
-  <tr>
-    <td><b>Wizard</b></td>
-    <td>10</td>
-    <td>14</td>
-    <td>20</td>
-    <td>30</td>
-    <td>3d4+18</td>
-    <td>21-30</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>250</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10"><i>H:Fire Light</i> @2, <i>D:Whirl Wind</i>, flee</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Adventurers</b></td>
+      <td class="c">12</td>
+      <td class="c">16</td>
+      <td class="c">12</td>
+      <td class="c">12</td>
+      <td class="c">19&ndash;39</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">130</td>
+    </tr><tr>
+      <td colspan=9>6d4, dodge, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Wizard</b></td>
+      <td class="c">10</td>
+      <td class="c">14</td>
+      <td class="c">20</td>
+      <td class="c">30</td>
+      <td class="c">21&ndash;30</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">250</td>
+    </tr><tr>
+      <td colspan=9><i>H:Fire Light</i> @2, <i>D:Whirl Wind</i>, flee</td>
+    </tr>
+  </tbody>
 </table>

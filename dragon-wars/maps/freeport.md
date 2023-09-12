@@ -41,81 +41,73 @@ However, there's a logic bug here. As soon as the Sword is revealed, the townspe
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Adventurers</b></td>
-    <td>20</td>
-    <td>30</td>
-    <td>20</td>
-    <td>2</td>
-    <td>5d8+35</td>
-    <td>40-75</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>140</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d8</td>
-  </tr>
-  <tr>
-    <td><b>Citizens</b></td>
-    <td>10</td>
-    <td>18</td>
-    <td>10</td>
-    <td>30</td>
-    <td>2d6+15</td>
-    <td>17-27</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>50</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">flee</td>
-  </tr>
-  <tr>
-    <td><b>Doomsayers</b></td>
-    <td>5</td>
-    <td>5</td>
-    <td>5</td>
-    <td>5</td>
-    <td>1d4+0</td>
-    <td>1-4</td>
-    <td>+10</td>
-    <td>+0</td>
-    <td>60'</td>
-    <td>40</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">flee</td>
-  </tr>
-  <tr>
-    <td><b>Guards</b></td>
-    <td>15</td>
-    <td>22</td>
-    <td>9</td>
-    <td>10</td>
-    <td>4d6+35</td>
-    <td>39-59</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">8d8 – awards gold</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Adventurers</b></td>
+      <td class="c">20</td>
+      <td class="c">30</td>
+      <td class="c">20</td>
+      <td class="c">2</td>
+      <td class="c">40&ndash;75</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">140</td>
+    </tr><tr>
+      <td colspan=9>8d8</td>
+    </tr><tr>
+      <td rowspan=2><b>Citizens</b></td>
+      <td class="c">10</td>
+      <td class="c">18</td>
+      <td class="c">10</td>
+      <td class="c">30</td>
+      <td class="c">17&ndash;27</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">50</td>
+    </tr><tr>
+      <td colspan=9>flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Doomsayers</b></td>
+      <td class="c">5</td>
+      <td class="c">5</td>
+      <td class="c">5</td>
+      <td class="c">5</td>
+      <td class="c">1&ndash;4</td>
+      <td class="c">+10</td>
+      <td class="c">+0</td>
+      <td class="c">60'</td>
+      <td class="c">40</td>
+    </tr><tr>
+      <td colspan=9>flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Guards</b></td>
+      <td class="c">15</td>
+      <td class="c">22</td>
+      <td class="c">9</td>
+      <td class="c">10</td>
+      <td class="c">39&ndash;59</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>8d8 – awards gold</td>
+    </tr>
+  </tbody>
 </table>

@@ -21,85 +21,73 @@ East: [Quag](dilmun.md) (19,12)
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Crazed Old Ladies</b></td>
-    <td>08</td>
-    <td>16</td>
-    <td>03</td>
-    <td>10</td>
-    <td>2d12+20</td>
-    <td>22-44</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>40</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>dodge, <i>H:Big Chill</i></td>
-  </tr>
-  <tr>
-    <td><b>Guards</b></td>
-    <td>12</td>
-    <td>17</td>
-    <td>10</td>
-    <td>10</td>
-    <td>7d8+12</td>
-    <td>19-68</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>120</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>7d6, block, call for help — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Murk Tree</b></td>
-    <td>20</td>
-    <td>16</td>
-    <td>03</td>
-    <td>03</td>
-    <td>8d10+15</td>
-    <td>23-95</td>
-    <td>+4</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>120</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>7d8, 8d10, flee — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Pikemen</b></td>
-    <td>15</td>
-    <td>18</td>
-    <td>09</td>
-    <td>10</td>
-    <td>5d6+15</td>
-    <td>20-45</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>120</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>7d6, 5d8, call for help — awards gold</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Crazed Old Ladies</b></td>
+      <td class="c">08</td>
+      <td class="c">16</td>
+      <td class="c">03</td>
+      <td class="c">10</td>
+      <td class="c">22&ndash;44</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">40</td>
+    </tr><tr>
+      <td colspan=9>dodge, <i>H:Big Chill</i></td>
+    </tr><tr>
+      <td rowspan=2><b>Guards</b></td>
+      <td class="c">12</td>
+      <td class="c">17</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">19&ndash;68</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>7d6, block, call for help — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Murk Tree</b></td>
+      <td class="c">20</td>
+      <td class="c">16</td>
+      <td class="c">03</td>
+      <td class="c">03</td>
+      <td class="c">23&ndash;95</td>
+      <td class="c">+4</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>7d8, 8d10, flee — can't be disarmed</td>
+    </tr><tr>
+      <td rowspan=2><b>Pikemen</b></td>
+      <td class="c">15</td>
+      <td class="c">18</td>
+      <td class="c">09</td>
+      <td class="c">10</td>
+      <td class="c">20&ndash;45</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">120</td>
+    </tr><tr>
+      <td colspan=9>7d6, 5d8, call for help — awards gold</td>
+    </tr>
+  </tbody>
 </table>

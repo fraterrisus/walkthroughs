@@ -29,68 +29,60 @@ See the [Byzanople](byzanople.md) file for more on the Fire Shield.
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Patrolmen</b></td>
-    <td>15</td>
-    <td>12</td>
-    <td>09</td>
-    <td>10</td>
-    <td>7d6+15</td>
-    <td>22-57</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>140</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>5d6, 5d8 piercing, call for help — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Stosstrupen</b></td>
-    <td>18</td>
-    <td>18</td>
-    <td>18</td>
-    <td>18</td>
-    <td>5d6+25</td>
-    <td>30-55</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>150</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>8d8 stun, call for help, <i>L:Mage Fire</i></td>
-  </tr>
-  <tr>
-    <td><b>Vicious Guards</b></td>
-    <td>12</td>
-    <td>17</td>
-    <td>10</td>
-    <td>10</td>
-    <td>7d4+25</td>
-    <td>32-53</td>
-    <td>+3</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>150</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>7d10 stun — awards gold</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Patrolmen</b></td>
+      <td class="c">15</td>
+      <td class="c">12</td>
+      <td class="c">09</td>
+      <td class="c">10</td>
+      <td class="c">22&ndash;57</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">140</td>
+    </tr><tr>
+      <td colspan=9>5d6, 5d8 piercing, call for help — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Stosstrupen</b></td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">18</td>
+      <td class="c">30&ndash;55</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>8d8 stun, call for help, <i>L:Mage Fire</i></td>
+    </tr><tr>
+      <td rowspan=2><b>Vicious Guards</b></td>
+      <td class="c">12</td>
+      <td class="c">17</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">32&ndash;53</td>
+      <td class="c">+3</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>7d10 stun — awards gold</td>
+    </tr>
+  </tbody>
 </table>

@@ -41,115 +41,108 @@ You can also buy a ticket to take the ferry (08,15) to the [Old Dock](old-dock.m
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Midget Maniacs</b></td>
-    <td>8</td>
-    <td>19</td>
-    <td>2</td>
-    <td>3</td>
-    <td>4d8+9</td>
-    <td>13-41</td>
-    <td>+5</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>160</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 piercing, 1d4 health, flee</td>
-  </tr>
-  <tr>
-    <td><b>Muscular Clowns</b></td>
-    <td>20</td>
-    <td>16</td>
-    <td>6</td>
-    <td>5</td>
-    <td>6d8+15</td>
-    <td>21-63</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>180</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">10d4 stun, flee</td>
-  </tr>
-  <tr>
-    <td><b>Pikemen</b></td>
-    <td>15</td>
-    <td>12</td>
-    <td>9</td>
-    <td>10</td>
-    <td>6d8+10</td>
-    <td>16-58</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>150</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">5d8, call for help — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Wild Women</b></td>
-    <td>5</td>
-    <td>15</td>
-    <td>5</td>
-    <td>5</td>
-    <td>5d4+10</td>
-    <td>15-30</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>100</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">9d4 stun</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Midget Maniacs</b></td>
+      <td class="c">8</td>
+      <td class="c">19</td>
+      <td class="c">2</td>
+      <td class="c">3</td>
+      <td class="c">13&ndash;41</td>
+      <td class="c">+5</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">160</td>
+    </tr><tr>
+      <td colspan=9>1d4 piercing, 1d4 health, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Muscular Clowns</b></td>
+      <td class="c">20</td>
+      <td class="c">16</td>
+      <td class="c">6</td>
+      <td class="c">5</td>
+      <td class="c">21&ndash;63</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">180</td>
+    </tr><tr>
+      <td colspan=9>10d4 stun, flee</td>
+    </tr><tr>
+      <td rowspan=2><b>Pikemen</b></td>
+      <td class="c">15</td>
+      <td class="c">12</td>
+      <td class="c">9</td>
+      <td class="c">10</td>
+      <td class="c">16&ndash;58</td>
+      <td class="c">+2</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">150</td>
+    </tr><tr>
+      <td colspan=9>5d8, call for help — awards gold</td>
+    </tr><tr>
+      <td rowspan=2><b>Wild Women</b></td>
+      <td class="c">5</td>
+      <td class="c">15</td>
+      <td class="c">5</td>
+      <td class="c">5</td>
+      <td class="c">15&ndash;30</td>
+      <td class="c">+1</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">100</td>
+    </tr><tr>
+      <td colspan=9>9d4 stun</td>
+    </tr>
+  </tbody>
 </table>
 
 There's no way to actually attack the dragon (and you wouldn't want to, woof), but he is listed as a monster:
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Dragon</b></td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>100</td>
-    <td>10d100+10</td>
-    <td>20-1010</td>
-    <td>+200</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>1600</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">32d20 — can't be disarmed</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Dragon</b></td>
+      <td class="c">100</td>
+      <td class="c">100</td>
+      <td class="c">100</td>
+      <td class="c">100</td>
+      <td class="c">20&ndash;1010</td>
+      <td class="c">+200</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">1600</td>
+    </tr><tr>
+      <td colspan=9>32d20 — can't be disarmed</td>
+    </tr>
+  </tbody>
 </table>

@@ -35,34 +35,34 @@ I love this one: the "fight" with Utnapishtim is just fake color text that *look
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr><tr>
-    <td><b>Philistine</b></td>
-    <td>99</td>
-    <td>30</td>
-    <td>99</td>
-    <td>99</td>
-    <td>9d12+200</td>
-    <td>209-308</td>
-    <td>+2</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>600</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan=10>8d8 — anti-magic field</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody><tr>
+      <td rowspan=2><b>Philistine</b></td>
+      <td>99</td>
+      <td>30</td>
+      <td>99</td>
+      <td>99</td>
+      <td>209&ndash;308</td>
+      <td>+2</td>
+      <td>+0</td>
+      <td>30'</td>
+      <td>600</td>
+    </tr><tr>
+      <td colspan=9>8d8 — anti-magic field</td>
+    </tr>
+  </tbody>
 </table>
 

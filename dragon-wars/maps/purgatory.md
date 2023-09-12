@@ -4,7 +4,7 @@
 
 The map where you start the game (20,13), although you'll come back here a number of times as well.
 
-Whenever you wander inside a building (anything with a roof), there's a 1:100 chance of a wandering monster encounter. You'll also find plenty of random encounters in fixed locations throughout the map.
+Whenever you wander inside a building (anything with a roof), there's a 1 in 100 chance of a wandering monster encounter. You'll also find plenty of random encounters in fixed locations throughout the map.
 
 ## Exits
 
@@ -65,417 +65,412 @@ There's also the **Apsu Waters** (07,12), which will take you to the [Magan Unde
 ## Bestiary
 
 <table>
-  <tr>
-    <th></th>
-    <th>STR</th>
-    <th>DEX</th>
-    <th>INT</th>
-    <th>SPR</th>
-    <th>HD</th>
-    <th>HP</th>
-    <th>AV</th>
-    <th>DV</th>
-    <th>Speed</th>
-    <th>XP</th>
-  </tr>
-  <tr>
-    <td><b>Bandits</b></td>
-    <td>10</td>
-    <td>16</td>
-    <td>9</td>
-    <td>9</td>
-    <td>3d8+0</td>
-    <td>3-24</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>80</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d8 stun, flee</td>
-  </tr>
-  <tr>
-    <td><b>Big Dogs</b></td>
-    <td>17</td>
-    <td>12</td>
-    <td>3</td>
-    <td>10</td>
-    <td>3d4+8</td>
-    <td>11-20</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>80</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 stun</td>
-  </tr>
-  <tr>
-    <td><b>Born Losers</b></td>
-    <td>3</td>
-    <td>10</td>
-    <td>3</td>
-    <td>5</td>
-    <td>2d4+0</td>
-    <td>2-8</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>60</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 stun</td>
-  </tr>
-  <tr>
-    <td><b>Cannibals</b></td>
-    <td>8</td>
-    <td>15</td>
-    <td>4</td>
-    <td>1</td>
-    <td>1d10+0</td>
-    <td>1-10</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>30</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 stun, 2d6</td>
-  </tr>
-  <tr>
-    <td><b>Drunks</b></td>
-    <td>16</td>
-    <td>9</td>
-    <td>3</td>
-    <td>15</td>
-    <td>5d6+4</td>
-    <td>9-34</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>90</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d4 stun</td>
-  </tr>
-  <tr>
-    <td><b>Fanatics</b></td>
-    <td>12</td>
-    <td>10</td>
-    <td>3</td>
-    <td>15</td>
-    <td>2d8+2</td>
-    <td>4-18</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>80</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 stun</td>
-  </tr>
-  <tr>
-    <td><b>Giant Spiders</b></td>
-    <td>22</td>
-    <td>24</td>
-    <td>1</td>
-    <td>6</td>
-    <td>6d4+10</td>
-    <td>16-34</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>110</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d8, flee — can't be disarmed</td>
-  </tr>
-  <tr>
-    <td><b>Gladiators</b></td>
-    <td>15</td>
-    <td>23</td>
-    <td>15</td>
-    <td>16</td>
-    <td>3d8+4</td>
-    <td>7-28</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>130</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">3d6</td>
-  </tr>
-  <tr>
-    <td><b>Humbaba</b></td>
-    <td>66</td>
-    <td>18</td>
-    <td>5</td>
-    <td>20</td>
-    <td>10d6+50</td>
-    <td>60-110</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>20'</td>
-    <td>1000</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">3d10</td>
-  </tr>
-  <tr>
-    <td><b>Innocent Men</b></td>
-    <td>10</td>
-    <td>10</td>
-    <td>10</td>
-    <td>15</td>
-    <td>2d6+2</td>
-    <td>4-14</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>80</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6</td>
-  </tr>
-  <tr>
-    <td><b>Jail Keepers</b></td>
-    <td>3</td>
-    <td>19</td>
-    <td>3</td>
-    <td>7</td>
-    <td>2d6+8</td>
-    <td>10-20</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>90'</td>
-    <td>80</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>King's Guard</b></td>
-    <td>12</td>
-    <td>16</td>
-    <td>8</td>
-    <td>10</td>
-    <td>3d6+3</td>
-    <td>6-21</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>100</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">3d6, 3d8 — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Loons</b></td>
-    <td>10</td>
-    <td>10</td>
-    <td>5</td>
-    <td>3</td>
-    <td>2d4+1</td>
-    <td>3-9</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>40</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4, 1d4 health</td>
-  </tr>
-  <tr>
-    <td><b>Pikemen</b></td>
-    <td>16</td>
-    <td>12</td>
-    <td>10</td>
-    <td>10</td>
-    <td>3d8+8</td>
-    <td>11-32</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>90</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">3d4, flee — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Robbers</b></td>
-    <td>6</td>
-    <td>8</td>
-    <td>7</td>
-    <td>5</td>
-    <td>1d6+0</td>
-    <td>1-6</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>80</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d8</td>
-  </tr>
-  <tr>
-    <td><b>Rock Spiders</b></td>
-    <td>9</td>
-    <td>22</td>
-    <td>4</td>
-    <td>2</td>
-    <td>3d12+0</td>
-    <td>3-36</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>60'</td>
-    <td>200</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">1d10 stun</td>
-  </tr>
-  <tr>
-    <td><b>Rock Spiders</b></td>
-    <td>5</td>
-    <td>22</td>
-    <td>3</td>
-    <td>1</td>
-    <td>2d4+7</td>
-    <td>9-15</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>30'</td>
-    <td>90</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 stun</td>
-  </tr>
-  <tr>
-    <td><b>Soldiers</b></td>
-    <td>14</td>
-    <td>12</td>
-    <td>7</td>
-    <td>8</td>
-    <td>3d6+0</td>
-    <td>3-18</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>100</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">3d4 — awards gold</td>
-  </tr>
-  <tr>
-    <td><b>Spiders</b></td>
-    <td>3</td>
-    <td>21</td>
-    <td>4</td>
-    <td>2</td>
-    <td>1d8+5</td>
-    <td>6-13</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>80</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 stun, flee</td>
-  </tr>
-  <tr>
-    <td><b>Spiders</b></td>
-    <td>8</td>
-    <td>16</td>
-    <td>1</td>
-    <td>1</td>
-    <td>2d4+5</td>
-    <td>7-13</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>40</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 stun</td>
-  </tr>
-  <tr>
-    <td><b>Unjustly Accused</b></td>
-    <td>15</td>
-    <td>10</td>
-    <td>12</td>
-    <td>13</td>
-    <td>3d6+3</td>
-    <td>6-21</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>90</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 stun, flee</td>
-  </tr>
-  <tr>
-    <td><b>Wild Dogs</b></td>
-    <td>11</td>
-    <td>15</td>
-    <td>1</td>
-    <td>1</td>
-    <td>3d10+3</td>
-    <td>6-33</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>100</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d8 stun</td>
-  </tr>
-  <tr>
-    <td><b>Wild hounds</b></td>
-    <td>5</td>
-    <td>20</td>
-    <td>4</td>
-    <td>12</td>
-    <td>2d4+5</td>
-    <td>7-13</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>50'</td>
-    <td>80</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d4 stun</td>
-  </tr>
-  <tr>
-    <td><b>Wolves</b></td>
-    <td>9</td>
-    <td>16</td>
-    <td>5</td>
-    <td>6</td>
-    <td>4d6+3</td>
-    <td>7-27</td>
-    <td>+1</td>
-    <td>+0</td>
-    <td>40'</td>
-    <td>80</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d6 stun</td>
-  </tr>
-  <tr>
-    <td><b>Yonderboys</b></td>
-    <td>12</td>
-    <td>15</td>
-    <td>8</td>
-    <td>12</td>
-    <td>2d10+5</td>
-    <td>7-25</td>
-    <td>+0</td>
-    <td>+0</td>
-    <td>10'</td>
-    <td>70</td>
-  </tr><tr>
-    <td></td>
-    <td colspan="10">2d8, 1d10 stun, call for help</td>
-  </tr>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Bandits</b></td>
+      <td class="c">10</td>
+      <td class="c">16</td>
+      <td class="c">9</td>
+      <td class="c">9</td>
+      <td class="c">3&ndash;24</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>1d8 stun, flee</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Big Dogs</b></td>
+      <td class="c">17</td>
+      <td class="c">12</td>
+      <td class="c">3</td>
+      <td class="c">10</td>
+      <td class="c">11&ndash;20</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>2d6 stun</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Born Losers</b></td>
+      <td class="c">3</td>
+      <td class="c">10</td>
+      <td class="c">3</td>
+      <td class="c">5</td>
+      <td class="c">2&ndash;8</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">60</td>
+    </tr><tr>
+      <td colspan=9>2d4 stun</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Cannibals</b></td>
+      <td class="c">8</td>
+      <td class="c">15</td>
+      <td class="c">4</td>
+      <td class="c">1</td>
+      <td class="c">1&ndash;10</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">30</td>
+    </tr><tr>
+      <td colspan=9>2d4 stun, 2d6</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Drunks</b></td>
+      <td class="c">16</td>
+      <td class="c">9</td>
+      <td class="c">3</td>
+      <td class="c">15</td>
+      <td class="c">9&ndash;34</td>
+      <td class="c">+1</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">90</td>
+    </tr><tr>
+      <td colspan=9>1d4 stun</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Fanatics</b></td>
+      <td class="c">12</td>
+      <td class="c">10</td>
+      <td class="c">3</td>
+      <td class="c">15</td>
+      <td class="c">4&ndash;18</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>2d4 stun</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Giant Spiders</b></td>
+      <td class="c">22</td>
+      <td class="c">24</td>
+      <td class="c">1</td>
+      <td class="c">6</td>
+      <td class="c">16&ndash;34</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">110</td>
+    </tr><tr>
+      <td colspan=9>2d8, flee — can't be disarmed</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Innocent Men</b></td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">15</td>
+      <td class="c">4&ndash;14</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>2d6</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Jail Keepers</b></td>
+      <td class="c">3</td>
+      <td class="c">19</td>
+      <td class="c">3</td>
+      <td class="c">7</td>
+      <td class="c">10&ndash;20</td>
+      <td class="c">+1</td>
+      <td class="c">+0</td>
+      <td class="c">90'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>2d6 — awards gold</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>King's Guard</b></td>
+      <td class="c">12</td>
+      <td class="c">16</td>
+      <td class="c">8</td>
+      <td class="c">10</td>
+      <td class="c">6&ndash;21</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">100</td>
+    </tr><tr>
+      <td colspan=9>3d6, 3d8 — awards gold</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Loons</b></td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">5</td>
+      <td class="c">3</td>
+      <td class="c">3&ndash;9</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">40</td>
+    </tr><tr>
+      <td colspan=9>2d4, 1d4 health</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Pikemen</b></td>
+      <td class="c">16</td>
+      <td class="c">12</td>
+      <td class="c">10</td>
+      <td class="c">10</td>
+      <td class="c">11&ndash;32</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">90</td>
+    </tr><tr>
+      <td colspan=9>3d4, flee — awards gold</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Robbers</b></td>
+      <td class="c">6</td>
+      <td class="c">8</td>
+      <td class="c">7</td>
+      <td class="c">5</td>
+      <td class="c">1&ndash;6</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>1d8</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Rock Spiders</b></td>
+      <td class="c">9</td>
+      <td class="c">22</td>
+      <td class="c">4</td>
+      <td class="c">2</td>
+      <td class="c">3&ndash;36</td>
+      <td class="c">+1</td>
+      <td class="c">+0</td>
+      <td class="c">60'</td>
+      <td class="c">200</td>
+    </tr><tr>
+      <td colspan=9>1d10 stun</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Rock Spiders</b></td>
+      <td class="c">5</td>
+      <td class="c">22</td>
+      <td class="c">3</td>
+      <td class="c">1</td>
+      <td class="c">9&ndash;15</td>
+      <td class="c">+1</td>
+      <td class="c">+0</td>
+      <td class="c">30'</td>
+      <td class="c">90</td>
+    </tr><tr>
+      <td colspan=9>2d4 stun</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Soldiers</b></td>
+      <td class="c">14</td>
+      <td class="c">12</td>
+      <td class="c">7</td>
+      <td class="c">8</td>
+      <td class="c">3&ndash;18</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">100</td>
+    </tr><tr>
+      <td colspan=9>3d4 — awards gold</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Spiders</b></td>
+      <td class="c">3</td>
+      <td class="c">21</td>
+      <td class="c">4</td>
+      <td class="c">2</td>
+      <td class="c">6&ndash;13</td>
+      <td class="c">+1</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>2d6 stun, flee</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Spiders</b></td>
+      <td class="c">8</td>
+      <td class="c">16</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">7&ndash;13</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">40</td>
+    </tr><tr>
+      <td colspan=9>2d6 stun</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Unjustly Accused</b></td>
+      <td class="c">15</td>
+      <td class="c">10</td>
+      <td class="c">12</td>
+      <td class="c">13</td>
+      <td class="c">6&ndash;21</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">90</td>
+    </tr><tr>
+      <td colspan=9>2d6 stun, flee</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Wild Dogs</b></td>
+      <td class="c">11</td>
+      <td class="c">15</td>
+      <td class="c">1</td>
+      <td class="c">1</td>
+      <td class="c">6&ndash;33</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">100</td>
+    </tr><tr>
+      <td colspan=9>2d8 stun</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Wild hounds</b></td>
+      <td class="c">5</td>
+      <td class="c">20</td>
+      <td class="c">4</td>
+      <td class="c">12</td>
+      <td class="c">7&ndash;13</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">50'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>2d4 stun</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Wolves</b></td>
+      <td class="c">9</td>
+      <td class="c">16</td>
+      <td class="c">5</td>
+      <td class="c">6</td>
+      <td class="c">7&ndash;27</td>
+      <td class="c">+1</td>
+      <td class="c">+0</td>
+      <td class="c">40'</td>
+      <td class="c">80</td>
+    </tr><tr>
+      <td colspan=9>2d6 stun</td>
+    </tr>
+    <tr>
+      <td rowspan=2><b>Yonderboys</b></td>
+      <td class="c">12</td>
+      <td class="c">15</td>
+      <td class="c">8</td>
+      <td class="c">12</td>
+      <td class="c">7&ndash;25</td>
+      <td class="c">+0</td>
+      <td class="c">+0</td>
+      <td class="c">10'</td>
+      <td class="c">70</td>
+    </tr><tr>
+      <td colspan=9>2d8, 1d10 stun, call for help</td>
+    </tr>
+  </tbody>
+</table>
+
+The Arena fight is doable for 3rd or 4th&ndash;level characters.
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Gladiators</b></td>
+      <td class="c">15</td>
+      <td class="c">23</td>
+      <td class="c">15</td>
+      <td class="c">16</td>
+      <td class="c">7&ndash;28</td>
+      <td class="c">+1</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">130</td>
+    </tr><tr>
+      <td colspan=9>3d6</td>
+    </tr>
+  </tbody>
+</table>
+
+You can probably take on the Humbaba as soon as you learn about him from Clopin.
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>STR</th>
+      <th>DEX</th>
+      <th>INT</th>
+      <th>SPR</th>
+      <th>HP</th>
+      <th>AV</th>
+      <th>DV</th>
+      <th>Speed</th>
+      <th>XP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2><b>Humbaba</b></td>
+      <td class="c">66</td>
+      <td class="c">18</td>
+      <td class="c">5</td>
+      <td class="c">20</td>
+      <td class="c">60&ndash;110</td>
+      <td class="c">+1</td>
+      <td class="c">+0</td>
+      <td class="c">20'</td>
+      <td class="c">1000</td>
+    </tr><tr>
+      <td colspan=9>3d10</td>
+    </tr>
+  </tbody>
 </table>

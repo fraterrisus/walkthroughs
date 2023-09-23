@@ -1,46 +1,18 @@
+---
+title: Yet Another Deathlord Walkthrough
+toc:
+  enabled: true
+  h_min: 2
+  h_max: 3
+---
+
 # Yet Another Deathlord Walkthrough
 
 Version 2.1, June 2023
 
-## Table of Contents
-
-- [Administrivia](#administrivia)
-  - [Acknowledgements](#acknowledgements)
-  - [Version History](#version-history)
-  - [Game Introduction](#game-introduction)
-  - [Managing Save Files](#managing-save-files)
-  - [Getting Around and Getting Along](#getting-around-and-getting-along)
-- [Creating Characters](#creating-characters)
-  - [Attributes](#attributes)
-  - [Races and Classes](#races-and-classes)
-  - [Assembling a Party](#assembling-a-party)
-  - [Experience and Leveling](#experience-and-leveling)
-  - [Using Magic Pools](#using-magic-pools)
-- [Combat and General Information](#combat-and-general-information)
-  - [Combat Basics](#combat-basics)
-  - [Heath and Dying](#health-and-dying)
-  - [Combat Strategies](#combat-strategies)
-  - [Dealing with Loot](#dealing-with-loot)
-  - [Equipment](#equipment)
-  - [Atlas](#atlas)
-  - [Weird Stuff](#weird-stuff)
-- [Magic and Spells](#magic-and-spells)
-  - [Shisai](#shisai)
-  - [Shizen](#shizen)
-  - [Mahotsukai](#mahotsukai)
-  - [Genkai](#genkai)
-- [Walkthrough](#walkthrough)
-  - [Part I](./walkthrough-1.md): Senju, Kawahara, and the Emperor
-  - [Part II](./walkthrough-2.md): Seven Words and Seven Relics
-  - [Part III](./walkthrough-3.md): Endgame
-- [Final Notes](#final-notes)
-  - [Sample Party](#sample-party)
-  - [Trail of Clues](#trail-of-clues)
-  - [Bonus: The Speed Run](#speed-run)
-  - [Appendix: Hex Editing](#hex-editing)
-  - [Appendix: Monster List](#monster-list)
-
 ## Administrivia
+
+[![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 This walkthrough is copyright (C) Ben Cordes, 2017–23. It is made available under a [Creative Commons Attribution-NonCommercial-ShareAlike v4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). See link for more details.
 
@@ -102,7 +74,7 @@ I promise, this one tip will change *Deathlord* from an edge-of-your-seat festiv
 
 When you start the game, tell it you have two drives, and load the images for Scenario A and B into drives 1 and 2. That way the game will manage which disk your party is currently on, and you won't have to swap disk images in and out. Of course, there are reasons you might *want* to manage the disk images yourself...
 
-**Save-scumming:** Whenever a random boon is bestowed upon you (i.e. random hit points from training, or the effects of a magic pool), save your game and back it up, then do the thing. If you're not happy with the result, reload. This is even easier if you use an emulator with save states; in linapple, hit `(F12)` to save the emulator state and `(F11)` to reload. This way you can maximize your HP per level and always get +1 to the stat you want from magic pools.
+**Save-scumming:** Whenever a random boon is about to be bestowed upon you (i.e. random hit points from training, or the effects of a magic pool), save your game and back it up, then do the thing. If you're not happy with the result, reload. This is even easier if you use an emulator with save states; in linapple, hit `(F12)` to save the emulator state and `(F11)` to reload. This way you can maximize your HP per level and always get +1 to the stat you want from magic pools.
 
 **Disk-swapping:** Most story progress in the game is based on inventory: you can't see Hell Island unless you have the Sharktooth. However, each town also saves some state about itself on the Scenario disks. If you turn a town against you, it saves a bit of information to disk so the next time you come back it remembers. If you ever want to reset the state of a town, here's how:
 
@@ -994,7 +966,7 @@ I've tried to organize this in an order that (a) makes "plot sense", meaning I d
 
 Of course, even if you follow the clues you're given, it's entirely possible to simply happen upon a continent by mistake while searching for a different one. There's nothing stopping you from just going on walkabout (sailabout?) as soon as you get a boat, striking out in a random direction from Kodan, discovering the Red Shogun's palace, and recovering the Ruby Ring even before you've found Senju. On the other hand you could do what I did, wind up on Asagata, and get your 10th level party demolished by a bunch of Fire Giants.
 
-*Deathlord* does not coddle you. Even the starter dungeon can be lethal for parties that are just starting out. At every turn there is a wrong step that you can take that will drop you into a dungeon that will overpower you. What I'm going to do here is steer you off of that path as often as possible. But if you feel like freelancing, I've tried to write each section in a fairly self-contained way, so you should be able to pick it up whenever you get to a particular town. There will be a couple of places where the town descriptions make more sense if you read them in the order I've written them, though.
+*Deathlord* does not coddle you. Even the starter dungeon can be lethal for parties that are just starting out. At every turn there is a wrong step that you can take that will drop you into a dungeon that will overpower you. What I'm going to do here is steer you away from those paths as often as possible. But if you feel like freelancing, I've tried to write each section in a fairly self-contained way, so you should be able to pick it up whenever you get to a particular town. There will be a couple of places where the town descriptions make more sense if you read them in the order I've written them, though.
 
 One quick word on notation: Generally when I'm describing the information you'll learn in an area, I've put oration keywords (i.e. things that you can `(I)nquire` about) in **bold**. Keywords are plural-insensitive, that is, **cave** and **caves** will usually give you the same answer.
 
@@ -1287,18 +1259,18 @@ One extra bit of weirdness: there are 130 monsters on this list, but there are t
 
 Special attacks:
 
-- Some monsters can *SUMMON* allies.
-- Level *DRAIN* is possibly one of the most annoying things for a CRPG monster to do to you ever. You don't lose your XP, but you do lose 1 level.
-- *BREATH* weapon: damage is proportional to the monster's remaining HP, so the more you hit it, the less breath damage it does.
-- *PAR* or *PAR\** indicate attacks that cause PARalysis to one person or the entire party. Attacks causing the other conditions (*STO, TOX, ILL*) are also possible.
-- *Zap* is similar to TODO.
-- *Zap** is similar to MOTU, but seems to have multiple levels of damage (I-VII)
+- Some monsters can **summon** allies.
+- Level **drain** is possibly one of the most annoying things for a CRPG monster to do to you ever. You don't lose your XP, but you do lose 1 level.
+- **Breath** weapon: damage is proportional to the monster's remaining HP, so the more you hit it, the less breath damage it does.
+- **PAR** or **PAR-all** indicate attacks that cause PARalysis to one person or the entire party. Attacks causing the other conditions (**STO, TOX, ILL**) are also possible.
+- **Zap** is similar to TODO.
+- **Zap** is similar to MOTU but seems to have multiple levels of damage (I-VII)
 
 Several special attacks are lethal:
 
-- Some enemies can *CRIT*ical hit, i.e., slay on a successful attack
-- Banshees have a lethal *SCREAM* attack that targets the entire party.
-- *RIP** is similar to KOROSU.
+- Some enemies can **critical hit**, i.e., slay on a successful attack
+- Banshees have a lethal **scream** attack that targets the entire party.
+- **RIP-all** is similar to KOROSU.
 
 #### Regular Monsters
 
@@ -1306,29 +1278,29 @@ Several special attacks are lethal:
 | ------------ | ---- | ---- | ------ | ---- | ---- | ---- | -------------------------------- |
 | ANSATSUSHA   | 10   | 5    | 1–8    | 11   | 4    | 3    | TOX                              |
 | BARLICAN     | 4    | 7    | 2x1–12 | 15   | 6    | 10   |                                  |
-| BEHOLDERS    | 2    | -1   | 1–20   | 46   | 24   | 20   | Drain, PAR, STO, RIP\*, Zap\*(III) |
+| BEHOLDERS    | 2    | -1   | 1–20   | 46   | 24   | 20   | drain, PAR, STO, RIP-all, zap-all (III) |
 | BRIGANDS     | 10   | 8    | 1–8    | 9    | 3    | 2    |                                  |
 | CENTAURS     | 6    | 4    | 3x1–8  | 16   | 8    | 8    |                                  |
-| COUATL       | 4    | 3    | 1–12   | 25   | 12   | 12   | Zap, PAR\*, Zap\*(III)             |
+| COUATL       | 4    | 3    | 1–12   | 25   | 12   | 12   | zap, PAR-all, zap-all (III)             |
 | DARK TOSHI   | 12   | 2    | 2x1–8  | 17   | 8    | 4    | TOX                              |
 | DEMONGUARD   | 10   | -2   | 2x1–14 | 22   | 10   | 10   |                                  |
-| DJINNI       | 6    | 4    | 2x1–15 | 23   | 14   | 10   | PAR, Zap                         |
+| DJINNI       | 6    | 4    | 2x1–15 | 23   | 14   | 10   | PAR, zap                         |
 | FIRE SPIRITS | 4    | 6    | 2x1–14 | 21   | 16   | 10   |                                  |
-| GENKAI       | 8    | 4    | 1–6    | 11   | 4    | 2    | Zap\*(I)                          |
-| GOOD WIZARD  | 1    | 0    | 1–32   | 53   | 31   | 24   | RIP\*, Zap, Zap\*(V, VII)          |
+| GENKAI       | 8    | 4    | 1–6    | 11   | 4    | 2    | zap-all (I)                          |
+| GOOD WIZARD  | 1    | 0    | 1–32   | 53   | 31   | 24   | RIP-all, zap, zap-all (V, VII)          |
 | GORGONS      | 5    | 2    | 2x1–15 | 32   | 12   | 14   | STO                              |
-| GREMLINS     | 15   | 9    | 1–6    | 5    | 4    | 2    | Summon                           |
+| GREMLINS     | 15   | 9    | 1–6    | 5    | 4    | 2    | summon                           |
 | GUARDS       | 16   | 0    | 1–16   | 19   | 10   | 12   |                                  |
 | GUARDS       | 16   | 0    | 1–16   | 19   | 10   | 12   |                                  |
 | HARPIES      | 8    | 9    | 1–6    | 9    | 5    | 3    | ILL                              |
 | HOBAKE       | 11   | 5    | 1–10   | 10   | 3    | 3    |                                  |
 | KAIBU        | 13   | 8    | 1–8    | 9    | 2    | 3    |                                  |
-| KICHIGAI     | 14   | 6    | 2x1–8  | 12   | 4    | 5    | Summon                           |
+| KICHIGAI     | 14   | 6    | 2x1–8  | 12   | 4    | 5    | summon                           |
 | KISHI        | 8    | 2    | 1–12   | 14   | 5    | 5    |                                  |
 | KOBITO       | 12   | 4    | 1–8    | 14   | 4    | 7    |                                  |
 | KOSAKU       | 8    | 9    | 1–6    | 6    | 1    | 2    |                                  |
 | LIZARD MEN   | 8    | 9    | 1–8    | 9    | 2    | 4    |                                  |
-| LOST SOULS   | 15   | 10   | 1–2    | 5    | 1    | 1    | Summon                           |
+| LOST SOULS   | 15   | 10   | 1–2    | 5    | 1    | 1    | summon                           |
 | MAHOTSUKAI   | 8    | 7    | 1–6    | 20   | 6    | 6    | STO                              |
 | MERCHANT     | 1    | 8    | 1–4    | 6    | 1    | 2    |                                  |
 | MERCHANT     | 16   | 8    | 1–4    | 6    | 1    | 2    |                                  |
@@ -1336,22 +1308,22 @@ Several special attacks are lethal:
 | MIMIC        | 1    | 0    | 1–20   | 20   | 9    | 20   | PAR                              |
 | MIMIC        | 1    | 2    | 1–20   | 17   | 9    | 6    | PAR                              |
 | MINOTAURS    | 8    | 6    | 1–13   | 14   | 6    | 8    |                                  |
-| NINJA        | 6    | 3    | 3x1–8  | 17   | 6    | 5    | Crit                             |
+| NINJA        | 6    | 3    | 3x1–8  | 17   | 6    | 5    | critical hit                             |
 | OBAKE        | 12   | 9    | 1–6    | 7    | 2    | 2    |                                  |
-| OGRE-MAGES   | 6    | 2    | 1–16   | 26   | 10   | 10   | Zap\*(IV)                         |
+| OGRE-MAGES   | 6    | 2    | 1–16   | 26   | 10   | 10   | zap-all (IV)                         |
 | OGRES        | 8    | 7    | 1–14   | 15   | 6    | 8    |                                  |
 | RAIDERS      | 15   | 4    | 1–10   | 12   | 5    | 4    |                                  |
 | ROCK SPIRITS | 4    | 5    | 1–28   | 24   | 10   | 16   |                                  |
 | RONIN        | 8    | 3    | 1–14   | 14   | 5    | 5    |                                  |
 | RYOSHI       | 8    | 6    | 1–10   | 11   | 4    | 5    |                                  |
-| SAFIRS       | 1    | 9    | 2x1–6  | 255  | 1    | 1    | Summon                           |
-| SAILORS      | 15   | 6    | 1–10   | 6    | 6    | 6    | Summon                           |
-| SAMURAI      | 8    | 2    | 2x1–14 | 19   | 7    | 5    | Crit                             |
+| SAFIRS       | 1    | 9    | 2x1–6  | 255  | 1    | 1    | summon                           |
+| SAILORS      | 15   | 6    | 1–10   | 6    | 6    | 6    | summon                           |
+| SAMURAI      | 8    | 2    | 2x1–14 | 19   | 7    | 5    | critical hit                             |
 | SENSHI       | 12   | 3    | 1–12   | 13   | 4    | 5    |                                  |
-| SHISAI       | 8    | 4    | 1–8    | 16   | 4    | 3    | PAR\*                             |
-| SHIZEN       | 10   | 6    | 1–8    | 15   | 4    | 3    | PAR\*                             |
-| SHUKENJA     | 6    | 4    | 2x1–10 | 16   | 5    | 4    | Crit                             |
-| SPHINXES     | 6    | 4    | 2x1–10 | 17   | 8    | 8    | Zap                              |
+| SHISAI       | 8    | 4    | 1–8    | 16   | 4    | 3    | PAR-all                             |
+| SHIZEN       | 10   | 6    | 1–8    | 15   | 4    | 3    | PAR-all                             |
+| SHUKENJA     | 6    | 4    | 2x1–10 | 16   | 5    | 4    | critical hit                             |
+| SPHINXES     | 6    | 4    | 2x1–10 | 17   | 8    | 8    | zap                              |
 | STONEBROWS   | 15   | -8   | 1–6    | 14   | 1    | 1    |                                  |
 | TOMB ROBBERS | 10   | 7    | 1–8    | 10   | 4    | 4    |                                  |
 | TOSHI        | 12   | 6    | 3x1–5  | 11   | 6    | 3    |                                  |
@@ -1368,11 +1340,11 @@ Slain by: Dragonslayer
 
 | Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special |
 | ------------ | ---- | ---- | ------ | ---- | ---- | ---- | ------- |
-| FIREDRAKES   | 2    | 2    | 1–20   | 28   | 10   | 8    | Breath  |
-| MIST DRAGONS | 2    | 0    | 1–24   | 35   | 14   | 16   | Breath  |
-| SAND DRAGONS | 2    | 0    | 1–24   | 36   | 14   | 16   | Breath  |
-| SEA DRAGONS  | 2    | -2   | 2x1–20 | 37   | 16   | 16   | Breath  |
-| WIND DRAGONS | 2    | 0    | 1–28   | 39   | 16   | 20   | Breath  |
+| FIREDRAKES   | 2    | 2    | 1–20   | 28   | 10   | 8    | breath  |
+| MIST DRAGONS | 2    | 0    | 1–24   | 35   | 14   | 16   | breath  |
+| SAND DRAGONS | 2    | 0    | 1–24   | 36   | 14   | 16   | breath  |
+| SEA DRAGONS  | 2    | -2   | 2x1–20 | 37   | 16   | 16   | breath  |
+| WIND DRAGONS | 2    | 0    | 1–28   | 39   | 16   | 20   | breath  |
 
 #### Type 1: Giants
 
@@ -1396,18 +1368,18 @@ Slain by: Holy Blade, Emerald Rod
 | Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special                    |
 | ------------ | ---- | ---- | ------ | ---- | ---- | ---- | -------------------------- |
 | ACID DEMONS  | 4    | 4    | 1–20   | 21   | 12   | 10   |                            |
-| ACID LORD    | 1    | -5   | 4x1–20 | 57   | 30   | 30   | Crit, PAR, RIP\*            |
-| BLAZE DEMONS | 6    | 6    | 2x1–16 | 16   | 8    | 8    | Crit, TOX                  |
-| CERBERUS     | 1    | -6   | 2x1–30 | 54   | 31   | 31   | Crit, Breath               |
-| DARK DEMONS  | 3    | 4    | 2x1–18 | 21   | 14   | 11   | Drain                      |
-| DARK LORD    | 1    | -4   | 2x1–24 | 58   | 28   | 28   | Crit, Drain, RIP\*, Zap\*(V) |
-| FIREBATS     | 4    | 6    | 1–10   | 21   | 9    | 8    | Breath                     |
-| FLAME LORD   | 1    | -3   | 2x1–26 | 60   | 29   | 29   | Crit, RIP\*, Zap\*(V)        |
-| MOLOCHAI     | 3    | 2    | 2x1–16 | 26   | 15   | 12   | Drain                      |
-| SHADES       | 4    | 2    | 1–20   | 26   | 14   | 11   | Drain                      |
+| ACID LORD    | 1    | -5   | 4x1–20 | 57   | 30   | 30   | critical hit, PAR, RIP-all            |
+| BLAZE DEMONS | 6    | 6    | 2x1–16 | 16   | 8    | 8    | critical hit, TOX                  |
+| CERBERUS     | 1    | -6   | 2x1–30 | 54   | 31   | 31   | critical hit, breath               |
+| DARK DEMONS  | 3    | 4    | 2x1–18 | 21   | 14   | 11   | drain                      |
+| DARK LORD    | 1    | -4   | 2x1–24 | 58   | 28   | 28   | critical hit, drain, RIP-all, zap-all (V) |
+| FIREBATS     | 4    | 6    | 1–10   | 21   | 9    | 8    | breath                     |
+| FLAME LORD   | 1    | -3   | 2x1–26 | 60   | 29   | 29   | critical hit, RIP-all, zap-all (V)        |
+| MOLOCHAI     | 3    | 2    | 2x1–16 | 26   | 15   | 12   | drain                      |
+| SHADES       | 4    | 2    | 1–20   | 26   | 14   | 11   | drain                      |
 | SLIME DEMONS | 3    | 3    | 4x1–16 | 22   | 13   | 10   |                            |
-| SMOKE DEMONS | 6    | 5    | 1–20   | 22   | 10   | 9    | PAR, PAR\*                  |
-| VAPOR DEMONS | 4    | 4    | 1–16   | 19   | 11   | 9    | PAR\*, Zap\*(I)              |
+| SMOKE DEMONS | 6    | 5    | 1–20   | 22   | 10   | 9    | PAR, PAR-all                  |
+| VAPOR DEMONS | 4    | 4    | 1–16   | 19   | 11   | 9    | PAR-all, zap-all (I)              |
 
 #### Type 3: Undead
 
@@ -1415,59 +1387,94 @@ Slain by: Sword of Fire
 
 | Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special                          |
 | ------------ | ---- | ---- | ------ | ---- | ---- | ---- | -------------------------------- |
-| AKHAMUN-RA   | 1    | -4   | 1–32   | 53   | 24   | 31   | Crit, ILL, RIP\*, Zap\*(III)       |
-| APPARITIONS  | 4    | 3    | 1–18   | 25   | 9    | 9    | Drain, PAR                       |
-| BANSHEES     | 4    | 1    | 1–16   | 33   | 12   | 10   | Drain, Scream (RIP\*)             |
-| GHOSTS       | 6    | 0    | 2x1–16 | 31   | 12   | 12   | Drain                            |
+| AKHAMUN-RA   | 1    | -4   | 1–32   | 53   | 24   | 31   | critical hit, ILL, RIP-all, zap-all (III)       |
+| APPARITIONS  | 4    | 3    | 1–18   | 25   | 9    | 9    | drain, PAR                       |
+| BANSHEES     | 4    | 1    | 1–16   | 33   | 12   | 10   | drain, scream (RIP-all)             |
+| GHOSTS       | 6    | 0    | 2x1–16 | 31   | 12   | 12   | drain                            |
 | GHOULS       | 12   | 7    | 2x1–6  | 13   | 4    | 4    | PAR                              |
 | GUARDIANS    | 8    | 4    | 2x1–16 | 18   | 8    | 8    | ILL                              |
-| LICH         | 1    | -2   | 1–24   | 52   | 24   | 24   | PAR, RIP\*, Zap\*(V, VI)           |
-| LORIC        | 1    | -1   | 2x1–20 | 50   | 28   | 22   | Crit, Drain, PAR\*, Zap\*(IV, VII) |
+| LICH         | 1    | -2   | 1–24   | 52   | 24   | 24   | PAR, RIP-all, zap-all (V, VI)           |
+| LORIC        | 1    | -1   | 2x1–20 | 50   | 28   | 22   | critical hit, drain, PAR-all, zap-all (IV, VII) |
 | MUMMIES      | 8    | 2    | 1–24   | 22   | 8    | 10   | ILL                              |
-| PHANTOMS     | 4    | 3    | 1–16   | 21   | 7    | 7    | Drain                            |
+| PHANTOMS     | 4    | 3    | 1–16   | 21   | 7    | 7    | drain                            |
 | SHADOWS      | 6    | 4    | 2x1–8  | 17   | 5    | 5    | PAR                              |
 | SKELETONS    | 15   | 7    | 1–6    | 4    | 3    | 2    |                                  |
-| UNDEAD RONIN | 2    | 0    | 2x1–20 | 40   | 24   | 20   | Crit                             |
-| VAMPIRES     | 1    | -2   | 2x1–24 | 38   | 16   | 16   | Drain, Zap\*(II)                  |
-| WILL O WISPS | 4    | -10  | 1–20   | 25   | 10   | 4    | Summon, PAR                      |
-| WRAITHS      | 6    | 3    | 1–15   | 20   | 6    | 6    | Drain                            |
+| UNDEAD RONIN | 2    | 0    | 2x1–20 | 40   | 24   | 20   | critical hit                             |
+| VAMPIRES     | 1    | -2   | 2x1–24 | 38   | 16   | 16   | drain, zap-all (II)                  |
+| WILL O WISPS | 4    | -10  | 1–20   | 25   | 10   | 4    | summon, PAR                      |
+| WRAITHS      | 6    | 3    | 1–15   | 20   | 6    | 6    | drain                            |
 | ZOMBIES      | 15   | 7    | 1–10   | 5    | 3    | 3    |                                  |
 
 #### Type 4: The Deathlord
 
 Slain by: Sunspear
 
-| Monster    | ##   | AC   | Dmg     | XP   | TH   | HD   | Special                                                      |
-| ---------- | ---- | ---- | ------- | ---- | ---- | ---- | ------------------------------------------------------------ |
-| DEATHLORD  | 1    | -10  | 1–48    | 73   | 31   | 31   | Crit, Drain, RIP\*<br/>Immune to all physical attacks *except* the Sunspear<br/>Immune to all spells *except* M1:TODO |
-| DOOM GOLEM | 1    | -21  | 4x1–127 | 0    | 31   | 31   | Crit; probably doesn't exist                                 |
+<table>
+  <thead>
+    <tr>
+      <th>Monster</th>
+      <th>##</th>
+      <th>AC</th>
+      <th>Dmg</th>
+      <th>XP</th>
+      <th>TH</th>
+      <th>HD</th>
+      <th>Special</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=2>DEATHLORD</td>
+      <td class="c">1</td>
+      <td class="c">-10</td>
+      <td class="c">1&ndash;48</td>
+      <td class="c">73</td>
+      <td class="c">31</td>
+      <td class="c">31</td>
+      <td>crit, drain, RIP*</td>
+    </tr><tr>
+      <td colspan=7>Immune to all physical attacks <i>except</i> the Sunspear<br/>Immune to all spells <i>except</i> M1:TODO</td>
+    </tr><tr>
+      <td rowspan=2>DOOM GOLEM</td>
+      <td class="c">1</td>
+      <td class="c">-21</td>
+      <td class="c">4x1&ndash;127</td>
+      <td class="c">0</td>
+      <td class="c">31</td>
+      <td class="c">31</td>
+      <td>crit</td>
+    </tr><tr>
+      <td colspan=7>Probably doesn't exist</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Type 5: Difficult to flee?
 
 | Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special                      |
 | ------------ | ---- | ---- | ------ | ---- | ---- | ---- | ---------------------------- |
-| BEHEMOTHS    | 3    | 2    | 1–20   | 20   | 8    | 10   | Summon                       |
-| DIAMYO       | 1    | 2    | 2x1–24 | 26   | 10   | 16   | Crit                         |
-| EMPEROR      | 1    | -4   | 2x1–24 | 43   | 24   | 28   | Crit                         |
+| BEHEMOTHS    | 3    | 2    | 1–20   | 20   | 8    | 10   | summon                       |
+| DIAMYO       | 1    | 2    | 2x1–24 | 26   | 10   | 16   | critical hit                         |
+| EMPEROR      | 1    | -4   | 2x1–24 | 43   | 24   | 28   | critical hit                         |
 | EVIL SPIRITS | 4    | 4    | 1–10   | 19   | 10   | 6    | PAR                          |
-| EVIL TOMATOS | 15   | 10   | 1–4    | 7    | 3    | 3    | Summon                       |
+| EVIL TOMATOS | 15   | 10   | 1–4    | 7    | 3    | 3    | summon                       |
 | EVIL TREES   | 4    | 3    | 1–15   | 15   | 6    | 6    |                              |
-| GOLEMS       | 6    | 3    | 1–32   | 27   | 10   | 16   | Crit                         |
+| GOLEMS       | 6    | 3    | 1–32   | 27   | 10   | 16   | critical hit                         |
 | GREEN SLIMES | 10   | 6    | 1–10   | 18   | 6    | 10   | TOX                          |
-| ICE TOADS    | 6    | 8    | 1–8    | 16   | 4    | 2    | Breath                       |
-| ICE WOLVES   | 6    | 5    | 1–8    | 16   | 6    | 4    | Breath                       |
-| KAWAHARA     | 1    | 2    | 1–16   | 37   | 20   | 16   | RIP\*, Zap, PAR\*, ZAP\*(IV, V) |
-| KNIGHT       | 1    | 2    | 1–24   | 28   | 12   | 16   | Drain                        |
+| ICE TOADS    | 6    | 8    | 1–8    | 16   | 4    | 2    | breath                       |
+| ICE WOLVES   | 6    | 5    | 1–8    | 16   | 6    | 4    | breath                       |
+| KAWAHARA     | 1    | 2    | 1–16   | 37   | 20   | 16   | RIP-all, zap, PAR-all, zap-all (IV, V) |
+| KNIGHT       | 1    | 2    | 1–24   | 28   | 12   | 16   | drain                        |
 | KRAKEN       | 1    | 6    | 8x1–8  | 19   | 8    | 10   |                              |
-| NECROMANCER  | 1    | 2    | 1–16   | 37   | 20   | 16   | RIP\*, Zap, PAR\*, Zap\*(IV, V) |
-| PURPLE WORMS | 2    | 2    | 1–32   | 46   | 28   | 31   | Crit, TOX                    |
-| RED SHOGUM   | 1    | -6   | 2x1–31 | 54   | 24   | 24   | Crit, RIP\*, Zap\*(IV)         |
+| NECROMANCER  | 1    | 2    | 1–16   | 37   | 20   | 16   | RIP-all, zap, PAR-all, zap-all (IV, V) |
+| PURPLE WORMS | 2    | 2    | 1–32   | 46   | 28   | 31   | critical hit, TOX                    |
+| RED SHOGUM   | 1    | -6   | 2x1–31 | 54   | 24   | 24   | critical hit, RIP-all, zap-all (IV)         |
 | ROOK         | 1    | 2    | 1–24   | 29   | 12   | 16   | STO                          |
 | SANDSQUIDS   | 6    | 3    | 1–8    | 13   | 4    | 5    | TOX                          |
 | SEA SERPENTS | 8    | 5    | 1–16   | 17   | 8    | 6    | TOX                          |
 | SEA SPIRITS  | 4    | 2    | 2x1–26 | 23   | 10   | 16   |                              |
 | SNOW BEARS   | 6    | 5    | 2x1–12 | 17   | 8    | 10   |                              |
-| SULTAN       | 1    | -4   | 1–32   | 44   | 20   | 24   | Crit                         |
+| SULTAN       | 1    | -4   | 1–32   | 44   | 20   | 24   | critical hit                         |
 | VIPERS       | 8    | 10   | 1–4    | 7    | 4    | 1    | TOX                          |
 | WEREBEARS    | 2    | 5    | 3x1–16 | 27   | 16   | 18   | TOX                          |
 | WHORLS       | 4    | 10   | 4x1–8  | 17   | 6    | 16   |                              |

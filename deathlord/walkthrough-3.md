@@ -1,15 +1,15 @@
-# Yet Another Deathlord Walkthrough
-
-## Part III: Endgame
+---
+title: Yet Another Deathlord Walkthrough
+toc:
+  enabled: true
+  h_min: 2
+  h_max: 3
+---
+# Part III: Endgame
 
 Our heroes have traveled around the world, visiting a dozen continents. They've collected the seven words and six relics that were foretold to stand between them and the Deathlord. And, despite the monster's insistence, they've proved their competence in countless dungeons, towns, and wildernesses.
 
 The only thing left is to find the Deathlord himself, hiding at the bottom of the dungeons of Hell, and end his scourge once and for all.
-
-- [Hell Island](#hell-island)
-  - [Skull Keep](#skull-keep)
-  - [Hell](#hell)
-  - [Return to the Emperor](#return-to-the-emperor-kodan) (Kodan)
 
 ------
 

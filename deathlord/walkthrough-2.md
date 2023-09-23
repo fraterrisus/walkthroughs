@@ -1,6 +1,11 @@
-# Yet Another Deathlord Walkthrough
-
-## Part II: Seven Words and Seven Relics
+---
+title: Yet Another Deathlord Walkthrough
+toc:
+  enabled: true
+  h_min: 2
+  h_max: 3
+---
+# Part II: Seven Words and Seven Relics
 
 The evil wizard Kawahara has been defeated and the good wizard Senju has been found in his hiding place on Nyuku. Senju sends the party on a quest for the Blue Crystal, promising them a weapon of great power in return. What other wonders will the party find along the way?
 
@@ -9,53 +14,6 @@ Okay, stepping out of narrative mode for a moment, let's take stock. One of the 
 The best choice for the next continent to visit is actually Chigaku, because the dungeons are the right level for your party. If you're playing blind, it's actually more likely that you tried to find Chigaku after leaving Kodan (because it's "north" of the temple where you find the clue about Senju fleeing Kodan), and that wouldn't be so bad, but it made more narrative sense to send you straight to Senju first.
 
 I guess what I'm saying here is: trust me, I'm sending you in the right directions to minimize backtracking. Because it's not like *Deathlord* gives you useful clues in that regard. Hell, even the *official cluebook* uses a completely nonsensical ordering...
-
-- [Chigaku](#chigaku)
-  - [Fort Wintergreen](#fort-wintergreen)
-  - [Crystalmist](#crystalmist)
-  - [Troll Hole](#troll-hole)
-  - [Tower of Shumi](#tower-of-shumi)
-- [Osozaki](#osozaki)
-  - [Deepingdale](#deepingdale)
-  - [Wakai](#wakai)
-  - Telegrond (unwritten)
-- [Akmihr](#akmihr)
-  - [Oasis](#oasis)
-  - [Sultan's Palace](#sultans-palace)
-  - [Desert Flower](#desert-flower)
-  - [Kobito Mines](#kobito-mines)
-  - [Pyramid of Akhamun-Ra](#pyramid-of-akhamun-ra)
-- [Narawn](#narawn)
-  - [Lost Lagoon](#lost-lagoon)
-  - [Kashiwa](#kashiwa)
-  - [Fort Demonguard](#fort-demonguard)
-  - [Malkanth](#malkanth)
-- [Asagata](#asagata)
-  - [Towne Royal / Makimura](#towne-royal--makimura)
-  - [Croyo](#croyo)
-  - [Fire Giants' Lair](#fire-giants-lair)
-- [Collecting some Relics](#collecting-some-relics)
-- [Giluin](#giluin)
-  - [Kobar](#kobar)
-  - [Shupan](#shupan)
-  - Linear Dungeon (unwritten)
-  - [Temple of Oceanus](#temple-of-oceanus)
-- [Sirion](#sirion)
-  - [Clearview](#clearview)
-  - [Staircase Dungeon](#staircase-dungeon)
-  - [Greenbanks](#greenbanks)
-  - [Chessboard Dungeon](#chessboard-dungeon)
-- [Tsumani](#tsumani)
-  - [Morningfrost](#morningfrost)
-  - [Snowraven](#snowraven)
-  - [Chutes-and-Ladders Dungeon](#chutes-and-ladders-dungeon)
-- [Black Isles](#black-isles)
-  - [Red Shogun's Castle](#red-shoguns-castle)
-  - [Doors Dungeon](#doors-dungeon)
-- [Lost Isles](#lost-isles)
-  - [Cave of the Four Elements](#cave-of-the-four-elements)
-- [Isle of the Dead](#isle-of-the-dead)
-  - [Pyramid of the Old Ones](#pyramid-of-the-old-ones)
 
 -----
 

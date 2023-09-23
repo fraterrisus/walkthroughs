@@ -1,25 +1,13 @@
-# Yet Another Deathlord Walkthrough
-
-## Part I: Senju, Kawahara, and the Emperor 
+---
+title: Yet Another Deathlord Walkthrough
+toc:
+  enabled: true
+  h_min: 2
+  h_max: 3
+---
+# Part I: Senju, Kawahara, and the Emperor 
 
 As our intrepid heroes begin their adventure, they'll meet the Emperor of Lorn at his palace on Kodan and learn about some of the threats against him. The evil wizard Kawahara and the good wizard Senju appear to be locked in some sort of death match, though someone is clearly pulling the strings behind Kawahara and Senju is no where to be found, at first...
-
-- [Kodan](#kodan)
-  - [Kawa](#kawa)
-  - [Emperor's Palace](#emperors-palace)
-  - [Tokugawa](#tokugawa)
-  - [Tokushima](#tokushima)
-  - [Yokahama](#yokahama)
-  - [Starter Dungeon](#starter-dungeon)
-  - [Yakuza Guild](#yakuza-guild-under-kawa) (under Kawa)
-  - [Kawahara's Dungeon](#kawaharas-dungeon-under-the-palace) (under the Palace)
-  - [Leaving Kodan](#leaving-kodan)
-  - [Wakiza and Pirate's Den](#wakiza-and-pirates-den)
-- [Nyuku](#nyuku)
-  - [South Spindrift](#south-spindrift)
-  - [North Spindrift](#north-spindrift)
-  - [Twin Rivers](#twin-rivers)
-  - Sunken Temple (unwritten)
 
 -----
 

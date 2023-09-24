@@ -17,9 +17,9 @@ The **Hex** code is the item ID that appears in your character's inventory data,
 
 Most weapons grant a bonus or penalty to your **Hit** score; higher is better. **Dmg** shows the *maximum* damage, and if the weapon can attack multiple times there's a "2x" (etc.) in front of it. Some weapons also affect your **AC** (either up or down). **N.B. For the sake of this table, positive AC modifiers are *good*** (even though your AC wants to be as "low" as possible).
 
-**Special** effects are listed in an extra row. Items that "cast" a spell do so when you *Use* them; they usually come with a limited number of charges. The maximum number of charges is in parentheses, for example (#24), but you'll find items with less. Check your inventory; it will tell you how many charges are left. `#**` means infinite. A weapon that "slays" a particular monster type does double damage against them; see the [Monster List](index.md#monster-list) for types.
+**Special** effects are listed in an extra row. Items that "cast" a spell do so when you *Use* them; they usually come with a limited number of charges. The maximum number of charges is in parentheses, for example (#24), but you'll find items with less. Check your inventory; it will tell you how many charges are left. `#**` means infinite. A weapon that "slays" a particular monster type does double damage against them; see the [Monster List](bestiary.md) for types.
 
-## Hand Weapons (slot 0)
+## Hand Weapons
 
 <table>
   <thead>
@@ -294,7 +294,7 @@ Most weapons grant a bonus or penalty to your **Hit** score; higher is better. *
   </tbody>
 </table>
 
-## Missile Weapons (slot 1)
+## Missile Weapons
 
 <table>
   <thead>
@@ -389,7 +389,7 @@ Most weapons grant a bonus or penalty to your **Hit** score; higher is better. *
   </tbody>
 </table>
 
-## Body Armor (slot 2)
+## Body Armor
 
 <table>
   <thead>
@@ -519,7 +519,7 @@ Most weapons grant a bonus or penalty to your **Hit** score; higher is better. *
   </tbody>
 </table>
 
-## Shields (slot 3)
+## Shields
 
 <table>
   <thead>
@@ -593,7 +593,7 @@ Most weapons grant a bonus or penalty to your **Hit** score; higher is better. *
   </tbody>
 </table>
 
-## Misc. Armor (slot 4)
+## Misc. Armor
 
 <table>
   <thead>
@@ -673,7 +673,7 @@ Most weapons grant a bonus or penalty to your **Hit** score; higher is better. *
   </tbody>
 </table>
 
-## Magic Items (slot 5)
+## Magic Items
 
 <table>
   <thead>
@@ -725,7 +725,7 @@ Most weapons grant a bonus or penalty to your **Hit** score; higher is better. *
       <td class="c">all</td>
       <td class="c">all</td>
       <td class="c">all</td>
-      <td></td>
+      <td class="c">+2</td>
     </tr><tr>
       <td colspan=6>casts Z4:HITATE</td>
     </tr><tr>
@@ -742,7 +742,7 @@ Most weapons grant a bonus or penalty to your **Hit** score; higher is better. *
   </tbody>
 </table>
 
-## Tools (slot 6)
+## Tools
 
 <table>
   <thead>
@@ -787,7 +787,7 @@ Most weapons grant a bonus or penalty to your **Hit** score; higher is better. *
   </tbody>
 </table>
 
-## Scrolls (slot 7)
+## Scrolls
 
 <table>
   <thead>

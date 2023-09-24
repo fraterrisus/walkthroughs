@@ -8,7 +8,7 @@ toc:
 
 # Yet Another Deathlord Walkthrough
 
-Version 2.1, June 2023
+Version 2.1.1, September 2023
 
 ## Administrivia
 
@@ -22,7 +22,7 @@ All other trademarks and copyrights contained in this document are owned by thei
 
 *Deathlord* is a notoriously difficult game for its era, and relatively non-linear from a time where that wasn't common, but still I'm surprised that this seems to be the first "complete" walkthrough for it. However, as usual, I would be remiss if I didn't recognize the giants on whose shoulders I stand.
 
-**Andrew Schultz** wrote a humor walkthrough that prioritized narrative over hints, but it's his automatically-generated color maps that really made a difference for me.
+**Andrew Schultz** wrote a humor walkthrough that prioritized narrative over hints, but it's his automatically-generated color maps that really made a difference for me. He also did a bunch of digging around in the data files around the same time I did, which allowed me to cross-check my work against his.
 
 **Wilson Lau**'s Deathlord FAQ and dump of the conversational strings were both excellent points of reference.
 
@@ -41,6 +41,7 @@ And finally, a shout-out to **Chester**, the [CRPG Addict](https://crpgaddict.bl
 - v1.0.1, February 2018: spellchecking (oops), rewrite spell descriptions
 - v2.0, June 2022: update to CC4.0 license; major rewrite in GameFAQs HTML format; corrections, edits, and updates
 - v2.1, June 2023: reformat for GitHub Markdown
+- v2.1.1, September 2023: reorg some pages, reformat for GitHub Sites
 
 ### Game Introduction
 
@@ -414,7 +415,7 @@ As is true with most RPGs, in *Deathlord* characters have a "level" which starts
 
 Where *Deathlord* differs from most CRPGs is that it **doesn't tell you** how many XP your characters have. Literally the only way to figure it out is to disassemble a memory dump or a save disk file. It's maddening!
 
-So, how much experience does your party gain from a battle? Well, each monster has an [XP value](#monster-list). The total experience pool from a battle is equal to the XP for the monster times the maximum number of monsters present at any one time. Since *Deathlord* only ever sends one group of monsters against you at a time, this is usually pretty straightforward to figure out. It gets a little weird if the monsters can summon allies: if you start with four Gremlins, kill three, and they summon one more, you only get credit for four. But if you start with four and they summon a fifth before you can kill one, then you get credit for five.
+So, how much experience does your party gain from a battle? Well, each monster has an [XP value](bestiary.md). The total experience pool from a battle is equal to the XP for the monster times the maximum number of monsters present at any one time. Since *Deathlord* only ever sends one group of monsters against you at a time, this is usually pretty straightforward to figure out. It gets a little weird if the monsters can summon allies: if you start with four Gremlins, kill three, and they summon one more, you only get credit for four. But if you start with four and they summon a fifth before you can kill one, then you get credit for five.
 
 Now we know how big the experience pool is, how do we divide it up? In order to earn a share of experience, a character must do something "useful":
 
@@ -548,11 +549,11 @@ When you use the `(A)ttack` action (again, only from slots 1-3), you make one or
 
 For each attack, there is a baseline 25% chance of success. That number is modified by +5% for every point of to-hit ability for the attacker and -5% for every point of armor the defender is wearing, but it can't go lower than 10%.
 
-Monsters' AC and their to-hit scores are shown in the [Appendix](#monster-list). Remember that the game displays AC starting at 10 and going *down* as it gets *better*, so when I say "every point of armor", I mean that AC 2 is "one point better" than AC 3.
+Monsters' AC and their to-hit scores are shown on the [Monster List](bestiary.md). Remember that the game displays AC starting at 10 and going *down* as it gets *better*, so when I say "every point of armor", I mean that AC 2 is "one point better" than AC 3.
 
 For PCs, your to-hit score is modified by your class and level (although it's unclear how much), your STR modifier, possibly your DEX, and the [weapon](equipment.md) you're using. Note that some weapons actually have *penalties* to-hit.
 
-By the way, there's no functional difference between missile weapons and melee weapons, except that you're allowed to [carry](#dealing-with-loot) one of each. You can't fire a missile weapon from the back row, and the combat system doesn't include range or distance between parties. So you should let the various [benefits and penalties](equipment.md) of each weapon decide what you use.
+By the way, there's no functional difference between missile weapons and melee weapons, except that you're allowed to [carry](#equipment) one of each. You can't fire a missile weapon from the back row, and the combat system doesn't include range or distance between parties. So you should let the various [benefits and penalties](equipment.md) of each weapon decide what you use.
 
 If you have multiple attacks per round, each attack has an independent chance of hitting. If an attack hits, the game rolls damage. You get to add your STR bonus to the damage *for each attack*, which means that weapons that attack twice are generally better than weapons that attack once even if they do half as much base damage (because you get to double your STR bonus if you hit twice). However, weapons that attack multiple times often have lower to-hit bonuses (or even penalties), which changes the math a bit. Still, if you're carrying a Ninja, I recommend you get them a Shuriken as quickly as possible (they're pretty cheap), and buy your Samurai a Katana as soon as you leave Kodan.
 
@@ -678,27 +679,6 @@ If you decide to fight, your tactics are fairly limited. Your back line, in part
 
 Don't forget the [experience distribution](#experience-and-leveling) rules; make sure everybody gets a chance to do something "useful", and in general if you're facing fewer weaker monsters, it's probably a good idea to skip over your front line on the first turn so the back row has a chance to cast-and-cancel so they get something out of the fight. You should also consider having characters that have a +1 and are waiting to train not do anything at all in combat, to reduce the denominator of distributed experience.
 
-### Dealing with Loot
-
-*Deathlord* provides you with an interesting inventory management problem. Each character can hold eight items, but those eight inventory slots are devoted to certain categories of items – melee weapons go in slot 0, for example. You can't hold more than one of each category, so you can't stash a spare melee weapon in any other slot, which makes acquiring a new melee weapon interesting.
-
-When you win a battle, you may or may not get money, and you may find zero, one, or two items. Money always goes to whoever is the party leader at the moment. If you collect too much money (a character can only hold 10,000 gp), you silently drop the excess. So make a point of checking how much cash your party leader has, and use `(T)rade (G)old` to give some to other characters when necessary.
-
-Note: **do not use** the Pool Gold command ($ or shift-4)! It gathers up all the cash in the party, ***silently drops*** everything over 10,000 gp, and then gives it all to one person. Go read that sentence again, and pay attention to the bit in bold and italics. This may not seem like a problem while you're on Kodan, but it will become one soon enough. It's really easy to throw away many thousands of gold pieces without knowing you've done it. And you don't get a warning, because *Deathlord* hates you.
-
-If you find an item in battle, you will be asked which character wants to pick it up. If that character already has an item in that slot, the game will ask if you want to drop the item you already have and pick up the new one instead. You can cancel and pick a different character. Note that it is entirely possible to irretrievably lose a unique item (such as the Emerald Rod) this way.
-
-`(G)etting` money from a pot or a treasure box works exactly the same way, except that you can select a character to perform the action (`G5K` will tell character #5 to steal from something to the E, for example). However, treasure boxes are sometimes trapped, so it's good to have a thief or a character with a high DEX open them.
-
-If you want to move inventory items between characters, you have two options. For food, you can use the `(T)rade (F)ood` command. Pick the **destination** character first, then the **source** character, then tell the game how much to move. You can also trade `(T)orches` and, as I mentioned above, `(G)old`.
-
-The game allows you to `(T)rade (E)quipment` as well, but **do not use this command**. Let's say you want to give your Tanto to someone to hold for a second while your Mahotsukai does something else. So you *Trade Equipment* to #1 from #6, and then pick the Tanto... but you forgot that character #1 already has the Sunspear. No problem, they'll just ***quietly drop it forever*** so that they can receive the Tanto, because that's what you wanted, right?
-
-Instead, use the `e(X)change` command. Again, pick the **destination** character first, then the **source** character. In our previous example, the Mahotsukai would wind up with the Sunspear, because players 1 and 6 *exchanged* their melee weapons. This is a much safer operation (and easy to reverse), but it only works on inventory items.
-
-It is sometimes possible to sell equipment back to shops, but you have to find a shop that sells items of the same variety; you can't sell a shield back to an armor shop, for instance, and neither can you sell a melee weapon to a missile weapon shop. However, if it can't be bought in a shop, it can't be sold back to a shop either. So the vast majority of the time, it's not worth carrying around something you can't use. Just drop it and move on.
-
-At least you don't have to deal with encumbrance?
 
 ### Atlas
 
@@ -715,7 +695,7 @@ One hint about getting lost at sea: if you get really really lost, try sailing w
 Below I list each continent, give its coordinates on the map above, and list the locations you can visit there, along with a rough pointer towards which part of the continent they can be found. Locations with a game-winning thing (i.e. word or relic) are marked with an asterisk.
 
 - **Akmihr** (K-10)
-  - *Towns:* Oasis (NE), Desert Flower (SE), \*Sultan's Palace (SE)*
+  - *Towns:* Oasis (NE), Desert Flower (SE), \*Sultan's Palace (SE)
   - *Dungeons:* Akhamun-Ra's Pyramid (NW), \*Kobito Mines (C)
   
 - **Asagata** (E-08)
@@ -739,7 +719,7 @@ Below I list each continent, give its coordinates on the map above, and list the
 
 - **Hell Island** (O-03)
   - *Towns:* Skull Keep (C)
-    *Dungeons:* \*Hell (Skull Keep)
+  - *Dungeons:* \*Hell (Skull Keep)
 
 - **Lost Isles** (E-05)
   - *Dungeons:* \*Caves of the Four Elements (SW)
@@ -775,15 +755,15 @@ Below I list each continent, give its coordinates on the map above, and list the
 
 Some weird things that I've noticed on my journeys across Lorn... maybe these will seem weird to you, too, or maybe they'll seem normal. Regardless, there are some hints, cheats, and spoilers here, so *caveat lector.*
 
-I started playing with a [flat Boot disk image](#managing-save-files), and got almost no loot whatsoever, until I got to the edge of Kodan and discovered the bug that prevents you from continuing the rest of the game. I downloaded a nibbilized Boot disk and reloaded, and suddenly the loot started to flow like water. Maybe that's just that loot is nerfed on Kodan, or maybe there's a bug in the cracked image, or maybe something else happened, but it was certainly noticable.
+I started playing with a [flat Boot disk image](#managing-save-files) and got almost no loot whatsoever until I got to the edge of Kodan and discovered the bug that prevents you from continuing the rest of the game. I downloaded a nibbilized Boot disk and reloaded, and suddenly the loot started to flow like water. I'm not sure why loot would be nerfed on Kodan. Maybe there's a bug in the cracked image I was using, or maybe it's just perception bias and the effects of a random number generator, but it was certainly noticable.
 
-Go into a shop. Have a Shisai buy a lockpick, then immediately buy a holy symbol. Press `(Y)` to replace the first with the second, and (due to a bug) the holy symbol will have 255 charges, which is way more than normal.
+Go into a 'Tools' shop. Have a Shisai buy a lockpick, then immediately buy a holy symbol. Press `(Y)` to replace the first with the second, and the holy symbol will have 255 charges, which is way more than normal. Gonna chalk this one up as a bug, I think.
 
-While outside and on-board a boat, you can attack enemies on land, but they can not attack you. Likewise, monsters in the water can attack you from the water, even if you're on land. However, when you're inside, even if you're on-board a boat (yes, it happens), you can be attacked from land.
+When you're OUTSIDE, creatures on the water (including you, if you're on a boat) can attack creatures on land, but not vice versa. But there's no such restriction when you're INSIDE, and yes you'll find plenty of boats in cities and dungeons.
 
-If you try to `(B)oard` a boat that isn't yours, the game tells you it's "Not yours!". You can steal a boat by `(A)ttacking` it. I'm not sure if this counts as attacking a town. Careful, though; boats usually have a whole bunch of Sailors on board, and they aren't super hard, but they do summon allies.
+If you try to `(B)oard` a boat that isn't yours, the game tells you it's "Not yours!". You can steal a boat by `(A)ttacking` it. Careful, though; boats usually have a whole bunch of Sailors on board, and they aren't super hard, but they do summon allies. I'm not sure if this counts as attacking a town.
 
-Opened chests eventually close themselves and slowly regenerate gold. If you go back to treasure that you looted much earlier in the game, there's a change it will be there again, although it won't have as much gold in it as it did the first time (unless you wait a *really* long time.)
+Opened chests eventually close themselves and slowly regenerate gold. If you go back to treasure that you looted much earlier in the game, there's a chance it will be there again, although it won't have as much gold in it as it did the first time (unless you wait a *really* long time.)
 
 Casting G6:UKU allows you to walk on water for around 20 steps. If it runs out when you're in the middle of water, though, you don't drown (phew). You're just stuck, because the game won't let you walk on water any more. So you have to rest until you can cast UKU again.
 
@@ -797,13 +777,13 @@ Now let's talk lock picking. For non-Yakuza thieves trying to pick a lock, that 
 ((3 * LVL) + MAX(0, 2 * (DEX - 12))) * 2.5
 ```
 
-If you're familiar with assembly language, you may know that a fast way to implement "multiply by 2.5" is "multiply by 2, divide by 2, and take the sum" because you can implement $\times 2$ with a left-shift and $\div 2$ with a right-shift. So let's take the example of a level 32 Ninja with 18 DEX.
+If you're familiar with assembly language, you may know that a fast way to implement "multiply by 2.5" is "multiply by 2, divide by 2, and take the sum" because you can implement $$ \times 2 $$ with a left-shift and $$\div 2$$ with a right-shift. So let's take the example of a level 32 Ninja with 18 DEX.
 
 ```
 (3 * 32) + (2 * (18-12) = 96 + 12 = 108
 ```
 
-Convert to binary; $108_{10} = 64 + 32 + 8 + 4 = 01101100_{2}$. If we do the arithmetic gymnastics I described above and drop anything that overflows an 8-bit integer, we get
+That's a 108% chance of picking a lock. Let's convert that to the 0-250 scale: `108` in base-ten is `01101100` in base-two, and if we do the arithmetic gymnastics I described above and drop anything that overflows an 8-bit integer, we get
 
 ```
 108_10 = 01101100_2
@@ -812,7 +792,44 @@ Convert to binary; $108_{10} = 64 + 32 + 8 + 4 = 01101100_{2}$. If we do the ari
      add 00001110_2 = 8 + 4 + 2 = 14
 ```
 
-So a level 32 Ninja with 18 DEX has a a 14/255, or around 5%, chance of success. Fortunately, there's a hard-coded override such that level 33 thieves always have a 97% chance of picking a lock.
+So a level 32 Ninja with 18 DEX has a 14/255, or around 5%, chance of success. Fortunately, there's a hard-coded override for level thieves level 33 and up.
+
+## Equipment
+
+*Deathlord* provides you with an interesting inventory management problem. Each character can hold eight items, but those eight inventory slots are devoted to certain categories of items – melee weapons go in slot 0, for example. You can't hold more than one of each category, so you can't stash a spare melee weapon in any other slot, which makes acquiring a new melee weapon interesting.
+
+### Managing Loot
+
+When you win a battle, you may or may not get money, and you may find zero, one, or two items. Money always goes to whoever is the party leader at the moment. If you collect too much money (a character can only hold 10,000 gp), you silently drop the excess. So make a point of checking how much cash your party leader has, and use `(T)rade (G)old` to give some to other characters when necessary.
+
+Note: **do not use** the Pool Gold command ($ or shift-4)! It gathers up all the cash in the party, ***silently drops*** everything over 10,000 gp, and then gives it all to one person. Go read that sentence again, and pay attention to the bit in bold and italics. This may not seem like a problem while you're on Kodan, but it will become one soon enough. It's really easy to throw away many thousands of gold pieces without knowing you've done it. And you don't get a warning, because *Deathlord* hates you.
+
+If you find an item in battle, you will be asked which character wants to pick it up. If that character already has an item in that slot, the game will ask if you want to drop the item you already have and pick up the new one instead. You can cancel and pick a different character. Note that it is entirely possible to irretrievably lose a unique item (such as the Emerald Rod) this way.
+
+`(G)etting` money from a pot or a treasure box works exactly the same way, except that you can select a character to perform the action (`G5K` will tell character #5 to steal from something to the E, for example). However, treasure boxes are sometimes trapped, so it's good to have a thief or a character with a high DEX open them.
+
+If you want to move inventory items between characters, you have two options. For food, you can use the `(T)rade (F)ood` command. Pick the **destination** character first, then the **source** character, then tell the game how much to move. You can also trade `(T)orches` and, as I mentioned above, `(G)old`.
+
+The game allows you to `(T)rade (E)quipment` as well, but **do not use this command**. Let's say you want to give your Tanto to someone to hold for a second while your Mahotsukai does something else. So you *Trade Equipment* to #1 from #6, and then pick the Tanto... but you forgot that character #1 already has the Sunspear. No problem, they'll just ***quietly drop it forever*** so that they can receive the Tanto, because that's what you wanted, right?
+
+Instead, use the `e(X)change` command. Again, pick the **destination** character first, then the **source** character. In our previous example, the Mahotsukai would wind up with the Sunspear, because players 1 and 6 *exchanged* their melee weapons. This is a much safer operation (and easy to reverse), but it only works on inventory items.
+
+It is sometimes possible to sell equipment back to shops, but you have to find a shop that sells items of the same variety; you can't sell a shield back to an armor shop, for instance, and neither can you sell a melee weapon to a missile weapon shop. However, if it can't be bought in a shop, it can't be sold back to a shop either. So the vast majority of the time, it's not worth carrying around something you can't use. Just drop it and move on.
+
+At least you don't have to deal with encumbrance?
+
+### Equipment Charts
+
+The [equipment charts](./equipment.md) are on their own page, organized by inventory slot:
+
+- [Hand Weapons](./equipment.md#hand-weapons) (slot 0)
+- [Missile Weapons](./equipment.md#missile-weapons) (slot 1)
+- [Body Armor](./equipment.md#body-armor) (slot 2)
+- [Shields](./equipment.md#shields) (slot 3)
+- [Misc. Armor](./equipment.md#misc-armor) (slot 4)
+- [Magic Items](./equipment.md#magic-items) (slot 5)
+- [Tools](./equipment.md#tools) (slot 6)
+- [Scrolls](./equipment.md#scrolls) (slot 7) 
 
 ## Magic and Spells
 
@@ -820,124 +837,17 @@ Magic plays an essential part of your combat tactics, as well as doing all the o
 
 A reminder that the POWER cost of a spell is equal to its spell level. See [Experience and Leveling](#experience-and-leveling) for more on spell levels.
 
-Spell purposes:
+The [spell charts](magic.md) are on their own page, organized by school:
 
-- *BUFF+* spells improve the attributes of one or more party members. *BUFF–* spells hinder your opponents.
-- *FEAR* causes your opponents to flee combat; spells of this type seem to be particularly dependent on the enemy type.
-- *FLEE* spells give your party a chance of fleeing combat, which is generally better than using the `(F)lee` action. This is the Genkai specialty.
-- *HEAL* (health) and *CURE* (status) spells only ever affect one party member at a time.
-- *HOLD* prevents one or more opponents from acting for a certain number of turns. The manual includes some flavor text describing the 'style' of effect, but as far as I can tell it makes no difference; you can put a Skeleton to 'sleep', for instance.
-- *LIGHT* does what you think it does, but it has a limited range and only works inside dungeons.
-- *SLAY* spells kill instantly, but they're always subject to some sort of defensive saving throw; more powerful monsters seem to be less likely to be affected.
-- *ZAP* spells are direct-damage, although the amount is random and seemingly level-dependent. (The point about flavor text in the manual applies here, too.) Often when you first get a new ZAP spell the damage will be lower, but it will go up over time; don't expect to roll a 30 hp casting of M3:ZUMA at 6th level. Numbers reported here are rounded and based on my experimental evidence, so you may get higher results and you'll definitely get lower ones.
+- [Shisai](magic.md#shisai)
+- [Shizen](magic.md#shizen)
+- [Mahotsukai](magic.md#mahotsukai)
+- [Genkai](magic.md#genkai)
 
-### Shisai
-
-| **Lvl** | **Spell**     | Purpose | Targets | Effect                                                       |
-| ------- | ------------- | ------- | ------- | ------------------------------------------------------------ |
-| 1       | **NASU**      | Heal    | 1       | 1–8 hp                                                       |
-| 1       | **AKARI**     | Light   |         | 3 square radius, ~200 turns                                  |
-| 1       | **KATAI**     | Buff+   | 1       | AC+2, can be cast multiple times                             |
-| 2       | **MOTU**      | Hold    | 1–3     |                                                              |
-| 2       | **DOSOI**     | Buff+   | 1       | Halves the damage from poison (TOX)                          |
-| 2       | **TSUIHO**    | Fear    | group   | Undead only; only works once per combat This is basically a "turn undead" spell that 'banishes' enemies |
-| 3       | **MOAKARI**   | Light   |         | 4 square radius, ~300 turns                                  |
-| 3       | **MOTUNASU**  | Cure    | 1       | Paralysis (PAR)                                              |
-| 3       | **ONKEI**     | Buff+   | party   | attacks                                                      |
-| 4       | **DONASU**    | Cure    | 1       | Poison (TOX)                                                 |
-| 4       | **MONASU**    | Heal    | 1       | 17–32 hp                                                     |
-| 4       | **MAKATAI**   | Buff+   | party   | AC+1                                                         |
-| 5       | **HINAGU**    | Zap     | group   | up to 30 hp; doesn't work in dungeons                        |
-| 5       | **INOCHI**    | Cure    | 1       | Death (RIP); raised character loses 1 CON                    |
-| 5       | **HONASU**    | Heal    | 1       | 33–64 hp                                                     |
-| 6       | **ALNASU**    | Heal    | 1       | all hp                                                       |
-| 6       | **KURENZA**   | Zap     | group   | up to 40 hp                                                  |
-| 6       | **KAERU**     | Misc.   |         | Casting this spell sets a 'homing beacon'. Enter a word, then later have the same caster `(Y)ell` the recall word to teleport to the spot where you cast the spell. Casting a second time will remove the first beacon. |
-| 7       | **SHINSEIGO** | Slay    | group   | enemies that fail their save are 'damned'                    |
-| 7       | **MOINOCHI**  | Cure    | 1       | Death (RIP); no loss of CON                                  |
-| 7       | **YAWARISHI** | Cure    | 1       | Petrification (STO)                                          |
-
-### Shizen
-
-| Lvl  | Spell         | Purpose | Targets | Effect                                                       |
-| ---- | ------------- | ------- | ------- | ------------------------------------------------------------ |
-| 1    | **KUSAMOTSU** | Hold    | 1–4     | 'entanglement', only works while standing on grass, bushes, trees, etc. |
-| 1    | **HIKAKOMU**  | Buff+   | 1       | attacks                                                      |
-| 1    | **ICHIHAN**   | Misc.   |         | Divine the current dungeon level, but see [here](#doors-dungeon) for some notes on how dungeons are laid out |
-| 2    | **KINO**      | Buff+   | 1       | AC+?, can be cast more than once                             |
-| 2    | **DUNASU**    | Heal    | 1       | 1–8 hp                                                       |
-| 2    | **MOYA**      | Flee    | party   |                                                              |
-| 3    | **BYOKINASU** | Cure    | 1       | Disease (ILL)                                                |
-| 3    | **KONPASU**   | Misc.   |         | Divine the direction to the nearest island, while at sea     |
-| 3    | **YOBUZUMA**  | Zap     | group   | up to 30 hp; 'lightning', only works outdoors                |
-| 4    | **HITATE**    | Misc.   | party   | Prevents damage from fire for ~32 steps                      |
-| 4    | **SANTATE**   | Misc.   | party   | Prevents damage from acid for ~32 steps                      |
-| 4    | **TABEMONO**  | Misc.   | 1       | Creates ~10-15 food; only works while standing on grass, bushes, trees, etc. |
-| 5    | **HIKABE**    | Zap     | group   | up to 50 hp; 'fire'                                          |
-| 5    | **DRUNASU**   | Heal    | 1       | 17–32 hp                                                     |
-| 5    | **JISHIN**    | Zap     | group   | up to 50 hp; 'earthquake'                                    |
-| 6    | **HIARASHI**  | Zap     | group   | up to ???; 'fire'                                            |
-| 6    | **KYOKI**     | Buff–   | group   | Causes 'insanity', with a variety of random effects.         |
-| 6    | **TSUKAKUSU** | Misc.   | party   | Hides the party from wandering monsters, even while moving   |
-| 7    | **KONRAN**    | Hold    | group   |                                                              |
-| 7    | **KOMARU**    | Slay    | 1       |                                                              |
-| 7    | **DRUINOCHI** | Cure    | 1       | Death (RIP); raised character loses 1 CON                    |
-
-### Mahotsukai
-
-| Lvl  | Spell        | Purpose | Targets | Effects                                                      |
-| ---- | ------------ | ------- | ------- | ------------------------------------------------------------ |
-| 1    | **TODO**     | Zap     | 1       | 1-8 hp; 2x1-8 hp at level 4, 3x1-8 hp at level 8 The manual claims 4x at level 12, but I never got it. |
-| 1    | **NERU**     | Hold    | group   | 'sleep'                                                      |
-| 1    | **TATE**     | Buff+   | 1       | AC+2, can be cast more than once                             |
-| 2    | **CHIKARA**  | Buff+   | party   | attacks, can be cast more than once                          |
-| 2    | **YOWAMERU** | Buff–   | group   | attacks, can be cast more than once                          |
-| 2    | **KOWA**     | Fear    | 1       | doesn't work on undead                                       |
-| 3    | **ZUMA**     | Zap     | group   | up to 30 hp; 'lightning'                                     |
-| 3    | **ISOGU**    | Buff+   | party   | +1 attack next round; 'haste'                                |
-| 3    | **KUMO**     | Hold    | group   | 'web'                                                        |
-| 4    | **HITAMA**   | Zap     | group   | up to 30 hp; 'fire'                                          |
-| 4    | **UGOKU**    | Misc.   | party   | Randomly teleports the party 1–8 squares                     |
-| 4    | **MOKOWA**   | Fear    | group   |                                                              |
-| 5    | **DOKUMO**   | Slay    | group   | 'black smoke'; affects entire group or nobody                |
-| 5    | **KOORI**    | Zap     | group   | up to 50 hp; 'ice'                                           |
-| 5    | **HOHYO**    | Buff+   | party   | AC+2                                                         |
-| 6    | **KOROSU**   | Slay    | group   |                                                              |
-| 6    | **UNMEI**    | Slay    | 1       |                                                              |
-| 6    | **ARASHI**   | Zap     | group   | up to 50 hp; 'fire'                                          |
-| 7    | **TOKI**     | Hold    | group   | 'time stop'                                                  |
-| 7    | **UNPAN**    | Misc.   | party   | Teleports the party up or down 1–4 dungeon levels            |
-| 7    | **TAIYOHI**  | Zap     | group   | up to 75 hp; 'fire'                                          |
-
-### Genkai
-
-| Lvl  | Spell        | Purpose | Targets | Effects                                                      |
-| ---- | ------------ | ------- | ------- | ------------------------------------------------------------ |
-| 1    | **KIRI**  | Flee    | party   |                                                         |
-| 1    | **HIBANA** | Zap     | group   | 1-2 hp; 1-4 hp at level 3; 1-6 hp at level 5            |
-| 1    | **SHOTEN** | Buff+   | 1       | attacks                                                 |
-| 2    | **NIKKO** | Light   |         | 3 square radius, ~200 turns                             |
-| 2    | **NIJIN** | Buff+   | 1       | AC+2                                                    |
-| 2    | **MEKURA** | Hold    | group   | 'mind blast'                                            |
-| 3    | **KAWA**  | Fear    | 1–3     |                                                         |
-| 3    | **NIGERU** | Flee    | party   |                                                         |
-| 3    | **MAMOTU** | Hold    | group   |                                                         |
-| 4    | **MANIJIN** | Buff+   | party   | AC+2                                                    |
-| 4    | **KAKUSU** | Misc.   | party   | Hides the party from wandering monsters; moving cancels |
-| 4    | **GENEITODO** | Zap     | group   | up to 30 hp; 'phantom missiles'; targets can save       |
-| 5    | **MEIRO** | Hold    | group   | 'mesmerized'                                            |
-| 5    | **MANIGERU** | Flee    | party   |                                                         |
-| 5    | **YUJO**  | Hold    | group   | 'charm'                                                 |
-| 6    | **UKU**   | Misc.   | party   | Allows party to walk on water for ~20 steps             |
-| 6    | **MAKAWA** | Fear    | group   |                                                         |
-| 6    | **KOTOBA** | Zap     | group   | up to 50 hp; targets can save                           |
-| 7    | **HONIGERU** | Flee    | party   |                                                         |
-| 7    | **YUREI** | Misc.   | party   | Hides the party from wandering monsters for ~20 steps   |
-| 7    | **TSUKIHI** | Zap     | group   | up to 75 hp; 'fire'                                     |
 
 ## Walkthrough
 
-Enough with the appetizers; let's move on to the meat of our quest (and this walkthrough). *Deathlord* is a highly non-linear game. There is a plot, or at least one main goal, and to achieve it you need to visit almost every continent in the game at least once and in some cases twice.
+Enough with the appetizers; let's move on to the meat of our quest (and this guide). *Deathlord* is a highly non-linear game. There is a plot, or at least one main goal, and to achieve it you need to visit almost every continent in the game at least once and in some cases twice.
 
 I've tried to organize this in an order that (a) makes "plot sense", meaning I don't send you somewhere without showing you the clue that tells you how to get there, and (b) minimizes the amount of backtracking that you have to do.
 
@@ -1051,13 +961,13 @@ The walkthrough itself is large enough that I've broken it out into three separa
       - [Hell](./walkthrough-3.md#hell): the Deathlord and the Black Orb
       - [Return to the Emperor](./walkthrough-3.md#return-to-the-emperor-kodan) (Kodan)
 
-## Final Notes
+## Appendices
 
-Congratulations on defeating *Deathlord*! In the following section we'll cover some more supplementary material about the game, including what the data disks look like, some tables and charts, and how to beat the game as quickly as possible.
+Congratulations on defeating *Deathlord!* In the following section we'll cover some more supplementary material about the game, including what the data disks look like and how to beat the game as quickly as possible.
 
 ### Sample Party
 
-Here's the party I took through the game. To be honest, I actually started with a Ryoshi in the third slot, then swapped him out for a Shizen around level 13. You won't even notice, though, because I spent a bunch of time channeling XP into the Shizen to catch up with the rest of the party. Kushizu, my Samurai, got level drained in Hell and wound up a level behind everyone else. Normally I reload when that happens, but I killed the Deathlord immediately thereafter, so I just rolled with it.
+Here's the party I took through the game. To be honest, I actually started with a Ryoshi in the third slot, then swapped him out for a Shizen around level 13. You won't even notice, though, because I spent a bunch of time channeling XP into the Shizen to catch up with the rest of the party. Kushizu, my Samurai, got level drained in Hell and wound up a level behind everyone else. Normally I reload when that happens, but I killed the Deathlord immediately thereafter, so I just ran with it.
 
 One additional note: I made liberal use of save-scumming to both guarantee near-max HP gained per level and also to increase several stats with magic pools. If you tried to play this game straight, your level 24 characters would not be this strong.
 
@@ -1108,7 +1018,7 @@ Of course, I say that the arrows "add up"... but I haven't included in this sect
 
 And that's not to mention the fact that you don't always know whether you're walking into a dungeon that houses a word or just a random sixteen-story death trap. Many of the words are advertised (the Kobito Mines couldn't be more clear) but there's no reason for you to know why you're diving the Cave of the Four Elements or the Doors Dungeon until you get there.
 
-### Bonus: The Speed Run<a name="speed-run"/>
+### The Speed Run
 
 Okay, enough complaining. Now that we know how to beat the game the right way, how can we do it quickly?
 
@@ -1133,7 +1043,7 @@ The "quickest" route I can fathom looks like this:
 6. You now have all the artifacts, so all you have to do is grind until you feel ready and then head to Skull Keep.
 7. Cast S6:KAERU, fight your way across Hell, kill the Deathlord, and return to the Emperor. Again, this is several more hours of gameplay than it sounds like.
 
-### Appendix: Hex Editing<a name="hex-editing"/>
+### Hex Editing
 
 This section is for the gnarly details of how the game's data is stored in memory and on disk. You probably don't care, unless you're used to mucking around with code and you're thinking about writing a character hacking utility of some sort. But if that sounds like you, read on...
 
@@ -1141,9 +1051,9 @@ On the Apple II, character data is largely stored on the Scenario A disk, track 
 
 However, before you go ripping apart a disk image to modify your characters, keep in mind that the disk images your emulator is using are probably .NIB files (nibblized), which store a bit-accurate representation of the floppy disk. Apple DOS doesn't store bytes in a straightforward format, so you won't be able to simply read values out of the nibblized images, you'll have to decode them first. If you're really interested in how all this works, I recommend strolling through Chapter 3 of Beneath Apple DOS, available for free at the Internet Archive:
 
-https://archive.org/details/Beneath_Apple_DOS_OCR
+[https://archive.org/details/Beneath_Apple_DOS_OCR](https://archive.org/details/Beneath_Apple_DOS_OCR)
 
-I have Java code that can decode a nibblized scenario disk and pull out the character information. But if you're using `linapple` as your emulator (and possibly `winapple` as well), it's far easier to save a snapshot (memory image) and look through that (or modify it) with a hex editor. The character data starts at 0x00fd70 in the snapshot.
+I have [Java code](https://github.com/fraterrisus/deathlord-crack) that can decode a nibblized scenario disk and pull out the character information. But if you're using `linapple` as your emulator (and possibly `winapple` as well), it's far easier to save a snapshot (memory image) and look through that (or modify it) with a hex editor. The character data starts at 0x00fd70 in the snapshot.
 
 Most of the data is laid out by attribute, and of those, most values are one byte. For example, your party's STRENGTH attributes are stored at bytes 0x072 – 0x077, and contain a value from 0 to 255. However, several attributes (like gold, or experience) require two bytes. When this happens, the six low bytes are stored first, then the six high bytes. So for character #2 you'd combine byte 1 and byte 7. This gives you a value from 0 to 65535 (256*256-1), although few attributes actually hold values that high. (Gold is capped at 10000, for example.)
 
@@ -1220,239 +1130,3 @@ Character names (and other strings) are stored as 7-bit ASCII bytes, where each 
   - 0x1f: Did the Emperor give you a ship yet?
     - 0x00: yes — 0xff: no
 
-### Appendix: Monster List<a name="monster-list"/>
-
-Similar to the Equipment list, the monsters in this list are divided into categories based on what types of weapons are most effective against them. For example, the Dragonslayer does double damage against everything in the "Dragons" category. This data was obtained from a binary dump of the disk images, so it should be accurate, but there are definitely some inconsistencies. For example, several monsters are listed with type 5, but no weapon claims to "slay" type 5 creatures, so it's unclear what effect this has in-game. (Andrew Schultz's monster list claims these are monsters you can't run away from.)
-
-One extra bit of weirdness: there are 130 monsters on this list, but there are two identical entries for Guards, and no one has ever reported seeing a Doom Golem or a Safir in the wild. That makes a tidy 127 unique monsters... but it's still weird that there are entries for two monsters that don't exist.
-
-**##** indicates the maximum group size. This number is sometimes wrong; Kobito should only be found in groups up to 12, according to the table, but I've seen groups of 16 in the Mines.
-
-**AC** here is in game terms, i.e. starting at 10 getting better as it goes down.
-
-**TH** is the monster's combat ability; this number goes into their to-hit rolls, as described in the section on [Combat Basics](#combat-basics).
-
-**HD** is a *relative*, not exact, measure of hit points; HD stands for Hit Dice in old AD&D terminology, although there it was 1–8 per HD and here it appears to be 1–7 per HD.
-
-Special attacks:
-
-- Some monsters can **summon** allies.
-- Level **drain** is possibly one of the most annoying things for a CRPG monster to do to you ever. You don't lose your XP, but you do lose 1 level.
-- **Breath** weapon: damage is proportional to the monster's remaining HP, so the more you hit it, the less breath damage it does.
-- **PAR** or **PAR-all** indicate attacks that cause PARalysis to one person or the entire party. Attacks causing the other conditions (**STO, TOX, ILL**) are also possible.
-- **Zap** is similar to TODO.
-- **Zap** is similar to MOTU but seems to have multiple levels of damage (I-VII)
-
-Several special attacks are lethal:
-
-- Some enemies can **critical hit**, i.e., slay on a successful attack
-- Banshees have a lethal **scream** attack that targets the entire party.
-- **RIP-all** is similar to KOROSU.
-
-#### Regular Monsters
-
-| Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special                          |
-| ------------ | ---- | ---- | ------ | ---- | ---- | ---- | -------------------------------- |
-| ANSATSUSHA   | 10   | 5    | 1–8    | 11   | 4    | 3    | TOX                              |
-| BARLICAN     | 4    | 7    | 2x1–12 | 15   | 6    | 10   |                                  |
-| BEHOLDERS    | 2    | -1   | 1–20   | 46   | 24   | 20   | drain, PAR, STO, RIP-all, zap-all (III) |
-| BRIGANDS     | 10   | 8    | 1–8    | 9    | 3    | 2    |                                  |
-| CENTAURS     | 6    | 4    | 3x1–8  | 16   | 8    | 8    |                                  |
-| COUATL       | 4    | 3    | 1–12   | 25   | 12   | 12   | zap, PAR-all, zap-all (III)             |
-| DARK TOSHI   | 12   | 2    | 2x1–8  | 17   | 8    | 4    | TOX                              |
-| DEMONGUARD   | 10   | -2   | 2x1–14 | 22   | 10   | 10   |                                  |
-| DJINNI       | 6    | 4    | 2x1–15 | 23   | 14   | 10   | PAR, zap                         |
-| FIRE SPIRITS | 4    | 6    | 2x1–14 | 21   | 16   | 10   |                                  |
-| GENKAI       | 8    | 4    | 1–6    | 11   | 4    | 2    | zap-all (I)                          |
-| GOOD WIZARD  | 1    | 0    | 1–32   | 53   | 31   | 24   | RIP-all, zap, zap-all (V, VII)          |
-| GORGONS      | 5    | 2    | 2x1–15 | 32   | 12   | 14   | STO                              |
-| GREMLINS     | 15   | 9    | 1–6    | 5    | 4    | 2    | summon                           |
-| GUARDS       | 16   | 0    | 1–16   | 19   | 10   | 12   |                                  |
-| GUARDS       | 16   | 0    | 1–16   | 19   | 10   | 12   |                                  |
-| HARPIES      | 8    | 9    | 1–6    | 9    | 5    | 3    | ILL                              |
-| HOBAKE       | 11   | 5    | 1–10   | 10   | 3    | 3    |                                  |
-| KAIBU        | 13   | 8    | 1–8    | 9    | 2    | 3    |                                  |
-| KICHIGAI     | 14   | 6    | 2x1–8  | 12   | 4    | 5    | summon                           |
-| KISHI        | 8    | 2    | 1–12   | 14   | 5    | 5    |                                  |
-| KOBITO       | 12   | 4    | 1–8    | 14   | 4    | 7    |                                  |
-| KOSAKU       | 8    | 9    | 1–6    | 6    | 1    | 2    |                                  |
-| LIZARD MEN   | 8    | 9    | 1–8    | 9    | 2    | 4    |                                  |
-| LOST SOULS   | 15   | 10   | 1–2    | 5    | 1    | 1    | summon                           |
-| MAHOTSUKAI   | 8    | 7    | 1–6    | 20   | 6    | 6    | STO                              |
-| MERCHANT     | 1    | 8    | 1–4    | 6    | 1    | 2    |                                  |
-| MERCHANT     | 16   | 8    | 1–4    | 6    | 1    | 2    |                                  |
-| MERMEN       | 8    | 2    | 1–12   | 14   | 6    | 5    |                                  |
-| MIMIC        | 1    | 0    | 1–20   | 20   | 9    | 20   | PAR                              |
-| MIMIC        | 1    | 2    | 1–20   | 17   | 9    | 6    | PAR                              |
-| MINOTAURS    | 8    | 6    | 1–13   | 14   | 6    | 8    |                                  |
-| NINJA        | 6    | 3    | 3x1–8  | 17   | 6    | 5    | critical hit                             |
-| OBAKE        | 12   | 9    | 1–6    | 7    | 2    | 2    |                                  |
-| OGRE-MAGES   | 6    | 2    | 1–16   | 26   | 10   | 10   | zap-all (IV)                         |
-| OGRES        | 8    | 7    | 1–14   | 15   | 6    | 8    |                                  |
-| RAIDERS      | 15   | 4    | 1–10   | 12   | 5    | 4    |                                  |
-| ROCK SPIRITS | 4    | 5    | 1–28   | 24   | 10   | 16   |                                  |
-| RONIN        | 8    | 3    | 1–14   | 14   | 5    | 5    |                                  |
-| RYOSHI       | 8    | 6    | 1–10   | 11   | 4    | 5    |                                  |
-| SAFIRS       | 1    | 9    | 2x1–6  | 255  | 1    | 1    | summon                           |
-| SAILORS      | 15   | 6    | 1–10   | 6    | 6    | 6    | summon                           |
-| SAMURAI      | 8    | 2    | 2x1–14 | 19   | 7    | 5    | critical hit                             |
-| SENSHI       | 12   | 3    | 1–12   | 13   | 4    | 5    |                                  |
-| SHISAI       | 8    | 4    | 1–8    | 16   | 4    | 3    | PAR-all                             |
-| SHIZEN       | 10   | 6    | 1–8    | 15   | 4    | 3    | PAR-all                             |
-| SHUKENJA     | 6    | 4    | 2x1–10 | 16   | 5    | 4    | critical hit                             |
-| SPHINXES     | 6    | 4    | 2x1–10 | 17   | 8    | 8    | zap                              |
-| STONEBROWS   | 15   | -8   | 1–6    | 14   | 1    | 1    |                                  |
-| TOMB ROBBERS | 10   | 7    | 1–8    | 10   | 4    | 4    |                                  |
-| TOSHI        | 12   | 6    | 3x1–5  | 11   | 6    | 3    |                                  |
-| TRAPPER      | 1    | 5    | 1–20   | 17   | 8    | 8    |                                  |
-| UNICORNS     | 4    | 5    | 1–24   | 19   | 10   | 8    |                                  |
-| WIND SPIRITS | 4    | 2    | 1–24   | 24   | 10   | 16   |                                  |
-| YABANJIN     | 13   | 6    | 1–14   | 12   | 3    | 6    |                                  |
-| YAKUZA       | 10   | 6    | 1–6    | 9    | 3    | 3    |                                  |
-| YETI         | 8    | 4    | 2x1–14 | 16   | 6    | 8    |                                  |
-
-#### Type 0: Dragons
-
-Slain by: Dragonslayer
-
-| Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special |
-| ------------ | ---- | ---- | ------ | ---- | ---- | ---- | ------- |
-| FIREDRAKES   | 2    | 2    | 1–20   | 28   | 10   | 8    | breath  |
-| MIST DRAGONS | 2    | 0    | 1–24   | 35   | 14   | 16   | breath  |
-| SAND DRAGONS | 2    | 0    | 1–24   | 36   | 14   | 16   | breath  |
-| SEA DRAGONS  | 2    | -2   | 2x1–20 | 37   | 16   | 16   | breath  |
-| WIND DRAGONS | 2    | 0    | 1–28   | 39   | 16   | 20   | breath  |
-
-#### Type 1: Giants
-
-Slain by: Giantslayer
-
-| Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special |
-| ------------ | ---- | ---- | ------ | ---- | ---- | ---- | ------- |
-| CYCLOPS      | 8    | 4    | 1–24   | 24   | 14   | 14   |         |
-| FIRE GIANTS  | 6    | 1    | 2x1–22 | 27   | 16   | 15   |         |
-| HILL GIANTS  | 8    | 3    | 2x1–16 | 22   | 12   | 12   |         |
-| ICE GIANTS   | 4    | 2    | 1–32   | 27   | 15   | 14   |         |
-| NIATAMA      | 10   | 5    | 2x1–16 | 17   | 8    | 8    |         |
-| STONE GIANTS | 6    | 0    | 2x1–16 | 25   | 14   | 14   |         |
-| TRICLOPS     | 8    | 4    | 3x1–16 | 20   | 10   | 10   |         |
-| TROLLS       | 8    | 0    | 3x1–8  | 16   | 6    | 10   |         |
-
-#### Type 2: Demons
-
-Slain by: Holy Blade, Emerald Rod
-
-| Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special                    |
-| ------------ | ---- | ---- | ------ | ---- | ---- | ---- | -------------------------- |
-| ACID DEMONS  | 4    | 4    | 1–20   | 21   | 12   | 10   |                            |
-| ACID LORD    | 1    | -5   | 4x1–20 | 57   | 30   | 30   | critical hit, PAR, RIP-all            |
-| BLAZE DEMONS | 6    | 6    | 2x1–16 | 16   | 8    | 8    | critical hit, TOX                  |
-| CERBERUS     | 1    | -6   | 2x1–30 | 54   | 31   | 31   | critical hit, breath               |
-| DARK DEMONS  | 3    | 4    | 2x1–18 | 21   | 14   | 11   | drain                      |
-| DARK LORD    | 1    | -4   | 2x1–24 | 58   | 28   | 28   | critical hit, drain, RIP-all, zap-all (V) |
-| FIREBATS     | 4    | 6    | 1–10   | 21   | 9    | 8    | breath                     |
-| FLAME LORD   | 1    | -3   | 2x1–26 | 60   | 29   | 29   | critical hit, RIP-all, zap-all (V)        |
-| MOLOCHAI     | 3    | 2    | 2x1–16 | 26   | 15   | 12   | drain                      |
-| SHADES       | 4    | 2    | 1–20   | 26   | 14   | 11   | drain                      |
-| SLIME DEMONS | 3    | 3    | 4x1–16 | 22   | 13   | 10   |                            |
-| SMOKE DEMONS | 6    | 5    | 1–20   | 22   | 10   | 9    | PAR, PAR-all                  |
-| VAPOR DEMONS | 4    | 4    | 1–16   | 19   | 11   | 9    | PAR-all, zap-all (I)              |
-
-#### Type 3: Undead
-
-Slain by: Sword of Fire
-
-| Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special                          |
-| ------------ | ---- | ---- | ------ | ---- | ---- | ---- | -------------------------------- |
-| AKHAMUN-RA   | 1    | -4   | 1–32   | 53   | 24   | 31   | critical hit, ILL, RIP-all, zap-all (III)       |
-| APPARITIONS  | 4    | 3    | 1–18   | 25   | 9    | 9    | drain, PAR                       |
-| BANSHEES     | 4    | 1    | 1–16   | 33   | 12   | 10   | drain, scream (RIP-all)             |
-| GHOSTS       | 6    | 0    | 2x1–16 | 31   | 12   | 12   | drain                            |
-| GHOULS       | 12   | 7    | 2x1–6  | 13   | 4    | 4    | PAR                              |
-| GUARDIANS    | 8    | 4    | 2x1–16 | 18   | 8    | 8    | ILL                              |
-| LICH         | 1    | -2   | 1–24   | 52   | 24   | 24   | PAR, RIP-all, zap-all (V, VI)           |
-| LORIC        | 1    | -1   | 2x1–20 | 50   | 28   | 22   | critical hit, drain, PAR-all, zap-all (IV, VII) |
-| MUMMIES      | 8    | 2    | 1–24   | 22   | 8    | 10   | ILL                              |
-| PHANTOMS     | 4    | 3    | 1–16   | 21   | 7    | 7    | drain                            |
-| SHADOWS      | 6    | 4    | 2x1–8  | 17   | 5    | 5    | PAR                              |
-| SKELETONS    | 15   | 7    | 1–6    | 4    | 3    | 2    |                                  |
-| UNDEAD RONIN | 2    | 0    | 2x1–20 | 40   | 24   | 20   | critical hit                             |
-| VAMPIRES     | 1    | -2   | 2x1–24 | 38   | 16   | 16   | drain, zap-all (II)                  |
-| WILL O WISPS | 4    | -10  | 1–20   | 25   | 10   | 4    | summon, PAR                      |
-| WRAITHS      | 6    | 3    | 1–15   | 20   | 6    | 6    | drain                            |
-| ZOMBIES      | 15   | 7    | 1–10   | 5    | 3    | 3    |                                  |
-
-#### Type 4: The Deathlord
-
-Slain by: Sunspear
-
-<table>
-  <thead>
-    <tr>
-      <th>Monster</th>
-      <th>##</th>
-      <th>AC</th>
-      <th>Dmg</th>
-      <th>XP</th>
-      <th>TH</th>
-      <th>HD</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan=2>DEATHLORD</td>
-      <td class="c">1</td>
-      <td class="c">-10</td>
-      <td class="c">1&ndash;48</td>
-      <td class="c">73</td>
-      <td class="c">31</td>
-      <td class="c">31</td>
-      <td>crit, drain, RIP*</td>
-    </tr><tr>
-      <td colspan=7>Immune to all physical attacks <i>except</i> the Sunspear<br/>Immune to all spells <i>except</i> M1:TODO</td>
-    </tr><tr>
-      <td rowspan=2>DOOM GOLEM</td>
-      <td class="c">1</td>
-      <td class="c">-21</td>
-      <td class="c">4x1&ndash;127</td>
-      <td class="c">0</td>
-      <td class="c">31</td>
-      <td class="c">31</td>
-      <td>crit</td>
-    </tr><tr>
-      <td colspan=7>Probably doesn't exist</td>
-    </tr>
-  </tbody>
-</table>
-
-#### Type 5: Difficult to flee?
-
-| Monster      | ##   | AC   | Dmg    | XP   | TH   | HD   | Special                      |
-| ------------ | ---- | ---- | ------ | ---- | ---- | ---- | ---------------------------- |
-| BEHEMOTHS    | 3    | 2    | 1–20   | 20   | 8    | 10   | summon                       |
-| DIAMYO       | 1    | 2    | 2x1–24 | 26   | 10   | 16   | critical hit                         |
-| EMPEROR      | 1    | -4   | 2x1–24 | 43   | 24   | 28   | critical hit                         |
-| EVIL SPIRITS | 4    | 4    | 1–10   | 19   | 10   | 6    | PAR                          |
-| EVIL TOMATOS | 15   | 10   | 1–4    | 7    | 3    | 3    | summon                       |
-| EVIL TREES   | 4    | 3    | 1–15   | 15   | 6    | 6    |                              |
-| GOLEMS       | 6    | 3    | 1–32   | 27   | 10   | 16   | critical hit                         |
-| GREEN SLIMES | 10   | 6    | 1–10   | 18   | 6    | 10   | TOX                          |
-| ICE TOADS    | 6    | 8    | 1–8    | 16   | 4    | 2    | breath                       |
-| ICE WOLVES   | 6    | 5    | 1–8    | 16   | 6    | 4    | breath                       |
-| KAWAHARA     | 1    | 2    | 1–16   | 37   | 20   | 16   | RIP-all, zap, PAR-all, zap-all (IV, V) |
-| KNIGHT       | 1    | 2    | 1–24   | 28   | 12   | 16   | drain                        |
-| KRAKEN       | 1    | 6    | 8x1–8  | 19   | 8    | 10   |                              |
-| NECROMANCER  | 1    | 2    | 1–16   | 37   | 20   | 16   | RIP-all, zap, PAR-all, zap-all (IV, V) |
-| PURPLE WORMS | 2    | 2    | 1–32   | 46   | 28   | 31   | critical hit, TOX                    |
-| RED SHOGUM   | 1    | -6   | 2x1–31 | 54   | 24   | 24   | critical hit, RIP-all, zap-all (IV)         |
-| ROOK         | 1    | 2    | 1–24   | 29   | 12   | 16   | STO                          |
-| SANDSQUIDS   | 6    | 3    | 1–8    | 13   | 4    | 5    | TOX                          |
-| SEA SERPENTS | 8    | 5    | 1–16   | 17   | 8    | 6    | TOX                          |
-| SEA SPIRITS  | 4    | 2    | 2x1–26 | 23   | 10   | 16   |                              |
-| SNOW BEARS   | 6    | 5    | 2x1–12 | 17   | 8    | 10   |                              |
-| SULTAN       | 1    | -4   | 1–32   | 44   | 20   | 24   | critical hit                         |
-| VIPERS       | 8    | 10   | 1–4    | 7    | 4    | 1    | TOX                          |
-| WEREBEARS    | 2    | 5    | 3x1–16 | 27   | 16   | 18   | TOX                          |
-| WHORLS       | 4    | 10   | 4x1–8  | 17   | 6    | 16   |                              |
-| WOLVES       | 8    | 10   | 1–6    | 9    | 3    | 3    |                              |

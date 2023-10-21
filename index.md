@@ -8,5 +8,6 @@ Feel free to get in touch if you spot an error or have questions about anything,
 - [Bard's Tale 1](bards-tale-1): This is just my personal maps, not a full walkthrough.
 - [Deathlord](deathlord): Highest-rated on GameFAQs before I stopped posting there.
 - [Dragon Wars](dragon-wars): Rather exhaustive, based on code decompilation. (**New!** v3.0 available September 2023)
+- [Phantasie I](phantasie-1): A first version, mostly accumulating from other walkthroughs.
 - [Pool of Radiance](pool-of-radiance/walkthrough.txt): An older effort; not quite complete but pretty close.
 - [Wasteland](wasteland/walkthrough.txt): Complete and fairly comphrehensive.

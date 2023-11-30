@@ -12,11 +12,7 @@ Version 2.1.1, September 2023
 
 ## Administrivia
 
-[![CC BY-NC-SA 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-This walkthrough is copyright (C) Ben Cordes, 2017–23. It is made available under a [Creative Commons Attribution-NonCommercial-ShareAlike v4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). See link for more details.
-
-All other trademarks and copyrights contained in this document are owned by their respective trademark and copyright holders.
+{% include license.html year='2017–23' %}
 
 ### Acknowledgements
 

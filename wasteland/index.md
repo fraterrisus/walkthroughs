@@ -6,61 +6,9 @@ toc:
   h_max: 3
 ---
 
-TABLE OF CONTENTS
-
-1 ADMINISTRIVIA               [#100#]
-1.1 COPYRIGHT NOTICE             [#101#]
-1.2 ACKNOWLEDGEMENTS             [#102#]
-1.3 VERSION HISTORY             [#103#]
-1.4 INTRODUCTION TO THE GAME         [#104#]
-
-2 CREATING RANGERS              [#200#]
-2.1 GENERAL NOTES              [#201#]
-2.2 ROLLING UP YOUR SQUAD          [#202#]
-2.3 ADVANCING YOUR RANGERS          [#203#]
-2.4 RANKS                  [#204#]
-
-3 COMBAT AND GENERAL INFORMATION       [#300#]
-3.1 MELEE WEAPONS              [#301#]
-3.2 EXPLOSIVES                [#302#]
-3.3 GUNS                   [#303#]
-3.4 ARMOR                  [#304#]
-3.5 MISCELLANEOUS ITEMS           [#305#]
-
-4 SKILLS                   [#400#]
-4.1 WHAT YOU NEED              [#401#]
-4.2 PRACTICING                [#402#]
-4.3 LIBRARIES                [#403#]
-
-5 WALKTHROUGH                [#500#]
-5.0 Ranger Center              [#500#]
-5.1 Highpool, Nomad Camp, Quartz       [#501#]
-5.2 Darwin (side trip)            [#502#]
-5.3 Cleaning up (side trip)         [#503#]
-5.4 Quartz                  [#504#]
-5.5 Darwin (side trip)            [#505#]
-5.6 Needles                 [#506#]
-5.7 Las Vegas                [#507#]
-5.8 Vegas Sewers               [#508#]
-5.9 Sleeper Base               [#509#]
-5.10 Project Darwin             [#510#]
-5.11 Sleeper Base              [#511#]
-5.12 Guardian Citadel, Savage Village    [#512#]
-5.13 Base Cochise              [#513#]
-
-6 FINAL NOTES                [#600#]
-6.1 FINAL STATS               [#601#]
-6.2 EXTRA: THE SPEED RUN           [#602#]
-
-7 CHEATING                  [#700#]
-7.1 PASSWORDS                [#701#]
-7.2 DISK-SWAPPING              [#702#]
-7.3 GAMBLING                 [#703#]
-7.4 USING A SPLIT PARTY TO AVOID ENCOUNTERS [#704#]
-
 # Yet Another Wasteland Walkthrough
 
-Version 1.1.2, September 2023.
+Version 1.1.3, March 2024.
 
 ## Administrivia
 
@@ -95,6 +43,7 @@ The Nearly Ultimate Wasteland Guide, by Per Jorner:
 - v1.1, August 2011: Updates, tweaks, and additional trivia. Added 'split party' cheat.
 - v1.1.1, June 2023: License update; post to Github.
 - v1.1.2, September 2023: Port to Github Sites. Gosh, this thing really needs a rewrite.
+- v1.1.3, March 2024: A few updates, but not a full rewrite.
 
 ### Introduction to the Game
 
@@ -102,7 +51,7 @@ I'm assuming that you've already read the manual for the game. It'll tell you ho
 
 I will mention one important skill that isn't in the manual: backing up your save files. Assuming you're playing the PC version of Wasteland in the DOSBOX emulator, you should find two important files in the game directory, called `GAME1` and `GAME2`. These are the save game information files. You can back them up simply by copying them, and restore them just by overwriting the `GAME1` and `GAME2` files. It's best to do this while not running the game. I recommend, before you do anything else, making a clean backup of these files so that you can reset the game to the beginning whenever you want to.
 
-If this is your first time playing the game, spend some time kicking around the desert with the Rangers that come with the game. Get used to the flow of combat, and (probably) get your ass kicked a couple of times by some of the desert denziens. Once you're comfortable, ditch those four and come back here.
+If this is your first time playing the game, spend some time kicking around the desert with the Rangers that come with the game. Get used to the flow of combat, and (probably) get your ass kicked a couple of times by some of the desert denizens. Once you're comfortable, ditch those four and come back here.
 
 ## Creating Rangers
 
@@ -305,7 +254,7 @@ While walking around, if anyone in the party has a ranged weapon out, you'll sta
 
 Combat rounds seem to run this way: Everyone firing a missile weapon goes in Bin 1. Everyone using a melee attack goes in Bin 2. Sort the characters in each bin based on their Speed. Now everyone in Bin 1 goes first, then everyone in Bin 2. This isn't completely accurate but it seems to be close.
 
-Every point of armor helps. Until you get AC 1, the denziens of the wasteland can do some significant damage. After that you should be mostly okay to rest in the desert whenever you need to recover CON by holding down the ESC key for a while.
+Every point of armor helps. Until you get AC 1, the denizens of the wasteland can do some significant damage. After that you should be mostly okay to rest in the desert whenever you need to recover CON by holding down the ESC key for a while.
 
 Once you get beyond clip pistols, you have choices. Attacking with (S)ingle can only hit one target. A (B)urst uses three rounds but might hit multiple targets within the group you aimed at. (A)uto-fire empties the full clip and may hit any or all targets standing on the same square.
 
@@ -345,9 +294,7 @@ In the table below, *Damage* is listed in terms of how many dice the computer ro
 
 ### Guns
 
-If you're holding an unloaded weapon you can use it as a melee
-weapon. The first damage number is for bullets, the second is for
-bashing somebody with it.
+If you're holding an unloaded weapon you can still perform a melee attack with it.
 
 #### Clip Pistols
 
@@ -467,7 +414,7 @@ exist.
 
 **Hand Mirror:** Useless.
 
-**Howitzer Shell:** Used with the Howitzer in Needles (duh). Found in the Ammo Dump in Needles and occasionally as drops. Loading it into the Howitzer may increase Demolition and/or AT Weapon.
+**Howitzer Shell:** Used with the Howitzer in Needles (duh). Found in the Ammo Dump in Needles and occasionally as drops. Loading it into the Howitzer may increase your *Demolition* and/or *AT Weapon* skills.
 
 **Jewelry:** Useless, but sells for a good price. ($50 at most stores, $75 if you go to non-combat general stores.)
 
@@ -540,9 +487,9 @@ Melee skills (*Brawling*, etc.) increase damage with higher ranks; you also gain
 
 **Perception (IQ 06):** You *really* want this skill. It will help you find clues and avoid booby traps, and there's plenty of both in this game. Can be used passively and actively.
 
-**Assault Rifle (IQ 09):** For the AK97 and M1989A1. I recommend it for most Rangers, since there are some times where melee just isn't good enough for the situation.
+**Assault Rifle (IQ 09):** For the AK97 and M1989A1. I recommend it for most Rangers, since there are some times where melee just isn't good enough for the situation.c
 
-**AT Weapon (IQ 09):** For your rocket and explosive needs. If you give one Ranger this, you can have him fire off LAWs and RPG-7s instead of arming a regular boring old assault rifle. And you can play with the Howitzer in Needles. Totally not necessary, but handy if you decide to take on the Citadel early.
+**AT Weapon (IQ 09):** For your rocket and explosive needs. If you give one Ranger this, you can have them fire off LAWs and RPG-7s instead of arming a regular boring old assault rifle. And you can play with the Howitzer in Needles. Totally not necessary, but handy if you decide to take on the Citadel early.
 
 **SMG (IQ 09):** For the Mac 17 and Uzi. You won't use them.
 
@@ -577,7 +524,7 @@ high Luck.
 
 **Safecrack (IQ 15):** For opening particularly heavily guarded doors. You'll need this twice, once in the Guardian Citadel and once in the Sleeper Base.
 
-**Cryptology (IQ 16):** Used once in Vegas to open Faran Brygo's armory, then once in Base Cochise to decipher the Cylander Closing System.
+**Cryptology (IQ 16):** Used once in Vegas to open Faran Brygo's armory, then once in Base Cochise to decipher the Cylinder Closing System.
 
 **Metallurgy (IQ 17):** Usable once in the Mines but not worthwhile.
 
@@ -596,22 +543,22 @@ Base Cochise. Only learnable inside the Sleeper Base.
 
 **Energy Weapon (IQ 23):** For the Laser weapons, including the Ion Beamer and Meson Cannon. Your Smart Ranger should get this eventually. If you play your cards right, you never need IQ above 23.
 
-**Cyborg Tech (IQ 24):** In theory, useful for delving into Finster's Brain. In reality, you can hit the ESC key a bunch of times and the game will eventually let you in anyway.
+**Cyborg Tech (IQ 24):** In theory, used to dive Finster's Brain. In reality, you can hit the ESC key a bunch of times and the game will eventually let you in anyway.
 
 ### Practicing
 
 You can increase your skills by raising your IQ and burning skill points in libraries, but in practice you should, um, practice. These are good places to practice, but remember that you need to have level 1 before you can gain ranks by practicing. Note that the same is true of weapons skills; you can fire an Assault Rifle all you want but unless you buy that 1st rank, you won't ever improve.
 
-- *Gamble:* Play the Slot Machine in the Nomad Camp (at least 6), or Three Card Monty in Spade's Casino in Vegas (at least 8). You won't make your money back even if you win, so bring a lot of cash.
+- *Gamble:* Play the Slot Machine in the Nomad Camp (at least 6) or Three Card Monty in Spade's Casino in Vegas (at least 8). You won't make your money back even if you win, so bring a lot of cash.
 
-- *Swim* (up to 6): Fall into the river Outside and float downstream. If every conscious Ranger makes a Swim check, you get to climb out of the river. If anyone fails, they take 1 damage and the whole party floats another square. Even if you get knocked unconscious you won't drown (and the game stops forcing you to make skill checks). As with all skills, if you make a hard check, there's a chance you'll go up a rank. It will take some patience to get from 1 to 3, but it's often much faster to get to 6.
+- *Swim* (up to 6): Fall into the river Outside and float downstream. If every conscious Ranger makes a Swim check, you get to climb out of the river. If anyone fails, they take 1 damage and the whole party floats another square. Even if you get knocked unconscious you won't drown (and the game stops forcing you to make skill checks). As with all skills, if you make a "difficult" check, there's a chance you'll go up a rank. It will take some patience to get from 1 to 3, but it's often much faster to get to 6.
 
 - *Climb, Acrobat* (up to 3): Run into the sand dunes in southern Needles.
 
-- *Climb* (up to 4): Run over the loose rocks in the NW corner of the basement of Spade's Casino in Las Vegas. Bring explosives, rope, and a shovel.
+- *Climb* (up to 4): Run over the loose rocks in the NW corner of the basement of Spade's Casino in Las Vegas. Bring explosives, rope, and a shovel so you can get out.
 
-- *Perception* (up to 3): Walk back and forth along the glass wall in the back entrance to Ugly's Hideout in Quartz. Perception 3 is plenty, but you might get up to 4 eventually; one of my Rangers made it to 5 by the end of the game. Apparently this also produces a small amount of free XP, which you can use to scum levels with enough
-patience.
+- *Perception* (up to 3): Walk back and forth along the glass wall in the back entrance to Ugly's Hideout in Quartz. Apparently this also produces a small amount of free XP, which you can use to scum levels with enough
+patience. Perception 3 is plenty, but you might get up to 4 eventually; one of my Rangers made it to 5 by the end of the game.
 
 - *AT Weapon* (up to 2): Use Howitzer Shells on the Howitzer in Needles.
 
@@ -1354,7 +1301,7 @@ In any case you'll want to rest up before you tackle the Vegas tunnels.
 
 Remember those paragraphs you read about Max? Well, maybe not, because you probably killed off Faran Brygo before he could tell you about him, and the game never got a chance to direct you to read those paragraphs. Oopsie. Anyway, Max is this robot, you see, and your goal here is to find all of the parts that make him up, then put them back together. The problem is that there are all of these other cyborgs that are going to try to stop you, but they're no match for your Chainsaws.
 
-The bad news is that this is the first time in the game that AC 6 isn't actually good enough. Many of the fixed and random encounters down here can hurt you. The good news is that attacking the sewer denziens is a great way to up your *Brawling* skill. Everybody who hadn't already advanced to *Brawling 4* (three attacks per round baybee!) did so while I was down here.
+The bad news is that this is the first time in the game that AC 6 isn't actually good enough. Many of the fixed and random encounters down here can hurt you. The good news is that attacking the sewer denizens is a great way to up your *Brawling* skill. Everybody who hadn't already advanced to *Brawling 4* (three attacks per round baybee!) did so while I was down here.
 
 Also, don't be afraid to run up to the Temple whenever you need to heal. It's safe to rest there and every press of `ESC` gets you 2 minutes of game time. That's half as fast as Outside but there's no random encounters in here.
 
@@ -1603,7 +1550,7 @@ Go S to the hallway and E to the door you blew up. Go N across the Grand Hallway
 #### The Outer Sanctum
 
 Hug the W wall to avoid as much combat as possible, then turn N.
- 
+
 Master Ciro, Adept Kate, Brother Nuris will mostly stay put. You can close within 20' of them before unloading.
 
 Master Griffin, Sister Tracy, Adept Alina are slightly NE of them, and if you have to chase the first pack N at all you'll almost certainly come up against the second. I advise not letting that happen.

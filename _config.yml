@@ -34,9 +34,9 @@ title: Yet Another Walkthrough Series
 email: cordes.ben@gmail.com
 description: >-
   A collection of walkthroughs for computer RPGs, mostly from the 1990s.
-domain: fraterrisus.github.io
-url: https://fraterrisus.github.io
-baseurl: /walkthroughs
+domain: walkthroughs.hitchhikerprod.com
+url: https://walkthroughs.hitchhikerprod.com
+baseurl: /
 github_username: fraterrisus
 repository: fraterrisus/walkthroughs
 

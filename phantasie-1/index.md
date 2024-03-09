@@ -59,7 +59,7 @@ You have two types of base of operations: towns and inns. Towns are "menu towns"
 
 As you adventure, you'll collect XP, gold, and items that will go into a party "pool". When you enter a town you'll be prompted to divide that pool up into shares. You don't have to divide it equally; pick a number of shares from 1–3 for each party member, and the game will figure out the total number of shares and divide the treasure equally. Inventory and Equipment works a bit differently; see [Managing Inventory](#managing-inventory) elsewhere.
 
-The bank won't hold more than $65,535 (a 16-bit integer) per party member.
+The bank won't hold more than $65,535 (a 16-bit integer) per party member, nor can the shared pool have more than that.
 
 ## Creating Characters
 
@@ -77,7 +77,7 @@ The other thing you need to know is that, towards the end of the game, entrance 
 
 ### Classes
 
-**Fighters** are your go-to for melee damage; they gain attacks faster than anyone else and eventually can *Lunge* into the second row. **Monks** and **Rangers** are your hybrid melee/caster types; check their spell lists. Monks share spells with Wizards and have some thieving skills, while Rangers are better fighters and have a more Priest-like spell list. **Priests** are also perfectly good fighters, and **Wizards** very much are not. Finally, **Thieves** have good out-of-combat skills, are passable fighters, and also have access to *Lunge*.
+**Fighters** are your go-to for melee damage; they gain attacks faster than anyone else and can *Lunge* into the second row. **Monks** and **Rangers** are your hybrid melee/caster types; check their spell lists. Monks share spells with Wizards and have some thieving skills, while Rangers are better fighters and have a more Priest-like spell list. **Priests** are also perfectly good fighters, and **Wizards** very much are not. Finally, **Thieves** have good out-of-combat skills, are passable fighters, and have the ability to attack any row of enemies they want.
 
 The manual suggests two tanks (Fighters/Rangers), two spell casters (Wizards/Monks), one healer (Priest/Ranger), and one Thief (or Monk). I went with a Fighter, a Monk, two Priests and two Wizards: thief skills aren't super important to me, although having a second person who could attack the back rank wouldn't have hurt. But there are a nigh-infinite number of functional combinations and they're all basically winnable.
 
@@ -124,9 +124,15 @@ Unfortunately, there basically are no dump stats. The penalty for low Charisma i
 
 ### Combat Basics
 
+*Phantasie* uses a turn-based plan-first combat system: you pick an action (and potentially a target) for every character in the party that's alive and awake, the computer does the same, and then all the actions for one turn get resolved in random order.
+
+Your party has no notion of front row / back row; all six characters can attack and be attacked at any time. Be real careful if you decide to take that elf mage with a low CON and only 2 HP at first level.
+
+There are no missile weapons, so generally you will be engaging in melee combat with the first row (with a few exceptions, see below) or casting spells at the back row.
+
 ### Strategies and Tactics
 
-When combat starts, you have a few options. You can go straight to the clobberin' if that's your bent, but it doesn't hurt to explore the other options. **Threaten** attempts to bully the monsters into giving you their money and not attacking you; this is particularly likely to work if they've already tried to flee but you don't want to bother mopping them up in combat. **Greeting** works well on Scribes and other 'enemies' who seem like they would be willing to talk; at later levels, Rangers, Lords, and Overlords are likely to simply say "hello" and walk away if you do this. If either of those actions fail, the game drops you into the normal "pick your actions" **Attack** menu. However, if you try to **Flee** and fail, you lose your chance to act.
+When combat starts, you have a few options. You can go straight to the clobberin' if that's your bent, but it doesn't hurt to explore the other options. **Threaten** ("**Accept Surrender**" on the Apple) attempts to bully the monsters into giving you their money and not attacking you; this is particularly likely to work if they've already tried to flee but you don't want to bother mopping them up in combat. **Greeting** works well on Scribes and other 'enemies' who seem like they would be willing to talk; at later levels, Rangers, Lords, and Overlords are likely to simply say "hello" and walk away if you do this. If either of those actions fail, the game drops you into the normal "pick your actions" **Attack** menu. However, if you try to **Flee** and fail, you lose your chance to act.
 
 For individual actions, the **Thrust** is a single attack with an increased chance to hit and bonus damage. If you are fast and/or an experienced fighter you will also gain the ability to **Attack** twice (with no bonuses). **Slash** adds a third (and later fourth) attack, but applies penalties to-hit and damage, so it's best to only use it on weak enemies that you're likely to hit. The to-hit bonuses seem to be significant. **Lunge** (Fighters and Thieves only) allows you to attack creatures in the second row, which is often a useful tactic.
 
@@ -488,15 +494,68 @@ Head past the Fire Elementals' cave and N, then E as far as you can go. You peer
 
 Go back to the center and head to the SW. You'll pass some a viewing gallery for the Arena. Further S, the second room on the W is an Armory with a glass case containing five random weapons. They may not be an upgrade but you can sell them for cash. S of there is a Meeting Room with a secret door in the W. In that room you'll find a dead elf with Scroll #5 and Ring Mail. You can't actually exit this room to the N.
 
-Across the hall from the Armory is the Kitchen. Head into the pantry at the back of the room and look for the secret passage E, then turn S. A special encounter! The room is rapidly filling with lava! You can only save one of them! Pick the old man and not the maiden; she gives you treasure, but he is Lord Wood's uncle that you're supposed to be rescuing.
+Across the hall from the Armory is the Kitchen. Head into the pantry at the back of the room and look for the secret passage E, then turn S. A special encounter! The room is rapidly filling with lava! You can only save one of them! Pick the old man and not the maiden; she gives you a Ring worth around $1500, but he is Lord Wood's uncle that you're supposed to be rescuing.
 
 > The man says, "Thank you, I am the uncle of Lord Wood, remember this: `STRATICON UBLE` and `48`." Then he collapses and dies.
 
-Apart from that, there's several fixed combats and traps scattered around the place, but nothing else particularly interesting to do. If you want to grind, go do it in the Cathedral. Back in Greenville to sort your equipment and read scrolls:
+(On the other hand, since I'm telling you the important key words, you really could save the maiden. Or the uncle him once, then go out and come back in and do it the other way. The game doesn't care.)
+
+Apart from that, there's several fixed combats and traps scattered around the place, but nothing else particularly interesting to do. Back in Greenville to sort your equipment and read scrolls:
 
 - Scroll #5 describes the magic pools; you've already found the first one, near the Cathedral. The hint for the second one is useless (although I suppose it is near the coast), and all we know about the third one is that it's near Phantasia and hard to get to.
 
+Once you're around level 6 and you get sick of grinding the Cathedral, this isn't a bad next step. Take the central corridor to the S, grab the Ring Mail from the elf, the five weapons from the armory, and the Ring from the princess. With the wandering monsters thrown in, you'll probably clear around 4k XP and almost $10k per run. If you want more XP you can fight off the Fire Elementals, too.
+
 ### Woodville
+
+The next numbered town (#4) is actually [Hobbiton](#lord-woods-castle), just S over the sector border from the Lizard Man Caves. Story-wise though, after "rescuing" Lord Wood's uncle, our next stop is the temple at Woodville, which is one sector W of Greenville. But before you go, you should know that this sector contains two very confusing stops. Woodville itself, although it's pitched to you as a town, is actually a "dungeon" that's shaped like a town. If you *Transport* to town #5, you wind up in Appleton and see the standard menu town. However, if you enter Appleton from the world map, it's actually just a roadside inn and isn't a town at all.
+
+Woodville is a great place to farm equipment – I picked up a few God Shields and lots of high-quality weapons. Just try not to wear yourself out; the trip to Woodville and back can be somewhat treacherous, not least because you'll find wandering parties of Devils and various Dragons as you're trying to get back to safety. Stop and rest in Appleton if you need to.
+
+The map is laid out with almost everything of interest around the outside, so I'll use clock positioning (12:00 is N, 3:00 is E, etc.) to give you the lay of the land.
+
+The house at 11:00 has a party of Ogres and Orcs. Ogres hit pretty hard but Orcs shouldn't be giving you any trouble at this point. Just S of there at 10:00 is Filmon's Pet Shop which is full of fights (Werebears, Dragons) if you want to go looking for XP and a bit of gold.
+
+The Scroll Shoppe is at 1:00; buy Scrolls #1–3 from the shop keeper or else he won't let you into the back room. There's a secret door in the E wall, and beyond that copies of Scrolls #4, #5, and #14. At 2:00 there's another private home with a party of monsters you can fight.
+
+The Jail is at 2:30; inside, the N cell has some dwarves you can set free, the C cell has a fight with an Ogre, and the S cell is where you're thrown if you get naughty. (They let you out for $500.)
+
+The north/central part of the map is occupied by two large fountains; more on those in a bit.
+
+The Woodville Tavern is at 4:00, and as we all know, nothing good ever happens in a tavern. Here there's a party of Hill Giants in the NW playing cards, who will either get into a fight with you or throw their cards in your face. In the SE there's a table of cute elves who smile at you and tempt you into visiting room #3 of the Woodville Inn. (You don't want to do that.)
+
+Between the Jail and the Tavern is a dark alley; here be dragons.
+
+In the south/central part of the map lies the Woodville Records Office. If you make six lockpick rolls (or find the secret passage that allows you to skip the first two) you get a message that the "sacred number" is `45`.
+
+At 5:00 you'll find a fancy jewelry store. Look around and there are two items you can steal. The one in the NE corner is up for grabs; the one just SW of there will set off an alarm.
+
+There's a few private houses at 6:00. One usually has Lords and Rangers, and the other has magic users (Sorcerers, Illusionists, Priests, etc.) so be careful if you decide to raid them.
+
+The Woodville Inn is at 7:00. From top to bottom, room #1 contains Kilmor the dwarf; you stole his armor from the [Dwarven Dungeon](#the-dwarven-dungeon) and met his friend `NISCOSNAT` in the [Cathedral](#the-cathedral). Kilnor tells you the sacred number `79`. Room #2 is empty. If you try to enter Room #3 (say, to meet up with the smiling elves) you're arrested for trespassing and thrown in jail.
+
+Okay, that's all the fun and games. The plot arrow points us towards the Woodville Temple, which is at 9:00. The outer antechamber has two statues; break the S one and you're thrown in jail for vandalism. Break the N one and you have to fight a Minor Deity. (See [How to Grind](#how-to-grind) later in this document for more on the Minor Deity, but for now leave it alone.)
+
+Instead, approach the priest in the W wall.
+
+> A priest standing here says, "If you push the wrong numbers you die."
+
+Well, no pressure then. They aren't kidding; you get fireballed to death if you enter an incorrect code. Fortunately, we've heard all three sacred numbers at this point.
+
+The Records Office gave us `45`, so type `4` and then `5`; you head a grinding noise.
+
+Exit and approach the priest again; enter Kilnor's number, `79` for a second grinding noise.
+
+Exit and approach the priest again; enter Lord Wood's uncle's number, `48`. You're admitted to the inner sanctum to speak to the priest, but you also have to give him the uncle's code word, `STRATICON UBLE`. The high priest sends you to fight the Black Knights (not like you had much of a choice) and hands you Scroll #12.
+
+If you now head to the fountains in the center of town, you'll find two secret doors that are now open. The one in the SE fountain (opened when you entered `79`) has two fights and Scroll #19. The one in the NW fountain (`45`) teleports you to a blind alley behind the tavern. There are three *tough* fights here, but if you win you get a God Knife. Make sure someone in your party is strong enough to wield it!
+
+- Scroll #4 is a cheeky edition of "The Gelnor Times" that mentions the three new magical doors in [J. R. Trolkin's castle](#j-r-trolkins-castle), one of which guards three magical rings. Ah ha!
+- Scroll #12 points you at the [castle of Lord Wood](#lord-woods-castle), in the mountains SE of Hobbiton.
+- Scroll #14 describes the Bleebs and their [island dungeon](#caves-of-the-bleebs) of fun, games, and tricks. They come in Blue, Red, and Green, and it sounds like we're getting set up for the classic "one always lies and one always tells the truth" logic puzzle.
+- Scroll #19 is the second report of Filmon the Sage, this time discussing the [Temple of Dosnebian](#dosnebian-temple). You'll need the secret words `REVEN TONEM` to enter as well as having a Minotaur in your party. Once inside, move the smallest statue in the temple to open a secret door to the library.
+
+You can definitely kill as much time as you want here gathering equipment, experience, and gold; if you can beat Dragon Alley, the teleport alley behind the Tavern, and the Minor Deity, you are probably overpowered for the rest of the game. Don't feel obligated to do all of it right now (although if anyone in your party *can* wield a God Knife, it might be worth your time to pick one up).
 
 ### Lord Wood's Castle
 
@@ -585,7 +644,6 @@ Here are the stats for my party after defeating the Dark Lord and returning to P
   - *Equipment:* Sword +10 (19), Chain Mail +1 (8), Large Shield +3 (15)
   - *Spells:* Fireflash I–IV, Quickness II, Strength II, Flamebolt I–III, Ninja II, Divine I
 
-
 ### The Speed Run
 
 I've tried to tell the full story in the [walkthrough](#walkthrough), which means learning information from the game before we take advantage of it. But I also like to ask what the fastest possible way to beat the game is. *Phantasie* is the kind of game that tracks your progress through character data and inventory, and it's pretty lax at that. The various scrolls you pick up in the game give you information on where to go next, but none of them are required.
@@ -605,3 +663,15 @@ Regardless, here's a checklist of the bare minimum set of tasks, although you mi
 - Dosnebian Temple: Rings #7-8
 - Astral Plane: pass the Tests and visit Zeus for the God Rune
 - Temple of the Gods: defeat the Black Lord
+
+### How to Grind
+
+Keep in mind that in order to assault the Black Lord's stronghold you're going to have to take on at least four parties of Black Knights, so make sure you're well-stocked on potions. You do have the option to exit with the dungeon unfinished and save the map, which might help reduce the number of fights on your next pass.
+
+I think the best place to grind is generally Woodville. The overland trek across two map sectors is a pain, but you'll get the best mix of XP, gold, and equipment from the encounters there. Once you're strong enough to fight High Demons you can start picking up God Knives for anyone who can wield them, and you may well collect random Giant Shields just from fighting off people on the street.
+
+Knocking over the god statue in the temple and beating the Minor Deity within is a great way to farm gold and XP (~32,000 XP and 60,000 GP per kill) but you'll need four to eight good castings of FireFlash IV to have a shot at taking him out before he kills one of your characters.
+
+If you *just* want the XP and/or gold and don't care about equipment so much, you may find it slightly easier to knock over the Minor Deity in the Dosnebian temple; you can swim back and forth from Trollport without fear of running across Black Knights or any other random encounters.
+
+I beat the Dark Lord with 11th/12th level characters, each of which had at least a 18pt weapon, 7pt armor, and 15pt shield that I farmed by beating Woodville a bunch of times. Make sure as many people as possible have FireFlash IV, and Confusion III doesn't hurt either. That means your Priests should be at least 10th level, but the Mystic probably didn't let you visit Zeus much before that anyway.

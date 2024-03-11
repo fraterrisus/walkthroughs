@@ -30,17 +30,25 @@ I also used another barebones walkthrough by an author named **Psychosis**; it's
 
 *Phantasie* is probably most notable in the CRPG world for being the first RPG produced by SSI, who would go on to produce the classic Gold Box series, starting with Pool of Radiance. For such an early effort, it will feel familiar to people who have played lots of CRPGs, kind of in that same way that people who watched the _Lord of the Rings_ movies as their first exposure had a tendency to say "Wow, this is all super *derivative*." No, friend, the problem is that this is the stuff that everyone else ripped off...
 
-That being said, it's not a particularly challenging game, so long as you can put together a combination of an emulator and a copy of the game that isn't full of bugs. The Apple II version is apparently notorious for having a bug that doesn't allow you to win... or so I hear. I wasn't able to get past the Test of Rings, so maybe that's the bug, or maybe there's something else wrong.
+That being said, it's not a particularly challenging game. I have heard tell of an Apple II version that has a bug that prevents you from winning, but I don't have any specific details on that. So long as you can put together a combination of an emulator and a version of the game disks that works, you should be in for a pretty easy ride.
 
 In any case, I'll assume that you've figured out your own emulator setup issues. You can find versions out there for the C64 (the original, I think), Apple II, IBM PC (mm, tasty CGA graphics), Atari ST, and Amiga. In a dramatic departure from most Yet Another Walkthroughs, I'm going to play this one on the Amiga, because the graphics are pretty great and being forced to use the mouse for 100% of the controls doesn't bother me. However, I got pretty far on the Apple and started ripping the data files apart, so some of what I'm going to report here is from that system. I don't know for sure that the Amiga code is exactly the same; porting from system to system involved a pretty high degree of uncertainty or imprecision in those days.
 
-This also means I'm going to forgo my usual sections on managing save files, save-scumming, etc. You'll do just fine using the built-in save mechanism, even if you can only save one game and can only do it once you're safely within a city. Frankly, the game isn't difficult enough to need much in the way of retrogaming cheats. And to top it off, the Amiga emulator I'm using plays fast and loose with disk files which makes it hard to safely back stuff up, so I'm just not going to bother.
+This also means I'm going to forgo my usual sections on managing save files, save-scumming, etc. If you don't know how to use emulator save states, you'll probably do just fine using the game's built-in save mechanism, even if you can only save one game and can only do it once you're safely within a city. Frankly, the game isn't difficult enough to need much in the way of retrogaming cheats. And to top it off, the Amiga emulator I'm using plays fast and loose with disk files which makes it hard to safely back stuff up, so I'm just not going to bother.
+
+### Managing Saved Games
+
+*Phantasie* doesn't really use the concept of a "saved game" the same way as some other games. It simply keeps track of the state of each town (mostly just the contents of the Armory, modulo some equipment randomization) and the roster of characters that makes up the Adventurers Guild. There is no reset button. In practice, this means that whatever game disk you download off the Internet probably has a roster full of someone else's characters and you're at the mercy of whatever state they happened to leave the town Armories.
+
+If you're in a town and pick **Save Game**, the state of your party members is written to disk along with the ID of the town you're currently in. The next time you start the game, if you select **Continue Saved Game** it will bring up the roster and allow you to pick a character. Then it drops you in whatever town that character was last saved with an empty party, and you start from there.
+
+All that being said, you can pretty easily back up the Boot disk image as much as you like, but the game is easy enough that you probably don't need to. I do recommend using emulator save states if you do something dangerous (like fighting a Minor Deity somewhere), although you always have the option of killing the emulator and reloading from disk if you like the feel consequences for your actions.
 
 ### Getting Around and Getting Along
 
-*Phantasie* uses a top-down view for both overland and dungeon exploration, and only has menu towns. On the Apple you'll use a somewhat novel 3-W-E-S cluster for movement, although 'N' and '3' work equally well for north. On the Amiga you have to click on the map in the rough direction you want your party to move, although in dungeons you're given a compass rose you can click if you prefer that.
+*Phantasie* uses a top-down view for overland exploration and a novel map-based view for dungeons. On the Apple you'll use a somewhat novel 3-W-E-S cluster for movement, although 'N' and '3' work equally well for north. On the Amiga you have to click on the map in the rough direction you want your party to move, although in dungeons you're given a compass rose you can click if you prefer that.
 
-There is a working time system, although it tends to be transparent right up until it isn't. Characters have an Age statistic, and it is possible for them to die of old age, but in practice that shouldn't be an issue. Resting at an inn ostensibly takes two weeks, but I haven't paid close enough attention to the passage of years to know whether this makes any practical difference.
+There is a working in-game time system, although it tends to be transparent right up until it isn't. Characters have an Age statistic and it is possible for them to die of old age but in practice that shouldn't be an issue. Resting at an inn ostensibly takes two weeks but I haven't paid close enough attention to the passage of years to know whether this makes any practical difference.
 
 Moving around inside happens without any time passing, but every square you cover outdoors consumes a certain number of "minutes":
 
@@ -51,29 +59,31 @@ Moving around inside happens without any time passing, but every square you cove
 | Forest                 | 150     |
 | Mountains              | 225     |
 
-There are 256 "minutes" in a day. The game keeps track of days and nights – you can see how long you've been away from town with the Inspect command – and when a random encounter is rolled at night, randomly assigns one person to be on watch; everyone else is asleep unless the person on watch hears the monsters coming.
+There are 256 "minutes" in a day. The game keeps track of days and nights – you can see how long you've been away from town with the **Inspect** command – and when a random encounter is rolled at night, randomly assigns one person to be on watch; everyone else is asleep unless the person on watch passes a *Listen* check and hears the monsters coming.
 
-NPCs do exist, but they're handled as special encounters in dungeons, and there's no dialogue system at all. You do have the occasional choice to make, though, but we'll cover those when we get to the walkthrough itself.
+NPCs do exist, but they're handled as special encounters in dungeons, and there's no dialogue system at all. You do have the occasional choice to make, but we'll cover those when we get to the [walkthrough](#walkthrough) itself.
 
-You have two types of base of operations: towns and inns. Towns are "menu towns" and they're all basically the same. They have a **Bank** where you can deposit and withdraw money (no matter which branch you deposited it in), a **Mystic** who tells you your party's current "score", an **Armory** where you can buy and sell items, an **Inn** for sleeping and distributing treasure, and the **Adventurers Guild** where you can view and modify your party, level up, and learn new spells. If you find an Inn on the road, all you can do there is pay $250 to rest; you can't distribute treasure at roadside Inns.
+You have two types of base of operations: towns and inns. Towns are "menu towns" and they're all basically the same. They have an **Armory** where you can buy and sell items, a **Bank** where you can deposit and withdraw money (no matter which branch you deposited it in), a **Mystic** who tells you your party's current "score", an **Inn** for sleeping and distributing treasure, and the **Adventurers Guild** where you can view and modify your party, level up, and learn new spells. The specifics of these actions are slightly platform-dependent, but we'll talk about them more later. 
 
-As you adventure, you'll collect XP, gold, and items that will go into a party "pool". When you enter a town you'll be prompted to divide that pool up into shares. You don't have to divide it equally; pick a number of shares from 1–3 for each party member, and the game will figure out the total number of shares and divide the treasure equally. Inventory and Equipment work a bit differently; see [Managing Inventory](#managing-inventory) elsewhere.
+If you find an Inn on the road, all you can do there is pay $250 to rest; you can't distribute treasure or do any of the other fun activities at a roadside inn. Resting at an Inn (town or roadside) restores your HP and MP to full.
 
-The bank won't hold more than $65,535 (a 16-bit integer) per party member, nor can the shared pool have more than that.
+#### Exploring Dungeons
 
-When you exit a dungeon, the game will ask if you want to save the state of the dungeon for next time. If you say Yes, the game (mostly) retains the map as you've explored it, including any fights and special encounters. Next time you come back, things will mostly be as they were. If you say No, the game resets the map to a pristine state. This works even if you've said Yes one or more times in the past, so you can pick away at the harder dungeons, or wipe the slate clean and run them as many times as you want.
+Any time you enter a dungeon, the game will load its state from disk. You're presented with a (probably empty) map of the dungeon where your party has been reduced to a tiny dot and you navigate through as if it were an auto-map. (Well, I suppose it is an auto-map, but it's also the only way to explore the dungeon.) That map does not scroll; there is a very odd but fixed 33x38 size for all dungeon maps.
+
+When you exit a dungeon, the game will ask if you want to save the state of the dungeon for next time. If you say Yes, the game retains the map as you've explored it, including any fights and special encounters. Next time you come back, things will mostly be as they were. If you say No, the game resets the map to a pristine state. This works even if you've said Yes one or more times in the past, so you can either pick away at the harder dungeons, or wipe the slate clean and run them as many times as you want.
 
 ## Creating Characters
 
-As I said earlier, keep in mind that the reason everything here sounds "typical" or "boring" is because somebody had to do it first.
+When you start the game for the first time, pick **Start in Pelnor**. This drops you into the first menu town (more about towns [later](#getting-around-and-getting-along)) with an empty party. From there, select the **Guild** and then create a **New Member**.
 
-When you go to the Guild and create a new character, the game will have you pick a Race (or select "random", see below), which determines the maximum range of each attribute. Then you'll pick a Class, which grants bonuses and penalties to some attributes. Finally, the game generates random attributes and shows you the result. You get to either keep the character or start over from scratch, which is especially painful for random races.
+The game will have you pick a Race (or select "random", see below), which determines the maximum range of each attribute. If you didn't get the race you wanted, you can cancel and back up a step. Otherwise, pick a Class, which grants bonuses and penalties to some attributes. Finally, the game generates random attributes and shows you the result. You get to either keep the character or start over from scratch.
 
 ### Races
 
-There are too many races in this game; there, I said it. See the table below for a full list.
+There are too many races in this game; there, I said it.
 
-For the sake of character creation, you only need to know that there are two types of races: "standard" races, which you can pick from a list and can be any class, and "random" races that can only be randomly generated by asking the game to generate a non-standard race and seeing what it picks for you. (Sometimes "random" characters are standard races, which is mostly just annoying.)
+For the sake of character creation, you only need to know that there are two types of races: "standard" races, which you pick from a list, and "random" races that can only be chosen by asking the game to generate a non-standard race and seeing what it picks for you. (Sometimes "random" characters are standard races, which is mostly just annoying.)
 
 The other thing you need to know is that, towards the end of the game, entrance to the [Dosnebian Temple](#dosnebian-temple) requires that you have a Minotaur in your party. The two trains of thought here appear to be:
 
@@ -81,6 +91,8 @@ The other thing you need to know is that, towards the end of the game, entrance 
 2. Build your party the way you want, generate a 1st-level Minotaur right before you hit the Temple, swap out one of your party members for them, assume they're going to die, and run the Temple with a party of five instead of six.
 
 I went with the first option, because I'm often willing to spend an infinite amount of time on character generation (or write a script to do it for me), but it's up to you.
+
+I'm not sure if this is actually a technical limitation or simply observation bias, but on the Apple II it sure seems like the game won't even roll you a new Minotaur if there's already one in the Guild's roster. You can hack this by **Adding** the existing Minotaur to your party then **Purging** them from the Guild's rolls. If you decide you want to keep the one in your party, just **Drop** them and they'll be re-added to the Guild roster. On the back end, party members keep their guild ID, so this might be destructive if you've added a new character to the roster in the meanwhile.
 
 **Max attributes by race:**
 
@@ -104,11 +116,15 @@ Races that are only available by picking "random" at creation time are in italic
 | *Sprite*     |  16  |  18  |  22  |  16  |  17  |
 | *Troll*      |  22  |  13  |  15  |  20  |  12  |
 
+(Come on. Did we really need both Pixies and Sprites?)
+
 ### Classes
 
-No surprises here. **Fighters** are your go-to for melee damage; they gain attacks faster than anyone else and can *Lunge* into the second row. **Monks** and **Rangers** are your hybrid melee/caster types; check their [spell lists](#spells-by-class). Monks share spells with Wizards and have some thieving skills, while Rangers are better fighters and have a more Priest-like spell list. **Priests** are also perfectly good fighters, and **Wizards** very much are not. Finally, **Thieves** have good out-of-combat skills, are passable fighters, advance through levels faster than anyone else, and can attack any row of enemies they want. (Fighters and Thieves aren't completely without magic; high-level Thieves can even learn *FireFlash 4*.)
+No surprises here. **Fighters** are your go-to for melee damage; they have the most hit points and the highest *Attack* skill, gain attacks faster than anyone else, and can *Lunge* into the second row. **Monks** and **Rangers** are your hybrid melee/caster types; check their [spell lists](#spells-by-class). Monks share spells with Wizards and have some thieving skills, while Rangers are better fighters and have a more Priest-like spell list. **Priests** are also perfectly good fighters, and **Wizards** very much are not. Finally, **Thieves** have good out-of-combat skills, are passable fighters, advance through levels faster than anyone else, and can attack any row of enemies they want. (Fighters and Thieves aren't completely without magic, either; high-level Thieves can even learn *FireFlash 4*.)
 
-The manual suggests two tanks (Fighters/Rangers), two spell casters (Wizards/Monks), one healer (Priest/Ranger), and one Thief (or Monk). However, Priests are arguably the best class in the game: their fighting skills lag only a little behind the Fighter and they can learn *FireFlash 4*. If you don't have *any* Wizards you're going to miss lower-level castings of *FireFlash*, but could probably get by with a Monk. And having someone who can attack behind the first rank will make melee go a bit faster. But I think you could be successful in the Temple of the Gods with six high-level Clerics.
+On the Amiga, random races can only be Fighters or Thieves. The Apple doesn't apply this restriction.
+
+The manual suggests two tanks (Fighters/Rangers), two spell casters (Wizards/Monks), one healer (Priest/Ranger), and one Thief (or Monk). However, Priests are arguably the best class in the game: their fighting skills lag only a little behind the Fighter and they can learn *FireFlash 4*. Having someone who can attack behind the first rank would make melee go a bit faster, but all-in-all I think you could be successful in the Temple of the Gods with five Clerics and a Monk (you still need to be able to cast *Transportation*).
 
 Basically, do whatever you want here; there are a nigh-infinite number of functional combinations and they're basically all winnable.
 
@@ -135,7 +151,7 @@ There are eight skills in the game, which seem to vary mostly by class and level
 
 **Attack** is, quite simply, how likely you are to hit with a melee attack. Your weapon's ranking affects this as well.
 
-**Parry** is the same – I presume that if you pick the Parry action in combat, you get a chance to parry any attack that hits you based on this skill and your shield ranking.
+**Parry** is the same – I presume that if you pick the Parry action in combat, you get a chance to parry any attack that hits you based on this skill and your shield ranking. It's unclear if shields have any passive effect on defense.
 
 **Swim** is your ability to not drown while traveling through water. You can treat this as if it's a percentage out of 100; I found that anyone with a 100 or better never drowned.
 
@@ -163,70 +179,60 @@ There are no missile weapons until we get to _Phantasie II_, so generally you wi
 
 At the beginning of each round you get to pick a team action. You can go straight to the clobberin' if that's your bent, but it doesn't hurt to explore the other options. **Threaten** ("**Accept Surrender**" on the Apple) attempts to bully the monsters into giving you their money and not attacking you; this is particularly likely to work if they've already tried to flee but you don't want to bother mopping them up in combat. **Greeting** works well on Scribes and other 'enemies' who seem like they would be willing to talk; at later levels, Rangers, Lords, Overlords, and occasionally Barbarians are likely to simply say "hello" and walk away if you do this. **Beg Mercy** offers to pay off the monsters with all of your gold and possibly some of your unidentified items, but doesn't always work. If any of the above actions fail, the game drops you into the normal "pick your actions" **Attack** menu. However, if you try to **Flee** and fail, you lose your chance to act this round.
 
-For individual actions, the **Thrust** is a single attack with an increased chance to hit and a small amount of bonus damage. If you are fast and/or an experienced fighter you will also gain the ability to **Attack** twice (with no bonuses). **Slash** adds a third (and later fourth) attack, but applies penalties to-hit and damage, so it's best to only use it on large groups of weak enemies that you're likely to hit; the accuracy bonuses and penalties seem to be significant. **Lunge** (Fighters and Thieves only) is similar to Thrust and allows you to attack a creature in the second row, which is often a useful tactic although Thieves can target any attack action at any rank of enemies they want. **Parry** uses your shield to block melee attacks, and of course you can **Cast** a spell. Note that you can *not* use potions in combat.
+For individual actions, the **Thrust** is a single attack with an increased chance to hit and a small amount of bonus damage. Most combatants can only attack the front row, but Thieves get to target any row they want. Fighters and Thieves also get access to the **Lunge**, which is like a Thrust but aimed at the second rank. If you are fast and/or an experienced fighter you will also gain the ability to **Attack** twice (with no bonuses). **Slash** adds a third (and later fourth) attack but applies penalties to-hit and damage, so it's best to only use it on large groups of weak enemies that you're likely to hit. **Parry** uses your shield to block melee attacks, and of course you can **Cast** a spell. Note that you can *not* use potions in combat.
 
-Note that casting a zap spell tends to target the rearmost group. On the Apple (but not the Amiga) if you cast more than one zap spell per round, there's a chance that the first one kills the target and the second one is wasted for lack of a target. The same is true of having multiple characters Lunge into the second rank.
+Note that you do not get to pick a target rank when casting a zap spell; the game tends to target the rearmost group. On the Apple (but not the Amiga) if you cast more than one zap spell per round, there's a chance that the first one kills the target and the second one is wasted for lack of a target. The same is true of having multiple characters Lunge into the second rank. Otherwise, if a character is rolling more than one attack but drops an opponent with the first one, they'll automatically move on to another enemy in the same rank (if there are any left).
 
 Monster groups seem to re-sort themselves between rounds so the largest group is always in the front. This will impact the order in which you can kill them, since you can mostly only attack the front row.
 
 ### Health and Dying
 
-During combat, the only way to heal damage is to have your Priests and Rangers cast healing spells.
+During combat, the only way to heal damage is to have your Priests and Rangers cast *Healing* spells. Outside of combat you can also use healing potions – their maximum effect is the potion level squared, so a *Healing 7* potion heals up to 49 HP. If you find a roadside inn, you can rest there for $250, which will bring you back to full health and power. And of course, if you wait until you return to an actual town, you can rest for free. In theory, resting takes two weeks, but in practice that doesn't really seem to matter.
 
-Outside of combat you can also use Healing potions – their maximum effect is the potion level squared, so a *Healing 7* potion heals up to 49 HP.
-
-If you find a roadside inn, you can rest there for $250, which will bring you back to full health and power.
-
-And of course, if you wait until you return to an actual town, you can rest for free. In theory, resting takes two weeks, but in practice that doesn't really seem to matter.
-
-Any character who reaches 0 HP or below instantly dies. High-level Priests can cast *Resurrect* to bring dead characters back from the grave, but (a) it doesn't always work (b) it will rob you of a few points of CON if it does. Unlike [some other games](../deathlord), you also have the option of rebooting the machine (or killing the emulator) and reloading from your last saved game. Finally, if everyone in the party dies at once, Zeus resurrects you at the temple in the woods outside Pelnor.
+Any character who reaches 0 HP or below instantly dies. High-level Priests can cast *Resurrect* to bring dead characters back from the grave, but (a) it doesn't always work (b) it will rob you of a few points of CON if it does. Unlike [some other games](../deathlord), you also have the option of rebooting the machine (or killing the emulator) and reloading from your last saved game. Finally, if everyone in the party dies at once, Zeus resurrects you at the temple in the woods outside Pelnor.
 
 ### Experience and Leveling Up
 
-Most combats will grant XP; monsters that flee (or are dispelled by *DispelUndead*) don't grant XP, but you may still find money or items. Sometimes encounters have fixed treasure, but more often it's variable.
+Most combats will grant XP; monsters that flee (or are dispelled by *DispelUndead*) don't grant XP, but you may still find money or items. Sometimes encounters have fixed treasure, but more often it's variable. XP and gold and items go into a pool which gets distributed next time you make it safely to town; see [Managing Loot](#managing-loot) for more information on this.
 
 I can not for the life of me figure out how the game calculates the amount of XP required to move you to the next level. Even if you give equal shares to two party members of the same class, they will somehow get out of sync with each other. One thing is for sure: Charisma directly impacts how much gold is required, and a low charisma (I'm looking at you, Minotaur Fighters) will be a huge drain on the party's treasury. At CHR 20 you don't have to pay for training anymore.
 
-HP increases at level-up time seem to be fixed, varying only by your current CON.
+Hit points increases are fixed and vary only by your current CON at the time of training. Your skills also increase, but the manual doesn't say by how much.
 
-Leveling up also increases your skills
+**HP by level for a character with 10 CON:**
+
+| Class   |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   |  10  |  11  |  12  |  13  |  14  |  15  |
+| ------- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| Fighter |  10  |  20  |  32  |  44  |  56  |  70  |  82  |  94  | 106  | 120  | 130  | 140  | 150  | 160  | 170  |
+| Ranger  |  8   |  18  |  28  |  40  |  50  |  60  |  72  |  84  |  96  | 110  | 120  | 130  | 140  | 150  | 160  |
+| Priest  |  8   |  12  |  20  |  30  |  40  |  50  |  60  |  70  |  80  |  90  |  98  | 106  | 114  | 122  | 130  |
+| Monk    |  8   |  10  |  18  |  22  |  32  |  44  |  54  |  62  |  70  |  80  |  88  |  96  | 104  | 112  | 120  |
+| Thief   |  6   |  10  |  18  |  22  |  32  |  40  |  48  |  54  |  60  |  70  |  78  |  86  |  94  | 102  | 110  |
+| Wizard  |  6   |  8   |  12  |  16  |  22  |  28  |  34  |  38  |  44  |  50  |  56  |  62  |  68  |  74  |  80  |
 
 ### Atlas
 
 One major difference between the Apple II and other versions of the game is that the world map has been rotated 90 degrees. On the Apple, Pelnor is in the NW corner of the world map and the road runs S. On every other platform, Pelnor is in the NE corner and the road runs W. Most scrolls that reference directions have been correctly updated to reflect that change. This only affects the world map; dungeons are oriented the same on all platforms. I'll be using the Amiga directions in this walkthrough.
 
-#### Cities
-
-- Pelnor: #1
-- Pineville: #2
-- Greenville: #3
-- Hobbiton: #4
-- Appleton: #5
-- Splitwater: #6
-- Trollport: #7
-- Phantasia: #8
-- Dragonor: #9
-- Northford: #10
-- Starville: #11
-- Olympia: #99
-
-### Weird Stuff
-
-I'm not sure if this is actually a technical limitation or simply observation bias, but on the Apple II it sure seems like the game won't even roll you a new Minotaur if there's already one in the Guild's roster. You can hack this by adding the existing Minotaur to your party, then (P)urging them from the Guild's rolls. If you decide you want to keep the one in your party, just (D)rop them and they'll be re-added to the Guild roster. On the back end, party members keep their guild ID, so this might be destructive if you've added a new character to the roster in the meanwhile.
-
-Did we really need both Pixies and Sprites? They have almost no difference in their maximum attributes and they're both random races so you can't pick one or the other.
-
 ## Equipment
 
-### Managing Inventory
+### Managing Loot
 
-In order to distribute equipment, visit an Inn inside a Town. (Roadside Inns don't offer this option.) Everyone in your party throws their inventory into the pool along with all the new items you've found, and then you have to walk through the list and either assign the item to a party member or sell it immediately. Each party member can carry a maximum of nine items; you really want to make sure that at least three of those are a Shield, Weapon, and Armor that the character is capable of using, so don't assign too many random items to one character before the weapons come up. This is extremely clunky, but the only penalty for getting it wrong is that you have to start over.
+As you adventure, you'll collect XP, gold, and items that will go into a party "pool". During travel the **Inspect** command will allow you to see what's in that pool, but depending on the platform you may or may not see specific items that you've acquired. You can't take advantage of anything in that pool until you return to town, at which point you'll be prompted to divide that pool of XP and gold up into shares. You don't have to divide it equally; pick a number of shares between 1 and 3 for each party member, and the game will figure out the total number of shares and divide the treasure accordingly. Shares of XP are added to each characters' total, and shares of gold are added to their bank accounts.
 
-There is no "equipping" items from your inventory; the game automatically picks the best item in your inventory that you're capable of using, which is fine and basically what you want anyway. Just make sure that you don't give that God Knife to someone who [isn't strong enough](#weapons) to use it, or you'll be wondering why their attacks are doing so little damage.
+Inventory and Equipment work a bit differently: either pick **Distribute and Sell Items** or visit the **Inn** within a town, depending on your platform. (Roadside Inns don't offer this option.) Everyone in your party throws everything in their inventory into the pool along with all the new items you've found. Then the game presents you with the list of items, and you have to pick between assigning that item to a party member or selling it on the spot. Fortunately, at this point the full identity of the item is available to you; there is no other "Identify" mechanic.
 
-### Shields
+Each party member can carry a maximum of nine items; you really want to make sure that at least three of those are a Shield, Weapon, and Armor that the character is capable of using, so don't assign too many (more than six) items to one character before the weapons come up. This is, in my opinion, an extremely clunky way to manage inventory, but if you get something wrong the only penalty is that you have to start over.
 
-Shield make you more effective at using the Parry action in combat, allowing you to avoid melee attacks. Each shield has a minimum STR rating ("Required" on the table below) which you need in order to wield the shield. For shields this is nice and easy: the "Value" (power level) of the shield is the same as the required attribute.
+There is no mechanic for equipping items; the game automatically picks the best item in each party member's inventory that they're capable of using, which is fine and basically what you want anyway. Just make sure that you don't give that God Knife to someone who [isn't strong enough](#weapons) to use it, or you'll be wondering why their attacks are doing so little damage.
+
+The game retains a concept of "cash on hand" even while you're inside a town. When you go to pay for training or items, you must have enough cash on hand to cover the cost. If you sell items from the "distribute items" interface, the money goes into the pool. You can also visit the bank and **Withdraw** money to move it into the pool for spending. Note that the bank won't hold more than $65,535 (a 16-bit integer) per party member, nor can the shared pool have more than that. Any excess is lost silently. However, by the time that becomes an issue money won't really matter to you anymore, so don't sweat it too much if it doesn't make any sense. Just know that you have to withdraw money from the bank before you can spend it, and know that the game will force you to deposit shares in case you forget.
+
+### Equipment Lists
+
+#### Shields
+
+Shields make you more effective at using the Parry action in combat, allowing you to avoid melee attacks. Each shield has a minimum STR rating ("Required" on the table below) which you need in order to wield the shield. For shields this is nice and easy: the "Value" (power level) of the shield is the same as the required attribute.
 
 | Value | Required |       Item       |
 | :---: | :------: | :--------------: |
@@ -251,7 +257,7 @@ Shield make you more effective at using the Parry action in combat, allowing you
 |  19   |    19    | Giant shield +3  |
 |  20   |    20    |    God shield    |
 
-### Armor
+#### Armor
 
 Armor provides passive defense against melee damage. It also uses STR as its required attribute, although there is some armor that doesn't have a STR requirement. Note that magic armor generally has a lower attribute requirement, so don't despair if your Wizards can't wear that shiny Splint Mail.
 
@@ -278,7 +284,7 @@ Armor provides passive defense against melee damage. It also uses STR as its req
 |  10   |    14    |   God robes   |
 |  11   |    16    |   God armor   |
 
-### Weapons
+#### Weapons
 
 Weapons work a little differently: the attribute requirement is satisfied by `(2 * STR) + DEX`, so a very high DEX can at least partially make up for a low STR. Still, the best weapons have exorbitant requirements that basically can't be reached without a high STR. Keep an eye out for magic Swords, which usually have lower requirements than other weapons of a similar value.
 
@@ -345,7 +351,7 @@ Weapons work a little differently: the attribute requirement is satisfied by `(2
 |  24   |    58    |    God axe    |
 |  25   |    60    |   God sword   |
 
-### Potions
+#### Potions
 
 Anyone can use any kind of potion and can target it at anyone in the party; like a healing spell, a potion restores a random number of hit points (or magic points). Health potions top out at the square of their power level; magic potions top out at three times their level.
 
@@ -377,23 +383,23 @@ Note that your party members' max Power probably won't be this high, at least at
 
 This table shows the first character level at which you can learn each spell. Teaching your Fighter *Quickness* isn't the worst idea, and don't forget that Monks and Thieves can learn *FireFlash*.
 
-| Level |              Wizard               |                Priest                 |            Ranger             |            Monk            |   Fighter    |    Thief    |
-| :---: | :-------------------------------: | :-----------------------------------: | :---------------------------: | :------------------------: | :----------: | :---------: |
-|   1   |      FireFlash1, Quickness1       |       Healing1, Awaken, Vision        |     Healing1, FireFlash1      |         FireFlash1         |              |             |
-|   2   |         Strength1, Charm          |         Confusion1, Binding1          |          Protection1          |           Ninja1           |              |             |
-|   3   |      FireFlash2, Quickness2       |  Healing2, Protection1, DispelUndead  |    Weakness1, DispelUndead    | FireFlash2, Transportation | MonsterEval. |             |
-|   4   |       FireFlash3, Strength2       |           Weakness1, Sleep            |           Healing2            |           Ninja2           |              |    Charm    |
-|   5   |    Confusion1, Transportation     |         Healing3, Confusion2          |    Binding1, MonsterEval.     |           Vision           |              |             |
-|   6   |   Weakness1, MindBlast1, Ninja1   |         Protection2, Binding2         |           Healing3            |         FireFlash3         |  Quickness1  |             |
-|   7   |   FireFlash4, FlameBolt1, Fear    |         Confusion3, Weakness2         | Healing4, Protection2, Awaken |   Strength1, SummonElem.   |              |    Sleep    |
-|   8   |    MindBlast2, Ninja2, Awaken     |        Healing4, Teleportation        |                               |         FireFlash4         |              |             |
-|   9   |      Quickness3, FlameBolt2       | FireFlash3, Protection3, Resurrection |    Quickness1, Confusion1     |         MindBlast1         |  Strength1   |             |
-|  10   |            MindBlast3             |        FireFlash4, FlameBolt1         |           Binding2            |         Quickness1         |              | Protection2 |
-|  11   |       Strength3, FlameBolt3       |         Binding3, MindBlast2          |       Weakness2, Sleep        |         MindBlast2         |              |             |
-|  12   |      MindBlast4, SummonElem.      |         Confusion4, Weakness3         |          Confusion2           |         Strength2          |  Quickness3  |             |
-|  13   |                                   |         Binding4, FlameBolt3          |   MindBlast1, Resurrection    |         MindBlast3         |              | FireFlash4  |
-|  14   | Quickness4, Strength4, FlameBolt4 |        Protection4, Weakness4         |          FlameBolt1           |         Quickness2         |              |             |
-|  15   |             Dissolve              |              SummonElem.              |          Confusion3           |         MindBlast4         |  Strength3   |             |
+| Lvl  |              Wizard               |                Priest                 |            Ranger             |         Monk          |   Fighter    |    Thief    |
+| :--: | :-------------------------------: | :-----------------------------------: | :---------------------------: | :-------------------: | :----------: | :---------: |
+|  1   |      FireFlash1, Quickness1       |       Healing1, Awaken, Vision        |     Healing1, FireFlash1      |      FireFlash1       |              |             |
+|  2   |         Strength1, Charm          |         Confusion1, Binding1          |          Protection1          |        Ninja1         |              |             |
+|  3   |      FireFlash2, Quickness2       |  Healing2, Protection1, DispelUndead  |    Weakness1, DispelUndead    | FireFlash2, Transport | MonsterEval. |             |
+|  4   |       FireFlash3, Strength2       |           Weakness1, Sleep            |           Healing2            |        Ninja2         |              |    Charm    |
+|  5   |       Confusion1, Transport       |         Healing3, Confusion2          |    Binding1, MonsterEval.     |        Vision         |              |             |
+|  6   |   Weakness1, MindBlast1, Ninja1   |         Protection2, Binding2         |           Healing3            |      FireFlash3       |  Quickness1  |             |
+|  7   |   FireFlash4, FlameBolt1, Fear    |         Confusion3, Weakness2         | Healing4, Protection2, Awaken |   Strength1, Summon   |              |    Sleep    |
+|  8   |    MindBlast2, Ninja2, Awaken     |          Healing4, Teleport           |                               |      FireFlash4       |              |             |
+|  9   |      Quickness3, FlameBolt2       | FireFlash3, Protection3, Resurrection |    Quickness1, Confusion1     |      MindBlast1       |  Strength1   |             |
+|  10  |            MindBlast3             |        FireFlash4, FlameBolt1         |           Binding2            |      Quickness1       |              | Protection2 |
+|  11  |       Strength3, FlameBolt3       |         Binding3, MindBlast2          |       Weakness2, Sleep        |      MindBlast2       |              |             |
+|  12  |        MindBlast4, Summon         |         Confusion4, Weakness3         |          Confusion2           |       Strength2       |  Quickness3  |             |
+|  13  |                                   |         Binding4, FlameBolt3          |   MindBlast1, Resurrection    |      MindBlast3       |              | FireFlash4  |
+|  14  | Quickness4, Strength4, FlameBolt4 |        Protection4, Weakness4         |          FlameBolt1           |      Quickness2       |              |             |
+|  15  |             Dissolve              |                Summon                 |          Confusion3           |      MindBlast4       |  Strength3   |             |
 
 ### Spell Descriptions
 
@@ -467,13 +473,13 @@ If you check the Pelnor Armory, you might find a copy of Scroll #8 to purchase:
 
 Our first stop is indeed said dungeon, just N of the Red Pony.
 
-Your first bit of kit upgrade isn't too far from the entrance, but might be a stretch for a first-level party. Head S to a crossroads and pick the lock to the E if you can. There's a fight beyond, and then a trap hiding at the intersection.
+Your first bit of kit upgrade isn't too far from the entrance but is probably a stretch for a first-level party. Head S to a crossroads and pick the lock to the E if you can. There's a fight beyond, and then a trap hiding at the intersection.
 
 If you can't pick that first lock, there's a second way in if you go S, E, and N to another locked door. If you make it through that and into the small room in the NW, head W until you find the same trapped intersection.
 
-From there follow the hallway N; there's probably at least one random combat here. The door at the end of the hall also has a combat. On the far side you'll find a chest with a Small Shield +2, Small Axe, and Leather Armor, all of which are upgrades over your starting equipment.
+From there follow the hallway N; there's probably at least one random combat here. The door at the end of the hall also has an encounter. On the far side you'll find a chest with a Small Shield +2, Small Axe, and Leather Armor, all of which are upgrades over your starting equipment.
 
-It's not a bad idea to simply collect this gear, leave the dungeon (don't save the map), return to Pelnor to rest and assign items, then come back until everyone has a complete set. That will probably get you up to level 3 or so, depending on how high your party's Charisma is and whether you can afford the levels. If you're carrying a Monk, go ahead and teach them *Transportation*, which will allow you to jump between towns without needing to brave overland travel. (You will eventually *need* this spell to beat the game, but it's also available to Wizards at level 5.) When you're ready to explore the rest of the dungeon, meet me in the next paragraph.
+It's not a bad idea to simply collect this gear, leave the dungeon (don't save the map), return to Pelnor to rest and assign items, then come back until everyone has a complete set. That will probably get you up to level 3 or so, depending on how high your party's Charisma is and whether you can afford the training. If you're carrying a Monk, go ahead and teach them *Transportation*, which will allow you to jump between towns without needing to brave overland travel. (You will eventually *need* this spell to beat the game, but it's also available to Wizards at level 5.) When you're ready to explore the rest of the dungeon, meet me in the next paragraph.
 
 From the entrance crossroads, go W, turn N, and take your first W. There's a locked grate here that you can't open. Let's see if we can do something about that: return E and S, then go W, S, and into the W room. Push the button here to open the grate, then go back. There's an old man here. Talk to him and he'll give you the **Air Rune**. Just like that, we've ticked our first box on the path to victory!
 
@@ -504,13 +510,15 @@ Don't bother exploring the mountain range near Pineville; mountains are slow goi
 
 If you walk S from Pineville around the mountains and then W, you'll probably come across a strange, bubbling pool of water. We won't find out what this is until the [Lizard Man Caves](#lizard-man-caves), but I'll tell you now it's the first of three Magic Pools. The Pools raise a random statistic two or three points on each character in your party. They're single-use only and there's no way to predict what stat will get raised. I haven't had too much luck trying to use emulator save states to scum for better results, but I will say that you may get a different result by tracing a different route and/or approaching the pool from a different direction, so I suspect that the random result is somehow seeded on the in-game time.
 
-The Cathedral is W of the Pool, or S of the Conley Inn (but that's the long way around). Plan on spending a fair bit of time in the Pineville-Cathedral corridor; it's an important place to do some early-game grinding. The encounters give a good mix of experience and gold, which should allow you to buy levels for your low-Charisma PCs. It won't take you too long to get into the rhythm of running the entire Cathedral, possibly two or three times, then heading back to Pineville to reap your rewards.
+The Cathedral is W of the Pool or S of the Conley Inn (but that's the long way around). Plan on spending a fair bit of time in the Pineville-Cathedral corridor; it's an important place to do some early-game grinding. The encounters give a good mix of experience and gold, which should allow you to buy levels for your low-Charisma PCs. It won't take you too long to get into the rhythm of running the entire Cathedral, possibly two or three times, then heading back to Pineville to reap your rewards.
 
 Once inside the Cathedral, enter the main room to the S. It's surrounded by small chambers occupied by priests, each of which has a message for you. One demands a donation (note: no money will actually be removed from your accounts, as far as I can tell) then tells you to be "clean" before you talk to the High Priest. Another claims that the High Priest does not suffer fools. A third informs you that there are some teleporters here that you can use to "look around". The fourth door, in the SE, is locked, and the priest inside insists that they have "very few secrets." That's a funny thing to say when you're hiding behind a locked door.
 
-Try to open the locked door to the S of the main room. If you can't, there are secret passages in the SW and SE side rooms that lead to the same place: a short hallway full of teleporters. Much like the Dwarven Dungeon, I'm going to send you towards the easy loot first so you can repeat it as often as you want: take the NW teleporter, which brings you to the Crypt in the NW corner of the temple. Of the eight coffins, four of them have encounters and the other four are empty.
+Try to open the locked door to the S of the main room. If you can't, there are secret passages in the SW and SE side rooms that lead to the same place: a short hallway full of teleporters. Much like before I'm going to send you towards the easy loot first so you can repeat it as often as you want: take the NW teleporter, which brings you to the Crypt in the NW corner of the temple. Of the eight coffins, four of them have encounters and the other four are empty.
 
-This will be a step up in difficulty. Ghouls drain your MP and Apprentice Devils hit pretty hard (and can Stun), but you'll find items pretty often after combat which makes this a great place to farm equipment as well as gold and experience. The inner crypt (in the S) has a Medium Shield +1 and a Potion of Magic 7, both of which are worth stocking up on repeatedly.
+This will be a step up in difficulty. Ghouls drain your MP and Apprentice Devils hit pretty hard (and can Stun), but you'll find items pretty often after combat which makes this a great place to farm equipment as well as gold and experience. The inner crypt (in the S) has a Medium Shield +1 and a *Magic 7* potion, both of which are worth stocking up on repeatedly.
+
+> **Tip:** The game doesn't seem to pass any time if you stand in one place and take several actions. And you can't use potions in combat. So in principle, a *Magic* potion is just as good as a *Healing* potion so long as you have a living Priest that can cast *Healing* spells.
 
 There are three other parts of the temple that are worth exploring. The SW teleporter will take you to the NE corner of the map and a long N/S hallway. The first room W has a fight, and the second room E is empty. The third room W has some sly-looking orcs who offer to give you a key if you bribe them; take them up on their offer. The fourth room E has another combat (Barbarians). At the S end of the hall there's a door that can only be opened with the key from the Orcs. Inside are some Trollkins that you can bribe for Scroll #20. And no, you can't kill them and expect to find either the key or the scroll afterwards.
 
@@ -536,9 +544,9 @@ He gives you Scrolls #10 and #11. That's it for the Cathedral, so head back to P
 
 ### Lizard Man Caves
 
-As you cross the sector boundary S of Pineville, the monsters jump a level of difficulty. And I started rolling Black Knights a *lot* more often. Head into Greenville as quickly as possible (don't forget *Transportation*) and feel free to mess around for a bit until you feel ready to explore a bit further. The Caves are just NW of the crossroads S of Greenville.
+As you cross the sector boundary S of Pineville, the monsters jump a level of difficulty. I also started rolling Black Knights a *lot* more often. Head into Greenville as quickly as possible (don't forget *Transportation*) and feel free to mess around for a bit until you feel ready to explore a bit further. The Caves are just NW of the crossroads S of Greenville.
 
-First order of business here is the Fire Rune, which is easy enough to find, and ought to be a good target for your first trip to the caves. From the cave entrance go S to an irregular room, E (past a fight) to a smaller room, then S. You'll receive a warning, then have to face two successive Fire Elementals. Blow your spell points – FireFlash3 should make short work of them, ironically – and make sure to heal up between fights. 2500 XP per party member per elemental is pretty nice, but no gold. The Fire Rune is just past them.
+First order of business here is the Fire Rune, which is easy enough to find, and ought to be a good target for your first trip to the caves. From the cave entrance go S to an irregular room, E (past a fight) to a smaller room, then S. You'll receive a warning, then have to face two successive Fire Elementals. Blow your spell points – *FireFlash3* should make short work of them, ironically – and make sure to heal up between fights. 2500 XP per party member per elemental is pretty nice, but no gold. The **Fire Rune** is just past them.
 
 Once you have the Fire Rune you can return to the Cathedral and burn the box containing the Earth Rune. Then continue grinding that area for experience, and come back here when you're ready.
 
@@ -554,17 +562,20 @@ Across the hall from the Armory is the Kitchen. Head into the pantry at the back
 
 (On the other hand, since I'm telling you the important key words, you really could save the maiden. Or save the uncle once, then go out and come back in and do it the other way. The game doesn't care.)
 
-Apart from that, there's several fixed combats and traps scattered around the place, but nothing else particularly interesting to do. Back in Greenville to sort your equipment and read scrolls:
+Apart from that, there's several fixed combats and traps scattered around the place, but nothing else particularly interesting to do. Head back to Greenville to sort your equipment and read scrolls:
 
-- Scroll #5 describes the magic pools; you've already found the first one, near the Cathedral. The hint for the second one is useless (although I suppose it is near the coast), and all we know about the third one is that it's near Phantasia and hard to get to.
+- Scroll #5 describes the magic pools; you've already found the first one, near the Cathedral. The hint for the second one is useless (although I suppose it is somewhat near the coast), and all we know about the third one is that it's near [Phantasia](#phantasia), wherever that is, and hard to get to.
 
-Once you're around level 6 and you get sick of grinding the Cathedral, this isn't a bad next step. Take the central corridor to the S, grab the Ring Mail from the elf, the five weapons from the armory, and the Ring from the princess. With the wandering monsters thrown in, you'll probably clear around 4k XP and almost $10k per run. If you want more XP you can fight off the Fire Elementals, too.
+This isn't a bad alternative once you've grown sick of grinding the Cathedral. Take the central corridor to the S, grab the Ring Mail from the elf, the five weapons from the armory, and the Ring from the princess. With the wandering monsters thrown in, you'll probably clear around 4k XP and almost $10k per run. If you want more XP you can fight off the Fire Elementals, too.
 
 ### Woodville
 
-The next numbered town (#4) is actually [Hobbiton](#lord-woods-castle), just S over the sector border from the Lizard Man Caves. Story-wise though, after "rescuing" Lord Wood's uncle, our next stop is the temple at Woodville, which is one sector W of Greenville. But before you go, you should know that this sector contains two very confusing stops. Woodville itself, although it's pitched to you as a town, is actually a "dungeon" that's shaped like a town. If you *Transport* to town #5, you wind up in Appleton and see the standard menu town. However, if you enter Appleton from the world map, it's actually just a roadside inn and isn't a town at all.
+The next numbered town (#4) is actually [Hobbiton](#lord-woods-castle), just S over the sector border. Story-wise though, after "rescuing" Lord Wood's uncle, our next stop is the temple at Woodville, which is one sector W of Greenville. But before you go, you should know that this sector contains two very confusing stops. 
 
-Woodville is a great place to farm equipment – I picked up a few God Shields and lots of high-quality weapons. Just try not to wear yourself out; the trip to Woodville and back can be somewhat treacherous, not least because you'll find wandering parties of Devils and various Dragons as you're trying to get back to safety. Stop and rest in Appleton if you need to.
+1. Woodville itself, although it's pitched to you as a town, is actually a "dungeon" that's shaped like a town.
+2. If you *Transport* to town #5, you wind up in Appleton and see the standard menu town. However, if you enter Appleton from the world map, it's actually just a roadside inn and isn't a town at all.
+
+Woodville is a great place to farm equipment – you can find God Shields and Giant Shields along with lots of high-quality weapons as loot from the various encounters. Just try not to wear yourself out; the trip back to Pineville can be somewhat treacherous, not least because you'll find wandering parties of Devils and various Dragons as you're trying to get back to safety. Stop and rest in Appleton if you need to.
 
 The map is laid out with almost everything of interest around the outside, so I'll use clock positioning (12:00 is N, 3:00 is E, etc.) to give you the lay of the land.
 
@@ -586,7 +597,7 @@ At 5:00 you'll find a fancy jewelry store. Look around and there are two items y
 
 There's a few private houses at 6:00. One usually has Lords and Rangers, and the other has magic users (Sorcerers, Illusionists, Priests, etc.) so be careful if you decide to raid them.
 
-The Woodville Inn is at 7:00. From top to bottom, room #1 contains Kilmor the dwarf; you stole his armor from the [Dwarven Dungeon](#the-dwarven-dungeon) and met his friend `NISCOSNAT` in the [Cathedral](#the-cathedral). Kilnor tells you the sacred number `79`. Room #2 is empty. If you try to enter Room #3 (say, to meet up with the smiling elves) you're arrested for trespassing and thrown in jail.
+The Woodville Inn is at 7:00. From top to bottom, room #1 contains Kilmor the dwarf; you stole his armor from the [Dwarven Dungeon](#the-dwarven-dungeon) and met his friend `NISCOSNAT` in the [Cathedral](#the-cathedral). Kilmor tells you the sacred number `79`. Room #2 is empty. If you try to enter Room #3 (say, to meet up with the smiling elves) you're arrested for trespassing and thrown in jail.
 
 Okay, that's all the fun and games. The plot arrow points us towards the Woodville Temple, which is at 9:00. The outer antechamber has two statues; break the S one and you're thrown in jail for vandalism. Break the N one and you have to fight a Minor Deity. Once you're a bit stronger (or willing to scum emulator save-states) he's worth 200,000 XP and $60,000 per kill, but for now leave the statue alone. Instead, approach the priest in the W wall.
 
@@ -596,22 +607,22 @@ Well, no pressure then. They aren't kidding; you get fireballed to death if you 
 
 The Records Office gave us `45`, so type `4` and then `5`; you head a grinding noise.
 
-Exit and approach the priest again; enter Kilnor's number, `79` for a second grinding noise.
+Exit and approach the priest again; enter Kilmor's number, `79` for a second grinding noise.
 
 Exit and approach the priest again; enter Lord Wood's uncle's number, `48`. You're admitted to the inner sanctum to speak to the priest, but you also have to give him the uncle's code word, `STRATICON UBLE`. The high priest sends you to fight the Black Knights (not like you had much of a choice) and hands you Scroll #12.
 
 If you now head to the fountains in the center of town, you'll find two secret doors that are now open. The one in the SE fountain (opened when you entered `79`) has two fights and Scroll #19. The one in the NW fountain (`45`) teleports you to a blind alley behind the tavern. There are three *tough* fights here, but if you win you get a God Knife. Make sure someone in your party is strong enough to wield it!
 
-- Scroll #4 is a cheeky edition of "The Gelnor Times" that mentions the three new magical doors in [J. R. Trolkin's castle](#j-r-trolkins-castle), one of which guards three magical rings. Ah ha!
+- Scroll #4 is a cheeky edition of "The Gelnor Times" that mentions the three new magical doors in [J.R. Trolkin's castle](#jr-trolkins-castle), one of which guards three magical rings. Ah ha!
 - Scroll #12 points you at the [castle of Lord Wood](#lord-woods-castle), in the mountains SE of Hobbiton.
 - Scroll #14 describes the Bleebs and their [island dungeon](#caves-of-the-bleebs) of fun, games, and tricks. They come in Blue, Red, and Green, and it sounds like we're getting set up for the classic "one always lies and one always tells the truth" logic puzzle.
 - Scroll #19 is the second report of Filmon the Sage, this time discussing the [Temple of Dosnebia](#dosnebian-temple). You'll need the secret words `REVEN TONEM` to enter as well as having a Minotaur in your party. Once inside, move the smallest statue in the temple to open a secret door to the library.
 
-You can definitely kill as much time as you want here gathering equipment, experience, and gold; if you can beat Dragon Alley, the teleport alley behind the Tavern, and the Minor Deity, you are probably overpowered for the rest of the game. Don't feel obligated to do all of it right now (although if anyone in your party *can* wield a God Knife, it might be worth your time to pick one up).
+You can definitely kill as much time as you want here gathering equipment, experience, and gold; if you can beat Dragon Alley, the teleport alley behind the Tavern, and the Minor Deity, you are probably overpowered for the rest of the game. Don't feel obligated to do all of it right now, although if anyone in your party *can* wield a God Knife, it might be worth your time to pick one up. High Demons aren't fun, though.
 
 ### Lord Wood's Castle
 
-Proceed E from Greenville and you'll find the sleepy little town of Hobbiton. Just kidding, it's the exact same menu town as all the others. Lord Wood's castle is in the mountains near the river, 3W and several squares S of Hobbiton.
+The High Priest of Woodville told us to seek out Lord Wood himself, so it's off to his castle we go next, courtesy of the directions within Scroll #12. Proceed E from Greenville and you'll find the sleepy little town of Hobbiton. Just kidding, it's the exact same menu town as all the others. Lord Wood's castle is in the mountains near the river, 3W and several squares S of Hobbiton.
 
 > All is not well within.
 
@@ -661,24 +672,26 @@ You can ignore the Library and the Storage Room. Head back to Hobbiton, or if yo
 
 - Scroll #6 tells the story of how J.R. Trolkin was the traitor who informed Nikademus of the plans to defeat him and was given a castle in return.
 - Scroll #7 tells you where the nine rings are: three in Trolkin's castle, three in the temple of Dosnebia, and three "remain lost".
-- Scroll #13 points you at [Trokin's castle](#j-r-trolkins-castle), "in the western part of Gelnor near the great river."
+- Scroll #13 points you at [Trokin's castle](#jr-trolkins-castle), "in the western part of Gelnor near the great river."
 - Scroll #15 points you at the [Dosnebian temple](#dosnebian-temple), "far to the west of Starville." It also hints that they are "allied" with Minotaurs, and that you should "enrage the small one," whatever that means. Note that this is the worst wayfinding hint in the game; the Temple is closer to where you are right now than it is to Starville, albeit across a bay.
 
 The Box o' Items probably isn't much of an upgrade for you, but if it is, feel free to run Lord Wood's Castle a bunch of times. You can clear around $4k by picking up the soldier's gem and selling all the equipment, plus another $2k for running the maze. Run the fights in the Ogre meeting hallway and you're likely to pick up a bunch of XP and a bunch more money and items, plus the treasure in the barrels at the end. But money probably isn't a big deal for you right now, and if it is, you can probably go beat up the Minor Deity in Woodville instead.
 
 ### Phantasia
 
-Here comes the worst, most obnoxious tricks that _Phantasie I_ will play on you. Scroll #5, in describing the location of the three magic pools, listed the third as "east of the star by the mythical town of Phantasia". Trouble is, there's no other mention of Phantasia. So how are you supposed to get there? The manual mentions that there are 11 towns in total, so I suppose you could just cast *Transportation* several times and experiment until you find it?
+Here comes the worst, most obnoxious tricks that _Phantasie I_ will play on you. Scroll #5, in describing the location of the three magic pools, listed the third as "east of the star by the mythical town of Phantasia". Trouble is, there's no other mention of Phantasia. So how are you supposed to get there? This isn't such a big deal on the Amiga, because you get a list of town names to pick from. On the Apple, you're stuck with the fact that the manual mentions that there are 11 towns in total, so I guess you're supposed to experiment with *Transportation* several times until you find the lost city?
 
 Trick #2: Phantasia works a bit like Appleton, in that you can *Transport* here but once you leave the town you can't re-enter. Unlike Appleton, though, Phantasia just *disappears*; your only option is to swim through the ocean to get back to the mainland, and you're restricted in which way you can do that. So make sure everyone's *Swim* skill is up near 100 before you try to visit.
 
 Trick #3: The other thing you need to do here is purchase one of the nine Magic Rings from the Armory. There's no actual in-game direction that tells you where this ring is. You just have to desperately search the Armories of every town until you find it. And if you're playing a copy of this game you downloaded off the Internet, there's a reasonable chance that someone bought it already and it's not even there anymore. Hope you didn't delete the character carrying the ring from the roster!
 
-Okay, with all of that being said, cast *Transportation* and dial up town #8. Visit the Armory and buy the Ring. Then Leave and go 2N 7W 3N to the Magic Pool. If you look really closely there's a water square that doesn't look like the others; that's the Pool. Get your stat boost and then get back to dry land and heal your weakest swimmer.
+Okay, with all of that being said, cast *Transportation* and dial up the lost city. Visit the **Armory** (hope you have some money saved up) and buy Ring #9. Then **Leave** and go 2N 7W 3N to the Magic Pool. If you look really closely there's a water square that doesn't look like the others; that's the Pool. Get your stat boost and then get back to dry land and heal your weakest swimmer.
 
 There is impassable Ocean to the N (towards Woodville) and E (towards Hobbiton) and a mountain range to the S. The only way back is the SW corner of the map; owing to a trick of map geography, you can exit this sector but when you arrive on the next sector you're on top of an Ocean square that will prevent you from swimming back the way you came.
 
-Regardless, the Silver Star Inn is just SE of where you are and visible along the coast. J.R. Trolkin's castle is just S of there along the coast, but for now you probably want to head E towards Splitwater. If you're enjoying swimming, I recommend following the river upstream until you find the town – you'll never run into wandering monsters in the water, so apart from making sure no one dies from drowning, it's often faster and safer than walking overland.
+Regardless, the Silver Star Inn is just SE of where you are and visible along the coast. J.R. Trolkin's castle is just S of there along the coast, but for now you probably want to head E towards Splitwater.
+
+> **Tip:** If you're good enough at swimming that you aren't losing too many hit points, I recommend using it for all your overland travel. No wandering monsters or Black Knights will ever find you in the water, so apart from making sure no one dies from drowning, it's often safer than walking overland.
 
 At this point I recommend finding the third magic pool, SW of Trollport which is itself just a short walk from Splitwater along the road. Cross the mountain range to the S and hunt around for the pool, bathe in it, and then head back to Lord Wood's Castle to see the Keeper of the Magic Pools. He grants you the Water Rune, which completes the set (for now).
 
@@ -851,7 +864,7 @@ Return to Olympia, rest up, and *Transport* yourself back to the Material Plane 
 
 ### Temple of the Gods
 
-In order to assault the final dungeon, you're going to have to take on at least four parties of Black Knights, which means a lot of *FireFlash 4* spells. You're going to want to have a number of Magic potions in your inventory to replenish Power. I think Woodville is generally the best place to grind because of the mixture of XP, gold, and equipment from the encounters you'll find there. You may pick up Giant Shields off the street, and once you're comfortable fighting High Demons you can clear the blind alley for God Knives for anyone who can wield one. Plus there's the Minor Deity to knock over if you're feeling brave.
+In order to assault the final dungeon, you're going to have to take on at least four parties of Black Knights, which means a lot of *FireFlash 4* spells. You're going to want to have a number of Magic potions in your inventory to replenish Power; try running the Crypt inside the [Cathedral](#the-cathedral) repeatedly for *Magic 7* potions. Apart from that, I think Woodville is generally the best place to grind because of the mixture of XP, gold, and equipment from the encounters you'll find there. You may pick up Giant Shields off the street, and once you're comfortable fighting High Demons you can clear the blind alley for God Knives for anyone who can wield one. Plus there's the Minor Deity to knock over if you're feeling brave.
 
 Ready? Okay, deep breath.
 

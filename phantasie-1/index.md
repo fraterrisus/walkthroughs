@@ -8,7 +8,7 @@ toc:
 
 # Yet Another Phantasie I Walkthrough
 
-Version 1.0, October 2023
+Version 1.1, March 2024
 
 ## Administrivia
 
@@ -24,7 +24,8 @@ I also used another barebones walkthrough by an author named **Psychosis**; it's
 
 ### Version History
 
-- v1.0, March 2024: completed walkthrough
+- v1.0, October 2023: completed walkthrough
+- v1.1, March 2024: second playthrough, more miscellaneous material
 
 ### Game Introduction
 

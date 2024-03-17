@@ -30,7 +30,7 @@ Sources I used:
 
 - The [Adventurer's Guild](http://brotherhood.de/Bardstale/talefiles/board/viewforum.php?f=17&sid=58b6e031eb22085a6607836af105eac3) forum, especially the Developer's Heaven board; sadly now defunct, which shows you how long ago I started writing this thing.
 
-### Version HIstory
+### Version History
 
 - v0.8, December 2013: completed game and rough walkthtough.
 - v0.9, February 2014: reorganized, added some text.
@@ -78,13 +78,19 @@ Apart from that, I always encourage gamers to learn how to use their emulator's 
 
 *Bard's Tale I* uses first-person perspective for getting around both the city and dungeons. Skara Brae, the city level, is your "top-level" map; all of the services you'll need and entrances to all of the game's dungeons can be found there, and there's no "overworld" map to explore. You're stuck here for the duration, as the manual's framing story will tell you.
 
+Move your party with the arrow keys (PC) or `IJKL` (most other platforms); `K` stands for "Kick Forward" which is how you go through doors. You can pretty much ignore the `I` key.
+
+A few other keys that get easily forgotten: `E` allows you to float up through a portal in the ceiling if you have *C3:LEVE* or *C6:MALE* active, and `D` allows you to descend through a hole in the floor. In Skara Brae, `?` can be used to find out what street you're on and what time of day it is.
+
+`V` will turn the music off, which is especially helpful when you're rolling up characters in the Guild.
+
 There is something of a sense of time; it passes silently, and it manages three important things:
 
 - the duration of any time-based spells you cast
 - the rate at which your spellcasters recover MP, if they're outside
 - how often the game rolls for wandering monsters
 
-Ten-year-old me once got into a lot of trouble playing this game because he walked away from the computer while his party was hanging out in the streets of Skara Brae, and came back to discover that not only had my party been attacked by some wandering monsters but several turns had passed and half my party was dead. Don't be like me; hit the Pause key (`T` on the IBM) or at least go into a building if you're going to walk away from the computer.
+Ten-year-old me once got into a lot of trouble playing this game because he walked away from the computer while his party was hanging out in the streets of Skara Brae, and came back to discover that not only had my party been attacked by some wandering monsters but several turns had passed and half my party was dead. Don't be like me; hit the Pause key (`T` on DOS) or at least go into a building if you're going to walk away from the computer.
 
 `C` cast a spell
 
@@ -312,21 +318,17 @@ character info panel.
 - **Withered** (`OLD`): Character's stats all drop to 1. This isn't deadly, but if your
   stats were high enough to begin with, it will reduce some of your benefits.
   Only curable at a Temple.
-
 - **Insanity** (`NUTS`): You don't get to control this character during combat; they
   pick a target at random amongst all reachable melee targets, including their
   allies. Curable with *M7:REST*.
-
 - **Possessed** (`POSS`): Similar to Insanity, except you also won't be able to run away
   from combat so long as one of your party members has this status. If your character is Possessed outside of combat, it will force a Party Combat until you resolve it.
   "Curable" with *S6:MIWP*, which replaces it with `NUTS`.  Actually curable with
   *W3:DISP*. Note that curing Possession reduces the affected character to 1 HP.
-
 - **Petrified** (`STON`): The most frustrating status that exists, even more so
   than death, because there is nothing you can do about it except go to a Temple.
   Gets really annoying when Basilisks start showing up in force on level 2 of
   Mangar's Tower.
-
 - **Deceased** (`DEAD`): Early on your only choice is a Temple. *W4:ANDE* will replace `DEAD` with `POSS`. *W6:BEDE* restores life and 1 HP.
 
 In addition, some higher-level undead monsters are capable of level-drain,
@@ -411,11 +413,85 @@ Wizard can't be your _first_ class change, so the standard progression would be 
 
 There's really no wrong way to do it; you're going to gain enough levels over the course of the game to hit Archmage without any difficulty at all, and gaining levels at that point doesn't matter that much because you'll have 300+ SP and HP as a result of having gained nearly 50 levels.
 
+### Dungeon Difficulty
+
+*BT1* determines what monsters, traps, and loot to throw at you based on the
+difficulty level of the current map. There are 127 items and 127 monsters, each
+of which is broken up into sixteen groups of eight. Groups are then assigned to
+dungeon levels as shown here:
+
+| Level | Where                            | Traps |  Groups  |
+| :---: | -------------------------------- | :---: | :------: |
+|   1   | Skara Brae daytime, Wine Cellar  | ––PP  |  I – II  |
+|   2   | Skara Brae nighttime, Sewers 1–2 | PPBD  | II – III |
+|   3   | Sewers 3, Catacombs 1            | DGGS  |  II – V  |
+|   4   | Catacombs 2–3, Castle 1          | DGSS  | III – VI |
+|   5   | Castle 2–3                       | SCCM  | V – VIII |
+|   6   | Kylearan's, Mangar's 1           | SCMM  | VII – X  |
+|   7   | Mangar's 2–3                     | SCMM  | IX – XII |
+|   8   | Mangar's 4–5                     | SCMM  | XI – XIV |
+
+That is, on the first level of the Mad God's Catacombs, you'll find both
+monsters and items in groups II, III, IV, and V. Stated the other way:
+
+| Group | Where                                                       |
+| :---: | ----------------------------------------------------------- |
+|   I   | Skara Brae (daytime), Wine Cellar                           |
+|  II   | Skara Bare, Wine Cellar, Sewers 1–3, Catacombs 1            |
+|  III  | Skara Brae (nighttime), Sewers 1–3, Catacombs 1–3, Castle 1 |
+|  IV   | Sewers 3, Catacombs 1–3, Castle 1                           |
+|   V   | Sewers 3, Catacombs 1–3, Castle 1–3                         |
+|  VI   | Catacombs 2–3, Castle 1–3                                   |
+|  VII  | Castle 2–3, Kylearan's, Mangar's 1                          |
+| VIII  | Castle 2–3, Kylearan's, Mangar's 1                          |
+|  IX   | Kylearan's, Mangar's 1–3                                    |
+|   X   | Kylearan's, Mangar's 1–3                                    |
+|  XI   | Mangar's 2–5                                                |
+|  XII  | Mangar's 2–5                                                |
+| XIII  | Mangar's 4–5                                                |
+|  XIV  | Mangar's 4–5                                                |
+
+Items and monsters in groups XV and XVI are never generated randomly; they
+exist only by being summoned, or by being part of a special event. As an
+example, Tarjan's Eye appears only as a special item after defeating Aildreck
+on Catacombs 3.
+
+Traps on chests in dungeons are determined randomly by rolling a number from
+1–4 and then looking at the Traps entry on the difficulty table. If a letter
+appears twice, it is twice as likely as the others to be generated. Note that
+50% of the time, chests in the Wine Cellar have no trap at all.
+
+| Abbr | Trap          | Effect  |
+| ---- | ------------- | ------- |
+| –    | No trap       |         |
+| B    | Blades        | damage  |
+| C    | Crazy Cloud   | +`NUTS` |
+| D    | Darts         | damage  |
+| G    | Gas Cloud     | +`PSND` |
+| M    | Mindtrap      | +`POSS` |
+| P    | Poison Needle | +`PSND` |
+| S    | Shocker       | damage  |
+
 ### Weird Stuff
 
 On the IBM version, you can hit `Z` at any time to add an Earth Elemental to your party in the summon slot. For free. I presume this was a debugging feature that they forgot to take out? It doesn't work on most other platforms, but it certainly makes the opening phase of the game easier!
 
 On the Apple IIgs, at the [Temple of the Mad God](#temple-of-the-mad-god), say `BURGER` instead of `TARJAN` and you'll get jumped by 99 Ancient Enemies, 99 Gimps, 99 Jabberwocks, and 99 Maze Masters. They all hit before you do and several of them have breath weapons; you won't survive.
+
+## Equipment
+
+*Bard's Tale* uses a fairly standard inventory system, where every party member has eight slots in their inventory and those slots can be filled with anything you like. Items have to be equipped before they have any effect in combat, and every item fits into a particular slot: **Weapon**, **Shield**, **Helm**, **Body armor**, **Gloves**, **Boots**, **Ring** (only one), **Instrument** (Bards only), and **Miscellaneous Item**. You can only have one item equipped in each slot, but you can still `Use` unequipped items during combat. As the manual says, there are no cursed or "bad" items.
+
+All Weapons are assumed to require one hand, so you can always equip a Shield regardless of what Weapon you're using. Wands count as Weapons.
+
+[See external page](equipment.html)
+
+## Magic and Spells
+
+In order to save typing (and also storage space in the game's data files), *Bard's Tale* refers to all spells by a four-letter abbreviation. You've probably already noticed them all over this document; I prefix the spell with the caster class and level, so you'll see things like *C7:APAR* (Apport Arcane, a 7th level Conjurer spell). That should make it slightly easier for you to remember which caster has which spells, at least until you start changing caster classes all over the place and can't remember which mage is a Conjurer/Sorcerer and which is a Magician/Sorcerer. Not that that's ever happened to me. Nope nope nope.
+
+[See external page](magic.html)
+
 
 ## Walkthrough
 

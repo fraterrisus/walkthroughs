@@ -1,9 +1,11 @@
-.float-right {
-  float: right;
-  margin-left: 1em;
+$float-margin: 20px;
+
+div.float-left {
+  float: left;
+  margin-right: $float-margin;
 }
 
-.float-left {
-  float: left;
-  margin-right: 1em;
+div.float-right {
+  float: right;
+  margin-left: $float-margin;
 }

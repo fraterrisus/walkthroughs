@@ -25,9 +25,8 @@ maps but largely made my own to go along with this walkthrough.
 Sources I used:
 
 - The [Bard's Tale Compendium](http://bardstale.poverellomedia.com/thebardstale.html) pages for BT1.
-
+- The [Bard's Tale Online](https://www.bardstaleonline.com/)
 - The [RPG Classics](http://shrines.rpgclassics.com/pc/bardstale1/) BT1 shrine.
-
 - The [Adventurer's Guild](http://brotherhood.de/Bardstale/talefiles/board/viewforum.php?f=17&sid=58b6e031eb22085a6607836af105eac3) forum, especially the Developer's Heaven board; sadly now defunct, which shows you how long ago I started writing this thing.
 
 ### Version History
@@ -260,18 +259,13 @@ Casters, perhaps obviously, are terrible melee fighters, have awful Hit Dice, an
 
 **Wizard (Wi):** Available after you've reached Spell Level 3 in at least *two* other caster classes. A very small library of spells, but each is extremely powerful, especially when it comes to summoning and repelling demons. The only class that is capable of reviving the dead. Wizards have access to more armor and weapons than any other caster (including the Spectre Snare), which can be handy later on. You probably want one.
 
-#### Advice for Building a Party
+### Advice for Building a Party
 
 The first part of the game is the hardest to survive. The absolutely most critical thing you need, at least for your front three, is a low AC, because that determines how often you hit and how often you get hit. You also want as much HP as possible. And it's helpful to have at least one character with high Luck who can sit in Slot 1 so you can run away from combat; you'll be doing that a lot early on.
 
 Stepping back, there are lots of ways to create a balanced party that is capable of winning the game, as evidenced by my slightly sarcastic suggestions that "you probably want" one of every class. No individual class is absolutely essential to winning, although you'll have to work around a few things if you don't have a Bard, and if you don't have two Archmages by the end of the game you're going to have some trouble in Mangar's Tower.
 
-The two basic strategies for creating a party are:
-
-- **One True Party:** Build the characters you want to play the entire game with and suffer through the extreme difficulty of the first few levels.
-- **The Expendables:** Build a party whose only purpose is to get through the first couple of levels. Once they're strong enough to survive, create the characters you actually want and hide them in the back line so they don't die while your stronger characters continue to kill things and rack up XP. Eventually, discard the first set and replace them with the "real" party members.
-
-Again, there is no one right mix of characters. Three fighters for the front row and three mages for the back works great. Some people prefer to play with a Bard so they can use Bard Songs and the various Horns, but do you put them in the front where they aren't great at melee, or in the back instead of a third caster? Even among the fighter classes there's no obvious best combination.
+There is no "one true way" to roll a party. Three fighters for the front row and three mages for the back works great. Some people prefer to play with a Bard so they can use Bard Songs and the various Horns, but do you put them in the front where they aren't great at melee, or in the back instead of a third caster? Even among the fighter classes there's no obvious best combination.
 
 Pretty much everyone agrees that you don't need a Rogue, though.
 
@@ -298,11 +292,17 @@ My advice: get used to rebooting your emulator a lot. And keep backups.
 
 ### Managing Spell Points
 
-Spell Points aren't *quite* as precious as Hit Points, but they're also somewhat easier to regenerate. Simply being exposed to sunlight will naturally generate SP over time; in principle this means walking around outdoors in Skara Brae during the daytime, but there are also a small number of special effect squares in dungeons that provide sunlight-like regeneration. The Spell Staff also grants MP regeneration like the Troll Staff does for HP.
+Spell Points aren't *quite* as precious as Hit Points, but they're also somewhat easier to regenerate. Simply being exposed to sunlight will naturally generate SP over time; in principle this means walking around Skara Brae during the daytime, but there are also a small number of special effect squares in dungeons that provide sunlight-like regeneration. The Spell Staff also grants MP regeneration like the Troll Staff does for HP.
 
-The trouble, of course, with walking around Skara Brae in the daytime is that wandering monsters will occasionally attack you, which is probably why you were trying to regenerate MP in the first place. There is one hack that works in your favor: standing inside the Adventurers' Guild appears to count as being "outside" for the purposes of regenerating MP. It's slow, but it's free and safe, and in the early going you won't have enough money to do anything else. I recommending looking for your emulator's "turbo" button to make the time pass a bit faster.
+The trouble, of course, with walking around Skara Brae in the daytime is that wandering monsters will occasionally attack you, which is probably why you were trying to regenerate MP in the first place.
 
-If you happen to find a Spell Staff, there's another trick you can use. The holder regenerates 1 MP per combat round, so start up a Party Combat and have everyone Defend. No one can attack you while you're in combat and you'll regenerate SP faster than anything besides paying Roscoe.
+On the Apple (but *not* on the PC), there is a hack that works in your favor: being inside a building still counts, so long as it's daytime outside. This means you can stand in the Adventurers' Guild, shop the inventory at Garth's, chat with the Review Board, hang out at a Temple or Roscoe's, or simply wait around at the "Press any key" screen after exploring a building. 
+
+On the PC, you're going to be stuck with standing around outside where you're likely to get jumped by random encounters. There's not much to be done about this, unfortunately.
+
+It's slow to restore SP the natural way but it's free, and in the early going you won't have enough money to do anything else. I recommending looking for your emulator's "turbo" button to make the time pass a bit faster.
+
+If you happen to find a Spell Staff, there's another trick you can use: the holder regenerates 1 MP per combat round, so start up a Party Combat and have everyone Defend. No one can attack you while you're in combat and you'll regenerate SP faster than anything besides paying Roscoe.
 
 ### Statuses
 
@@ -495,9 +495,166 @@ In order to save typing (and also storage space in the game's data files), *Bard
 
 ## Walkthrough
 
+You've read all of my warnings and preparatory information. You've got your
+party of adventurers rolled up and ready to go kick in some doors. On to the
+actual guide.
+
+One more quick note before we start: As I describe the dungeon levels, I've
+included a "Fast Way." This is, to my reckoning, the fastest way to "get
+through" a floor. What that means varies a bit; sometimes it's simply getting
+from the entry stairs to the exit stairs, sometimes it involves stopping to
+pick up an item (i.e. Mangar's Tower Level Two), sometimes it's quite convoluted
+(i.e. Kylearan's Tower). It's sometimes possible to find a faster route,
+especially if you're willing to spend spell points on *M6:PHDO*. And of course
+about half the time you can skip levels entirely with *C7:APAR*. Your mileage may
+vary, natch.
+
+I use some shorthand notation in the Fast Way routes. (x) means a fixed combat,
+similar to the notation on my maps. I also call out special zones like
+Darkness, Smoke In Your Eyes, Coals, Anti-Magic Zones, and teleporters. If you
+need to cast spells (to avoid traps, for example), I mention them as well. Make
+sure you're standing in the right place and facing the right way when you do!
+
 ### Surviving Skara Brae
 
+Okay, here's the bad news. As first level characters, your access to healing is
+100% based on gold pieces. You won't get your first healing spell until your
+Conjurers hit 3rd level (at 6,000 XP) and get second level spells (which costs $1,000 per caster), and even then
+you won't have nearly enough SP for all the healing you'd like to do. So you're
+stuck dropping $10 per hit point at the temples just to survive... and half the
+monsters you fight won't drop $10 per point of damage they do to you. It's a
+bit like playing the stock market: if you stay in the game long enough, you're
+likely to do better than break even, but it only takes one mistake to put you
+so far in a hole that you're selling gear for temple donations. So here's my
+guide to surviving the first few hours of the game.
+
+The difference between dying a lot and slowly gathering more gold than you're spending is to get the AC of your front-line fighters as low
+as possible as quickly as possible. $900 gold (roughly what you get for six
+freshly-generated characters) won't go too far:
+
+| Item        | AC   | Price |
+| ----------- | ---- | ----- |
+| Chain Armor | +3   | $150  |
+| Buckler     | +1   | $40   |
+| Helm        | +1   | $50   |
+| Gauntlets   | +1   | $40   |
+
+Throw in a Staff ($20, 1–8 damage) for a weapon and that's an even $300 per person to get down to AC 4. Scale Armor and a Tower Shield are another $210 on top, and even though I found a pretty big gap between AC 4 and AC 2 in terms of early-game survivability, where are you going to come up with that kind of cash? Well, before you leave the Adventurers' Guild, consider a small cheat: create a few additional throwaway characters, steal their cash, and buy yourself another couple of points of AC. No one will miss Mr. A through Mr. F when you delete them, and you'll have a slightly more comfortable start to the game.
+
+Okay, now you're ready to leave the guild hall. First order of business is to learn your way around. Check out the [map of Skara Brae](00-skara-brae.png) and find the nearby points of interest:
+
+* [3N 1E, Main St.] **Garth's** Equipment Shoppe
+* [7N 3W 2S 1E, Trumpet St.] the **Review Board**
+* [4S 2E 2S 1W, Rakhir St.] **Thief Temple**, the nearest temple
+* [4S 2E 6S 1E, Rakhir St.] **Scarlet Bard**, the nearest tavern
+
+Garth's and the Review Board are only open during the day. Temples and taverns are
+open all night. *But*! Don't go near the Scarlet Bard yet because there's a
+Samurai Statue in the way. The Samurai is worth around 170 XP per character but does up to 20 damage and tends not to drop very much gold — it's a risk I don't recommend taking until you're already level 2 and have gathered enough gold to buy your next spell level. (If you need a tavern because you have a Bard in your party, there's another one 1S of the Review Board.)
+
+Your first stop needs to be Garth's to buy the package listed above; again, consider the Tower Shield and/or Scale Armor if you have enough cash for the upgrades. Don't buy anything more powerful than a Staff ($20, 1–8) because the only thing Garth sells you that's significantly better is the Halberd ($200, 1–16). The War Axe ($70, 2–8) and Broadsword ($80, 2–8) aren't actually improvements. And all of this might turn up in post-combat loot, anyway.
+
+My early-game strategy for surviving looks like this: Walk from the Guild to the Thief Temple and
+hang out there *during the day*. If you've spent some Spell Points, hang out in the sunshine while they [regenerate](#managing-spell-points). Otherwise you can scout through the nearby
+houses to try to trigger fights. Fight a battle. If you win and you have enough cash, go to the temple
+and heal yourself. Then immediately go back to the Guild and save all your characters. (Note
+that this helpfully resets the day clock to Early Morning, too.) Sell loot at
+Garth's as necessary and repeat.
+
+Unfortunately, there's still a fair bit of luck involved here. At first level your characters can't really take more than two or three hits before dying,
+even at max HP. To be safe, run from
+anything with more than two or three enemies, always run from Barbarians (ow),
+and consider running from anything else in Group II (see [Bestiary](#bestiary)). Of course, running won't always work. When a character dies, you can either quit and reload,
+or (if it's early enough in the character's career) save their equipment and
+make a replacement character. If your emulator has a save-state function, use it early and often.
+
+Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; they're not good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups. 
+
+If you draw more Gnomes and Kobolds and fewer Barbarians and Nomads, you have a chance at keeping your party alive for a while. If you cheated for more money and more AC, your chances go up a bit. Regardless, this part of the game is literally a grind; if this isn't your first rodeo, it'll probably take you a couple of hours to hit level 2. You'll probably die and reload a
+bunch. But you *will* get there, I promise.
+
+To be fair, level 2 doesn't actually do all that much for you in terms of ability, but the extra HP and SP are very, very welcome and will significantly increase your chances of survival. My party members tend not to die if they make it that far, although I do play pretty conservatively.
+
+A wonderful thing happens when you hit character level 3: your casters get spell
+level 2 — which, by the way, costs $1,000 per mage, so I hope you've been saving up. But it comes with *C2:WOHL*,
+your first healing spell. This changes everything! Now instead of spending money on
+healing you can cast spells to recover HP. Unfortunately, *C2:WOHL* is extremely
+slow (2–8 HP per cast) which means you're pretty much going to drain all your
+SP after every battle. And unless you're on the Apple and can [cheat for SP recovery](#managing-spell-points), you're probably still going to be paying for healing for a while.
+
+Once you get into a comfortable rhythm, feel free to explore the city. You should grind some more until you can get to
+5th level. If you want to wait around for a long time, you can probably handle some combats at night; the combats get harder (watch out for Group
+III spell casters) and show up more frequently, but the rewards are also greater. You can also chance the Samurai Statue on Rakhir
+Street if you want, but if you go down into the Wine Cellar you're likely to have
+your ass handed to you on a platter.
+
 ### The Wine Cellar and The Sewers
+
+Character level 5 comes with spell level 3. At this point, as all long-time
+players of *Dungeons & Dragons* will tell you, your mages are capable of
+casting group-zap spells for the first time. *M3:STFL* does more damage than
+*C3:WAST* and your Conjurers should probably still be spending most of their SP on
+*C2:WOHL*, but the ability to bust out spell damage against groups of 8
+Barbarians is pretty priceless at this point. Also don't overlook *M3:MYSH*,
+which grants a nearly-permanent +2 AC to everyone in the party.
+
+You're probably handling everything in the city level pretty easily at this
+point. The monsters in the Wine Cellar are the same as the ones in Skara Brae
+during the day, but they come in larger (and multiple) groups. If you haven't
+already bought (or found) the best available equipment for your characters, now's the time to
+do so. Your next step is to head down to the Scarlet Bard Wine Cellar. To get
+there, `(O)rder` some `(W)ine` from the barkeep. He'll send you down into the
+cellar to get some — frankly, if I was him, I wouldn't go down here either.
+This place is a mess.
+
+#### Wine Cellar
+
+*The Fast Way*: 1N 4E 16N 2E 2S 1E (x) 2N
+
+The Wine cellar has four quadrants, and a lot of 'empty' space behind walls.
+You might be tempted to come back here with Phase Door (*M6:PHDO*) and go hunting
+through the walls, but don't bother; there's nothing to find there.
+
+If you haven't read the section on [Dungeon Difficulty](#dungeon-difficulty), I encourage you to do that now. Back?
+Great. Note that there's only one kind of trap on this level. That makes
+`(D)isarming` chests really easy; just guess `POISON NEEDLE` and you'll be right
+every time! Who needs a Rogue? (Even if the chest doesn't have a trap, the game
+will tell you that you disarmed it.)
+
+It's also probably good to know that some, but not all, of the dungeon levels
+wrap around. When you use *M1:SCSI* to figure out where you are, it gives you
+coordinates that are listed as an offset from the stairs on Level One that take
+you back to town, *not* the stairs that take you back to the previous level. All
+of my maps (and pretty much any other map you find) will use this as a basis,
+so the map layouts don't always make sense when you look at them (I'm looking
+at you, Kylearan). But the nice thing is that *M1:SCSI* feeds directly into
+*C6:APAR*.
+
+Okay, back to the dungeon itself. Finding the stairs down to the Sewers is easy
+enough, but you're mostly here to grind for a while. I recommend patrolling the
+SW quadrant; there are two fixed encounters behind doors just N of
+the entry stairs, and you'll probably want to just smash-and-grab for a while.
+Run in, kill some beasts, take some damage, run back to town. Get a feel for
+when you need to bail out – don't forget to include the chance of running into
+some random encounters between wherever you are and the exit. As you advance a
+few (character) levels, you'll be able to delve further and further into this
+floor.
+
+Explore the SW and NW quadrants to your heart's content. Don't bother going
+into the E half of the map; there's two rooms there with "Fine Wines" and "Rare
+Wines", each of which contains a few more monsters and some traps. If you need
+to kill more monsters, go up into the tavern and come back down. The whole
+board resets when you do that.
+
+When you think you're ready, you can progress down to the Sewers. The stairs
+are at (7,18). You get groups of nighttime monsters (Groups II-III) down there,
+though...
+
+#### Sewers, Level 1
+
+#### Sewers, Level 2
+
+#### Sewers, Level 3
 
 ### Temple of the Mad God
 
@@ -534,6 +691,132 @@ take on Mangar, you've probably already done enough times that you don't
 need me to tell you how to do it.
 
 So, no speed run for you.
+
+### Hex Editing
+
+Hex editing your characters is trivially easy on the PC: every character in the Guild's roster is saved in an individual file with a `.TPX` extension. There are lots of DOS utilities out there that will hack your character files for you; don't bother doing it yourself.
+
+Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-endian, meaning the smallest byte comes first. So if you read two bytes `ab 02`, that's 683 (0x02ab), not 43778 (0xab02).
+
+<table class="small">
+  <tr>
+    <td></td>
+    <th>00</th>
+    <th>01</th>
+    <th>02</th>
+    <th>03</th>
+    <th>04</th>
+    <th>05</th>
+    <th>06</th>
+    <th>07</th>
+    <th>08</th>
+    <th>09</th>
+    <th>0a</th>
+    <th>0b</th>
+    <th>0c</th>
+    <th>0d</th>
+    <th>0e</th>
+    <th>0f</th>
+  </tr><tr>
+    <td class="c"><b>00</b></td>
+    <td class="c" colspan="14">Character name, null-terminated</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+  </tr><tr>
+    <td class="c"><b>10</b></td>
+    <td class="c">P/C</td>
+    <td class="c">Stat</td>
+    <td class="c">00</td>
+    <td class="c" colspan="2">Race</td>
+    <td class="c" colspan="2">Class</td>
+    <td class="c" colspan="2">ST</td>
+    <td class="c" colspan="2">IQ</td>
+    <td class="c" colspan="2">DX</td>
+    <td class="c" colspan="2">CN</td>
+    <td class="c">LK</td>
+  </tr><tr>
+    <td class="c"><b>20</b></td>
+    <td class="c">LK</td>
+    <td class="c" colspan="2">ST'</td>
+    <td class="c" colspan="2">IQ'</td>
+    <td class="c" colspan="2">DX'</td>
+    <td class="c" colspan="2">CN'</td>
+    <td class="c" colspan="2">LK'</td>
+    <td class="c" colspan="2">AC</td>
+    <td class="c" colspan="2">HP</td>
+    <td class="c">HP'</td>
+  </tr><tr>
+    <td class="c"><b>30</b></td>
+    <td class="c">HP'</td>
+    <td class="c" colspan="2">SP</td>
+    <td class="c" colspan="2">SP'</td>
+    <td class="c" colspan="2">Inv #1</td>
+    <td class="c" colspan="2">Inv #2</td>
+    <td class="c" colspan="2">Inv #3</td>
+    <td class="c" colspan="2">Inv #4</td>
+    <td class="c" colspan="2">Inv #5</td>
+    <td class="c">Inv</td>
+  </tr><tr>
+    <td class="c"><b>40</b></td>
+    <td class="c">#6</td>
+    <td class="c" colspan="2">Inv #7</td>
+    <td class="c" colspan="2">Inv #8</td>
+    <td class="c" colspan="4">XP</td>
+    <td class="c" colspan="4">Gold</td>
+    <td class="c" colspan="2">Level</td>
+    <td class="c">Lv'</td>
+  </tr><tr>
+    <td class="c"><b>50</b></td>
+    <td class="c">Lv'</td>
+    <td class="c">00</td>
+    <td class="c" colspan="4">Spell Levels</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c">??</td><!-- hunter: 0x62=98 -->
+    <td class="c">00</td>
+    <td class="c">BS</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+  </tr><tr>
+    <td class="c"><b>60</b></td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c" colspan="2">Att</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c">??</td><!-- hunter: 0xa4=164, mages 0xbf=191 -->
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c">00</td>
+    <td class="c" colspan="3"></td>
+  </tr>
+</table>
+
+**P/C** (`0x10`) is `01` if this is a **Character** file and `02` if this is a **Party** file.
+
+**Status** (`0x11`) is a bitmask; `00` is healthy with no [statuses](#statuses). Change the hex to binary and read the bits from left to right: `NUTS`, `POSS`, `PARA`, `STON`, `POIS`, `OLD`, `DEAD`. As an example, `40` in hex is `0100 0000` in binary, so +`POSS`. The rightmost bit isn't used, and `PARA` wasn't actually implemented.
+
+**Race** (`0x13-14`) is `00` Human, `01` Elf, `02` Dwarf, `03` Hobbit, `04` Half-Elf, `05` Half-Orc, `06` Gnome
+
+**Class** (`0x15-16`) is `00` Warrior, `01` Paladin, `02` Rogue, `03` Bard, `04` Hunter, `05` Monk, `06` Conjurer, `07` Magician, `08` Sorcerer, `09` Wizard
+
+Stats that appear twice (including HP and SP) are presented with their maximum value first, then the current value. Attributes and your Level are stored this way to manage magic effects (+`OLD`) or level-drain.
+
+**Armor Class** (`0x2b-2c`) is a *signed* number, so `fe ff` = 0xfffe = -2.
+
+**Inventory** slots (`0x35-44`) are in two bytes; the first is the item ID, the second is `0x80` if the item is equipped (and I bet the rest of the byte is charges)
+
+**Spell Levels** (`0x52-55`) are one byte per class, Conjurer, Magician, Sorcerer, Wizard.
+
+Number of **Bard Songs** (`0x5d`) remaining.
+
+**Attacks per round** (`0x65-66`) is offset one, so `00 00` indicates one attack per round.
 
 ### Transferring to Bard's Tale II
 

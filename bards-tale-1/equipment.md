@@ -398,6 +398,54 @@ The **Group** column indicates the dungeon levels on which the item can be rando
   </tr>
 </table>
 
+## Wands
+
+<table>
+  <tr>
+    <th>$</th>
+    <th>Grp</th>
+    <th>Name</th>
+    <th>Usable By</th>
+    <th>AC</th>
+    <th>Casts</th>
+  </tr><tr>
+    <td class="r">1000</td>
+    <td class="c">VIII</td>
+    <td>Exorwand</td>
+    <td class="c">casters</td>
+    <td class="c"></td>
+    <td><i>W3:DISP</i></td>
+  </tr><tr>
+    <td class="r">1000</td>
+    <td class="c">IV</td>
+    <td>Lightwand</td>
+    <td class="c">casters</td>
+    <td class="c"></td>
+    <td><i>C1:MAFL</i></td>
+  </tr><tr>
+    <td class="r">14000</td>
+    <td class="c">XII</td>
+    <td>Dragonwand</td>
+    <td class="c">casters</td>
+    <td class="c">+1</td>
+    <td><i>M4:DRBR</i></td>
+  </tr><tr>
+    <td class="r">30000</td>
+    <td class="c">XIV</td>
+    <td>Ogrewand</td>
+    <td class="c">casters</td>
+    <td class="c">+1</td>
+    <td><i>C6:INOG</i></td>
+  </tr><tr>
+    <td class="r">120000</td>
+    <td class="c">—</td>
+    <td>Wizwand</td>
+    <td class="c">Wizard</td>
+    <td class="c">+2</td>
+    <td><i>W4:PRSU</i></td>
+  </tr>
+</table>
+
 ## Body Armor
 
 <table>
@@ -425,14 +473,14 @@ The **Group** column indicates the dungeon levels on which the item can be rando
   </tr><tr>
     <td class="r">150</td>
     <td class="c">II</td>
-    <td>Chain Mail</td>
+    <td>Chain Armor</td>
     <td class="c">Wa,Pa,Hu,Ba</td>
     <td class="c">+3</td>
     <td></td>
   </tr><tr>
     <td class="r">300</td>
     <td class="c">II</td>
-    <td>Scale Mail</td>
+    <td>Scale Armor</td>
     <td class="c">Wa,Pa,Hu,Ba</td>
     <td class="c">+4</td>
     <td></td>
@@ -508,6 +556,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
     <td></td>
   </tr>
 </table>
+
 
 ## Gloves
 
@@ -651,7 +700,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
     <td class="c">+2</td>
     <td></td>
   </tr><tr>
-    <td colspan="4"><i>+2 to Saving Throws</i></td>
+    <td colspan="3"><i>+2 to Saving Throws</i></td>
   </tr><tr>
     <td class="r">400</td>
     <td class="c">IV</td>
@@ -750,6 +799,300 @@ The **Group** column indicates the dungeon levels on which the item can be rando
     <td class="c"></td>
     <td></td>
   </tr><tr>
-    <td colspan="4"><i>grants HP regeneration</i></td>
+    <td colspan="3"><i>grants HP regeneration</i></td>
   </tr>
 </table>
+
+## Figurines
+
+Figurines can only be used during combat; when used, they summon a creature to fill your NPC slot.
+
+<table>
+  <tr>
+    <th>$</th>
+    <th>Grp</th>
+    <th>Name</th>
+    <th>Usable By</th>
+    <th>AC</th>
+    <th>Casts</th>
+  </tr><tr>
+    <td class="r">300</td>
+    <td class="c">V</td>
+    <td>Ogre Fgn</td>
+    <td class="c">any</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td class="r">300</td>
+    <td class="c">XI</td>
+    <td>Golem Fgn</td>
+    <td class="c">any</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td class="r">400</td>
+    <td class="c">VIII</td>
+    <td>Giant Fgn</td>
+    <td class="c">any</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td class="r">600</td>
+    <td class="c">XI</td>
+    <td>Titan Fgn</td>
+    <td class="c">any</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td class="r">800</td>
+    <td class="c">XIV</td>
+    <td>Dragon Fgn</td>
+    <td class="c">any</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td class="r">1000</td>
+    <td class="c">XIV</td>
+    <td>Mage Fgn</td>
+    <td class="c">any</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td class="r">1000</td>
+    <td class="c">—</td>
+    <td>Mongo Fgn</td>
+    <td class="c">any</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td class="r">1200</td>
+    <td class="c">—</td>
+    <td>Lich Fgn</td>
+    <td class="c">any</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td class="r">1500</td>
+    <td class="c">—</td>
+    <td>Old Man Fgn</td>
+    <td class="c">any</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td class="r">2000</td>
+    <td class="c">—</td>
+    <td>Thor Fgn</td>
+    <td class="c">any</td>
+    <td class="c"></td>
+    <td></td>
+  </tr>
+</table>
+
+## Instruments
+
+A Bard must have an Instrument in order to play Bard Songs; the magical Horns don't count.
+
+<table>
+  <tr>
+    <th>$</th>
+    <th>Grp</th>
+    <th>Name</th>
+    <th>Usable By</th>
+    <th>AC</th>
+    <th>Casts</th>
+  </tr><tr class="thick">
+    <td class="r">130</td>
+    <td class="c">III</td>
+    <td>Mandolin, Harp, Flute</td>
+    <td class="c">Bard</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td rowspan="2" class="r">1000</td>
+    <td rowspan="2" class="c">V</td>
+    <td rowspan="2">Lak's Lyre</td>
+    <td class="c">Bard</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td colspan="3"><i>grants unlimited Bard songs</i></td>
+  </tr><tr>
+    <td class="r">1300</td>
+    <td class="c">VI</td>
+    <td>Fin's Flute</td>
+    <td class="c">Bard</td>
+    <td class="c">+2</td>
+    <td></td>
+  </tr><tr>
+    <td class="r">7000</td>
+    <td class="c">X</td>
+    <td>Heal Harp</td>
+    <td class="c">Bard</td>
+    <td class="c"></td>
+    <td><i>C2:WOHL</i></td>
+  </tr><tr>
+    <td class="r">10000</td>
+    <td class="c">X</td>
+    <td>Galt's Flute</td>
+    <td class="c">Bard</td>
+    <td class="c"></td>
+    <td><i>C4:INWO</i></td>
+  </tr><tr>
+    <td class="r">20000</td>
+    <td class="c">XII</td>
+    <td>Truthdrum</td>
+    <td class="c">Bard</td>
+    <td class="c"></td>
+    <td><i>S5:DIIL</i></td>
+  </tr><tr>
+    <td class="r">30000</td>
+    <td class="c">XII</td>
+    <td>Spiritdrum</td>
+    <td class="c">Bard</td>
+    <td class="c"></td>
+    <td><i>W2:LESU</i></td>
+  </tr><tr class="thick">
+    <td class="r">30000</td>
+    <td class="c">XII</td>
+    <td>Pipes of Pan</td>
+    <td class="c">Bard</td>
+    <td class="c"></td>
+    <td><i>C5:GRRE</i></td>
+  </tr><tr>
+    <td rowspan="2" class="r">1200</td>
+    <td rowspan="2" class="c">IV</td>
+    <td rowspan="2">Fire Horn</td>
+    <td class="c">Bard</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td colspan="3"><i>group zap, 33–46 HP</i></td>
+  </tr><tr>
+    <td rowspan="2" class="r">12000</td>
+    <td rowspan="2" class="c">X</td>
+    <td rowspan="2">Frost Horn</td>
+    <td class="c">Bard</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td colspan="3"><i>group zap, 52–59 HP</i></td>
+  </tr><tr>
+    <td rowspan="2" class="r">20000</td>
+    <td rowspan="2" class="c">XII</td>
+    <td rowspan="2">Flame Horn</td>
+    <td class="c">Bard</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td colspan="3"><i>group zap, 86–101 HP</i></td>
+  </tr>
+</table>
+
+## Miscellaneous Items
+
+The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consumed as soon as you light them; you may need to equip them first. The Lamp lasts longer than the Torch.
+
+<table>
+  <tr>
+    <th>$</th>
+    <th>Grp</th>
+    <th>Name</th>
+    <th>Usable By</th>
+    <th>AC</th>
+    <th>Casts</th>
+  </tr><tr>
+    <td class="r">5</td>
+    <td class="c">I</td>
+    <td>Torch</td>
+    <td class="c">all</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr class="thick">
+    <td class="r">15</td>
+    <td class="c">I</td>
+    <td>Lamp</td>
+    <td class="c">all</td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td class="r">500</td>
+    <td class="c">VI</td>
+    <td>Elf Cloak</td>
+    <td class="c">Wa,Pa,Ba,Ro,Wi</td>
+    <td class="c">+2</td>
+    <td></td>
+  </tr><tr>
+    <td class="r">800</td>
+    <td class="c">VIII</td>
+    <td>Ali's Carpet</td>
+    <td class="c">Mo,Ro,casters</td>
+    <td class="c">+2</td>
+    <td><i>C6:MALE</i></td>
+  </tr><tr>
+    <td class="r">1000</td>
+    <td class="c">—</td>
+    <td>Silver shapes</td>
+    <td class="c">all</td>
+    <td class="c">+1</td>
+    <td></td>
+  </tr><tr>
+    <td rowspan="2" class="r">2000</td>
+    <td rowspan="2" class="c">XII</td>
+    <td rowspan="2" >Speedboots</td>
+    <td class="c">Mo,Ba,Ro,casters</td>
+    <td class="c">+1</td>
+    <td></td>
+  </tr><tr>
+    <td colspan="3"><i>improves chance to flee combat</i></td>
+  </tr><tr>
+    <td class="r">6000</td>
+    <td class="c">XIV</td>
+    <td>Kiel's Compass</td>
+    <td class="c">not Paladin</td>
+    <td class="c"></td>
+    <td><i>M1:SCSI</i></td>
+  </tr><tr>
+    <td class="r">10000</td>
+    <td class="c">XIV</td>
+    <td>Arc's Eye</td>
+    <td class="c">casters</td>
+    <td class="c"></td>
+    <td><i>S7:SOSI</i></td>
+  </tr><tr>
+    <td class="r">10000</td>
+    <td class="c">XIV</td>
+    <td>Dag Stone</td>
+    <td class="c">Paladin</td>
+    <td class="c"></td>
+    <td><i>S5:GRRE</i></td>
+  </tr><tr>
+    <td rowspan="2" class="b r">50000</td>
+    <td rowspan="2" class="b c">—</td>
+    <td rowspan="2" class="b">Eye</td>
+    <td class="c"></td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td colspan="3" class="b"><i>brings the Mad God back to life</i></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="r">1200</td>
+    <td rowspan="2" class="c">—</td>
+    <td rowspan="2">Master Key</td>
+    <td class="c"></td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td colspan="3"><i>opens all gates in Skara Brae</i></td>
+  </tr><tr>
+    <td rowspan="2" class="r">100000</td>
+    <td rowspan="2" class="c">—</td>
+    <td rowspan="2">Onyx Key</td>
+    <td class="c"></td>
+    <td class="c"></td>
+    <td></td>
+  </tr><tr>
+    <td colspan="3"><i>allows entry to Mangar's Tower</i></td>
+  </tr>
+</table>
+

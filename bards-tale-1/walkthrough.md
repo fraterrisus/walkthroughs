@@ -113,7 +113,7 @@ As is usually the case, primary attributes affect important secondary statistics
 
 **Strength (ST)** affects melee damage (17:+1, 18:+2). Important early on; less important later.
 
-**Constitution (CN)** affects the number of HP gained per level (15:+1, 16:+2, 17:+3, 18:+4). Unfortunately, it has no effect at first level.
+**Constitution (CN)** affects the number of HP gained per level (15:+1, 16:+2, 17:+3, 18:+4). Unfortunately, it has no effect at 1st level.
 
 **Intelligence (IQ)** affects the number of SP gained per level, on the same scale as Constitution. Since casters only gain a base 1–4 SP per level, the bonus makes a huge difference early on. Over the course of the game, though, mages earn a lot more levels than you might usually expect, so the impact of IQ on SP won't be nearly as noticeable.
 
@@ -129,11 +129,11 @@ AC starts at 10 and is modified *downwards* (lower numbers are better) by having
 
 **Hit Points (HP):** The classic measure of how healthy you are, or alternately, how far away you are from dying. Depending on which version of the game you're playing you may see a column for "Hits" (maximum) and "Cond" (current value). If HP drops to 0 or below, your character dies immediately; see [Statuses](#statuses) for more on what to do if that happens.
 
-At first level, every character starts with 14–29 HP. When you [level up](#experience-and-leveling-up) you gain HP by rolling your class's "Hit Die" (see the [class table](#races)) and adding your CN bonus. Healing is hard to come by in the early game; see [Health and Dying](#health-and-dying).
+At 1st level, every character starts with 14–29 HP. When you [level up](#experience-and-leveling-up) you gain HP by rolling your class's "Hit Die" (see the [class table](#races)) and adding your CN bonus. Healing is hard to come by in the early game; see [Health and Dying](#health-and-dying).
 
 **Spell Points (SP):** Sometimes called "mana" or "power" in other games. Every spell you cast consumes a certain number of SP; if you don't have enough SP to pay the cost, you can't cast the spell.
 
-At first level, casters start with 9–24 MP, but unfortunately you don't get to see that value until you've confirmed character creation and added them to your party. So it's possible to roll up a mage with an 18 IQ but only 9 SP. When you [level up](#experience-and-leveling-up) you gain 1–4 MP plus your IQ bonus. SP is a little bit easier to regenerate than HP; see [Managing Spell Points](#managing-spell-points).
+At 1st level, casters start with 9–24 MP, but unfortunately you don't get to see that value until you've confirmed character creation and added them to your party. So it's possible to roll up a mage with an 18 IQ but only 9 SP. When you [level up](#experience-and-leveling-up) you gain 1–4 MP plus your IQ bonus. SP is a little bit easier to regenerate than HP; see [Managing Spell Points](#managing-spell-points).
 
 There are a few other "hidden" secondary statistics that don't show up on your character's info screen; we'll talk more about them later.
 
@@ -237,7 +237,7 @@ At level 6 and above, a monk does more damage unarmed (see chart) than they coul
 
 **Hunter (Hu):** Practitioner of the more subtle combat arts, the Hunter gives up multiple attacks per round but gains a critical strike ability. When successful, a critical strike kills the target immediately. Hunters share all the other combat statistics with Warriors, including Hit Die.
 
-A Hunter's Critical Strike ability is a secret statistic; it starts at 0 at first level and goes up 1–32 per level to a max of 255. On every successful melee hit, the game rolls a random number 0–255, and if it's below the Hunter's Critical Strike skill, a critical hit is scored. The early/mid levels can be brutally hard for a Hunter, but at higher levels they kill almost everyone they hit. You probably want one.
+A Hunter's Critical Strike ability is a secret statistic; it starts at 0 at 1st level and goes up 1–32 per level to a max of 255. On every successful melee hit, the game rolls a random number 0–255, and if it's below the Hunter's Critical Strike skill, a critical hit is scored. The early/mid levels can be brutally hard for a Hunter, but at higher levels they kill almost everyone they hit. You probably want one.
 
 **Bard (Ba):** A jack-of-all-trades who can make magic with their music but still hold their own in a brawl. Bards have the same Hit Die as Warriors but are otherwise worse fighters, and they don't get multiple attacks. However, Bard Songs are unique to this class, and there are several magical musical instruments that only Bards can use, most notably the Fire Horn and its cousins.
 
@@ -247,7 +247,7 @@ The game designers would really, *really* like you to have a Bard in your party;
 
 #### Casters
 
-*Bard's Tale* does a fun and different thing with spell casters. There are four caster classes, but only two of them (Conjurer and Magician) are available to you at first level. As mages gain experience they're allowed to change to a different caster class, at which point they reset to Level 1 and work their way up again. Each class, of course, has a different library of spells to learn. Ideally, you want to develop "Archmages", casters that have access to all seven spell levels in all four mage classes. See [Experience and Leveling Up](#experience-and-leveling-up) for more on the implications of changing caster classes.
+*Bard's Tale* does a fun and different thing with spell casters. There are four caster classes, but only two of them (Conjurer and Magician) are available to you at 1st level. As mages gain experience they're allowed to change to a different caster class, at which point they reset to Level 1 and work their way up again. Each class, of course, has a different library of spells to learn. Ideally, you want to develop "Archmages", casters that have access to all seven spell levels in all four mage classes. See [Experience and Leveling Up](#experience-and-leveling-up) for more on the implications of changing caster classes.
 
 Casters, perhaps obviously, are terrible melee fighters, have awful Hit Dice, and can't use most of the good weapons (although later in the game you'll get plenty of magic staves with their own advantages). Unlike some game systems, though, mages can wear plenty of armor, and it's still a good idea to outfit them.
 
@@ -431,7 +431,7 @@ dungeon levels as shown here:
 |   7   | Mangar's 2–3                     | SCMM  | IX – XII |
 |   8   | Mangar's 4–5                     | SCMM  | XI – XIV |
 
-That is, on the first level of the Mad God's Catacombs, you'll find both
+That is, on the 1st level of the Mad God's Catacombs, you'll find both
 monsters and items in groups II, III, IV, and V. Stated the other way:
 
 | Group | Where                                                       |
@@ -480,7 +480,9 @@ On the Apple IIgs, at the [Temple of the Mad God](#temple-of-the-mad-god), say `
 
 ## Equipment
 
-*Bard's Tale* uses a fairly standard inventory system, where every party member has eight slots in their inventory and those slots can be filled with anything you like. Items have to be equipped before they have any effect in combat, and every item fits into a particular slot: **Weapon**, **Shield**, **Helm**, **Body armor**, **Gloves**, **Boots**, **Ring** (only one), **Instrument** (Bards only), and **Miscellaneous Item**. You can only have one item equipped in each slot, but you can still `Use` unequipped items during combat. As the manual says, there are no cursed or "bad" items.
+*Bard's Tale* uses a fairly standard inventory system, where every party member has eight slots in their inventory and those slots can be filled with anything you like. Items have to be equipped before they have any effect in combat, and every item fits into a particular slot: **Weapon**, **Shield**, **Helm**, **Body armor**, **Gloves**, **Boots**, **Ring** (only one), **Instrument** (Bards only), and **Miscellaneous Item**. You can only have one item equipped in each slot, but you can still `Use` unequipped items during combat. 
+
+As the manual says, there are no cursed or "bad" items. However, some percentage of items you find will be unidentified; you can tell because it will show up in your inventory as a Weapon (or Instrument, or Armor, etc.) The only way to identify such an item is to bring it back to Garth and pay 50% of the purchase price, that is, the same amount that he'll give you if you sell it to him. Once you get deeper into the game and the possiblity of finding more interesting items exists, it's worth paying it, but for now, you can use the trick that the identification price and the sale price are the same. So if Garth wants $15 to identify a Weapon, it's a Short Sword.
 
 All Weapons are assumed to require one hand, so you can always equip a Shield regardless of what Weapon you're using. Wands count as Weapons.
 
@@ -517,20 +519,24 @@ sure you're standing in the right place and facing the right way when you do!
 
 ### Surviving Skara Brae
 
-Okay, here's the bad news. As first level characters, your access to healing is
-100% based on gold pieces. You won't get your first healing spell until your
-Conjurers hit 3rd level (at 6,000 XP) and get second level spells (which costs $1,000 per caster), and even then
-you won't have nearly enough SP for all the healing you'd like to do. So you're
-stuck dropping $10 per hit point at the temples just to survive... and half the
-monsters you fight won't drop $10 per point of damage they do to you. It's a
-bit like playing the stock market: if you stay in the game long enough, you're
-likely to do better than break even, but it only takes one mistake to put you
-so far in a hole that you're selling gear for temple donations. So here's my
-guide to surviving the first few hours of the game.
+Okay, here's the bad news: the first few hours of this game are the hardest and most frustrating to get through.
 
-The difference between dying a lot and slowly gathering more gold than you're spending is to get the AC of your front-line fighters as low
-as possible as quickly as possible. $900 gold (roughly what you get for six
-freshly-generated characters) won't go too far:
+As 1st level characters, your access to healing is
+100% based on gold pieces. You won't get your first healing spell until your
+Conjurers hit third level (at 6,000 XP) and get 2nd level spells (which costs
+$1,000 per caster), and even then you won't have nearly enough SP for all the
+healing you'd like to do. So you're stuck dropping $10 per hit point at the
+temples just to survive... and half the monsters you fight won't drop $10 per
+point of damage they do to you. It's a bit like playing the stock market: if
+you stay in the game long enough, you're likely to do better than break even,
+but it only takes one mistake to put you so far in a hole that you're selling
+gear for temple donations.
+
+So here's my guide to surviving the early game. The difference between dying a lot and slowly gathering more gold than you're
+spending is to get the AC of your front-line fighters as low as possible as
+quickly as possible. This will cause combats to go faster because you'll hit more often, and you'll take less damage so you won't have to spend as much on healing.
+
+If you generate six fresh characters, you should have somewhere around $900 to spend at Garth's. If you don't try to outfit your back three, you can do just kind of okay:
 
 | Item        | AC   | Price |
 | ----------- | ---- | ----- |
@@ -539,7 +545,9 @@ freshly-generated characters) won't go too far:
 | Helm        | +1   | $50   |
 | Gauntlets   | +1   | $40   |
 
-Throw in a Staff ($20, 1–8 damage) for a weapon and that's an even $300 per person to get down to AC 4. Scale Armor and a Tower Shield are another $210 on top, and even though I found a pretty big gap between AC 4 and AC 2 in terms of early-game survivability, where are you going to come up with that kind of cash? Well, before you leave the Adventurers' Guild, consider a small cheat: create a few additional throwaway characters, steal their cash, and buy yourself another couple of points of AC. No one will miss Mr. A through Mr. F when you delete them, and you'll have a slightly more comfortable start to the game.
+Throw in a Staff ($20, 1–8 damage) for a weapon and that's an even $300 per person to get down to AC 4. High DX at creation time might help, but if you didn't generate a full $900 you're worse off.
+
+Now, upgrading to Scale Armor (+4) and a Tower Shield (+2) is another $210 per fighter. That helps a bunch: I've found there's a pretty big gap between AC 4 and AC 2 in terms of early-game survivability. But where are you going to come up with that kind of cash? Well, before you leave the Adventurers' Guild, consider a small cheat: create a few additional throwaway characters, steal their cash, and buy yourself another couple of points of AC. No one will miss Mr. A through Mr. F when you delete them, and you'll have a more comfortable start to the game.
 
 Okay, now you're ready to leave the guild hall. First order of business is to learn your way around. Check out the [map of Skara Brae](00-skara-brae.png) and find the nearby points of interest:
 
@@ -552,23 +560,21 @@ Garth's and the Review Board are only open during the day. Temples and taverns a
 open all night. *But*! Don't go near the Scarlet Bard yet because there's a
 Samurai Statue in the way. The Samurai is worth around 170 XP per character but does up to 20 damage and tends not to drop very much gold — it's a risk I don't recommend taking until you're already level 2 and have gathered enough gold to buy your next spell level. (If you need a tavern because you have a Bard in your party, there's another one 1S of the Review Board.)
 
-Your first stop needs to be Garth's to buy the package listed above; again, consider the Tower Shield and/or Scale Armor if you have enough cash for the upgrades. Don't buy anything more powerful than a Staff ($20, 1–8) because the only thing Garth sells you that's significantly better is the Halberd ($200, 1–16). The War Axe ($70, 2–8) and Broadsword ($80, 2–8) aren't actually improvements. And all of this might turn up in post-combat loot, anyway.
+Your first stop needs to be Garth's to buy the package listed above; again, consider the Tower Shield and/or Scale Armor if you have enough cash for the upgrades. Don't buy anything more powerful than a Staff ($20, 1–8) unless you can afford a Halberd ($200, 1–16). The War Axe ($70, 2–8) and Broadsword ($80, 2–8) aren't really any better than a Staff. And all of this might turn up in post-combat loot, anyway.
 
-My early-game strategy for surviving looks like this: Walk from the Guild to the Thief Temple and
-hang out there *during the day*. If you've spent some Spell Points, hang out in the sunshine while they [regenerate](#managing-spell-points). Otherwise you can scout through the nearby
+My strategy for surviving Level 1 looks like this: Walk from the Guild to the Thief Temple. If you've spent some Spell Points, hang out in the sunshine while they [regenerate](#managing-spell-points). Otherwise you can scout through the nearby
 houses to try to trigger fights. Fight a battle. If you win and you have enough cash, go to the temple
 and heal yourself. Then immediately go back to the Guild and save all your characters. (Note
 that this helpfully resets the day clock to Early Morning, too.) Sell loot at
-Garth's as necessary and repeat.
+Garth's as necessary and repeat. If it somehow gets dark out, run back to the Guild and reset the clock.
 
-Unfortunately, there's still a fair bit of luck involved here. At first level your characters can't really take more than two or three hits before dying,
+Unfortunately, there's still a fair bit of luck involved here. At 1st level your characters can't really take more than two or three hits before dying,
 even at max HP. To be safe, run from
-anything with more than two or three enemies, always run from Barbarians (ow),
+anything with more than two or three enemies, always run from Barbarians (ow) and Magicians (+`OLD`, which is expensive to heal now and gets worse after 1st level),
 and consider running from anything else in Group II (see [Bestiary](#bestiary)). Of course, running won't always work. When a character dies, you can either quit and reload,
-or (if it's early enough in the character's career) save their equipment and
-make a replacement character. If your emulator has a save-state function, use it early and often.
+or if it's early enough in the character's career, make a replacement character and transfer the dead character's equipment to them. (Bonus: an extra portion of starting gold that you can use to heal the rest of your party.) If your emulator has a save-state function, use it early and often.
 
-Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; they're not good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups. 
+Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; the Magician isn't good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups.
 
 If you draw more Gnomes and Kobolds and fewer Barbarians and Nomads, you have a chance at keeping your party alive for a while. If you cheated for more money and more AC, your chances go up a bit. Regardless, this part of the game is literally a grind; if this isn't your first rodeo, it'll probably take you a couple of hours to hit level 2. You'll probably die and reload a
 bunch. But you *will* get there, I promise.
@@ -577,35 +583,41 @@ To be fair, level 2 doesn't actually do all that much for you in terms of abilit
 
 A wonderful thing happens when you hit character level 3: your casters get spell
 level 2 — which, by the way, costs $1,000 per mage, so I hope you've been saving up. But it comes with *C2:WOHL*,
-your first healing spell. This changes everything! Now instead of spending money on
+your first healing spell. This helps a lot; now instead of spending money on
 healing you can cast spells to recover HP. Unfortunately, *C2:WOHL* is extremely
 slow (2–8 HP per cast) which means you're pretty much going to drain all your
-SP after every battle. And unless you're on the Apple and can [cheat for SP recovery](#managing-spell-points), you're probably still going to be paying for healing for a while.
+SP after every battle. If you're on the Apple, you can now [cheat for SP recovery](#managing-spell-points), which means your healing is now *free* if rather time-consuming. Otherwise, you're going to continue needing to pay for healing for a while.
 
-Once you get into a comfortable rhythm, feel free to explore the city. You should grind some more until you can get to
-5th level. If you want to wait around for a long time, you can probably handle some combats at night; the combats get harder (watch out for Group
-III spell casters) and show up more frequently, but the rewards are also greater. You can also chance the Samurai Statue on Rakhir
-Street if you want, but if you go down into the Wine Cellar you're likely to have
-your ass handed to you on a platter.
+Once you get into a comfortable rhythm, feel free to explore the city; the
+other point of interest I didn't already mention is Roscoe's Energy Emporium,
+who will sell you Spell Points (at $15 per). At some point you'll have enough
+money to start patronizing him; when you do, he's on the far side of the Gran
+Plaz, just to the NW. Roscoe's open all night, too.
+
+You should grind some more until you can get to 5th level. You can probably handle some combats at night; the
+fights get harder (watch out for Group III spell casters) and show up more
+frequently, but the [rewards](#dungeon-difficulty) are also greater. Mithril Swords (1–8, +1) might sound good and sell for more than a Halberd, but they still only do half as much damage. I recommend sticking to Halberds for your fighters for now. If you have a Hunter, it's kind of a toss-up whether they're better off doing more damage against weak creatures (Halberd) or hitting more often for the chance to score a critical hit (Mthr Sword).
+
+If you want to gather XP as fast as possible and are willing to accept low gold payouts to do it, try fighting statues: the Samurai Statue on Rakhir Street goes down pretty easy if you strike first, and if you're really feeling your oats, walk around to Harkyn's Castle and fight off the other Statues. However, if you go down into the Wine Cellar
+you're likely to have your ass handed to you on a platter — all of the fights in Skara Brae only have one group of monsters, but once you hit a dungeon you can draw four groups at once.
 
 ### The Wine Cellar and The Sewers
 
 Character level 5 comes with spell level 3. At this point, as all long-time
 players of *Dungeons & Dragons* will tell you, your mages are capable of
 casting group-zap spells for the first time. *M3:STFL* does more damage than
-*C3:WAST* and your Conjurers should probably still be spending most of their SP on
-*C2:WOHL*, but the ability to bust out spell damage against groups of 8
-Barbarians is pretty priceless at this point. Also don't overlook *M3:MYSH*,
+*C3:WAST* and your Conjurers will probably still be spending most of their SP on
+*C2:WOHL*, but the ability to bust out spell damage against groups of Barbarians is priceless at this point. Also don't overlook *M3:MYSH*,
 which grants a nearly-permanent +2 AC to everyone in the party.
 
-You're probably handling everything in the city level pretty easily at this
-point. The monsters in the Wine Cellar are the same as the ones in Skara Brae
-during the day, but they come in larger (and multiple) groups. If you haven't
-already bought (or found) the best available equipment for your characters, now's the time to
-do so. Your next step is to head down to the Scarlet Bard Wine Cellar. To get
-there, `(O)rder` some `(W)ine` from the barkeep. He'll send you down into the
-cellar to get some — frankly, if I was him, I wouldn't go down here either.
-This place is a mess.
+A good measure of whether you're ready for the Wine Cellar is how much cash you've collected. If you didn't have any trouble paying for 3rd level spells *and* you've already bought everything you can buy from Garth to outfit your party, you're probably ready for the Wine Cellar. At that point you should be walking over most encounters in Skara Brae and no longer feel the need to run to a Temple as soon as you get out of a fight.
+
+In fact, the monsters in the Wine Cellar are the same as the ones in Skara Brae
+during the day, but they come in larger (and multiple) groups and there's no Temples down there to run to. So you're going to have to think a little harder about managing your resources and making sure you've got enough to get back to the relative safety of the city. One way to give yourself a boost is to run over to Roscoe's, cast *C3:LERE* and *M3:MYSH* (and *C4:INWO*, once you have it), duck inside and pay for SP regeneration, then run over to the Wine Cellar as fast as you can.
+
+To find the Wine Cellar, head south from the Guild until you hit the Samurai Statue. The Scarlet Bard is just 1S of there; step up to the bar and `(O)rder` a glass of `(W)ine`. He'll
+charge you $3 and send you down into the cellar to get some yourself — frankly, if I
+was him, I wouldn't go down here either. This place is a *mess*. Oh, and by the way, I hope you brought a light source with you...
 
 #### Wine Cellar
 
@@ -615,44 +627,85 @@ The Wine cellar has four quadrants, and a lot of 'empty' space behind walls.
 You might be tempted to come back here with Phase Door (*M6:PHDO*) and go hunting
 through the walls, but don't bother; there's nothing to find there.
 
-If you haven't read the section on [Dungeon Difficulty](#dungeon-difficulty), I encourage you to do that now. Back?
-Great. Note that there's only one kind of trap on this level. That makes
-`(D)isarming` chests really easy; just guess `POISON NEEDLE` and you'll be right
-every time! Who needs a Rogue? (Even if the chest doesn't have a trap, the game
-will tell you that you disarmed it.)
+A word on the game's maps. Every dungeon level sits on a 22x22 grid that can (at least in theory) wrap around. The stairs into Level One will always be at (00,00) in the bottom-left / southwest corner, which is the basis point that *M1:SCSI* uses when you ask it where you are. As a result, if you're looking at the full map for a floor, it doesn't always "look right" (I'm looking at you, Kylearan). The good news is that *C6:APAR* uses the same coordinate system, so you can basically invert the results of *M1:SCSI* to exit any dungeon.
 
-It's also probably good to know that some, but not all, of the dungeon levels
-wrap around. When you use *M1:SCSI* to figure out where you are, it gives you
-coordinates that are listed as an offset from the stairs on Level One that take
-you back to town, *not* the stairs that take you back to the previous level. All
-of my maps (and pretty much any other map you find) will use this as a basis,
-so the map layouts don't always make sense when you look at them (I'm looking
-at you, Kylearan). But the nice thing is that *M1:SCSI* feeds directly into
-*C6:APAR*.
+There isn't actually anything "interesting" to do in the Wine Cellar; you're mostly here to grind. I recommend patrolling the SW quadrant of the map; there are three fixed encounters within easy striking distance of the exit stairs, and you'll probably want to just smash-and-grab those for a little while. Run in, kill some beasts, take some damage, and... what's this? a *chest*?
 
-Okay, back to the dungeon itself. Finding the stairs down to the Sewers is easy
-enough, but you're mostly here to grind for a while. I recommend patrolling the
-SW quadrant; there are two fixed encounters behind doors just N of
-the entry stairs, and you'll probably want to just smash-and-grab for a while.
-Run in, kill some beasts, take some damage, run back to town. Get a feel for
-when you need to bail out – don't forget to include the chance of running into
-some random encounters between wherever you are and the exit. As you advance a
-few (character) levels, you'll be able to delve further and further into this
-floor.
+Yup, instead of just giving up their gold, every combat you fight in a dungeon ends in a chest. Some significant percentage of those chests are trapped. Your options are to cast *C1:TRZP* (always works), try to disarm it yourself, open it without trying to disarm any traps (automatically sets them off), or just leave it there.
 
-Explore the SW and NW quadrants to your heart's content. Don't bother going
+Each party member can Examine a chest to try to figure out what kind of trap it is; they may not find one, but this action is safe. Once you think you know what it is, pick a character to Disarm the chest and type in the name of the trap. Don't spell it wrong! If you identify the trap correctly you disarm it and open the chest.
+
+The names of the traps and the dungeon levels on which they exist is in the [Dungeon Difficulty](#dungeon-difficulty) section, which you should go read right now. Back? Great. Note that there's only one kind of
+trap in the Wine Cellar (dungeon level 1), which makes disarming chests really easy: just guess
+`POISON NEEDLE` and you'll be right every time! Who needs a Rogue?
+
+Okay, back to the dungeon itself. As you get more practice with dungeon diving, explore the SW and NW quadrants to your heart's content. Don't bother going
 into the E half of the map; there's two rooms there with "Fine Wines" and "Rare
-Wines", each of which contains a few more monsters and some traps. If you need
-to kill more monsters, go up into the tavern and come back down. The whole
+Wines", each of which contains a few more monsters and some traps. If you run out of monsters to kill, go up into the tavern and come back down. The whole
 board resets when you do that.
 
-When you think you're ready, you can progress down to the Sewers. The stairs
-are at (7,18). You get groups of nighttime monsters (Groups II-III) down there,
-though...
+When you think you're ready, you can progress down to the Sewers; the stairs
+are at (07,18). I'd probably wait until you're 7th level or so, because there are a few fixed encounters with Black Windows who can +`PSND`. You're going to want *C4:FLRE* before you get that far.
 
 #### Sewers, Level 1
 
+*The Fast Way:* 1W 1S 1W 1S 3W 4S 2W 3S ("something strange") 1W 1N (x) 1N (x) 2N (x) 1N 1W 3S 1W 1N (Darkness) 2W 2N
+
+*The Fast Way, with M6:PHDO:* 1E 2N 2E 1A 1W 2S 2E 3S 3E, face E and cast, 1E
+
+Once you drop into the Sewers the list of traps increases, so you'll want your party to Examine every chest you come across. Even if no one finds a trap, it's always better to try to Disarm by guessing a random trap name than to just Open it. If the chest doesn't have a trap at all, disarming always "works", and if it does, you've got a 1/4 chance of picking the right one. `POISON NEEDLE` continues to be a good guess here, because `BLADES` and `DARTS` are just damage but the needles will +`PSND` you. If the game says you picked the wrong trap, try the next one on the list.
+
+This level is basically a giant maze. There are several pockets of magical Darkness, which will extinguish your light source (be it a Torch, Lamp, spell, or magic item). Fortunately, the game will tell you every time you step on a Dark square, so you'll know when it's gone and it's safe to produce a new light source. If you know you're going to be walking through Darkness, keep a handful of Torches or Lamps around so you're not burning too much SP on magic light.
+
+You could spend hours of game time mapping out this level. It's twisty and full of pockets and closets and descriptive text and a few teleport traps. Remember to keep an eye on your resources and bail out before it becomes a problem.
+
+There's very little that you need to do on this level, even if you aren't going to rely on this walkthrough to give you all the clues you need. 
+
+- At (09,19) behind a secret door there's an inscription "IRKM DESMET DAEM", which is one of the classic "red herring" clues amongst *Bard's Tale* players.
+- At (04,09) there's a statue of a spider god; search it and it turns into a Spinner you can fight.
+- At (12,07) another inscription informs you that "golems are made of stone", which doesn't help much.
+- At (09,21) you learn to "pass the light at night." That's a hint you'll use on Level Two.
+
+In order to get down to Level Two you'll need to fight that pack of Black Widows and navigate through Darkness.
+
 #### Sewers, Level 2
+
+*The Fast Way:* 1S 2W 2N 3E 1S 1E 2S 3E 5S 1W 4N
+
+*The Fast Way, with M6:PHDO:* 1S 2W 2N 3E 1S 1E 3S, face E and cast, 2E
+
+(On most implementations, press `D` to climb down through the hole in the floor; the fall hurts unless you have *C3:LEVI*.)
+
+More mazes, more Darkness, more groups of Spiders and Black Widows to fend off.
+Assuming you're capable of curing +`PSND` with *C4:FLRE* it shouldn't be much of a
+problem, but keep an eye on your SP and remember that you have to face one more
+group of Black Widows on your way out. Otherwise, Black Widows are great for
+grinding XP. The first pocket is at (20,13), near the entrance. There are
+Spiders at (21,16) as well.
+
+The dungeon difficulty level here is the same as Level One, so if you're just here to grind you're kind of wasting your time. There are a few clues that are worth picking up, though:
+
+- At (00,04) there's a spot with a searing bright light. If you enter it you'll take
+  massive damage. The light disappears at night, which you might figure out if
+  you saw the hint on Level One. Beyond it you'll find another special encounter
+  with Black Widows at (03,03) and a magic mouth just north of there that gives you the clue you need to enter
+  the Temple of the Mad God:
+
+> Know this, that a man called Tarjan, thought by many to be insane, had through wizardry powers proclaimed himself a god. His image is locked in stone until made whole again.
+
+- At (10,12) in a closet is the inscription "There is no exit until the seven words are said." This is a clue to the solution to a puzzle that eventually happens on Level Three of Mangar's Tower, but the seven words themselves are in the Catacombs.
+- At (18,10) is the anti-clue "Heed not what is beyond understanding." As I hinted at before, "IRKM DESMET DAEM" is gibberish, and this clue tells you that it doesn't mean anything.
+- At (12,01) is the inscription "Thor is the greatest son of Odin," which is the answer to a puzzle on Level Four of Mangar's Tower.
+
+There are two pockets of Darkness on this floor, both of which you should simply avoid. The section in the NW corner of the map (entrance at 01,11) has a small room along the N wall with a hole in the floor that will
+take you down to Level Three. In the S-central part of the map there's another
+Dark section (entrance at 08,01) with nothing to speak for it. Both sections have traps in them,
+but you won't be able to find traps without *S1:LOTR*. You have a chance to avoid travel traps if *C3:LEVI* is active. (Oddly, if you
+fail that check, it's possible to "fall into a spiked pit" while levitating.) You can also use *C1:TRZP* to disarm traps during travel, if you know where they are and you're facing the right direction.
+
+Level Three of the Sewers is the same as Level One of the [Catacombs](#temple-of-the-mad-god) in terms of difficulty, so at this point in the game I don't recommend going any further. Head back to town and go check out the Mad God's Temple, if you're ready for it. You'll come back here eventually once you're ready to break into [Mangar's Tower](#mangars-tower-and-endgame), but that won't be for a long while.
+
+There are actually two ways down to Level Three; the one I mentioned above is at (05,21) and it drops you nowhere special, but if you're just here to grind and explore it might be a better choice. Crossing that Dark patch is annoying, though. The other one, at (21,11) where *The Fast Way* directs you, drops you closer to the exit from Level Three.
 
 #### Sewers, Level 3
 
@@ -797,7 +850,6 @@ Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-en
     <td class="c" colspan="3"></td>
   </tr>
 </table>
-
 **P/C** (`0x10`) is `01` if this is a **Character** file and `02` if this is a **Party** file.
 
 **Status** (`0x11`) is a bitmask; `00` is healthy with no [statuses](#statuses). Change the hex to binary and read the bits from left to right: `NUTS`, `POSS`, `PARA`, `STON`, `POIS`, `OLD`, `DEAD`. As an example, `40` in hex is `0100 0000` in binary, so +`POSS`. The rightmost bit isn't used, and `PARA` wasn't actually implemented.

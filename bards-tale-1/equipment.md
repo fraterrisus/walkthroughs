@@ -704,7 +704,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
   </tr><tr>
     <td class="r">400</td>
     <td class="c">IV</td>
-    <td>Mthr Helm</td>
+    <td>Mthr Shield</td>
     <td class="c">fighters</td>
     <td class="c">+3</td>
     <td></td>
@@ -752,6 +752,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
     <td></td>
   </tr>
 </table>
+
 
 ## Rings
 
@@ -1043,7 +1044,7 @@ The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consume
     <td class="c">+1</td>
     <td></td>
   </tr><tr>
-    <td colspan="3"><i>improves chance to flee combat</i></td>
+    <td colspan="3"><i>improves "flee combat" saving throw</i></td>
   </tr><tr>
     <td class="r">6000</td>
     <td class="c">XIV</td>
@@ -1095,4 +1096,3 @@ The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consume
     <td colspan="3"><i>allows entry to Mangar's Tower</i></td>
   </tr>
 </table>
-

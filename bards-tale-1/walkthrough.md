@@ -60,6 +60,16 @@ the game, and give you a tour of the interface. This is kind of important,
 since there are significant differences between versions of the game. Some
 versions of the game have copy protection, but it's fairly [straightforward](#experience-and-leveling-up) to deal with.
 
+In my opinion, the experience of playing *Bard's Tale I* is largely not about the "story". The game was designed such that you really have to explore every square of every dungeon level just to make sure you don't miss an item or an inscription somewhere that gives you a clue that you'll need to solve a puzzle much, much later in the game. A naive player that doesn't know that unwritten rule is almost certainly going to wind up not knowing the answer to that puzzle, and having to go back and scour every dungeon level for clues after the fact. I can't imagine that being "fun".
+
+So the main joys of playing this game come from two things: the grinding, where you're trying to make your party powerful enough to take on the next dungeon; and mapping those dungeons in exquisite detail. If you're reading a walkthrough, you probably already know that I'm going to give you the answer to every puzzle you need to solve along the way. (I mean, I'll also tell you where you should have picked that clue up for yourself, but the actual exploration part is optional.) 
+
+If you love mapping dungeons, you should feel free to ignore my maps and make your own. (I obviously do, since I *made these maps*.) I'll give you the coordinates of the important points in the walkthrough's narrative, but I won't tell you how to get there. My hope is that won't spoil your fun.
+
+If you *don't* love grinding... you probably don't want to play this game, 'cause you're going to have to do a lot of it. I find combat systems like this fun, even if they feel "simplistic" in retrospect, so the prospect of grinding levels in the same dungeon over and over doesn't bother me.
+
+Still with me? Onward, then, to save the city of Skara Brae from the evil wizard Mangar.
+
 ### Managing Save Files
 
 There are so many different versions of this game that you might choose to play that I'm not going to take up the necessary space to describe all of the various retrogaming techniques you might want to use to back up your party. On the PC (with `DOSBOX`) you're looking for the numbered `*.TPW` files. On Apple platforms (with `AppleWin`, etc) you're likely backing up entire copies of your game disk.
@@ -77,11 +87,9 @@ Apart from that, I always encourage gamers to learn how to use their emulator's 
 
 *Bard's Tale I* uses first-person perspective for getting around both the city and dungeons. Skara Brae, the city level, is your "top-level" map; all of the services you'll need and entrances to all of the game's dungeons can be found there, and there's no "overworld" map to explore. You're stuck here for the duration, as the manual's framing story will tell you.
 
-Move your party with the arrow keys (PC) or `IJKL` (most other platforms); `K` stands for "Kick Forward" which is how you go through doors. You can pretty much ignore the `I` key.
+Move your party with the arrow keys (DOS) or `IJKL` (most other platforms); `K` stands for "Kick Forward" which is how you go through doors. You can pretty much ignore the `I` key.
 
-A few other keys that get easily forgotten: `E` allows you to float up through a portal in the ceiling if you have *C3:LEVE* or *C6:MALE* active, and `D` allows you to descend through a hole in the floor. In Skara Brae, `?` can be used to find out what street you're on and what time of day it is.
-
-`V` will turn the music off, which is especially helpful when you're rolling up characters in the Guild.
+A few other keys that get easily forgotten: `E` allows you to float up through a portal in the ceiling if you have *C3:LEVE* or *C6:MALE* active, and `D` allows you to descend through a hole in the floor. In Skara Brae, `?` can be used to find out what street you're on, which way you're facing, and what time of day it is. `N` allows you to re-order your party, although the implementation is different on each platform. Finally, `V` will turn the music off, which is especially helpful when you're rolling up characters in the Guild.
 
 There is something of a sense of time; it passes silently, and it manages three important things:
 
@@ -89,17 +97,7 @@ There is something of a sense of time; it passes silently, and it manages three 
 - the rate at which your spellcasters recover MP, if they're outside
 - how often the game rolls for wandering monsters
 
-Ten-year-old me once got into a lot of trouble playing this game because he walked away from the computer while his party was hanging out in the streets of Skara Brae, and came back to discover that not only had my party been attacked by some wandering monsters but several turns had passed and half my party was dead. Don't be like me; hit the Pause key (`T` on DOS) or at least go into a building if you're going to walk away from the computer.
-
-`C` cast a spell
-
-`B` sing a bard song
-
-`U` use an item
-
-`P` party combat
-
-`N` swap two party members
+Ten-year-old me once got into a lot of trouble playing this game because he walked away from the computer while his party was hanging out in the streets of Skara Brae, and came back to discover that not only had hist party been attacked by some wandering monsters but several turns had passed and half the party was dead. Don't be like me; hit the Pause key (`T` on DOS) or at least go into a building if you're going to walk away from the computer.
 
 ## Creating Characters
 
@@ -117,7 +115,7 @@ As is usually the case, primary attributes affect important secondary statistics
 
 **Intelligence (IQ)** affects the number of SP gained per level, on the same scale as Constitution. Since casters only gain a base 1–4 SP per level, the bonus makes a huge difference early on. Over the course of the game, though, mages earn a lot more levels than you might usually expect, so the impact of IQ on SP won't be nearly as noticeable.
 
-**Luck (LK)** affects your [Saving Throws](#saving-throws) (16:+1, 17:+2, 18:+3), which also means your ability to run away from monsters and avoid traps. Early on it's helpful for your party leader (whoever's in Slot 1) to have a high Luck. Later on it it's important for everyone because you'll be rolling saving throws against magic effects more often. Rogues really want high Luck all the time.
+**Luck (LK)** affects your Saving Throws (16:+1, 17:+2, 18:+3), which also means your ability to run away from monsters and avoid traps. Early on it's helpful for your party leader (whoever's in Slot 1) to have a high Luck. Later on it it's important for everyone because you'll be saving against magic effects more often. Rogues really want high Luck all the time.
 
 **Dexterity (DX)** affects your Armor Class (16:-1, 17:-2, 18:-3), which in turn affects both your chance of getting hit in combat as well as your chance to hit your enemies. (Yes, this is a little weird). As a result, it's the most important primary attribute for your front-line fighters, especially early on.
 
@@ -135,7 +133,40 @@ At 1st level, every character starts with 14–29 HP. When you [level up](#exper
 
 At 1st level, casters start with 9–24 MP, but unfortunately you don't get to see that value until you've confirmed character creation and added them to your party. So it's possible to roll up a mage with an 18 IQ but only 9 SP. When you [level up](#experience-and-leveling-up) you gain 1–4 MP plus your IQ bonus. SP is a little bit easier to regenerate than HP; see [Managing Spell Points](#managing-spell-points).
 
-There are a few other "hidden" secondary statistics that don't show up on your character's info screen; we'll talk more about them later.
+There are a few other "hidden" secondary statistics that don't show up on your character's info screen:
+
+**Saving Throw:** When you need to resist a spell effect, avoid a trap, or just run from combat, the game has you make a contested saving throw. [Monsters](bestiary.html) roll 1d8 plus their group number. Party members have to do some complicated math, adding together contributions from their class, level, Luck attribute, and equipment.
+
+- Everyone starts with a base save of 2.
+- **Class** contributions: **Wizards** get +3, other casters get +2, and everyone else gets +1.
+  - However, **Paladins** get a further +1 to their save at 4th, 10th, 18th, 26th, and 30th level.
+
+- Divide your character **Level** by 2 (round down), up to a maximum of 18.
+- Add your **Luck** modifier (see [Primary Attributes](#primary-attributes)), if any.
+- If you have a **Luckshield** equipped, add 2.
+
+Here are the first few character levels, assuming no Luck modifier and no Luckshield:
+
+| Level       |  1   |  2   |  3   |  4   |  5   |  6   |  7   |  8   |  9   |  10  | 11 | 12 | 13 | 14 | 15 |
+| ----------- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| **Wizard**  |  5   |  6   |  6   |  7   |  7   |  8   |  8   |  9   |  9   |  10  | 10 | 11 | 11 | 12 | 12 |
+| **Caster**  |  4   |  5   |  5   |  6   |  6   |  7   |  7   |  8   |  8   |  9   | 9 | 10 | 10 | 11 | 11 |
+| **Paladin** |  3   |  4   |  4   |  6   |  6   |  7   |  7   |  8   |  8   |  10  | 10 | 11 | 11 | 12 | 12 |
+| **Other**   |  3   |  4   |  4   |  5   |  5   |  6   |  6   |  7   |  7   |  8   | 8 | 9 | 9 | 10 | 10 |
+
+For running away, the character in Slot 1 saves against the first group of
+monsters. If the character wins, the party runs away.
+
+For spell effects and traps, if the target wins, they take no damage or
+suffer no ill effects. If the target loses by four or less, they only take half
+damage.
+
+**Attack Priority (AP):** Determines the order that actions are resolved during a combat round; the combatant with the highest AP goes first. If you're familiar with the concept of "initiative" from tabletop RPGs, this is the same thing. AP is improved by increased levels, your DX modifier, and a fraction that increments every time your party wins a battle. After 512 successful battles, AP goes up somewhat dramatically.
+
+- **Monks** get +1 AP each level.
+- **Warriors, Paladins,** and **Hunters** get +1 AP every two levels.
+- **Bards** and **Rogues** get +1 AP every four levels.
+- **Casters** get +1 AP every eight levels.
 
 ### Races
 
@@ -169,24 +200,28 @@ Regardless of race, all attributes can eventually be raised to 18 by leveling up
 
 ### Classes
 
-| Class    | To-Hit | Hit Die | AP increases |
-| -------- | :----: | :-----: | :----------: |
-| Warrior  |   +2   |  1d16   |     1/2      |
-| Paladin  |   +2   |  1d16   |     1/2      |
-| Monk     |   +3   |   1d8   |     1/1      |
-| Hunter   |   +2   |  1d16   |     1/2      |
-| Bard     |   +1   |  1d16   |     1/4      |
-| Rogue    |   +1   |   1d8   |     1/4      |
-| Conjurer |        |   1d4   |     1/8      |
-| Magician |        |   1d4   |     1/8      |
-| Sorcerer |        |   1d8   |     1/8      |
-| Wizard   |        |   1d8   |     1/8      |
-
-**To-Hit:** the bonus applied to your to-hit roll; see [Combat](#combat-and-general-information). Fixed per class, never changes.
+| Class    | Hit Die | Save | Attacks | To-Hit |  AP  |
+| -------- | :-----: | :--: | :-----: | :----: | :--: |
+| Warrior  |  1d16   |  +1  |   1/4   |   +2   | 1/2  |
+| Paladin  |  1d16   | +1*  |   1/4   |   +2   | 1/2  |
+| Monk     |   1d8   |  +1  |   1/4   |   +3   | 1/1  |
+| Hunter   |  1d16   |  +1  |         |   +2   | 1/2  |
+| Bard     |  1d16   |  +1  |         |   +1   | 1/4  |
+| Rogue    |   1d8   |  +1  |         |   +1   | 1/4  |
+| Conjurer |   1d4   |  +2  |         |        | 1/8  |
+| Magician |   1d4   |  +2  |         |        | 1/8  |
+| Sorcerer |   1d8   |  +2  |         |        | 1/8  |
+| Wizard   |   1d8   |  +3  |         |        | 1/8  |
 
 **Hit Die:** the random number of HP you gain each level.
 
-**AP Increases:** how often your Attack Priority improves. Monks gain 1 AP each level, while casters gain 1 AP every *eight* levels.
+**Save**: your base [Saving Throw](#secondary-statistics). Paladins(*) get bonuses at higher levels.
+
+**Attacks:** how often you get an additional melee attack
+
+**To-Hit:** the bonus applied to your to-hit roll; see [Resolving Attacks](#resolving-attacks). Fixed per class, never changes.
+
+**AP**: the rate at which your [Attack Priority](#secondary-statistics) increases.
 
 #### Fighters
 
@@ -228,7 +263,6 @@ Regardless of race, all attributes can eventually be raised to 18 by leveling up
 </tr>
 </table>
 </div>
-
 **Paladin (Pa):** An alternative to Warriors with the same Hit Die and multiple attacks per round. They can use almost all the same armor as Warriors but have a slightly limited weapon selection; in particular, Paladins can't use the Spectre Snare. Paladins do have the best Saving Throws in the game (even better than high-level mages), so having one in Slot 1 isn't a bad idea. You probably want one.
 
 **Monk (Mo):** A master of unarmed combat, but they give up the ability to wield most weapons. Same multiple attacks as the Warrior. Significantly worse Hit Die, but several advantages to make up for it. A Monk's AC drops by 1 every time they go up a level. Monks also get the best Attack Priority, which means they're likely to attack first most rounds, and the highest To-hit bonus.
@@ -237,13 +271,13 @@ At level 6 and above, a monk does more damage unarmed (see chart) than they coul
 
 **Hunter (Hu):** Practitioner of the more subtle combat arts, the Hunter gives up multiple attacks per round but gains a critical strike ability. When successful, a critical strike kills the target immediately. Hunters share all the other combat statistics with Warriors, including Hit Die.
 
-A Hunter's Critical Strike ability is a secret statistic; it starts at 0 at 1st level and goes up 1–32 per level to a max of 255. On every successful melee hit, the game rolls a random number 0–255, and if it's below the Hunter's Critical Strike skill, a critical hit is scored. The early/mid levels can be brutally hard for a Hunter, but at higher levels they kill almost everyone they hit. You probably want one.
+A Hunter's **Critical Strike** ability is a secret statistic. On every successful melee hit, the Hunter has a chance to score a critical hit which immediately kills the target. That chance starts at 0 at first level and goes up a random amount (1–32) each level to a maximum of 255, which means roughly 6% per level on average. In the early game, critical hits are just a bonus. There's a lull around level 4–7 where the Hunter isn't doing as much damage as other fighters because they don't get a second attack and their Crit Strike skill isn't high enough to activate too often. At higher levels, though, they kill almost everyone they hit. You probably want one.
 
 **Bard (Ba):** A jack-of-all-trades who can make magic with their music but still hold their own in a brawl. Bards have the same Hit Die as Warriors but are otherwise worse fighters, and they don't get multiple attacks. However, Bard Songs are unique to this class, and there are several magical musical instruments that only Bards can use, most notably the Fire Horn and its cousins.
 
 The game designers would really, *really* like you to have a Bard in your party; there are two places where having a Bard is "essential" to making progress. I mean, they did call the game "The Bard's Tale". So you probably want one.
 
-**Rogue (Ro):** Sneaky, clever, devious. Rogues are the best characters when it comes to identifying, disarming, and avoiding traps. In combat they have the unique ability to Hide in Shadows where no one can hit them. However, they don't receive multiple attacks, they share a Monk's mediocre Hit Die, they're about as good as Bards in combat, and no one really cares about traps because *C1:TRZP* only costs 2 SP. So you really **don't** want one.
+**Rogue (Ro):** Sneaky, clever, devious. Rogues are the best characters when it comes to identifying, disarming, and avoiding traps. In combat they have the unique ability to **Hide in Shadows** where no one can hit them. However, they don't receive multiple attacks, they share a Monk's mediocre Hit Die, they're about as good as Bards in combat, and no one really cares about traps because *C1:TRZP* only costs 2 SP. So you really **don't** want one.
 
 #### Casters
 
@@ -282,6 +316,99 @@ The actual mechanics of rolling characters will vary a bit depending on which pl
 
 ## Combat and General Information
 
+*BT1* uses a turn-based, plan-first, 3+3 combat system: you enter commands for everyone in your party (unless they are incapable of acting due to a [Status](#statuses)) and then
+confirm. The game does the same for the monsters. There's some partially-random order in which the actions are resolved, and then the following round starts if anyone is still standing.
+
+Before each round you are given the opportunity to **Fight** or **Run**. (For
+running away, see [Saving Throws](#secondary-statistics).) Once you choose Fight, you can not go back
+and change your mind. However, if you make a mistake while picking party actions, you have an option to reset your choices and start over before the round begins.
+
+Your party has six slots (seven, really); the front
+three characters are considered in melee range. If there are multiple groups of
+enemies, the first two groups are similarly in melee range. Only characters and
+monsters within melee range can attack each other with weapons; spells can
+reach anyone.
+
+Each character has the following options:
+
+- **Attack** foes: execute a melee attack. If there are multiple groups of enemies,
+  you get to pick which one to attack. Only the first three characters and the
+  first two groups of enemies can be hit by melee attacks.
+- **Defend**: don't do anything. I don't think this actually increases your AC or
+  actually makes you harder to hit. It's just another way to say "pass".
+- **Party Attack**: attack another member of your party. You pretty much never want
+  to do this except in a few pathological cases.
+- **Sing a Song** or **Hide in Shadows**, if your character has those skills.
+- **Cast a Spell**: obvious. You'll be asked for the four-letter abbreviation of
+  the spell you want to cast. Spells can be targeted at anyone in your party
+  (including the NPC) or any enemies.
+- **Use an Item**: activate an item out of inventory. Many higher-powered weapons
+  have spell effects when you Use them. You can also Use a wand, magic horn, or
+  miscellaneous magical item, even if it isn't Equipped.
+
+### Resolving Attacks
+
+<div class="float-right">
+<table>
+<caption><i>To hit by Class</i></caption>
+<tr>
+  <th>Class</th><th>To Hit</th>
+</tr><tr>
+<td>Monk</td><td>+3</td>
+</tr><tr>
+<td>Paladin<br/>Fighter<br/>Hunter</td><td>+2</td>
+</tr><tr>
+<td>Rogue<br/>Bard</td><td>+1</td>
+</tr><tr>
+<td>Casters</td><td>+0</td>
+</tr>
+</table>
+</div>
+Your chance to hit an opponent is based on the difference between your AC and theirs. That means the more armor you're wearing, the higher your chance of hitting your opponent, which doesn't make a whole hell of a lot of sense. Regardless, this is yet another reason why you want the best possible AC early on. The to-hit chance is also modified by your class (see table), although this doesn't go up with levels, and the bonus of your weapon if it has one (see [Equipment](equipment.html)). A +1 to-hit bonus is equivalent to one point of AC. There's also a random element each time you take a swing.
+
+Actions take place in order of [Attack Priority](#secondary-statistics); Fighters, Paladins, and Monks get an additional attack every four levels, so your 9th level Paladin takes three swings. All attacks are resolved at once, so you'll start seeing combat statements like "Alex swings at a Nomad 3 times..."
+
+Don't discount the impact of Attack Priority on your spellcasters. A *M7:REST* spell that doesn't fire until after your Paladin dies isn't going to make anyone feel great. (Their COND might go up, but it doesn't really count.)
+
+### Party Management
+
+Your party has seven slots. Six of them can be filled with characters that you
+generate. The seventh slot – or more accurately the "zeroth" slot, since they
+sit in front of your first character – can be filled with an allied creature.
+
+Allies come from three sources:
+* Summon and Illusion spells
+* the Spell Bind effect, from casting *W5:SPBI* or using the Spectre Snare
+* When wandering around a dungeon, you will occasionally come across a creature
+  that asks to join your party. You don't have to let them, especially if you
+  already have a better NPC.
+
+You won't be able to control Allies during combat. In practice, they almost
+always attack Group A of enemies. Many Allies can also cast spells or have
+other effects, as described in the [Bestiary](bestiary.html).
+
+The first three character slots, plus the NPC slot, are considered to be within
+melee range, so it's best to fill those slots with characters with good AC and
+high HP. Unfortunately, you can't rearrange your party during combat.
+
+If a character is inflicted with a status that incapacitates them (+`STON` or
++`DEAD`), they will be shuffled to the bottom of the party order at the end of
+the round. This means that your mages will suddenly find themselves in the
+front lines. Even if you raise a dead fighter, you won't be able to shuffle
+them back into the front. This can be rather frustrating, so it's a good idea
+to make sure your fighters have something useful they can do from the back row
+(usually a miscellaneous magic item).
+
+### Combat Strategies
+
+So long as you're in Skara Brae, you'll only face one group of enemies at a time. There's not much to say here in terms of tactics, because you don't get fine-grained aim like that. Let your melee fighters pound away and do as much damage as you can as quickly as you can. As always, you're faced with the decision about when to spend SP on zap spells versus saving them for healing, although at 1st level you *don't have any healing*, so there's less of a choice.
+
+Things get more interesting once you start dungeon diving and coming up against multiple groups of enemies. Groups may decide to reshuffle themselves between combat rounds, but keep in mind that only the first two groups can attack and be attacked in melee. This means that it might make sense, for example, to leave a group with one Spider kicking around rather than have that group of eight Nomads waiting in Group C move into range. Especially if you've got a free caster that can soften up those Nomads first, or a healing spell that you need to cast before your Paladin takes any more hits.
+
+On the other hand, if there are Magicians hanging out in Group C or Group D, you need to take care of them as quickly as possible. Group zap spells are invaluable. If the group is small enough you might be able to pick them off with *C1:ARFI*. Otherwise, you should prioritize clear out an entire group of enemies in front of them so they slide forward into melee range.
+
+Check out the [Bestiary](bestiary.html) for details on the special attacks available to the critters you'll come up against, so you can better prioritize where to spread your damage around.
+
 ### Health and Dying
 
 As we'll discuss in the [walkthrough](#surviving-skara-brae), your primary concern over the first several hours of game play will be keeping your characters alive. Healing comes from spells, starting with *C2:WOHL*; from the various temples scattered around Skara Brae for $10 per HP; and, if you can find them, the Troll Ring and Troll Staff grant HP regeneration.
@@ -290,23 +417,9 @@ If your character takes enough damage to be reduced to zero (or negative) HP, th
 
 My advice: get used to rebooting your emulator a lot. And keep backups.
 
-### Managing Spell Points
+#### Statuses
 
-Spell Points aren't *quite* as precious as Hit Points, but they're also somewhat easier to regenerate. Simply being exposed to sunlight will naturally generate SP over time; in principle this means walking around Skara Brae during the daytime, but there are also a small number of special effect squares in dungeons that provide sunlight-like regeneration. The Spell Staff also grants MP regeneration like the Troll Staff does for HP.
-
-The trouble, of course, with walking around Skara Brae in the daytime is that wandering monsters will occasionally attack you, which is probably why you were trying to regenerate MP in the first place.
-
-On the Apple (but *not* on the PC), there is a hack that works in your favor: being inside a building still counts, so long as it's daytime outside. This means you can stand in the Adventurers' Guild, shop the inventory at Garth's, chat with the Review Board, hang out at a Temple or Roscoe's, or simply wait around at the "Press any key" screen after exploring a building. 
-
-On the PC, you're going to be stuck with standing around outside where you're likely to get jumped by random encounters. There's not much to be done about this, unfortunately.
-
-It's slow to restore SP the natural way but it's free, and in the early going you won't have enough money to do anything else. I recommending looking for your emulator's "turbo" button to make the time pass a bit faster.
-
-If you happen to find a Spell Staff, there's another trick you can use: the holder regenerates 1 MP per combat round, so start up a Party Combat and have everyone Defend. No one can attack you while you're in combat and you'll regenerate SP faster than anything besides paying Roscoe.
-
-### Statuses
-
-Spells, traps, and special attacks can inflict "status" on the target. There
+Apart from regular HP damage, spells, traps, and special attacks can also inflict a "status" on the target. (Usually you get a chance to make a [Saving Throw](#secondary-statistics) to avoid the effect.) There
 are a limited number of statuses and all of them are curable at a Temple
 (though not all by you). Ironically, if you fall victim to a special effect, it
 shows up in the "Hits" column instead of the "Condition" column of the
@@ -345,77 +458,23 @@ had before going into the Temple.
 There is evidence of an additional status, **Paralyzed** (`PARA`), but it doesn't seem to have
 been actually implemented.
 
-### Experience and Leveling Up
+### Managing Spell Points
 
-So you've sent your characters out into the world, and they've spent a few happy hours beating up on bad guys. And just like every fantasy role-playing game, eventually they collect enough Experience Points to go up a level, whatever that means. The thing that makes *BT1* special is that the manual *explicitly doesn't tell you* where the training facility is; you have to go find it!
+Spell Points aren't *quite* as precious as Hit Points, but they're also somewhat easier to regenerate. Simply being exposed to sunlight will naturally generate SP over time; in principle this means walking around Skara Brae during the daytime, but there are also a small number of special effect squares in dungeons that provide sunlight-like regeneration. The Spell Staff also grants MP regeneration like the Troll Staff does for HP.
 
-Spoiler alert: the Review Board is 7N 3W 2S 1E from the Adventurers' Guild. Lord knows the first part of the game isn't hard enough without *not knowing* where to train your characters.
+The trouble, of course, with walking around Skara Brae in the daytime is that wandering monsters will occasionally attack you, which is probably why you were trying to regenerate MP in the first place.
 
-The Board will tell you how many XP you need before you can train for the next level, promote you when you get there, sell you new spell levels when you're ready, and allow your mages to change your classes. Everything is free except new spell levels, which is honestly a little odd for a training model like this.
+On the Apple (but *not* on the PC), there is a hack that works in your favor: being inside a building still counts, so long as it's daytime outside. This means you can stand in the Adventurers' Guild, shop the inventory at Garth's, chat with the Review Board, hang out at a Temple or Roscoe's, or simply wait around at the "Press any key" screen after exploring a building. 
 
-As a matter of copy protection (or maybe just to force you to actually explore the city a bit) the Review Board may ask you one of the following questions when you level up:
+On the PC, you're going to be stuck with standing around outside where you're likely to get jumped by random encounters. There's not much to be done about this, unfortunately.
 
-- What is the name of the central square? `GRAN PLAZ`
-- What street cuts into Blue Highway west of Stonework? `GREY KNIFE`
-- Name the street that faces north into Kylearan's Tower? `HAWK SCABBARD`
-- Identify the street that snakes through the city just north of the central square? `SERPENT`
-- What street lies between Night Archer and Emerald? `TEMPEST`
+It's slow to restore SP the natural way but it's free, and in the early going you won't have enough money to do anything else. I recommending looking for your emulator's "turbo" button to make the time pass a bit faster.
 
-Here's the required XP per level by class. Don't think too hard about the way that the table for Monks weaves ahead and behind the table for Warriors.
-
-| Level | Warrior, Paladin, Hunter,<br/>Bard, Rogue | Monk,<br/>Conjurer, Magician | Sorcerer  |   Wizard   |
-| :---: | :---------------------------------------: | :--------------------------: | :-------: | :--------: |
-|   2   |                   2,000                   |            1,800             |   7,000   |   20,000   |
-|   3   |                   4,000                   |            4,000             |  15,000   |   50,000   |
-|   4   |                   7,000                   |            6,000             |  25,000   |   80,000   |
-|   5   |                  10,000                   |            10,000            |  40,000   |  120,000   |
-|   6   |                  15,000                   |            14,000            |  60,000   |  160,000   |
-|   7   |                  20,000                   |            19,000            |  80,000   |  200,000   |
-|   8   |                  30,000                   |            29,000            |  100,000  |  250,000   |
-|   9   |                  50,000                   |            50,000            |  130,000  |  300,000   |
-|  10   |                  80,000                   |            90,000            |  170,000  |  400,000   |
-|  11   |                  110,000                  |           120,000            |  220,000  |  600,000   |
-|  12   |                  150,000                  |           170,000            |  300,000  |  900,000   |
-|  13   |                  200,000                  |           230,000            |  400,000  | 1,300,000  |
-|  14   |                  400,000                  |           430,000            |  800,000  | 2,600,000  |
-| add'l |                 +200,000                  |           +200,000           | +400,000  | +1,300,000 |
-
-Spell levels are granted on the odd character levels:
-
-| Character<br/>Level | Spell<br/>Level |  Cost  |
-| :-----------------: | :-------------: | :----: |
-|          1          |        1        |   0    |
-|          2          |                 |        |
-|          3          |        2        | 1,000  |
-|          4          |                 |        |
-|          5          |        3        | 2,000  |
-|          6          |                 |        |
-|          7          |        4        | 4,000  |
-|          8          |                 |        |
-|          9          |        5        | 7,000  |
-|         10          |                 |        |
-|         11          |        6        | 10,000 |
-|         12          |                 |        |
-|         13          |        7        | 20,000 |
-
-Leveling up causes a few things to happen:
-
-- Max HP increase. The game rolls your class's [Hit Die](#classes) and adds your [CN](#primary-attributes) bonus. Especially early on, it is *super* important that you get high rolls, at least for your front line. It is totally work scumming emulator save-states to make this happen.
-- Max SP increase, for mages. Every mage class gets 1–4 SP plus IQ bonus.
-- +1 to one of your primary attributes, determined at random. Stats max out at 18 regardless of race and the game will not attempt to improve any stat that is already 18, so if it determines that you're getting a Strength bump this level but you already have ST 18, nothing happens.
-- Your [Attack Priority](#secondary-statistics) may go up.
-
-Finally, don't forget about class changes. Once a mage hits level 5 and acquires spell level 3, they're allowed to pick a different magical discipline (i.e. change class). When you change classes, your character level and XP reset, but you keep your HP, SP, and all previously-acquired spells. This is important because some spells do damage "per [character] level": while your Level 13 Sorcerer was kicking ass with *S2:MIFI* at 13d10+36 damage, your new Level 1 Wizard will not.
-
-Keep in mind that once you leave a class you can't come back to it, so don't be in a rush to jump to Sorcerer just because the spells look tasty. It's generally worth waiting around until you hit level 13 and spell level 7 before changing classes. Acquire spell level 7 in all four classes and you become an Archmage; in *BT1*, that's just an appellation, but if you're planning on [exporting your party to *BT2*](#transferring-to-bards-tale-ii), Archmage becomes a fifth caster class that you'll definitely want.
-
-Wizard can't be your _first_ class change, so the standard progression would be to have your Conjurers become Magicians (and vice versa), then proceed to Sorcerer and Wizard. However, it's worth considering some alternatives; *S5:MIBL* is one of the best "zap" spells in the game, so moving your Conjurer to Sorcerer immediately might give you a nice boost before you get to Harkyn's Castle. Also, consider what happens once you become an Archmage. Wizards need 1.3 million XP per level beyond 13, so you may decide it's worth your time to end up on one of the other classes for the sake of gaining more levels faster.
-
-There's really no wrong way to do it; you're going to gain enough levels over the course of the game to hit Archmage without any difficulty at all, and gaining levels at that point doesn't matter that much because you'll have 300+ SP and HP as a result of having gained nearly 50 levels.
+If you happen to find a Spell Staff, there's another trick you can use: the holder regenerates 1 MP per combat round, so start up a Party Combat and have everyone Defend. No one can attack you while you're in combat and you'll regenerate SP faster than anything besides paying Roscoe.
 
 ### Dungeon Difficulty
 
-*BT1* determines what monsters, traps, and loot to throw at you based on the
+*BT1* determines what [monsters](bestiary.html), traps, and [loot](equipment.html) to throw at you based on the
 difficulty level of the current map. There are 127 items and 127 monsters, each
 of which is broken up into sixteen groups of eight. Groups are then assigned to
 dungeon levels as shown here:
@@ -452,9 +511,9 @@ monsters and items in groups II, III, IV, and V. Stated the other way:
 |  XIV  | Mangar's 4–5                                                |
 
 Items and monsters in groups XV and XVI are never generated randomly; they
-exist only by being summoned, or by being part of a special event. As an
+exist only by being summoned or by being part of a special event. As an
 example, Tarjan's Eye appears only as a special item after defeating Aildreck
-on Catacombs 3.
+on Level Three of the Catacombs.
 
 Traps on chests in dungeons are determined randomly by rolling a number from
 1–4 and then looking at the Traps entry on the difficulty table. If a letter
@@ -471,6 +530,92 @@ appears twice, it is twice as likely as the others to be generated. Note that
 | M    | Mindtrap      | +`POSS` |
 | P    | Poison Needle | +`PSND` |
 | S    | Shocker       | damage  |
+
+### Acquiring Loot
+
+Particularly in the early part of the game, you're going to be obsessed with how much money you can gather, mostly because you'll be spending a lot of it on healing at Temples. So how does that work?
+
+When an encounter ends (presuming you win, of course), you get a batch of experience points (XP) for all the [monsters](bestiary.html) you killed. If you're in Skara Brae fighting monsters in the streets (or in houses), you'll also collect a random amount of gold, and there's a random chance of finding one or more items.
+
+In dungeons, you're usually presented with a chest. Chests are never locked but they might be (probably are) trapped. You have a couple of options for removing the trap: *C1:TRZP* is cheap, easy, effective, and by far the safest option. Otherwise, you can simply Open the chest, which automatically sets off any trap that exists, or you can try to Disarm the trap.
+
+Each party member can Examine a chest, once, to try to figure out what kind of trap it is; they may not find one, but you won't set off the trap by doing this. Rogues have a much higher chance than anyone else of getting it right. Once you think you know what it is, pick a character to Disarm the chest and type in the name of the trap. (See the previous section for a list of the trap names and where they can appear.) Don't spell it wrong! If you identify the trap correctly you disarm it and open the chest.
+
+If you guess wrong (or if you just Opened the chest without Disarming), the
+game rolls a number from 0-255; if your LK attribute is larger than the
+number it rolled, you disarm the trap anyway. Otherwise, you set off the trap, and everyone has to make a Saving Throw to avoid its effects.
+Regardless of how you got the chest open, you then collect money and (maybe)
+items as usual.
+
+Finally, you can just (L)eave the chest alone. You won't collect any items, and depending on the platform you might get no gold or you might get $1 each.
+
+### Experience and Leveling Up
+
+So you've sent your characters out into the world, and they've spent a few happy hours beating up on bad guys. And just like every fantasy role-playing game, eventually they collect enough Experience Points to go up a level, whatever that means. The thing that makes *BT1* special is that the manual *explicitly doesn't tell you* where the training facility is; you have to go find it!
+
+Spoiler alert: the Review Board is 7N 3W 2S 1E from the Adventurers' Guild. Lord knows the first part of the game isn't hard enough without *not knowing* where to train your characters.
+
+The Board will tell you how many XP you need before you can train for the next level, promote you when you get there, sell you new spell levels when you're ready, and allow your mages to change your classes. Everything is free except new spell levels, which is honestly a little odd for a training model like this.
+
+As a matter of copy protection (or maybe just to force you to actually explore the city a bit) the Review Board may ask you one of the following questions when you level up:
+
+- What is the name of the central square? `GRAN PLAZ`
+- What street cuts into Blue Highway west of Stonework? `GREY KNIFE`
+- Name the street that faces north into Kylearan's Tower? `HAWK SCABBARD`
+- Identify the street that snakes through the city just north of the central square? `SERPENT`
+- What street lies between Night Archer and Emerald? `TEMPEST`
+
+Here's the required XP per level by class. Don't think too hard about the way that the table for Monks weaves ahead and behind the table for Warriors.
+
+| Level | Warrior, Paladin, Hunter,<br/>Bard, Rogue | Monk,<br/>Conjurer, Magician | Sorcerer |   Wizard   |
+| :---: | :---------------------------------------: | :--------------------------: | :------: | :--------: |
+|   2   |                   2,000                   |            1,800             |  7,000   |   20,000   |
+|   3   |                   4,000                   |            4,000             |  15,000  |   50,000   |
+|   4   |                   7,000                   |            6,000             |  25,000  |   80,000   |
+|   5   |                  10,000                   |            10,000            |  40,000  |  120,000   |
+|   6   |                  15,000                   |            14,000            |  60,000  |  160,000   |
+|   7   |                  20,000                   |            19,000            |  80,000  |  200,000   |
+|   8   |                  30,000                   |            29,000            | 100,000  |  250,000   |
+|   9   |                  50,000                   |            50,000            | 130,000  |  300,000   |
+|  10   |                  80,000                   |            90,000            | 170,000  |  400,000   |
+|  11   |                  110,000                  |           120,000            | 220,000  |  600,000   |
+|  12   |                  150,000                  |           170,000            | 300,000  |  900,000   |
+|  13   |                  200,000                  |           230,000            | 400,000  | 1,300,000  |
+|  14   |                  400,000                  |           430,000            | 800,000  | 2,600,000  |
+| add'l |                 +200,000                  |           +200,000           | +400,000 | +1,300,000 |
+
+Spell levels are granted on the odd character levels:
+
+| Character<br/>Level | Spell<br/>Level |  Cost  |
+| :-----------------: | :-------------: | :----: |
+|          1          |        1        |   0    |
+|          2          |                 |        |
+|          3          |        2        | 1,000  |
+|          4          |                 |        |
+|          5          |        3        | 2,000  |
+|          6          |                 |        |
+|          7          |        4        | 4,000  |
+|          8          |                 |        |
+|          9          |        5        | 7,000  |
+|         10          |                 |        |
+|         11          |        6        | 10,000 |
+|         12          |                 |        |
+|         13          |        7        | 20,000 |
+
+Leveling up causes a few things to happen:
+
+- Max HP increase. The game rolls your class's [Hit Die](#classes) and adds your [CN](#primary-attributes) bonus. Especially early on, it is *super* important that you get high rolls, at least for your front line. It is totally work scumming emulator save-states to make this happen.
+- Max SP increase, for mages. Every mage class gets 1–4 SP plus IQ bonus.
+- +1 to one of your primary attributes, determined at random. Stats max out at 18 regardless of race and the game will not attempt to improve any stat that is already 18, so if it determines that you're getting a Strength bump this level but you already have ST 18, nothing happens.
+- Your [Attack Priority](#secondary-statistics) may go up.
+
+Finally, don't forget about class changes. Once a mage hits level 5 and acquires spell level 3, they're allowed to pick a different magical discipline (i.e. change class). When you change classes, your character level and XP reset, but you keep your HP, SP, and all previously-acquired spells. This is important because some spells do damage "per [character] level": while your Level 13 Sorcerer was kicking ass with *S2:MIFI* at 13d10+36 damage, your new Level 1 Wizard will not.
+
+Keep in mind that once you leave a class you can't come back to it, so don't be in a rush to jump to Sorcerer just because the spells look tasty. It's generally worth waiting around until you hit level 13 and spell level 7 before changing classes. Acquire spell level 7 in all four classes and you become an Archmage; in *BT1*, that's just an appellation, but if you're planning on [exporting your party to *BT2*](#transferring-to-bards-tale-ii), Archmage becomes a fifth caster class that you'll definitely want.
+
+Wizard can't be your _first_ class change, so the standard progression would be to have your Conjurers become Magicians (and vice versa), then proceed to Sorcerer and Wizard. However, it's worth considering some alternatives; *S5:MIBL* is one of the best "zap" spells in the game, so moving your Conjurer to Sorcerer immediately might give you a nice boost before you get to Harkyn's Castle. Also, consider what happens once you become an Archmage. Wizards need 1.3 million XP per level beyond 13, so you may decide it's worth your time to end up on one of the other classes for the sake of gaining more levels faster.
+
+There's really no wrong way to do it; you're going to gain enough levels over the course of the game to hit Archmage without any difficulty at all, and gaining levels at that point doesn't matter that much because you'll have 300+ SP and HP as a result of having gained nearly 50 levels.
 
 ### Weird Stuff
 
@@ -501,7 +646,7 @@ You've read all of my warnings and preparatory information. You've got your
 party of adventurers rolled up and ready to go kick in some doors. On to the
 actual guide.
 
-One more quick note before we start: As I describe the dungeon levels, I've
+One quick note before we start: As I describe the dungeon levels, I've
 included a "Fast Way." This is, to my reckoning, the fastest way to "get
 through" a floor. What that means varies a bit; sometimes it's simply getting
 from the entry stairs to the exit stairs, sometimes it involves stopping to
@@ -631,12 +776,8 @@ A word on the game's maps. Every dungeon level sits on a 22x22 grid that can (at
 
 There isn't actually anything "interesting" to do in the Wine Cellar; you're mostly here to grind. I recommend patrolling the SW quadrant of the map; there are three fixed encounters within easy striking distance of the exit stairs, and you'll probably want to just smash-and-grab those for a little while. Run in, kill some beasts, take some damage, and... what's this? a *chest*?
 
-Yup, instead of just giving up their gold, every combat you fight in a dungeon ends in a chest. Some significant percentage of those chests are trapped. Your options are to cast *C1:TRZP* (always works), try to disarm it yourself, open it without trying to disarm any traps (automatically sets them off), or just leave it there.
-
-Each party member can Examine a chest to try to figure out what kind of trap it is; they may not find one, but this action is safe. Once you think you know what it is, pick a character to Disarm the chest and type in the name of the trap. Don't spell it wrong! If you identify the trap correctly you disarm it and open the chest.
-
-The names of the traps and the dungeon levels on which they exist is in the [Dungeon Difficulty](#dungeon-difficulty) section, which you should go read right now. Back? Great. Note that there's only one kind of
-trap in the Wine Cellar (dungeon level 1), which makes disarming chests really easy: just guess
+Yup, instead of just giving up their gold, every combat you fight in a dungeon ends in a chest. This would be a good time to read the section on [Acquiring Loot](#acquiring-loot), if you haven't already. Back? Great. Note that there's only one kind of
+trap in the Wine Cellar (difficulty level 1), which makes disarming chests really easy: just guess
 `POISON NEEDLE` and you'll be right every time! Who needs a Rogue?
 
 Okay, back to the dungeon itself. As you get more practice with dungeon diving, explore the SW and NW quadrants to your heart's content. Don't bother going
@@ -657,7 +798,7 @@ Once you drop into the Sewers the list of traps increases, so you'll want your p
 
 This level is basically a giant maze. There are several pockets of magical Darkness, which will extinguish your light source (be it a Torch, Lamp, spell, or magic item). Fortunately, the game will tell you every time you step on a Dark square, so you'll know when it's gone and it's safe to produce a new light source. If you know you're going to be walking through Darkness, keep a handful of Torches or Lamps around so you're not burning too much SP on magic light.
 
-You could spend hours of game time mapping out this level. It's twisty and full of pockets and closets and descriptive text and a few teleport traps. Remember to keep an eye on your resources and bail out before it becomes a problem.
+You could spend hours mapping out this level. It's twisty and full of pockets and closets and descriptive text and a few teleport traps. And this is only the first (real) dungeon level you'll face! Remember to keep an eye on your resources and bail out before it becomes a problem.
 
 There's very little that you need to do on this level, even if you aren't going to rely on this walkthrough to give you all the clues you need. 
 
@@ -666,7 +807,7 @@ There's very little that you need to do on this level, even if you aren't going 
 - At (12,07) another inscription informs you that "golems are made of stone", which doesn't help much.
 - At (09,21) you learn to "pass the light at night." That's a hint you'll use on Level Two.
 
-In order to get down to Level Two you'll need to fight that pack of Black Widows and navigate through Darkness.
+In order to get down to Level Two you'll need to fight that pack of Black Widows and navigate through Darkness.
 
 #### Sewers, Level 2
 
@@ -679,11 +820,11 @@ In order to get down to Level Two you'll need to fight that pack of Black Widow
 More mazes, more Darkness, more groups of Spiders and Black Widows to fend off.
 Assuming you're capable of curing +`PSND` with *C4:FLRE* it shouldn't be much of a
 problem, but keep an eye on your SP and remember that you have to face one more
-group of Black Widows on your way out. Otherwise, Black Widows are great for
+group of Black Widows on Level One on your way out. Otherwise, Black Widows are great for
 grinding XP. The first pocket is at (20,13), near the entrance. There are
 Spiders at (21,16) as well.
 
-The dungeon difficulty level here is the same as Level One, so if you're just here to grind you're kind of wasting your time. There are a few clues that are worth picking up, though:
+The dungeon difficulty level here is the same as Level One, so if you're just here to grind you're kind of wasting your time. There are a few clues that you will need to pick up, though:
 
 - At (00,04) there's a spot with a searing bright light. If you enter it you'll take
   massive damage. The light disappears at night, which you might figure out if
@@ -699,17 +840,51 @@ The dungeon difficulty level here is the same as Level One, so if you're just he
 
 There are two pockets of Darkness on this floor, both of which you should simply avoid. The section in the NW corner of the map (entrance at 01,11) has a small room along the N wall with a hole in the floor that will
 take you down to Level Three. In the S-central part of the map there's another
-Dark section (entrance at 08,01) with nothing to speak for it. Both sections have traps in them,
+Dark section (entrance at 11,09) with nothing to speak for it. Both sections have traps in them,
 but you won't be able to find traps without *S1:LOTR*. You have a chance to avoid travel traps if *C3:LEVI* is active. (Oddly, if you
 fail that check, it's possible to "fall into a spiked pit" while levitating.) You can also use *C1:TRZP* to disarm traps during travel, if you know where they are and you're facing the right direction.
 
 Level Three of the Sewers is the same as Level One of the [Catacombs](#temple-of-the-mad-god) in terms of difficulty, so at this point in the game I don't recommend going any further. Head back to town and go check out the Mad God's Temple, if you're ready for it. You'll come back here eventually once you're ready to break into [Mangar's Tower](#mangars-tower-and-endgame), but that won't be for a long while.
 
-There are actually two ways down to Level Three; the one I mentioned above is at (05,21) and it drops you nowhere special, but if you're just here to grind and explore it might be a better choice. Crossing that Dark patch is annoying, though. The other one, at (21,11) where *The Fast Way* directs you, drops you closer to the exit from Level Three.
+There are actually two ways down to Level Three; the one I mentioned above is at (05,21) and it drops you nowhere special, but if you're here to explore it might be a better choice. Crossing that Dark patch is annoying, though. The other one, at (21,11) where *The Fast Way* directs you, drops you closer to the exit from Level Three.
 
 #### Sewers, Level 3
 
+*The Fast Way:* 2W 3N 1W (x) 2N 1W
+
+(On most implementations, cast *C3:LEVI* and hit `E` to levitate up through a hole in the ceiling.)
+
+The east side of this map features a grid of similar 2x2 rooms that are designed to confuse and contain a pair of teleport traps just to make your life harder. If you've got a high-level party and are heading for Mangar's Tower, *The Fast Way* will get you to the long staircase up at (17,16) with a minimum of fuss.
+
+If you're here to explore or make maps, I'll say this: on my map-drawing playthrough, I ground my way through the Sewers until I'd touched every square on all four levels and wound up with 13th level characters that were ready for a class change. You won't need to go that far before you take on the Temple, but it's a nice checkpoint.
+
+The western side of the map has plenty of opportunities for grinding and one area of Darkness, but only one real hint:
+
+- (07,13) "The hand of time writes and cannot erase." An interesting saying, but not a useful one.
+- (05,00) "Seek the snare from behind the scenes." You'll get some more hints about the Spectre Snare later in the game; this one hints at the fact that it's in the room *behind* Mangar, which can actually be reached before you fight him if you try hard enough.
+
+Actually, you should consider taking Mangar's stairs up to Skara Brae even if you aren't actually heading there next. It drops you inside his gates, but you can *exit* the tower gates without a problem and you may not need to fight off the Guardian Statues if you approach from this side.
+
 ### Temple of the Mad God
+
+In the Gran Plaz that dominates the center of Skara Brae there are four Temples, one along each side. If you're clever and have been writing down every clue verbatim, you might notice that the Temple on the east side of the Plaz is dedicated to "the Mad God". Furthermore, if you speak to the priests there, they'll ask you for the name of "the Mad One". Put all of that together with the lengthy clue you found in the Sewers and the correct answer is `TARJAN`.
+
+Your goal here is to grind up to the *second* class change, but the XP should flow a lot faster than it did in the Sewers, and Level V loot starts to get into some useful stuff. (Don't sleep on the fact that Mithril Scale can be used by casters!) If you skipped through the Sewers pretty quickly, you're probably around level 9. If your front line has around 150 HP and your casters have level 4 spells, you'll probably be okay, but be careful. If you cleaned out the Sewers and got your first class change already, Catacombs Level One should be a snap and you're probably ready for the lower levels.
+
+Unfortunately, Wizards get all the good anti-undead spells, which would really come in handy because there are a *lot* of undead here, especially
+on Level Three, and many of them have special attacks. But you can't get Wizard spells until the second class change at the earliest.
+
+#### Catacombs, Level 1
+
+Take care if you're underpowered — you're likely to draw some large groups of casters, and even the Magicians you find down here will do some serious damage with *M3:STFL* or similar. Wights can +`OLD` and so can Ghouls (which are out-of-depth special encounters), so you're pretty likely to get Aged a lot, which will probably knock a couple of points off your AC as it drops all of your [primary attributes](#primary-attributes) down to 1. And it's expensive to cure. And you can only cure it at a Temple.
+
+- (03,12) 66 Skeletons, ~1200 XP
+- (18,09) 28 Zombies, ~2400 XP
+- (21,10) inside the Burial Chamber, 45 Zombies, ~3800 XP
+
+#### Catacombs, Level 2
+
+#### Catacombs, Level 3
 
 ### Harkyn's Castle and Kylearan's Tower
 
@@ -747,7 +922,7 @@ So, no speed run for you.
 
 ### Hex Editing
 
-Hex editing your characters is trivially easy on the PC: every character in the Guild's roster is saved in an individual file with a `.TPX` extension. There are lots of DOS utilities out there that will hack your character files for you; don't bother doing it yourself.
+Hex editing your characters is trivially easy on the PC: every character in the Guild's roster is saved in an individual file with a `.TPX` extension. There are lots of DOS utilities out there that will hack your character files for you, although I don't think any of them are quite this complete.
 
 Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-endian, meaning the smallest byte comes first. So if you read two bytes `ab 02`, that's 683 (0x02ab), not 43778 (0xab02).
 
@@ -772,7 +947,7 @@ Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-en
     <th>0f</th>
   </tr><tr>
     <td class="c"><b>00</b></td>
-    <td class="c" colspan="14">Character name, null-terminated</td>
+    <td class="c" colspan="14">Name</td>
     <td class="c">00</td>
     <td class="c">00</td>
   </tr><tr>
@@ -828,10 +1003,8 @@ Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-en
     <td class="c">00</td>
     <td class="c">00</td>
     <td class="c">00</td>
-    <td class="c">??</td><!-- hunter: 0x62=98 -->
-    <td class="c">00</td>
-    <td class="c">BS</td>
-    <td class="c">00</td>
+    <td class="c" colspan="2">Crit</td>
+    <td class="c" colspan="2">Songs</td>
     <td class="c">00</td>
   </tr><tr>
     <td class="c"><b>60</b></td>
@@ -843,13 +1016,15 @@ Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-en
     <td class="c" colspan="2">Att</td>
     <td class="c">00</td>
     <td class="c">00</td>
-    <td class="c">??</td><!-- hunter: 0xa4=164, mages 0xbf=191 -->
-    <td class="c">00</td>
+    <td class="c" colspan="2">Fights</td>
     <td class="c">00</td>
     <td class="c">00</td>
     <td class="c" colspan="3"></td>
   </tr>
 </table>
+
+The character's **Name** (`0x00–0f`) uses normal ASCII character codes and is terminated by the first null (`0x00`) byte; garbage characters may make up the rest of the string, but won't be printed.
+
 **P/C** (`0x10`) is `01` if this is a **Character** file and `02` if this is a **Party** file.
 
 **Status** (`0x11`) is a bitmask; `00` is healthy with no [statuses](#statuses). Change the hex to binary and read the bits from left to right: `NUTS`, `POSS`, `PARA`, `STON`, `POIS`, `OLD`, `DEAD`. As an example, `40` in hex is `0100 0000` in binary, so +`POSS`. The rightmost bit isn't used, and `PARA` wasn't actually implemented.
@@ -866,10 +1041,18 @@ Stats that appear twice (including HP and SP) are presented with their maximum v
 
 **Spell Levels** (`0x52-55`) are one byte per class, Conjurer, Magician, Sorcerer, Wizard.
 
-Number of **Bard Songs** (`0x5d`) remaining.
+For Hunters, the current **Critical Hit** score (`0x5b-5c`, although it maxes at 255 so it's really only one byte).
+
+For Bards, the number of **Bard Songs** (`0x5d`) remaining.
 
 **Attacks per round** (`0x65-66`) is offset one, so `00 00` indicates one attack per round.
 
+The number of **Fights** (`0x69–6a`) that this character has won; affects Attack Priority.
+
+------
+
+You can also look at Garth's inventory, which is stored in the file called `ITEMS`. This one's even more straightforward. The first 23 bytes are `0xff`, because those slots at Garth's are fixed and have infinite supply. Everything past that is the hex ID of an item that you've sold back to Garth. (Multiple items of the same type stack.)
+
 ### Transferring to Bard's Tale II
 
-If you are of the opinion that *BT1* doesn't keep track of AC below -10, then before you put the game away I highly recommend you run back to Garth's and load up with as much protective gear as they can wear. *BT2* keeps track of AC down to at least -20, so it's worth your while to bring in well-protected characters.]
+If you are of the opinion that *BT1* doesn't keep track of AC below -10, then before you put the game away I highly recommend you run back to Garth's and load up with as much protective gear as they can wear. *BT2* keeps track of AC down to at least -20, so it's worth your while to bring in well-protected characters.

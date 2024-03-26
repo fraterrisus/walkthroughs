@@ -12,7 +12,7 @@ Monsters, like [items](equipment.html), are divided into eight difficulty groups
 
 Listed **XP** is *per monster*; **Group** sizes are the *maximum* possible.
 
-**Special Attacks:** Mostly this column contains **Statuses** that can be inflicted by the monster's melee attack, or **Spells** that work the same way as [yours](magic.html). Several monsters can **Criti**cal hit, similar to the Hunter's ability. Dragons and some Demons have **Breath** weapons. High-level undead can **Drain** levels, which is the worst special attack in all of CRPGs forever anywhere. 
+**Special Attacks:** Mostly this column contains **Statuses** that can be inflicted by the monster's melee attack, or **Spells** that work the same way as [yours](magic.html). Several monsters can **Criti**cal hit, similar to the Hunter's ability. Dragons and some Demons have **Breath** weapons. High-level undead can **Drain** levels, which is the worst special attack in all of CRPGs forever anywhere. (Of course, *Bard's Tale* has its own bizarre quirk with level drain that you can use to your favor; see [Weird Stuff](walkthrough.html#weird-stuff).)
 
 Dopplegangers have the unique ability to **Mimic** a party member; they join your party, and can only be rooted out by targeting them with attacks. (You may need to start a Party Fight to do this.)
 

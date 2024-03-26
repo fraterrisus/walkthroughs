@@ -387,7 +387,7 @@ You won't be able to control Allies during combat. In practice, they almost
 always attack Group A of enemies. Many Allies can also cast spells or have
 other effects, as described in the [Bestiary](bestiary.html).
 
-The first three character slots, plus the NPC slot, are considered to be within
+The first three character slots plus the NPC slot are considered to be within
 melee range, so it's best to fill those slots with characters with good AC and
 high HP. Unfortunately, you can't rearrange your party during combat.
 
@@ -407,7 +407,7 @@ Things get more interesting once you start dungeon diving and coming up against 
 
 On the other hand, if there are Magicians hanging out in Group C or Group D, you need to take care of them as quickly as possible. Group zap spells are invaluable. If the group is small enough you might be able to pick them off with *C1:ARFI*. Otherwise, you should prioritize clear out an entire group of enemies in front of them so they slide forward into melee range.
 
-Check out the [Bestiary](bestiary.html) for details on the special attacks available to the critters you'll come up against, so you can better prioritize where to spread your damage around.
+Check out the [Bestiary](bestiary.html) for details on the special attacks available to the critters you'll come up against, so you can better prioritize where to spread your damage around.
 
 ### Health and Dying
 
@@ -622,6 +622,8 @@ There's really no wrong way to do it; you're going to gain enough levels over th
 On the IBM version, you can hit `Z` at any time to add an Earth Elemental to your party in the summon slot. For free. I presume this was a debugging feature that they forgot to take out? It doesn't work on most other platforms, but it certainly makes the opening phase of the game easier!
 
 On the Apple IIgs, at the [Temple of the Mad God](#temple-of-the-mad-god), say `BURGER` instead of `TARJAN` and you'll get jumped by 99 Ancient Enemies, 99 Gimps, 99 Jabberwocks, and 99 Maze Masters. They all hit before you do and several of them have breath weapons; you won't survive.
+
+If you get level drained, the priests at any given Temple can restore your lost level. When they do – and it's expensive – your XP is returned not to its former place, but to a sufficient number of XP to allow you to level up again for free! As an example, let's say your level 13 Paladin has 210,000 XP when he faces Aildreck the Spectre. Aildreck hits and drains a level, which drops your Paladin down to level 12 (and under 200,000 XP). If you return to town and pay a Temple to restore the level (returning your Paladin to level 13), suddenly your Paladin has 400,011 XP, which is enough to advance to level 14 if you visit the Review Board.
 
 ## Equipment
 
@@ -876,13 +878,60 @@ on Level Three, and many of them have special attacks. But you can't get Wizard 
 
 #### Catacombs, Level 1
 
-Take care if you're underpowered — you're likely to draw some large groups of casters, and even the Magicians you find down here will do some serious damage with *M3:STFL* or similar. Wights can +`OLD` and so can Ghouls (which are out-of-depth special encounters), so you're pretty likely to get Aged a lot, which will probably knock a couple of points off your AC as it drops all of your [primary attributes](#primary-attributes) down to 1. And it's expensive to cure. And you can only cure it at a Temple.
+*The Fast Way*: 3E 4N 1E 1S 1E 2N, face N and *C1:TRZP*, 5N 2W 1N 3W 5N 1E 3N 1W 2N 2W 2S 2S, face S and *C1:TRZP*, 3S 2W 1S.
 
-- (03,12) 66 Skeletons, ~1200 XP
-- (18,09) 28 Zombies, ~2400 XP
-- (21,10) inside the Burial Chamber, 45 Zombies, ~3800 XP
+*The Fast Way with M6:PHDO:* face S and *M6:PHDO*, 1S 2W 2S 2W, face S and *C1:TRZP*, 3S 2W 1S
+
+A new dungeon comes with a new special square: Smoke In Your Eyes. There are two spots on this level, nearly mirrors of each other, in the south-central and north-central part of the map. When you step in one, your vision is permanently reduced to 0', meaning you can only see what's directly in front of you. To clear it, exit the special square(s) and cast a new light spell (or equivalent effect). These squares are annoying but not harmful, and on this floor there's no reason you need to step on one if you're using a good map.
+
+Looking over the level, the SW corner where you enter is isolated from the rest by a floor trap at (05,06). If you've got a Sorcerer in the party already then having *S1:LOTR* running isn't a bad idea. Without even passing that point there are plenty of fixed combats that you can repeatedly run through without straying too far from the exit stairs. Similar to our first foray into the Wine Cellar, and especially if you're underpowered, I recommend running this quarter several times until you're powerful enough to comfortably clear the area.
+
+You are likely to draw some large groups of casters as you wander the area. Even the Magicians you find down here will do some serious damage with *M3:STFL* or similar. There are two out-of-depth special encounters along the S wall, including one batch of Wights and another of Ghouls. They give good XP, but they can both +`OLD` so you're pretty likely to get Aged a lot. That will probably knock a couple of points off your AC as it drops all of your [primary attributes](#primary-attributes) down to 1. And it's expensive to cure. And you can only cure it at a Temple. Other than that it's not so bad!
+
+When you're ready to branch out a bit, clear the floor trap and proceed further N. There's a big group of Skeletons at (03,12) worth around 1200 XP, and if you take the door at (00,09) and head W you'll find a group of Zombies worth about twice that. S of there, in the SE corner of the map, there's an area full of Darkness that you can bump around in and try to navigate. But the only things you'll find there are an inscription:
+
+- (18,00) "Fifteen doors east and thou art there / On souls they feast in the Dark One's lair"
+
+and another big batch of Skeletons. Not really worth your time; even the hint isn't particularly useful.
+
+Find the big open area in the center of the floor, then go E until you find a short hallway leading to a door. Beyond is the Burial Preparation Chamber. In the NE corner of that room is a secret door with a trap beyond it. Head through the door S and there's another big group of Zombies at (21,10) worth ~3800 XP. If you feel like burning SP, this one's really easy to get to from the hallway with the other Zombie fight and a few judicious castings of *M6:PHDO*.
+
+One more clue that foreshadows the boss fight but doesn't actually offer any useful information:
+
+- (21,16) "The ancient Witch King yet lives."
+
+And that's about it for the floor. There's a smattering of fights here and there but not much to speak of. Find the trap at (18,18) and proceed S down a short, winding hallway to the staircase.
 
 #### Catacombs, Level 2
+
+*The Fast Way:* 1E 1N 2W 3S 3E 4N 4W 5S 2W 6S, face S and *C1:TRZP*, 1S 2W 1N 1E 2N (secret door).
+
+*The Fast Way with M6:PHDO:* 1E 1N 2W 3S 3E 4N 4W 5S 2W 5S, face W and *M6:PHDO*, 1W.
+
+Level Two is broken up into four quadrants: the NE where you come down from above, the north-central where High Priest Kavilor's chambers are, the labyrinth in the NW, and the southern half. You start in the NE in the center of a spiral. Wind your way to the outer ring where doors surround you and you'll find plenty enough fights to keep you occupied for as long as you like. Just don't accidentally take the one-way door in the NE corner.
+
+Note that this is a step up in [difficulty](#dungeon-difficulty) from Level One, which is one reason I recommend coming down here to grind. The loot's pretty good, too: Mithril everything, Shield Staves for your mages, serious weapon upgrades, and even the odd Shield Ring. Grind here long enough and you should get major equipment upgrades for your entire party.
+
+Visiting (and killing) High Priest Kavilor isn't required, but you do want the clue that's just beyond his chambers. Take the one-way door N from (19,17) and follow the long, winding hallway around. It ends in a door and an anti-magic zone, which will cancel your Ybarra's Mystic Shield (but not your light spells, at least). On the far side of the door is a warning and a 3x3 room that is chock-full of traps. Re-cast *M3:MYSH* (or *M7:YMCA*), blow a few *C1:TRZP* spells, and take the S door. This drops you into a winding hallway full of Darkness. Fortunately there's only one way out at the end, and Priest Kavilor is on the other side.
+
+> You have entered the living chambers of Bashar Kavilor, the High Priest. He screams, "Infidel! Face now the wrath of a servant of the Mad One!"
+>
+> I think you're in trouble.
+
+Kavilor is a Master Sorcerer who casts something like *C6:SHSP* and has a nasty habit of summoning allies that are more annoying than he is. Don't forget that *M5:ANMA* helps protect against dragon's breath, too. Once you take care of him, there's a few more things to do.
+
+- (11,11) A short poem: "To the tower fly / A mad one die / Once lost an eye". This is a clue towards the statue of Tarjan that you'll find later on in Harkyn's Castle. It's missing an Eye, which you'll find on Level Three of the Catacombs.
+- (06,11) 49 Wights, ~8400 XP. You'll probably get hit with +`OLD` but the XP is really good for a single-group combat at this point. A *M6:PHDO* at (12,11) facing W is a great way to get here repeatedly.
+
+- (06,13) Kavilor's pet Grey Dragon, Sphynx. He's guarding the only way out of here without using *M6:PHDO*, but otherwise isn't really worth the trouble (and the potential breath weapon damage) unless you're trying to preserve spell points.
+
+> This is the High Priest's treasure chamber. His pet dragon, Sphynx, peers at you hungrily. "Sphynx eat now," it growls.
+
+The less we talk about the S half of the map, the better. Endless E-W hallways with traps at every intersection and 3x3 or 4x3 rooms with little warrens of rooms and hallways. The thing you really need to know is where the stairs down are, and I recommend following *The Fast Way* directions above for that: there's a door in the SW corner of that starting quadrant that drops you a few steps from the stairs.
+
+If you accidentally find yourself walking through the secret door in the S wall onto row (00), you lose either way you walk. In the SW corner is one of Bryan Fargo's favorite tricks, the Stasis Chamber. Blow past the warning sign and enter the Chamber and your characters will be paralyzed and effectively unable to move or turn. But you can *C7:APAR*, and conveniently you're at (00,00) so all you have to do is go Up 1 floor and you're at the exit. The effect goes away as soon as you move off that square.
+
+The SE corner, by contrast, just has fifteen one-way doors... hang on a sec, this sounds familiar. Didn't we read a clue about this on Level One? Sure enough the Soul Sucker awaits at the end of the row. He's got a nasty breath weapon, and there is literally no exit from his corner office without *M6:PHDO*, so don't say I didn't warn you.
 
 #### Catacombs, Level 3
 
@@ -996,8 +1045,8 @@ Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-en
   </tr><tr>
     <td class="c"><b>50</b></td>
     <td class="c">Lv'</td>
-    <td class="c">00</td>
     <td class="c" colspan="4">Spell Levels</td>
+    <td class="c">00</td>
     <td class="c">00</td>
     <td class="c">00</td>
     <td class="c">00</td>
@@ -1023,11 +1072,12 @@ Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-en
   </tr>
 </table>
 
+
 The character's **Name** (`0x00–0f`) uses normal ASCII character codes and is terminated by the first null (`0x00`) byte; garbage characters may make up the rest of the string, but won't be printed.
 
-**P/C** (`0x10`) is `01` if this is a **Character** file and `02` if this is a **Party** file.
+**P/C** (`0x10`) is `01` if this is a *Character* file and `02` if this is a *Party* file. If it's a Party file, it's followed by up to six character names (null-terminated 16-byte strings).
 
-**Status** (`0x11`) is a bitmask; `00` is healthy with no [statuses](#statuses). Change the hex to binary and read the bits from left to right: `NUTS`, `POSS`, `PARA`, `STON`, `POIS`, `OLD`, `DEAD`. As an example, `40` in hex is `0100 0000` in binary, so +`POSS`. The rightmost bit isn't used, and `PARA` wasn't actually implemented.
+**Status** (`0x11`) is a bitmask; `00` is healthy with no [statuses](#statuses). Change the hex to binary and read the bits from left to right: `NUTS`, `POSS`, `PARA`, `STON`, `POIS`, `OLD`, `DEAD`. As an example, `40` in hex is `0100 0000` in binary, so +`POSS`. The rightmost bit isn't used.
 
 **Race** (`0x13-14`) is `00` Human, `01` Elf, `02` Dwarf, `03` Hobbit, `04` Half-Elf, `05` Half-Orc, `06` Gnome
 
@@ -1039,7 +1089,7 @@ Stats that appear twice (including HP and SP) are presented with their maximum v
 
 **Inventory** slots (`0x35-44`) are in two bytes; the first is the item ID, the second is `0x80` if the item is equipped (and I bet the rest of the byte is charges)
 
-**Spell Levels** (`0x52-55`) are one byte per class, Conjurer, Magician, Sorcerer, Wizard.
+**Spell Levels** (`0x51-54`) are one byte per class, Sorcerer, Conjurer, Magician, Wizard.
 
 For Hunters, the current **Critical Hit** score (`0x5b-5c`, although it maxes at 255 so it's really only one byte).
 

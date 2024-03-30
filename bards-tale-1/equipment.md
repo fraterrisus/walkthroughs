@@ -10,11 +10,15 @@ toc:
 
 In the following tables, weapon damage is listed as a range plus a bonus; the bonus applies to damage as well as your To Hit roll. You probably won't notice this at all; I didn't have much difficulty hitting enemies until the Endgame, and at that point even carrying a Troll Staff (+4) didn't make any noticeable difference over Arc's Hammer (+1).
 
+The **Price ($)** column lists Garth's asking price; you can sell him things for 50% of that, and if you need to identify something it will also cost you 50%. Unidentified items sell for their normal value. You can often use these facts together to figure out what something is before you identify it; an "Armor" that sells for $300 is definitely a Bracers of AC 6, etc.
+
 Items with spell effects are listed in the **Casts** column; you can `Use` these items in combat to cast the associated spell. These items have a hidden number of charges and will *disappear* when they run out, so beware of using your prized weapons and shields this way.
 
 The **Group** column indicates the dungeon levels on which the item can be randomly found. Items in group `—` are never found randomly; they only appear in specific places.
 
-## Weapons
+## By Type
+
+### Weapons
 
 <table>
   <tr>
@@ -201,13 +205,15 @@ The **Group** column indicates the dungeon levels on which the item can be rando
     <td class="c"></td>
     <td></td>
   </tr><tr>
-    <td class="r">1000</td>
-    <td class="c">VI</td>
-    <td>Shield Staff</td> 
+    <td rowspan="2" class="r">1000</td>
+    <td rowspan="2" class="c">VI</td>
+    <td rowspan="2">Shield Staff</td> 
     <td class="c">Wa,Pa,Hu,casters</td>
     <td class="c">1–16</td>
     <td class="c">+1</td>
     <td></td>
+  </tr><tr>
+    <td colspan="4"><i>+2 AC</i></td>
   </tr><tr>
     <td rowspan="2" class="r">700</td>
     <td rowspan="2" class="c">IV</td>
@@ -398,7 +404,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
   </tr>
 </table>
 
-## Wands
+### Wands
 
 <table>
   <tr>
@@ -446,7 +452,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
   </tr>
 </table>
 
-## Body Armor
+### Body Armor
 
 <table>
   <tr>
@@ -541,7 +547,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
     <td class="c">+6</td>
     <td></td>
   </tr><tr>
-    <td class="r">4000</td>
+    <td class="r">1600</td>
     <td class="c">IX</td>
     <td>Admt Plate</td>
     <td class="c">Wa</td>
@@ -558,7 +564,8 @@ The **Group** column indicates the dungeon levels on which the item can be rando
 </table>
 
 
-## Gloves
+
+### Gloves
 
 <table>
   <tr>
@@ -606,7 +613,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
   </tr>
 </table>
 
-## Helmets
+### Helmets
 
 <table>
   <tr>
@@ -667,8 +674,9 @@ The **Group** column indicates the dungeon levels on which the item can be rando
     <td></td>
   </tr>
 </table>
+### Shields
 
-## Shields
+Note that all Weapons and Wands are assumed to occupy one hand, so you can always wield a Shield no matter what weapon you have equipped.
 
 <table>
   <tr>
@@ -746,7 +754,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
   </tr><tr>
     <td class="r">2000</td>
     <td class="c">IX</td>
-    <td>Pureshield</td>
+    <td>Pure Shield</td>
     <td class="c">Pa</td>
     <td class="c">+5</td>
     <td></td>
@@ -754,7 +762,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
 </table>
 
 
-## Rings
+### Rings
 
 <table>
   <tr>
@@ -765,7 +773,7 @@ The **Group** column indicates the dungeon levels on which the item can be rando
     <th>AC</th>
     <th>Casts</th>
   </tr><tr>
-    <td class="r">1000</td>
+    <td class="r">100</td>
     <td class="c">VI</td>
     <td>Dork Ring</td>
     <td class="c">all</td>
@@ -804,9 +812,10 @@ The **Group** column indicates the dungeon levels on which the item can be rando
   </tr>
 </table>
 
-## Figurines
 
-Figurines can only be used during combat; when used, they summon a creature to fill your NPC slot.
+### Figurines
+
+When used, a Figurine summons a creature to fill your NPC slot.
 
 <table>
   <tr>
@@ -889,7 +898,7 @@ Figurines can only be used during combat; when used, they summon a creature to f
   </tr>
 </table>
 
-## Instruments
+### Instruments
 
 A Bard must have an Instrument in order to play Bard Songs; the magical Horns don't count.
 
@@ -989,9 +998,9 @@ A Bard must have an Instrument in order to play Bard Songs; the magical Horns do
   </tr>
 </table>
 
-## Miscellaneous Items
+### Miscellaneous Items
 
-The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consumed as soon as you light them; you may need to equip them first. The Lamp lasts longer than the Torch.
+The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consumed as soon as you light them. The Lamp lasts longer than the Torch. On the PC (at least), these items must be equipped before they can be used.
 
 <table>
   <tr>
@@ -1096,3 +1105,245 @@ The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consume
     <td colspan="3"><i>allows entry to Mangar's Tower</i></td>
   </tr>
 </table>
+## By Group
+
+Handy if you're trying to figure out what drops are possible on a given dungeon level, or for [hex editing](walkthrough.html#hex-editing) your party.
+
+### Group I
+
+Dungeons: Skara Brae (daytime), Wine Cellar
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `01`| Torch | [Misc.](#miscellaneous-items) |
+| `02`| Lamp | [Misc.](#miscellaneous-items) |
+| `03`| Broadsword | [Weapons](#weapons) |
+| `04`| Short Sword | [Weapons](#weapons) |
+| `05`| Dagger | [Weapons](#weapons) |
+| `06`| War Axe | [Weapons](#weapons) |
+| `07`| Halbard | [Weapons](#weapons) |
+
+### Group II
+
+Dungeons: Skara Brae, Wine Cellar, Sewers 1–3, Catacombs 1
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `08`| Mace | [Weapons](#weapons) |
+| `09`| Staff | [Weapons](#weapons) |
+| `0a`| Buckler | [Shields](#shields) |
+| `0b`| Tower Shield | [Shields](#shields) |
+| `0c`| Leather Armor | [Armor](#body-armor) |
+| `0d`| Chain Mail | [Armor](#body-armor) |
+| `0e`| Scale Armor | [Armor](#body-armor) |
+| `0f`| Plate Armor | [Armor](#body-armor) |
+
+### Group III
+
+Dungeons: Skara Brae (nighttime), Sewers 1–3, Catacombs 1–3, Castle 1
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `10`| Robes | [Armor](#body-armor) |
+| `11`| Helm | [Helms](#helms) |
+| `12`| Leather Glvs | [Gloves](#gloves) |
+| `13`| Gauntlets | [Gloves](#gloves) |
+| `14`| Mandolin | [Instruments](#instruments) |
+| `15`| Harp | [Instruments](#instruments) |
+| `16`| Flute | [Instruments](#instruments) |
+| `17`| Mthr Sword | [Weapons](#weapons) |
+
+### Group IV
+
+Dungeons: Sewers 3, Catacombs 1–3, Castle 1
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `18`| Mthr Shield | [Armor](#body-armor) |
+| `19`| Mthr Chain | [Armor](#body-armor) |
+| `1a`| Mthr Scale | [Armor](#body-armor) |
+| `1b`| Samurai Fgn | [Figurines](#figurines) |
+| `1c`| Bracers [6] | [Armor](#body-armor) |
+| `1d`| Bardsword | [Weapons](#weapons) |
+| `1e`| Fire Horn | [Instruments](#instruments) |
+| `1f`| Lightwand | [Wands](#wands) |
+
+### Group V
+
+Dungeons: Sewers 3, Catacombs 1–3, Castle 1–3
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `20`| Mthr Dagger | [Weapons](#weapons) |
+| `21`| Mthr Helm | [Helms](#helms) |
+| `22`| Mthr Gloves | [Gloves](#gloves) |
+| `23`| Mthr Axe | [Weapons](#weapons) |
+| `24`| Mthr Mace | [Weapons](#weapons) |
+| `25`| Mthr Plate | [Armor](#body-armor) |
+| `26`| Ogre Fgn | [Figurines](#figurines) |
+| `27`| Lak's Lyre | [Instruments](#instruments) |
+
+### Group VI
+
+Dungeons: Catacombs 2–3, Castle 1–3
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `28`| Shield Ring | [Rings](#rings) |
+| `29`| Dork Ring | [Rings](#rings) |
+| `2a`| Fin's Flute | [Instruments](#instruments) |
+| `2b`| Kael's Axe | [Weapons](#weapons) |
+| `2c`| Blood Axe | [Weapons](#weapons) |
+| `2d`| Dayblade | [Weapons](#weapons) |
+| `2e`| Shield Staff | [Weapons](#weapons) |
+| `2f`| Elf Cloak | [Misc.](#miscellaneous-items) |
+
+### Group VII
+
+Dungeons: Castle 2–3, Kylearan's, Mangar's 1
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `30`| Hawkblade | [Weapons](#weapons) |
+| `31`| Admt Sword | [Weapons](#weapons) |
+| `32`| Admt Shield | [Shields](#shields) |
+| `33`| Admt Dagger | [Weapons](#weapons) |
+| `34`| Admt Helm | [Helms](#helms) |
+| `35`| Admt Gloves | [Gloves](#gloves) |
+| `36`| Admt Mace | [Weapons](#weapons) |
+| `37`| Broom | [Weapons](#weapons) |
+
+### Group VIII
+
+Dungeons: Castle 2–3, Kylearan's, Mangar's 1
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `38`| Pureblade | [Weapons](#weapons) |
+| `39`| Exorwand | [Wands](#wands) |
+| `3a`| Ali's Carpet | [Misc.](#miscellaneous-items) |
+| `3b`| Magic Mouth | [Misc.](#miscellaneous-items) |
+| `3c`| Luckshield | [Shields](#shields) |
+| `3d`| Giant Fgn | [Figurines](#figurines) |
+| `3e`| Admt Chain | [Armor](#body-armor) |
+| `3f`| Admt Scale | [Armor](#body-armor) |
+
+### Group IX
+
+Dungeons: Kylearan's, Mangar's 1–3
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `40`| Admt Plate | [Armor](#body-armor) |
+| `41`| Bracers [4] | [Armor](#body-armor) |
+| `42`| Arcshield | [Shields](#shields) |
+| `43`| Pure Shield | [Shields](#shields) |
+| `44`| Mage Staff | [Weapons](#weapons) |
+| `45`| War Staff | [Weapons](#weapons) |
+| `46`| Thief Dagger | [Weapons](#weapons) |
+| `47`| Soul Mace | [Weapons](#weapons) |
+
+### Group X
+
+Dungeons: Kylearan's, Mangar's 1–3
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `48`| Wither Staff | [Weapons](#weapons) |
+| `49`| Sorcerstaff | [Weapons](#weapons) |
+| `4a`| Sword of Pak | [Weapons](#weapons) |
+| `4b`| Heal Harp | [Instruments](#instruments) |
+| `4c`| Galt's Flute | [Instruments](#instruments) |
+| `4d`| Frost Horn | [Instruments](#instruments) |
+| `4e`| Dmnd Sword | [Weapons](#weapons) |
+| `4f`| Dmnd Shield | [Shields](#shields) |
+
+### Group XI
+
+Dungeons: Mangar's 2–5
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `50`| Dmnd Dagger | [Weapons](#weapons) |
+| `51`| Dmnd Helm | [Helms](#helms) |
+| `52`| Golem Fgn | [Figurines](#figurines) |
+| `53`| Titan Fgn | [Figurines](#figurines) |
+| `54`| Conjurstaff | [Weapons](#weapons) |
+| `55`| Arc's Hammer | [Weapons](#weapons) |
+| `56`| Staff of Lor | [Weapons](#weapons) |
+| `57`| Powerstaff | [Weapons](#weapons) |
+
+### Group XII
+
+Dungeons: Mangar's 2–5
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `58`| Mournblade | [Weapons](#weapons) |
+| `59`| Dragonshield | [Shields](#shields) |
+| `5a`| Dmnd Plate | [Armor](#body-armor) |
+| `5b`| Wargloves | [Gloves](#gloves) |
+| `5c`| Lorehelm | [Helms](#helms) |
+| `5d`| Dragonwand | [Wands](#wands) |
+| `5e`| Kiel's Compass | [Misc.](#miscellaneous-items) |
+| `5f`| Speedboots | [Misc.](#miscellaneous-items) |
+
+### Group XIII
+
+Dungeons: Mangar's 4–5
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `60`| Flame Horn | [Instruments](#instruments) |
+| `61`| Truthdrum | [Instruments](#instruments) |
+| `62`| Spiritdrum | [Instruments](#instruments) |
+| `63`| Pipes of Pan | [Instruments](#instruments) |
+| `64`| Ring of Power | [Rings](#rings) |
+| `65`| Deathring | [Rings](#rings) |
+| `66`| Ybarrashield | [Shields](#shields) |
+| `67`| Specter Mace | [Weapons](#weapons) |
+
+### Group XIV
+
+Dungeons: Mangar's 4–5
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `68`| Dag Stone | [Misc.](#miscellaneous-items) |
+| `69`| Arc's Eye | [Misc.](#miscellaneous-items) |
+| `6a`| Ogrewand | [Wands](#wands) |
+| `6b`| Spirithelm | [Helms](#helms) |
+| `6c`| Dragon Fgn | [Figurines](#figurines) |
+| `6d`| Mage Fgn | [Figurines](#figurines) |
+| `6e`| Troll Ring | [Rings](#rings) |
+| `6f`| Troll Staff | [Weapons](#weapons) |
+
+### Group XV
+
+Dungeons: Only specials
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `70`| Onyx Key | [Misc.](#miscellaneous-items) |
+| `71`| Crystal Sword | [Weapons](#weapons) |
+| `72`| Stoneblade | [Weapons](#weapons) |
+| `73`| Travelhelm | [Helms](#helms) |
+| `74`| Death Dagger | [Weapons](#weapons) |
+| `75`| Mongo Fgn | [Figurines](#figurines) |
+| `76`| Lich Fgn | [Figurines](#figurines) |
+| `77`| Eye | [Misc.](#miscellaneous-items) |
+
+### Group XVI
+
+Dungeons: Only specials
+
+| ID | Item | Type |
+|:--:| :--: | :--: |
+| `78`| Master Key | [Misc.](#miscellaneous-items) |
+| `79`| Wizwand | [Wands](#wands) |
+| `7a`| Silvr Square | [Misc.](#miscellaneous-items) |
+| `7b`| Silvr Circle | [Misc.](#miscellaneous-items) |
+| `7c`| Silvr Triang | [Misc.](#miscellaneous-items) |
+| `7d`| Thor Fgn | [Figurines](#figurines) |
+| `7e`| Old Man Fgn | [Figurines](#figurines) |
+| `7f`| Spectre Snare | [Weapons](#weapons) |

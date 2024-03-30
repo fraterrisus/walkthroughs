@@ -207,7 +207,7 @@ Note that there are several spells that inflict statuses: *C4:POST*: +`PSND`, *M
 | Mad God       | 6–134  |  –6  | 22–88  | 3584 |  16  | STTO, POST                   |
 | Maze Master   | 10–138 |  –8  | 22–88  | 3584 |  32  | MIBL                         |
 | Death Denizen | 10–14  |  –6  | 22–88  | 3584 |  64  |                              |
-| Jabberwock    | 8–136  |  –7  | 25–10  | 3584 |  8   | breath (53)                  |
+| Jabberwock    | 8–136  |  –7  | 25–100 | 3584 |  8   | breath (53)                  |
 | Black Dragon  | 10–138 |  –9  | 27–108 | 3584 |  8   | breath (54)                  |
 | Mangar        | 14–270 | –10  | 25–100 | 3584 |  1   | crit, GRSU, WIGI, DEST, DRBR |
 | Crystal Golem | 12–140 |  –9  | 29–116 | 3584 |  1   |                              |

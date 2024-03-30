@@ -93,7 +93,7 @@ If the **Effect** column reads something like `=LERE`, that means this spell is 
 |  5   |  8   | **DIIL** | Disrupt Illusion        |   Zap    |       | Combat | =*DISB* and prevent new ones   |
 |  5   |  8   | **MIBL** | Mangar's Mind Blade     |   Zap    |       |  All   | 10–40                          |
 |  6   |  10  | **WIDR** | Wind Dragon             | Illusion |       |        |                                |
-|  6   |  9   | **MIWP** | Mind Warp               |   Heal   |  One  |        | –`POSS`, but +`NUTS`           |
+|  6   |  9   | **MIWP** | Mind Warp               |   Heal   |  One  | Combat | –`POSS`, but +`NUTS`           |
 |  7   |  12  | **WIGI** | Wind Giant              | Illusion |       |        |                                |
 |  7   |  11  | **SOSI** | Sorcerer Sight          |  Travel  |  30'  |  Perm  | =*SESI*                        |
 
@@ -129,5 +129,4 @@ song's effect is over.
 | Badh'r Kilnfest | Heal | Heal caster (travel) and party (combat) |
 | Traveller's Tune | Buff | +AC |
 | Lucklaran | Buff | +Magic resistance |
-
 

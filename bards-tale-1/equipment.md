@@ -404,54 +404,6 @@ The **Group** column indicates the dungeon levels on which the item can be rando
   </tr>
 </table>
 
-### Wands
-
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>AC</th>
-    <th>Casts</th>
-  </tr><tr>
-    <td class="r">1000</td>
-    <td class="c">VIII</td>
-    <td>Exorwand</td>
-    <td class="c">casters</td>
-    <td class="c"></td>
-    <td><i>W3:DISP</i></td>
-  </tr><tr>
-    <td class="r">1000</td>
-    <td class="c">IV</td>
-    <td>Lightwand</td>
-    <td class="c">casters</td>
-    <td class="c"></td>
-    <td><i>C1:MAFL</i></td>
-  </tr><tr>
-    <td class="r">14000</td>
-    <td class="c">XII</td>
-    <td>Dragonwand</td>
-    <td class="c">casters</td>
-    <td class="c">+1</td>
-    <td><i>M4:DRBR</i></td>
-  </tr><tr>
-    <td class="r">30000</td>
-    <td class="c">XIV</td>
-    <td>Ogrewand</td>
-    <td class="c">casters</td>
-    <td class="c">+1</td>
-    <td><i>C6:INOG</i></td>
-  </tr><tr>
-    <td class="r">120000</td>
-    <td class="c">—</td>
-    <td>Wizwand</td>
-    <td class="c">Wizard</td>
-    <td class="c">+2</td>
-    <td><i>W4:PRSU</i></td>
-  </tr>
-</table>
-
 ### Body Armor
 
 <table>
@@ -998,6 +950,54 @@ A Bard must have an Instrument in order to play Bard Songs; the magical Horns do
   </tr>
 </table>
 
+### Wands
+
+<table>
+  <tr>
+    <th>$</th>
+    <th>Grp</th>
+    <th>Name</th>
+    <th>Usable By</th>
+    <th>AC</th>
+    <th>Casts</th>
+  </tr><tr>
+    <td class="r">1000</td>
+    <td class="c">VIII</td>
+    <td>Exorwand</td>
+    <td class="c">casters</td>
+    <td class="c"></td>
+    <td><i>W3:DISP</i></td>
+  </tr><tr>
+    <td class="r">1000</td>
+    <td class="c">IV</td>
+    <td>Lightwand</td>
+    <td class="c">casters</td>
+    <td class="c"></td>
+    <td><i>C1:MAFL</i></td>
+  </tr><tr>
+    <td class="r">14000</td>
+    <td class="c">XII</td>
+    <td>Dragonwand</td>
+    <td class="c">casters</td>
+    <td class="c">+1</td>
+    <td><i>M4:DRBR</i></td>
+  </tr><tr>
+    <td class="r">30000</td>
+    <td class="c">XIV</td>
+    <td>Ogrewand</td>
+    <td class="c">casters</td>
+    <td class="c">+1</td>
+    <td><i>C6:INOG</i></td>
+  </tr><tr>
+    <td class="r">120000</td>
+    <td class="c">—</td>
+    <td>Wizwand</td>
+    <td class="c">Wizard</td>
+    <td class="c">+2</td>
+    <td><i>W4:PRSU</i></td>
+  </tr>
+</table>
+
 ### Miscellaneous Items
 
 The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consumed as soon as you light them. The Lamp lasts longer than the Torch. On the PC (at least), these items must be equipped before they can be used.
@@ -1077,7 +1077,7 @@ The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consume
     <td><i>S5:GRRE</i></td>
   </tr><tr>
     <td rowspan="2" class="b r">50000</td>
-    <td rowspan="2" class="b c">—</td>
+    <td rowspan="2" class="b c">XV</td>
     <td rowspan="2" class="b">Eye</td>
     <td class="c"></td>
     <td class="c"></td>
@@ -1087,7 +1087,7 @@ The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consume
   </tr>
   <tr>
     <td rowspan="2" class="r">1200</td>
-    <td rowspan="2" class="c">—</td>
+    <td rowspan="2" class="c">XVI</td>
     <td rowspan="2">Master Key</td>
     <td class="c"></td>
     <td class="c"></td>
@@ -1096,7 +1096,7 @@ The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consume
     <td colspan="3"><i>opens all gates in Skara Brae</i></td>
   </tr><tr>
     <td rowspan="2" class="r">100000</td>
-    <td rowspan="2" class="c">—</td>
+    <td rowspan="2" class="c">XV</td>
     <td rowspan="2">Onyx Key</td>
     <td class="c"></td>
     <td class="c"></td>
@@ -1145,7 +1145,7 @@ Dungeons: Skara Brae (nighttime), Sewers 1–3, Catacombs 1–3, Castle 1
 | ID | Item | Type |
 |:--:| :--: | :--: |
 | `10`| Robes | [Armor](#body-armor) |
-| `11`| Helm | [Helms](#helms) |
+| `11`| Helm | [Helmets](#helmets) |
 | `12`| Leather Glvs | [Gloves](#gloves) |
 | `13`| Gauntlets | [Gloves](#gloves) |
 | `14`| Mandolin | [Instruments](#instruments) |
@@ -1175,7 +1175,7 @@ Dungeons: Sewers 3, Catacombs 1–3, Castle 1–3
 | ID | Item | Type |
 |:--:| :--: | :--: |
 | `20`| Mthr Dagger | [Weapons](#weapons) |
-| `21`| Mthr Helm | [Helms](#helms) |
+| `21`| Mthr Helm | [Helmets](#helmets) |
 | `22`| Mthr Gloves | [Gloves](#gloves) |
 | `23`| Mthr Axe | [Weapons](#weapons) |
 | `24`| Mthr Mace | [Weapons](#weapons) |
@@ -1208,7 +1208,7 @@ Dungeons: Castle 2–3, Kylearan's, Mangar's 1
 | `31`| Admt Sword | [Weapons](#weapons) |
 | `32`| Admt Shield | [Shields](#shields) |
 | `33`| Admt Dagger | [Weapons](#weapons) |
-| `34`| Admt Helm | [Helms](#helms) |
+| `34`| Admt Helm | [Helmets](#helmets) |
 | `35`| Admt Gloves | [Gloves](#gloves) |
 | `36`| Admt Mace | [Weapons](#weapons) |
 | `37`| Broom | [Weapons](#weapons) |
@@ -1265,7 +1265,7 @@ Dungeons: Mangar's 2–5
 | ID | Item | Type |
 |:--:| :--: | :--: |
 | `50`| Dmnd Dagger | [Weapons](#weapons) |
-| `51`| Dmnd Helm | [Helms](#helms) |
+| `51`| Dmnd Helm | [Helmets](#helmets) |
 | `52`| Golem Fgn | [Figurines](#figurines) |
 | `53`| Titan Fgn | [Figurines](#figurines) |
 | `54`| Conjurstaff | [Weapons](#weapons) |
@@ -1283,7 +1283,7 @@ Dungeons: Mangar's 2–5
 | `59`| Dragonshield | [Shields](#shields) |
 | `5a`| Dmnd Plate | [Armor](#body-armor) |
 | `5b`| Wargloves | [Gloves](#gloves) |
-| `5c`| Lorehelm | [Helms](#helms) |
+| `5c`| Lorehelm | [Helmets](#helmets) |
 | `5d`| Dragonwand | [Wands](#wands) |
 | `5e`| Kiel's Compass | [Misc.](#miscellaneous-items) |
 | `5f`| Speedboots | [Misc.](#miscellaneous-items) |
@@ -1312,7 +1312,7 @@ Dungeons: Mangar's 4–5
 | `68`| Dag Stone | [Misc.](#miscellaneous-items) |
 | `69`| Arc's Eye | [Misc.](#miscellaneous-items) |
 | `6a`| Ogrewand | [Wands](#wands) |
-| `6b`| Spirithelm | [Helms](#helms) |
+| `6b`| Spirithelm | [Helmets](#helmets) |
 | `6c`| Dragon Fgn | [Figurines](#figurines) |
 | `6d`| Mage Fgn | [Figurines](#figurines) |
 | `6e`| Troll Ring | [Rings](#rings) |
@@ -1320,14 +1320,14 @@ Dungeons: Mangar's 4–5
 
 ### Group XV
 
-Dungeons: Only specials
+Dungeons: Only specials. Except I found an Onyx Key in a treasure haul on Mangar 4 once.
 
 | ID | Item | Type |
 |:--:| :--: | :--: |
 | `70`| Onyx Key | [Misc.](#miscellaneous-items) |
 | `71`| Crystal Sword | [Weapons](#weapons) |
 | `72`| Stoneblade | [Weapons](#weapons) |
-| `73`| Travelhelm | [Helms](#helms) |
+| `73`| Travelhelm | [Helmets](#helmets) |
 | `74`| Death Dagger | [Weapons](#weapons) |
 | `75`| Mongo Fgn | [Figurines](#figurines) |
 | `76`| Lich Fgn | [Figurines](#figurines) |

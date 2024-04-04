@@ -8,7 +8,7 @@ toc:
 
 # Yet Another Bard's Tale I Walkthrough
 
-Version 0.9, March 2024
+Version 1.0, April 2024
 
 ## Administrivia
 
@@ -24,27 +24,24 @@ maps but largely made my own to go along with this walkthrough.
 
 Sources I used:
 
-- The [Bard's Tale Compendium](http://bardstale.poverellomedia.com/thebardstale.html) pages for BT1.
+- The [Bard's Tale Compendium](http://bardstale.poverellomedia.com/thebardstale.html) pages for BT1
 - The [Bard's Tale Online](https://www.bardstaleonline.com/)
-- The [RPG Classics](http://shrines.rpgclassics.com/pc/bardstale1/) BT1 shrine.
-- The [Adventurer's Guild](http://brotherhood.de/Bardstale/talefiles/board/viewforum.php?f=17&sid=58b6e031eb22085a6607836af105eac3) forum, especially the Developer's Heaven board; sadly now defunct, which shows you how long ago I started writing this thing.
+- The [RPG Classics](http://shrines.rpgclassics.com/pc/bardstale1/) BT1 shrine
+- The [Adventurer's Guild](https://bardstale.brotherhood.de/talefiles/forum/index.php?sid=de2012eaa2d615ff2e73cc9e6b7bbb6c) forum, especially the Developer's Heaven board
 
 ### Version History
 
-- v0.8, December 2013: completed game and rough walkthtough.
+- v0.8, December 2013: completed game and rough walkthrough.
 - v0.9, February 2014: reorganized, added some text.
-- v1.0, March 2024: finally finished the damn thing.
+- v1.0, April 2024 (yes, _ten years_ later): finally finished the damn thing.
 
 ### Errata
 
 Much like I did with [*Dragon Wars*](../dragon-wars), I really need to rip apart the IBM binary and find the combat routines, etc. so that I can answer some of these outstanding questions.
 
 - Does AC below -10 matter? Just because the game doesn't display it, and just because the save files don't track it, doesn't mean the combat routines don't take it into account.
-
 - Is there anything interesting in the inaccessible parts of Harkyn's Level Two? My guess is no.
-
-- What happens if you *don't* have the Crystal Sword with you when you walk into Kylearan's Tower? Rumor has it the Crystal Guardian either can't be defeated or regenerates over and over and prevents you from leaving the room.
-- Are you really prevented from collecting a second Spectre Snare, or can you sell one to Garth and then go get a second one? (Given the fact that you can pull this trick with the Crystal Sword, I'm guessing it works with the Snare as well.)
+- What happens if you *don't* have the Crystal Sword with you when you walk into Kylearan's Tower? Rumor has it the Crystal Guardian regenerates over and over and prevents you from leaving the room.
 
 If you happen to know the answers to one of these questions, feel free to [get in touch](https://github.com/fraterrisus/walkthroughs/issues).
 
@@ -309,7 +306,7 @@ Pretty much everyone agrees that you don't need a Rogue, though.
 My preferred party looks like this:
 
 - a **Paladin** in Slot 1 for their high Saving Throw.
-- either a **Warrior** or a **Hunter** who can eventually use the Spectre Snare.
+- either a **Warrior** or a **Hunter** who can eventually use the Spectre Snare.
 - either a **Hunter** or a **Monk**, depending on whether I'm feeling like a effective fighter with no inventory (Monk) or the one-shot Critical Hits of the Hunter.
 - two **Conjurers** and a **Magician**; who needs a Bard? But I want *M7:REST* as soon as possible.
 
@@ -642,7 +639,7 @@ At least on the PC, you can get around the class requirements for equipment that
 
 As the manual says, there are no cursed or "bad" items. However, some percentage of items you find will be unidentified; you can tell because it will show up in your inventory as a Weapon (or Instrument, or Armor, etc.) The only way to identify such an item is to bring it back to Garth and pay 50% of the purchase price, that is, the same amount that he'll give you if you sell it to him. Once you get deeper into the game and the possiblity of finding more interesting items exists, it's worth paying it, but for now, you can use the trick that the identification price and the sale price are the same. So if Garth wants $15 to identify a Weapon, it's a Short Sword.
 
-All Weapons are assumed to require one hand, so you can always equip a Shield regardless of what Weapon you're using. Wands count as Weapons.
+All Weapons are assumed to require one hand, so you can always equip a Shield regardless of what Weapon you're using.
 
 [See external page](equipment.html)
 
@@ -1165,9 +1162,9 @@ Before you begin your assault on Mangar's domain, I have a few things to say.
 
 Okay, enough disclaimers. Welcome to the endgame.
 
-Your first few times heading to Mangar's Tower, you won't be able to get through the gates from Skara Brae. Fortunately there's a back door — but it's at the bottom of the [Sewers](#sewers-level-3). Yup, it's back to the good old Scarlet Bard for another drink of wine. Work your way down to Level Three (or use *C6:APAR* — +16N, +17E, -3U) and take the "very long staircase" up into the ring around Mangar's Tower. You may need to equip the Onyx Key before you can enter the Tower.
+Your first few times heading to Mangar's Tower, you won't be able to get through the gates from Skara Brae. Fortunately there's a back door — but it's at the bottom of the [Sewers](#sewers-level-3). Yup, it's back to the good old Scarlet Bard for another drink of wine. Work your way down to Level Three (or use *C7:APAR* — +16N, +17E, -3U) and take the "very long staircase" up into the ring around Mangar's Tower. You may need to equip the Onyx Key before you can enter the Tower.
 
-Once you make it to Level Three and acquire the Master Key, you can pass through the gates surrounding Mangar's Tower (as well as Kylearan's, although why you'd ever want to go back there is beyond me) so you don't have to dive the Sewers to get here again. Even if you plan to explore the lower levels, you might want to do that first so the rest of the game is a little easier.
+Once you make it to Level Three and acquire the Master Key, you can pass through the gates surrounding Mangar's Tower (as well as Kylearan's, although why you'd ever want to go back there is beyond me) so you don't have to dive the Sewers to get here again. Even if you plan to explore the lower levels (the loot flows like water around here), you might want to go get the Master Key first so the rest of the game is a little easier.
 
 #### Mangar's Castle, Level 1
 
@@ -1203,48 +1200,44 @@ Walk around the corner until the hallway branches. If you proceed east and south
 
 #### Mangar's Castle, Level 2
 
-Fast Way: follow the corridor until the intersection at (21,21), 6W
-  9S 3W 1N 2E 3N, TRZP, 5N 2W (darkness) 3S (exit darkness) 1W, follow
-  the corridor, 1S (x) 1S 1W (x) 2W 1N (x) 1N, TRZP, 4N 2E (anti-magic)
-  3N 1W 2S 1W 2N 1W (97 Hobbits), 2S 3W 1S (darkness) 3E 4S, TRZP,
-  3S 3W, turn N and TRZP, 1N 2E 2N 1W, turn S and TRZP, 1S 2W 1N 1E
-  (Silver Circle). Reverse out to the T intersection at (15,12). Then
-  2E 1S 2E 1S (x) 2E (x) 1S (x) 3W (1 Mind Shadow) 2E (darkness) 9E 1S
-  (exit darkness, anti-magic) 4S (spinner) 4S (coals) 6E (coals) 3N 1W
-  (x) 2W 1S (x) 1S 3W 2N 2E 1S (stairs up). Yes, that's the "fast" way.
+*The Fast Way:*
 
-  Note that you can speed things up with PHDO in a number of places,
-  but if you're not afraid of using up SP, you might as well just APAR
-  up to the next level.
+- 1E 1S 3W, face W and *M6:PHDO*, 6W 1N 2E 3N, face N and *C1:TRZP*, 5N
+- *The Fake Deathfield:* 2W (darkness) 3S (exit darkness) 1W and follow the corridor, 1S (x) 1S 1W (x) 2W 1N (x)
+- 1N, face N and *C1:TRZP*, 4N 2E (anti-magic)
+- 3N 1W 2S 1W 2N 1W (97 Hobbits), 2S 3W 1S (darkness)
+- *The Dark Rings:* 3E 4S, face S and *C1:TRZP*, 3S 3W, face N and *C1:TRZP*, 1N 2E 2N 1W, face S and *C1:TRZP*, 1S 2W 1N 1E to acquire the Silver Circle.
+- Reverse out of the Darkness at (04,19). 4W 4S, face S and *C1:TRZP*, 4S through a door.
+- 1E 1S, face S and *M6:PHDO*, 1S (darkness) 7E 1S (exit darkness, anti-magic)
+- 4S (spinner). Go either 1E or 1S and *M6:PHDO* the corner. Step inside, then go 2E 1S to the stairs up.
 
-There is yet another major upgrade in enemy difficulty here. Basilisks
-start showing up randomly, and you can't cure +STON without exiting and
-going to a temple. That gets really annoying fast; I recommend running
-from Basilisks whenever you can. You've already seen Vampires (level
-drain), but there are also Master Ninjas with critical hit ability
-(aka one-shot death).
+There are (perhaps obviously) ways to do this without using *M6:PHDO* but it's even more tedious. You are fully within your rights to use *C7:APAR* to simply grab the Silver Circle and then get the heck off this floor; there's nothing else you need to do here.
 
-Because you were teleported up to this level, the way up and the way
+Level Two features yet another significant upgrade in enemy difficulty. Basilisks
+start showing up randomly, and you can't cure +`STON` without exiting and
+going to a temple. That gets annoying really fast. You've already seen Vampires (level
+drain), but there are also Master Ninjas with Critical Strike.
+
+If you arrived on this level authentically, the way up and the way
 down don't line up. This can be a little confusing if you're following
 my maps. The teleporter at (1,20,13) takes you to (2,20,13), but the
-NE corner of Level Two is identical to Level One, so your first order
+northeast corner of Level Two is identical to Level One, so your first order
 of business is to wind your way down the long hallway until you come to
 the T intersection at (21,21).
 
-Note that there is a direct way down; a hole in the floor at (21,17). It's
-not reversible though.
+If you want to go back down to Level One, there's a hole in the floor at (21,17). But you can't come back up that way.
 
-Head W from (21,21), then S down a long hallway, then W and walk
-around. This time the voice lies -- the exit is the other way. But we
-need to pick up an important piece of hardware first. At the N end of the
-hallway you'll come to where the "deathfield" was on Level One. There's
-Darkness again here but it's not so bad. Just make sure you step W before
+Head west from (21,21), then south down a long hallway, then west and walk
+around. This time the voice lies – the exit is the other way. But we
+need to pick up an important piece of hardware first. At the north end of the
+hallway you'll come to where the Deathfield was on Level One. There's
+Darkness again here but it's just a little 3x3 area and there's no traps. Just make sure you step 1W before
 going S, lest you run into a nest of Basilisks.
 
 Anyway, continuing S some more you'll come into a 2x2 room with a couple
 of combats, proceed W into another one, and then N again into a longer
 hall. This room wants you to wind around in an S-shape to avoid the
-traps, but has a spinner in the center. It's easier to TRZP the trap
+traps, but has a spinner in the center. It's easier to *C1:TRZP* the trap
 that's just N of you and hug the left-hand wall. There's an Anti-Magic
 Zone at the NE exit, though.
 
@@ -1253,16 +1246,20 @@ with some group zap spells and you should be fine.
 
 To your S through a hidden door is a block of Darkness containing rooms
 in concentric "circles". At the center there's a Magic Mouth that asks
-you a riddle about the silver shapes. The answer is CIRCLE, at which
+you a riddle about the silver shapes.
+
+- (04,15) A magic mouth on the wall speaks to you, saying this: "Two shapes yours, one's around; Speak the shape and final found."
+
+The answer is `CIRCLE`, at which
 point you are granted the third silver shape which you need to enter
 Mangar's lair on Level Five. Don't lose those, okay?
 
-Now wind your way back to the T intersection at (15,12), just past the
-"Ahead lies the exit" message. This time go E. There's a few more combats
-to be fought. Past the Mind Shadow, take the S-most (left-hand) door
+Now wind _all the way back_ to the T intersection at (15,12), just past the
+"Ahead lies the exit" message. This time go east. There's a few more combats
+to be fought. Past the Mind Shadow, take the left-hand (southern) door
 to enter a long hallway of Darkness. About halfway through (8W after
-you enter the hallway) there's a door to the S that will take you on
-ahead... into an Anti-Magic Zone.
+you enter the hallway) there's a door to the south that will take you on
+ahead... into an Anti-Magic Zone, but out of Darkness.
 
 This floor and the next feature several long hallways (often wrapping)
 around rectangular room blocks with traps of various kinds at the
@@ -1270,50 +1267,45 @@ corners. Coals, random Anti-Magic Zones, spinners, a few teleporters to
 keep things interesting, and damned Smoke In Your Eyes in the hallways
 just to keep you on your toes. Bleck.
 
-Head S and light up a C2:MACO. The first intersection (4S of the AMZ) has
+Head south and light up a *C2:MACO*. The first intersection (4S of the AMZ) has
 a spinner. If you don't mind spinners, head E, get Smoke in your eyes,
 recast light, hit another spinner, and head S; the secret door is 1S 1W
 of this intersection. If you'd rather walk on hot coals than go through
-another spinner, head S until you hit coals, E until you hit another set,
+another spinner, head south until you hit coals, east until you hit another set,
 and then 3N 1W. Either way, run through this block of rooms until you
 find the stairs up at (11,2).
 
 The one interesting hint that you missed is to the SE of the dark room
-with the silver sphere; it hints that a "Spectre Snare" is an object of
-interest that can "catch a foe and bind him". That's a good one to
-keep in mind. There also happens to be a patch of Sunlight (regen MP)
-just N of that hint, although you may have Mage Staves by now so that's
-probably moot.
+with the silver circle:
 
-There's also a devilish trap for those of you who like to use C6:PHDO
-to explore rooms with no doors -- the designers left a stasis chamber at
-(5,21).
+- (15,10) On the wall is etched: The Spectre Snare can catch a foe and bind him lest his spirit go...
+
+That's a good one to
+keep in mind. There also happens to be a patch of Sunlight (regenerates MP)
+just N of that hint, although if you've collected a Mage Staff for each caster that's not super helpful.
+
+There's also a devilish trap for those of you who like to use *C6:PHDO* to explore rooms with no doors – the designers left a stasis chamber at
+(21,05). I _told_ you it was one of Bryan Fargo's favorite tricks.
 
 #### Mangar's Castle, Level 3
 
-Fast Way: (darkness) 9W 3N 2W 3N, TRZP, 1N 3E, TRZP, 1W (anti-magic)
-  5W, TRZP, 1W (spinner) 4S (exit darkness) 3S (answer riddle) 3N
-  (darkness) 3N (spinner) 6W (anti-magic) 3S 1W (x) 2W 1N (x) 1N 2E
-Fast Way from entrance: APAR N+5 E+10 U+2, S (answer riddle)...
+*The Fast Way:* (darkness) 9W 4N 2W 3N, face N and *C1:TRZP*, 1N 3E, face E and *C1:TRZP*, 1W (anti-magic) 5W, face W and *C1:TRZP*, 1W (spinner) 4S (exit darkness) 2S (answer riddle) 3N (darkness) 3N (spinner) 6W (anti-magic) 3S 1W (x) 2W 1N (x) 1N 2E
 
-Basilisks are a lot more common up here. Getting STON'd really sucks! If
+Basilisks are a lot more common up here. Getting +`STON`ed really sucks! If
 you go exploring, you'll also run into a number of Mongoes, who can also
-+STON you. But wandering around is made annoying by the Darkness in ALL
-of the hallways, not to mention the traps and spinners and Anti-Magic
-Zones at the intersections of the hallways.
++`STON` you. But wandering around is made annoying by the Darkness in _all_ the hallways, not to mention the traps and spinners and Anti-Magic
+Zones at the intersections. And *M6:PHDO* doesn't work, either.
 
 The puzzle to be solved on this level is the riddle of the Magic Mouth,
 who demands that you recite the seven words of the One God's phrase. If
-you spent a bunch of time hanging out in the Sewers, you may remember
+you spent a bunch of time hanging out in the [Sewers](#sewers-level-2), you may remember
 the message "There is no exit until the seven words are said." What
-are the seven words? Well, you have to go exploring around this level,
-reading the etchings on the walls. Then you go talk to the magic mouth,
+are the seven words? Well, you have to go exploring around this level
+and reading the etchings on the walls until you find them all. Then you go talk to the magic mouth,
 give him the phrase, and he un-hides the stairs. Which you then have to
 go find.
 
-If you want to skip over the discovery process, look at the Fast Way
-above - that will get you to the magic mouth and then to the stairs,
-but skips over the Master Key. Otherwise, buckle up...
+If you want to skip over the discovery process, already have all three Silver Shapes, and know the seven words (or are willing to read them out of this walkthrough), walk into Mangar's Tower and cast *C7:APAR* (+5N +10E +2U) to land on the magic mouth. Otherwise, buckle up...
 
 You're immediately plunged into Darkness, so I recommend following along
 on the map and getting good at counting squares as you walk. Start out
@@ -1321,55 +1313,65 @@ by stepping 1N and then walking E until you hit a wall (8E). Then go
 3N to a wall, 2W to a wall, and 1N through a door (you can tell because
 the rooms aren't Dark). Continue N and then E to get message #4.
 
-Reverse back to the stairs -- note that if you hug the N part of the
-two-wide E-W hallway with the main staircase in it, there's a teleporter
-that will screw your count up -- and head W instead. Eventually go 4N
-until you hit a wall, then W into a corner, and 4N to a trapped four-way
-intersection. There's an Anti-Magic Zone to your E, and I bet you really
-need your MACO right now, so let's skip over it. Head 3W where you'll
+- (19,09) "In all the land, the fourth is and."
+
+Reverse back to the stairs – note that if you hug the north wall of the
+two-wide east/west hallway with the main staircase in it, there's a teleporter
+that will screw your count up – and continue west. Eventually go 4N
+until you hit a wall, 3W into a corner, and 4N to a trapped four-way
+intersection. I bet you're really enjoying having *C2:MACO* running right now, so let's skip over the Anti-Magic Zone to the east of here. Head 3W where you'll
 hit a teleporter (except you won't know because it's dark... unless
-you've got a special-detect spell up, which I recommend). Then turn
-around and go 2E 1S into a room, and 2S. Fight an encounter and then
-read message #1.
+you've got a specials-detect spell up, which I recommend). Then turn
+around and go 2E 1S into a room, then 2S. Fight an encounter and read message #1.
 
-3N back to the dark hallway, then 1E into a spinner. S of here is the
+- (09,07) "Do not scry, the first is lie."
+
+3N back to the dark hallway, then 1E into a spinner (there's a trap here as well). S of here is the
 Magic Mouth, but we're not ready yet. Head 1E 1S, fight an encounter,
-and find the closet in the SE corner with message #2. Then go back to
-the hallway, 2E 1N into another room, and message #5 in the NW corner.
+and find the closet in the southeast corner with message #2. Then go back to
+the hallway, 2E 1N into another room, and message #5 in the northwest corner.
 
-Go E again to the next intersection (TRZP). Cross 1E 1N and enter a room
+- (13,08) "The One God's second is surely with."
+- (11,12) "We speak of One God, eternal is he, his fifth is almost certainly be."
+
+Go E again to the next intersection (there's a trap). Cross 1E 1N and enter a room
 that *is* still Dark, for a change. Follow the spiral around until you
 hit a gratuitous Anti-Magic Zone, then step 1W. An old merchant will
-sell you the Master Key for 50,000gp. That sounds like a lot of cash,
-but I was sitting on over 2M gp at this point, so it didn't even make
-a dent in my treasury. And it makes getting in here much easier because
-you don't have to go through the damn Sewers.
-
-If you choose to attack him instead, he summons 6 Wraiths. It's not
-the hardest combat, but you don't win the Key afterwards, so it's not
-worth it...
+sell you the Master Key for $50,000. That may sound like a lot of cash
+but I was sitting on over $2 million at this point. And it makes getting in here much easier because
+you don't have to go through the damn Sewers. If you choose to attack him instead, he summons 6 Wraiths. It's not
+the hardest combat, but you don't win the Key afterwards so it's not really worth it.
 
 Unwind back to the hallway. Step 1W to the intersection, then 5N to
 another intersection with a trap and an AMZ on the same square. Straight
-E from here you'll find a closet with message #3. Come back here and
-head N again; 5N is another trap, 6W from there is another trap, and
+E from here you'll find a closet with message #3.
+
+- (21,15) "As the One God has said, the third is passion if you have love and life."
+
+Go back to the intersection and
+head north again; 5N is another trap, 6W from there is another trap, and
 6W from there is yet another. 1N from there is a message that you smell
 burning coals. If you go 4W from here you'll step on hot coals and fight
 two combats, then get message #7. Ouchie.
 
+- (00,21) "The One has said that the first man is blessed and the last is damned."
+
 One more message. From the "smell" square, head 6S to another trapped
-intersection, then 2W and N. Enter the room and head to the NW corner
-for a fight and message #6. That's the lot. If you cleverly interpret
-the messages, they spell out the phrase 'LIE WITH PASSION AND BE FOREVER
-DAMNED,' which seems awful preachy for an evil mage. Though it's true
-I haven't seen any succubi around here...
+intersection, then 2W 2N. Head to the northwest corner
+for a fight and message #6.
+
+- "On the many levels, several are ancient but the sixth is forever."
+
+That's the lot. If you cleverly interpret
+the messages, they spell out the phrase `LIE WITH PASSION AND BE FOREVER
+DAMNED`, which seems awful preachy for an evil mage.
 
 Reverse to the last intersection. Head 6E to a trap-and-spinner combo
 and exit to the S. 5S is another trap-and-spinner but we've already been
 here so the trap's been triggered or zapped away already. Keep heading
 S until you exit the Darkness and find a magic mouth that demands the
 One God's seven words. Enter them one at a time (hit Enter between words)
-and the mouth will reveal the staircase at (3,9). Get it wrong and the
+and the mouth will reveal the staircase at (03,09). Get it wrong and the
 mouth disappears, so you have to exit the level and come back to get it
 to regenerate.
 
@@ -1378,185 +1380,160 @@ a trap and an AMZ, 3S 1W (fight) 2W 1N (fight) 1N 2E.
 
 #### Mangar's Castle, Level 4
 
-Fast Way: 1S 1E, TRZP, 1E 2N 5E (Darkness) 2N 5E (spinner) 2E 2S
-  (teleport) 1E, TRZP, 2E (Darkness), 3N (spinner) 2W 1N 2W, TRZP,
-  3W 1N (x) 2N (teleport) 2N 2W, TRZP, 4W 3S 1W (x) 1W 1S (teleport) 
-  1E (walls/doors) 2W (teleport) 1N 8W 10S 2W 5S 2W
+*The Fast Way:*
 
-By now you should be running from basically everything. Vampires and
-Spectres will drain levels; Basilisks will +STON you. Anything with
-"Master" in its title can crit you. Even level 25 fighters don't have
-good enough saving throws to avoid these effects very often.
+- *The Crypt:* 1S 1E, face E and *C1:TRZP*, 1E 2N 5W (darkness) 2N 5E (spinner) 2E 2S (teleport)
+- *The Dragons:* face E and *C1:TRZP*, 3E (darkness) 3N (spinner) 2W 1N, face E and *C1:TRZP*, 5W 1N (two Red Dragons) 1N 1W (answer riddle for Thor Figurine) 1E 1N (teleport)
+- *Walls to Doors:* 2N 2W, face W and *C1:TRZP* (the double!), 5W 4S 1W (x) 1W 1S (teleport) 1E (magic square) 2W (teleport)
+- *The Exit:* 2S 9W 3S (skip over stairs down) 5S 1W (tracks) 4S 2W
+
+By now you should be running from basically everything, because you definitely don't need the experience. Vampires and
+Spectres will drain levels; Basilisks will +`STON` you. Anything with
+"Master" in its title has Critical Strike, and yes that works against you too. Even level 25 fighters don't have
+good enough Saving Throws to avoid these effects all the time. That said there are a couple of high-level weapons that might be worth looking for. The Troll Ring and Troll Staff (+4, 4–16) regenerates HP; the latter makes a great Hunter weapon, as does the Spectre Mace (+5, 3–24, level drain). Speedboots grant +1 AC and can be worn by all caster classes. (They also help you run from combat, but only if you put them on your Slot 1 fighter.)
 
 There's a warning in the entryway that you're about to Mangar's
-Crypt. Cast TRZP before you walk through the door. The crypt has a
+Crypt. Cast *C1:TRZP* before you walk through the door. The crypt has a
 handful of traps and annoying checkerboard Darkness squares. Around
 the edge of the room are a bunch of doors that lead to 2x1 closets with
 special encounters. Some of them are annoying (50 Ghouls, ~19,000xp),
 some are tough (7 Lesser Demons), and some of them are just baffling
 (4 Mercenaries?!). Don't open the "black coffin". The door you actually
-want, which will take you out of here, is on the E edge of the N wall.
+want, which will take you out of here, is on the eastern edge of the north wall.
 
-Near the end of the hallway is a spinner trap. When you're facing E
-again, turn S and hit a teleporter. There's a trap to the E and then a
+Near the end of the hallway is a spinner trap. When you're facing east again, turn south and hit a teleporter. There's a trap to the east and then a
 spot where "the wind blows" your magic torch out. It might as well be
-a Darkness square, but we can't just call it Darkness, no! THIS floor
-has SPECIAL darkness.
+a Darkness square, but we can't just call it Darkness, no! *This* floor
+has *special* darkness.
 
-Progress N, re-light your torch, hit the spinner at the intersection,
-and try to go W. (All four directions look different here, which you
-can use to your advantage.) Go around the corner and TRZP, then proceed
-until you turn N. Now, if you've bothered to carry a Bard with you this
-far (for the love of all that's holy, WHY?), make sure you're playing a
-bardsong. Otherwise, you'll wake up the two sleeping Red Dragons. Dragons
-suck, to be sure, but they'll fall quickly enough (around 100-125hp each)
-to magic.
+Progress north, re-light your torch (Lightwands are great here), hit the spinner at the intersection,
+and try to go west. (All four directions look different here, which you
+can use to your advantage.) Go around the corner and *C1:TRZP*, then proceed
+until you turn north. Now if you've got Bard in your party, make sure they're playing a
+Bard song. Otherwise you'll wake up the two sleeping Red Dragons. Dragons
+suck, to be sure, but I bet you'll kill one before it gets a chance to breathe, and if you're lucky you'll get them both (100–125 HP).
 
-Just N of the dragons there's a secret door to the W. A magic mouth
+1N of the dragons there's a secret door to the west. A magic mouth
 demands to know who the son of Odin is. Good thing you spent all that
-time in the sewers; the answer is THOR, and you're rewarded(?) with a
-Thor Fign, which you can only use in battle(!). Thor is handy, but he's
-got a worse AC than the rest of your party and he's likely to die
-pretty quickly.
+time in the [Sewers](#sewers-level-2); the answer is `THOR`, and you're rewarded with a
+Thor Figurine, which you can only use in battle(!). Thor is handy: he's a good fighter with Critical Strike.
 
-Go N and teleport again. There's a secret door to the N, then two traps
-in the hallway that are kind of back-to-back. Turn S and proceed through
-a secret door, then take the first door to your right (W). Skip over
-the fixed encounter if you can and step into the SW corner of this room
+Go 1N and teleport again. There's a secret door to the north, then two traps
+in the hallway that are kind of back-to-back. Turn south and proceed through
+a secret door, then take the first door to your right (west). Flee from
+the fixed encounter if you can and step into the southwest corner of this room
 to teleport again.
 
 You're now in a tiny 2x1 room. 1E is a trigger point that swaps all the
 walls on the level with doors, and vice versa. Weird, huh? Neat idea for
-an RPG maze level though. Proceed 2W through a new door and teleport
-again, this time into a large room just S of where you teleported
-last time.
+an RPG maze level though. There's no take-backsies, either; you have to leave the floor and come back if you want the walls to reset. But you don't, because now the way through to the stairs is open; proceed 2W through a new door and teleport
+again, this time into a large room just south of where you came from.
 
-There are lots of ways to work your way into the SW corner of this level,
+There are lots of ways to work your way into the southwest corner of this level,
 but here's my favorite: 1N, then head W. You'll run through a couple
 of doors where a corridor takes a switchback to the N. Proceed into the
-corner at (3,15), then turn S. Go past the entry stairs and keep going
-S until you're stopped by a wall at (3,4). Then go 1W to find a set of
-tracks leading S, and from here it's an easy path to (0,0) and the hole
+corner at (03,15), then turn south. Go past the entry stairs and keep going south until you're stopped by a wall at (03,04). Then go 1W to find a set of
+tracks leading south, and from here it's an easy path to (00,00) and the hole
 in the ceiling taking you up to Level Five.
 
-There's really nothing else interesting on this level. I promise.
+The wide-open interior is randomly strewn with encounters and traps, but there's nothing else interesting on this level.
 
 #### Mangar's Castle, Level 5
 
-Fast Way: 2E (teleport) 1N (magic mouth) 1E (smoke) 1E (anti-magic)
-  1S 1E (x) 1E (x, Darkness) 5E 1N 1E (possession) 1E (x) 1N (teleport)
-  4E 1S 1E 1S 1W, TRZP, 1W 3S 2E 4S 1E 3S 3E, turn S and TRZP, 2S 1N
-  5E 5N 4E 1N 1E 1N (teleport) 4N (x) 5N (coals) 1N (x, Darkness)
-  [The "fastest" would be 4N (anti-magic, Mangar), but...]
-  4E 1N (anti-magic) 2N 1E 2N 3W, TRZP, 2W (Spectre Snare), 1S (Mangar)
+*The Fast Way:*
 
-The good news is that +STON creatures are less common here, but you will
-run the odd Basilisk, Beholder, Master Magician, and Evil Eye. Level-
-draining creatures are now Vampire Lords and the standard Spectres
+- *The Entrance:* 2E (teleport) 1N 1E (smoke) 1E (anti-magic) 1S 1E (Storm Giants) 1E (x, darkness) 5E 1N 1E (possession) 1E (x) 1N (teleport)
+- *The Maze:* 4E 1S 1E 1S, turn W and *C1:TRZP*, 2W 3S 2E 4S 1E
+- *The Killing Field:* 3S 3E, face S and *C1:TRZP*, 2S 3E 2N 9E 4N 1W 2N 1E (pool of lava)
+- *The Home Stretch:* 4N (spectres) 5N (coals, Silver Shapes lock)
+- If you don't need the Spectre Snare: 5N (darkness, Anti-Magic, fight with Mangar)
+- If you do: 1N (darkness) 4E 1N (anti-magic) 3N (x) 1N 1W (x) face W and *C1:TRZP*, 3W (Spectre Snare) 1S (fight with Mangar
+
+The good news is that +`STON` creatures are less common here, but you will
+run the odd Basilisk, Beholder, Master Magician, and Evil Eye. Level-draining creatures are now Vampire Lords and the standard Spectres
 (including one batch you can't avoid). I suggest you do a lot of running;
-you're pretty much here for the moneyshot, not the foreplay. If you still
+you're here for the money shot, not the foreplay. If you still
 need to grind you shouldn't be doing it here.
 
 From the portal up, you're in a short hallway. Proceed E to a teleporter,
 then N to a magic mouth with a useless warning. W of here is a room with
 some combats and traps; ignore it, go E instead. Smoke is annoying,
-but so is the Anti-Magic Zone. Proceed S, re-cast YMCA (or don't),
+but so is the Anti-Magic Zone. Proceed south, re-cast *M7:YMCA* (or don't),
 and then 1E to a special encounter with some Storm Giants. They hit hard.
 
-E again you'll come to a double-wide corridor full of Darkness. There's a
+Continue east to a double-wide corridor full of Darkness. There's a
 tricksy teleporter along the N wall, so instead hug the S wall and proceed
-E until you hit the wall, then go 1N 1E. Here there's a devious trap
-that will +POSS one of your characters, forcing you into a
-self-combat. Cast W3:DISP as soon as you can, then follow with M7:REST,
-because for some inexplicable reason, disposessing a character causes
-him to drop to 1HP (similar to death/W6:BEDE). There's a fixed encounter
-to the E.
+E until you hit the wall, then go 1N 1E. This drops you onto a devious trap
+that will +`POSS` one of your characters, forcing you into a
+self-combat. Cast *W3:DISP* as soon as you can (or bring an Exorwand with you), then follow with *M7:REST* while you're still in party combat,
+because for some inexplicable reason dispossessing a character reduces him to 1 HP (similar to death / *W6:BEDE*). There's a fixed encounter
+1E.
 
-Through the door to the N you'll immediately hit a teleporter that
-will drop you in a maze in the W-central part of the map. Make sure you
-have S3:SESI active so you can spot traps here. Go E, S, W to the first
-intersection (and trap). TRZP it, then go S to the next intersection,
-E, and S. Walk through the wall at the end of the S hallway and then E.
+Through the door 1N you'll immediately hit a teleporter that
+will drop you in a maze in the west-central part of the map. Make sure you
+have *S3:SESI* active so you can spot traps here. Go 4E 1S 1W 1S, face W and *C1:TRZP*, then 2W 3S 2E and S until you pass through a secret door. Then go E through a one-way door.
 
 This puts you in a large open arena. There are a bunch of fixed encounters
-and traps throughout this area. Along the E part of the map are several
+and traps throughout this area. Along the east part of the map are several
 closets with special encounters as well. Again, you shouldn't be grinding
 here; skip over them as much as possible. Your goal here is a 2x2 room
-in the E-center part of the map. Inside you'll find a pool of lava;
+in the east-center part of the map. Inside you'll find a pool of lava;
 (D)ive into it. It will damage your party, but it's actually a teleporter
 that brings you closer to Mangar.
 
-Proceed N until you hit the fixed encounter with Spectres. Try Running,
-otherwise blast them with W1:REDE (slightly more effective than S5:MIBL
+Don't go through any of the doors, just proceed N until you hit the fixed encounter with Spectres. Try Running,
+otherwise blast them with *W1:REDE* (slightly more effective than *S5:MIBL*
 against undead) and hope you don't get level-drained. N of there is a
 hallway full of coals (ow), and at the end of the hallway there is a
 funny lock that requires the three Silver Shapes. I hope you brought
 them with you, otherwise this was pointless and you may as well cast
-C6:APAR and get out of here.
+*C7:APAR* and get out of here.
 
 The hall surrounding Mangar's antechamber is Dark. You have two choices;
 if you parade straight in the front door to the N, you'll be stuck in
 an Anti-Magic Zone right before you face him. The other option is to sneak
 around to the back, where you can pick up the Spectre Snare, the best
-weapon in the game; it grants +8AC, hits for up to 64hp of damage, grants
-Critical Hit ability, and will cast W5:SPBI if you (U)se it during
+weapon in the game; it grants +8 AC, hits for up to 64 HP of damage, grants
+Critical Strike, and casts *W5:SPBI* if you use it during
 combat. You're only allowed one, though, so if you come back here with one
-in your inventory, you won't pick up a second. (It's possible that you can
-sell it to Garth, get a second one, then go back and re-buy the first.)
+in your inventory, you won't pick up a second.
 
 (If you're feeling masochistic, you can work your way to the room in the
-NW corner, which has tons of encounters and a few traps; in the opposite
+northwest corner, which has tons of encounters and a few traps; in the opposite
 corner of that room is "Mangar's Treasure Horde", which as far as I can
 tell was in fact eaten by two Black Dragons because I fought them off
 but didn't find any treasure at all.)
 
-From the entrance to the Dark room, proceed E, N through an AMZ, and then
-W. There's a trap right before the room with the magic mouth and Snare. If
-you're feeling uppity, you can C6:APAR out of here and come back for
-another (usable by Warrior, Hunter, Bard, and Wizard). When you're ready
-to move on, step 1S from here into Mangar's room.
+From the entrance to the Dark room, proceed east, north through an AMZ until you find the far wall, then west. There's a trap right before the room with the magic mouth and Snare. Oddly, the magic mouth told me I was "Wrong!!!" but gave me the Snare anyway. There's a door to the south that takes you straight to Mangar.
 
-Mangar is accompanied by three Vampire Lords (who drain levels) and
-two Demon Lords (who hit hard, +STON, breathe fire, and summon other
-Demons). The number of enemies is small enough, and their HP high enough,
-that I wouldn't bother with S6:MIBL because it doesn't do enough total
-damage. Also, your fighters are pretty much useless, so you might want
-to think about loading them up with magical items that can be used (a
-Dragonshield will at least make you feel like you're doing something). The
-best strategy I came up with was: 
+Mangar is accompanied by three Vampire Lords (who drain levels and have Critical Strike) and
+two Demon Lords (who hit hard, +`STON`, breathe fire, and summon other
+Demons). Here's a couple of tactical points to help you with the final battle:
 
-Round 1: Use the Snare to steal a Demon Lord, hit Mangar with two S2:MIFI
-(should hit for 125+ hp each), and drop a third on the other Demon
-Lord. You should kill Mangar this round. (He has 14-270hp, so there's
-a chance that one spell will take him out.)
+- There's a very, very good chance that you're going to get level-drained, +`STON`ed, or outright killed. Don't worry about it, because the next thing that happens is you're teleported to the Adventurers' Guild.
+- The number of enemies is small enough that if this fight goes past three rounds you're likely to be in trouble. Mangar will summon more Demon Lords so make sure you take him out in the first round.
+- Don't cast *S6:MIBL* because there aren't enough enemies and it doesn't do enough total
+  damage. You're better off with *S2:MIFI* (remember, there's a per-character-level damage multiplier), *W2:DEBA/W5:DMST*, and *W1:REDE*.
+- Consider *W5:SPBI* and/or using the Spectre Snare to steal one of the Demon Lords and turn them to your side. It's one less enemy to fight and they'll be helpful on your side as well.
 
-Round 2: Clean up the other Demon Lord; the one you Snared will help. Hit
-the Vampire Lords with W1:REDE or S2:MIFI, and cast M7:REST or W6:BEDE as
-necessary. If the Demon Lords survive and start summoning Greater Demons,
-you're in trouble.
-
-Round 3: If you still have Demon Lords, at least one of your PCs has
-already been STON'd and you're probably screwed. Mop up the Vampire
-Lords, although if there are any Greater Demons you should take them
-out first.
-
-Round 4+: Mop up any remaining summoned creatures.
+Spread out your attacks, burn Mangar right away with *S2:MIFI*, and cross your fingers. With lucky rolls, I've gotten through the entire fight in two rounds with no death. With less lucky ones, I limped out with one remaining spell caster who managed to kill the last Vampire Lord with *S2:MIFI* before he could kill me. It's a tough fight.
 
 If you manage to beat Mangar and his horde, Kylearan delivers the
 game-winning message:
 
-> Kylearan, the good Archmage, appears before you in a flash of light. "Well done!" he cries, beaming. "Your quest in Skara Brae is fulfilled! The evil one is now defeated, and his spell of winter will soon end. You will all, as a symbol of my gratitude, receive a gold and experience bonus of 300,000 units. Fare well and live long!" Kylear [sic] vanishes.
+> Kylearan, the good Archmage, appears before you in a flash of light. "Well done!" he cries, beaming. "Your quest in Skara Brae is now finished! The evil one is now defeated, and his spell of winter will soon end. You will all, as a symbol of my gratitude, receive a gold and experience bonus of 300,000 units. Fare well and live long!" Kylearan vanishes.
 
 You're then teleported back to the Adventurer's Guild, $300,000 richer
 and 300,000 XP more experienced (even the +`STON`ed characters, I
-think). Presuming that all six of your characters survived, go ahead and
-level up, and then get ready for Chapter II of "Tales of the Unknown"...
+think). Hit the Thief Temple to heal up and the Review Board to level up, and then get ready for Chapter II of "Tales of the Unknown"...
 
 ## Final Notes
 
 Congratulations on defeating Mangar and freeing Skara Brae from... wait, why are we still snowed in?
 
 Like many games of this era, *Bard's Tale I* doesn't really end, it just kind of drops you back where you started and lets you continue to run around as overpowered characters. There's nothing stopping you from running back to Mangar's Tower and killing him again, or revisiting some other part of the game if you want.
+
+Most of the special events that involve collecting unique items (the Crystal Sword, the Silver Shapes, the Spectre Snare, etc.) are gated on whether or not you already have the item in your possession. If you'd like to collect a second one, you can generally do it by disposing of the copy you already have (hand it to a mule in the Adventurers' Guild, or sell it to Garth), revisiting the special location, then picking up the first one again.
 
 ### The Speed Run
 
@@ -1567,23 +1544,23 @@ the game. The problem with _Bard's Tale I_, as we've discussed, is that you have
 That being said, the game designers weren't idiots. Sure, you can skip over most of [The Sewers](#the-wine-cellar-and-the-sewers) if you already know the
 password to the [Catacombs](#temple-of-the-mad-god), but in order to even get into [Mangar's Tower](#mangars-tower-and-endgame) you need the Onyx Key from Kylearan... and to get into [Kylearan's Tower](#kylearans-tower) you have to defeat the Mad God at the top of [Harkyn's Castle](#harkyns-castle-and-kylearans-tower)... and
 you need the Eye from Aildrek's tomb at the bottom of the Catacombs to
-do that. So there really aren't any shortcuts.
+do that. So there really aren't many shortcuts.
 
 I suppose if you're trying to kill Mangar repeatedly, you could say that
 the "Speed Run" involves getting to Mangar's Tower as fast as possible,
-teleporting to the third floor, opening the stairs to Level Four, running
+teleporting to the magic mouth on Level Three, opening the stairs to Level Four, running
 the wall/door maze, and then blasting through Level Five as quickly as
 possible. Which, if you're playing characters that are beefy enough to
 take on Mangar, you've probably already done enough times that you don't
 need me to tell you how to do it.
 
-So, no speed run for you.
+So, no "speed run" for you.
 
 ### Hex Editing
 
 Hex editing your characters is trivially easy on the PC: every character in the Guild's roster is saved in an individual file with a `.TPX` extension. There are lots of DOS utilities out there that will hack your character files for you, although I don't think any of them are quite this complete.
 
-Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-endian, meaning the smallest byte comes first. So if you read two bytes `ab 02`, that's 683 (0x02ab), not 43778 (0xab02).
+Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-endian, meaning the smallest byte comes first. So if you read two bytes `ab 02`, that's 683 (`0x02ab`), not 43778 (`0xab02`).
 
 <table class="small">
   <tr>
@@ -1704,6 +1681,8 @@ Stats that appear twice (including HP and SP) are presented with their maximum v
 For Hunters, the current **Critical Hit** score (`0x5b-5c`, although it maxes at 255 so it's really only one byte).
 
 For Bards, the number of **Bard Songs** (`0x5d`) remaining.
+
+`0x5f` and `0x61` reportedly have something to do with being taken over by a Doppleganger.
 
 **Attacks per round** (`0x65-66`) is offset one, so `00 00` indicates one attack per round.
 

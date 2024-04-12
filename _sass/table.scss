@@ -1,0 +1,22 @@
+table.small {
+  font-size: 75%;
+  td {
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+td.c {
+  text-align: center;
+}
+
+td.r {
+  text-align: right;
+}
+
+th, td.b {
+  border-bottom-width: 4px !important;
+}
+
+tr.thick > td {
+  border-bottom-width: 4px !important;
+}

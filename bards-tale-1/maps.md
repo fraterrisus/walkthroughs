@@ -4,41 +4,33 @@ toc:
   enabled: false
 ---
 
-# Yet Another Bard's Tale 1 Walkthrough
-
-Version 0.9, September 2023
-
-## Administrivia
-
-{% include license.html year='2014–23' %}
-
-### Version History
-
-- v0.9, September 2023: reorganized the maps for Github Sites
-
 # Maps
 
-Unlike my other walkthroughs, this isn't (yet) a proper guide to the game. It's really just a collection of well-annotated maps that I've assembled. However, given the extremely linear nature of *Bard's Tale 1*, if you already know what you're doing, these maps should be plenty enough.
+These maps are hand-drawn based on experience, but have been corrected and updated in a few places by disassembling the DOS data files so I'm quite sure they're correct... on that platform, anyway. I strongly expect there will be some differences if you're playing a different version.
 
-1. [Skara Brae](00-skara-brae.png)
-2. [The Wine Cellar](01-wine-cellar.png)
+Perhaps obviously, these maps contain spoilers: not just what you'll find and where, but also annotations revealing the answers to puzzles or riddles that you'll be asked along the way. More so than with some other games, you might want to take the opportunity to make your own maps instead of using mine, depending on what you're trying to get out of the experience.
+
+One random note: in a few cases, in order to avoid cluttering the map any more than necessary, teleporter paths (grey dotted lines) sometimes "wrap" around from one side of the map to the other.
+
+1. [Skara Brae](svg/skara-brae.svg)
+2. [The Wine Cellar](svg/wine-cellar.svg)
 3. The Sewers
-  - [Level 1](02-sewers-1.png)
-  - [Level 2](03-sewers-2.png)
-  - [Level 3](04-sewers-3.png)
+  - [Level 1](svg/sewers-1.svg)
+  - [Level 2](svg/sewers-2.svg)
+  - [Level 3](svg/sewers-3.svg)
 4. The Catacombs
-  - [Level 1](05-catacombs-1.png)
-  - [Level 2](06-catacombs-2.png)
-  - [Level 3](07-catacombs-3.png)
+  - [Level 1](svg/catacombs-1.svg)
+  - [Level 2](svg/catacombs-2.svg)
+  - [Level 3](svg/catacombs-3.svg)
 5. Harkyn's Castle
-  - [Level 1](08-harkyn-1.png)
-  - [Level 2](09-harkyn-2.png)
-  - [Level 3](10-harkyn-3.png)
-6. [Kylearan's Tower](11-kylearan.png)
+  - [Level 1](svg/harkyn-1.svg)
+  - [Level 2](svg/harkyn-2.svg)
+  - [Level 3](svg/harkyn-3.svg)
+6. [Kylearan's Tower](svg/kylearan.svg)
 7. Mangar's Castle
-  - [Level 1](12-mangar-1.png)
-  - [Level 2](13-mangar-2.png)
-  - [Level 3](14-mangar-3.png)
-  - [Level 4](15-mangar-4-1.png) and [post-flip](15-mangar-4-2.png)
-  - [Level 5](16-mangar-5.png)
+  - [Level 1](svg/mangar-1.svg)
+  - [Level 2](svg/mangar-2.svg)
+  - [Level 3](svg/mangar-3.svg)
+  - [Level 4](svg/mangar-4.svg)
+  - [Level 5](svg/mangar-5.svg)
 

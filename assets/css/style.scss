@@ -5,30 +5,8 @@ $table-border-color: #ccc;
 
 @import "{{ site.theme }}";
 @import "toc";
-
-$float-margin: 20px;
-
-div.float-left {
-  float: left;
-  margin-right: $float-margin;
-}
-
-div.float-right {
-  float: right;
-  margin-left: $float-margin;
-}
-
-td.c {
-  text-align: center;
-}
-
-td.r {
-  text-align: right;
-}
-
-th, td.b {
-  border-bottom-width: 4px !important;
-}
+@import "float";
+@import "table";
 
 .page-navbar {
   font-size: 125%;

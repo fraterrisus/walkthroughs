@@ -1107,7 +1107,7 @@ The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consume
 </table>
 ## By Group
 
-Handy if you're trying to figure out what drops are possible on a given dungeon level, or for [hex editing](walkthrough.html#hex-editing) your party.
+Handy if you're trying to figure out what drops are possible on a given dungeon level, or for [hex editing](index.html#hex-editing) your party.
 
 ### Group I
 

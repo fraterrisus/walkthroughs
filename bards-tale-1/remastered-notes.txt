@@ -1,0 +1,128 @@
+Multiple groups of enemies sometimes show up in Skara Brae after sundown.
+
+Identifying items costs $200 and up; Roscoe charges even more to name magical sub-effects.
+
+In the daytime you regenerate 1MP roughly every 10 steps or so, which is MUCH faster.
+
+The Crystal Golem has to actually be slain with the Crystal Sword; it's not enough to just have it in your inventory.
+
+Anti-magic zones don't cancel spells that were cast by _items_.
+
+Stasis Chambers actually kill you.
+
+Thieves:
+- are the ONLY ones who can Disarm a trapped chest now.
+- get Critial Strike once Hidden
+- don't have to pay for healing at the Thief Temple
+
+STR gives bonuses to hit (17:+1, 18:+2), has no effect on damage(??)
+Weapon bonuses seem to be both to-hit and damage (although they've rolled it into what they display)
+Paladins get extra to-hit bonuses
+
+
+Samuel    [ 2 [ 9 : 32] 32]     Halberd x2
+Samuel    [ 3 [14 : 45] 48]     Halberd x3
+Samuel    [ 4 [18 : 59] 64]     Halberd x4
+Samuel    [16          100]     Dayblade x4 (+1)
+Josephine [12 [20 : 33] 30] *** Mithril Sword x3
+Josephine [ 3 [15 : 46] 48]     Halberd x3
+Josephine [ 4 [26 : 54] 64]     Halberd x4, ST 18
+Luther    [15 [22 : 57] 60]     unarmed (L9) x3
+Luther    [18 [28 : 69] 72]     unarmed (L10) x3
+Luther    [
+Luther    [32 [   :   ]128]     unarmed (L14) x4
+Naimh     [ 4 [ 4 :  9] 10]     Mithril Sword x1
+
+
+Samuel (Pal-8, ST 18, Halberd 3x(1-16) = 3-48)
+  +2 to hit (ST+2)
+  Dayblade (3d8+1 = 4-25)
+
+Josephine (War-8, ST 18, Mithral Sword 3x(2-8+2) = 12-30)
+  +4 to hit (ST+2, Mithral+2)
+  Kael's Axe 5d4+2 (+2 to hit)
+
+Luther (Mon-8, ST 17, unarmed 3x(5d4) = 15-60)
+  9: 5d4, +4 to hit
+  10: 6d4, +5 to hit
+
+Naimh (Bar-8, ST 11, Mithral Sword (2-8+2) = 4-10)
+Naimh (Bar-11, ST 11, Bardsword (2-16+4) = 6-20)
+  
+
+
+Cold Harp: 8-32, 20'
+Fire Horn: 16-64, 20'
+Lightwand: LERE
+
+
+SAMUEL (Pal)
+  (+3) Dex 18
+A (+7) Admt.Plate      -- Dmnd(+8)
+H (+3) Admt.Helm       -- Travel(+3),Dmnd(+4)
+G (+3) Admt.Gloves     -- Wargloves(+4)
+O (+5) Pure Shield
+R (+2) Shield Ring
+M (+2) Ali's Carpet
+
+JOSEPHINE (War)
+  (+2) Dex 17
+A (+8) Dmnd.Plate
+H (+3) Travelhelm
+         casts APAR
+G (+4) Wargloves
+O (+4) Dragonshield    -- Dmnd(+5)
+R (+2) Shield Ring
+M (+2) Ali's Carpet
+
+LUTHER (Mon)
+  (+8) Monk 18
+  (+3) Dex 18
+A (+4) Mith.Chain      -- Admt.Bracers(+6)
+H (+2) Mith.Helm
+G (+1) Leather Gloves
+O (--) Long Bow        -- Buckler(+1)
+R (--) Troll Ring
+M (--)                 -- Ali(+2),Elf(+3)
+
+NAIMH (Bar)
+  (+3) Dex 18
+A (+8) Dmnd.Plate
+H (+3) Admt.Helm
+G (+2) Mith.Gloves
+O (+5) Dmnd.Shield
+I (--) Frost Drums     -- Fin's Flute(+2)
+R (+2) Shield Ring
+M (+3) Elf Cloak
+
+ALEX (Rog)
+  (+3) Dex 18
+A (+5) Mith.Scale      -- Admt.Bracers(+6)
+H (+3) Admt.Helm
+G (+1) Leather Gloves
+W (--) Troll Staff
+         regenerates HP
+O (--) Long Bow        -- Admt.Shield(+4)
+R (+2) Shield Ring
+M (--) Thief Darts     -- Elf Cloak(+3)
+
+MARKOV (Wiz)
+  (+3) Dex 18
+A (+6) Admt.Bracers
+H (+2) Lorehelm
+G (+1) Leather Gloves
+W (+2) Mage Staff
+O (--) Exorwand        -- Luckshield(+2)
+R (+2) Shield Ring
+M (+2) Ali's Carpet    -- Elf Cloak(+3)
+
+ISOBEL (Wiz)
+  (+3) Dex 18
+A (+6) Admt.Bracers
+H (+2) Lorehelm
+G (+1) Leather Gloves
+W (+2) Shield Staff    -- Mage Staff(+2)
+O (--) Exorwand        -- Luckshield(+2)
+R (+2) Shield Ring
+M (+2) Ali's Carpet    -- Elf Cload(+3)
+

@@ -12,7 +12,7 @@ In the following tables, weapon damage is listed as a range plus a bonus; the bo
 
 The **Price ($)** column lists Garth's asking price; you can sell him things for 50% of that, and if you need to identify something it will also cost you 50%. Unidentified items sell for their normal value. You can often use these facts together to figure out what something is before you identify it; an "Armor" that sells for $300 is definitely a Bracers of AC 6, etc.
 
-Items with spell effects are listed in the **Casts** column; you can `Use` these items in combat to cast the associated spell. These items have a hidden number of charges and will *disappear* when they run out, so beware of using your prized weapons and shields this way.
+Items with spell effects are listed in the **Casts** column; you can `Use` these items in combat to cast the associated spell. These items don't track charges (uses) in a standard way; instead, they have a small chance of expiring (and disappearing) each time you use them, so beware of using your prized weapons and shields this way.
 
 The **Group** column indicates the dungeon levels on which the item can be randomly found. Items in group `—` are never found randomly; they only appear in specific places.
 

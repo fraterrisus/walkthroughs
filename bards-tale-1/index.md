@@ -16,11 +16,7 @@ Version 1.0, April 2024
 
 ### Acknowledgements
 
-There is a wealth of information about the *Bard's Tale* series out there on the Internet. At first, I
-used the genuine hint book published by Interplay and Electronic Arts as a
-basis for my maps — still had my original copy, all these years later – even
-though it turns out it's wrong in a few places. I looked at a few other sets of
-maps but largely made my own to go along with this walkthrough, and then eventually got around to writing a decoder for the game data files.
+There is a wealth of information about the *Bard's Tale* series out there on the Internet. At first, I used the genuine hint book published by Interplay and Electronic Arts as a basis for my maps – still had my original copy, all these years later – even though it turns out it's wrong in a few places. I looked at a few other sets of maps but largely made my own to go along with this walkthrough, and then eventually got around to writing a decoder for the game data files.
 
 Sources I used:
 
@@ -50,18 +46,13 @@ If you happen to know the answers to one of these questions and are willing to q
 
 ### Game Introduction
 
-*The Bard's Tale: Tales of the Unknown* is, in my opinion, one of *the* classic CRPGs. If you've played other games before but happen to be encountering this series for the first
-time, many of its mechanics will seem cliché. The _Bard's Tale_ series didn't exactly invent most of these mechanics, but it is one of the
-best and most well-known examples of the genre.
+*The Bard's Tale: Tales of the Unknown* is, in my opinion, one of *the* classic CRPGs. If you've played other games before but happen to be encountering this series for the first time, many of its mechanics will seem cliché. The _Bard's Tale_ series didn't exactly invent most of these mechanics, but it is one of the best and most well-known examples of the genre.
 
-Which is not to say that the game is without it's little issues... like, say, the fact that every version is slightly different from every other version. Folks who have done more disassembly work than I have claim that even the base combat statistics work differently from platform to platform, so what's true on one won't be exactly the same on the others. Throw in the fact that as part of inXile Entertainment's crowdfunding campaign for *Bard's Tale IV* (an excellent, modern CRPG that is totally worth playing) they managed to build a new version of the original trilogy with a bunch of optional switches embedded that change the mechanics even further, and the idea of making a document that's general enough to be useful on every platform without accidentally giving you misinformation is pretty hopeless.
+Which is not to say that the game is without it's little issues... like, say, the fact that every version is slightly different from every other version. Folks who have done more disassembly work than I have claim that even the base combat statistics work differently from platform to platform, so what's true on one won't be exactly the same on the others. Throw in the fact that as part of inXile Entertainment's crowdfunding campaign for *Bard's Tale IV* (an excellent, modern CRPG that is totally worth playing) they managed to build a new version of the original trilogy with a bunch of optional switches embedded that allow you to pick and choose which mechanics you want in "Legacy Mode", and the idea of making a document that's general enough to be useful on every platform without accidentally giving you misinformation is pretty hopeless.
 
-So throughout this guide I'm going to try to stay away from making any specific suggestions based on game mechanics and stick to higher-level strategies that will help you no matter which platform you're playing on. I hope. My experience with the game is split between the Apple IIgs and MS-DOS platforms, but I'll try to point out places where I know those platforms differ from others.
+So throughout this guide I'm going to try to stay away from making any specific suggestions based on game mechanics and stick to higher-level strategies that will help you no matter which platform you're playing on. I hope. My experience with the game is split between the Apple IIgs and MS-DOS platforms, but I'll try to point out places where I know those platforms differ from others. In particular, some of the advice in this guide will not match the rules that they implemented in the Remastered edition, even in Legacy Mode. *Caveat ludio.*
 
-I'm assuming you've acquired and read a copy of the manual and/or reference
-card for the game. It'll tell you the specific commands used to navigate around
-the game and give you a tour of the interface. The keyboard commands vary a bit between platforms, so usually I say this purely out of obligation but in this case I really do encourage you to find a copy of the reference card for your platform. Some
-versions of the game have copy protection, but it's fairly [straightforward](#experience-and-leveling-up) to deal with.
+I'm assuming you've acquired and read a copy of the manual and/or reference card for the game. It'll tell you the specific commands used to navigate around the game and give you a tour of the interface. The keyboard commands vary a bit between platforms, so usually I say this purely out of obligation but in this case I really do encourage you to find a copy of the reference card for your platform. Some versions of the game have copy protection, but it's fairly [straightforward](#experience-and-leveling-up) to deal with.
 
 For my money, the experience of playing *Bard's Tale I* is largely not about the story. Don't get me wrong; this isn't one of those CRPGs that staples on its backstory and then never mentions it again. The goal of the game really is to find and destroy Mangar, and several NPCs will help you progress in that direction as you explore. It's just that the game was designed such that you pretty much need to explore every square of every dungeon level in order to make sure you don't miss an item or an inscription that gives you a clue that you'll need to solve a puzzle much, much later in the game. A naive player that doesn't know that unwritten rule is almost certainly going to wind up not knowing the answer to that later puzzle, which means having to go back and scour every dungeon level for clues after the fact. I can't imagine that being "fun".
 
@@ -144,7 +135,7 @@ There are two important things to remember here. First, when running from combat
 
 **Attack Priority (AP):** Determines the order that actions are resolved during a combat round; the combatant with the highest AP generally goes first. If you're familiar with the concept of "initiative" from tabletop RPGs, this is the same thing. AP is improved by increased levels, your DX modifier, and a fraction that increments every time your party wins a battle. Monks have the best Attack Priority, followed by other fighters, Bards and Rogues, and casters.
 
-A Hunter's **Critical Strike** skill, a Rogue's **Hide in Shadows** skill, and the number of songs a Bard has remaining before you have to buy him a drink are also hidden statistics; more about those later when we talk about the classes.
+A Hunter's **Critical Strike** skill, a Rogue's **Hide in Shadows** skill, and the number of songs a Bard has remaining before you have to buy him a drink are also hidden statistics; more about those later when we talk about the classes.
 
 ### Races
 
@@ -192,7 +183,7 @@ A Monk's unarmed damage goes up as they gain levels. At 6th level, a monk does m
 
 **Bard (Ba):** A jack-of-all-trades who can make magic with their music but still hold their own in a brawl. Bards have the same Hit Die as Warriors but are otherwise worse fighters and they don't get multiple attacks. However, Bard Songs are unique to this class, and there are several magical musical instruments that only Bards can use, most notably the Fire Horn and its cousins. The number of songs a Bard can sing before they have to "recharge" their voice (by buying a drink in any Tavern) is a hidden ability. The game designers would really, *really* like you to have a Bard in your party; there are two places where having a Bard is "essential" to making progress. I mean, they did call the game "The Bard's Tale". So you probably want one.
 
-**Rogue (Ro):** Sneaky, clever, devious. Rogues are the best characters when it comes to identifying, disarming, and avoiding traps. In combat they have the unique ability to **Hide in Shadows** where no one can hit them. However, they don't receive multiple attacks, they share a Monk's mediocre Hit Die, they're about as good as Bards in combat, and no one really cares about traps because you can usually guess and *C1:TRZP* only costs 2 SP. So you really *don't* want one.
+**Rogue (Ro):** Sneaky, clever, devious. Rogues are the best characters when it comes to identifying, disarming, and avoiding traps. In combat they have the unique ability to **Hide in Shadows** where no one can hit them. If successful, attacks made from the Shadows have a chance to Critical Strike. However, Rogues don't receive multiple attacks, they share a Monk's mediocre Hit Die, they're about as good as Bards in combat, and no one really cares about traps because you can usually guess and *C1:TRZP* only costs 2 SP. So you really *don't* want one.
 
 #### Casters
 
@@ -313,6 +304,7 @@ As we'll discuss in the [walkthrough](#surviving-skara-brae), your primary conce
 
 - The various temples scattered around Skara Brae, for $10 per HP;
 - Spells, starting with *C2:WOHL*;
+- The Bard song *Badh'r Kilnfest*;
 - The Heal Harp, Staff of Lor, and Pureblade can cast healing spells;
 - The Troll Ring and Troll Staff, if you can find them, grant HP regeneration.
 
@@ -350,7 +342,7 @@ largely not super important by the time it starts happening. Temples can
 restore drained levels, and on some platforms there is an [odd quirk](#weird-stuff) that may be worth being aware of.
 
 There is evidence of an additional status, **Paralyzed** (`PARA`), but it doesn't seem to have
-been actually implemented.
+been actually implemented in *BT1*.
 
 ### Managing Spell Points
 
@@ -512,7 +504,7 @@ At least on DOS, you can get around the class requirements for equipment that va
 
 ## Equipment
 
-*Bard's Tale* uses a fairly standard inventory system, where every party member has eight slots in their inventory and those slots can be filled with anything you like. Items have to be equipped before they have any effect in combat, and every item fits into a particular slot: **Weapon**, **Shield**, **Helm**, **Body armor**, **Gloves**, **Boots**, **Ring** (only one), and **Instrument** (Bards only). You can only have one item equipped in each slot, and depending on the platform you may or may not be able to use unequipped items during combat. **Miscellaneous Items** follow their own logic that I won't try to repeat here, and you appear to be able to wield both a Staff and a Wand (and a Shield) at the same time.
+*Bard's Tale* uses a fairly standard inventory system, where every party member has eight slots in their inventory and those slots can be filled with anything you like. Items have to be equipped before they have any effect in combat, and every item fits into a particular slot: **Weapon**, **Shield**, **Helm**, **Body armor**, **Gloves**, **Boots**, **Ring** (only one), and **Instrument** (Bards only). You can only have one item equipped in each slot, and depending on the platform (C64:yes, DOS:no) you may or may not be able to use unequipped items during combat. **Miscellaneous Items** follow their own logic that I won't try to repeat here, and you appear to be able to wield both a Staff and a Wand (and a Shield) at the same time.
 
 As the manual says, there are no cursed or "bad" items. However, some percentage of items you find will be unidentified; you can tell because it will show up in your inventory as a Weapon (or Instrument, or Armor, etc.) The only way to identify such an item is to bring it back to Garth and pay 50% of the purchase price, that is, the same amount that he'll give you if you sell it to him. Once you get deeper into the game and the possiblity of finding more interesting items exists, it's worth paying it, but for now, you can use the trick that the identification price and the sale price are the same. So if Garth wants $15 to identify a Weapon, it's gonna be a Short Sword.
 
@@ -553,16 +545,15 @@ sure you're standing in the right place and facing the right way when you do!
 
 Okay, now for the bad news: the first few hours of this game are the hardest and most frustrating to get through.
 
-As 1st level characters, your access to healing is
-100% based on gold pieces. You won't get your first healing spell until your
-Conjurers hit third level (at 6,000 XP) and get 2nd level spells (which costs
-$1,000 per caster), and even then you won't have nearly enough SP for all the
-healing you'd like to do. So you're stuck dropping $10 per hit point at the
-temples just to survive... and half the monsters you fight won't drop $10 per
-point of damage they do to you. It's a bit like playing the stock market: if
-you stay in the game long enough, you're likely to do better than break even,
-but it only takes one mistake to put you so far in a hole that you're selling
-gear for temple donations.
+As 1st level characters, your access to healing is 100% based on gold pieces, 
+unless you have a Bard, and even then you can only heal the *party* in combat.
+You won't get your first healing spell until your Conjurers hit third level (at
+6,000 XP) and get 2nd level spells (which costs $1,000 per caster), and even
+then you won't have nearly enough SP for all the healing you'd like to do. So
+you're stuck dropping $10 per hit point at the temples just to survive... and
+half the monsters you fight won't drop $10 per point of damage they do to you. It's a bit like playing the stock market: if you stay in the game long enough,
+you're likely to do better than break even, but it only takes one mistake to
+put you so far in a hole that you're selling gear for temple donations.
 
 So here's my guide to surviving the early game. The difference between dying a lot and slowly gathering more gold than you're
 spending is to get the AC of your front-line fighters as low as possible as
@@ -603,7 +594,7 @@ Garth's as necessary and repeat. If it somehow gets dark out, run back to the Gu
 Unfortunately, there's still a fair bit of luck involved here. At 1st level your characters can't really take more than two or three hits before dying,
 even at max HP. To be safe, run from
 anything with more than two or three enemies, always run from Barbarians (ow) and Magicians (+`OLD`, which is expensive to heal now and gets worse after 1st level),
-and consider running from anything else in Group II (see [Bestiary](#bestiary)). Of course, running won't always work. When a character dies, you can either quit and reload,
+and consider running from anything else in Group II (see [Bestiary](bestiary.html)). Of course, running won't always work. When a character dies, you can either quit and reload,
 or if it's early enough in the character's career, make a replacement character and transfer the dead character's equipment to them. (Bonus: an extra portion of starting gold that you can use to heal the rest of your party.) If your emulator has a save-state function, use it early and often.
 
 Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; the Magician isn't good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups.
@@ -756,7 +747,7 @@ In the Gran Plaz that dominates the center of Skara Brae there are four Temples,
 
 Your goal here is to grind up to either the second class change or the acquisition of *S6:MIBL*, depending on whether you took one or more Sorcerers at your first class change. But the XP should flow a lot faster than it did in the Sewers and Level V loot starts to get into some useful stuff. (Don't sleep on the fact that Mithril Scale can be used by casters!) If you skipped through the Sewers pretty quickly, you may be around level 9. If your front line has around 150 HP and your casters have level 4 spells, you'll probably be okay, but be careful. If you cleaned out the Sewers more thoroughly and got your first class change already, Catacombs Level One should be a snap and you're probably ready for the lower levels.
 
-There are a *lot* of undead kicking around here, especially on Level Three; check the [Bestiary](#bestiary) for special attacks. Unfortunately, Wizards get all the good anti-undead spells, but you can't get those until the second class change at the earliest so they probably won't do you much good here.
+There are a *lot* of undead kicking around here, especially on Level Three; check the [Bestiary](bestiary.html) for special attacks. Unfortunately, Wizards get all the good anti-undead spells, but you can't get those until the second class change at the earliest so they probably won't do you much good here.
 
 #### Catacombs, Level 1
 
@@ -1548,7 +1539,7 @@ Stats that appear twice (including HP and SP) are presented with their maximum v
 
 **Armor Class** (`0x2b-2c`) is a *signed* number, so `fe ff` = 0xfffe = -2. *This* value never goes below -10 no matter how much equipment you pile on.
 
-**Inventory** slots (`0x35-44`) are in two bytes; the first is the item ID, the second is `0x80` if the item is equipped (and I bet the rest of the byte is charges)
+**Inventory** slots (`0x35-44`) are in two bytes; the first is the item ID, the second is `0x80` if the item is equipped (and I bet the rest of the byte was supposed to be charges, but they didn't implement that)
 
 **Spell Levels** (`0x51-54`) are one byte per class, Sorcerer, Conjurer, Magician, Wizard.
 

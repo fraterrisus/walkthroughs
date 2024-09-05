@@ -45,7 +45,7 @@ Ah, *Deathlord.* If this is your first time playing, you're in for a treat. You'
 
 This is merely one example of the ways in which *Deathlord* hates you. We'll talk about lots more as we explore the world together.
 
-It's worth your time to look up and read some of the interviews with the creator of *Deathlord*, Al Escudero. You'll learn a few fun facts, like the fact that EA forced him to rebrand everything from a Norse them to a Japanese theme inside of a few months, which explains why some of the game text didn't get updated in time: Wakiza has a sign calling it Oceana, the emperor tells you to go to Oceanspray, etc. If you speak Japanese, apparently some of the translations are hilariously bad; check out Genpei's blog for examples (link in the [Acknowledgements](#acknowledgements)).
+It's worth your time to look up and read some of the interviews with the creator of *Deathlord*, Al Escudero. You'll learn a few fun facts, like the fact that EA forced him to rebrand everything from a Norse theme to a Japanese theme inside of a few months, which explains why some of the game text didn't get updated in time: Wakiza has a sign calling it Oceana, the emperor tells you to go to Oceanspray, etc. If you speak Japanese, apparently some of the translations are hilariously bad; check out Genpei's blog for examples (link in the [Acknowledgements](#acknowledgements)).
 
 My favorite part, though, is the bit where the developer admits that the game is basically much harder than he intended. The story goes that there was a QA team working on the project that had played the game through multiple times, so he kept increasing the difficulty level in order to make their job more interesting. Which is to say that even if you know what you're doing – say, because you're reading my walkthrough – it's still a damn hard game to play.
 
@@ -61,7 +61,7 @@ So, don't spend too much time with the manual. I've got you covered on most thin
 
 One of the things that makes *Deathlord* so brutal is the autosaving and permadeath. There's only one save slot, unlike even other games of its era, and the process of backing up your save game is laborious and incredibly slow. But, of course, you're "retrogaming", which means you get the benefit of an emulator that makes things like swapping disks easy, and might even offer you the ability to save a snapshot of the current emulator state.
 
-My favorite Apple II emulator is `linapple`, which accepts disk images in two formats. "Flat" images (`.dsk`) are a representation of all of the bytes stored on the disk in a linear array. "Nibblized" images (`.nib`) are a relatively faithful and unfiltered stream of data that might have been read off an actual Apple II floppy disk. Most of the flat images I found online were cracked versions that don't work, so I recommend that you find nibblized versions; you should be able to find them from the Asmiov archives and/or the Home of the Underdogs. There are other disk formats out there if you use other emulators; good luck.
+My favorite Apple II emulator is `linapple`, which accepts disk images in two formats. "Flat" images (`.dsk`) are a representation of all of the bytes stored on the disk in a linear array. "Nibblized" images (`.nib`) are a relatively faithful and unfiltered stream of data that might have been read off an actual Apple II floppy disk. Most of the flat images I found online were cracked versions that don't work, so I recommend that you find nibblized versions; you should be able to find them from the Asimov archives and/or the Home of the Underdogs. There are other disk formats out there if you use other emulators; good luck.
 
 Before you go any further, exit the emulator and back up the `.nib` files for the Boot, Master Scenario A, and Master Scenario B disks. Put the backups somewhere else, so if all else fails, you have clean copies that you can use to restart the game. Now boot the game, use the `Utilities` menu to `Make Scenario Disks`, and let the game make playable Scenario A and B disks for you. Then you can start creating characters.
 
@@ -788,7 +788,7 @@ That's a 108% chance of picking a lock. Let's convert that to the 0-250 scale: `
      add 00001110_2 = 8 + 4 + 2 = 14
 ```
 
-So a level 32 Ninja with 18 DEX has a 14/255, or around 5%, chance of success. Fortunately, there's a hard-coded override for level thieves level 33 and up.
+So a level 32 Ninja with 18 DEX has a 14/255, or around 5%, chance of success. Fortunately, there's a hard-coded override for thieves level 33 and up.
 
 ## Equipment
 

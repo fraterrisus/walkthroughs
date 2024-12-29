@@ -855,9 +855,9 @@ Check with a town Mystic; if they *don't* tell you "You are ready to visit the g
 
 Cast *Transportation* and pick town #99 (or the blank town-with-no-name, on the Amiga). Exit to the Astral Plane, step 1E, then proceed directly S until you find the river Styx; you won't be allowed to swim across it, but you should find Charon who will ferry you across. Somewhere around 5S 9E of there is the castle of the Gods of Olympus.
 
-Zeus's castle is fairly straightforward; there's a ring in the center with six tests that you must pass. Rolling clockwise, there's a room with a dirt floor that checks for the Earth rune, a room of water (duh), a room with two menacing figures (the test of combat), a room full of mist (do you have all nine rings?), the test of Fire, and the test of Air. If you don't pass one of the tests, you can leave without penalty and go try to fix it.
+Zeus's castle is fairly straightforward; there's a ring in the center with six tests that you must pass. Rolling clockwise, there's a room with a dirt floor that checks for the Earth rune, a room of water (duh), a room with two menacing figures (the test of combat), a room full of mist (do you have all nine rings?), the test of Fire, and the test of Air. If you can't pass a test, you can leave the castle without penalty and go try to fix it.
 
-If you do pass all the tests, a series of doors opens in the S hallway which admits you to Zeus's throne room. Pray to him (for the love of all things holy, don't attack him) and he gives you the God Rune, which allows you to enter the Temple of the Gods:
+There's a hallway leading S from the bottom of the loop; each test you pass opens one square of the hallway. If you pass all six tests the way is clear to Zeus's throne room. Pray to him (for the love of all things holy, don't attack him) and he gives you the God Rune, which allows you to enter the Temple of the Gods:
 
 > "I am very proud of you my brave friends... you have passed the six tests of the gods," he says. "I now give you the God Rune which will allow you to face the greatest of evil without fear."
 
@@ -869,21 +869,19 @@ In order to assault the final dungeon, you're going to have to take on at least 
 
 Ready? Okay, deep breath.
 
-The Black Lord, who rules the Black Knights, has taken up residence in the Temple of the Gods on a mountainous island just NW of Pelnor or a fair bit E of Starville.
+The Black Lord, who rules the Black Knights, has taken up residence in the Temple of the Gods on a mountainous island just SW of Pelnor or a fair bit N of Starville.
 
 Proceed S from the entrance. You'll be tested to see if you have the God rune, pick the lock on two doors, and then immediately face a party of Black Knights.
 
 The first part of this castle is a large maze that forces you down long, dangerous, dead-end passageways to see if you've picked the right way. If you're playing this game blind (i.e. without maps), be prepared for an absolute ton of backtracking. 
 
-The way you want is the second from the left. To get there from the gate, go S, then W, then S (disarm a trap), then W. There are two more Black Knight parties in this hallway. When it presents you with a choice, go E and follow the hallway S, fighting off some Water Elementals.
+The way you want is the second from the left. To get there from the gate, go S, then W, then S (disarm a trap), then W. There are two more Black Knight parties in this hallway. When presented with a choice, go E and follow the hallway S, fighting off some Water Elementals. The teleporter at the end of this hallway sends you to the SE corner of the map.
 
-The teleporter at the end of the hall takes you to the SE corner. Fight off some High Devils as you walk N. As you enter the throne room you're jumped by a group of Black Knights; the Black Lord escapes to the N through a secret door. Once you've handled the Knights, destroy the piles of gold and gems, ignore the throne and proceed N through the secret door behind it.
+Head N and fight off some High Devils. As you enter the throne room you're jumped by a group of Black Knights; the Black Lord escapes to the N through a secret door. Once you've handled the Knights, destroy the piles of gold and gems, ignore the throne and proceed N through the secret door behind it.
 
-Chase him through the tunnel. He'll stop several times to zap you with his Wand. Attack him once you get the chance; he pulls the classic villain trick, separating himself from you with an earthquake and then tossing his wand away to distract you.
+Chase the Black Lord through the tunnel. He'll stop several times to zap you with his Wand. Attack him once you get the chance; he pulls the classic villain trick, separating himself from you with an earthquake and then tossing his wand away to distract you.
 
-Head N to pick up his wand. This causes the fissure in the earth to seal up. If you now choose to Break his wand, it explodes and kills you. If you Wave the wand instead, you wind up in a treasure room containing Scroll #17 and Filmon the sage. Regardless of what you decide, he tells you it's "a wise decision." Now that you've cleared most of the map, you can leave, save the map, recharge, and return to finish the job. This gives you the chance to add the Wand of Nikademus to your inventory, but it's not clear what impact that has on anything.
-
-Or, if you're feeling your oats, tell him you want to fight the Black Lord right away and he'll teleport you back to the hallway you came from where you can proceed S and around the corner.
+Head N to pick up his wand. This causes the fissure in the earth to seal up. If you now choose to Break his wand, it explodes and kills you. If you Wave the wand instead, you wind up in a treasure room containing Scroll #17 and Filmon the sage. He asks if you want to fight the Black Lord now or leave first and heal up a bit; regardless of what you decide, he tells you it's "a wise decision." With most of the map cleared out, you could choose to leave, save the map, recharge, and come back to finish the job. This also gives you the chance to add the Wand of Nikademus to your inventory, but it's not clear what impact that has. Or, if you're feeling beefy, tell Filmon you're ready to fight the Black Lord right now and he'll teleport you back to the hallway you came from where you can proceed S and around the corner.
 
 Finally, you encounter the Black Lord at the end of the hallway. He gets the jump on you, which means there's a reasonable chance that he kills your weakest character outright before you even get a chance to act. Spam him with *FireFlash 4* (and maybe *Confusion* to reduce his mass-effect spellcasting) until he dies. If you're successful, Zeus appears and congratulates you on defeating the Lord:
 
@@ -932,21 +930,24 @@ Here are the stats for my party after defeating the Dark Lord and returning to P
 
 ### The Speed Run
 
-I've tried to tell the full story in the [walkthrough](#walkthrough), which means (for the most part) learning information from the game before we take advantage of it. But I also like to ask what the fastest possible way to beat the game is. *Phantasie* is the kind of game that tracks your progress through character data and inventory, and it's pretty lax at that. The various scrolls you pick up in the game give you information on where to go next, but none of them are required.
+When I write these walkthroughs, I try to follow along with the story the game is trying to tell. Generally that means I'll show you where the game is trying to give you information before I take advantage of it, although I'm not above skipping around a bit when there's sufficient reason to do so. Of course, I also like to ask, what's the fastest possible way to beat this game? *Phantasie* is the kind of game that tracks your progress through character data and inventory, and it's pretty lax at that. The various scrolls you pick up in the game tell you where to go next, but a player acting on outside information doesn't need to read any of them.
 
-To beat the game (or at least receive Zeus's congratulations for doing so), you have to kill the Dark Lord. He's at the back end of the Temple of the Gods, and you can't get into the Temple if you don't have the God Rune. To acquire that, you must kneel before Zeus on Mount Olympus having passed all of his tests, which means collecting the four Runes, nine Rings, and enough experience for the mystics to believe you are "ready." If you're carrying a Minotaur with low Charisma, you probably won't notice much wasted time anyway, because you'll be too busy farming gold and collecting better equipment so you can assault the Temple.
+Working backwards, then:
+- To beat the game (or at least receive Zeus's congratulations for doing so), you must kill the Dark Lord in the Temple of the Gods / Castle of the Black Knights.
+- To enter the Temple, you must have the God Rune.
+- To receive the God Rune, you must kneel before Zeus on Mount Olympus having passed all of his tests.
+- You can't even get to Mount Olympus until the mystics believe you are "ready" (roughly level 10).
+- To pass Zeus's tests you need all nine Rings and all four Runes.
+- Rings 1–3 are in JR Trolkin's castle.
+- Rings 4–6 require solving the puzzle of the Bleebs.
+- Rings 7–8 are in the Dosnebian Temple.
+- Ring 9 is in the Phantasia town armory.
+- The Air Rune is in the Dwarven Dungeon.
+- The Earth Rune is in the Cathedral, but you can't get it without the Fire Rune.
+- The Fire Rune is in the Lizard Man Caves.
+- The Water Rune is in Lord Wood's Castle.
+- But to get the Water Rune you must also visit all three Magic Pools: near the Cathedral, near Trollport, and near Phantasia.
 
-Regardless, here's a checklist of the bare minimum set of tasks, even if you don't do them in this order:
+There's not a lot of this game you can really skip. If you know what you're doing you don't have to run the *entirety* of all those dungeons, but by the time you've successfully run them all you probably had to grind your way to level 10 anyway. Or, if you're carrying a Minotaur with low Charisma, you've been too busy farming gold to pay for training.
 
-- Dwarven Dungeon: Air Rune
-- Lizard Man Caves: Fire Rune
-- The Cathedral: Earth Rune (requires the Fire Rune), Magic Pool
-- Phantasia: Ring #9 (in the Armory), Magic Pool
-- Trollport area: Magic Pool
-- Lord Wood's Castle: Water Rune (requires the three Magic Pools)
-- JR Trolkin's Castle: Rings #1-3
-- Bleeb Cavern: Rings #4-6
-- Dosnebian Temple: Rings #7, #8
-- Astral Plane: pass the Tests and visit Zeus for the God Rune
-- Temple of the Gods: defeat the Black Lord
-
+If anyone knows a faster way to beat the game (or wants to brag about how quickly they did it), get in touch. Otherwise, happy grinding!

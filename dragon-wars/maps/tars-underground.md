@@ -36,7 +36,7 @@ Whenever "your footsteps sound hollow", there's a secret door nearby. Face the w
 
 > Kirk looks over to the transport tube and sees a party just standing there completely bewildered. "Who are you?" are the last words said as the strange people vanish. "Illogical" says Spock.
 
-This is hands-down the weirdest easter egg in the entire game. I screamed out loud, booted up an old save file, and ran to that spot to verify it for myself.
+This is hands-down the weirdest easter egg I've ever seen. When I found it in the decompiled game code, I screamed out loud, booted up an old save file, and ran to that spot to verify it for myself.
 
 ## Bestiary
 

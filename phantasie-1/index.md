@@ -673,7 +673,7 @@ You can ignore the Library and the Storage Room. Head back to Hobbiton, or if yo
 
 - Scroll #6 tells the story of how J.R. Trolkin was the traitor who informed Nikademus of the plans to defeat him and was given a castle in return.
 - Scroll #7 tells you where the nine rings are: three in Trolkin's castle, three in the temple of Dosnebia, and three "remain lost".
-- Scroll #13 points you at [Trokin's castle](#jr-trolkins-castle), "in the western part of Gelnor near the great river."
+- Scroll #13 points you at [Trolkin's castle](#jr-trolkins-castle), "in the western part of Gelnor near the great river."
 - Scroll #15 points you at the [Dosnebian temple](#dosnebian-temple), "far to the west of Starville." It also hints that they are "allied" with Minotaurs, and that you should "enrage the small one," whatever that means. Note that this is the worst wayfinding hint in the game; the Temple is closer to where you are right now than it is to Starville, albeit across a bay.
 
 The Box o' Items probably isn't much of an upgrade for you, but if it is, feel free to run Lord Wood's Castle a bunch of times. You can clear around $4k by picking up the soldier's gem and selling all the equipment, plus another $2k for running the maze. Run the fights in the Ogre meeting hallway and you're likely to pick up a bunch of XP and a bunch more money and items, plus the treasure in the barrels at the end. But money probably isn't a big deal for you right now, and if it is, you can probably go beat up the Minor Deity in Woodville instead.

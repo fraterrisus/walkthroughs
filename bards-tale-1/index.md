@@ -40,6 +40,7 @@ That means I still have several open questions about the game. Here's a couple o
 - Does AC below -10 matter? Just because the game doesn't display it, and just because the save files don't track it, doesn't mean the combat routines don't take it into account.
 - Is the "bonus" on weapons applied to damage, to-hit, or both?
 - When are Saving Throws actually used? What are you rolling against? What happens if there isn't a monster there to contest your roll (trap damage)?
+- Do the Berserkers let you pass if you're wearing Robes? Does it have to be the Robes from the first floor of Harkyn's Castle or can you just buy Robes at Garth's?
 - What happens if you *don't* have the Crystal Sword with you when you walk into Kylearan's Tower? Rumor has it the Crystal Guardian regenerates over and over and prevents you from leaving the room.
 
 If you happen to know the answers to one of these questions and are willing to quote your sources, or have some experience ripping apart binaries and have done this work already, feel free to [get in touch](https://github.com/fraterrisus/walkthroughs/issues).
@@ -1011,7 +1012,7 @@ You can now follow the short winding hallway N. At the end you run into
 Kylearan, who has several pages of text for you to read, and then hands
 you the Onyx Key that will allow you to get into Mangar's Tower.
 
-> "Greetings! I am Kylearan, oh perseverent ones, the good wizard of Skara Brae. Put away your weapons, for I am your ally, not an enemy. You have passed my tests, and now can continue on to your true quest, the source of evil in Skara Brae – Mangar the Dark, my nemesis. Mangar's tower, at the opposite corner of Skara Brae from mine, is a five level deathtrp, which can only be entered by use of an onyx key. Good luck, and remember, seeing is not always believing.
+> "Greetings! I am Kylearan, oh perseverent ones, the good wizard of Skara Brae. Put away your weapons, for I am your ally, not an enemy. You have passed my tests, and now can continue on to your true quest, the source of evil in Skara Brae – Mangar the Dark, my nemesis. Mangar's tower, at the opposite corner of Skara Brae from mine, is a five level deathtrap, which can only be entered by use of an onyx key. Good luck, and remember, seeing is not always believing.
 
 When
 you're done reading his expository text, step N to be teleported back

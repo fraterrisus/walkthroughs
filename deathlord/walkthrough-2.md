@@ -55,7 +55,7 @@ Okay, it's time to take on your first "word dungeon". It's only four levels, so 
 
 (*sigh*) Well, I suppose it's an excuse to dust off Z4:TABEMONO, if you've got it.
 
-At least the monsters aren't that big a deal: mostly Hobake, Kaibu, Trolls, and Skeletons. Trolls hit three times a round but are otherwise within your capabilities. As hinted at previously, there are an absolute ton of [magic pools](./walkthrough-0.md#using-magic-pools) here, so you can [save-scum](./walkthrough-0.md#managing-save-files) for some serious stat boosts if you're either using a good map or willing to drink a lot of dungeon water.
+At least the monsters aren't that big a deal: mostly Hobake, Kaibu, Trolls, and Skeletons. Trolls hit three times a round but are otherwise within your capabilities. As hinted at previously, there are an absolute ton of [magic pools](./index.md#using-magic-pools) here, so you can [save-scum](./index.md#managing-save-files) for some serious stat boosts if you're either using a good map or willing to drink a lot of dungeon water.
 
 **Level 1:** You're immediately standing in some swamp, so get moving. Step E and don't drink the water. Avoid the side rooms and work your way around clockwise to the first intersection. Go W, all the way S, and E. The stairs are in the SE, up a side passage not quite all the way at the end of the hall.
 
@@ -187,7 +187,7 @@ Apart from a couple of Vampires behind a 'No Trespassing' sign, which you probab
 
 ### Telegrond
 
-As I've said before, the 16-level dungeons are optional. Don't do them; I didn't, which is why there's no walkthrough for them. If you're really interested, check out the [Acknowledgements](./walkthrough-0.md#acknowledgements) section for a link to Genpei's blog; they've got more patience than I do (and are more willing to go exploring nasty dungeons with M7:UNPAN to map them out).
+As I've said before, the 16-level dungeons are optional. Don't do them; I didn't, which is why there's no walkthrough for them. If you're really interested, check out the [Acknowledgements](./index.md#acknowledgements) section for a link to Genpei's blog; they've got more patience than I do (and are more willing to go exploring nasty dungeons with M7:UNPAN to map them out).
 
 ------
 
@@ -491,7 +491,7 @@ At this point, we can use the Blue Crystals to pick up some relics that we weren
 
 > Use this spear if you would rid the world of his evil forever.
 
-This is one of the best melee weapons in the game (+3 to hit, 1-24 damage, grants +3 AC), almost anyone can use it (except Shisai/Shizen), and it also happens to be the only thing that can hit the Deathlord. In theory, you can only do this once per game. I'm not a fan of using the [disk-swapping](./walkthrough-0.md#managing-save-files) trick to reset Senju's game state and collect multiple Sunspears, but if you're gonna do it, this would be the weapon to do it with.
+This is one of the best melee weapons in the game (+3 to hit, 1-24 damage, grants +3 AC), almost anyone can use it (except Shisai/Shizen), and it also happens to be the only thing that can hit the Deathlord. In theory, you can only do this once per game. I'm not a fan of using the [disk-swapping](./index.md#managing-save-files) trick to reset Senju's game state and collect multiple Sunspears, but if you're gonna do it, this would be the weapon to do it with.
 
 **The Emerald Rod:** Head back to [Akmihr](#akmihr), sail to the [Sultan's Palace](#sultans-palace), and use the Blue Crystal to pass the forcefield in the SE tower and confront the Sand Dragons (ow). Take the Emerald Rod from the chest.
 

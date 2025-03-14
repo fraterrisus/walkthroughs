@@ -130,7 +130,7 @@ At 1st level, casters start with 9–24 MP, but unfortunately you don't get to s
 
 There are a few other "hidden" secondary statistics that don't show up on your character's info screen:
 
-**Saving Throw:** When someone needs to resist the effects of a spell, avoid a trap, or just run from combat, the game makes a contested saving throw. A monster's Save is proportional to its group (see the [Bestiary](bestiary.html)). For party members, your Save is a combination of your class, level, and Luck bonus. (A Luckshield adds to your Saving Throw, if you have one equipped.) Wizards have the best saves, followed by Paladins, other casters, and everyone else.
+**Saving Throw:** When someone needs to resist the effects of a spell, avoid a trap, or just run from combat, the game makes a contested saving throw. A monster's Save is proportional to its group (see the [Bestiary](bestiary.md)). For party members, your Save is a combination of your class, level, and Luck bonus. (A Luckshield adds to your Saving Throw, if you have one equipped.) Wizards have the best saves, followed by Paladins, other casters, and everyone else.
 
 There are two important things to remember here. First, when running from combat the party member in Slot 1 rolls their save. So keeping a Paladin and/or a high Luck character in that slot makes you more likely to successfully run away from combat, which matters a lot in the early going. Second, Saving Throws are *contested*; you want your casters to have a high Saving Throw so that they are more likely to land their spells with full force.
 
@@ -254,7 +254,7 @@ Each character has the following options:
 
 ### Resolving Attacks
 
-Your chance to hit an opponent is based on the difference between your AC and theirs. That means the more armor you're wearing, the higher your chance of hitting your opponent, which doesn't make a whole hell of a lot of sense. Regardless, this is yet another reason why you want the best possible AC early on. The to-hit chance is also modified by your class, although this doesn't go up with levels, and the bonus of your weapon if it has one (see [Equipment](equipment.html)). A +1 to-hit bonus is equivalent to one point of AC. There's also a random element each time you take a swing.
+Your chance to hit an opponent is based on the difference between your AC and theirs. That means the more armor you're wearing, the higher your chance of hitting your opponent, which doesn't make a whole hell of a lot of sense. Regardless, this is yet another reason why you want the best possible AC early on. The to-hit chance is also modified by your class, although this doesn't go up with levels, and the bonus of your weapon if it has one (see [Equipment](equipment.md)). A +1 to-hit bonus is equivalent to one point of AC. There's also a random element each time you take a swing.
 
 Actions take place in order of [Attack Priority](#secondary-statistics); Fighters, Paladins, and Monks get an additional attack every four levels, so your 9th level Paladin takes three swings. All attacks are resolved at once, so you'll start seeing combat statements like "Alex swings at a Nomad 3 times..."
 
@@ -275,7 +275,7 @@ Allies come from three sources:
 
 You won't be able to control Allies during combat. In practice, they almost
 always attack Group A of enemies. Many Allies can also cast spells or have
-other effects, as described in the [Bestiary](bestiary.html).
+other effects, as described in the [Bestiary](bestiary.md).
 
 As I mentioned above, the first three character slots plus the NPC slot are considered to be within
 melee range, so it's best to fill those slots with characters with good AC and
@@ -297,7 +297,7 @@ Things get more interesting once you start dungeon diving and coming up against 
 
 On the other hand, if there are Magicians hanging out in Group C or Group D, you need to take care of them as quickly as possible. Group zap spells are invaluable. If the group is small enough you might be able to pick them off with *C1:ARFI*. Otherwise, you should prioritize clearing out one entire group of enemies in front of them so they slide forward into melee range.
 
-Check out the [Bestiary](bestiary.html) for details on the special attacks available to the critters you'll come up against, so you can better decide where to spread your damage around.
+Check out the [Bestiary](bestiary.md) for details on the special attacks available to the critters you'll come up against, so you can better decide where to spread your damage around.
 
 ### Health and Dying
 
@@ -361,7 +361,7 @@ When you do find a Spell Staff there's another trick you can use: the holder reg
 
 ### Dungeon Difficulty
 
-*BT1* determines what [monsters](bestiary.html), traps, and [loot](equipment.html) to throw at you based on the
+*BT1* determines what [monsters](bestiary.md), traps, and [loot](equipment.md) to throw at you based on the
 difficulty level of the current map. There are 127 items and 127 monsters, each
 of which is broken up into sixteen groups of eight. Groups are then assigned to
 dungeon levels as shown here:
@@ -422,7 +422,7 @@ appears twice, it is twice as likely as the others to be generated. Note that
 
 In the early part of the game you're going to become obsessed with how much money you can gather, mostly because you'll be spending a lot of it on healing at Temples. So how does that work?
 
-When an encounter ends (presuming you win, of course), you get a batch of experience points (XP) for all the [monsters](bestiary.html) you killed. If you're in Skara Brae fighting monsters in the streets (or in houses), you'll also collect a random amount of gold, and there's a random chance of finding one or more items.
+When an encounter ends (presuming you win, of course), you get a batch of experience points (XP) for all the [monsters](bestiary.md) you killed. If you're in Skara Brae fighting monsters in the streets (or in houses), you'll also collect a random amount of gold, and there's a random chance of finding one or more items.
 
 In dungeons, you're usually presented with a chest. Chests are never locked but they are most likely trapped. You have a number of options for dealing with the trap:
 
@@ -511,13 +511,13 @@ As the manual says, there are no cursed or "bad" items. However, some percentage
 
 All Weapons (including Staves) are assumed to require one hand, so you can always equip a Shield regardless of what Weapon you're using.
 
-[Item list](equipment.html)
+[Item list](equipment.md)
 
 ## Magic and Spells
 
 In order to save typing, *Bard's Tale* refers to all spells by a four-letter abbreviation. You've probably already noticed them all over this document; I prefix the spell with the caster class and level, so you'll see things like *C7:APAR* (*Apport Arcane*, a 7th level Conjurer spell). That should make it slightly easier for you to remember which caster has which spells, at least until you start changing caster classes all over the place and can't remember which mage is a Conjurer/Sorcerer and which is a Magician/Sorcerer. Not that that's ever happened to me. Nope nope nope.
 
-[Spell list](magic.html)
+[Spell list](magic.md)
 
 
 ## Walkthrough
@@ -595,7 +595,7 @@ Garth's as necessary and repeat. If it somehow gets dark out, run back to the Gu
 Unfortunately, there's still a fair bit of luck involved here. At 1st level your characters can't really take more than two or three hits before dying,
 even at max HP. To be safe, run from
 anything with more than two or three enemies, always run from Barbarians (ow) and Magicians (+`OLD`, which is expensive to heal now and gets worse after 1st level),
-and consider running from anything else in Group II (see [Bestiary](bestiary.html)). Of course, running won't always work. When a character dies, you can either quit and reload,
+and consider running from anything else in Group II (see [Bestiary](bestiary.md)). Of course, running won't always work. When a character dies, you can either quit and reload,
 or if it's early enough in the character's career, make a replacement character and transfer the dead character's equipment to them. (Bonus: an extra portion of starting gold that you can use to heal the rest of your party.) If your emulator has a save-state function, use it early and often.
 
 Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; the Magician isn't good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups.
@@ -748,7 +748,7 @@ In the Gran Plaz that dominates the center of Skara Brae there are four Temples,
 
 Your goal here is to grind up to either the second class change or the acquisition of *S6:MIBL*, depending on whether you took one or more Sorcerers at your first class change. But the XP should flow a lot faster than it did in the Sewers and Level V loot starts to get into some useful stuff. (Don't sleep on the fact that Mithril Scale can be used by casters!) If you skipped through the Sewers pretty quickly, you may be around level 9. If your front line has around 150 HP and your casters have level 4 spells, you'll probably be okay, but be careful. If you cleaned out the Sewers more thoroughly and got your first class change already, Catacombs Level One should be a snap and you're probably ready for the lower levels.
 
-There are a *lot* of undead kicking around here, especially on Level Three; check the [Bestiary](bestiary.html) for special attacks. Unfortunately, Wizards get all the good anti-undead spells, but you can't get those until the second class change at the earliest so they probably won't do you much good here.
+There are a *lot* of undead kicking around here, especially on Level Three; check the [Bestiary](bestiary.md) for special attacks. Unfortunately, Wizards get all the good anti-undead spells, but you can't get those until the second class change at the earliest so they probably won't do you much good here.
 
 #### Catacombs, Level 1
 

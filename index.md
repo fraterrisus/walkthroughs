@@ -16,7 +16,7 @@ If you have questions about anything or spot an error, feel free to [file a Gith
 
 ## Recent Updates
 
-- April 2024: [Bard's Tale 1](bards-tale-1) v1.0 is complete and has redrawn maps based on decompiled map data.
-- March 2024: [Wasteland](wasteland) v1.1.3 got a few updates. [Phantasie I](phantasie-1) v1.1 is complete.
-- October 2023: released [Phantasie I](phantasie-1) v1.0.
-- September 2023: Major release of [Dragon Wars](dragon-wars) v3.0; this is about as complete as it's going to get. Ported [BT1](bards-tale-1) v0.9 to and [Wasteland](wasteland) v1.1.2 to Github Sites.
+- April 2024: [Bard's Tale 1](bards-tale-1/index.md) v1.0 is complete and has redrawn maps based on decompiled map data.
+- March 2024: [Wasteland](wasteland/index.md) v1.1.3 got a few updates. [Phantasie I](phantasie-1/index.md) v1.1 is complete.
+- October 2023: released [Phantasie I](phantasie-1/index.md) v1.0.
+- September 2023: Major release of [Dragon Wars](dragon-wars/index.md) v3.0; this is about as complete as it's going to get. Ported [BT1](bards-tale-1/index.md) v0.9 to and [Wasteland](wasteland/index.md) v1.1.2 to Github Sites.

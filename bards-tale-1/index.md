@@ -33,7 +33,7 @@ Sources I used:
 
 ### Errata
 
-I wrote the first draft of this walkthrough over ten years ago, incorporating a bunch of dodgy assertions about the effects of attributes and other game mechanics based on research I'd done reading other people's walkthroughs. At worst, that info was flat-out wrong; at best, I can't figure out which version of the game it was talking about. So until I can rip apart the DOS binary and decompile it for myself (much like I did with [*Dragon Wars*](../dragon-wars)), I'm going to try to restrict myself to things that I'm pretty sure about due to personal experience.
+I wrote the first draft of this walkthrough over ten years ago, incorporating a bunch of dodgy assertions about the effects of attributes and other game mechanics based on research I'd done reading other people's walkthroughs. At worst, that info was flat-out wrong; at best, I can't figure out which version of the game it was talking about. So until I can rip apart the DOS binary and decompile it for myself (much like I did with [*Dragon Wars*](../dragon-wars/index.md)), I'm going to try to restrict myself to things that I'm pretty sure about due to personal experience.
 
 That means I still have several open questions about the game. Here's a couple of examples:
 

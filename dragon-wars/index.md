@@ -54,7 +54,7 @@ If this is your first time playing the game, I recommend taking the starter part
 
 ## Creating Characters
 
-Unlike many other CRPGs, *Dragon Wars* doesn't force you to roll dice, or at least, doesn't force you to hit the space bar a million times while it randomly generates statistics for you until you get ones that are high enough to make you happy. Instead, you start the game with very pedestrian statistics and 50 **character points** (hereafter **CP**) to distribute as you wish among your attributes and skills. This is a far less frustrating way to create characters, and will be familiar to those of you who played [*Wasteland*](../wasteland).
+Unlike many other CRPGs, *Dragon Wars* doesn't force you to roll dice, or at least, doesn't force you to hit the space bar a million times while it randomly generates statistics for you until you get ones that are high enough to make you happy. Instead, you start the game with very pedestrian statistics and 50 **character points** (hereafter **CP**) to distribute as you wish among your attributes and skills. This is a far less frustrating way to create characters, and will be familiar to those of you who played [*Wasteland*](../wasteland/index.md).
 
 So let's talk about all the different ways you can spend CP. Throughout this section, numbers in [brackets] indicate the number of CP you need to spend to increase the attribute (or skill) by one level. If there are two numbers (mostly for magic skills), then the first number is the initial CP cost of level 1, and the second number is the CP cost of additional levels.
 

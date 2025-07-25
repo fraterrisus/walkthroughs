@@ -41,7 +41,6 @@ That means I still have several open questions about the game. Here's a couple o
 - Is the "bonus" on weapons applied to damage, to-hit, or both?
 - When are Saving Throws actually used? What are you rolling against? What happens if there isn't a monster there to contest your roll (trap damage)?
 - Do the Berserkers let you pass if you're wearing Robes? Does it have to be the Robes from the first floor of Harkyn's Castle or can you just buy Robes at Garth's?
-- What happens if you *don't* have the Crystal Sword with you when you walk into Kylearan's Tower? Rumor has it the Crystal Guardian regenerates over and over and prevents you from leaving the room.
 
 If you happen to know the answers to one of these questions and are willing to quote your sources, or have some experience ripping apart binaries and have done this work already, feel free to [get in touch](https://github.com/fraterrisus/walkthroughs/issues).
 
@@ -522,45 +521,23 @@ In order to save typing, *Bard's Tale* refers to all spells by a four-letter abb
 
 ## Walkthrough
 
-You've read all of my warnings and preparatory information. You've got your
-party of adventurers rolled up and ready to go kick in some doors. On to the
-actual walkthrough.
+You've read all of my warnings and preparatory information. You've got your party of adventurers rolled up and ready to go kick in some doors. On to the actual walkthrough.
 
-One quick note before we start: As I describe the dungeon levels, I've
-included a "Fast Way." This is, to my reckoning, the fastest way to "get
-through" a floor. What that means varies a bit; sometimes it's simply getting
-from the entry stairs to the exit stairs, sometimes it involves stopping to
-pick up an item (i.e. Mangar's Tower Level Two), sometimes it's quite convoluted
-(i.e. Kylearan's Tower). It's sometimes possible to find a faster route,
-especially if you're willing to spend spell points on *M6:PHDO*. And of course
-about half the time you can skip levels entirely with *C7:APAR*. Your mileage may
-vary, natch.
+One quick note before we start: As I describe the dungeon levels, I've included a "Fast Way." This is, to my reckoning, the fastest way to "get through" a floor. What that means varies a bit; sometimes it's simply getting from the entry stairs to the exit stairs, sometimes it involves stopping to pick up an item (i.e. Mangar's Tower Level Two), sometimes it's quite convoluted (i.e. Kylearan's Tower). It's sometimes possible to find a faster route, especially if you're willing to spend spell points on *M6:PHDO*. And of course about half the time you can skip levels entirely with *C7:APAR*. Your mileage may vary, natch.
 
-I use some shorthand notation in the Fast Way routes. (x) means a fixed combat,
-similar to the notation on my maps. I also call out special zones like
-Darkness, Smoke In Your Eyes, Coals, Anti-Magic Zones, and teleporters. If you
-need to cast spells (to avoid traps, for example), I mention them as well. Make
-sure you're standing in the right place and facing the right way when you do!
+I use some shorthand notation in the Fast Way routes. (x) means a fixed combat, similar to the notation on my maps. I also call out special zones like Darkness, Smoke In Your Eyes, Coals, Anti-Magic Zones, and teleporters. If you need to cast spells (to avoid traps, for example), I mention them as well. Make sure you're standing in the right place and facing the right way when you do!
 
 ### Surviving Skara Brae
 
-Okay, now for the bad news: the first few hours of this game are the hardest and most frustrating to get through.
+Okay, now for the bad news: the first few hours of this game are the hardest and most frustrating to get through, because as first-level characters your access to healing is severely limited. Your spellcasters don't get healing spells until your Conjurer hits third level (at 6,000 XP) and gets 2nd level spells, and even then you won't have nearly enough SP for all the healing you'd like to do. (This oversight was remedied in *BT2* with the advent of *M1:QUFI*, by the way.)
 
-As 1st level characters, your access to healing is 100% based on gold pieces, 
-unless you have a Bard, and even then you can only heal the *party* in combat.
-You won't get your first healing spell until your Conjurers hit third level (at
-6,000 XP) and get 2nd level spells (which costs $1,000 per caster), and even
-then you won't have nearly enough SP for all the healing you'd like to do. So
-you're stuck dropping $10 per hit point at the temples just to survive... and
-half the monsters you fight won't drop $10 per point of damage they do to you. It's a bit like playing the stock market: if you stay in the game long enough,
-you're likely to do better than break even, but it only takes one mistake to
-put you so far in a hole that you're selling gear for temple donations.
+One way to work around this is to carry a Bard in your party. _Badh'r Kilnfest_, when sung during world travel, heals the caster over time. However when sung during a battle, it heals everyone in your party 1 HP per combat round. I know that doesn't sound like much, but if you use the same trick I mentioned under [Managing Spell Points](#managing-spell-points) by calling a Party Combat and having your Bard sing, you can pass as many rounds as you like Defending. All it costs you is a refill at a tavern. This feels like cheating, but it's by far the easiest and most effective way to heal your party. If you're like me and you don't want to carry a Bard for the rest of the game, consider using one to get the rest of your party started up to a reasonable level and then swapping them out once you're rolling.
 
-So here's my guide to surviving the early game. The difference between dying a lot and slowly gathering more gold than you're
-spending is to get the AC of your front-line fighters as low as possible as
-quickly as possible. This will cause combats to go faster because you'll hit more often, and you'll take less damage so you won't have to spend as much on healing.
+The other option is to "donate" $10 per hit point to one of the many temples scattered across Skara Brae. Of course, half the monsters you fight won't drop $10 per point of damage they do to you. It's a bit like playing the stock market: if you stay in the game long enough, you're likely to do better than break even, but it only takes one mistake to put you so deep in a hole that you're selling gear for temple donations. So let's talk about how to survive the early game without a Bard.
 
-If you generate six fresh characters, you should have somewhere around $900 to spend at Garth's. If you don't try to outfit your back three, you can do just kind of okay:
+The difference between dying a lot and slowly gathering more gold than you're spending is to get the AC of your front-line fighters as low as possible as quickly as possible. This will cause combats to go faster because you'll hit more often, and you'll take less damage so you won't have to spend as much on healing.
+
+If you generate six fresh characters, you should have somewhere around $900 to spend at Garth's, and if you don't bother to outfit your back three you can do okay:
 
 | Item        | AC   | Price |
 | ----------- | ---- | ----- |
@@ -569,9 +546,9 @@ If you generate six fresh characters, you should have somewhere around $900 to s
 | Helm        | +1   | $50   |
 | Gauntlets   | +1   | $40   |
 
-Throw in a Staff ($20, 1–8 damage) for a weapon and that's an even $300 per person to get down to AC 4. High DX at creation time might help, but if you didn't generate a full $900 you're worse off.
+Throw in a Staff ($20, 1–8 damage) for a weapon and that's an even $300 per person to get down to AC 4. High DX at creation time will help, but if you didn't generate a full $900 across six characters you're worse off. Every point of armor matters here.
 
-Now, upgrading to Scale Armor (+4) and a Tower Shield (+2) is another $210 per fighter. That helps a bunch; I've found there's a pretty big gap between AC 4 and AC 2 in terms of early-game survivability. But where are you going to come up with that kind of cash? Well, before you leave the Adventurers' Guild, consider a small cheat: create a few additional throwaway characters, steal their cash, and buy yourself another couple of points of AC. No one will miss Mr. A through Mr. F when you delete them and you'll have a more comfortable start to the game.
+Now, upgrading to Scale Armor (+4) and a Tower Shield (+2) adds another $210 per fighter to the bill. I've found there's a pretty big gap between AC 4 and AC 2 in terms of early-game survivability, but where are you going to come up with that kind of cash? Well, before you leave the Adventurers' Guild, consider a small cheat: create a few additional throwaway characters, steal their cash, and buy yourself another couple of points of AC. No one will miss Mr. A through Mr. F when you delete them and you'll have a more comfortable start to the game. In fact, you can do this any time you get desperate, but I will say that it's definitely possible to survive without doing it at all.
 
 Okay, now you're ready to leave the guild hall. First order of business is to learn your way around. Check out the [map of Skara Brae](svg/skara-brae.svg) and find the nearby points of interest:
 
@@ -580,68 +557,37 @@ Okay, now you're ready to leave the guild hall. First order of business is to le
 * [4S 2E 2S 1W, Rakhir St.] **Thief Temple**, the nearest temple, where you pay to have HP restored.
 * [4S 2E 6S 1E, Rakhir St.] **Scarlet Bard**, the nearest tavern, where your Bard can pay to recover his ability to play songs.
 
-Garth's and the Review Board are only open during the day. Temples and taverns are
-open all night. *But*! Don't go near the Scarlet Bard yet because there's a
-Samurai Statue in the way. The Samurai is worth around 170 XP per character but does up to 20 damage and tends not to drop very much gold — it's a risk I don't recommend taking until you're already level 2 and have gathered enough gold to buy your next spell level. (If you need a tavern because you have a Bard in your party, there's another one 1S of the Review Board.)
+Garth's and the Review Board are only open during the day. Temples and taverns are open all night. *But*! Don't go near the Scarlet Bard yet because there's a Samurai Statue in the way. The Samurai is worth around 170 XP per character but does up to 20 damage and tends not to drop very much gold — it's a risk I don't recommend taking until you're already level 2 and have gathered enough gold to buy your next spell level. (If you need a tavern because you have a Bard in your party, there's another one 1S of the Review Board.)
 
-Your first stop needs to be Garth's to buy the package listed above; again, consider the Tower Shield and/or Scale Armor if you have enough cash for the upgrades. Don't buy anything more powerful than a Staff ($20, 1–8) unless you can afford a Halberd ($200, 1–16). The War Axe ($70, 2–8) and Broadsword ($80, 2–8) aren't really any better than a Staff. And all of this might turn up in post-combat loot, anyway.
+Your first stop needs to be Garth's to buy the package listed above; again, consider the Tower Shield and/or Scale Armor if you have enough cash for the upgrades. Don't buy anything more powerful than a Staff ($20, 1–8) unless you can afford a Halberd ($200, 1–16). The War Axe ($70, 2–8) and Broadsword ($80, 2–8) aren't really any better than a Staff. Hopefully, some or all of this will start turning up in post-combat loot.
 
-My strategy for surviving Level 1 looks like this: Walk from the Guild to the Thief Temple. If you've spent some Spell Points, hang out in the sunshine while they [regenerate](#managing-spell-points). Otherwise you can scout through the nearby
-houses to try to trigger fights. Fight a battle. If you win and you have enough cash, go to the temple
-and heal yourself. Then immediately go back to the Guild and save all your characters. (Note
-that this helpfully resets the day clock to Early Morning, too.) Sell loot at
-Garth's as necessary and repeat. If it somehow gets dark out, run back to the Guild and reset the clock.
+My strategy for surviving Level 1 looks like this: Walk from the Guild to the Thief Temple. If you've spent some Spell Points, hang out in the sunshine while they [regenerate](#managing-spell-points). Otherwise you can scout through the nearby houses to try to trigger fights. Fight a battle. If you win and you have enough cash, go to the temple and heal yourself. Then immediately go back to the Guild and save all your characters. (Note that this helpfully resets the day clock to Early Morning, too.) Sell loot at Garth's as necessary and repeat. If it somehow gets dark out, run back to the Guild and reset the clock.
 
-Unfortunately, there's still a fair bit of luck involved here. At 1st level your characters can't really take more than two or three hits before dying,
-even at max HP. To be safe, run from
-anything with more than two or three enemies, always run from Barbarians (ow) and Magicians (+`OLD`, which is expensive to heal now and gets worse after 1st level),
-and consider running from anything else in Group II (see [Bestiary](bestiary.md)). Of course, running won't always work. When a character dies, you can either quit and reload,
-or if it's early enough in the character's career, make a replacement character and transfer the dead character's equipment to them. (Bonus: an extra portion of starting gold that you can use to heal the rest of your party.) If your emulator has a save-state function, use it early and often.
+Unfortunately, there's still a fair bit of luck involved here. At 1st level your characters can't really take more than two or three hits before dying, even at max HP. To be safe, run from anything with more than two or three enemies, always run from Barbarians (ow) and Magicians (+`OLD`, which is expensive to heal now and gets worse after 1st level), and consider running from anything else in Group II (see [Bestiary](bestiary.md)). Of course, running won't always work. Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; the Magician isn't good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups.
 
-Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; the Magician isn't good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups.
+When a character dies, your best bet is to reload from your most recent emulator save state. Keep in mind the [warning](#managing-save-files) I gave you earlier: on the PC, characters in your party have $0 on disk. So if you kill your emulator and reload, you're likely to lose all your cash. Make backups of the character files, and don't be afraid to drop a dead character and roll up a new one. As a bonus, you'll get an extra portion of starting gold, and you can always transfer the equipment from the dead character to the new one.
 
-If you draw more Gnomes and Kobolds and fewer Barbarians and Nomads, you have a chance at keeping your party alive for a while. If you cheated for more money and more AC, your chances go up a bit. Regardless, this part of the game is literally a grind; if this isn't your first rodeo, it'll probably take you a couple of hours to hit level 2. You'll probably die and reload a
-bunch. But you *will* get there, I promise.
+If you draw more Gnomes and Kobolds and fewer Barbarians and Nomads, you have a chance at keeping your party alive for a while. If you cheated for more money and more AC, your chances go up a bit. Regardless, this part of the game is literally a grind; if this isn't your first rodeo, it'll probably take you a couple of hours to hit level 2. You'll probably die and reload a bunch. But you *will* get there, I promise.
 
 To be fair, 2nd level doesn't actually do all that much for you in terms of ability, but the extra HP and SP are very, very welcome and will significantly increase your chances of survival. My party members tend not to die if they make it that far, although I do play pretty conservatively.
 
-A wonderful thing happens when you hit 3rd level: your casters get spell
-level 2 — which, by the way, costs $1,000 per mage, so I hope you've been saving up. But it comes with *C2:WOHL*,
-your first healing spell. This helps a lot; now instead of spending money on
-healing you can cast spells to recover HP. Unfortunately, *C2:WOHL* is extremely
-slow (2–8 HP per cast) which means you're pretty much going to drain all your
-SP after every battle. If you're on the Apple, you can now [cheat for SP recovery](#managing-spell-points), which means your healing is now *free* if rather time-consuming. Otherwise, you're going to continue needing to pay for healing for a while.
+A wonderful thing happens when you hit 3rd level: your casters get spell level 2 — which, by the way, costs $1,000 per mage, so I hope you've been saving up. But it comes with *C2:WOHL*, your first healing spell. This helps a lot; now instead of spending money on healing you can cast spells to recover HP. Unfortunately, *C2:WOHL* is extremely slow (2–8 HP per cast) which means you're pretty much going to drain all your SP after every battle. If you're on the Apple, you can now [cheat for SP recovery](#managing-spell-points), which means your healing is now free, if rather time-consuming. Otherwise, you're going to continue needing to pay for healing for a while.
 
-Once you get into a comfortable rhythm, feel free to explore the city; the
-other point of interest I didn't already mention is Roscoe's Energy Emporium,
-who will sell you Spell Points (at $15 per). At some point you'll have enough
-money to start patronizing him; when you do, he's just NW of the Gran
-Plaz. Roscoe's open all night, too.
+Once you get into a comfortable rhythm, feel free to explore the city; the other point of interest I didn't already mention is Roscoe's Energy Emporium, who will sell you Spell Points (at $15 per). At some point you'll have enough money to start patronizing him; when you do, he's just NW of the Gran Plaz. Roscoe's open all night, too.
 
-You should grind some more until you can get to 5th level. You can probably handle some combats at night; the
-fights get harder (watch out for Group III spell casters) and show up more
-frequently, but the [rewards](#dungeon-difficulty) are also greater. Mithril Swords (1–8, +1) might sound good and sell for more than a Halberd, but they still only do half as much damage. I recommend sticking to Halberds for your fighters for now. If you have a Hunter, it's kind of a toss-up whether they're better off doing more damage against weak creatures (Halberd) or hitting more often for the chance to score a critical hit (Mithril Sword).
+You should grind some more until you can get to 5th level. You can probably handle some combats at night; the fights get harder (watch out for Group III spell casters) and show up more frequently, but the [rewards](#dungeon-difficulty) are also greater. Mithril Swords (1–8, +1) might sound good and sell for more than a Halberd, but they still only do half as much damage. I recommend sticking to Halberds for your fighters for now. If you have a Hunter, it's kind of a toss-up whether they're better off doing more damage against weak creatures (Halberd) or hitting more often for the chance to score a critical hit (Mithril Sword).
 
-If you want to gather XP as fast as possible and are willing to accept low gold payouts to do it, try fighting statues: the Samurai Statue on Rakhir Street goes down pretty easy if you strike first, and if you're really feeling your oats, walk around to Harkyn's Castle and fight off the other Statues. (Maybe skip the Grey Dragon.) However, if you go down into the Wine Cellar
-you're likely to have your ass handed to you on a platter — all of the fights in Skara Brae only have one group of monsters, but once you hit a dungeon you can draw four groups at once.
+If you want to gather XP as fast as possible and are willing to accept low gold payouts to do it, try fighting statues: the Samurai Statue on Rakhir Street goes down pretty easy if you strike first, and if you're really feeling your oats, walk around to Harkyn's Castle and fight off the other Statues. (Maybe skip the Grey Dragon.) However, if you go down into the Wine Cellar you're likely to have your ass handed to you on a platter — all of the fights in Skara Brae only have one group of monsters, but once you hit a dungeon you can draw four groups at once.
 
 ### The Wine Cellar and The Sewers
 
-Character level 5 comes with spell level 3. At this point, as all long-time
-players of *Dungeons & Dragons* will tell you, your mages are capable of
-casting group-zap spells for the first time. *M3:STFL* does more damage than
-*C3:WAST* and your Conjurers will probably still be spending most of their SP on
-*C2:WOHL*, but the ability to bust out spell damage against groups of Barbarians is priceless at this point. Also don't overlook *M3:MYSH*,
-which grants +2 AC to everyone in the party.
+Character level 5 comes with spell level 3. At this point, as all long-time players of *Dungeons & Dragons* will tell you, your mages are capable of casting group-zap spells for the first time. *M3:STFL* does more damage than *C3:WAST* and your Conjurers will probably still be spending most of their SP on *C2:WOHL*, but the ability to bust out spell damage against groups of Barbarians is priceless at this point. Also don't overlook *M3:MYSH*, which grants +2 AC to everyone in the party.
 
 A good measure of whether you're ready for the Wine Cellar is how much cash you've collected. If you didn't have any trouble paying for 3rd level spells *and* you've already bought everything you can buy from Garth to outfit your party, you're probably ready for the Wine Cellar. At that point you should be walking over most encounters in Skara Brae and no longer feel the need to run to a Temple as soon as you get out of a fight.
 
-In fact, the monsters in the Wine Cellar are the same as the ones in Skara Brae
-during the day, but they come in larger (and multiple) groups and there's no Temples down there to run to. So you're going to have to think a little harder about managing your resources and making sure you've got enough to get back to the relative safety of the city. One way to give yourself a boost is to run over to Roscoe's, cast *C3:LERE* and *M3:MYSH* (and *C4:INWO*, once you have it), duck inside and pay for SP regeneration, then run over to the Wine Cellar as fast as you can.
+In fact, the monsters in the Wine Cellar are the same as the ones in Skara Brae during the day, but they come in larger (and multiple) groups and there's no Temples down there to run to. So you're going to have to think a little harder about managing your resources and making sure you've got enough to get back to the relative safety of the city. One way to give yourself a boost is to run over to Roscoe's, cast *C3:LERE* and *M3:MYSH* (and *C4:INWO*, once you have it), duck inside and pay for SP regeneration, then run over to the Wine Cellar as fast as you can.
 
-To find the Wine Cellar, head south from the Guild until you hit the Samurai Statue. The Scarlet Bard is just 1S of there; step up to the bar and `(O)rder` a glass of `(W)ine`. He'll
-charge you $3 and send you down into the cellar to get some yourself — frankly, if I
-was him, I wouldn't go down here either. This place is a *mess*. Oh, by the way, I hope you brought a light source with you...
+To find the Wine Cellar, head south from the Guild until you hit the Samurai Statue. The Scarlet Bard is just 1S of there; step up to the bar and `(O)rder` a glass of `(W)ine`. He'll charge you $3 and send you down into the cellar to get some yourself — frankly, if I was him, I wouldn't go down here either. This place is a *mess*. Oh, by the way, I hope you brought a light source with you...
 
 #### Wine Cellar
 
@@ -928,95 +874,37 @@ To close out this section, I'll just remind you that the fight with the Berserke
 - 3E 5S 1W 1S 1W 1S 1E 2S 2W 1N 1W 2N (teleport)
 - *Kylearan:* 2N 1E 1N 2E and follow another long snaking corridor, ending in a door 1N (Kylearan) 1N (teleport, exit)
 
-After defeating Tarjan, you're dumped into Skara Brae inside the gates to Kylearan's Tower. If
-you're feeling short on SP, you can wait here during the day to
-recharge. Or, you can walk unhindered through the gates (getting *out*
-is easy) and go back through the castle to get here again.
+After defeating Tarjan, you're dumped into Skara Brae inside the gates to Kylearan's Tower. If you're feeling short on SP, you can wait here during the day to recharge. Or, if you forgot to bring a Crystal Sword with you, you can walk unhindered through the gates (getting *out* is easy) and go back through the castle to get here again.
 
-The good news is Kylearan's Tower is only one level. The bad news is
-it's full of tricks and teleporters to get you completely confused and
-randomly dump you back to the beginning. I can't imagine what it must
-have been like to do this without a good walkthrough or hint book or at
-least map. I probably would have ragequit.
+The good news is Kylearan's Tower is only one level. The bad news is it's full of tricks and teleporters to get you completely confused and randomly dump you back to the beginning. I can't imagine what it must have been like to do this without a good walkthrough or hint book or at least map. I probably would have ragequit.
 
-Combats take another jump up in difficulty — you'll find a number of
-creatures that can hit AC LO, as well as Phantoms that drain levels(!) and
-Body Snatchers that `+POSS`ess your characters. But the treasure gets better
-too: Bracers [4], many new weapons, more Adamantine armor. If you're
-lucky you'll find a Mage Staff, which gives +2 AC *and* regenerates SP
-even inside a dungeon. Those are worth a lot more than the paltry 10k
-that Garth wants for one.
+Combats take another jump up in difficulty — you'll find a number of creatures that can hit AC LO, as well as Phantoms that drain levels(!) and Body Snatchers that `+POSS`ess your characters. But the treasure gets better too: Bracers [4], many new weapons, more Adamantine armor. If you're lucky you'll find a Mage Staff, which gives +2 AC *and* regenerates SP even inside a dungeon. Those are worth a lot more than the paltry 10k that Garth wants for one.
 
-Okay, on to the tower. I'm assuming you're not interest in dawdling;
-if you try to fight off everything, you will start running low on SP.
+Okay, on to the tower. I'm assuming you're not interest in dawdling; if you try to fight off everything, you will start running low on SP.
 
-As you enter the tower you're in a cross-shaped room. There's a lot of
-rotational symmetry plus spinner traps here, so get used to having *C2:MACO*
-up and using *M1:SCSI* a lot. Go west into a 2x2 room, then step 1N 1W. That's
-your first teleport.
+As you enter the tower you're in a cross-shaped room. There's a lot of rotational symmetry plus spinner traps here, so get used to having *C2:MACO* up and using *M1:SCSI* a lot. Go west into a 2x2 room, then step 1N 1W. That's your first teleport.
 
-This puts you in a short hall full of first Darkness and then
-Anti-Magic. At the end is the second teleport.
+This puts you in a short hall full of first Darkness and then Anti-Magic. At the end is the second teleport.
 
-You're now in an round(ish) room with, again, rotational symmetry. Even
-better, you're standing on a spinner, so get off it, then orient
-yourself. If you explore the rooms to the NNE and SSW you'll get two
-hints. The rest of the rooms have various fixed encounters. The way out
-of here is through the ESE, where you'll have to answer your first riddle
-(`STONE GOLEM`). That's teleport #3.
+You're now in an round(ish) room with, again, rotational symmetry. Even better, you're standing on a spinner, so get off it, then orient yourself. If you explore the rooms to the NNE and SSW you'll get two hints. The rest of the rooms have various fixed encounters. The way out of here is through the ESE, where you'll have to answer your first riddle (`STONE GOLEM`). That's teleport #3.
 
-To the SW of you is a door which puts you in a vast arena of
-Darkness. There are two fixed encounters here, but the thing that's
-important is the small room along the east wall. From the door go 5E
-to the wall, then 4S 1W to find the second magic mouth
-riddle (`SINISTER`). Answering this riddle correctly reveals a door that
-you need to go through to progress, so it's important that you do this
-now. As you leave the room, don't just head straight south, because there
-are Anti-Magic rooms in the southeast. Walk west until you hit the
-wall, then go south until the Darkness goes away. Use a Torch or Lightwand;
-don't waste SP here.
+To the SW of you is a door which puts you in a vast arena of Darkness. There are two fixed encounters here, but the thing that's important is the small room along the east wall. From the door go 5E to the wall, then 4S 1W to find the second magic mouth riddle (`SINISTER`). Answering this riddle correctly reveals a door that you need to go through to progress, so it's important that you do this now. As you leave the riddle room, don't just head straight south, because there are Anti-Magic rooms in the southeast. Walk 1S and then west until you hit the wall, then go south until the Darkness goes away. Use a Torch or Lightwand; don't waste SP here.
 
-Proceed down a long hallway to the N that then wraps back on itself S. At
-the end is a door; on the other side of the door are six Green Dragons. Ow,
-breath weapons. There's a secret door in the SW. That brings you into
-a Dark maze, which is oh-so-fun to navigate. Cast *C2:MACO* to help.
+Proceed down a long hallway to the N that then wraps back on itself S. At the end is a door; on the other side of the door are six Green Dragons. Ow, breath weapons. There's a secret door in the SW. That brings you into a Dark maze, which is oh-so-fun to navigate. Cast *C2:MACO* to help.
 
-There are three points of interest. First, go 1N 1W 3S 1W 3N 1W 5N. That
-puts you in a closet where you find the Silver Triangle, piece two of
-three. Now go 5S 1E 1S 1W 3S 3E 3S 1W 1N 1W 2S 2E 2S 2W 1S 2E. Point #2
-is a warning about a stasis chamber at the south end of the "serpent's tail". To
-exit from here, go 2W 1N 2E 2N 2W 3N 2W 5S. This is the door that isn't there if you don't answer the riddle in the other Dark room.
+There are three points of interest. First, go 1N 1W 3S 1W 3N 1W 5N. That puts you in a closet where you find the Silver Triangle, piece two of three. Now go 5S 1E 1S 1W 3S 3E 3S 1W 1N 1W 2S 2E 2S 2W 1S 2E. Point #2 is a warning about a stasis chamber at the south end of the "serpent's tail". To exit from here, go 2W 1N 2E 2N 2W 3N 2W 5S. But if you didn't answer the riddle from a couple of paragraphs ago, this door doesn't exist.
 
-Cross the (not Dark) room and continue generally SE. You'll fight a
-combat, then run into the Crystal Guardian. You can kill him however you
-like — you don't have to use the Crystal Sword, I had a much easier
-time using magic and relying on my summoned Demon — but if you don't
-have the Sword in your possession, he rises again and blocks your exit.
+Cross the (not Dark) room and continue generally SE. You'll fight a combat, then run into the Crystal Guardian. You can kill him however you like — you don't have to use the Crystal Sword, I had a much easier time using magic and relying on my summoned Demon — but if you don't have the Sword in your inventory somewhere, he rises again after you kill him and blocks your exit. If that happens, you're stuck; you can't cast *M6:PHDO* or *C7:APAR*, and you passed through several one-way teleporters on the way here. You're going to have to quit and reload.
 
-Stepping S puts you in another Anti-Magic zone (there goes your
-compass). Follow the hallway around for a long time, but when you see
-two doors, go through the W door. This is the "serpent's tail", and the
-S door hides the Stasis Chamber I was talking about before. Follow a
-short hallway S and then through a door to the W.
+Stepping S past the Guardian puts you in another Anti-Magic zone (there goes your compass). Follow the hallway around for a long time, but when you see two doors, go through the W door. This is the "serpent's tail", and the S door hides the Stasis Chamber I was talking about before. Follow a short hallway S and then through a door to the W.
 
-These 3x3 rooms have spinners in the middle of them and teleport traps
-in the NW corner. Try not to go N; there's an annoying set of closets
-with Darkness and Anti-Magic up there. Instead, just go 1S 1W, fight
-a fixed encounter, then go through the door to the S. Walk clockwise
-around the room until you get to 9 o'clock (i.e. skip the NW corner),
-then go through the W door. The other doors are one-way and will send
-you backwards along the path. You'll know you're in the right place if
-you find a 1x3 room. Head to the N end and teleport once more.
+These 3x3 rooms have spinners in the middle of them and teleport traps in the NW corner. Try not to go N; there's an annoying set of closets with Darkness and Anti-Magic up there. Instead, just go 1S 1W, fight a fixed encounter, then go through the door to the S. Walk clockwise around the room until you get to 9 o'clock (i.e. skip the NW corner), then go through the W door. The other doors are one-way and will send you backwards along the path. You'll know you're in the right place if you find a 1x3 room. Head to the N end and teleport once more.
 
-You can now follow the short winding hallway N. At the end you run into
-Kylearan, who has several pages of text for you to read, and then hands
-you the Onyx Key that will allow you to get into Mangar's Tower.
+You can now follow the short winding hallway N. At the end you run into Kylearan, who has several pages of text for you to read, and then hands you the Onyx Key that will allow you to get into Mangar's Tower.
 
 > "Greetings! I am Kylearan, oh perseverent ones, the good wizard of Skara Brae. Put away your weapons, for I am your ally, not an enemy. You have passed my tests, and now can continue on to your true quest, the source of evil in Skara Brae – Mangar the Dark, my nemesis. Mangar's tower, at the opposite corner of Skara Brae from mine, is a five level deathtrap, which can only be entered by use of an onyx key. Good luck, and remember, seeing is not always believing.
 
-When
-you're done reading his expository text, step N to be teleported back
-to the entrance stairs.
+When you're done reading his expository text, step N to be teleported back to the entrance stairs.
 
 ### Mangar's Tower and Endgame
 

@@ -337,7 +337,7 @@ Of the seven character slots in your party, only the first four can attack with 
 
 #### Party Actions
 
-At the start of each combat round, you're presented with the options to `(F)ight`, `(Q)uickly fight`, `(R)un`, or `(A)dvance`. In reverse order, `(A)dvance` [-2 DV] takes up your whole turn and moves the whole party 10' closer to their opponents<sup>1</sup>. (R)un` [-2 DV] directs every individual party member to try to flee from combat. `(Q)uickfight` gives you fewer options than `(F)ight`, but either allows you to give further orders to each character individually.
+At the start of each combat round, you're presented with the options to `(F)ight`, `(Q)uickly fight`, `(R)un`, or `(A)dvance`. In reverse order, `(A)dvance` [-2 DV] takes up your whole turn and moves the whole party 10' closer to their opponents<sup>1</sup>. `(R)un` [-2 DV] directs every individual party member to try to flee from combat. `(Q)uickfight` gives you fewer options than `(F)ight`, but either allows you to give further orders to each character individually.
 
 > 1: Well, *actually*, it moves all of your enemies 10' closer to your party, but that's more or less the same thing, right?
 

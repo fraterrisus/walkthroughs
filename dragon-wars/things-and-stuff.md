@@ -778,7 +778,7 @@ No, it *doesn't* make any sense that Shields and Large Shields cost the same amo
         <td class="c">+1</td>
         <td class="c">+4</td>
     </tr><tr>
-        <td colspan=3>requires *Low Magic 3*<br />casts <i>D:Whirl Wind</i></td>
+        <td colspan=3>requires <i>Low Magic 3</i><br />casts <i>D:Whirl Wind</i></td>
     </tr><tr>
         <td rowspan=2>Magic Ring</td>
         <td class="c">&ndash;</td>

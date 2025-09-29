@@ -325,6 +325,12 @@ Bows, like Two-handers, conflict with Full Shields but not regular Shields.
         <th>DEX</th>
         <th>AV</th>
     </tr><tr>
+        <td>Bow</td>
+        <td class="c">60</td>
+        <td class="c">20'</td>
+        <td class="c">10</td>
+        <td></td>
+    </tr><tr>
         <td>Crossbow</td>
         <td class="c">60</td>
         <td class="c">20'</td>

@@ -70,7 +70,7 @@ All Low Magic spells can be found for free in the Purgatory magic shoppe. Low Ma
             <td rowspan=2><b>Mage Light</b></td>
             <td class="c">var.</td>
             <td></td>
-            <td class="c">20’</td>
+            <td></td>
             <td class="c">Misc.</td>
         </tr><tr>
             <td colspan=5>Light, 3hr / pt, 30' range</td>
@@ -566,11 +566,11 @@ If you wrestle Enkidu and win, he grants you *Druid Magic* 2 and most but not al
             <td rowspan=2><b>Radiance</b></td>
             <td class="c">var.</td>
             <td></td>
-            <td class="c">40’</td>
+            <td></td>
             <td class="c">Misc.</td>
             <td rowspan=2>Lansk Guard Bridge</td>
         </tr><tr>
-            <td colspan=5>Light, 2hr / pt, 40' range</td>
+            <td colspan=5>Light, 2hr / pt</td>
         </tr><tr>
             <td rowspan=2><b>Column&nbsp;of&nbsp;Fire</b><br/>(Fire&nbsp;Column)</td>
             <td class="c">5</td>

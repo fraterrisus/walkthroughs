@@ -2,14 +2,15 @@
 
 [![map](slave-mines.svg)](slave-mines.svg)
 
-Possibly the simplest way to exit Purgatory, but far from the easiest way to reach freedom. You're stripped of your equipment and chained, which makes combat really hard. In essence this board is one large puzzle: you need to break your chains, find your equipment, and defeat the guards to get out of here.
+Possibly the most obvious way to exit Purgatory, but far from the easiest way to reach freedom. You're stripped of your equipment and chained, which makes combat really hard. In essence this board is one large puzzle: you need to break your chains, find your equipment, and defeat the guards to get out of here.
 
 You won't run into any random encounters down here, but there are some a few fixed fights to watch out for. Until you break your chains, you're seriously hampered (-15 AV, -15 AC) in your ability to fight.
 
 ## Exits
 
-- If you arrive from Purgatory, you're dropped at (07,08). This isn't an exit so much as a one-way entrance.
-- The actual exit is at (05,11), behind some guards. It takes you to the [Slave Estate](slave-estate.md) (05,12).
+When you arrive from Purgatory, you're dropped at (07,08). This isn't an exit so much as a one-way entrance.
+
+The actual exit is at (05,11), behind some guards. It takes you to the [Slave Estate](slave-estate.md) (05,12).
 
 ## Points of Interest
 
@@ -84,7 +85,7 @@ You won't run into any random encounters down here, but there are some a few fix
     <td class="c">12</td>
     <td class="c">5</td>
     <td class="c">5</td>
-    <td class="c">1&ndash;4</td>
+    <td class="c">1</td>
     <td class="c">+1</td>
     <td class="c">+0</td>
     <td class="c">10'</td>

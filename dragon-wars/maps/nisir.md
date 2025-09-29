@@ -16,7 +16,13 @@ The thing to know about the Nisir is that there is almost nothing to do down her
 
 ## Points of Interest
 
-**The Icy Caves (11,15 - 20,23):** When you first arrive in the Nisir you're in a cavern. Break through the wall with *D:Soften Stone*, and the area outside that cavern is full of "icy winds" which will extinguish any light source and deal 1 HP damage. If you walk in a straight line you'll probably be okay, but there are spinner traps in the corners that make it more challenging to navigate. (The missing square at (20,23) is not a mistake, or at least, not one on the part of your humble mapmaker. That's a coding bug. You can cast a light spell in that corner and see for yourself.)
+**The Icy Caves (11,15 - 20,23):** When you first arrive in the Nisir you're in a cavern. Break through the wall with *D:Soften Stone*, and the area outside that cavern is full of "icy winds" which will extinguish any light source and deal 1 HP damage. If you walk in a straight line you'll probably be okay, but there are spinner traps in the corners that make it more challenging to navigate. (The missing square at (20,23) and misaligned spinner at (19,23) are not mistakes, or at least, not on the part of your humble mapmaker. That's a coding bug. You can cast a light spell in that corner and see for yourself.)
+
+Of particular interest here is the spinner behavior described in [Weird Stuff](../index.md#weird-stuff). When you step onto a spinner, the game notices whatever wall is directly in front of you before it randomly generates your new facing, and it uses the presence or absence of that wall to determine whether you're allowed to move forward — *not* the presence or absence of a wall at your new facing! In this cave, that means if you walk into a corner, two things will happen:
+1. You won't be able to leave that square until you turn yourself away from a wall, because until you successfully move, the game doesn't reload the wall information, and
+2. Once you *do* manage to get yourself facing away from the wall, if the spinner turns you to face the exterior of the cavern, you can ghost through the wall and into the surrounding corridor.
+
+This information is of no practical value. But you're reading my walkthrough, so.
 
 The hallway just outside these caves also features spinner traps and teleporters that will move you from one side to the other, so they're challenging to navigate unless you're paying very close attention to your automap.
 

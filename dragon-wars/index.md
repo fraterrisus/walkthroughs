@@ -7,7 +7,7 @@ toc:
 ---
 # Yet Another Dragon Wars Walkthrough
 
-Version 3.0, September 2023
+Version 3.1, September 2025
 
 ## Administrivia
 
@@ -33,6 +33,7 @@ The [**Classic Gaming** page](http://www.classicgaming.cc/pc/dragonwars/) on *Dr
 - v2.0, August 2022: rewrite in GameFAQs HTML format
 - v2.1, September 2022: lots of updates and rewrites based on an additional playthrough
 - v3.0, September 2023: port to GitHub Sites, add data from decompilation work
+- v3.1, September 2025: updates while building the DragonJars project
 
 ### Game Introduction
 
@@ -115,7 +116,7 @@ Okay, fine, you're here for opinions, here's mine: For a fresh party, I almost a
 
 **Dexterity:** I think DEX 20 is generally a good idea, both for the +5 AV / DV and because it puts you solidly in the middle of the pack compared to the enemies you'll be fighting (for the sake of combat order). You'll hit first against most "scrubs" and probably go after most "big" enemies. Spending the 8 CP to get to DEX 24 isn't worth it, although DEX 21 plus the three-point boost from the Universal God is a nice treat before you plunge into the depths of the Nisir. Your spellcasters can start lower and work their way up later, and if you have a Druid mage in the back row it's not a terrible idea to follow the suggestion in the game's manual and leave their DEX low so they can cast group-heal spells at the *end* of the round. (Don't also make them your *Bows* specialist, though; they'll want a high DEX for the damage bonus.)
 
-**Intelligence:** INT is useful for mages that cast attack spells. Check out the [Magic](#magic) section and look for spells that require an "Attack Roll"; they use INT instead of DEX (and magic skill instead of weapon skill) to calculate the effective AV. Note that zap spells don't "miss", they just deal half damage on an unsuccessful attack roll, so don't sweat this too much. And don't bother spending any points on your fighters' INT.
+**Intelligence:** INT is useful for mages that cast attack spells. Check out the [Magic](#magic) section and look for spells that require an "Attack Roll"; they use INT instead of DEX (and magic skill instead of weapon skill) to calculate the effective AV. As a result, it's worth getting your casters up to 12 (+3) or 16 (+4) for the attack roll bonus, eventually. Note that zap spells don't "miss", they just deal half damage on an unsuccessful attack roll, so don't sweat this too much. And don't bother spending any points on your fighters' INT, even if Ulrik's 8 INT is painful to look at.
 
 I think the case for **Health** and **Spirit** is pretty obvious, right? I like to aim for 20 HP for my fighters and somewhere around 15 HP for my casters, which is generally pretty comfortable. Your casters' SPR should be at least in the low 20s, and 30 won't be wasted (especially on your Druid Mage, who's going to cast a lot of *D:Cure All*).
 
@@ -325,6 +326,8 @@ Every time you hit a new level, you get 2 CP to spend. Hit `(X)` and then pick a
 
 I'm fairly completionist, but when I start with a fresh party I always seem to finish the game at 12th or 13th level. That means you can expect to gain around 30 CP over the course of the game beyond what you start with, including the +5 Irkalla bonus. See the previous sections for more details on my suggested improvement paths for your PCs.
 
+One final note: there are a handful of places where you can earn an experience reward for hitting certain story beats. But the handler that converts experience into AP only runs at the end of a battle, so if the reward puts you over the threshold for the next level, you won't find out until your next combat *ends*. This sometimes results in hilarious situations, like you run away from a combat without landing a blow and half your party goes up a level.
+
 ## Combat and General Information
 
 ### Combat Basics
@@ -460,7 +463,7 @@ Still with me? Okay, here we go:
 
 ### Combat Strategies
 
-The #1 problem that you will be faced with while in combat — well, okay, aside from actually just staying alive and unstunned — is how to close into melee range with your opponents. The computer, I'm sorry to say, cheats: it knows whether or not you've given the `(A)dvance` order to your party before it assigns orders to the monsters, and if it behooves the monsters to sit and wait for you to advance, they will.
+The #1 problem that you will be faced with while in combat — well, okay, aside from actually just staying alive and unstunned — is how to close into melee range with your opponents. The computer, I'm sorry to say, cheats: it doesn't make a decision about whether or not to `(A)dvance` until the combat round starts, at which point you've already entered your commands. If it behooves the monsters to sit and wait for you to advance, they will.
 
 Here's a particular example: one group of monsters is 20' away from you. If you `(A)dvance`, they will choose `(F)ight` actions. If you go first, you step into melee range, and they get free hits. On the other hand, if you stand your ground and give `(F)ight` actions, there's a chance that they will `(A)dvance` first, and then you get free hits. This is almost always the right idea, even at the cost of a few wasted swings at monsters that are too far away. The exception is if you're fighting multiple groups, and the distant group has a ranged attack, and you need to close to a certain distance in order to hit them with your ranged attack and/or spells.
 
@@ -534,6 +537,8 @@ Some random notes I've collected on my journeys through Dilmun...
 I mentioned this already under [Health and Stun](#health-and-stun), but I find the "target a slot, not a party member" thing to be very strange and also very annoying. "Hey, *you're* not Thog!"
 
 If you pay a healer for healing — and I've pretty much never done it except to test it out for the purpose of writing this guide — the game will automatically pool all of your gold with the first PC. *Dragon Wars* stores a character's gold haul in a four-byte number, meaning they can carry around $4.3 billion before something bad happens, so unlike some other games I could name (**cough** *[Deathlord](../deathlord)* **cough**) this doesn't have any sort of destructive effect. It's just a little confusing the next time you go to look for who has all the gold in the party.
+
+The manual claims that light spells have a range — actually, *L:Mage Light* doesn't, but *S:Radiance* says 40', and they're both wrong. The viewport only ever draws three squares (ostensibly 30') in front of you. A 40' range is not technically possible, or at least not visible in any way.
 
 There are a few maps that allow you to use *D:Soften Stone* to pass through the ostensible "outer" walls of the map. If the map doesn't have the "wrapping" flag set (i.e. Kingshome Dungeon, Dwarf Clan Hall) this allows you to go wandering so far off-course that the automap stops drawing anything. If you keep moving far enough in one direction, the map will eventually wrap around and you'll find the opposite edge of the map, like Columbus trying to find India. Since the X and Y coordinates of your party are kept in 8-bit registers, this seems to happen at 256 steps. You won't find anything interesting out there except the odd random encounter, so this is more of a curiosity than anything.
 

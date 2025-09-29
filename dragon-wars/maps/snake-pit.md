@@ -16,7 +16,7 @@ East: [Isle of the Damned](dilmun.md) (03,19).
 
 **Loose Branches (08,13):** Pick up some **Branches** here. Technically, they will cast *D:Beast Call* if you *Charge* them first.
 
-**The Lonely Druid (04,01):** Show him the **Branches** and he'll teach you *D:Beast Call*. This doesn't consume the Branches, so hand them to anyone else in the party with *Druid Magic* and do it again.
+**The Lonely Druid (04,01):** Show him the **Branches** (or just `(U)se` *Druid Magic*) and he'll teach you *D:Beast Call*. This doesn't consume the Branches, so hand them to anyone else in the party with *Druid Magic* and do it again.
 
 **The Stone Head (01,09):** Apparently just washed up on the beach. (You need this to put Lanac'toor's statue back together in [Mud Toad](mud-toad.md).)
 

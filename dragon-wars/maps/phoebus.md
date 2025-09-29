@@ -84,7 +84,7 @@ If you've already been to the [Nisir](nisir.md) and killed Mystalvision there, h
       <td class="c">255</td>
       <td class="c">10</td>
       <td class="c">10</td>
-      <td class="c">1&ndash;4</td>
+      <td class="c">1</td>
       <td class="c">+2</td>
       <td class="c">+0</td>
       <td class="c">10'</td>

@@ -14,6 +14,8 @@ You can't take the stairs down to the [Slave Mines](slave-mines.md), but if you 
 
 ## Points of Interest
 
+**The Statue of Mog (07,05):** If you came up from the mines, this is an ugly statue of Mog, the slaveowner. If you didn't, read paragraph 117 and it's an "unflattering" but "excellent" statue of a random aristocrat.
+
 **Tracks (07,11):** If you came up from the mines, upon exiting the building you immediately spot a set of tracks. Use *Tracker* to follow them and they deposit you at (02,02), right outside the Demon's lair. Not the most helpful, that.
 
 **The Unguarded Guardroom (10,12):** Six **Dragon Stones**, along with another **Ruby Dagger** (1d4, +3 AV, STR 3), a **Shortsword** (1d6, +1 AV, STR 8), and a **Hammer** (1d10, STR 12).
@@ -22,7 +24,7 @@ You can't take the stairs down to the [Slave Mines](slave-mines.md), but if you 
 
 **The Secret Room (03,08):** A locked chest (difficulty 3), but all it has is a **Handaxe** (1d8, STR 5) and some gold. 1S of this chest is a pile of broken mirrors (see below).
 
-**The other pile of mirrors (04,03):** If you pick one of these up, you can use it to kill Mog without fighting him.
+**The other pile of mirrors (04,03):** If you pick one of these up, you can use it to kill the Gaze Demon without fighting him.
 
 **The Gaze Demon (03,04):** Use a mirror fragment at (04,03) or (03,02) to petrify the Demon without fighting it. Or step onto (03,04) and combat starts.
 

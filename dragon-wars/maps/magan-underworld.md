@@ -2,7 +2,7 @@
 
 [![map](magan-underworld.svg)](magan-underworld.svg)
 
-The Underworld serves as a map that joins several places "Topside" (i.e. in Dilmun), as well as the place you'll come to during the endgame to defeat Namtar for the last time. You can use it to scoot between the various islands, but beware: the monsters down here are "late game" tough, so early on in the game you'll want to run for almost everything.
+The Underworld serves as a map that joins several places "Topside" (i.e. in Dilmun), as well as the place you'll come to during the endgame to defeat Namtar for the last time. You can use it to scoot between the various islands, but beware: the monsters down here are "late game" tough, so early on in the game you'll want to run from almost everything.
 
 There are no fixed combats down here (at least until the endgame), but plenty of wandering monsters (1 in 50). Many of them count as "undead" for the purposes of using *S:Exorcism*.
 
@@ -32,7 +32,7 @@ The map is also **dark**, so you'll need to bring a light source with you.
 
 **The Slicer (11,24)**: In the middle of a field of fire between the stairs to the Clan Hall and Exposition Cavern, you'll find a chest (difficulty 3) with **The Slicer** (1d30, +4 AV, +2 AC, 17 STR) and 10 Dragon Stones.
 
-**The Rusty Axe (31,02):** A bit SW of the stairs up to the Mystic Wood there's a chest (difficulty 3) that's "guarded" by an encounter that doesn't actually exist in the board's program. The chest contains the **Rusty Axe** (1d20, -3 AV, 18 STR), the **Speed Wand** (*M:Zak's Speed*), ten **Bombs** (1d30), and 10 Dragon Stones.
+**The Rusty Axe (31,02):** A bit SW of the stairs up to the Mystic Wood there's a chest (difficulty 3) that's "guarded" by an encounter that doesn't actually exist in the board's program. The chest contains the **Rusty Axe** (1d20, -3 AV, 18 STR), the **Speed Wand** (*M:Zak's Speed*), three **Bombs** (1d30), and 10 Dragon Stones.
 
 **Entrance to Irkalla's Realm (26,16):** You won't be allowed to pass through this doorway unless someone in your party has successfully prayed at a statue of Irkalla somewhere Topside (Purgatory or Smuggler's Cove).
 

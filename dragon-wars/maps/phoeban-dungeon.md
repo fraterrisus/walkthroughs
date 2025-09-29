@@ -14,7 +14,7 @@ The stairs back up to [Phoebus](phoebus.md) are at (01,13), behind the Cave-In.
 
 **The Jail (09,01 - 15,07):** You'll have to kill around 100 turns in your jail cell before Berengaria comes to your rescue (paragraph #101). All of the other doors in the jail are locked (level 1); the cell at (13,07) contains a crying man who tells you "They're torturing The Druid!" but gives you no more useful information than that.
 
-To slip past the guards, go to (10,05) and use *Hide*. This reveals the secret door to the S at (08,05). Or, proceed forward and fight them off.
+To slip past the guards, go to (10,05) and use *Hide*. Or, step boldly forward and fight them off.
 
 **The Cave-In (05,01 - 06,01):** The way out of here. Use *Climb* or a Shovel to get past it.
 

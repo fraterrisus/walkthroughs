@@ -88,7 +88,7 @@ However, there's a logic bug here. As soon as the Sword is revealed, the townspe
       <td class="c">5</td>
       <td class="c">5</td>
       <td class="c">5</td>
-      <td class="c">1&ndash;4</td>
+      <td class="c">1</td>
       <td class="c">+10</td>
       <td class="c">+0</td>
       <td class="c">60'</td>

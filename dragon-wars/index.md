@@ -7,11 +7,15 @@ toc:
 ---
 # Yet Another Dragon Wars Walkthrough
 
-Version 3.1, September 2025
+Version 3.1, October 2025
 
 ## Administrivia
 
-{% include license.html year='2012–23' %}
+{% include license.html year='2012–25' %}
+
+### Before We Begin
+
+Rebecca Heineman, the original developer of _Dragon Wars_, is sick with cancer and in desperate need of funds to pay for her treatment. If you're a fan of this game and at all able to contribute financially, I urge you to check out [her GoFundMe page](https://gofund.me/f56915039) and chip in whatever you can. Thanks.
 
 ### Acknowledgements
 
@@ -33,7 +37,7 @@ The [**Classic Gaming** page](http://www.classicgaming.cc/pc/dragonwars/) on *Dr
 - v2.0, August 2022: rewrite in GameFAQs HTML format
 - v2.1, September 2022: lots of updates and rewrites based on an additional playthrough
 - v3.0, September 2023: port to GitHub Sites, add data from decompilation work
-- v3.1, September 2025: updates while building the DragonJars project
+- v3.1, October 2025: updates while building the DragonJars project
 
 ### Game Introduction
 
@@ -44,6 +48,12 @@ I'm assuming you've read the game's manual and the reference card; they'll give 
 You'll also find a list of spells in the manual, but you won't need it because I've listed them all along with more information than is available there. You should also be aware that there are several red herrings and/or places where the manual is simply incorrect, whether intentional or not.
 
 At the end of the manual is a list of paragraphs. You should be able to find a text file containing the paragraphs online, rather than having to squint at some poorly-scanned PDF version. These help flesh out the story as you go, and give you some hints and other bits of direction. In the walkthrough I've marked the places where the game directs you to the paragraph list with `(pxxx)`, where `xxx` is the paragraph number. Careful, not all the paragraphs are real! But the fake ones are often funny and worth reading. I've listed out which ones are fake in the [appendices](#fake-paragraphs), if you're curious.
+
+### DragonJars
+
+Over the time that I've been writing and maintaining this walkthrough, I've managed to rip apart the game's original binaries and data files and learn just about everything there is to learn about it. Eventually, I decided that the best thing to do with this information was to make a "superemulator" which allows you to not only play the game (presuming you have a _legal_ copy of the data files), but also fixes some bugs and adds some quality-of-life improvements that makes it even more fun to play.
+
+If you're interested in such a thing &ndash; it's built on Java so it should run on just about any desktop or laptop &ndash; you can check it out at [my GitHub page](https://www.github.com/fraterrisus/dragonjars).
 
 ### Managing Save Files
 
@@ -133,7 +143,7 @@ You'll want roughly two of *Tracker*, *Bureaucracy*, and *Hiding*, but you don't
 
 Don't take:
 
-- The other *Lore* skills. Broadly speaking, they give you a few extra bonuses throughout the game, but most of that is exposition in the form of paragraphs. *Cave Lore* can be helpful in Lanac'toor's Lab if you don't have maps, but Ulrik comes with it. *Forest Lore* reveals the Nature Axe and you need *Mountain Lore 2* to use the Mountain Sword, but I don't think either of those weapons are worth the CP. Any other uses are mentioned (and spoiled) in the walkthrough.
+- The other *Lore* skills. Broadly speaking, they give you a few extra bonuses throughout the game, but most of that is exposition in the form of paragraphs. *Cave Lore* can be helpful in Lanac'toor's Lab if you don't have maps, but Ulrik comes with it. *Forest Lore* reveals the Nature Axe and you need *Mountain Lore 2* to use the Mountain Sword, but I don't think either of those weapons are worth the CP. Any other uses are mentioned (and spoiled) in the walkthrough.
 - *Pickpocket*: Useful once, but Louie comes with it.
 - *Swim*: Useful once, but Ulrik comes with it.
 

@@ -1,0 +1,49 @@
+---
+navbar: true
+---
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/bundle.css">
+    <script src="/assets/js/toc.js"></script>
+  </head>
+  <body>
+
+    {% if navbar %}
+    {% include "navbar.html" %}
+    {% endif %}
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      {% if toc.enabled %}
+      <div id="table-of-contents">
+        <div id="toc-header">
+          <b>Contents</b>
+          <div id="toc-image">
+            <img src="/assets/img/menu.png" id="toc-collapse" height="25px" width="25px" />
+          </div>
+        </div>
+        <div id="toc-body" class="toc-hidden">
+          {% assign a = toc.h_min %}
+          {% assign b = toc.h_max %}
+          {% capture local_opts %}{"tags": [{% for i in (a..b) %}"h{{i}}"{% unless forloop.last %},{% endunless %}{%endfor%}]}{% endcapture %}
+          {{ content | renderTransforms | toc: local_opts }}
+        </div>
+      </div>
+      {% endif %}
+
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner">These <a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> are maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+      </footer>
+    </main>
+  </body>
+</html>

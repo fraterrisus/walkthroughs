@@ -12,7 +12,7 @@ Version 1.0, April 2024
 
 ## Administrivia
 
-{% include license.html year='2013-24' %}
+{% include 'license.html' year='2013-24' %}
 
 ### Acknowledgements
 
@@ -33,7 +33,7 @@ Sources I used:
 
 ### Errata
 
-I wrote the first draft of this walkthrough over ten years ago, incorporating a bunch of dodgy assertions about the effects of attributes and other game mechanics based on research I'd done reading other people's walkthroughs. At worst, that info was flat-out wrong; at best, I can't figure out which version of the game it was talking about. So until I can rip apart the DOS binary and decompile it for myself (much like I did with [*Dragon Wars*](../dragon-wars/index.md)), I'm going to try to restrict myself to things that I'm pretty sure about due to personal experience.
+I wrote the first draft of this walkthrough over ten years ago, incorporating a bunch of dodgy assertions about the effects of attributes and other game mechanics based on research I'd done reading other people's walkthroughs. At worst, that info was flat-out wrong; at best, I can't figure out which version of the game it was talking about. So until I can rip apart the DOS binary and decompile it for myself (much like I did with [*Dragon Wars*](../dragon-wars/index.html)), I'm going to try to restrict myself to things that I'm pretty sure about due to personal experience.
 
 That means I still have several open questions about the game. Here's a couple of examples:
 
@@ -129,7 +129,7 @@ At 1st level, casters start with 9–24 MP, but unfortunately you don't get to s
 
 There are a few other "hidden" secondary statistics that don't show up on your character's info screen:
 
-**Saving Throw:** When someone needs to resist the effects of a spell, avoid a trap, or just run from combat, the game makes a contested saving throw. A monster's Save is proportional to its group (see the [Bestiary](bestiary.md)). For party members, your Save is a combination of your class, level, and Luck bonus. (A Luckshield adds to your Saving Throw, if you have one equipped.) Wizards have the best saves, followed by Paladins, other casters, and everyone else.
+**Saving Throw:** When someone needs to resist the effects of a spell, avoid a trap, or just run from combat, the game makes a contested saving throw. A monster's Save is proportional to its group (see the [Bestiary](bestiary.html)). For party members, your Save is a combination of your class, level, and Luck bonus. (A Luckshield adds to your Saving Throw, if you have one equipped.) Wizards have the best saves, followed by Paladins, other casters, and everyone else.
 
 There are two important things to remember here. First, when running from combat the party member in Slot 1 rolls their save. So keeping a Paladin and/or a high Luck character in that slot makes you more likely to successfully run away from combat, which matters a lot in the early going. Second, Saving Throws are *contested*; you want your casters to have a high Saving Throw so that they are more likely to land their spells with full force.
 
@@ -253,7 +253,7 @@ Each character has the following options:
 
 ### Resolving Attacks
 
-Your chance to hit an opponent is based on the difference between your AC and theirs. That means the more armor you're wearing, the higher your chance of hitting your opponent, which doesn't make a whole hell of a lot of sense. Regardless, this is yet another reason why you want the best possible AC early on. The to-hit chance is also modified by your class, although this doesn't go up with levels, and the bonus of your weapon if it has one (see [Equipment](equipment.md)). A +1 to-hit bonus is equivalent to one point of AC. There's also a random element each time you take a swing.
+Your chance to hit an opponent is based on the difference between your AC and theirs. That means the more armor you're wearing, the higher your chance of hitting your opponent, which doesn't make a whole hell of a lot of sense. Regardless, this is yet another reason why you want the best possible AC early on. The to-hit chance is also modified by your class, although this doesn't go up with levels, and the bonus of your weapon if it has one (see [Equipment](equipment.html)). A +1 to-hit bonus is equivalent to one point of AC. There's also a random element each time you take a swing.
 
 Actions take place in order of [Attack Priority](#secondary-statistics); Fighters, Paladins, and Monks get an additional attack every four levels, so your 9th level Paladin takes three swings. All attacks are resolved at once, so you'll start seeing combat statements like "Alex swings at a Nomad 3 times..."
 
@@ -274,7 +274,7 @@ Allies come from three sources:
 
 You won't be able to control Allies during combat. In practice, they almost
 always attack Group A of enemies. Many Allies can also cast spells or have
-other effects, as described in the [Bestiary](bestiary.md).
+other effects, as described in the [Bestiary](bestiary.html).
 
 As I mentioned above, the first three character slots plus the NPC slot are considered to be within
 melee range, so it's best to fill those slots with characters with good AC and
@@ -296,7 +296,7 @@ Things get more interesting once you start dungeon diving and coming up against 
 
 On the other hand, if there are Magicians hanging out in Group C or Group D, you need to take care of them as quickly as possible. Group zap spells are invaluable. If the group is small enough you might be able to pick them off with *C1:ARFI*. Otherwise, you should prioritize clearing out one entire group of enemies in front of them so they slide forward into melee range.
 
-Check out the [Bestiary](bestiary.md) for details on the special attacks available to the critters you'll come up against, so you can better decide where to spread your damage around.
+Check out the [Bestiary](bestiary.html) for details on the special attacks available to the critters you'll come up against, so you can better decide where to spread your damage around.
 
 ### Health and Dying
 
@@ -360,7 +360,7 @@ When you do find a Spell Staff there's another trick you can use: the holder reg
 
 ### Dungeon Difficulty
 
-*BT1* determines what [monsters](bestiary.md), traps, and [loot](equipment.md) to throw at you based on the
+*BT1* determines what [monsters](bestiary.html), traps, and [loot](equipment.html) to throw at you based on the
 difficulty level of the current map. There are 127 items and 127 monsters, each
 of which is broken up into sixteen groups of eight. Groups are then assigned to
 dungeon levels as shown here:
@@ -421,7 +421,7 @@ appears twice, it is twice as likely as the others to be generated. Note that
 
 In the early part of the game you're going to become obsessed with how much money you can gather, mostly because you'll be spending a lot of it on healing at Temples. So how does that work?
 
-When an encounter ends (presuming you win, of course), you get a batch of experience points (XP) for all the [monsters](bestiary.md) you killed. If you're in Skara Brae fighting monsters in the streets (or in houses), you'll also collect a random amount of gold, and there's a random chance of finding one or more items.
+When an encounter ends (presuming you win, of course), you get a batch of experience points (XP) for all the [monsters](bestiary.html) you killed. If you're in Skara Brae fighting monsters in the streets (or in houses), you'll also collect a random amount of gold, and there's a random chance of finding one or more items.
 
 In dungeons, you're usually presented with a chest. Chests are never locked but they are most likely trapped. You have a number of options for dealing with the trap:
 
@@ -510,13 +510,13 @@ As the manual says, there are no cursed or "bad" items. However, some percentage
 
 All Weapons (including Staves) are assumed to require one hand, so you can always equip a Shield regardless of what Weapon you're using.
 
-[Item list](equipment.md)
+[Item list](equipment.html)
 
 ## Magic and Spells
 
 In order to save typing, *Bard's Tale* refers to all spells by a four-letter abbreviation. You've probably already noticed them all over this document; I prefix the spell with the caster class and level, so you'll see things like *C7:APAR* (*Apport Arcane*, a 7th level Conjurer spell). That should make it slightly easier for you to remember which caster has which spells, at least until you start changing caster classes all over the place and can't remember which mage is a Conjurer/Sorcerer and which is a Magician/Sorcerer. Not that that's ever happened to me. Nope nope nope.
 
-[Spell list](magic.md)
+[Spell list](magic.html)
 
 
 ## Walkthrough
@@ -563,7 +563,7 @@ Your first stop needs to be Garth's to buy the package listed above; again, cons
 
 My strategy for surviving Level 1 looks like this: Walk from the Guild to the Thief Temple. If you've spent some Spell Points, hang out in the sunshine while they [regenerate](#managing-spell-points). Otherwise you can scout through the nearby houses to try to trigger fights. Fight a battle. If you win and you have enough cash, go to the temple and heal yourself. Then immediately go back to the Guild and save all your characters. (Note that this helpfully resets the day clock to Early Morning, too.) Sell loot at Garth's as necessary and repeat. If it somehow gets dark out, run back to the Guild and reset the clock.
 
-Unfortunately, there's still a fair bit of luck involved here. At 1st level your characters can't really take more than two or three hits before dying, even at max HP. To be safe, run from anything with more than two or three enemies, always run from Barbarians (ow) and Magicians (+`OLD`, which is expensive to heal now and gets worse after 1st level), and consider running from anything else in Group II (see [Bestiary](bestiary.md)). Of course, running won't always work. Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; the Magician isn't good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups.
+Unfortunately, there's still a fair bit of luck involved here. At 1st level your characters can't really take more than two or three hits before dying, even at max HP. To be safe, run from anything with more than two or three enemies, always run from Barbarians (ow) and Magicians (+`OLD`, which is expensive to heal now and gets worse after 1st level), and consider running from anything else in Group II (see [Bestiary](bestiary.html)). Of course, running won't always work. Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; the Magician isn't good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups.
 
 When a character dies, your best bet is to reload from your most recent emulator save state. Keep in mind the [warning](#managing-save-files) I gave you earlier: on the PC, characters in your party have $0 on disk. So if you kill your emulator and reload, you're likely to lose all your cash. Make backups of the character files, and don't be afraid to drop a dead character and roll up a new one. As a bonus, you'll get an extra portion of starting gold, and you can always transfer the equipment from the dead character to the new one.
 
@@ -694,7 +694,7 @@ In the Gran Plaz that dominates the center of Skara Brae there are four Temples,
 
 Your goal here is to grind up to either the second class change or the acquisition of *S6:MIBL*, depending on whether you took one or more Sorcerers at your first class change. But the XP should flow a lot faster than it did in the Sewers and Level V loot starts to get into some useful stuff. (Don't sleep on the fact that Mithril Scale can be used by casters!) If you skipped through the Sewers pretty quickly, you may be around level 9. If your front line has around 150 HP and your casters have level 4 spells, you'll probably be okay, but be careful. If you cleaned out the Sewers more thoroughly and got your first class change already, Catacombs Level One should be a snap and you're probably ready for the lower levels.
 
-There are a *lot* of undead kicking around here, especially on Level Three; check the [Bestiary](bestiary.md) for special attacks. Unfortunately, Wizards get all the good anti-undead spells, but you can't get those until the second class change at the earliest so they probably won't do you much good here.
+There are a *lot* of undead kicking around here, especially on Level Three; check the [Bestiary](bestiary.html) for special attacks. Unfortunately, Wizards get all the good anti-undead spells, but you can't get those until the second class change at the earliest so they probably won't do you much good here.
 
 #### Catacombs, Level 1
 

@@ -1,6 +1,6 @@
 function hideToc(ev) {
   var header = document.getElementById('toc-header');
-  var toc = document.getElementById('toc');
+  var toc = document.getElementById('toc-body');
   var frame = document.getElementById('table-of-contents');
   if (toc.classList.contains('toc-hidden')) {
     //header.classList.remove('toc-hidden');

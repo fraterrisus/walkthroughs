@@ -12,7 +12,7 @@ Version 2.1.1, September 2023
 
 ## Administrivia
 
-{% include license.html year='2017–23' %}
+{% include 'license.html' year='2017–23' %}
 
 ### Acknowledgements
 

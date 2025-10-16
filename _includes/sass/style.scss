@@ -1,0 +1,85 @@
+$table-border-color: #ccc;
+
+$header-fg-color: #155799;
+$header-bg-color: #159957;
+
+// see https://developers.google.com/fonts/docs/getting_started
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#skip-to-content {
+  display: none;
+}
+
+.page-header {
+  padding: 1em;
+  color: white;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-fg-color, $header-bg-color);
+  
+  h1 {
+    font-size: 3em;
+  }
+}
+
+.page-navbar {
+  font-size: 120%;
+  color: white;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: linear-gradient(120deg, $header-fg-color, $header-bg-color);
+  padding: 1em;
+
+  a { 
+    color: white; 
+    text-decoration-line: none;
+  }
+}
+
+.main-content {
+  color: #555;
+  line-height: 1.4rem;
+  max-width: 50rem;
+  padding: 2rem 6rem;
+  margin: 0 auto;
+
+  a {
+    color: #44f;
+    text-decoration-line: none;
+  }
+
+  h1, h2, h3, h4 {
+    font-weight: normal;
+    color: #159957;
+    margin-block-start: 2rem;
+    margin-block-end: 1rem;
+  }
+
+  h2 {
+    margin-block-start: 3rem;
+    margin-block-end: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 0.1rem;
+  }
+
+  code {
+    background-color: #eee;
+    padding: 0.1rem;
+  }
+}
+
+.site-footer {
+  margin: 5rem 1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

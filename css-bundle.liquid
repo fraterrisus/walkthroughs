@@ -1,0 +1,11 @@
+---
+layout: 
+permalink: bundle.css
+---
+{% capture my_sass %}
+{% include "_includes/sass/style.scss" %}
+{% include "_includes/sass/float.scss" %}
+{% include "_includes/sass/table.scss" %}
+{% include "_includes/sass/toc.scss" %}
+{% endcapture %}
+{{ my_sass | desass | cssmin }}

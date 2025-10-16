@@ -11,7 +11,7 @@ Version 3.1, October 2025
 
 ## Administrivia
 
-{% include 'license.html' year='2012–25' %}
+{% include 'license', year:'2012–25' %}
 
 ### Before We Begin
 
@@ -43,7 +43,7 @@ The [**Classic Gaming** page](http://www.classicgaming.cc/pc/dragonwars/) on *Dr
 
 *Dragon Wars* is a classic CRPG that stands as the spiritual successor to the *Bard's Tale* series and one of my favorite CRPGs of all time. Some would call it "the missing *Bard's Tale IV*", although at this point that's a complete misnomer since the Bryan Fargo-led **inXile Entertainment** has released a very successful and very modern _BT4_ game. Highly recommended. But I digress.
 
-I'm assuming you've read the game's manual and the reference card; they'll give you the background story (although I'll recap it for you at the top of the [walkthrough](walkthrough.md)) and teach you how to move around and do stuff. It's worth noting (mostly because it didn't fit anywhere else) that many of the proper nouns in this game (Dilmun, Namtar, Nisir, Utnapishtim, etc.) are taken from Mesopotamian mythology and/or the Epic of Gilgamesh, which provides an interesting backdrop and helps explain the twists on the standard swords-and-sorcery epic-fantasy background story we're all accustomed to.
+I'm assuming you've read the game's manual and the reference card; they'll give you the background story (although I'll recap it for you at the top of the [walkthrough](walkthrough)) and teach you how to move around and do stuff. It's worth noting (mostly because it didn't fit anywhere else) that many of the proper nouns in this game (Dilmun, Namtar, Nisir, Utnapishtim, etc.) are taken from Mesopotamian mythology and/or the Epic of Gilgamesh, which provides an interesting backdrop and helps explain the twists on the standard swords-and-sorcery epic-fantasy background story we're all accustomed to.
 
 You'll also find a list of spells in the manual, but you won't need it because I've listed them all along with more information than is available there. You should also be aware that there are several red herrings and/or places where the manual is simply incorrect, whether intentional or not.
 
@@ -65,7 +65,7 @@ If this is your first time playing the game, I recommend taking the starter part
 
 ## Creating Characters
 
-Unlike many other CRPGs, *Dragon Wars* doesn't force you to roll dice, or at least, doesn't force you to hit the space bar a million times while it randomly generates statistics for you until you get ones that are high enough to make you happy. Instead, you start the game with very pedestrian statistics and 50 **character points** (hereafter **CP**) to distribute as you wish among your attributes and skills. This is a far less frustrating way to create characters, and will be familiar to those of you who played [*Wasteland*](../wasteland/index.md).
+Unlike many other CRPGs, *Dragon Wars* doesn't force you to roll dice, or at least, doesn't force you to hit the space bar a million times while it randomly generates statistics for you until you get ones that are high enough to make you happy. Instead, you start the game with very pedestrian statistics and 50 **character points** (hereafter **CP**) to distribute as you wish among your attributes and skills. This is a far less frustrating way to create characters, and will be familiar to those of you who played [*Wasteland*](../wasteland/index).
 
 So let's talk about all the different ways you can spend CP. Throughout this section, numbers in [brackets] indicate the number of CP you need to spend to increase the attribute (or skill) by one level. If there are two numbers (mostly for magic skills), then the first number is the initial CP cost of level 1, and the second number is the CP cost of additional levels.
 
@@ -83,7 +83,7 @@ Attributes form the basic description of your character. Newly-generated charact
 
 **Secondary attributes** are derived from your primary attributes and (often) your equipment; you can't change them directly with CP.
 
-- **Power (POW)**: Equal to **SPR** x 2. This is your "mana" or "spell points" stat. Each spell you cast has a base Power cost. Some spells also allow you to spend more points; spending more Power gives you a more, well, *powerful* effect. Usually that means more damage or a longer duration; see the [spell descriptions](magic.md) for more on this.
+- **Power (POW)**: Equal to **SPR** x 2. This is your "mana" or "spell points" stat. Each spell you cast has a base Power cost. Some spells also allow you to spend more points; spending more Power gives you a more, well, *powerful* effect. Usually that means more damage or a longer duration; see the [spell descriptions](magic) for more on this.
 - **Stun**: *Dragon Wars* uses a two-tiered health system; Stun is separate from Health, but your maximum Stun is equal to your maximum **HP**. See the section on [Health and Stun](#health-and-stun).
 - **Armor Class (AC)**: In *Dragon Wars*, a high AC reduces the damage you take *after* an opponent hits you. It is quite possible to have a high enough AC that a successful hit does zero damage. Unsurprisingly, putting on armor increases your AC. Some other items, including some weapons, will also modify your AC.
 - **Attack Value (AV)**: Starts at **DEX** / 4 (round down). Increases your chance of hitting your opponent in combat. Also modified by weapons (usually up), heavy armor (usually down), and buff/debuff spells.
@@ -117,7 +117,7 @@ Your party has room for seven characters, but you can only create up to four. Em
 
 Characters 1–4 in the marching order are the only ones who can melee, so generally you'll want four fighting folk up front and three spell casters (and/or archers) behind them. Of the NPCs, **Ulrik** is an obvious choice for the front lines. **Louie** could swing either way (for a fighter, he's got a high SPR) but he doesn't start with any magic skills. **Valar** is already a great Sun mage. **Halifax** is a fighter, but he doesn't appear until super late in the game, and by the time you can pick him up you probably don't want to get rid of anyone else.
 
-That being said, creating two fighters and two mages is probably your best bet. The next question is, which magic skills should you take? There's not really a single correct answer to that; every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though, and you wouldn't be able to use the [*Air Summon* shortcut](walkthrough.md#take-the-shortcut) in the Nisir.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded so you definitely don't need your own Sun mage, but if you were going to double up on a school, this is the one I'd pick. There are two **Druid Magic** spells that are literally *required* in order to win the game, but because of that it's possible to pick it up in-game for free.
+That being said, creating two fighters and two mages is probably your best bet. The next question is, which magic skills should you take? There's not really a single correct answer to that; every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](walkthrough#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though, and you wouldn't be able to use the [*Air Summon* shortcut](walkthrough#take-the-shortcut) in the Nisir.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded so you definitely don't need your own Sun mage, but if you were going to double up on a school, this is the one I'd pick. There are two **Druid Magic** spells that are literally *required* in order to win the game, but because of that it's possible to pick it up in-game for free.
 
 Okay, fine, you're here for opinions, here's mine: For a fresh party, I almost always take *High Magic* and *Druid Magic*. My High Mage sits in slot 5 with a high DEX, and they get the Gatlin Bow / Magic Quiver combo in the second half of the game. I pick up Valar early to round out the set, and Louie becomes a hybrid fighter/*Druid Mage* by wrestling Enkidu once he's ready. Having two PCs that can cast *D:Cure All* is no bad thing. But this is definitely not the only way to build a winning party.
 
@@ -419,7 +419,7 @@ For the purposes of this section, here are the combat actions that monsters can 
 - A **piercing** melee attack that ignores armor if it hits. This is the monster equivalent of Mighty Attack, kinda.
 - Monsters can **block** and **dodge** just like you, although dodging grants them +5 DV instead of +3.
 - Attempt to **flee** combat; this has a percentage chance of success that is hard-coded and not influenced by the party in any way.
-- Cast a **spell**, from the same [list](magic.md) that you pull from.
+- Cast a **spell**, from the same [list](magic) that you pull from.
 - **Breath weapons** are very similar to group-zap spells — they hit everyone in the party, but the monster has to make a spell attack roll for each target and deals half damage on a miss.
 - Attempt to **call for help**; similar to fleeing, this has a percentage chance of success and also a maximum number of compatriots that can be summoned to their group.
 
@@ -451,11 +451,11 @@ If you're reading this section, then one of three things had better be true:
 
 If it's that last one, I'm going to ask you to seriously consider starting the game over from scratch before we proceed. Regardless, you're going to have to slog through another few paragraphs describing how terrible this process is before I tell you the actual answer. I have literally only ever gone through this process for the purposes of documenting how to do it; I was already in the Necropolis and someone died from a Ghoul bite, so I figured I'd try it out.
 
-Let's start with location. In order to resurrect a dead character you have to get to the [Necropolis](walkthrough.md#all-we-wanna-do-is-eat-your-brains-the-necropolis). Technically the Well of Souls is in the Underworld, not the Necropolis, but the building that houses it is immune to *D:Soften Stone*, so there's no access without going through the Necropolis.
+Let's start with location. In order to resurrect a dead character you have to get to the [Necropolis](walkthrough#all-we-wanna-do-is-eat-your-brains-the-necropolis). Technically the Well of Souls is in the Underworld, not the Necropolis, but the building that houses it is immune to *D:Soften Stone*, so there's no access without going through the Necropolis.
 
 Of course, the only way to get to the Necropolis is by boat. I suppose you don't *have* to have beaten Ugly and his crew and taken his boat from him; you could just bribe him to take you there. Which is good, because that's a really hard battle even with a full party, and you're likely to lose somebody in that fight.
 
-If you don't happen to be on one of the Eastern Isles already, you have to pick up the boat at [Smuggler's Cove](walkthrough.md#smugglers-blues-smugglers-cove). Quag is infested with Murk Trees, and they're potentially deadly no matter how good your AC is. You have to fight off at least one group of them to get to the Cove, and there's a non-zero chance that you lose *another* PC in that fight.
+If you don't happen to be on one of the Eastern Isles already, you have to pick up the boat at [Smuggler's Cove](walkthrough#smugglers-blues-smugglers-cove). Quag is infested with Murk Trees, and they're potentially deadly no matter how good your AC is. You have to fight off at least one group of them to get to the Cove, and there's a non-zero chance that you lose *another* PC in that fight.
 
 Even if you've already cleared the Necropolis once and you're coming back just to use the Well of Souls, you still have to fight off two really annoying Guardians. And, again, no using *D:Soften Stone* to skip the fights.
 
@@ -493,9 +493,9 @@ There's a few ameliorating edge cases here: if you use *Fistfighting* you don't 
 
 > 2: Having dug through the code, I'm convinced this is an off-by-one bug caused by a "greater-or-equal" check that should have been "greater than". If the back rank could use thrown weapons, I'd happily have my mages throw Bombs at nearby groups and then go back to casting spells without the need to ready a `(N)ew` weapon.
 
-Missile weapons are nice because you can get additional attacks from your back row, which is very helpful in the early game, but managing an inventory full of arrows gets annoying fast. Most quivers don't do very much damage, although you can exploit the [Bridge Bug](walkthrough.md#were-on-the-road-to-nowhere-guard-bridge-2) to acquire infinite Grey Arrows. On the other hand, the Gatlin Bow / Magic Quiver combination is amazingly deadly; you'll likely do more damage with that combo than any melee weapon all the way through the end of the game. My advice is to get bows for your back row as soon as possible (the Purgatory Arena, for example). Stop collecting arrows whenever you get sick of managing them, you find that your mages have better things to do, or you just need to free up the inventory slots.
+Missile weapons are nice because you can get additional attacks from your back row, which is very helpful in the early game, but managing an inventory full of arrows gets annoying fast. Most quivers don't do very much damage, although you can exploit the [Bridge Bug](walkthrough#were-on-the-road-to-nowhere-guard-bridge-2) to acquire infinite Grey Arrows. On the other hand, the Gatlin Bow / Magic Quiver combination is amazingly deadly; you'll likely do more damage with that combo than any melee weapon all the way through the end of the game. My advice is to get bows for your back row as soon as possible (the Purgatory Arena, for example). Stop collecting arrows whenever you get sick of managing them, you find that your mages have better things to do, or you just need to free up the inventory slots.
 
-Melee weapons with 'reach' (i.e. a range greater than 10') are incredibly useful. You don't have to do anything special to activate the ranged attack; simply `(A)ttack` a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](things-and-stuff.md#weapons). Sometimes it makes sense to prioritize weapons with reach over weapons that do more raw damage at 10'. You may have different preferences or combat styles.
+Melee weapons with 'reach' (i.e. a range greater than 10') are incredibly useful. You don't have to do anything special to activate the ranged attack; simply `(A)ttack` a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](things-and-stuff#weapons). Sometimes it makes sense to prioritize weapons with reach over weapons that do more raw damage at 10'. You may have different preferences or combat styles.
 
 Also remember that some armor and weapons have additional magical actions that can be useful in combat. `(U)sing` the weapon during a combat round will activate the spell on your turn. For example, if you use the Druids Mace in combat, it casts *D:Cure All*, which coincidentally is the best group-heal spell in the game.
 
@@ -605,42 +605,42 @@ Some notes about these tables:
 - **STR** and **DEX** indicate the minimum values required to wield a weapon. If you ask a shop owner to `(E)xamine` an object, they'll tell you the item type and its base requirements. Of course, I've pulled this data directly from the data files instead.
 - Prices listed are the purchase price; sale price is 50% of that. Some items can't actually be purchased, so the purchase price listed here is simply 2x the sale price, if selling the item is possible. Scrolls aren't listed here, but they tend to sell for either $100 or $1000, or in some cases be unsellable. There's no rhyme or reason to it.
 
-- [Weapons](things-and-stuff.md#weapons)
-  - [Axes](things-and-stuff.md#axes)
-  - [Flails](things-and-stuff.md#flails)
-  - [Swords](things-and-stuff.md#swords)
-  - [Two-Handed Weapons](things-and-stuff.md#two-handed-weapons)
-  - [Maces](things-and-stuff.md#maces)
-  - [Bows](things-and-stuff.md#bows)
-  - [Crossbows](things-and-stuff.md#crossbows)
-  - [Guns](things-and-stuff.md#guns)
-  - [Ammunition](things-and-stuff.md#ammunition)
-  - [Thrown Weapons](things-and-stuff.md#thrown-weapons)
-- [Armor](things-and-stuff.md#armor)
-  - [Body Armor](things-and-stuff.md#body-armor)
-  - [Gloves](things-and-stuff.md#gloves)
-  - [Shields](things-and-stuff.md#shields)
-  - [Helms](things-and-stuff.md#helms)
-  - [Boots](things-and-stuff.md#boots)
-  - [Rings](things-and-stuff.md#rings)
-- [Unique Items](things-and-stuff.md#unique-items)
-- [Shops](things-and-stuff.md#shops)
-  - [Purgatory](things-and-stuff.md#purgatory)
-  - [Lansk Undercity](things-and-stuff.md#lansk-undercity)
-  - [Mud Toad](things-and-stuff.md#mud-toad)
-  - [Byzanople Siege Camp](things-and-stuff.md#byzanople-siege-camp)
-  - [Byzanople](things-and-stuff.md#byzanople)
-  - [Freeport](things-and-stuff.md#freeport)
+- [Weapons](things-and-stuff#weapons)
+  - [Axes](things-and-stuff#axes)
+  - [Flails](things-and-stuff#flails)
+  - [Swords](things-and-stuff#swords)
+  - [Two-Handed Weapons](things-and-stuff#two-handed-weapons)
+  - [Maces](things-and-stuff#maces)
+  - [Bows](things-and-stuff#bows)
+  - [Crossbows](things-and-stuff#crossbows)
+  - [Guns](things-and-stuff#guns)
+  - [Ammunition](things-and-stuff#ammunition)
+  - [Thrown Weapons](things-and-stuff#thrown-weapons)
+- [Armor](things-and-stuff#armor)
+  - [Body Armor](things-and-stuff#body-armor)
+  - [Gloves](things-and-stuff#gloves)
+  - [Shields](things-and-stuff#shields)
+  - [Helms](things-and-stuff#helms)
+  - [Boots](things-and-stuff#boots)
+  - [Rings](things-and-stuff#rings)
+- [Unique Items](things-and-stuff#unique-items)
+- [Shops](things-and-stuff#shops)
+  - [Purgatory](things-and-stuff#purgatory)
+  - [Lansk Undercity](things-and-stuff#lansk-undercity)
+  - [Mud Toad](things-and-stuff#mud-toad)
+  - [Byzanople Siege Camp](things-and-stuff#byzanople-siege-camp)
+  - [Byzanople](things-and-stuff#byzanople)
+  - [Freeport](things-and-stuff#freeport)
 
 ## Magic
 
 In *Dragon Wars*, spells are associated with a **school**:
 
-- [Low Magic](magic.md#low-magic)
-- [High Magic](magic.md#high-magic)
-- [Druid Magic](magic.md#druid-magic)
-- [Sun Magic](magic.md#sun-magic)
-- [Miscellaneous Magic](magic.md#miscellaneous-magic)
+- [Low Magic](magic#low-magic)
+- [High Magic](magic#high-magic)
+- [Druid Magic](magic#druid-magic)
+- [Sun Magic](magic#sun-magic)
+- [Miscellaneous Magic](magic#miscellaneous-magic)
 
 You've probably already noticed that throughout this document, when I refer to spells, I prefix it with the first letter of the school. That should make it easier for you to remember who's got what spell, unless you decided having two Sun mages in your party was a good idea.
 
@@ -669,57 +669,57 @@ One more weird tip I'll leave you with: it *looks* like scrolls are single-use, 
 
 Moved to its own page for length, but here's a table of contents:
 
-- [Forlorn Isle](walkthrough.md#forlorn-isle)
-  - [Purgatory](walkthrough.md#purgatory)
-  - [Magan Underworld Highlights](walkthrough.md#magan-underworld-highlights)
-  - [Slave Mines](walkthrough.md#slave-mines)
-  - [Slave Camp](walkthrough.md#the-purgatory-day-spa-and-salon-slave-camp)
-  - [Phoebus](walkthrough.md#rounding-out-the-party-phoebus) (side trip)
-  - [Slave Estate](walkthrough.md#nice-island-ya-got-here-slave-estate)
-  - [Tars Ruins](walkthrough.md#shame-if-anything-were-to-happen-to-it-tars-ruins)
-  - [Tars Underground](walkthrough.md#look-an-actual-dungeon-tars-underground-)
-  - [Guard Bridge #1](walkthrough.md#guard-bridge-1)
-- [Isle of the Sun](walkthrough.md#isle-of-the-sun)
-  - [Mystic Wood](walkthrough.md#isnt-it-good-mystic-wood)
-  - [Phoebus](walkthrough.md#ss-is-the-key-combo-for-save-game-phoebus)
-  - [Phoeban Dungeon](walkthrough.md#ridden-out-of-town,-on-rails-phoeban-dungeon)
-  - [Guard Bridge #2](walkthrough.md#were-on-the-road-to-nowhere-guard-bridge-2)
-- [Isle of Lansk](walkthrough.md#isle-of-lansk)
-  - [Lansk](walkthrough.md#the-most-boring-city-in-the-world-lansk)
-  - [Lansk Undercity](walkthrough.md#putting-the-fun-back-in-funderworld-lansk-undercity)
-  - [War Bridge](walkthrough.md#you-cant-fight-here-this-is-the-war-bridge)
-- [Quag Isle](walkthrough.md#quag-isle)
-  - [Yellow Mud Toad](walkthrough.md#follow-the-yellow-mud-toad)
-  - [Mystic Wood, Magan Underworld](walkthrough.md#jumpin-jack-flash-mystic-wood-magan-underworld)
-  - [Smuggler's Cove](walkthrough.md#smugglers-blues-smugglers-cove)
-  - [The Necropolis](walkthrough.md#all-we-wanna-do-is-eat-your-brains-the-necropolis)
-- [King's Isle](walkthrough.md#kings-isle)
-  - [Bridge of Exiles, Snake Pit](walkthrough.md#le-roi-est-mort-bridge-of-exiles-snake-pit)
-  - [Kingshome](walkthrough.md#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome)
-  - [Siege Camp](walkthrough.md#yo-dawg-why-you-gotta-front-siege-camp)
-  - [Byzanople](walkthrough.md#the-siege-of-byzanople)
-  - [Magan Underworld](walkthrough.md#rescuing-irkalla-magan-underworld)
-- [The Eastern Isles](walkthrough.md#the-eastern-isles)
-  - [Smuggler's Cove](walkthrough.md#im-on-a-boat-smugglers-cove)
-  - [Freeport](walkthrough.md#im-free-as-a-bird-now-freeport)
-  - [Lanac'toor's Laboratory](walkthrough.md#and-see-whats-on-the-slab-lanactoorslaboratory)
-  - [Game Preserve](walkthrough.md#killed-hself-a-bar-when-he-was-only-three-game-preserve)
-  - [Scorpion Bridge, Magic College](walkthrough.md#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college)
-  - [Mystic Wood](walkthrough.md#pepsi-brings-your-ancestors-back-from-the-dead-mystic-wood)
-  - [Dragon Valley](walkthrough.md#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley)
-  - [Sunken Ruins](walkthrough.md#the-skull-of-roba-sunken-ruins)
-  - [Dwarf Ruins, Dwarf Clan Hall](walkthrough.md#everybody-must-get-unstoned-dwarf-clan-hall)
-- [Isle of Salvation](walkthrough.md#isle-of-salvation)
-  - [Old Dock, Pilgrim Dock](walkthrough.md#hickory-dickory-dock-old-dock-pilgrim-dock)
-  - [Salvation](walkthrough.md#salvation)
-  - [Nisir](walkthrough.md#nisir)
-  - [Endgame](walkthrough.md#endgame)
+- [Forlorn Isle](walkthrough#forlorn-isle)
+  - [Purgatory](walkthrough#purgatory)
+  - [Magan Underworld Highlights](walkthrough#magan-underworld-highlights)
+  - [Slave Mines](walkthrough#slave-mines)
+  - [Slave Camp](walkthrough#the-purgatory-day-spa-and-salon-slave-camp)
+  - [Phoebus](walkthrough#rounding-out-the-party-phoebus) (side trip)
+  - [Slave Estate](walkthrough#nice-island-ya-got-here-slave-estate)
+  - [Tars Ruins](walkthrough#shame-if-anything-were-to-happen-to-it-tars-ruins)
+  - [Tars Underground](walkthrough#look-an-actual-dungeon-tars-underground-)
+  - [Guard Bridge #1](walkthrough#guard-bridge-1)
+- [Isle of the Sun](walkthrough#isle-of-the-sun)
+  - [Mystic Wood](walkthrough#isnt-it-good-mystic-wood)
+  - [Phoebus](walkthrough#ss-is-the-key-combo-for-save-game-phoebus)
+  - [Phoeban Dungeon](walkthrough#ridden-out-of-town,-on-rails-phoeban-dungeon)
+  - [Guard Bridge #2](walkthrough#were-on-the-road-to-nowhere-guard-bridge-2)
+- [Isle of Lansk](walkthrough#isle-of-lansk)
+  - [Lansk](walkthrough#the-most-boring-city-in-the-world-lansk)
+  - [Lansk Undercity](walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity)
+  - [War Bridge](walkthrough#you-cant-fight-here-this-is-the-war-bridge)
+- [Quag Isle](walkthrough#quag-isle)
+  - [Yellow Mud Toad](walkthrough#follow-the-yellow-mud-toad)
+  - [Mystic Wood, Magan Underworld](walkthrough#jumpin-jack-flash-mystic-wood-magan-underworld)
+  - [Smuggler's Cove](walkthrough#smugglers-blues-smugglers-cove)
+  - [The Necropolis](walkthrough#all-we-wanna-do-is-eat-your-brains-the-necropolis)
+- [King's Isle](walkthrough#kings-isle)
+  - [Bridge of Exiles, Snake Pit](walkthrough#le-roi-est-mort-bridge-of-exiles-snake-pit)
+  - [Kingshome](walkthrough#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome)
+  - [Siege Camp](walkthrough#yo-dawg-why-you-gotta-front-siege-camp)
+  - [Byzanople](walkthrough#the-siege-of-byzanople)
+  - [Magan Underworld](walkthrough#rescuing-irkalla-magan-underworld)
+- [The Eastern Isles](walkthrough#the-eastern-isles)
+  - [Smuggler's Cove](walkthrough#im-on-a-boat-smugglers-cove)
+  - [Freeport](walkthrough#im-free-as-a-bird-now-freeport)
+  - [Lanac'toor's Laboratory](walkthrough#and-see-whats-on-the-slab-lanactoorslaboratory)
+  - [Game Preserve](walkthrough#killed-hself-a-bar-when-he-was-only-three-game-preserve)
+  - [Scorpion Bridge, Magic College](walkthrough#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college)
+  - [Mystic Wood](walkthrough#pepsi-brings-your-ancestors-back-from-the-dead-mystic-wood)
+  - [Dragon Valley](walkthrough#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley)
+  - [Sunken Ruins](walkthrough#the-skull-of-roba-sunken-ruins)
+  - [Dwarf Ruins, Dwarf Clan Hall](walkthrough#everybody-must-get-unstoned-dwarf-clan-hall)
+- [Isle of Salvation](walkthrough#isle-of-salvation)
+  - [Old Dock, Pilgrim Dock](walkthrough#hickory-dickory-dock-old-dock-pilgrim-dock)
+  - [Salvation](walkthrough#salvation)
+  - [Nisir](walkthrough#nisir)
+  - [Endgame](walkthrough#endgame)
 
 ## Appendices
 
 Now that you've beaten Namtar – actually, you can do this any time you want – you can start over by reloading the game and indicating at the prompt that you want to `(B)egin` a new game instead of `(C)ontinuing` your old one. You keep your party as-is, including character levels, attributes, spells, and any NPCs you've picked up, but (as happens when you get dumped into Purgatory) not including any of your equipment.
 
-The reason I didn't mention this until all the way down here in the Appendix is that you can pretty easily cheat by recycling the +5 CP [Irkalla](walkthrough.md#magan-underworld-highlights) bonus as many times as you like. All you have to do is start a new game, work your way over to the Apsu Waters, visit Irkalla's Realm, and step over the rail. It's a good way to get magic skills for your front line fighters; one trip gets a skill point in Low Magic, two more trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. You can build up extremely strong "level 1" characters from nothing this way and just breeze through the first half of the game.
+The reason I didn't mention this until all the way down here in the Appendix is that you can pretty easily cheat by recycling the +5 CP [Irkalla](walkthrough#magan-underworld-highlights) bonus as many times as you like. All you have to do is start a new game, work your way over to the Apsu Waters, visit Irkalla's Realm, and step over the rail. It's a good way to get magic skills for your front line fighters; one trip gets a skill point in Low Magic, two more trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. You can build up extremely strong "level 1" characters from nothing this way and just breeze through the first half of the game.
 
 Otherwise, every map (mostly) resets every time you leave it, so the only other thing that starting a new game does is reset all the *global* state bits (looted chests, unique encounters like the Humbaba, etc). If you drop a unique quest item, though, this may be your only choice.
 
@@ -880,13 +880,13 @@ I've also written up more extensive notes for each board alongside hand-drawn ma
 
 *Dragon Wars* is a fairly non-linear RPG; you're not really restricted in what order you visit the various cities and dungeons, except that in some cases if you try to go to one that you're not sufficiently equipped for, you can find yourself stuck and unable to get out of where you are. But that's why you're backing up your save files, right?
 
-My [walkthrough](walkthrough.md) touches every location and tries to tell the game's entire story, but you certainly don't have to do all of that in order to win. If all you're interested in is getting through the game with the minimum amount of work, then this section is for you!
+My [walkthrough](walkthrough) touches every location and tries to tell the game's entire story, but you certainly don't have to do all of that in order to win. If all you're interested in is getting through the game with the minimum amount of work, then this section is for you!
 
-In theory, the only object that you literally cannot win the game without is the Golden Boots. It's impossible to get into the Nisir otherwise. So, head to [Mud Toad](walkthrough.md#follow-the-yellow-mud-toad) and plug up the leak, then visit the temple to get the Boots. First problem: if you're starting from scratch and don't already have a complete collection of spells, you need a copy of *D:Create Wall* to plug up the leak. That's easy enough to acquire from the Lansk Undercity, which is accessible from the Underworld.
+In theory, the only object that you literally cannot win the game without is the Golden Boots. It's impossible to get into the Nisir otherwise. So, head to [Mud Toad](walkthrough#follow-the-yellow-mud-toad) and plug up the leak, then visit the temple to get the Boots. First problem: if you're starting from scratch and don't already have a complete collection of spells, you need a copy of *D:Create Wall* to plug up the leak. That's easy enough to acquire from the Lansk Undercity, which is accessible from the Underworld.
 
-Okay, so we get the Golden Boots. Then we climb [Salvation](walkthrough.md#salvation) via the Underworld, use the Boots to jump the chasm, fall into [Nisir](walkthrough.md#nisir), and track down Namtar. Problem number two: you can't actually navigate the Nisir if you don't have *D:Soften Stone*. That requires a trip out to Freeport, and *that* requires you to kill Ugly and his crew so you can steal his boat.
+Okay, so we get the Golden Boots. Then we climb [Salvation](walkthrough#salvation) via the Underworld, use the Boots to jump the chasm, fall into [Nisir](walkthrough#nisir), and track down Namtar. Problem number two: you can't actually navigate the Nisir if you don't have *D:Soften Stone*. That requires a trip out to Freeport, and *that* requires you to kill Ugly and his crew so you can steal his boat.
 
-Furthermore, once you actually find Namtar, I'm still not entirely convinced that it's possible to develop characters strong enough to defeat his army. You can't block breath weapons no matter how much armor you have. So in practice, you're going to need the Brood Queen's help. That means a stop at the Lansk Undercity for the Dragon Gem, stealing the boat, and navigating [Dragon Valley](walkthrough.md#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley).
+Furthermore, once you actually find Namtar, I'm still not entirely convinced that it's possible to develop characters strong enough to defeat his army. You can't block breath weapons no matter how much armor you have. So in practice, you're going to need the Brood Queen's help. That means a stop at the Lansk Undercity for the Dragon Gem, stealing the boat, and navigating [Dragon Valley](walkthrough#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley).
 
 And frankly, it's just not practical to try to beat the game without any equipment at all. You're going to get hit in battle and there's no way you have enough Health to absorb all that damage without a bunch of armor. And if you don't have any good weapons, you'll need an infinite supply of Dragon Stones to power seven strong Sun Mages blowing *S:Inferno* all over the place.
 

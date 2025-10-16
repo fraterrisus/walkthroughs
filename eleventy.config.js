@@ -16,9 +16,12 @@ export default async function(eleventyConfig) {
   eleventyConfig.addGlobalData("layout", "default");
 
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("pool-of-radiance/walkthrough.txt");
 
   eleventyConfig.addPlugin(IdAttributePlugin);
   eleventyConfig.addPlugin(TocPlugin, {ul: true});
+
+  eleventyConfig.ignores.add("LICENSE.md");
 };
 
 export const config = {

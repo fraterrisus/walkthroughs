@@ -5,12 +5,12 @@ This repository contains walkthroughs that I've written for various computer rol
 
 ## Walkthroughs
 
-- [Bard's Tale 1](bards-tale-1/index.html): A full walkthrough with updated maps.
-- [Deathlord](deathlord/index.html): Highest-rated on GameFAQs before I stopped posting there.
-- [Dragon Wars](dragon-wars/index.html): Extremely exhaustive and based on code decompilation.
-- [Phantasie I](phantasie-1/index.html): A first version, partially accumulating from other walkthroughs.
+- [Bard's Tale 1](bards-tale-1/): A full walkthrough with updated maps.
+- [Deathlord](deathlord/): Highest-rated on GameFAQs before I stopped posting there.
+- [Dragon Wars](dragon-wars): Extremely exhaustive and based on code decompilation.
+- [Phantasie I](phantasie-1): A first version, partially accumulating from other walkthroughs.
 - [Pool of Radiance](pool-of-radiance/walkthrough.txt): An older effort; not quite complete but pretty close.
-- [Wasteland](wasteland/index.html): Complete and fairly comphrehensive, but in need of a rewrite.
+- [Wasteland](wasteland): Complete and fairly comphrehensive, but in need of a rewrite.
 
 ## Recent Updates
 

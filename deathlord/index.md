@@ -12,7 +12,7 @@ Version 2.1.1, September 2023
 
 ## Administrivia
 
-{% include 'license.html' year='2017–23' %}
+{% include 'license', year:'2017–23' %}
 
 ### Acknowledgements
 
@@ -411,7 +411,7 @@ As is true with most RPGs, in *Deathlord* characters have a "level" which starts
 
 Where *Deathlord* differs from most CRPGs is that it **doesn't tell you** how many XP your characters have. Literally the only way to figure it out is to disassemble a memory dump or a save disk file. It's maddening!
 
-So, how much experience does your party gain from a battle? Well, each monster has an [XP value](bestiary.md). The total experience pool from a battle is equal to the XP for the monster times the maximum number of monsters present at any one time. Since *Deathlord* only ever sends one group of monsters against you at a time, this is usually pretty straightforward to figure out. It gets a little weird if the monsters can summon allies: if you start with four Gremlins, kill three, and they summon one more, you only get credit for four. But if you start with four and they summon a fifth before you can kill one, then you get credit for five.
+So, how much experience does your party gain from a battle? Well, each monster has an [XP value](bestiary). The total experience pool from a battle is equal to the XP for the monster times the maximum number of monsters present at any one time. Since *Deathlord* only ever sends one group of monsters against you at a time, this is usually pretty straightforward to figure out. It gets a little weird if the monsters can summon allies: if you start with four Gremlins, kill three, and they summon one more, you only get credit for four. But if you start with four and they summon a fifth before you can kill one, then you get credit for five.
 
 Now we know how big the experience pool is, how do we divide it up? In order to earn a share of experience, a character must do something "useful":
 
@@ -541,15 +541,15 @@ So what can your characters do on their turn?
 - `(Space)` Pass. This PC does nothing.
 - `(S)kip` everyone's turn. Seriously, just don't use this.
 
-When you use the `(A)ttack` action (again, only from slots 1-3), you make one or more attacks against a single enemy. I believe that the game keeps track of monsters in a queue, and your attacks are directed at the "first" one, although I don't know that for sure. Certain [weapons](equipment.md) grant you more than one attack, and casting M3:ISOGU grants one additional attack to everyone in the party. The most you can get is five attacks in a round; the Berzerk Sword, only usable by Kichigai, attacks four times. If you have multiple attacks but kill a monster with your first, you lose the subsequent attacks.
+When you use the `(A)ttack` action (again, only from slots 1-3), you make one or more attacks against a single enemy. I believe that the game keeps track of monsters in a queue, and your attacks are directed at the "first" one, although I don't know that for sure. Certain [weapons](equipment) grant you more than one attack, and casting M3:ISOGU grants one additional attack to everyone in the party. The most you can get is five attacks in a round; the Berzerk Sword, only usable by Kichigai, attacks four times. If you have multiple attacks but kill a monster with your first, you lose the subsequent attacks.
 
 For each attack, there is a baseline 25% chance of success. That number is modified by +5% for every point of to-hit ability for the attacker and -5% for every point of armor the defender is wearing, but it can't go lower than 10%.
 
-Monsters' AC and their to-hit scores are shown on the [Monster List](bestiary.md). Remember that the game displays AC starting at 10 and going *down* as it gets *better*, so when I say "every point of armor", I mean that AC 2 is "one point better" than AC 3.
+Monsters' AC and their to-hit scores are shown on the [Monster List](bestiary). Remember that the game displays AC starting at 10 and going *down* as it gets *better*, so when I say "every point of armor", I mean that AC 2 is "one point better" than AC 3.
 
-For PCs, your to-hit score is modified by your class and level (although it's unclear how much), your STR modifier, possibly your DEX, and the [weapon](equipment.md) you're using. Note that some weapons actually have *penalties* to-hit.
+For PCs, your to-hit score is modified by your class and level (although it's unclear how much), your STR modifier, possibly your DEX, and the [weapon](equipment) you're using. Note that some weapons actually have *penalties* to-hit.
 
-By the way, there's no functional difference between missile weapons and melee weapons, except that you're allowed to [carry](#equipment) one of each. You can't fire a missile weapon from the back row, and the combat system doesn't include range or distance between parties. So you should let the various [benefits and penalties](equipment.md) of each weapon decide what you use.
+By the way, there's no functional difference between missile weapons and melee weapons, except that you're allowed to [carry](#equipment) one of each. You can't fire a missile weapon from the back row, and the combat system doesn't include range or distance between parties. So you should let the various [benefits and penalties](equipment) of each weapon decide what you use.
 
 If you have multiple attacks per round, each attack has an independent chance of hitting. If an attack hits, the game rolls damage. You get to add your STR bonus to the damage *for each attack*, which means that weapons that attack twice are generally better than weapons that attack once even if they do half as much base damage (because you get to double your STR bonus if you hit twice). However, weapons that attack multiple times often have lower to-hit bonuses (or even penalties), which changes the math a bit. Still, if you're carrying a Ninja, I recommend you get them a Shuriken as quickly as possible (they're pretty cheap), and buy your Samurai a Katana as soon as you leave Kodan.
 
@@ -667,7 +667,7 @@ M **   P
   **
 ```
 
-Monsters don't know how to shuffle to the side to get around something, so even if that intervening wall (\*\*) is only three squares wide, the monster (M) doesn't know how to get closer to your party (P). As long as you stay in line with them, they won't move. However, if you move one square north or south, they *are* smart enough to move diagonally around the corner. You'll learn how to take advantage of this early on when you explore [Yokahama](walkthrough-1.md#yokahama).
+Monsters don't know how to shuffle to the side to get around something, so even if that intervening wall (\*\*) is only three squares wide, the monster (M) doesn't know how to get closer to your party (P). As long as you stay in line with them, they won't move. However, if you move one square north or south, they *are* smart enough to move diagonally around the corner. You'll learn how to take advantage of this early on when you explore [Yokahama](walkthrough-1#yokahama).
 
 Once a fight starts, you have two options: stand and fight, or try to end the combat early. There are several options for the latter, which I described in [Combat Basics](#combat-basics). Ending combat early causes the combat to disappear, but you don't get XP or treasure.
 
@@ -816,16 +816,16 @@ At least you don't have to deal with encumbrance?
 
 ### Equipment Charts
 
-The [equipment charts](./equipment.md) are on their own page, organized by inventory slot:
+The [equipment charts](./equipment) are on their own page, organized by inventory slot:
 
-- [Hand Weapons](./equipment.md#hand-weapons) (slot 0)
-- [Missile Weapons](./equipment.md#missile-weapons) (slot 1)
-- [Body Armor](./equipment.md#body-armor) (slot 2)
-- [Shields](./equipment.md#shields) (slot 3)
-- [Misc. Armor](./equipment.md#misc-armor) (slot 4)
-- [Magic Items](./equipment.md#magic-items) (slot 5)
-- [Tools](./equipment.md#tools) (slot 6)
-- [Scrolls](./equipment.md#scrolls) (slot 7) 
+- [Hand Weapons](./equipment#hand-weapons) (slot 0)
+- [Missile Weapons](./equipment#missile-weapons) (slot 1)
+- [Body Armor](./equipment#body-armor) (slot 2)
+- [Shields](./equipment#shields) (slot 3)
+- [Misc. Armor](./equipment#misc-armor) (slot 4)
+- [Magic Items](./equipment#magic-items) (slot 5)
+- [Tools](./equipment#tools) (slot 6)
+- [Scrolls](./equipment#scrolls) (slot 7) 
 
 ## Magic and Spells
 
@@ -833,12 +833,12 @@ Magic plays an essential part of your combat tactics, as well as doing all the o
 
 A reminder that the POWER cost of a spell is equal to its spell level. See [Experience and Leveling](#experience-and-leveling) for more on spell levels.
 
-The [spell charts](magic.md) are on their own page, organized by school:
+The [spell charts](magic) are on their own page, organized by school:
 
-- [Shisai](magic.md#shisai)
-- [Shizen](magic.md#shizen)
-- [Mahotsukai](magic.md#mahotsukai)
-- [Genkai](magic.md#genkai)
+- [Shisai](magic#shisai)
+- [Shizen](magic#shizen)
+- [Mahotsukai](magic#mahotsukai)
+- [Genkai](magic#genkai)
 
 
 ## Walkthrough
@@ -885,77 +885,77 @@ Up to you, though.
 
 The walkthrough itself is large enough that I've broken it out into three separate files. If you're looking for a particular continent or town, here's a table of contents.
 
-- [Part I](./walkthrough-1.md): Senju, Kawahara, and the Emperor
-    - [Kodan](./walkthrough-1.md#kodan)
-      - [Kawa](./walkthrough-1.md#kawa)
-      - [Emperor's Palace](./walkthrough-1.md#emperors-palace)
-      - [Tokugawa](./walkthrough-1.md#tokugawa)
-      - [Tokushima](./walkthrough-1.md#tokushima)
-      - [Yokahama](./walkthrough-1.md#yokahama)
-      - [Starter Dungeon](./walkthrough-1.md#starter-dungeon)
-      - [Yakuza Guild](./walkthrough-1.md#yakuza-guild-under-kawa) (under Kawa)
-      - [Kawahara's Dungeon](./walkthrough-1.md#kawaharas-dungeon-under-the-palace) (under the Palace)
-      - [Leaving Kodan](./walkthrough-1.md#leaving-kodan)
-      - [Wakiza and Pirate's Den](./walkthrough-1.md#wakiza-and-pirates-den)
-    - [Nyuku](./walkthrough-1.md#nyuku)
-      - [South Spindrift](./walkthrough-1.md#south-spindrift)
-      - [North Spindrift](./walkthrough-1.md#north-spindrift)
-      - [Twin Rivers](./walkthrough-1.md#twin-rivers)
+- [Part I](./walkthrough-1): Senju, Kawahara, and the Emperor
+    - [Kodan](./walkthrough-1#kodan)
+      - [Kawa](./walkthrough-1#kawa)
+      - [Emperor's Palace](./walkthrough-1#emperors-palace)
+      - [Tokugawa](./walkthrough-1#tokugawa)
+      - [Tokushima](./walkthrough-1#tokushima)
+      - [Yokahama](./walkthrough-1#yokahama)
+      - [Starter Dungeon](./walkthrough-1#starter-dungeon)
+      - [Yakuza Guild](./walkthrough-1#yakuza-guild-under-kawa) (under Kawa)
+      - [Kawahara's Dungeon](./walkthrough-1#kawaharas-dungeon-under-the-palace) (under the Palace)
+      - [Leaving Kodan](./walkthrough-1#leaving-kodan)
+      - [Wakiza and Pirate's Den](./walkthrough-1#wakiza-and-pirates-den)
+    - [Nyuku](./walkthrough-1#nyuku)
+      - [South Spindrift](./walkthrough-1#south-spindrift)
+      - [North Spindrift](./walkthrough-1#north-spindrift)
+      - [Twin Rivers](./walkthrough-1#twin-rivers)
       - Sunken Temple (unwritten)
-- [Part II](./walkthrough-2.md): Seven Words and Seven Relics
-    - [Chigaku](./walkthrough-2.md#chigaku)
-      - [Fort Wintergreen](./walkthrough-2.md#fort-wintergreen)
-      - [Crystalmist](./walkthrough-2.md#crystalmist)
-      - [Troll Hole](./walkthrough-2.md#troll-hole): word #1
-      - [Tower of Shumi](./walkthrough-2.md#tower-of-shumi)
-    - [Osozaki](./walkthrough-2.md#osozaki)
-      - [Deepingdale](./walkthrough-2.md#deepingdale)
-      - [Wakai](./walkthrough-2.md#wakai)
+- [Part II](./walkthrough-2): Seven Words and Seven Relics
+    - [Chigaku](./walkthrough-2#chigaku)
+      - [Fort Wintergreen](./walkthrough-2#fort-wintergreen)
+      - [Crystalmist](./walkthrough-2#crystalmist)
+      - [Troll Hole](./walkthrough-2#troll-hole): word #1
+      - [Tower of Shumi](./walkthrough-2#tower-of-shumi)
+    - [Osozaki](./walkthrough-2#osozaki)
+      - [Deepingdale](./walkthrough-2#deepingdale)
+      - [Wakai](./walkthrough-2#wakai)
       - Telegrond (unwritten)
-    - [Akmihr](./walkthrough-2.md#akmihr)
-      - [Oasis](./walkthrough-2.md#oasis)
-      - [Sultan's Palace](./walkthrough-2.md#sultans-palace)
-      - [Desert Flower](./walkthrough-2.md#desert-flower)
-      - [Kobito Mines](./walkthrough-2.md#kobito-mines): word #2
-      - [Pyramid of Akhamun-Ra](./walkthrough-2.md#pyramid-of-akhamun-ra)
-    - [Narawn](./walkthrough-2.md#narawn)
-      - [Lost Lagoon](./walkthrough-2.md#lost-lagoon): the Blue Crystal
-      - [Kashiwa](./walkthrough-2.md#kashiwa)
-      - [Fort Demonguard](./walkthrough-2.md#fort-demonguard)
-      - [Malkanth](./walkthrough-2.md#malkanth): the Sharktooth
-    - [Asagata](./walkthrough-2.md#asagata)
-      - [Towne Royal / Makimura](./walkthrough-2.md#towne-royal--makimura)
-      - [Croyo](./walkthrough-2.md#croyo)
-      - [Fire Giants' Lair](./walkthrough-2.md#fire-giants-lair)
-    - [Collecting some Relics](./walkthrough-2.md#collecting-some-relics):
+    - [Akmihr](./walkthrough-2#akmihr)
+      - [Oasis](./walkthrough-2#oasis)
+      - [Sultan's Palace](./walkthrough-2#sultans-palace)
+      - [Desert Flower](./walkthrough-2#desert-flower)
+      - [Kobito Mines](./walkthrough-2#kobito-mines): word #2
+      - [Pyramid of Akhamun-Ra](./walkthrough-2#pyramid-of-akhamun-ra)
+    - [Narawn](./walkthrough-2#narawn)
+      - [Lost Lagoon](./walkthrough-2#lost-lagoon): the Blue Crystal
+      - [Kashiwa](./walkthrough-2#kashiwa)
+      - [Fort Demonguard](./walkthrough-2#fort-demonguard)
+      - [Malkanth](./walkthrough-2#malkanth): the Sharktooth
+    - [Asagata](./walkthrough-2#asagata)
+      - [Towne Royal / Makimura](./walkthrough-2#towne-royal--makimura)
+      - [Croyo](./walkthrough-2#croyo)
+      - [Fire Giants' Lair](./walkthrough-2#fire-giants-lair)
+    - [Collecting some Relics](./walkthrough-2#collecting-some-relics):
       - Nyuku / Twin Rivers: the Sunspear
       - Akmihr / Sultan's Palace: the Emerald Rod
-    - [Giluin](./walkthrough-2.md#giluin)
-      - [Kobar](./walkthrough-2.md#kobar)
-      - [Shupan](./walkthrough-2.md#shupan)
+    - [Giluin](./walkthrough-2#giluin)
+      - [Kobar](./walkthrough-2#kobar)
+      - [Shupan](./walkthrough-2#shupan)
       - Linear Dungeon (unwritten)
-      - [Temple of Oceanus](./walkthrough-2.md#temple-of-oceanus)
-    - [Sirion](./walkthrough-2.md#sirion)
-      - [Clearview](./walkthrough-2.md#clearview)
-      - [Staircase Dungeon](./walkthrough-2.md#staircase-dungeon): word #3
-      - [Greenbanks](./walkthrough-2.md#greenbanks): the Lantern of Kasumi
-      - [Chessboard Dungeon](./walkthrough-2.md#chessboard-dungeon): word #4
-    - [Tsumani](./walkthrough-2.md#tsumani)
-      - [Morningfrost](./walkthrough-2.md#morningfrost)
-      - [Snowraven](./walkthrough-2.md#snowraven)
-      - [Chutes-and-Ladders Dungeon](./walkthrough-2.md#chutes-and-ladders-dungeon)
-    - [Black Isles](./walkthrough-2.md#black-isles)
-      - [Red Shogun's Castle](./walkthrough-2.md#red-shoguns-castle): the Ruby Ring
-      - [Doors Dungeon](./walkthrough-2.md#doors-dungeon): word #5
-    - [Lost Isles](./walkthrough-2.md#lost-isles)
-      - [Cave of the Four Elements](./walkthrough-2.md#cave-of-the-four-elements): word #6
-    - [Isle of the Dead](./walkthrough-2.md#isle-of-the-dead)
-      - [Pyramid of the Old Ones](./walkthrough-2.md#pyramid-of-the-old-ones): word #7
-- [Part III](./walkthrough-3.md): Endgame
-    - [Hell Island](./walkthrough-3.md#hell-island)
-      - [Skull Keep](./walkthrough-3.md#skull-keep)
-      - [Hell](./walkthrough-3.md#hell): the Deathlord and the Black Orb
-      - [Return to the Emperor](./walkthrough-3.md#return-to-the-emperor-kodan) (Kodan)
+      - [Temple of Oceanus](./walkthrough-2#temple-of-oceanus)
+    - [Sirion](./walkthrough-2#sirion)
+      - [Clearview](./walkthrough-2#clearview)
+      - [Staircase Dungeon](./walkthrough-2#staircase-dungeon): word #3
+      - [Greenbanks](./walkthrough-2#greenbanks): the Lantern of Kasumi
+      - [Chessboard Dungeon](./walkthrough-2#chessboard-dungeon): word #4
+    - [Tsumani](./walkthrough-2#tsumani)
+      - [Morningfrost](./walkthrough-2#morningfrost)
+      - [Snowraven](./walkthrough-2#snowraven)
+      - [Chutes-and-Ladders Dungeon](./walkthrough-2#chutes-and-ladders-dungeon)
+    - [Black Isles](./walkthrough-2#black-isles)
+      - [Red Shogun's Castle](./walkthrough-2#red-shoguns-castle): the Ruby Ring
+      - [Doors Dungeon](./walkthrough-2#doors-dungeon): word #5
+    - [Lost Isles](./walkthrough-2#lost-isles)
+      - [Cave of the Four Elements](./walkthrough-2#cave-of-the-four-elements): word #6
+    - [Isle of the Dead](./walkthrough-2#isle-of-the-dead)
+      - [Pyramid of the Old Ones](./walkthrough-2#pyramid-of-the-old-ones): word #7
+- [Part III](./walkthrough-3): Endgame
+    - [Hell Island](./walkthrough-3#hell-island)
+      - [Skull Keep](./walkthrough-3#skull-keep)
+      - [Hell](./walkthrough-3#hell): the Deathlord and the Black Orb
+      - [Return to the Emperor](./walkthrough-3#return-to-the-emperor-kodan) (Kodan)
 
 ## Appendices
 
@@ -1112,7 +1112,7 @@ Character names (and other strings) are stored as 7-bit ASCII bytes, where each 
 - 0x0ea–0x0f5: ???
 - 0x0f6–0x101: XP (two bytes)
 - 0x102–0x11f: ???
-- 0x120–0x1df: Equipment. Each character's equipment takes up 32 bytes (0x120–0x13f for character #1) and represents data about your inventory slots. An empty slot has the value 0xff; other values are listed on the [Equipment](equipment.md) tables.
+- 0x120–0x1df: Equipment. Each character's equipment takes up 32 bytes (0x120–0x13f for character #1) and represents data about your inventory slots. An empty slot has the value 0xff; other values are listed on the [Equipment](equipment) tables.
   - 0x00: Slot 0 (hand weapon)
   - 0x01: Slot 1 (missile weapon)
   - 0x02: Slot 2 (body armor)

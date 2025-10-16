@@ -7,4 +7,4 @@ serve:
   npx @11ty/eleventy {{formats}} --serve
 
 publish:
-  rsync -av _site ionos:/var/www/walkthroughs/
+  rsync -av _site/* ionos:/var/www/walkthroughs/

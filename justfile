@@ -6,5 +6,5 @@ build:
 serve:
   npx @11ty/eleventy {{formats}} --serve
 
-publish:
+publish: build
   rsync -av _site/* ionos:/var/www/walkthroughs/

@@ -8,7 +8,7 @@ toc:
 
 Similar to the [Equipment](/deathlord/equipment) list, the monsters in this list are divided into categories based on what types of weapons are most effective against them. For example, the Dragonslayer does double damage against everything in the "Dragons" category. This data was obtained from a binary dump of the disk images, so it should be accurate, but there are definitely some inconsistencies.
 
-One extra bit of weirdness: no one has ever reported seeing a Doom Golem or a Safir in the wild. That makes a tidy 127 unique monsters (accounting for two Guards with the same stats but different icons)... but it's still weird that there are entries for two monsters that don't exist.
+One extra bit of weirdness: no one has ever reported seeing a Safir in the wild. That makes a tidy 127 unique monsters (accounting for two Guards with the same stats but different icons)... but it's still weird that there's a monster that doesn't exist.
 
 **Num** indicates the maximum group size. This number is sometimes wrong; Kobito should only be found in groups up to 12, according to the table, but I've seen groups of 16 in the Mines.
 
@@ -206,11 +206,11 @@ Slain by: Sunspear
       <td class="c">31</td>
       <td class="c">31</td>
       <td>critical hit</td>
-    </tr><tr>
-      <td colspan=7>Probably doesn't exist</td>
     </tr>
   </tbody>
 </table>
+
+Apparently, as part of the copy protection, if the game detects that its code has been tampered with, it replaces *every monster* in the sector with Doom Golems. Caveat hacker...
 
 ## Type 5
 

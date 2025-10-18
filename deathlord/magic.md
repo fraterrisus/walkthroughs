@@ -25,22 +25,22 @@ Spells also have a **Category** that indicates what they're used for:
 | ------- | ------------- | ------- | ------- | ------------------------------------------------------------ |
 | 1       | **NASU**      | Heal    | 1       | 1–8 hp                                                       |
 | 1       | **AKARI**     | Light   |         | 3 square radius, ~200 turns                                  |
-| 1       | **KATAI**     | Buff+   | 1       | AC+2, can be cast multiple times                             |
+| 1       | **KATAI**     | Buff+   | 1       | +2 to AC, can be cast multiple times                         |
 | 2       | **MOTU**      | Hold    | 1–3     |                                                              |
 | 2       | **DOSOI**     | Buff+   | 1       | Halves the damage from poison (TOX)                          |
-| 2       | **TSUIHO**    | Fear    | group   | Undead only; only works once per combat This is basically a "turn undead" spell that 'banishes' enemies |
+| 2       | **TSUIHO**    | Fear    | group   | Undead only; only works once per combat. This is basically a "turn undead" spell that 'banishes' enemies |
 | 3       | **MOAKARI**   | Light   |         | 4 square radius, ~300 turns                                  |
 | 3       | **MOTUNASU**  | Cure    | 1       | Paralysis (PAR)                                              |
-| 3       | **ONKEI**     | Buff+   | party   | attacks                                                      |
+| 3       | **ONKEI**     | Buff+   | party   | Improves attack rolls(?)                                     |
 | 4       | **DONASU**    | Cure    | 1       | Poison (TOX)                                                 |
 | 4       | **MONASU**    | Heal    | 1       | 17–32 hp                                                     |
-| 4       | **MAKATAI**   | Buff+   | party   | AC+1                                                         |
+| 4       | **MAKATAI**   | Buff+   | party   | +1 to AC                                                     |
 | 5       | **HINAGU**    | Zap     | group   | up to 30 hp; doesn't work in dungeons                        |
 | 5       | **INOCHI**    | Cure    | 1       | Death (RIP); raised character loses 1 CON                    |
 | 5       | **HONASU**    | Heal    | 1       | 33–64 hp                                                     |
 | 6       | **ALNASU**    | Heal    | 1       | all hp                                                       |
 | 6       | **KURENZA**   | Zap     | group   | up to 40 hp                                                  |
-| 6       | **KAERU**     | Misc.   |         | Casting this spell sets a 'homing beacon'. Enter a word, then later have the same caster `(Y)ell` the recall word to teleport to the spot where you cast the spell. Casting a second time will remove the first beacon. |
+| 6       | **KAERU**     | Misc.   |         | Sets a 'homing beacon'; enter a word, then later have the same caster `(Y)ell` the recall word to teleport to the spot where you cast the spell. Casting a second time will remove the first beacon. |
 | 7       | **SHINSEIGO** | Slay    | group   | enemies that fail their save are 'damned'                    |
 | 7       | **MOINOCHI**  | Cure    | 1       | Death (RIP); no loss of CON                                  |
 | 7       | **YAWARISHI** | Cure    | 1       | Petrification (STO)                                          |
@@ -52,7 +52,7 @@ Spells also have a **Category** that indicates what they're used for:
 | 1    | **KUSAMOTSU** | Hold    | 1–4     | 'entanglement', only works while standing on grass, bushes, trees, etc. |
 | 1    | **HIKAKOMU**  | Buff+   | 1       | attacks                                                      |
 | 1    | **ICHIHAN**   | Misc.   |         | Divine the current dungeon level, but see [here](#doors-dungeon) for some notes on how dungeons are laid out |
-| 2    | **KINO**      | Buff+   | 1       | AC+?, can be cast more than once                             |
+| 2    | **KINO**      | Buff+   | 1       | Improves AC(?), can be cast more than once                   |
 | 2    | **DUNASU**    | Heal    | 1       | 1–8 hp                                                       |
 | 2    | **MOYA**      | Flee    | party   |                                                              |
 | 3    | **BYOKINASU** | Cure    | 1       | Disease (ILL)                                                |

@@ -1107,7 +1107,7 @@ The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consume
 </table>
 ## By Group
 
-Handy if you're trying to figure out what drops are possible on a given dungeon level, or for [hex editing](index.md#hex-editing) your party.
+Handy if you're trying to figure out what drops are possible on a given dungeon level, or for [hex editing](/bards-tale-1/#hex-editing) your party.
 
 ### Group I
 

@@ -129,7 +129,7 @@ At 1st level, casters start with 9–24 MP, but unfortunately you don't get to s
 
 There are a few other "hidden" secondary statistics that don't show up on your character's info screen:
 
-**Saving Throw:** When someone needs to resist the effects of a spell, avoid a trap, or just run from combat, the game makes a contested saving throw. A monster's Save is proportional to its group (see the [Bestiary](bestiary)). For party members, your Save is a combination of your class, level, and Luck bonus. (A Luckshield adds to your Saving Throw, if you have one equipped.) Wizards have the best saves, followed by Paladins, other casters, and everyone else.
+**Saving Throw:** When someone needs to resist the effects of a spell, avoid a trap, or just run from combat, the game makes a contested saving throw. A monster's Save is proportional to its group (see the [Bestiary](/bards-tale-1/bestiary)). For party members, your Save is a combination of your class, level, and Luck bonus. (A Luckshield adds to your Saving Throw, if you have one equipped.) Wizards have the best saves, followed by Paladins, other casters, and everyone else.
 
 There are two important things to remember here. First, when running from combat the party member in Slot 1 rolls their save. So keeping a Paladin and/or a high Luck character in that slot makes you more likely to successfully run away from combat, which matters a lot in the early going. Second, Saving Throws are *contested*; you want your casters to have a high Saving Throw so that they are more likely to land their spells with full force.
 
@@ -253,7 +253,7 @@ Each character has the following options:
 
 ### Resolving Attacks
 
-Your chance to hit an opponent is based on the difference between your AC and theirs. That means the more armor you're wearing, the higher your chance of hitting your opponent, which doesn't make a whole hell of a lot of sense. Regardless, this is yet another reason why you want the best possible AC early on. The to-hit chance is also modified by your class, although this doesn't go up with levels, and the bonus of your weapon if it has one (see [Equipment](equipment)). A +1 to-hit bonus is equivalent to one point of AC. There's also a random element each time you take a swing.
+Your chance to hit an opponent is based on the difference between your AC and theirs. That means the more armor you're wearing, the higher your chance of hitting your opponent, which doesn't make a whole hell of a lot of sense. Regardless, this is yet another reason why you want the best possible AC early on. The to-hit chance is also modified by your class, although this doesn't go up with levels, and the bonus of your weapon if it has one (see [Equipment](/bards-tale-1/equipment)). A +1 to-hit bonus is equivalent to one point of AC. There's also a random element each time you take a swing.
 
 Actions take place in order of [Attack Priority](#secondary-statistics); Fighters, Paladins, and Monks get an additional attack every four levels, so your 9th level Paladin takes three swings. All attacks are resolved at once, so you'll start seeing combat statements like "Alex swings at a Nomad 3 times..."
 
@@ -274,7 +274,7 @@ Allies come from three sources:
 
 You won't be able to control Allies during combat. In practice, they almost
 always attack Group A of enemies. Many Allies can also cast spells or have
-other effects, as described in the [Bestiary](bestiary).
+other effects, as described in the [Bestiary](/bards-tale-1/bestiary).
 
 As I mentioned above, the first three character slots plus the NPC slot are considered to be within
 melee range, so it's best to fill those slots with characters with good AC and
@@ -296,7 +296,7 @@ Things get more interesting once you start dungeon diving and coming up against 
 
 On the other hand, if there are Magicians hanging out in Group C or Group D, you need to take care of them as quickly as possible. Group zap spells are invaluable. If the group is small enough you might be able to pick them off with *C1:ARFI*. Otherwise, you should prioritize clearing out one entire group of enemies in front of them so they slide forward into melee range.
 
-Check out the [Bestiary](bestiary) for details on the special attacks available to the critters you'll come up against, so you can better decide where to spread your damage around.
+Check out the [Bestiary](/bards-tale-1/bestiary) for details on the special attacks available to the critters you'll come up against, so you can better decide where to spread your damage around.
 
 ### Health and Dying
 
@@ -360,10 +360,7 @@ When you do find a Spell Staff there's another trick you can use: the holder reg
 
 ### Dungeon Difficulty
 
-*BT1* determines what [monsters](bestiary), traps, and [loot](equipment) to throw at you based on the
-difficulty level of the current map. There are 127 items and 127 monsters, each
-of which is broken up into sixteen groups of eight. Groups are then assigned to
-dungeon levels as shown here:
+*BT1* determines what [monsters](/bards-tale-1/bestiary), traps, and [loot](/bards-tale-1/equipment) to throw at you based on the difficulty level of the current map. There are 127 items and 127 monsters, each of which is broken up into sixteen groups of eight. Groups are then assigned to dungeon levels as shown here:
 
 | Level | Where                            | Traps |  Groups  |
 | :---: | -------------------------------- | :---: | :------: |
@@ -376,8 +373,7 @@ dungeon levels as shown here:
 |   7   | Mangar's 2–3                     | SCMM  | IX – XII |
 |   8   | Mangar's 4–5                     | SCMM  | XI – XIV |
 
-That is, on the 1st level of the Mad God's Catacombs, you'll find both
-monsters and items in groups II, III, IV, and V. Stated the other way:
+That is, on the 1st level of the Mad God's Catacombs, you'll find both monsters and items in groups II, III, IV, and V. Stated the other way:
 
 | Group | Where                                                       |
 | :---: | ----------------------------------------------------------- |
@@ -421,7 +417,7 @@ appears twice, it is twice as likely as the others to be generated. Note that
 
 In the early part of the game you're going to become obsessed with how much money you can gather, mostly because you'll be spending a lot of it on healing at Temples. So how does that work?
 
-When an encounter ends (presuming you win, of course), you get a batch of experience points (XP) for all the [monsters](bestiary) you killed. If you're in Skara Brae fighting monsters in the streets (or in houses), you'll also collect a random amount of gold, and there's a random chance of finding one or more items.
+When an encounter ends (presuming you win, of course), you get a batch of experience points (XP) for all the [monsters](/bards-tale-1/bestiary) you killed. If you're in Skara Brae fighting monsters in the streets (or in houses), you'll also collect a random amount of gold, and there's a random chance of finding one or more items.
 
 In dungeons, you're usually presented with a chest. Chests are never locked but they are most likely trapped. You have a number of options for dealing with the trap:
 
@@ -510,13 +506,13 @@ As the manual says, there are no cursed or "bad" items. However, some percentage
 
 All Weapons (including Staves) are assumed to require one hand, so you can always equip a Shield regardless of what Weapon you're using.
 
-[Item list](equipment)
+[Item list](/bards-tale-1/equipment)
 
 ## Magic and Spells
 
 In order to save typing, *Bard's Tale* refers to all spells by a four-letter abbreviation. You've probably already noticed them all over this document; I prefix the spell with the caster class and level, so you'll see things like *C7:APAR* (*Apport Arcane*, a 7th level Conjurer spell). That should make it slightly easier for you to remember which caster has which spells, at least until you start changing caster classes all over the place and can't remember which mage is a Conjurer/Sorcerer and which is a Magician/Sorcerer. Not that that's ever happened to me. Nope nope nope.
 
-[Spell list](magic)
+[Spell list](/bards-tale-1/magic)
 
 
 ## Walkthrough
@@ -550,7 +546,7 @@ Throw in a Staff ($20, 1–8 damage) for a weapon and that's an even $300 per pe
 
 Now, upgrading to Scale Armor (+4) and a Tower Shield (+2) adds another $210 per fighter to the bill. I've found there's a pretty big gap between AC 4 and AC 2 in terms of early-game survivability, but where are you going to come up with that kind of cash? Well, before you leave the Adventurers' Guild, consider a small cheat: create a few additional throwaway characters, steal their cash, and buy yourself another couple of points of AC. No one will miss Mr. A through Mr. F when you delete them and you'll have a more comfortable start to the game. In fact, you can do this any time you get desperate, but I will say that it's definitely possible to survive without doing it at all.
 
-Okay, now you're ready to leave the guild hall. First order of business is to learn your way around. Check out the [map of Skara Brae](svg/skara-brae.svg) and find the nearby points of interest:
+Okay, now you're ready to leave the guild hall. First order of business is to learn your way around. Check out the [map of Skara Brae](/bards-tale-1/svg/skara-brae.svg) and find the nearby points of interest:
 
 * [3N 1E, Main St.] **Garth's** Equipment Shoppe, where you can buy and sell gear.
 * [7N 3W 2S 1E, Trumpet St.] the **Review Board**, where you go to level up and learn new spells.
@@ -563,7 +559,7 @@ Your first stop needs to be Garth's to buy the package listed above; again, cons
 
 My strategy for surviving Level 1 looks like this: Walk from the Guild to the Thief Temple. If you've spent some Spell Points, hang out in the sunshine while they [regenerate](#managing-spell-points). Otherwise you can scout through the nearby houses to try to trigger fights. Fight a battle. If you win and you have enough cash, go to the temple and heal yourself. Then immediately go back to the Guild and save all your characters. (Note that this helpfully resets the day clock to Early Morning, too.) Sell loot at Garth's as necessary and repeat. If it somehow gets dark out, run back to the Guild and reset the clock.
 
-Unfortunately, there's still a fair bit of luck involved here. At 1st level your characters can't really take more than two or three hits before dying, even at max HP. To be safe, run from anything with more than two or three enemies, always run from Barbarians (ow) and Magicians (+`OLD`, which is expensive to heal now and gets worse after 1st level), and consider running from anything else in Group II (see [Bestiary](bestiary)). Of course, running won't always work. Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; the Magician isn't good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups.
+Unfortunately, there's still a fair bit of luck involved here. At 1st level your characters can't really take more than two or three hits before dying, even at max HP. To be safe, run from anything with more than two or three enemies, always run from Barbarians (ow) and Magicians (+`OLD`, which is expensive to heal now and gets worse after 1st level), and consider running from anything else in Group II (see [Bestiary](/bards-tale-1/bestiary)). Of course, running won't always work. Don't be afraid to burn your Magician's SP on *M1:VOPL* to increase your fighters' damage output; the Magician isn't good for much else at this point. Likewise, *C1:ARFI* is like a fourth melee attack, which is crucial against larger groups.
 
 When a character dies, your best bet is to reload from your most recent emulator save state. Keep in mind the [warning](#managing-save-files) I gave you earlier: on the PC, characters in your party have $0 on disk. So if you kill your emulator and reload, you're likely to lose all your cash. Make backups of the character files, and don't be afraid to drop a dead character and roll up a new one. As a bonus, you'll get an extra portion of starting gold, and you can always transfer the equipment from the dead character to the new one.
 
@@ -694,7 +690,7 @@ In the Gran Plaz that dominates the center of Skara Brae there are four Temples,
 
 Your goal here is to grind up to either the second class change or the acquisition of *S6:MIBL*, depending on whether you took one or more Sorcerers at your first class change. But the XP should flow a lot faster than it did in the Sewers and Level V loot starts to get into some useful stuff. (Don't sleep on the fact that Mithril Scale can be used by casters!) If you skipped through the Sewers pretty quickly, you may be around level 9. If your front line has around 150 HP and your casters have level 4 spells, you'll probably be okay, but be careful. If you cleaned out the Sewers more thoroughly and got your first class change already, Catacombs Level One should be a snap and you're probably ready for the lower levels.
 
-There are a *lot* of undead kicking around here, especially on Level Three; check the [Bestiary](bestiary) for special attacks. Unfortunately, Wizards get all the good anti-undead spells, but you can't get those until the second class change at the earliest so they probably won't do you much good here.
+There are a *lot* of undead kicking around here, especially on Level Three; check the [Bestiary](/bards-tale-1/bestiary) for special attacks. Unfortunately, Wizards get all the good anti-undead spells, but you can't get those until the second class change at the earliest so they probably won't do you much good here.
 
 #### Catacombs, Level 1
 
@@ -924,7 +920,7 @@ Once you make it to Level Three and acquire the Master Key, you can pass through
 
 *The Fast Way:* Face S and *M6:PHDO*, 1S 1W 3S and follow the winding hallway to the end to teleport to Level Two.
 
-Encounters and item drops are the same here as in Kylearan's Tower; keep an eye out for the Pure Shield and Diamond Shield (+5 AC for your Paladin and Warrior, respectively), Bracers [4] (best "body armor" for your Hunter and casters), and the Mage Staff (which grants SP regeneration). If they aren't already, your fighters will be so maxed out on AC that you could open up a few inventory slots and still have AC LO even without a Mystic Shield. (Although if you're planning on [exporting them to *Bard's Tale II*](#transferring-to-bards-tale-ii), make sure you read the note.)
+Encounters and item drops are the same here as in Kylearan's Tower; keep an eye out for the Pure Shield and Diamond Shield (+5 AC for your Paladin and Warrior, respectively), Bracers \[4\] (best "body armor" for your Hunter and casters), and the Mage Staff (which grants SP regeneration). If they aren't already, your fighters will be so maxed out on AC that you could open up a few inventory slots and still have AC LO even without a Mystic Shield. (Although if you're planning on [exporting them to *Bard's Tale II*](#transferring-to-bards-tale-ii), make sure you read the note.)
 
 Apart from that, there's not a lot of reason to spend time here, so unless you're trying to grind up to Archmage or similar, your best bet is to skip over this level as fast as possible. But if you care to explore, read on...
 
@@ -1291,22 +1287,11 @@ Most of the special events that involve collecting unique items (the Crystal Swo
 
 ### The Speed Run
 
-If you're a fan of the Yet Another Walkthrough series you know that
-I usually include a "Speed Run" section that tries to send you on the fastest possible path to beat
-the game. The problem with _Bard's Tale I_, as we've discussed, is that you have to spend *so damn much* time just grinding until your characters are strong enough to take on the next dungeon that trying to "speed run" the game is basically pointless. Still, I've tried to provide enough narrative for each dungeon level to let you know why you're there, the clues you would need to find if you were playing naively, and what you actually *need* to do before you go to the next dungeon level. If you're playing fast, a bunch of that can be skipped, and you're literally just grinding for levels.
+If you're a fan of the Yet Another Walkthrough series you know that I usually include a "Speed Run" section that tries to send you on the fastest possible path to beat the game. The problem with _Bard's Tale I_, as we've discussed, is that you have to spend *so damn much* time just grinding until your characters are strong enough to take on the next dungeon that trying to "speed run" the game is basically pointless. Still, I've tried to provide enough narrative for each dungeon level to let you know why you're there, the clues you would need to find if you were playing naively, and what you actually *need* to do before you go to the next dungeon level. If you're playing fast, a bunch of that can be skipped, and you're literally just grinding for levels.
 
-That being said, the game designers weren't idiots. Sure, you can skip over most of [The Sewers](#the-wine-cellar-and-the-sewers) if you already know the
-password to the [Catacombs](#temple-of-the-mad-god), but in order to even get into [Mangar's Tower](#mangars-tower-and-endgame) you need the Onyx Key from Kylearan... and to get into [Kylearan's Tower](#kylearans-tower) you have to defeat the Mad God at the top of [Harkyn's Castle](#harkyns-castle-and-kylearans-tower)... and
-you need the Eye from Aildrek's tomb at the bottom of the Catacombs to
-do that. So there really aren't many shortcuts.
+That being said, the game designers weren't idiots. Sure, you can skip over most of [The Sewers](#the-wine-cellar-and-the-sewers) if you already know the password to the [Catacombs](#temple-of-the-mad-god), but in order to even get into [Mangar's Tower](#mangars-tower-and-endgame) you need the Onyx Key from Kylearan... and to get into [Kylearan's Tower](#kylearans-tower) you have to defeat the Mad God at the top of [Harkyn's Castle](#harkyns-castle-and-kylearans-tower)... and you need the Eye from Aildrek's tomb at the bottom of the Catacombs to do that. So there really aren't many shortcuts.
 
-I suppose if you're trying to kill Mangar repeatedly, you could say that
-the "Speed Run" involves getting to Mangar's Tower as fast as possible,
-teleporting to the magic mouth on Level Three, opening the stairs to Level Four, running
-the wall/door maze, and then blasting through Level Five as quickly as
-possible. Which, if you're playing characters that are beefy enough to
-take on Mangar, you've probably already done enough times that you don't
-need me to tell you how to do it.
+I suppose if you're trying to kill Mangar repeatedly, you could say that the "Speed Run" involves getting to Mangar's Tower as fast as possible, teleporting to the magic mouth on Level Three, opening the stairs to Level Four, running the wall/door maze, and then blasting through Level Five as quickly as possible. Which, if you're playing characters that are beefy enough to take on Mangar, you've probably already done enough times that you don't need me to tell you how to do it.
 
 So, no "speed run" for you.
 

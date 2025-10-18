@@ -8,11 +8,11 @@ toc:
 
 # Bestiary
 
-Monsters, like [items](equipment.md), are divided into eight difficulty groups. Which groups appear in which places is determined by [the difficulty level](index.md#dungeon-difficulty) of the current area. A monster's group number is also their base Saving Throw.
+Monsters, like [items](/bards-tale-1/equipment), are divided into eight difficulty groups. Which groups appear in which places is determined by [the difficulty level](/bards-tale-1/#dungeon-difficulty) of the current area. A monster's group number is also their base Saving Throw.
 
 Listed **XP** is *per monster*; **Group** sizes are the *maximum* possible.
 
-**Special Attacks:** Mostly this column contains **Statuses** that can be inflicted by the monster's melee attack, or **Spells** that work the same way as [yours](magic.md). Several monsters can **Criti**cal hit, similar to the Hunter's ability. Dragons and some Demons have **Breath** weapons. High-level undead can **Drain** levels, which is the worst special attack in all of CRPGs forever anywhere. (Of course, *Bard's Tale* has its own bizarre quirk with level drain that you can use to your favor; see [Weird Stuff](index.md#weird-stuff).)
+**Special Attacks:** Mostly this column contains **Statuses** that can be inflicted by the monster's melee attack, or **Spells** that work the same way as [yours](/bards-tale-1/magic). Several monsters can **Criti**cal hit, similar to the Hunter's ability. Dragons and some Demons have **Breath** weapons. High-level undead can **Drain** levels, which is the worst special attack in all of CRPGs forever anywhere. (Of course, *Bard's Tale* has its own bizarre quirk with level drain that you can use to your favor; see [Weird Stuff](/bards-tale-1/#weird-stuff).)
 
 Dopplegangers have the unique ability to **Mimic** a party member; they join your party, and can only be rooted out by targeting them with attacks. (You may need to start a Party Fight to do this.)
 

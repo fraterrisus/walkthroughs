@@ -76,6 +76,18 @@ body {
     background-color: #eee;
     padding: 0.1rem;
   }
+
+  blockquote {
+    background-color: #fee;
+    color: #744;
+    border-left: 3px solid #a77;
+    padding: 5px 10px;
+    margin: 10px 15px;
+
+    p {
+      margin: 5px 0px;
+    }
+  }
 }
 
 .site-footer {

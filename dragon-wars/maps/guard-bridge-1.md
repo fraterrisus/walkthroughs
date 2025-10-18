@@ -61,7 +61,7 @@ These exits are correct even if you exit to the East or West from the appropriat
       <td class="c">18</td>
       <td class="c">2</td>
       <td class="c">3</td>
-      <td class="c">1</td>
+      <td class="c">0</td>
       <td class="c">+6</td>
       <td class="c">+0</td>
       <td class="c">50'</td>

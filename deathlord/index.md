@@ -767,19 +767,15 @@ Here's some more details on those "funny math overflow bugs" I mentioned before.
 
 For most random rolls, the game actually rolls a number from 0–255 and compares to the target number by, essentially, calculating the *percentage* chance from 0–100 and then multiplying by 2.5. This gives a range from 0–250, which is close to 255 but not quite. So even if you have a "100% chance" there's actually a small range of results that return a failure.
 
-Now let's talk lock picking. For non-Yakuza thieves trying to pick a lock, that target computation looks like:
+Now let's talk lock picking. For non-Yakuza thieves trying to pick a lock, the percentage chance of success looks like:
 
-```
-((3 * LVL) + MAX(0, 2 * (DEX - 12))) * 2.5
-```
+> (3 &times; level) + (2 &times; (DEX &minus; 12))
 
-If you're familiar with assembly language, you may know that a fast way to implement "multiply by 2.5" is "multiply by 2, divide by 2, and take the sum" because you can implement $$ \times 2 $$ with a left-shift and $$\div 2$$ with a right-shift. So let's take the example of a level 32 Ninja with 18 DEX.
+If you're familiar with assembly language programming, you may know that a fast way to implement "multiply by 2.5" is "multiply by 2, divide by 2, and take the sum" because you can implement &times;2 with a left-shift and &div;2 with a right-shift, which are both faster than actual multiply or divide operations. So let's take the example of a level 32 Ninja with 18 DEX.
 
-```
-(3 * 32) + (2 * (18-12) = 96 + 12 = 108
-```
+> (3 &times; 32) + (2 &times; (18 &minus; 12)) = 96 + 12 = **108**
 
-That's a 108% chance of picking a lock. Let's convert that to the 0-250 scale: `108` in base-ten is `01101100` in base-two, and if we do the arithmetic gymnastics I described above and drop anything that overflows an 8-bit integer, we get
+That's a 108% chance of picking a lock. Sounds good so far! Let's convert that from a 0–100 scale to a 0–250 scale: `108` in base ten is `01101100` in binary (base two). We'll left-shift that one place (&times;2) and right-shift it one place (&div;2) and add the results together. However, when computers do math there's always the prospect of running out of bits to represent the answer. Processor designers call that "overflow", and it looks a lot like this:
 
 ```
 108_10 = 01101100_2

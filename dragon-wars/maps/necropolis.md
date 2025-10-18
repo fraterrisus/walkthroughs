@@ -1,6 +1,6 @@
 # Necropolis
 
-[![map](necropolis.svg)](necropolis.svg)
+{% map-svg 'dragon-wars', 'Necropolis' %}
 
 Nergal's summer palace, aka where he hangs out when Irkalla's angry at him.
 
@@ -8,11 +8,11 @@ You'll face random encounters at the standard rate (1 in 100), plus a ton of fix
 
 ## Exits
 
-Technically, you can exit this map to the west, east, or south. These will return you to [Dilmun](dilmun.md) but you're on a very small 3x2 island with nowhere to go but the Necropolis.
+Technically, you can exit this map to the west, east, or south. These will return you to [Dilmun](/dragon-wars/maps/dilmun) but you're on a very small 3x2 island with nowhere to go but the Necropolis.
 
 (07,14): The boat dock, but it's only active once you've killed Ugly and stolen his boat.
 
-(00,07): Stairs down to the portion of the [Underworld](magan-underworld.md) containing the Well of Souls.
+(00,07): Stairs down to the portion of the [Underworld](/dragon-wars/maps/magan-underworld) containing the Well of Souls.
 
 ## Points of Interest
 
@@ -24,18 +24,18 @@ Technically, you can exit this map to the west, east, or south. These will retur
 
 **Nergal's Throne Room (05,07):** Fight off a large number of undead. Then feed Nergal the **Mushrooms** from the Mystic Wood. Pick a party member to "serve" Nergal (with no lasting effect). Then he gives you the **Silver Key**, the **Holy Spear** (1d30, DEX 14), and scrolls of *H:Fire Light, H:Big Chill, D:Insect Plague, D:Scare*, and *S:Inferno*.
 
-**The Well of Souls (00,07):** This is the only way to get to the portion of the [Underworld](magan-underworld.md) that links up with the Well of Souls. It's almost certainly [not worth it](../README.md#resurrecting-dead-characters).
+**The Well of Souls (00,07):** This is the only way to get to the portion of the [Underworld](/dragon-wars/maps/magan-underworld) that links up with the Well of Souls. It's almost certainly [not worth it](/dragon-wars/#resurrecting-dead-characters).
 
 **The Web-filled Hallway (13,09):** Every square in this winding hallway has a combat with a Spider, along with its webs. If you cast a fire-based spell, it burns out all the spiders and the webs and leaves the hallway empty.
 
 **The Portal of Power (15,11):** Once you've taken possession of Ugly's boat, this portal simply teleports you back to the boat dock. Before then, it chooses a random destination (which, if you use *Arcane Lore*, you can get a hint about):
 
-- [Dilmun](dilmun.md), just N of Purgatory
-- [Dilmun](dilmun.md), just S of the Slave Camp
-- the Forlorn [Guard Bridge](guard-bridge-1.md)
-- the entrance to [Mud Toad](mud-toad.md)
-- the statue of Irkalla in [Smuggler's Cove](smugglers-cove.md)
-- the E entrance to the [Bridge of Exiles](bridge-of-exiles.md)
+- [Dilmun](/dragon-wars/maps/dilmun), just N of Purgatory
+- [Dilmun](/dragon-wars/maps/dilmun), just S of the Slave Camp
+- the Forlorn [Guard Bridge](/dragon-wars/maps/guard-bridge-1)
+- the entrance to [Mud Toad](/dragon-wars/maps/mud-toad)
+- the statue of Irkalla in [Smuggler's Cove](/dragon-wars/maps/smugglers-cove)
+- the E entrance to the [Bridge of Exiles](/dragon-wars/maps/bridge-of-exiles)
 
 ## Bestiary
 

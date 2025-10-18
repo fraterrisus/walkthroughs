@@ -7,17 +7,17 @@ toc:
 
 Here's a list of all the equipment in the game, broken down by which inventory slot they occupy. Within each slot, items are further divided up into 'weight classes'. In theory, there's a 1:1 correlation between a character class and the weight classes that they can use. The one example I found where that isn't the case is that Shisais and Shizens can use the Bo-Staff, even though they can't use anything else in that weight class. In addition, some items have race or class restrictions; the Powerstaff can only be used by Mahotsukai.
 
-The information in this table, including the division of weight classes but excluding which classes can use which items, was obtained by dumping data from the binary game image and doing some investigation. Andrew Schultz also has a FAQ with a similar data dump up on GameFAQs (link in the [Acknowledgements](index.md/#acknowledgements)), which you're welcome to cross-reference. I've tried to confirm it where possible, but haven't done an exhaustive job.
+The information in this table, including the division of weight classes but excluding which classes can use which items, was obtained by dumping data from the binary game image and doing some investigation. Andrew Schultz also has a FAQ with a similar data dump up on GameFAQs (link in the [Acknowledgements](/deathlord/#acknowledgements)), which you're welcome to cross-reference. I've tried to confirm it where possible, but haven't done an exhaustive job.
 
-The **Hex** code is the item ID that appears in your character's inventory data, if you're poking through save files. See the appendix on [Hex Editing](index.md/#hex-editing) for more information on that.
+The **Hex** code is the item ID that appears in your character's inventory data, if you're poking through save files. See the appendix on [Hex Editing](/deathlord/#hex-editing) for more information on that.
 
 **Price** is an approximate minimum. You will not find the item cheaper than this, and usually it will be more expensive (modified slightly by the Charisma of the buyer). If the price is "–", that item can't be purchased (or sold) in shops. Things sell for half (or less) of their purchase price.
 
-**Fighters, Rogues, and Mages** list which [classes](index.md/#character-classes) are allowed to use this item. Columns may include `all` (any member of this category can use), one or more class names, or `no YAB` (meaning Yabanjin are *not* allowed to use the item, but any other member can).
+**Fighters, Rogues, and Mages** list which [classes](/deathlord/#character-classes) are allowed to use this item. Columns may include `all` (any member of this category can use), one or more class names, or `no YAB` (meaning Yabanjin are *not* allowed to use the item, but any other member can).
 
 Most weapons grant a bonus or penalty to your **Hit** score; higher is better. **Dmg** shows the *maximum* damage, and if the weapon can attack multiple times there's a "2x" (etc.) in front of it. Some weapons also affect your **AC** (either up or down). **N.B. For the sake of this table, positive AC modifiers are *good*** (even though your AC wants to be as "low" as possible).
 
-**Special** effects are listed in an extra row. Items that "cast" a spell do so when you *Use* them; they usually come with a limited number of charges. The maximum number of charges is in parentheses, for example (#24), but you'll find items with less. Check your inventory; it will tell you how many charges are left. `#**` means infinite. A weapon that "slays" a particular monster type does double damage against them; see the [Monster List](bestiary.md) for types.
+**Special** effects are listed in an extra row. Items that "cast" a spell do so when you *Use* them; they usually come with a limited number of charges. The maximum number of charges is in parentheses, for example (#24), but you'll find items with less. Check your inventory; it will tell you how many charges are left. `#**` means infinite. A weapon that "slays" a particular monster type does double damage against them; see the [Monster List](/deathlord/bestiary) for types.
 
 ## Hand Weapons
 

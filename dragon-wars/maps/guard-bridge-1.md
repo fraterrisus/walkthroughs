@@ -1,14 +1,14 @@
 # Guard Bridge #1
 
-[![map](guard-bridge-1.svg)](guard-bridge-1.svg)
+{% map-svg 'dragon-wars', 'Guard Bridge #1' %}
 
 Allows passage between Forlorn and Isle of the Sun, but you won't get there without some hassle.
 
 ## Exits
 
-North: [Isle of the Sun](dilmun.md) (12,08)
+North: [Isle of the Sun](/dragon-wars/maps/dilmun) (12,08)
 
-South: [Forlorn](dilmun.md) (12,06)
+South: [Forlorn](/dragon-wars/maps/dilmun) (12,06)
 
 These exits are correct even if you exit to the East or West from the appropriate side of the bridge.
 

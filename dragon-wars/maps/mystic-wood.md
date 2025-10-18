@@ -1,6 +1,6 @@
 # Mystic Wood
 
-[![map](mystic-wood.svg)](mystic-wood.svg)
+{% map-svg 'dragon-wars', 'Mystic Wood' %}
 
 A place that you'll come back to again and again over the course of the game. It has both a Transportation Nexus and an easy route to the Underworld, which makes it a highly useful conduit between the two.
 
@@ -8,13 +8,13 @@ There are plenty of mid-game encounters here, including wandering monsters (1 in
 
 ## Exits
 
-You can't exit to the West; other directions drop you on the [Isle of the Sun](dilmun.md) at the appropriate place.
+You can't exit to the West; other directions drop you on the [Isle of the Sun](/dragon-wars/maps/dilmun) at the appropriate place.
 
-There's a Transportation Nexus here at (07,05), along with a portal to the [Underworld](magan-underworld.md) at (04,15).
+There's a Transportation Nexus here at (07,05), along with a portal to the [Underworld](/dragon-wars/maps/magan-underworld) at (04,15).
 
 ## Points of Interest
 
-**The Underworld Well (04,15):** Use *Climb* to drop down into the [Underworld](magan-underworld.md).
+**The Underworld Well (04,15):** Use *Climb* to drop down into the [Underworld](/dragon-wars/maps/magan-underworld).
 
 **Enkidu's Shrine (02,13):** Read paragraph #6. There's a **Beast Horn** (*D:Beast Call*) sitting at the foot of his statue (02,15). Cast *D:Beast Call*, use the horn, or use SPR, and the demigod himself appears and offers to wrestle (paragraph #73). Make a STR check against 1d8+15 (so STR 15 always loses and STR 24 always wins); if you win, you get *Druid Magic 2* and a bunch of spells. No penalty for losing.
 

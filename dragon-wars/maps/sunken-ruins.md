@@ -1,12 +1,12 @@
 # Sunken Ruins (above)
 
-[![map](sunken-ruins.svg)](sunken-ruins.svg)
+{% map-svg 'dragon-wars', 'Sunken Ruins' %}
 
 ## Exits
 
-The [Eastern Isles](dilmun.md) near (38,15).
+The [Eastern Isles](/dragon-wars/maps/dilmun) near (38,15).
 
-(05,04): Stairs down to the [lower level](sunken-dungeon.md) (05,03).
+(05,04): Stairs down to the [lower level](/dragon-wars/maps/sunken-dungeon) (05,03).
 
 ## Points of Interest
 
@@ -14,7 +14,7 @@ The [Eastern Isles](dilmun.md) near (38,15).
 
 **The Dead Wood (04,03):** Some **Driftwood**, some **Flotsam**, and a **Spiked Flail** (4d20, +2 AV, +1 AC, STR 16).
 
-**The Open Well (05,04):** *Swim* and *Climb* won't do you any good, although they do give you a hint that you'll need something to "allow you to survive underwater", like the **Water Potion** you got from [Irkalla](magan-underworld.md).
+**The Open Well (05,04):** *Swim* and *Climb* won't do you any good, although they do give you a hint that you'll need something to "allow you to survive underwater", like the **Water Potion** you got from [Irkalla](/dragon-wars/maps/magan-underworld).
 
 ## Bestiary
 

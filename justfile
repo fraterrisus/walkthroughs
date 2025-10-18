@@ -1,10 +1,15 @@
 formats:="--formats=md,html,liquid"
 
-build:
+build: clean
   npx @11ty/eleventy {{formats}}
 
-serve:
+clean:
+  rm -rf _site
+
+serve: clean
   npx @11ty/eleventy {{formats}} --serve
 
-publish: build
+deploy: build
   rsync -av _site/* ionos:/var/www/walkthroughs/
+
+publish: deploy

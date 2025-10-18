@@ -1,16 +1,16 @@
 # Kingshome
 
-[![map](kingshome.svg)](kingshome.svg)
+{% map-svg 'dragon-wars', 'Kingshome' %}
 
 Namtar is holed up in Drake's old chambers. He's a tired old man, er, demon, er thing. Regardless, there's no one to actually fight here, so feel free to explore the place.
 
 ## Exits
 
-South, West: [King's Isle](dilmun.md) (18,26)
+South, West: [King's Isle](/dragon-wars/maps/dilmun) (18,26)
 
-East: [King's Isle](dilmun.md) (19,27)
+East: [King's Isle](/dragon-wars/maps/dilmun) (19,27)
 
-(06,08): Stairs down to the [Kingshome Dungeon](kingshome-dungeon.md), which are accessible with *D:Soften Stone* even after meeting Namtar. Taking these stairs forces the exit from Namtar's Bedroom to reappear.
+(06,08): Stairs down to the [Kingshome Dungeon](/dragon-wars/maps/kingshome-dungeon), which are accessible with *D:Soften Stone* even after meeting Namtar. Taking these stairs forces the exit from Namtar's Bedroom to reappear.
 
 ## Points of Interest
 

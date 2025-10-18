@@ -1,12 +1,12 @@
 # Siege Camp
 
-[![map](siege-camp.svg)](siege-camp.svg)
+{% map-svg 'dragon-wars', 'Siege Camp' %}
 
 ## Exits
 
-If you enlisted in Phoebus, you're dropped at (03,07). Otherwise, you're walking in the front door at (07,00) — read paragraph #87 — and you'll be asked if you want to enlist, assuming the war hasn't ended. You'll have to fight off guards to leave this way ([King's Isle](dilmun.md), (07,25)) unless the war is over.
+If you enlisted in Phoebus, you're dropped at (03,07). Otherwise, you're walking in the front door at (07,00) — read paragraph #87 — and you'll be asked if you want to enlist, assuming the war hasn't ended. You'll have to fight off guards to leave this way ([King's Isle](/dragon-wars/maps/dilmun), (07,25)) unless the war is over.
 
-The proper exit to [Byzanople](byzanople.md) (i.e. the "front") is at (09,14), after receiving a blessing(?) from the Universal God in Namtar's name.
+The proper exit to [Byzanople](/dragon-wars/maps/byzanople) (i.e. the "front") is at (09,14), after receiving a blessing(?) from the Universal God in Namtar's name.
 
 The passage that leads between Byzanople and the "final fight" that decides the war is at (02,04), but it's only accessible from Byzanople.
 
@@ -22,11 +22,11 @@ Note: Once the War of Byzanople has been decided (in either direction), the Camp
 
 **The Camp Healer (10,04):** At least he doesn't charge you anything.
 
-**The [Black Market](../things-and-stuff.md#black-market-1) (11,13):** The only vaguely interesting object is the **Bladed Flail** (1d12, STR 10), plus the chance to buy shields.
+**The [Black Market](/dragon-wars/things-and-stuff/#black-market-1) (11,13):** The only vaguely interesting object is the **Bladed Flail** (1d12, STR 10), plus the chance to buy shields.
 
 **The Weapons Stash (10,14):** Contains the **Lance Sword** (1d20 at 20', +1 AV, STR 12) and the **Silver Gloves** (+3 AC).
 
-**The Final Fight (03,09):** If you're on Prince Jordan's side and come through the tunnel from the city to (02,04), this is the big fight that decides the siege. If you win, you get 500 XP and they install a historic plaque in your honor. If you lose or run away, Buck throws you in the [Kingshome Dungeon](kingshome-dungeon.md). If you're standing on this square and not in the middle of a fight, you can use either DEX or *Climb* to squeeze through a passage to the rest of the camp (03,07).
+**The Final Fight (03,09):** If you're on Prince Jordan's side and come through the tunnel from the city to (02,04), this is the big fight that decides the siege. If you win, you get 500 XP and they install a historic plaque in your honor. If you lose or run away, Buck throws you in the [Kingshome Dungeon](/dragon-wars/maps/kingshome-dungeon). If you're standing on this square and not in the middle of a fight, you can use either DEX or *Climb* to squeeze through a passage to the rest of the camp (03,07).
 
 ## Bestiary
 

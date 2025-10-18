@@ -8,11 +8,11 @@ toc:
 
 Instead of just breezing through the game as quickly as possible, I've written this guide with the intent of *mostly* sticking to what feels to me like the most natural progression of the story while hitting just about everything there is to do in the game. Of course, *Dragon Wars* is a fairly non-linear RPG, so there are lots of places where you can divert from this path or skip entire sections and still win the game.
 
-Each section is a fairly comprehensive walkthrough of the map and its story, but if you want more details (and complete info based on decompiling the game's data files), check out the [Maps](maps/index.md) directory.
+Each section is a fairly comprehensive walkthrough of the map and its story, but if you want more details (and complete info based on decompiling the game's data files), check out the [Maps](/dragon-wars/maps/) directory.
 
 > **Game Note:** When I deviate from, shall we say, the more natural path of the game, I'll insert one of these to explain what we're doing. Of course, you're always free to play the game in whatever order you want, and just use my help in whatever city you happen to find yourself in.
 
-I've included a [Speed Run](index.md#the-speed-run) in the appendices, so if you have high-level characters already and just want to get through the game as fast as possible, check that out.
+I've included a [Speed Run](/dragon-wars/#the-speed-run) in the appendices, so if you have high-level characters already and just want to get through the game as fast as possible, check that out.
 
 ## Backstory
 
@@ -28,29 +28,29 @@ The manual also has a handy map of Dilmun (on page 19) showing you all of the is
 
 ### Purgatory
 
-Map: [Purgatory](maps/purgatory.md)
+Map: [Purgatory](/dragon-wars/maps/purgatory/)
 
 To start off the game, you're dropped unceremoniously into Purgatory, the nastiest slum you'll ever have the displeasure to visit. If you have *Town Lore*, walk 2N (there's a random combat 1N of you) and read `(p14)`. Purgatory is kind of a disaster, more a prison than a city. Our first order of business is to get the heck out of here... then see about this Namtar chap.
 
 There's safety in numbers, so let's see if we can find some additional muscle. Turn E, walk through the gap in the wall, then walk N and look W to find the Purgatory bar. You'll know you've found it when a bunch of Drunks jump you. Fight them off and you should be level 2 already.
 
-The barkeep will tell you about the secret door out of here in the SW tower, as well as the one in the NW corner that gets you into the wall. (There's a third almost directly E of the tavern, but it's not particularly useful.) He also hints at the swimming route out of here. He knows that you should pay your respects to Irkalla before trying to enter her Realm, and that the Apsu Waters will take you to the Underworld. And when you get out of here, he hints that you should show off your magic skills to the old man in the Slave Camp. All of these things are true, but what we're really interested in is picking up our first volunteer, [Ulrik](index.md#npcs). He's a solid fighter with good *Axe* skills, so reorder your party and put him in front of your mages.
+The barkeep will tell you about the secret door out of here in the SW tower, as well as the one in the NW corner that gets you into the wall. (There's a third almost directly E of the tavern, but it's not particularly useful.) He also hints at the swimming route out of here. He knows that you should pay your respects to Irkalla before trying to enter her Realm, and that the Apsu Waters will take you to the Underworld. And when you get out of here, he hints that you should show off your magic skills to the old man in the Slave Camp. All of these things are true, but what we're really interested in is picking up our first volunteer, [Ulrik](/dragon-wars/#npcs). He's a solid fighter with good *Axe* skills, so reorder your party and put him in front of your mages.
 
 Our next priority is to outfit the party with some useful equipment. It turns out that if you're willing to sacrifice yourself to the Arena's Gladiators, the Quartermaster will happily give you some basic items, but they're not much to go on. However, the Black Market is right around the corner and they'll be happy to sell you some Scale Armor for $250. All we have to do is raise some gold. Hm, where could we get some items to sell...?
 
-From the tavern, go S, W, N to the Arena. Drop all of Ulrik's stuff, then go in `(p4)`. The Quartermaster will let you pick from his stores until each member of your party has three items (which is why we dropped Ulrik's stuff). Take the highest-value thing he'll give you: 15 Battle Axes. Now we just need to get out of here with our skins intact. Go N until the battle with the Gladiators starts; fortunately, they're far enough away that you can run away with impunity. You'll lose all your gold – you didn't have much anyway – but keep your equipment. Now you can go 4W 2N 1W 1N 2W 1N to the [Black Market](things-and-stuff.md#black-market) and sell the axes for 15 x $35 = $525, which is just enough to buy two Scale Armors (+6 AC, -2 AV).
+From the tavern, go S, W, N to the Arena. Drop all of Ulrik's stuff, then go in `(p4)`. The Quartermaster will let you pick from his stores until each member of your party has three items (which is why we dropped Ulrik's stuff). Take the highest-value thing he'll give you: 15 Battle Axes. Now we just need to get out of here with our skins intact. Go N until the battle with the Gladiators starts; fortunately, they're far enough away that you can run away with impunity. You'll lose all your gold – you didn't have much anyway – but keep your equipment. Now you can go 4W 2N 1W 1N 2W 1N to the [Black Market](/dragon-wars/things-and-stuff/#black-market) and sell the axes for 15 x $35 = $525, which is just enough to buy two Scale Armors (+6 AC, -2 AV).
 
 Go back to the Arena and do the whole thing again, but don't drop your new armor. You'll only be able to get enough Battle Axes to buy one more suit of Scale. Repeat until everyone in the party has Scale. AC 6 is very good this early in the game; remember that each point of AC reduces the damage you take by 1 HP *per attack*. Hit the Arena one more time and get real weapons: a Battle Axe (1d12, -1 AV) for Ulrik, Broadswords (1d8, +1 AV, STR 12) or Greatswords (1d12, +1 AV, STR 17) for the other three frontliners, and a Bow and some Arrows (1d6) for your high-DEX mage. (They only have 20' range, but at least you can attack from the back row.) Then fill up on Battle Axes to sell one more time.
 
 You can come back and beat up the Gladiators any time you want. They're a pretty good barometer: you ought to be able to manage them once you hit Level 4, and if not, you're going to have a tough time with anything else you have to fight once you leave Purgatory. You'll get some nice XP and a set of Citizenship Papers out of the deal, which you don't need (there's another set in the [Slave Camp](#the-purgatory-day-spa-and-salon-slave-camp) and they're not strictly necessary anyway). 
 
-Now let's get some magic for our magic users. From the Black Market go S to the main road, then W and kill some Jail Keepers. This will take a while, but with AC 6 they won't be able to damage you too much. Go S, skip over the Slave Market `(p67)`, go to the statue of Namtar `(p9)`, then turn W and head straight into the [Low Magic shop](things-and-stuff.md#magic-shoppe) `(p10)`. Ironic, that. Get scrolls for everybody and learn the spells. As Purgatory residents go, you're now quite fearsome. Pick up a couple of extra scrolls – they make a great sacrifice.
+Now let's get some magic for our magic users. From the Black Market go S to the main road, then W and kill some Jail Keepers. This will take a while, but with AC 6 they won't be able to damage you too much. Go S, skip over the Slave Market `(p67)`, go to the statue of Namtar `(p9)`, then turn W and head straight into the [Low Magic shop](/dragon-wars/things-and-stuff/#magic-shoppe) `(p10)`. Ironic, that. Get scrolls for everybody and learn the spells. As Purgatory residents go, you're now quite fearsome. Pick up a couple of extra scrolls – they make a great sacrifice.
 
-Speaking of sacrifices, let's go visit Irkalla. Due S of the Low Magic Shop there's a wall. Follow it with the right hand rule<sup>1</sup> and you'll find a door. Tucked into the larger space beyond that first room and past a few fights you'll find some "strange waters", or if you have *Town Lore* you'll get to read `(p94)`. There's also a statue `(p3)` of Our Lady of the Underworld, Irkalla. Sacrifice any object to her; the game makes a [Spirit check](index.md#game-mechanics) vs 1d20, and if it's successful Irkalla is "pleased". If she is "silent", try again. 1S 1W of her statue are the Apsu Waters, which will take you into the Magan Underworld for the first time.
+Speaking of sacrifices, let's go visit Irkalla. Due S of the Low Magic Shop there's a wall. Follow it with the right hand rule<sup>1</sup> and you'll find a door. Tucked into the larger space beyond that first room and past a few fights you'll find some "strange waters", or if you have *Town Lore* you'll get to read `(p94)`. There's also a statue `(p3)` of Our Lady of the Underworld, Irkalla. Sacrifice any object to her; the game makes a [Spirit check](/dragon-wars/#game-mechanics) vs 1d20, and if it's successful Irkalla is "pleased". If she is "silent", try again. 1S 1W of her statue are the Apsu Waters, which will take you into the Magan Underworld for the first time.
 
 > 1: The "right hand rule" of dungeon exploration is a metaphor that implies that you're touching the wall with your right hand as you move forward, so as the wall turns, you turn with it such that your right hand is always on the wall.
 
-This isn't a bad time for your first visit to the [Underworld](maps/magan-underworld.md), but first a note: if you get into a random encounter down there, **run**. You'll need a light source, but *L:Mage Light* works just fine. Good things to find on this trip are the **Refresh Pool**, the **Slicer**, and the cache of items with the **Rusty Axe** (watch out for the monsters, tho). That's a major melee upgrade. Don't get scared by the -3 AV on the Axe; Ulrik's got 3 ranks in Axe which will cancel it out. Also check out **Exposition Cavern** near where you pick up the Slicer; take note of the argument between Irkalla and Nergal, then hightail it back to Purgatory.
+This isn't a bad time for your first visit to the [Underworld](/dragon-wars/maps/magan-underworld/), but first a note: if you get into a random encounter down there, **run**. You'll need a light source, but *L:Mage Light* works just fine. Good things to find on this trip are the **Refresh Pool**, the **Slicer**, and the cache of items with the **Rusty Axe** (watch out for the monsters, tho). That's a major melee upgrade. Don't get scared by the -3 AV on the Axe; Ulrik's got 3 ranks in Axe which will cancel it out. Also check out **Exposition Cavern** near where you pick up the Slicer; take note of the argument between Irkalla and Nergal, then hightail it back to Purgatory.
 
 One thing you may notice is that when you leave a map and come back, most of the encounters reset. There are several one-offs in Purgatory, like the Arena and the Humbaba, that *don't* reset; there is some global state that prevents you from doing Big Plot Things more than once. However, given how well-equipped you are at this point, you should be brushing aside the random encounters in Purgatory for free XP.
 
@@ -62,7 +62,7 @@ Keep working around Purgatory anti-clockwise. Find, but don't take on, the big g
 
 **How to escape Purgatory,** roughly in order from easy to hard. Note that if you aren't strong enough to beat the Gladiators and/or the door Guards, you probably aren't ready for much else in Dilmun either, so do some grinding first.
 
-1. Find the morgue `(p5)` in the E-then-S corner. `(U)se` DEX (or, if you ignored my advice, *Hiding*) and you'll get a paragraph `(p69)`. Make sure you're healed up first; everyone in the party has to make a [STR check](index.md#game-mechanics) vs 1d20 or take 1d10 damage. Regardless, you wind up in Dilmun just SE of the Slave Camp, standing next to a pool that will refresh your magic and health. This method also sets a permanent bit on your characters that tells the residents of the Slave Camp to welcome you freely.
+1. Find the morgue `(p5)` in the E-then-S corner. `(U)se` DEX (or, if you ignored my advice, *Hiding*) and you'll get a paragraph `(p69)`. Make sure you're healed up first; everyone in the party has to make a [STR check](/dragon-wars/#game-mechanics) vs 1d20 or take 1d10 damage. Regardless, you wind up in Dilmun just SE of the Slave Camp, standing next to a pool that will refresh your magic and health. This method also sets a permanent bit on your characters that tells the residents of the Slave Camp to welcome you freely.
 2. Find the pool in the NW corner. Turn W and kick forward twice; a secret door takes you into the city walls. Go S to the SW corner and find another secret door to exit. The Slave Camp is just SW of Purgatory. The Slave Camp residents will be wary of you; you'll lose Louie (and get the "empty camp" path) unless you have *Bureaucracy*.
 3. Travel through the Magan Underworld and surface somewhere else (the [Tars Underground](#look-an-actual-dungeon-tars-underground), maybe?).
 4. Sell yourself in the Slave Market `(p58)`. The [Slave Mines](#slave-mines) are annoying but not difficult, although you'll have to beat up some Guards to get out, so don't do this without grinding Purgatory a bit.
@@ -73,7 +73,7 @@ Just to be explicit about it: if you want the bit set on your characters that ma
 
 ### Magan Underworld Highlights
 
-Map: [Magan Underworld](maps/magan-underworld.md)
+Map: [Magan Underworld](/dragon-wars/maps/magan-underworld/)
 
 Since it's one way to get out from Purgatory, let's talk about the Underworld for a minute. The Magan Underworld is a large uber-map that lies underneath Dilmun. It also happens to be the domain of Irkalla, the Queen of the Underworld, who will figure more prominently in the story as it progresses. You'll want to make a point of receiving her blessing at some point, although it's not critical that you do so right this second.
 
@@ -88,7 +88,7 @@ I've already suggested you make one trip down here and I'll do it again in a few
 
 ### Slave Mines
 
-Map: [Slave Mines](maps/slave-mines.md)
+Map: [Slave Mines](/dragon-wars/maps/slave-mines/)
 
 I don't really recommend selling yourself at the Slave Market as the best route out of Purgatory, but if that's what you've decided to do, I'll show you how to get out of here. It's not exactly hard, just annoying, but you should expect to get beat up a bunch.
 
@@ -112,19 +112,19 @@ You'll need to fight off some guards to get out `(p62)`. Stairs take you up into
 
 ### The Purgatory Day Spa and Salon (Slave Camp)
 
-Maps: [Dilmun](maps/dilmun.md), [Slave Camp](maps/slave-camp.md)
+Maps: [Dilmun](/dragon-wars/maps/dilmun/), [Slave Camp](/dragon-wars/maps/slave-camp)
 
 There are three ways into the Slave Camp:
 
 1. If you chose to swim your way out of Purgatory (exit #1 or #5), everything's fine `(p16)`.
 2. Otherwise, the people in the camp won't trust you. `(U)se` your *Bureaucracy* skill and they'll see that you don't mean them any harm. (If you don't have *Bureaucracy*, it's not too late to go back into Purgatory and take one of the swimming routes. Just stick to the outermost squares of the map.)
-3. Stride boldly forward into the camp and slaughter everyone `(p18)`, shame on you. You lose access to [Louie](index.md#npcs), all of the lore and exposition, and most of the special encounters. All of the treasure is still here (the paragraph lies to you), but there's a Spirit Ward guarding the wizard's treasure room.
+3. Stride boldly forward into the camp and slaughter everyone `(p18)`, shame on you. You lose access to [Louie](/dragon-wars/#npcs), all of the lore and exposition, and most of the special encounters. All of the treasure is still here (the paragraph lies to you), but there's a Spirit Ward guarding the wizard's treasure room.
 
 Presuming you *didn't* choose option #3, head to the tavern in the SE corner of the map and pick up your sixth party member.
 
 Then go N from that building until you hear moans of pain. There's a man inside named Ulm who is suffering from fever; there's a 1-in-20 chance that he attacks you, then runs away. Otherwise, `(U)se` *Bandage* or `(C)ast` *L:Lesser Heal* on him and he'll tell you `(p19)` how he got here using the secret door to escape Purgatory, but ran afoul of the guards because he didn't have "the right papers". He also drops a hint about Irkalla being chained up in the Underworld, although it's hard to know what to do with a fever dream. When he dies you pick up two scrolls, *D:Greater Heal* (which is basically useless and you can sell it) and *S:Sun Stroke* (which you won't need unless you're building your own Sun mage).
 
-Follow the wall of that building N, go into the trees, and find the indentation in the back of the building. Your *Lockpick* can open the chest (difficulty 1); if you want to know what a chest's difficulty rating means, I refer you to the section on [Game Mechanics](index.md#game-mechanics). Chain Armor (+7 AC, -3 AV) is an upgrade over Scale, so trade a suit of Scale to Louie. *H:Healing* isn't the best healing spell, but *H:Cloak Arcane* is a very useful buff spell, *D:Scare* has one particular use in the Underworld, and *H:Sense Traps* will definitely be helpful. It's a traveling spell, so the more Power you put into it the longer it lasts. I'll point out in the guide when you want to have a trap-detection spell running.
+Follow the wall of that building N, go into the trees, and find the indentation in the back of the building. Your *Lockpick* can open the chest (difficulty 1); if you want to know what a chest's difficulty rating means, I refer you to the section on [Game Mechanics](/dragon-wars/#game-mechanics). Chain Armor (+7 AC, -3 AV) is an upgrade over Scale, so trade a suit of Scale to Louie. *H:Healing* isn't the best healing spell, but *H:Cloak Arcane* is a very useful buff spell, *D:Scare* has one particular use in the Underworld, and *H:Sense Traps* will definitely be helpful. It's a traveling spell, so the more Power you put into it the longer it lasts. I'll point out in the guide when you want to have a trap-detection spell running.
 
 Wandering back around to the S wall of this building, someone will peer at you through a door. The old wizard won't let you in unless you impress him, so `(U)se` any Magic skill. He'll let you into his house and show you his cache of items, most of which aren't useful. If you already have Citizenship Papers from the Purgatory Arena you don't need another set. There's another set of Chain Armor here, plus *H:Fire Light* is quite good (variable power and a 30' range). The War Axe (1d12, -3 AV) is worth $350 but is otherwise no better than a Battle Axe. The War Flail (1d12), Hammer (1d10, *Maces*), and Polearm (1d10, +1 AV, *Two-handers*) are all upgrades over a Broadsword, but not as good as a Greatsword. I'm not really sure what purpose the Ruby Dagger (1d4, +3 AV) serves, since the damage is useless and the AV bonus doesn't do you any good when attacking with spells. Everything you don't use can be sold at the Black Market in Purgatory.
 
@@ -144,7 +144,7 @@ That's about it for the Slave Camp. If you didn't come in that way, exit to the 
 
 ### Rounding out the Party (Phoebus)
 
-Maps: [Purgatory](maps/purgatory.md), [Magan Underworld](maps/magan-underworld.md), [Mystic Wood](maps/mystic-wood.md), [Phoebus](maps/phoebus.md)
+Maps: [Purgatory](/dragon-wars/maps/purgatory/), [Magan Underworld](/dragon-wars/maps/magan-underworld), [Mystic Wood](/dragon-wars/maps/mystic-wood), [Phoebus](/dragon-wars/maps/phoebus)
 
 > **Game Note:** In theory, you're not supposed to hit Phoebus for the first time for another couple of sections. It probably makes more sense in "game order" to explore the eastern part of Forlorn next. But the Slave Estate is entirely optional and Tars may be a bit difficult for your party at the moment. So you could head across the first guard bridge instead... at which point you wind up in Phoebus, and end up needing to backtrack to Tars later on.
 >
@@ -152,13 +152,13 @@ Maps: [Purgatory](maps/purgatory.md), [Magan Underworld](maps/magan-underworld.m
 
 Head back into Purgatory. Enter the city via the secret door in the SW corner and fight off your friends the teeth-kicking door guards (or use the other secret door, *boring*). If you haven't beaten the Arena yet, do so to give Louie some experience. Head up to the Black Market and sell off a bunch of stuff you don't need. Then go to the Apsu Waters and enter the Underworld. Remember to run from any fight you get into, unless you've got your save files backed up. Find the stairs up to the [Mystic Wood](#isnt-it-good-mystic-wood) and read `(p70)`. You're just visiting on the way to Phoebus, though, so go N to exit to Dilmun. Phoebus is 3E 4N, but you'll hit a bunch of Goblins arguing about their brothers, who you haven't killed yet, because you went around them by going through the Underworld. Oddly, this combat doesn't regenerate after you kill them, but their "brothers" do.
 
-Now you can enter Phoebus `(p26,p25)`. Go 9N 6E 5N and find the tavern; [Valar](index.md#npcs) is inside. Retrace your steps back to the Mystic Wood, find the well in the NW corner, and `(U)se` *Climb* to get back down to the Underworld.
+Now you can enter Phoebus `(p26,p25)`. Go 9N 6E 5N and find the tavern; [Valar](/dragon-wars/#npcs) is inside. Retrace your steps back to the Mystic Wood, find the well in the NW corner, and `(U)se` *Climb* to get back down to the Underworld.
 
-Before you go back up to Purgatory and continue with the game in the order it's supposed to be played, this is a good time to visit Irkalla's Realm for the 5 CP [Leap of Faith](maps/magan-underworld.md) bonus. I like to give *Low Magic* to anybody who didn't already have it, or for the higher magicians, bump them up to 3 ranks in their specialty. Once you've done that, go up to Purgatory and get Low Magic spells for anyone who doesn't have them already. (You can probably even take on some of the Underworld denizens at this point, so long as there aren't more than one or two of them.)
+Before you go back up to Purgatory and continue with the game in the order it's supposed to be played, this is a good time to visit Irkalla's Realm for the 5 CP [Leap of Faith](/dragon-wars/maps/magan-underworld/) bonus. I like to give *Low Magic* to anybody who didn't already have it, or for the higher magicians, bump them up to 3 ranks in their specialty. Once you've done that, go up to Purgatory and get Low Magic spells for anyone who doesn't have them already. (You can probably even take on some of the Underworld denizens at this point, so long as there aren't more than one or two of them.)
 
 ### "Nice Island Ya Got Here..." (Slave Estate)
 
-Map: [Slave Estate](maps/slave-estate.md)
+Map: [Slave Estate](/dragon-wars/maps/slave-estate/)
 
 If you decide to explore the eastern half of Forlorn, the place to start is with the arms cache hidden in the rocks 3W 1S of Purgatory (4S 1W of the Slave Estate). There's not much here that's useful except your third suit of Chain Armor. Don't even bother picking up the Low Magic scrolls. Grab anything you actually want, though (maybe the Dragon Stones?) because this chest disappears once you leave the Dilmun map.
 
@@ -180,13 +180,13 @@ The easy way out is to stay 1 square away out of combat and `(U)se` the mirror. 
 
 ### "...Shame If Anything Were To *Happen* To It" (Tars Ruins)
 
-Map: [Tars Ruins](maps/tars-ruins.md)
+Map: [Tars Ruins](/dragon-wars/maps/tars-ruins/)
 
 The ruins of Tars are in the W part of Forlorn. And when we say "ruins", we really mean it... this place is in trouble. For one thing, it's crawling with wandering encounters, which makes this a good time to explain what those are.
 
 In *Dragon Wars*, encounters are either **Fixed**, meaning they always occur on a particular map square, or **Wandering**, meaning they occur wherever you happen to be standing when the game decides to generate one. Fixed encounters might further be **Static**, meaning they always feature the same opponents, or **Random**, meaning the game chooses your opponents from a list. (Wandering encounters are always Random, but when I say "random encounter" in this doc I usually mean "fixed + random".)
 
-You can't necessarily tell the encounter types apart in-game, although if you look at my [maps](maps/) you can often take a good guess. The important thing for you to know as a player is that if you run away from a Fixed + Random encounter and come back, the encounter will still be there but you might get easier (or harder) opponents. If you run away from a Wandering encounter, it's gone forever. So it's not the worst policy to run first and swing swords later, especially if you're not sure what type of encounter it is.
+You can't necessarily tell the encounter types apart in-game, although if you look at my [maps](/dragon-wars/maps/) you can often take a good guess. The important thing for you to know as a player is that if you run away from a Fixed + Random encounter and come back, the encounter will still be there but you might get easier (or harder) opponents. If you run away from a Wandering encounter, it's gone forever. So it's not the worst policy to run first and swing swords later, especially if you're not sure what type of encounter it is.
 
 All that being said, if you're in Tars and you run into Spitting Lizards, run and try again. If you run into groups of Spiders, I recommend using *H:Elvar's Fire* to take them out. "But I don't *have* Elvar's Fire!" I hear you cry. Well, let's fix that.
 
@@ -207,7 +207,7 @@ Towards the NE corner you'll find a stone slab. `(U)se` any of *Cave Lore, Mount
 
 ### Look! An Actual Dungeon! (Tars Underground)
 
-Map: [Tars Underground](maps/tars-underground.md)
+Map: [Tars Underground](/dragon-wars/maps/tars-underground/)
 
 The Tars Underground map is an interesting one. Like the Magan Underworld, it wraps around. However, this map is only 8x8 and features a few tricks. You'll see, once you've filled in a bit, that the automap will scroll in all directions, but only so far.
 
@@ -233,7 +233,7 @@ Let's head back to the surface, and cross our first bridge.
 
 ### Guard Bridge #1
 
-Map: [Guard Bridge #1](maps/guard-bridge-1.md)
+Map: [Guard Bridge #1](/dragon-wars/maps/guard-bridge-1/)
 
 The bridge between Forlorn and Sun is just N of Purgatory. The first time you approach this bridge from Forlorn, you'll run into a group of Guards just S of the bridge. They're there as a barometer: if you can't beat them, you probably shouldn't be leaving Forlorn anyway.
 
@@ -251,7 +251,7 @@ Whenever you're done with that, you can exit to the N.
 
 ## Isle of the Sun
 
-Map: [Dilumn](maps/dilmun.md)
+Map: [Dilumn](/dragon-wars/maps/dilmun/)
 
 When you leave the guard bridge you'll be welcomed to the Isle of the Sun by a bunch of Goblins, but they shouldn't give you much trouble; blast them with *L:Mage Fire* from 30' and attack when they get closer.
 
@@ -259,7 +259,7 @@ Feel free to explore the island; if you picked up Valar a [couple of sections](#
 
 ### Isn't it Good (Mystic Wood)
 
-Map: [Mystic Wood](maps/mystic-wood.md)
+Map: [Mystic Wood](/dragon-wars/maps/mystic-wood/)
 
 Speaking of the Mystic Wood, while you're exploring the island, circle around and enter the Wood from the S. You're better off running from most fights here; they're pretty hard, at least for now, and most of them are random or wandering encounters rather than fixed ones.
 
@@ -277,13 +277,13 @@ From the Mushroom spot, go 1E 6S. Face S towards the lake and `(U)se` Ulrik's *S
 
 A little NW of the lake is a spot where there are some tracks on the ground. If you `(U)se` *Tracker* to follow them, they'll lead you to a spot 2S of the Nexus, which we've already been to. Also, there's a fixed combat 1N of you, which is kind of a dirty trick if you ask me.
 
-Now comes the fun part. Visit the druid's shrine in the NW corner `(p6)`. Go up to the statue and pick up the Beast Horn, then `(U)se` it (you can also `(U)se` your SPR attribute, or just cast *D:Beast Call* yourself if you have it). Enkidu himself comes to life `(p73)` and offers to wrestle. This is a weird [STR check](index.md#game-mechanics) vs 1d8+15; STR 15 always loses, STR 24 always wins, and your chance of winning goes up linearly between them, but you can retry as often as you like until the Beast Horn runs out of charges. When you win, Enkidu grants you *Druid Magic* 2 along with most of the combat spells. This is a great way to take advantage of Louie's abnormally high SPR and INT. You don't need the Beast Horn after this; if you `(U)se` it again, it just casts *D:Beast Call.*
+Now comes the fun part. Visit the druid's shrine in the NW corner `(p6)`. Go up to the statue and pick up the Beast Horn, then `(U)se` it (you can also `(U)se` your SPR attribute, or just cast *D:Beast Call* yourself if you have it). Enkidu himself comes to life `(p73)` and offers to wrestle. This is a weird [STR check](/dragon-wars/#game-mechanics) vs 1d8+15; STR 15 always loses, STR 24 always wins, and your chance of winning goes up linearly between them, but you can retry as often as you like until the Beast Horn runs out of charges. When you win, Enkidu grants you *Druid Magic* 2 along with most of the combat spells. This is a great way to take advantage of Louie's abnormally high SPR and INT. You don't need the Beast Horn after this; if you `(U)se` it again, it just casts *D:Beast Call.*
 
 Enkidu grants you *D:Death Curse, D:Fire Blast, D:Insect Plague, D:Whirl Wind, D:Scare, D:Greater Healing,* and *D:Beast Call.*
 
 ### "SS" is the Key Combo For "Save Game" (Phoebus)
 
-Map: [Phoebus](maps/phoebus.md)
+Map: [Phoebus](/dragon-wars/maps/phoebus/)
 
 Yes, that's a Nazi reference. You're about to enter a town full of enemies called *Stosstrupen*, for fuck's sake, and if that isn't an intentional reference on the part of the developers, I don't know what is.
 
@@ -309,13 +309,13 @@ Mystalvision is waiting for you in the N central part of Phoebus.  At the end of
 
 ### Ridden Out of Town, on Rails (Phoeban Dungeon)
 
-Map: [Phoeban Dungeon](maps/phoeban-dungeon.md)
+Map: [Phoeban Dungeon](/dragon-wars/maps/phoeban-dungeon/)
 
 You wake up in the Phoeban dungeon. After nine days (100-odd turns) of captivity you escape `(p101)` with the help of a fellow named Berengaria who promises to meet you at the Icarian Triumph after you get out of here. Circle to the E and you'll hear moans. `(U)se` *Lockpick* and find out from another prisoner that apparently they're torturing "The Druid". Huh.
 
 In the NW corner `(p102)` you sneak up on the guard. You can either fight them off by stepping forward (use a lot of magic), or `(U)se` Louie's *Hide* skill to get past them. In either case, if you fail, you get thrown back in the jail cell and get to try it all again. (Aren't you glad I told you to bring Dragon Stones?) Eventually, go through the door to the N.
 
-Turning E and going N from there, you'll reach a large pit with an angry dragon in it and a hunchback trying to feed him. Ignore them<sup>2</sup> and go N and W. Turn S into the first door. There's a fight in the SE corner that you can probably handle, if you want. Go W again and find the tortured Druid that the prisoner was talking about. `(U)se` *Bandage* or a healing spell on him to get a password. (The password is spoiled on the [map page](maps/phoeban-dungeon.md), by the way.)
+Turning E and going N from there, you'll reach a large pit with an angry dragon in it and a hunchback trying to feed him. Ignore them<sup>2</sup> and go N and W. Turn S into the first door. There's a fight in the SE corner that you can probably handle, if you want. Go W again and find the tortured Druid that the prisoner was talking about. `(U)se` *Bandage* or a healing spell on him to get a password. (The password is spoiled on the [map page](/dragon-wars/maps/phoeban-dungeon/), by the way.)
 
 > 2: If you prevent the hunchback `(p104)` from throwing the prisoner into the pit to feed the dragon, the dragon destroys Phoebus `(p89)` and everyone in it, dropping you back in Dilmun with no more Phoebus. I suppose if you're stuck and can't figure out else how to get out of the dungeon, this'll do it, but you lose Berengaria. On the other hand, maybe you're the kind of sicko that finds it entertaining to allow the prisoner to be tossed into the pit. I won't judge. Not where you can hear it, anyway.
 
@@ -335,7 +335,7 @@ Before you leave town, make sure you go back over to the Icarian Triumph to meet
 
 ### We're on the Road to Nowhere (Guard Bridge #2)
 
-Map: [Guard Bridge #2](maps/guard-bridge-2.md)
+Map: [Guard Bridge #2](/dragon-wars/maps/guard-bridge-2/)
 
 This bridge is much more heavily guarded than the first one was.
 
@@ -345,12 +345,12 @@ If you bump into any walls or do something dumb like try to *Pickpocket* the gua
 
 *H:Ice Chill* isn't as strong as *H:Fire Light* but it hits at 50', *S:Disarm Trap* will come in handy very soon (although it does the same thing as *H:Sense Traps*), and *S:Radiance* a higher range than *L:Mage Light* (meh). There's also another Healing Potion (*S:Heal*), a Runed Flail (1d20, +2 AV, +1 AC), a Grey Arrow (1d20), and $500, which is nice, because you can't sell these Healing Potions for some reason.
 
-> 3: The game doesn't handle the lock on this chest in the usual way — it works more like a [door](index.md#game-mechanics) — and as a result, it doesn't remember that you've looted this chest. You can come back an infinite number of times to get multiple copies of the loot. In particular, Healing Potions are great to have around (it's a zero-power healing spell that anybody can "cast"!) and if you're still using bows in the back line, you can't get any better than the Grey Arrows for damage. And if for some reason you need to farm gold, you can collect $500 and sell the Runed Flail for $1000.
+> 3: The game doesn't handle the lock on this chest in the usual way — it works more like a [door](/dragon-wars/#game-mechanics) — and as a result, it doesn't remember that you've looted this chest. You can come back an infinite number of times to get multiple copies of the loot. In particular, Healing Potions are great to have around (it's a zero-power healing spell that anybody can "cast"!) and if you're still using bows in the back line, you can't get any better than the Grey Arrows for damage. And if for some reason you need to farm gold, you can collect $500 and sell the Runed Flail for $1000.
 
 Now cross the bridge. You have two choices:
 
 - Refuse customs inspection; you have to fight off a bunch of Pikemen, but honestly if you can't take them out, you definitely won't be able to handle the next two battles, so this is the route I recommend.
-- Submit to customs inspection. They take the greater of $100 or 20% of your gold. If someone in your party has *Merchant* 2 they haggle their way out of it and you don't have to pay anything, but that's impossible because *Merchant* is an [easter egg](index.md#skills).
+- Submit to customs inspection. They take the greater of $100 or 20% of your gold. If someone in your party has *Merchant* 2 they haggle their way out of it and you don't have to pay anything, but that's impossible because *Merchant* is an [easter egg](/dragon-wars/#skills).
 
 On the N side of bridge, enter the Armory building, and get kicked out by a board official. The second time you go in, you'll have to fight off another batch of Pikemen. Cast either *H:Sense Traps* or *S:Disarm Trap*, then go through the door to the S and avoid falling in a pit. *Bandage* if you need to. Then pick up a lot of nice weapons in the next room, including a bunch of Dragon Stones. Give the Holy Mace to your #2 fighter, the Axe of Kalah to Ulrik, the Runed Flail to Louie, and the Gem Helm and Gauntlets (+2 AC each) to whoever needs them most. If you've been following along with this guide (and went to the Underworld when I told you to) the Firesword is now your fifth-best melee weapon:
 
@@ -370,11 +370,11 @@ When you're done, exit N. Lansk isn't *too* challenging, but if you're in need o
 
 ## Isle of Lansk
 
-Map: [Dilmun](maps/dilmun.md)
+Map: [Dilmun](/dragon-wars/maps/dilmun/)
 
 ### The Most Boring City in the World (Lansk)
 
-Map: [Lansk](maps/lansk.md)
+Map: [Lansk](/dragon-wars/maps/lansk/)
 
 The bridge drops you onto tiny little Isle of Lansk, on which there is only one point of interest, the city of Lansk.
 
@@ -402,7 +402,7 @@ p.s. For the sake of completeness, I'll note that the Governor's Pass is worth $
 
 ### Putting the "Fun" Back in "Funderworld" (Lansk Undercity)
 
-Maps: [Magan Underworld](maps/magan-underworld.md), [Lansk Undercity](maps/lansk-undercity.md)
+Maps: [Magan Underworld](/dragon-wars/maps/magan-underworld/), [Lansk Undercity](/dragon-wars/maps/lansk-undercity)
 
 You could very well decide to put your shiny new Governor's Pass to work right away and cross the bridge to Quag. But maybe you bribed the official at the Department of Lubrication and wondered where the stairs went. Or you noticed the dragon, remembered the hint from the Phoebus bartender, and figured there must be a basement level to Lansk just like there was in Phoebus. Or you already found the stairs up to Lansk from the Underworld and wanted to check it out. Either way, this is as good a time as any to visit the seedy undercity, since there's some story hints down here that will help us out once we hit Quag.
 
@@ -416,19 +416,19 @@ The SW corner has a statue of the Universal God `(p124)`, which tells you more a
 
 Rounding out the set, the SE corner has a statue of Enkidu `(p125)`, but you met (and wrestled) him already and the paragraph doesn't have anything new to add.
 
-The one thing you really need to do here is visit the dragon in the center of the city. The entrance is on the E side; there's a secret door in the interior part of the wall with a locked door behind it. It's a sad dragon `(p126)`, and apparently it has a boo-boo. `(U)se` a Healing Potion on it and it will give you the Dragon Gem. (You can also cast any healing spell, or buy an Ankh from the [Mud Toad souvenir shop](things-and-stuff.md#souvenir-shop) for $50 and `(U)se` that instead.)
+The one thing you really need to do here is visit the dragon in the center of the city. The entrance is on the E side; there's a secret door in the interior part of the wall with a locked door behind it. It's a sad dragon `(p126)`, and apparently it has a boo-boo. `(U)se` a Healing Potion on it and it will give you the Dragon Gem. (You can also cast any healing spell, or buy an Ankh from the [Mud Toad souvenir shop](/dragon-wars/things-and-stuff/#souvenir-shop) for $50 and `(U)se` that instead.)
 
-**Merchants**: On the E side, just N of the Underworld entrance there's a healer, N of that is an [armor shop](things-and-stuff.md#exeters-fine-shield-and-armors), and N of that is a [weapons shop](things-and-stuff.md#doctor-deaths-killing-and-maiming-emporium).
+**Merchants**: On the E side, just N of the Underworld entrance there's a healer, N of that is an [armor shop](/dragon-wars/things-and-stuff/#exeters-fine-shield-and-armors), and N of that is a [weapons shop](/dragon-wars/things-and-stuff#doctor-deaths-killing-and-maiming-emporium).
 
-On the W side, the S-most building is "closed", but you can go through the secret door in the NW corner and find a [Druid Magic shop](things-and-stuff.md#magic-inc) where you can buy *D:Cure All,* the best group-cure spell in the game. You can also buy a copy of *D:Create Wall* in case you didn't pick it up in Phoebus or have multiple Druid mages.
+On the W side, the S-most building is "closed", but you can go through the secret door in the NW corner and find a [Druid Magic shop](/dragon-wars/things-and-stuff/#magic-inc) where you can buy *D:Cure All,* the best group-cure spell in the game. You can also buy a copy of *D:Create Wall* in case you didn't pick it up in Phoebus or have multiple Druid mages.
 
-N of the magic shop is the [Ministry of EZ Paperwork](things-and-stuff.md#ministry-of-ez-paperwork), a shop where you can buy important papers like Citizenship Papers or the Governor's Pass. The "Kings Ticket" [sic] can be used on the N side by the docks to take a ferry to the Old Dock on King's Isle. It's a helpful backup in case you don't feel like dealing with large parties of Goblins near the Nexus, don't have *Arcane Lore*, don't feel like repeatedly enlisting in Buck Ironhead's army, or let the dragon destroy Phoebus. Talk about your "belt and suspenders".
+N of the magic shop is the [Ministry of EZ Paperwork](/dragon-wars/things-and-stuff/#ministry-of-ez-paperwork), a shop where you can buy important papers like Citizenship Papers or the Governor's Pass. The "Kings Ticket" [sic] can be used on the N side by the docks to take a ferry to the Old Dock on King's Isle. It's a helpful backup in case you don't feel like dealing with large parties of Goblins near the Nexus, don't have *Arcane Lore*, don't feel like repeatedly enlisting in Buck Ironhead's army, or let the dragon destroy Phoebus. Talk about your "belt and suspenders".
 
 Regardless of how you got here, go up the stairs to Lansk proper and exit the city; it's time to visit a new island. (Okay, if you already know what you're doing, you could go down to the Underworld, run over to the Mystic Wood, and take the Nexus to Quag if you want. I won't stop you.)
 
 ### You Can't Fight Here, This is the War Bridge
 
-Map: [War Bridge](maps/war-bridge.md)
+Map: [War Bridge](/dragon-wars/maps/war-bridge/)
 
 Enter the bridge from Lansk to Quag. The guard asks for your pass, and — here's a first! — will simply let you cross the bridge if you show it to him. Of course you can also just bull your way through, but Pikemen and Guards are kinda tough, and getting the pass in [Lansk](#the-most-boring-city-in-the-world-lansk) isn't all that hard. Or just buy one in the Undercity for $200.
 
@@ -438,7 +438,7 @@ If you're up for a bit of surreality, you can visit the Quag Information Bureau 
 
 ## Quag Isle
 
-Map: [Dilmun](maps/dilmun.md)
+Map: [Dilmun](/dragon-wars/maps/dilmun/)
 
 When you exit the bridge, you're on Quag. If anyone has *Forest Lore*, they'll notice that "something isn't right" about the woods ahead, which I guess is a hint (in case you walked around the Murk Tree on the War Bridge) that you're in for some weirdness.
 
@@ -456,11 +456,11 @@ The Murk Trees are in fixed locations, which means you can avoid most of them. A
 
 ### Follow the Yellow Mud Toad
 
-Map: [Mud Toad](maps/mud-toad.md)
+Map: [Mud Toad](/dragon-wars/maps/mud-toad/)
 
 "Perilously weakened", indeed `(p29)`. Except for the part where I took the Nexus to the Wood to the Underworld and recharged before I came in, amirite?
 
-Step through the gate and turn immediately E, skipping the nasty fight in front of you. Follow the wall with the right-hand rule. The first shop you come across is a healer, which you can ignore. The second one is the Lanac'toor memorabilia and [souvenir shop](things-and-stuff.md#souvenir-shop) `(p30)`, where you can buy Dragon Stones and sell off any excess stuff you have. You can also buy an Ankh here, which is one of several ways to get the Dragon Gem from the [Lansk dragon](#putting-the-fun-back-in-funderworld-lansk-undercity).
+Step through the gate and turn immediately E, skipping the nasty fight in front of you. Follow the wall with the right-hand rule. The first shop you come across is a healer, which you can ignore. The second one is the Lanac'toor memorabilia and [souvenir shop](/dragon-wars/things-and-stuff/#souvenir-shop) `(p30)`, where you can buy Dragon Stones and sell off any excess stuff you have. You can also buy an Ankh here, which is one of several ways to get the Dragon Gem from the [Lansk dragon](#putting-the-fun-back-in-funderworld-lansk-undercity).
 
 Cross the city to the N and enter the building opposite, which is the local tavern. Berengaria is in the NE corner of the room and he has some scrolls for you: *S:Rage of Mithras* (70' range!) and *S:Summon Salamander* (don't care) are unique, but you already have *S:Holy Aim*, *S:Armor of Light*, and *S:Major Healing* unless you're building two Sun mages. (You know, after all that, you'd think he would have something more to *say* to you. The scrolls are nice and all, but it feels like a little bit of a hollow plot arrow, y'know?)
 
@@ -480,19 +480,19 @@ There's one more thing to do on Quag, apart from not getting killed by Murk Tree
 
 ### Jumpin' Jack Flash (Mystic Wood, Magan Underworld)
 
-Maps: [Dilmun](maps/dilmun.md), [Mystic Wood](maps/mystic-wood.md), [Magan Underworld](maps/magan-underworld.md)
+Maps: [Dilmun](/dragon-wars/maps/dilmun/), [Mystic Wood](/dragon-wars/maps/mystic-wood), [Magan Underworld](/dragon-wars/maps/magan-underworld)
 
 Take the Nexus from Quag to the Mystic Wood. Go straight E (although there is a static combat along that path, so jog N if you want to avoid it) until you hit the lake and the place where it tells you that there's a simple shrine there. `(U)se` the Golden Boots to hop across the water. Approach the shrine, `(U)se` *Arcane Lore* for a hint `(p72)`, then sacrifice a drop of blood by `(U)sing` any weapon. (Even a Mace will work, but Ammunition won't.) Your reward is the Enkidu Totem, which you can use [much later](#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) in the game to avoid a big fight.
 
 If you didn't get the Mushrooms on a [previous visit](#isnt-it-good-mystic-wood) to the Mystic Wood, you should do so now. Later, after you find the [Magic College](#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college), you'll want to come back here to complete your collection of Druid Magic spells. But we can't do that yet. Instead, *Climb* down the well to the Underworld and head NW.
 
-Hopefully you've already spent some time exploring the [Underworld](maps/magan-underworld.md) – if not, this is a good time to do so – and found the island off the E shore of Irkalla's Realm. Now that you have the Golden Boots, head back to that point and `(U)se` the Boots to hop over to the Isle of Woe, where you'll find a hot chick in chains `(p137)`. Irkalla asks you to find the Silver Key and promises to help you defeat Namtar if you do. Now apart from Namtar, who is "the one creature who owes [Irkalla] no favors"? If you can't figure it out, there's a hint in [Exposition Cavern](maps/magan-underworld.md) and another one in the [Lansk Undercity](lansk-undercity.md). But the good news is we're going to end up visiting him next anyway.
+Hopefully you've already spent some time exploring the [Underworld](/dragon-wars/maps/magan-underworld/) – if not, this is a good time to do so – and found the island off the E shore of Irkalla's Realm. Now that you have the Golden Boots, head back to that point and `(U)se` the Boots to hop over to the Isle of Woe, where you'll find a hot chick in chains `(p137)`. Irkalla asks you to find the Silver Key and promises to help you defeat Namtar if you do. Now apart from Namtar, who is "the one creature who owes [Irkalla] no favors"? If you can't figure it out, there's a hint in [Exposition Cavern](/dragon-wars/maps/magan-underworld) and another one in the [Lansk Undercity](/dragon-wars/maps/lansk-undercity). But the good news is we're going to end up visiting him next anyway.
 
 Now you can head back to Quag via the Mystic Wood and the Nexus.
 
 ### Smuggler's Blues (Smuggler's Cove)
 
-Map: [Smuggler's Cove](maps/smugglers-cove.md)
+Map: [Smuggler's Cove](/dragon-wars/maps/smugglers-cove/)
 
 In the NE corner of Quag, there's a little peninsula hidden behind a couple of Murk Trees. At the end of that peninsula you'll find Smuggler's Cove.
 
@@ -500,7 +500,7 @@ The Cove is pretty tiny `(p39)`. N of where you enter you can find a statue of I
 
 On the opposite shore, S of Irkalla's statue, is a Serpent Swimmer you can fight (ow).
 
-Kick down the door to the tiny house in the W. Unlike the guard bridge we crossed a little while ago, you don't actually have the option to attack the pirates; if you kick down the door a second time, the game just repeats the message and kicks you out again. Your choices are to "speak their language" by `(U)sing` *Bureaucracy* or [*Merchant*](index.md#skills) (*sigh*), or "prove you're a thief" by `(U)sing` *Lockpick*, *Hiding*, or *Pickpocket*. In any case, offer at least $50 to get a much friendlier reaction `(p41)`. In particular, you learn a bit about Tars ("a ruined city on Forlorn" sounds familiar, eh?).
+Kick down the door to the tiny house in the W. Unlike the guard bridge we crossed a little while ago, you don't actually have the option to attack the pirates; if you kick down the door a second time, the game just repeats the message and kicks you out again. Your choices are to "speak their language" by `(U)sing` *Bureaucracy* or [*Merchant*](/dragon-wars/#skills) (*sigh*), or "prove you're a thief" by `(U)sing` *Lockpick*, *Hiding*, or *Pickpocket*. In any case, offer at least $50 to get a much friendlier reaction `(p41)`. In particular, you learn a bit about Tars ("a ruined city on Forlorn" sounds familiar, eh?).
 
 Don't try the door to the W: the pirates will fight to the (your) death, you can't take them (yet), and the game won't let you escape. We'll come back when we're better prepared. Instead take Ugly up on his offer, step through the door to the S, and board the boat to be whisked off to the Necropolis `(p43)`. (As a reminder, we first learned about the Necropolis from the statue of Nergal in the Lansk Undercity.)
 
@@ -508,7 +508,7 @@ Don't try the door to the W: the pirates will fight to the (your) death, you can
 
 ### All We Wanna Do is Eat Your Brains (The Necropolis)
 
-Map: [Necropolis](maps/necropolis.md)
+Map: [Necropolis](/dragon-wars/maps/necropolis/)
 
 Ugly drops you off at a boat dock on the N side of the map near the entrance, then turns around and leaves without you. You can walk around the outside of the building and exit in three directions, if you want to see the little islet that the Necropolis sits on and where it is in relation to Quag. (I might be the kind of completionist who wants to touch every square of the Dilmun auto-map. You might not be. I won't think any less of you.) But you can't go anywhere out there; your only way forward is in. Make sure you're healed up first, though.
 
@@ -548,7 +548,7 @@ If you've already killed Ugly and stolen his boat, the portal drops you back at 
 
 ## King's Isle
 
-Map: [Dilmun](maps/dilmun.md)
+Map: [Dilmun](/dragon-wars/maps/dilmun/)
 
 Your next set of destinations are all on King's Isle — watch out for large parties of Goblins — where you're going to learn more about what's happened to the royal family since Namtar showed up on the scene. There are three intertwined story lines to resolve here:
 
@@ -564,7 +564,7 @@ I'm going to do these in the order I listed above for two fairly innocuous reaso
 
 ### Le Roi est Mort (Bridge of Exiles, Snake Pit)
 
-Maps: [Bridge of Exiles](maps/bridge-of-exiles.md), [Snake Pit](maps/snake-pit.md)
+Maps: [Bridge of Exiles](/dragon-wars/maps/bridge-of-exiles/), [Snake Pit](/dragon-wars/maps/snake-pit)
 
 The Bridge in the SW corner of King's Isle is totally unguarded – not withstanding the large party of Goblins hanging out on King's blocking the E entrance – and there's nothing interesting here. The door to the W is one-way `(p50)`, so once you've stepped foot on the Isle of the Damned you won't be able to come back across the bridge.
 
@@ -588,7 +588,7 @@ Now we need to find a way out of here. The kid in the NE is insistent that no on
 
 ### This "Overcome by Powerful Magic" Thing is Getting Kind of Old (Kingshome)
 
-Maps: [Kingshome Dungeon](maps/kingshome-dungeon.md), [Kingshome](maps/kingshome.md)
+Maps: [Kingshome Dungeon](/dragon-wars/maps/kingshome-dungeon/), [Kingshome](/dragon-wars/maps/kingshome)
 
 It's not impossible to visit Kingshome without being thrown in the dungeon, but it is most likely how you ended up here for the first time.
 
@@ -615,7 +615,7 @@ When you're ready to leave, go S `(p130)`. The exit drops you on King's Isle; th
 
 ### Yo Dawg, Why You Gotta Front (Siege Camp)
 
-Map: [Siege Camp](maps/siege-camp.md) 
+Map: [Siege Camp](/dragon-wars/maps/siege-camp/) 
 
 There are two ways in to the siege camp:
 
@@ -630,13 +630,13 @@ To the E of the gate is a building with a free healer in it. E and S of there th
 
 The more useful loot is in the NE. From the healer, follow the E wall into the NE corner, then turn W. At the end of the hall is a Lance Sword (1d20 at 20', +1 AV) and a pair of Silver Gloves (+3 AC). The Lance Sword is part of the "weapons with reach" kit (Throw Mace, Axe of Kalah) if that's your thing; I've been using *L:Mage Fire* as a ranged weapon instead.
 
-Just S of that chest is the [Black Market](things-and-stuff.md#black-market-1). Usefully, you can buy Shields (+2 AC) and Large Shields (+3 AC, -2 AV) here, if you want to rebalance your AC/AV. But you can also wait until Freeport where Large Shields are much cheaper. I bought Shields for my back row just to bump their AC a little in case they find themselves in the front four.
+Just S of that chest is the [Black Market](/dragon-wars/things-and-stuff/#black-market-1). Usefully, you can buy Shields (+2 AC) and Large Shields (+3 AC, -2 AV) here, if you want to rebalance your AC/AV. But you can also wait until Freeport where Large Shields are much cheaper. I bought Shields for my back row just to bump their AC a little in case they find themselves in the front four.
 
 You're ready to hit the front; take the N exit, and accept the blessing of the Universal God in the name of Namtar. Uh, I guess. You don't really have a choice.
 
 ### The Siege of Byzanople
 
-Maps: [Siege Camp](maps/siege-camp.md), [Byzanople](maps/byzanople.md), [Byzanople Dungeon](maps/byzanople-dungeon.md)
+Maps: [Siege Camp](/dragon-wars/maps/siege-camp/), [Byzanople](/dragon-wars/maps/byzanople), [Byzanople Dungeon](/dragon-wars/maps/byzanople-dungeon)
 
 King Drake seems to be waging war against his children, Prince Jordan of Byzanople and his twin sisters, Myrilla and Myrolla. If you've been through Kingshome already, you may have learned some of the family history; and if you've been through the Snake Pit, you already know that Drake is dead. Of course if you came straight here from Phoebus, that was a massive spoiler. Sorry.
 
@@ -684,7 +684,7 @@ Once you climb the stairs, you're in the Byzanople courtyard. Lots of militia wi
 #### Side with Byzanople
 If you agree to join forces with the Prince `(p109)`, you get free run of the dungeon; in particular, the Byzanople treasure vault is one room over to the E, and it's now unguarded. *H:Dazzle* is new but not all that useful. *H:Big Chill* we have already. Aside from a bunch more Dragon Stones, you can pick up another Magic Chain and Magic Shield, although this one is only worth +3 AC.
 
-Climb the stairs to Byzanople. You'll be teleported from the top of the stairs (in the W part of the courtyard) to the secret passage (in the SE corner) to the Siege Camp `(p110)`. I recommend immediately following the passage back to Byzanople so you can explore the courtyard. Along the N side you'll find three shops: a healer, a [weaponsmith](things-and-stuff.md#barts-weaponsmith), and an [armorer](things-and-stuff.md#mariks-armory). The smith carries the Long Mace (1d20 at 20', +1 AV) and the Barbed Spear (thrown, 1d20 at 40'), both of which are unique<sup>5</sup> items. The armorer has Plate Mail and Large Shields if you want to rebalance some AV/AC. This is a great opportunity to clean our your inventory, and if you need to recharge Power you can also buy Dragon Stones here.
+Climb the stairs to Byzanople. You'll be teleported from the top of the stairs (in the W part of the courtyard) to the secret passage (in the SE corner) to the Siege Camp `(p110)`. I recommend immediately following the passage back to Byzanople so you can explore the courtyard. Along the N side you'll find three shops: a healer, a [weaponsmith](/dragon-wars/things-and-stuff/#barts-weaponsmith), and an [armorer](/dragon-wars/things-and-stuff#mariks-armory). The smith carries the Long Mace (1d20 at 20', +1 AV) and the Barbed Spear (thrown, 1d20 at 40'), both of which are unique<sup>5</sup> items. The armorer has Plate Mail and Large Shields if you want to rebalance some AV/AC. This is a great opportunity to clean our your inventory, and if you need to recharge Power you can also buy Dragon Stones here.
 
 > 5: Actually, a version of the Long Mace also appears in Freeport; Halifax comes with one, and you can buy one at the weaponsmith there. However, for some stupid reason, those versions of the "Long" Mace do less damage *and they don't have reach*, so they're kind of pointless.
 
@@ -694,11 +694,11 @@ Once you feel ready, follow the secret passage back to the Siege Camp. Walk arou
 
 At this point the stairs down to the Byzanople Dungeon will work again. I didn't mention this earlier, but there's a locked door just W of the foot of the stairs that leads to the Byzanople Crypt `(p111)`. The crypt is full of Zombies — who, inexplicably, are *not* susceptible to *S:Exorcism* — and the only treasure is a MagicAxe [sic], which is identical to the Magic Axe in the Kingshome dungeon. It's a good weapon and does a lot more damage than the Axe of Kalah, but it doesn't have reach and you probably only need one of them.
 
-Once you're ready to leave, go through the (now unlocked) gate and exit Byzanople to the S. Enter the Siege Camp; it's now empty, and you can exit it to the S as well to return to King's Isle. It's worth noting that the [Black Market](things-and-stuff.md#black-market-1) still works, as well as all the vendors in [Byzanople](things-and-stuff.md#byzanople) town square.
+Once you're ready to leave, go through the (now unlocked) gate and exit Byzanople to the S. Enter the Siege Camp; it's now empty, and you can exit it to the S as well to return to King's Isle. It's worth noting that the [Black Market](/dragon-wars/things-and-stuff/#black-market-1) still works, as well as all the vendors in [Byzanople](/dragon-wars/things-and-stuff#byzanople) town square.
 
 ### Rescuing Irkalla (Magan Underworld)
 
-Map: [Magan Underworld](maps/magan-underworld.md)
+Map: [Magan Underworld](/dragon-wars/maps/magan-underworld/)
 
 If the "A" plot is trying to stop Namtar from taking over the world, then the "B" plot has to do with the argument between Nergal and Irkalla. 
 
@@ -710,13 +710,13 @@ Make your way over to a Transportation Nexus, take it to the Mystic Wood, climb 
 
 ## The Eastern Isles
 
-Map: [Dilmun](maps/dilmun.md)
+Map: [Dilmun](/dragon-wars/maps/dilmun/)
 
 At this point you've explored most of the accessible portions of the Dilmun interior, so if Irkalla wants us to visit the Eastern Isles, this seems like as good a time as any. The trouble is, in order to get out there, we're going to need a boat. Now who do we know that has a boat that we might be able to beat up...?
 
 ### I'm on a Boat (Smuggler's Cove)
 
-Map: [Smuggler's Cove](maps/smugglers-cove.md)
+Map: [Smuggler's Cove](/dragon-wars/maps/smugglers-cove/)
 
 I warned you off trying to fight Ugly and his crew before; now that you have *S:Inferno*, it won't be quite so bad.
 
@@ -732,37 +732,37 @@ The boat gives you the option to travel to a couple of fun places that you can't
 
 ### I'm Free As A Bird Now (Freeport)
 
-Map: [Freeport](maps/freeport.md)
+Map: [Freeport](/dragon-wars/maps/freeport/)
 
 Having our own boat is kinda fun! Freeport is far enough out from the rest of the Isles `(p45)` that... oh, who are we kidding? This is a computer RPG. You're just a few map squares away. (You can leave the city and check out the island you're on and the world map, but there's nothing out there.) But it is a beautiful city `(p51)`, and it's refreshing to not be encumbered with the weight of Namtar... at least for a few minutes.
 
 There are some wandering encounters here. Town guards are easy enough to take out, but run from any Adventurers.
 
-[Ryan's Armor](things-and-stuff.md#ryans-armor) is pretty close to the dock, and Large Shields are a criminally cheap $100 each (which makes one think this might be a bug...) You can even buy more Heavy Plate, if you want. Slightly W of there is a healer, and [Freeport Arms](things-and-stuff.md#freeport-arms) is to the S. (Don't buy the Long Mace, this one does worse damage *and* doesn't have reach.)
+[Ryan's Armor](/dragon-wars/things-and-stuff/#ryans-armor) is pretty close to the dock, and Large Shields are a criminally cheap $100 each (which makes one think this might be a bug...) You can even buy more Heavy Plate, if you want. Slightly W of there is a healer, and [Freeport Arms](/dragon-wars/things-and-stuff/#freeport-arms) is to the S. (Don't buy the Long Mace, this one does worse damage *and* doesn't have reach.)
 
 Freeport's City Council `(p57)` meets on the W side of the city. Secretly, though, we already know what happened to King Drake (he died in exile in the Snake Pit) and his son Jordan (we helped him defeat Namtar's army in Byzanople... or you killed him).
 
 To the S of there, you find a spot `(p52)` where it looks like you can leap across to a small island with your Boots. Suddenly, the Sword of Freedom `(p27)` is your's — ARRGH, REALLY? DID THEY NOT KNOW HOW TO USE AN APOSTROPHE IN 1989? — for the taking. But waaaaaaait a minute... ozone? Didn't a bartender tell us [somewhere along the way](#rounding-out-the-party-phoebus) that Namtar had laid a trap for us in Freeport? Maybe we *shouldn't* touch the sword...
 
-(Okay, straight talk: The Sword is in fact a trap. If you step up and try to take it, it incinerates you. If you cast *H:Reveal Glamour* or a trap-detection spell, you see it for what it is. The problem is, both of these courses of action will scare the residents of the city, who have a bunch of folklore tied up in the existence of the Sword as described in paragraph #52. Play your cards wrong and they'll all flee in terror, turning Freeport into a ghost town. Worse yet, there's a bug in the programming here, so check out the [detailed map data](maps/freeport.md) if you want to know more about how to temporarily avoid that. Your best bet is just to not bother approaching the sword in the first place, although it's safe to use the island as a shortcut.)
+(Okay, straight talk: The Sword is in fact a trap. If you step up and try to take it, it incinerates you. If you cast *H:Reveal Glamour* or a trap-detection spell, you see it for what it is. The problem is, both of these courses of action will scare the residents of the city, who have a bunch of folklore tied up in the existence of the Sword as described in paragraph #52. Play your cards wrong and they'll all flee in terror, turning Freeport into a ghost town. Worse yet, there's a bug in the programming here, so check out the [detailed map data](/dragon-wars/maps/freeport/) if you want to know more about how to temporarily avoid that. Your best bet is just to not bother approaching the sword in the first place, although it's safe to use the island as a shortcut.)
 
-Instead of taking your chances on the Sword, hop to the S again, and in the SW part of the city you'll find [Bewitching Potions and Elixers](things-and-stuff.md#bewitching-potions-and-elixers), where you can buy Dragon Stones. To the E of there is [Magic, Inc](things-and-stuff.md#magic-inc). The only useful High Magic spell you don't already have is *H:Sala's Swift*, and that will get superseded by *M:Zak's Speed* shortly. (For the completionists, you probably also don't have *H:Mystic Might, H:Vorn's Guard,* or *H:Cowardice*. It's possible to pick up all three of those elsewhere, but this is the most convenient place to do it.) It's rather exciting to finally see a scroll of *D:Soften Stone*, but you'll pick up a copy for free in a minute so don't feel obligated to buy one right now.
+Instead of taking your chances on the Sword, hop to the S again, and in the SW part of the city you'll find [Bewitching Potions and Elixers](/dragon-wars/things-and-stuff/#bewitching-potions-and-elixers), where you can buy Dragon Stones. To the E of there is [Magic, Inc](/dragon-wars/things-and-stuff/#magic-inc). The only useful High Magic spell you don't already have is *H:Sala's Swift*, and that will get superseded by *M:Zak's Speed* shortly. (For the completionists, you probably also don't have *H:Mystic Might, H:Vorn's Guard,* or *H:Cowardice*. It's possible to pick up all three of those elsewhere, but this is the most convenient place to do it.) It's rather exciting to finally see a scroll of *D:Soften Stone*, but you'll pick up a copy for free in a minute so don't feel obligated to buy one right now.
 
 In the SE you'll find the Tars City Council in exile `(p56)`. Remember the [Tars Ruins](#shame-if-anything-were-to-happen-to-it-tars-ruins) on Forlorn, that had much harder-than-usual critters to fight? Now the game wants you to go back there and check out the [underground](#look-an-actual-dungeon-tars-underground). You may have done that already, but if you haven't, you should do it after we're done here. (It'll be a *lot* easier now.) The First Citizen also gives you a major hint: it might be possible to enlist the help of the dragons against Namtar.
 
-Going N from there along the narrow bridge on the E side of the city, you can find the bar where [Halifax](index.md#npcs) is hiding out, affectionately known as The Brews Brothers. I don't always go for puns, but _The Blues Brothers_ was a hilarious movie so I'll give the developers credit for this one. Halifax probably isn't worth adding to your party; your entire front line is probably Level 10 and all has DEX 20 by now, and he's neither of those. The barkeep's got some hints about the pieces of Lanac'toor's statue (one of which is here!), the Dwarves (you'll need *D:Soften Stone*), and (in conjunction with the Tars hint above) the Dragon Gem.
+Going N from there along the narrow bridge on the E side of the city, you can find the bar where [Halifax](/dragon-wars/#npcs) is hiding out, affectionately known as The Brews Brothers. I don't always go for puns, but _The Blues Brothers_ was a hilarious movie so I'll give the developers credit for this one. Halifax probably isn't worth adding to your party; your entire front line is probably Level 10 and all has DEX 20 by now, and he's neither of those. The barkeep's got some hints about the pieces of Lanac'toor's statue (one of which is here!), the Dwarves (you'll need *D:Soften Stone*), and (in conjunction with the Tars hint above) the Dragon Gem.
 
 (Translation of the Lanac'toor hint: the Broken City is the [Tars Underground](#look-an-actual-dungeon-tars-underground), the Broken Tomb is the [Necropolis](#all-we-wanna-do-is-eat-your-brains-the-necropolis), Broken Minds can be found in the [Snake Pit](#le-roi-est-mort-bridge-of-exiles-snake-pit), and Broken Swords is what you're about to do to the Order...)
 
 Just N of the bar is the Order of the Sword, which is a big fight. Don't screw around with these guys; blow them up with group-zap spells and pick off the survivors with your archer/mage. The Spell Staff (+5 AV, +8 AC) is an upgrade over the Ruby Dagger, the Stone Hands are the last piece of the Lanac'toor puzzle, *D:Soften Stone* is crucial, and we finally found *S:Charger*.
 
-You may be thinking that *S:Charger* isn't good for much beyond topping up your Healing Potions and maybe some other miscellaneous magical items, and you'd largely be right. But there are many more objects that you can *Charge* than you might think, including some [suits of armor](stuff-and-things.md#armor) and other objects that [have no business](index.md#weird-stuff) casting spells. In my opinion, though, the most interesting thing you can cast it on are **scrolls**. Give a scroll two charges, and now you can train two people with the same spell before it disappears. That may not seem super useful, but I bet you have two Druids that would be happy to learn *Soften Stone* right now... and if you stick around, there may just be an opportunity to use this hack again in your near future.
+You may be thinking that *S:Charger* isn't good for much beyond topping up your Healing Potions and maybe some other miscellaneous magical items, and you'd largely be right. But there are many more objects that you can *Charge* than you might think, including some [suits of armor](/dragon-wars/things-and-stuff/#armor) and other objects that [have no business](/dragon-wars/#weird-stuff) casting spells. In my opinion, though, the most interesting thing you can cast it on are **scrolls**. Give a scroll two charges, and now you can train two people with the same spell before it disappears. That may not seem super useful, but I bet you have two Druids that would be happy to learn *Soften Stone* right now... and if you stick around, there may just be an opportunity to use this hack again in your near future.
 
 That's it for Freeport. Let's go put Lanac'toor back together and put *D:Soften Stone* to good use; head back to Smugglers's Cove, and if you haven't picked up the Stone Arms yet, go get them from the [Tars Underground](#look-an-actual-dungeon-tars-underground).
 
 ### ...And See What's on the Slab (Lanac'toor's Laboratory)
 
-Map: [Laboratory](maps/lanactoor.md)
+Map: [Laboratory](/dragon-wars/maps/lanactoor/)
 
 Leave Smuggler's Cove, head S, kill a tree, head S again, circle around to the W, kill another tree, and enter Mud Toad. Go find Lanac'toor's statue and use the rest of the parts. The statue is repaired and stairs down into his laboratory are revealed; you gain 500 XP for doing so. The man himself is still dead, though; no fixing that in this game.
 
@@ -782,13 +782,13 @@ The useful things you get:
 - *M:Zak's Speed*, which grants +15 DEX
 - *M:Kill Ray*, zap 10d8 at 50'
 
-[Miscellaneous Magic](magic.md#miscellaneous-magic) spells have a pretty high point cost, but they can be taught to anyone with (at least) Low Magic, which at this point may very well be your entire party. Remember what I said about *S:Charger* a few minutes ago? Go hang out by the Refresh Pool, give the scrolls to your Sun Mage, *Charge* each scroll a bunch times, and then pass it around. Now everyone in your party has a long-range high-damage zap spell. Disposable items (like scrolls) will disappear when they go from `#1` to `#0`, so make sure you give it enough charges first.
+[Miscellaneous Magic](/dragon-wars/magic/#miscellaneous-magic) spells have a pretty high point cost, but they can be taught to anyone with (at least) Low Magic, which at this point may very well be your entire party. Remember what I said about *S:Charger* a few minutes ago? Go hang out by the Refresh Pool, give the scrolls to your Sun Mage, *Charge* each scroll a bunch times, and then pass it around. Now everyone in your party has a long-range high-damage zap spell. Disposable items (like scrolls) will disappear when they go from `#1` to `#0`, so make sure you give it enough charges first.
 
 Since we're heading to the Underworld anyway, go to the SE corner of the room and *Soften* the S wall. In the center of the 3x3 room there you'll find a one-way staircase down to the Magan Underworld. Casting *D:Create Wall* at the staircase will seal it up and remove all encounters (both fixed and wandering) from the lab, which is handy if you want to explore more but also prevents you from exiting that way. For the best of both worlds, stand on the staircase, hit `Esc` when it asks if you want to exit, and *then* cast *D:Create Wall*. You'll take care of the encounters and still be able to exit immediately.
 
 ### Killed H'self a B'ar When He Was Only Three (Game Preserve)
 
-Maps: [Dilmun](maps/dilmun.md), [Game Preserve](maps/game-preserve.md)
+Maps: [Dilmun](/dragon-wars/maps/dilmun/), [Game Preserve](/dragon-wars/maps/game-preserve)
 
 FYI, Rustic is a completely optional side trip – there's a few bits of story here, but nothing that you have to do in order to beat the game. You can skip the next three sections completely and [sail towards](#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley) the Sunken Ruins instead if you want; all you're really going to miss is some experience and a chance to complete your High Magic and Druid Magic libraries.
 
@@ -806,7 +806,7 @@ The only other thing the Game Preserve is good for is racking up XP, but the fig
 
 ### Not Far *Enough* Away, If You Ask Me (Scorpion Bridge, Magic College)
 
-Maps: [Scorpion Bridge](maps/scorpion-bridge.md), [Magic College](maps/magic-college.md)
+Maps: [Scorpion Bridge](/dragon-wars/maps/scorpion-bridge/), [Magic College](/dragon-wars/maps/magic-college)
 
 The rest of Rustic Isle is empty. You'll find the Scorpion Bridge in the SE corner `(p48)`, so named because of the two scorpion/person guardians. You don't want to rumble with these two. Instead, `(U)se` the Enkidu Totem and they'll let you pass. You have a two-square-wide path to choose from; stick to the N. When you enter the bridge you'll find a side tunnel to the N, at the end of which is another Magic Shield (+3 AC) and another Barbed Flail (1d30, +2 AC). These fights aren't too bad, but if you don't have the Totem, the fight with the guard scorpions can be brutal. Don't go down the side tunnel to the S; there's nothing there.
 
@@ -830,7 +830,7 @@ You can drop the Spectacles. Or, keep them; if you're a glutton for punishment, 
 
 ### Pepsi Brings Your Ancestors Back from the Dead (Mystic Wood)
 
-Map: [Mystic Wood](maps/mystic-wood.md)
+Map: [Mystic Wood](/dragon-wars/maps/mystic-wood/)
 
 Let's make good use of that Soul Bowl. From the Magic College, cross the Scorpion Bridge (a couple of fights there), go W, N, and E and back to your boat. Take it to Smuggler's Cove, fight off some trees, hit the Nexus on Quag, and return to the Mystic Wood. Head back to the Underworld if you need to recharge.
 
@@ -844,7 +844,7 @@ You can drop the Soul Bowl.
 
 ### For Death Awaits You All, With Nasty Big Pointy Teeth (Dragon Valley)
 
-Map: [Dragon Valley](maps/dragon-valley.md)
+Map: [Dragon Valley](/dragon-wars/maps/dragon-valley/)
 
 Take Ugly's boat to the **Sunken Ruins** `(p46)`. The Ruins are 1W 1N from your boat, but first we're going to Dragon Valley, which is 5W 1N.
 
@@ -881,7 +881,7 @@ If you don't need to pick up the Teeth or the Eyes for some reason, use this pat
 
 ### The Skull of Roba (Sunken Ruins)
 
-Maps: [Sunken Ruins Above](maps/sunken-ruins.md), [Sunken Ruins Below](maps/sunken-dungeon.md)
+Maps: [Sunken Ruins Above](/dragon-wars/maps/sunken-ruins/), [Sunken Ruins Below](/dragon-wars/maps/sunken-dungeon)
 
 You will need the Water[-breathing] Potion that you got for [rescuing Irkalla](#rescuing-irkalla-magan-underworld). If you're feeling a little tight on inventory space, consider bopping over to Freeport to sell some stuff before plunging into the Ruins.
 
@@ -905,7 +905,7 @@ You can drop the Water Potion, unless you want to go back for the scrolls and/or
 
 ### Everybody Must Get (Un)stoned (Dwarf Clan Hall)
 
-Maps: [Dilmun](maps/dilmun.md), [Dwarf Ruins](maps/dwarf-ruins.md), [Dwarf Clan Hall](maps/dwarf-clan-hall.md)
+Maps: [Dilmun](/dragon-wars/maps/dilmun/), [Dwarf Ruins](/dragon-wars/maps/dwarf-ruins), [Dwarf Clan Hall](/dragon-wars/maps/dwarf-clan-hall)
 
 Before we can visit the Dwarves in their Clan Hall we need to do a little magic. Head to King's Isle, either via the Nexus or the ferry from Lansk. Somewhere just S of the center of the island you'll come across some ruins. It's a small, open map with something that looks like a tunnel into the mountain behind it and a statue staring into it that's missing its eyes. (Josephine, the dwarf you met in Snake Pit, told you about this.) Fortunately, you took a pair of those off Ugly and his crew. `(U)se` the Jade Eyes on the statue to open the way down.
 
@@ -927,7 +927,7 @@ This is it: you're into the endgame, now. We've touched the entire map and done 
 
 ### Hickory Dickory Dock (Old Dock, Pilgrim Dock)
 
-Maps: [Dilmun](maps/dilmun.md), [Old Dock](maps/old-dock.md), [Pilgrim Dock](maps/pilgrim-dock.md)
+Maps: [Dilmun](/dragon-wars/maps/dilmun/), [Old Dock](/dragon-wars/maps/old-dock), [Pilgrim Dock](/dragon-wars/maps/pilgrim-dock)
 
 Once you're ready to climb Mount Salvation and go hunt down Namtar in the Nisir, head to the one place you (probably) haven't been yet: the humble-looking dock in the SE corner of King's Isle.
 
@@ -945,7 +945,7 @@ Assuming you beat the guards, there's a locked door (level 3) in the S of the do
 
 ### Salvation
 
-Map: [Salvation](maps/salvation.md)
+Map: [Salvation](/dragon-wars/maps/salvation/)
 
 If you walked out of the Pilgrim Dock, you're briefly back on the Dilmun world map between the Dock (to the N) and the mountain itself (to the S). The game will ask if you want to enter 'Nisir' – when you arrived at the Pilgrim Dock, paragraph #82 or #85 called it "Nisir, the Mountain of Salvation", which *definitely* clears things up, thanks – but once you arrive on the map it's labeled 'Salvation', so that's what I'm calling it here.
 
@@ -973,9 +973,9 @@ Proceed to the SE and find Namtar's tower `(p55)`. `(U)se` the Golden Boots to j
 
 ### Nisir
 
-Map: [Nisir](maps/nisir.md)
+Map: [Nisir](/dragon-wars/maps/nisir/)
 
-The Nisir is a giant dungeon — 32x32, making a nice bookend with Purgatory — that's hard to get around and has tons of nooks and crannies. The fights aren't much fun either; you'll do a lot of running. You can spend a long time just exploring the caverns, getting into an absolute ton of moderately difficult fights, and getting lost in spinners and teleporters (unless you spend a lot of time paying close attention to the automap). The silver lining is that there is no treasure down here and very little to actually *do*, even for the sake of the story, so unless you feel like crawling the whole dungeon and building your own map, we're going to take some shortcuts. If you want more details on the couple of places I'm skipping over, check the [maps directory](maps/nisir.md).
+The Nisir is a giant dungeon — 32x32, making a nice bookend with Purgatory — that's hard to get around and has tons of nooks and crannies. The fights aren't much fun either; you'll do a lot of running. You can spend a long time just exploring the caverns, getting into an absolute ton of moderately difficult fights, and getting lost in spinners and teleporters (unless you spend a lot of time paying close attention to the automap). The silver lining is that there is no treasure down here and very little to actually *do*, even for the sake of the story, so unless you feel like crawling the whole dungeon and building your own map, we're going to take some shortcuts. If you want more details on the couple of places I'm skipping over, check the [maps directory](/dragon-wars/maps/nisir/).
 
 Make sure everyone has the Dragon Teeth equipped; you'll need the ranged attack more than the Freedom Sword's raw damage, most of the time. A single Lich (casts *Ice Chill*) is usually pretty easy to take out at range. Young Dragons are hard and hurt a lot (2d4 breath weapon); one is doable, two is worth running from. Run from pretty much everything else. The real problem is that every random monster down here has highly variable Health (Liches: 24-156, Young Dragons: 40-420, etc) so you never really know how strong your opponent is until you've whacked them a few times.
 
@@ -1038,9 +1038,9 @@ The third time (around 900 HP) is the hardest. The 2d6 breath weapon is back and
 
 ### Endgame
 
-Map: [Magan Underworld](maps/magan-underworld.md)
+Map: [Magan Underworld](/dragon-wars/maps/magan-underworld/)
 
-Once you do manage to beat Namtar three times, you get to pick up his body. Doing so transports you to the [Magan Underworld](magan-underworld.md) near the Refresh Pool. You may also find that your wounds have been healed. Obviously, hit the Refresh Pool right away – I bet that feels good.
+Once you do manage to beat Namtar three times, you get to pick up his body. Doing so transports you to the [Magan Underworld](/dragon-wars/maps/magan-underworld/) near the Refresh Pool. You may also find that your wounds have been healed. Obviously, hit the Refresh Pool right away – I bet that feels good.
 
 2S of the Pool at the choke point is a battle with 30 Goblins, and these are about twice as tough as the normal ones. Block with your front line, blow all your magic on big group-zap spells (*S:Inferno, D:Fire Blast, H:Poog's Vortex*), and with a little luck you may wipe out the whole group of Goblins before they can stun anyone. Namtar is getting weaker (210–240 HP), so just clean him up and hit the Refresh Pool again afterwards.
 

@@ -43,7 +43,7 @@ The [**Classic Gaming** page](http://www.classicgaming.cc/pc/dragonwars/) on *Dr
 
 *Dragon Wars* is a classic CRPG that stands as the spiritual successor to the *Bard's Tale* series and one of my favorite CRPGs of all time. Some would call it "the missing *Bard's Tale IV*", although at this point that's a complete misnomer since the Bryan Fargo-led **inXile Entertainment** has released a very successful and very modern _BT4_ game. Highly recommended. But I digress.
 
-I'm assuming you've read the game's manual and the reference card; they'll give you the background story (although I'll recap it for you at the top of the [walkthrough](walkthrough)) and teach you how to move around and do stuff. It's worth noting (mostly because it didn't fit anywhere else) that many of the proper nouns in this game (Dilmun, Namtar, Nisir, Utnapishtim, etc.) are taken from Mesopotamian mythology and/or the Epic of Gilgamesh, which provides an interesting backdrop and helps explain the twists on the standard swords-and-sorcery epic-fantasy background story we're all accustomed to.
+I'm assuming you've read the game's manual and the reference card; they'll give you the background story (although I'll recap it for you at the top of the [walkthrough](/dragon-wars/walkthrough)) and teach you how to move around and do stuff. It's worth noting (mostly because it didn't fit anywhere else) that many of the proper nouns in this game (Dilmun, Namtar, Nisir, Utnapishtim, etc.) are taken from Mesopotamian mythology and/or the Epic of Gilgamesh, which provides an interesting backdrop and helps explain the twists on the standard swords-and-sorcery epic-fantasy background story we're all accustomed to.
 
 You'll also find a list of spells in the manual, but you won't need it because I've listed them all along with more information than is available there. You should also be aware that there are several red herrings and/or places where the manual is simply incorrect, whether intentional or not.
 
@@ -65,7 +65,7 @@ If this is your first time playing the game, I recommend taking the starter part
 
 ## Creating Characters
 
-Unlike many other CRPGs, *Dragon Wars* doesn't force you to roll dice, or at least, doesn't force you to hit the space bar a million times while it randomly generates statistics for you until you get ones that are high enough to make you happy. Instead, you start the game with very pedestrian statistics and 50 **character points** (hereafter **CP**) to distribute as you wish among your attributes and skills. This is a far less frustrating way to create characters, and will be familiar to those of you who played [*Wasteland*](../wasteland/index).
+Unlike many other CRPGs, *Dragon Wars* doesn't force you to roll dice, or at least, doesn't force you to hit the space bar a million times while it randomly generates statistics for you until you get ones that are high enough to make you happy. Instead, you start the game with very pedestrian statistics and 50 **character points** (hereafter **CP**) to distribute as you wish among your attributes and skills. This is a far less frustrating way to create characters, and will be familiar to those of you who played [*Wasteland*](/wasteland/).
 
 So let's talk about all the different ways you can spend CP. Throughout this section, numbers in [brackets] indicate the number of CP you need to spend to increase the attribute (or skill) by one level. If there are two numbers (mostly for magic skills), then the first number is the initial CP cost of level 1, and the second number is the CP cost of additional levels.
 
@@ -83,7 +83,7 @@ Attributes form the basic description of your character. Newly-generated charact
 
 **Secondary attributes** are derived from your primary attributes and (often) your equipment; you can't change them directly with CP.
 
-- **Power (POW)**: Equal to **SPR** x 2. This is your "mana" or "spell points" stat. Each spell you cast has a base Power cost. Some spells also allow you to spend more points; spending more Power gives you a more, well, *powerful* effect. Usually that means more damage or a longer duration; see the [spell descriptions](magic) for more on this.
+- **Power (POW)**: Equal to **SPR** x 2. This is your "mana" or "spell points" stat. Each spell you cast has a base Power cost. Some spells also allow you to spend more points; spending more Power gives you a more, well, *powerful* effect. Usually that means more damage or a longer duration; see the [spell descriptions](/dragon-wars/magic) for more on this.
 - **Stun**: *Dragon Wars* uses a two-tiered health system; Stun is separate from Health, but your maximum Stun is equal to your maximum **HP**. See the section on [Health and Stun](#health-and-stun).
 - **Armor Class (AC)**: In *Dragon Wars*, a high AC reduces the damage you take *after* an opponent hits you. It is quite possible to have a high enough AC that a successful hit does zero damage. Unsurprisingly, putting on armor increases your AC. Some other items, including some weapons, will also modify your AC.
 - **Attack Value (AV)**: Starts at **DEX** / 4 (round down). Increases your chance of hitting your opponent in combat. Also modified by weapons (usually up), heavy armor (usually down), and buff/debuff spells.
@@ -117,7 +117,7 @@ Your party has room for seven characters, but you can only create up to four. Em
 
 Characters 1–4 in the marching order are the only ones who can melee, so generally you'll want four fighting folk up front and three spell casters (and/or archers) behind them. Of the NPCs, **Ulrik** is an obvious choice for the front lines. **Louie** could swing either way (for a fighter, he's got a high SPR) but he doesn't start with any magic skills. **Valar** is already a great Sun mage. **Halifax** is a fighter, but he doesn't appear until super late in the game, and by the time you can pick him up you probably don't want to get rid of anyone else.
 
-That being said, creating two fighters and two mages is probably your best bet. The next question is, which magic skills should you take? There's not really a single correct answer to that; every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](walkthrough#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though, and you wouldn't be able to use the [*Air Summon* shortcut](walkthrough#take-the-shortcut) in the Nisir.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded so you definitely don't need your own Sun mage, but if you were going to double up on a school, this is the one I'd pick. There are two **Druid Magic** spells that are literally *required* in order to win the game, but because of that it's possible to pick it up in-game for free.
+That being said, creating two fighters and two mages is probably your best bet. The next question is, which magic skills should you take? There's not really a single correct answer to that; every school is useful, but every school can also be skipped at creation time. **High Magic** has the best early-game zap spells and there's no way to get access to it without building a PC with it, but you could live without it if you really wanted to. (The [Magic College](/dragon-wars/walkthrough/#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college) becomes unsolvable, though, and you wouldn't be able to use the [*Air Summon* shortcut](/dragon-wars/walkthrough/#take-the-shortcut) in the Nisir.) Valar comes with **Sun Magic** and a bunch of spells pre-loaded so you definitely don't need your own Sun mage, but if you were going to double up on a school, this is the one I'd pick. There are two **Druid Magic** spells that are literally *required* in order to win the game, but because of that it's possible to pick it up in-game for free.
 
 Okay, fine, you're here for opinions, here's mine: For a fresh party, I almost always take *High Magic* and *Druid Magic*. My High Mage sits in slot 5 with a high DEX, and they get the Gatlin Bow / Magic Quiver combo in the second half of the game. I pick up Valar early to round out the set, and Louie becomes a hybrid fighter/*Druid Mage* by wrestling Enkidu once he's ready. Having two PCs that can cast *D:Cure All* is no bad thing. But this is definitely not the only way to build a winning party.
 
@@ -412,14 +412,14 @@ When you're on defense, your armor reduces the damage you take. 1 point of AC re
 
 *Dragon Wars* has a complicated internal system for navigating the actions that monsters within an encounter are allowed to take during combat. I'll summarize it here, but if you want to see how it works in all its gory detail, you should go check out my [decompilation repository](https://github.com/fraterrisus/dragonwars-crack).
 
-Monsters pick their action each turn based on their **morale**, whether or not they've been **attacked** or **damaged**, and whether or not they're **in range** for a melee attack. In the "Bestiary" sections of the [map data](maps/) I've listed each individual monster's possible actions, but for the sake of simplicity I've left out any indication of which ones are most likely to happen. It's pretty common for the same action to exist multiple times in different flavors; the developers especially like changing the damage that melee attacks cause after the monster has been damaged.
+Monsters pick their action each turn based on their **morale**, whether or not they've been **attacked** or **damaged**, and whether or not they're **in range** for a melee attack. In the "Bestiary" sections of the [map data](/dragon-wars/maps/) I've listed each individual monster's possible actions, but for the sake of simplicity I've left out any indication of which ones are most likely to happen. It's pretty common for the same action to exist multiple times in different flavors; the developers especially like changing the damage that melee attacks cause after the monster has been damaged.
 
 For the purposes of this section, here are the combat actions that monsters can take:
 - A **melee** attack that deals damage; sometimes these only do Stun damage, and sometimes they only do Health damage. They may have more than a 10' range. Monster melee attacks use the same attack rolls as yours but they don't get bonus damage for high attributes. They also technically don't have equipment or "weapon skills", but they do have a DEX score and individual modifiers to AV and DV that work the same way, and they can be buffed or debuffed.
 - A **piercing** melee attack that ignores armor if it hits. This is the monster equivalent of Mighty Attack, kinda.
 - Monsters can **block** and **dodge** just like you, although dodging grants them +5 DV instead of +3.
 - Attempt to **flee** combat; this has a percentage chance of success that is hard-coded and not influenced by the party in any way.
-- Cast a **spell**, from the same [list](magic) that you pull from.
+- Cast a **spell**, from the same [list](/dragon-wars/magic/) that you pull from.
 - **Breath weapons** are very similar to group-zap spells — they hit everyone in the party, but the monster has to make a spell attack roll for each target and deals half damage on a miss.
 - Attempt to **call for help**; similar to fleeing, this has a percentage chance of success and also a maximum number of compatriots that can be summoned to their group.
 
@@ -451,11 +451,11 @@ If you're reading this section, then one of three things had better be true:
 
 If it's that last one, I'm going to ask you to seriously consider starting the game over from scratch before we proceed. Regardless, you're going to have to slog through another few paragraphs describing how terrible this process is before I tell you the actual answer. I have literally only ever gone through this process for the purposes of documenting how to do it; I was already in the Necropolis and someone died from a Ghoul bite, so I figured I'd try it out.
 
-Let's start with location. In order to resurrect a dead character you have to get to the [Necropolis](walkthrough#all-we-wanna-do-is-eat-your-brains-the-necropolis). Technically the Well of Souls is in the Underworld, not the Necropolis, but the building that houses it is immune to *D:Soften Stone*, so there's no access without going through the Necropolis.
+Let's start with location. In order to resurrect a dead character you have to get to the [Necropolis](/dragon-wars/walkthrough/#all-we-wanna-do-is-eat-your-brains-the-necropolis). Technically the Well of Souls is in the Underworld, not the Necropolis, but the building that houses it is immune to *D:Soften Stone*, so there's no access without going through the Necropolis.
 
 Of course, the only way to get to the Necropolis is by boat. I suppose you don't *have* to have beaten Ugly and his crew and taken his boat from him; you could just bribe him to take you there. Which is good, because that's a really hard battle even with a full party, and you're likely to lose somebody in that fight.
 
-If you don't happen to be on one of the Eastern Isles already, you have to pick up the boat at [Smuggler's Cove](walkthrough#smugglers-blues-smugglers-cove). Quag is infested with Murk Trees, and they're potentially deadly no matter how good your AC is. You have to fight off at least one group of them to get to the Cove, and there's a non-zero chance that you lose *another* PC in that fight.
+If you don't happen to be on one of the Eastern Isles already, you have to pick up the boat at [Smuggler's Cove](/dragon-wars/walkthrough/#smugglers-blues-smugglers-cove). Quag is infested with Murk Trees, and they're potentially deadly no matter how good your AC is. You have to fight off at least one group of them to get to the Cove, and there's a non-zero chance that you lose *another* PC in that fight.
 
 Even if you've already cleared the Necropolis once and you're coming back just to use the Well of Souls, you still have to fight off two really annoying Guardians. And, again, no using *D:Soften Stone* to skip the fights.
 
@@ -493,9 +493,9 @@ There's a few ameliorating edge cases here: if you use *Fistfighting* you don't 
 
 > 2: Having dug through the code, I'm convinced this is an off-by-one bug caused by a "greater-or-equal" check that should have been "greater than". If the back rank could use thrown weapons, I'd happily have my mages throw Bombs at nearby groups and then go back to casting spells without the need to ready a `(N)ew` weapon.
 
-Missile weapons are nice because you can get additional attacks from your back row, which is very helpful in the early game, but managing an inventory full of arrows gets annoying fast. Most quivers don't do very much damage, although you can exploit the [Bridge Bug](walkthrough#were-on-the-road-to-nowhere-guard-bridge-2) to acquire infinite Grey Arrows. On the other hand, the Gatlin Bow / Magic Quiver combination is amazingly deadly; you'll likely do more damage with that combo than any melee weapon all the way through the end of the game. My advice is to get bows for your back row as soon as possible (the Purgatory Arena, for example). Stop collecting arrows whenever you get sick of managing them, you find that your mages have better things to do, or you just need to free up the inventory slots.
+Missile weapons are nice because you can get additional attacks from your back row, which is very helpful in the early game, but managing an inventory full of arrows gets annoying fast. Most quivers don't do very much damage, although you can exploit the [Bridge Bug](/dragon-wars/walkthrough/#were-on-the-road-to-nowhere-guard-bridge-2) to acquire infinite Grey Arrows. On the other hand, the Gatlin Bow / Magic Quiver combination is amazingly deadly; you'll likely do more damage with that combo than any melee weapon all the way through the end of the game. My advice is to get bows for your back row as soon as possible (the Purgatory Arena, for example). Stop collecting arrows whenever you get sick of managing them, you find that your mages have better things to do, or you just need to free up the inventory slots.
 
-Melee weapons with 'reach' (i.e. a range greater than 10') are incredibly useful. You don't have to do anything special to activate the ranged attack; simply `(A)ttack` a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](things-and-stuff#weapons). Sometimes it makes sense to prioritize weapons with reach over weapons that do more raw damage at 10'. You may have different preferences or combat styles.
+Melee weapons with 'reach' (i.e. a range greater than 10') are incredibly useful. You don't have to do anything special to activate the ranged attack; simply `(A)ttack` a group of enemies that is more than 10' away (but hopefully closer than the maximum range of your melee weapon) and you will attack as normal. Note that some reach weapons do different damage at distance than they do at 10'; see the [weapon tables](/dragon-wars/things-and-stuff/#weapons). Sometimes it makes sense to prioritize weapons with reach over weapons that do more raw damage at 10'. You may have different preferences or combat styles.
 
 Also remember that some armor and weapons have additional magical actions that can be useful in combat. `(U)sing` the weapon during a combat round will activate the spell on your turn. For example, if you use the Druids Mace in combat, it casts *D:Cure All*, which coincidentally is the best group-heal spell in the game.
 
@@ -542,7 +542,7 @@ You also have the option of not picking up things in the first place. When prese
 
 The game generally does a nice job at providing equipment upgrades at the right time, instead of forcing you to buy them. I'll have you farm enough gold to buy your first round of equipment in Purgatory, but that's optional. After that you might not *buy* another piece of armor or weaponry until Freeport, which is almost two-thirds of the way through the game.
 
-When you do go to sell stuff, you can largely sell anything anywhere for half of its purchase price. The most useful places to sell things are the Purgatory Black Market, the Byzanople Siege Camp Black Market, and the Mud Toad souvenir shop. Several items have no purpose beyond their resale value; when in doubt, see the list of [Unique Items](things-and-stuff#unique-items). Keep in mind that selling something is similar to discarding it – once it leaves your inventory, it's gone. You can't buy back a unique item, even from the shop you sold it to.
+When you do go to sell stuff, you can largely sell anything anywhere for half of its purchase price. The most useful places to sell things are the Purgatory Black Market, the Byzanople Siege Camp Black Market, and the Mud Toad souvenir shop. Several items have no purpose beyond their resale value; when in doubt, see the list of [Unique Items](/dragon-wars/things-and-stuff/#unique-items). Keep in mind that selling something is similar to discarding it – once it leaves your inventory, it's gone. You can't buy back a unique item, even from the shop you sold it to.
 
 All of the other hint guides I've seen basically tell you to horde Dragon Stones as if they're the most precious resource on Oceana. I find this advice *ridiculous,* but that may be because I put so many points into *Bandage* that I'm not as reliant on magical healing. Because there are several spots where you can regenerate Power without using a Dragon Stone, I really only need them for deep dungeon dives. Also, you'll find Dragon Stones all over the place, and even if you don't, most of the good shops have them for sale and money will never really be an issue. So use a Stone whenever you want and don't worry about stuffing your mages' inventory full of them. Make sure you always have a handful, and if you can't remember where the last stash was, buy a few more.
 
@@ -552,7 +552,7 @@ Some random notes I've collected on my journeys through Dilmun...
 
 I mentioned this already under [Health and Stun](#health-and-stun), but I find the "target a slot, not a party member" thing to be very strange and also very annoying. "Hey, *you're* not Thog!"
 
-If you pay a healer for healing — and I've pretty much never done it except to test it out for the purpose of writing this guide — the game will automatically pool all of your gold with the first PC. *Dragon Wars* stores a character's gold haul in a four-byte number, meaning they can carry something like $4.3 billion before something bad happens, so unlike some other games I could name (**cough** *[Deathlord](../deathlord)* **cough**) this doesn't have any sort of destructive effect. It's just a little confusing the next time you go to look for who has all the gold in the party.
+If you pay a healer for healing — and I've pretty much never done it except to test it out for the purpose of writing this guide — the game will automatically pool all of your gold with the first PC. *Dragon Wars* stores a character's gold haul in a four-byte number, meaning they can carry something like $4.3 billion before something bad happens, so unlike some other games I could name (**cough** *[Deathlord](/deathlord/)* **cough**) this doesn't have any sort of destructive effect. It's just a little confusing the next time you go to look for who has all the gold in the party.
 
 In the manual, *S:Radiance* is listed as having a 40' range, while *L:Mage Light* (which lasts longer per point) doesn't have a range at all. In practice, the engine only ever draws three squares (ostensibly 30') of visibility regardless of whether you're in a naturally lit area or under magical light. (The Lantern, despite being a "mundane" light-providing item that you can buy in the Mud Toad souvenir shop, actually just casts *L:Mage Light*.) It would theoretically be possible to limit the viewport to a shorter range of light, but it wasn't implemented.
 
@@ -605,42 +605,42 @@ Some notes about these tables:
 - **STR** and **DEX** indicate the minimum values required to wield a weapon. If you ask a shop owner to `(E)xamine` an object, they'll tell you the item type and its base requirements. Of course, I've pulled this data directly from the data files instead.
 - Prices listed are the purchase price; sale price is 50% of that. Some items can't actually be purchased, so the purchase price listed here is simply 2x the sale price, if selling the item is possible. Scrolls aren't listed here, but they tend to sell for either $100 or $1000, or in some cases be unsellable. There's no rhyme or reason to it.
 
-- [Weapons](things-and-stuff#weapons)
-  - [Axes](things-and-stuff#axes)
-  - [Flails](things-and-stuff#flails)
-  - [Swords](things-and-stuff#swords)
-  - [Two-Handed Weapons](things-and-stuff#two-handed-weapons)
-  - [Maces](things-and-stuff#maces)
-  - [Bows](things-and-stuff#bows)
-  - [Crossbows](things-and-stuff#crossbows)
-  - [Guns](things-and-stuff#guns)
-  - [Ammunition](things-and-stuff#ammunition)
-  - [Thrown Weapons](things-and-stuff#thrown-weapons)
-- [Armor](things-and-stuff#armor)
-  - [Body Armor](things-and-stuff#body-armor)
-  - [Gloves](things-and-stuff#gloves)
-  - [Shields](things-and-stuff#shields)
-  - [Helms](things-and-stuff#helms)
-  - [Boots](things-and-stuff#boots)
-  - [Rings](things-and-stuff#rings)
-- [Unique Items](things-and-stuff#unique-items)
-- [Shops](things-and-stuff#shops)
-  - [Purgatory](things-and-stuff#purgatory)
-  - [Lansk Undercity](things-and-stuff#lansk-undercity)
-  - [Mud Toad](things-and-stuff#mud-toad)
-  - [Byzanople Siege Camp](things-and-stuff#byzanople-siege-camp)
-  - [Byzanople](things-and-stuff#byzanople)
-  - [Freeport](things-and-stuff#freeport)
+- [Weapons](/dragon-wars/things-and-stuff/#weapons)
+  - [Axes](/dragon-wars/things-and-stuff/#axes)
+  - [Flails](/dragon-wars/things-and-stuff/#flails)
+  - [Swords](/dragon-wars/things-and-stuff/#swords)
+  - [Two-Handed Weapons](/dragon-wars/things-and-stuff/#two-handed-weapons)
+  - [Maces](/dragon-wars/things-and-stuff/#maces)
+  - [Bows](/dragon-wars/things-and-stuff/#bows)
+  - [Crossbows](/dragon-wars/things-and-stuff/#crossbows)
+  - [Guns](/dragon-wars/things-and-stuff/#guns)
+  - [Ammunition](/dragon-wars/things-and-stuff/#ammunition)
+  - [Thrown Weapons](/dragon-wars/things-and-stuff/#thrown-weapons)
+- [Armor](/dragon-wars/things-and-stuff/#armor)
+  - [Body Armor](/dragon-wars/things-and-stuff/#body-armor)
+  - [Gloves](/dragon-wars/things-and-stuff/#gloves)
+  - [Shields](/dragon-wars/things-and-stuff/#shields)
+  - [Helms](/dragon-wars/things-and-stuff/#helms)
+  - [Boots](/dragon-wars/things-and-stuff/#boots)
+  - [Rings](/dragon-wars/things-and-stuff/#rings)
+- [Unique Items](/dragon-wars/things-and-stuff/#unique-items)
+- [Shops](/dragon-wars/things-and-stuff/#shops)
+  - [Purgatory](/dragon-wars/things-and-stuff/#purgatory)
+  - [Lansk Undercity](/dragon-wars/things-and-stuff/#lansk-undercity)
+  - [Mud Toad](/dragon-wars/things-and-stuff/#mud-toad)
+  - [Byzanople Siege Camp](/dragon-wars/things-and-stuff/#byzanople-siege-camp)
+  - [Byzanople](/dragon-wars/things-and-stuff/#byzanople)
+  - [Freeport](/dragon-wars/things-and-stuff/#freeport)
 
 ## Magic
 
 In *Dragon Wars*, spells are associated with a **school**:
 
-- [Low Magic](magic#low-magic)
-- [High Magic](magic#high-magic)
-- [Druid Magic](magic#druid-magic)
-- [Sun Magic](magic#sun-magic)
-- [Miscellaneous Magic](magic#miscellaneous-magic)
+- [Low Magic](/dragon-wars/magic/#low-magic)
+- [High Magic](/dragon-wars/magic/#high-magic)
+- [Druid Magic](/dragon-wars/magic/#druid-magic)
+- [Sun Magic](/dragon-wars/magic/#sun-magic)
+- [Miscellaneous Magic](/dragon-wars/magic/#miscellaneous-magic)
 
 You've probably already noticed that throughout this document, when I refer to spells, I prefix it with the first letter of the school. That should make it easier for you to remember who's got what spell, unless you decided having two Sun mages in your party was a good idea.
 
@@ -669,57 +669,57 @@ One more weird tip I'll leave you with: it *looks* like scrolls are single-use, 
 
 Moved to its own page for length, but here's a table of contents:
 
-- [Forlorn Isle](walkthrough#forlorn-isle)
-  - [Purgatory](walkthrough#purgatory)
-  - [Magan Underworld Highlights](walkthrough#magan-underworld-highlights)
-  - [Slave Mines](walkthrough#slave-mines)
-  - [Slave Camp](walkthrough#the-purgatory-day-spa-and-salon-slave-camp)
-  - [Phoebus](walkthrough#rounding-out-the-party-phoebus) (side trip)
-  - [Slave Estate](walkthrough#nice-island-ya-got-here-slave-estate)
-  - [Tars Ruins](walkthrough#shame-if-anything-were-to-happen-to-it-tars-ruins)
-  - [Tars Underground](walkthrough#look-an-actual-dungeon-tars-underground-)
-  - [Guard Bridge #1](walkthrough#guard-bridge-1)
-- [Isle of the Sun](walkthrough#isle-of-the-sun)
-  - [Mystic Wood](walkthrough#isnt-it-good-mystic-wood)
-  - [Phoebus](walkthrough#ss-is-the-key-combo-for-save-game-phoebus)
-  - [Phoeban Dungeon](walkthrough#ridden-out-of-town,-on-rails-phoeban-dungeon)
-  - [Guard Bridge #2](walkthrough#were-on-the-road-to-nowhere-guard-bridge-2)
-- [Isle of Lansk](walkthrough#isle-of-lansk)
-  - [Lansk](walkthrough#the-most-boring-city-in-the-world-lansk)
-  - [Lansk Undercity](walkthrough#putting-the-fun-back-in-funderworld-lansk-undercity)
-  - [War Bridge](walkthrough#you-cant-fight-here-this-is-the-war-bridge)
-- [Quag Isle](walkthrough#quag-isle)
-  - [Yellow Mud Toad](walkthrough#follow-the-yellow-mud-toad)
-  - [Mystic Wood, Magan Underworld](walkthrough#jumpin-jack-flash-mystic-wood-magan-underworld)
-  - [Smuggler's Cove](walkthrough#smugglers-blues-smugglers-cove)
-  - [The Necropolis](walkthrough#all-we-wanna-do-is-eat-your-brains-the-necropolis)
-- [King's Isle](walkthrough#kings-isle)
-  - [Bridge of Exiles, Snake Pit](walkthrough#le-roi-est-mort-bridge-of-exiles-snake-pit)
-  - [Kingshome](walkthrough#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome)
-  - [Siege Camp](walkthrough#yo-dawg-why-you-gotta-front-siege-camp)
-  - [Byzanople](walkthrough#the-siege-of-byzanople)
-  - [Magan Underworld](walkthrough#rescuing-irkalla-magan-underworld)
-- [The Eastern Isles](walkthrough#the-eastern-isles)
-  - [Smuggler's Cove](walkthrough#im-on-a-boat-smugglers-cove)
-  - [Freeport](walkthrough#im-free-as-a-bird-now-freeport)
-  - [Lanac'toor's Laboratory](walkthrough#and-see-whats-on-the-slab-lanactoorslaboratory)
-  - [Game Preserve](walkthrough#killed-hself-a-bar-when-he-was-only-three-game-preserve)
-  - [Scorpion Bridge, Magic College](walkthrough#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college)
-  - [Mystic Wood](walkthrough#pepsi-brings-your-ancestors-back-from-the-dead-mystic-wood)
-  - [Dragon Valley](walkthrough#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley)
-  - [Sunken Ruins](walkthrough#the-skull-of-roba-sunken-ruins)
-  - [Dwarf Ruins, Dwarf Clan Hall](walkthrough#everybody-must-get-unstoned-dwarf-clan-hall)
-- [Isle of Salvation](walkthrough#isle-of-salvation)
-  - [Old Dock, Pilgrim Dock](walkthrough#hickory-dickory-dock-old-dock-pilgrim-dock)
-  - [Salvation](walkthrough#salvation)
-  - [Nisir](walkthrough#nisir)
-  - [Endgame](walkthrough#endgame)
+- [Forlorn Isle](/dragon-wars/walkthrough/#forlorn-isle)
+  - [Purgatory](/dragon-wars/walkthrough/#purgatory)
+  - [Magan Underworld Highlights](/dragon-wars/walkthrough/#magan-underworld-highlights)
+  - [Slave Mines](/dragon-wars/walkthrough/#slave-mines)
+  - [Slave Camp](/dragon-wars/walkthrough/#the-purgatory-day-spa-and-salon-slave-camp)
+  - [Phoebus](/dragon-wars/walkthrough/#rounding-out-the-party-phoebus) (side trip)
+  - [Slave Estate](/dragon-wars/walkthrough/#nice-island-ya-got-here-slave-estate)
+  - [Tars Ruins](/dragon-wars/walkthrough/#shame-if-anything-were-to-happen-to-it-tars-ruins)
+  - [Tars Underground](/dragon-wars/walkthrough/#look-an-actual-dungeon-tars-underground-)
+  - [Guard Bridge #1](/dragon-wars/walkthrough/#guard-bridge-1)
+- [Isle of the Sun](/dragon-wars/walkthrough/#isle-of-the-sun)
+  - [Mystic Wood](/dragon-wars/walkthrough/#isnt-it-good-mystic-wood)
+  - [Phoebus](/dragon-wars/walkthrough/#ss-is-the-key-combo-for-save-game-phoebus)
+  - [Phoeban Dungeon](/dragon-wars/walkthrough/#ridden-out-of-town,-on-rails-phoeban-dungeon)
+  - [Guard Bridge #2](/dragon-wars/walkthrough/#were-on-the-road-to-nowhere-guard-bridge-2)
+- [Isle of Lansk](/dragon-wars/walkthrough/#isle-of-lansk)
+  - [Lansk](/dragon-wars/walkthrough/#the-most-boring-city-in-the-world-lansk)
+  - [Lansk Undercity](/dragon-wars/walkthrough/#putting-the-fun-back-in-funderworld-lansk-undercity)
+  - [War Bridge](/dragon-wars/walkthrough/#you-cant-fight-here-this-is-the-war-bridge)
+- [Quag Isle](/dragon-wars/walkthrough/#quag-isle)
+  - [Yellow Mud Toad](/dragon-wars/walkthrough/#follow-the-yellow-mud-toad)
+  - [Mystic Wood, Magan Underworld](/dragon-wars/walkthrough/#jumpin-jack-flash-mystic-wood-magan-underworld)
+  - [Smuggler's Cove](/dragon-wars/walkthrough/#smugglers-blues-smugglers-cove)
+  - [The Necropolis](/dragon-wars/walkthrough/#all-we-wanna-do-is-eat-your-brains-the-necropolis)
+- [King's Isle](/dragon-wars/walkthrough/#kings-isle)
+  - [Bridge of Exiles, Snake Pit](/dragon-wars/walkthrough/#le-roi-est-mort-bridge-of-exiles-snake-pit)
+  - [Kingshome](/dragon-wars/walkthrough/#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome)
+  - [Siege Camp](/dragon-wars/walkthrough/#yo-dawg-why-you-gotta-front-siege-camp)
+  - [Byzanople](/dragon-wars/walkthrough/#the-siege-of-byzanople)
+  - [Magan Underworld](/dragon-wars/walkthrough/#rescuing-irkalla-magan-underworld)
+- [The Eastern Isles](/dragon-wars/walkthrough/#the-eastern-isles)
+  - [Smuggler's Cove](/dragon-wars/walkthrough/#im-on-a-boat-smugglers-cove)
+  - [Freeport](/dragon-wars/walkthrough/#im-free-as-a-bird-now-freeport)
+  - [Lanac'toor's Laboratory](/dragon-wars/walkthrough/#and-see-whats-on-the-slab-lanactoorslaboratory)
+  - [Game Preserve](/dragon-wars/walkthrough/#killed-hself-a-bar-when-he-was-only-three-game-preserve)
+  - [Scorpion Bridge, Magic College](/dragon-wars/walkthrough/#not-far-enough-away-if-you-ask-me-scorpion-bridge-magic-college)
+  - [Mystic Wood](/dragon-wars/walkthrough/#pepsi-brings-your-ancestors-back-from-the-dead-mystic-wood)
+  - [Dragon Valley](/dragon-wars/walkthrough/#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley)
+  - [Sunken Ruins](/dragon-wars/walkthrough/#the-skull-of-roba-sunken-ruins)
+  - [Dwarf Ruins, Dwarf Clan Hall](/dragon-wars/walkthrough/#everybody-must-get-unstoned-dwarf-clan-hall)
+- [Isle of Salvation](/dragon-wars/walkthrough/#isle-of-salvation)
+  - [Old Dock, Pilgrim Dock](/dragon-wars/walkthrough/#hickory-dickory-dock-old-dock-pilgrim-dock)
+  - [Salvation](/dragon-wars/walkthrough/#salvation)
+  - [Nisir](/dragon-wars/walkthrough/#nisir)
+  - [Endgame](/dragon-wars/walkthrough/#endgame)
 
 ## Appendices
 
 Now that you've beaten Namtar – actually, you can do this any time you want – you can start over by reloading the game and indicating at the prompt that you want to `(B)egin` a new game instead of `(C)ontinuing` your old one. You keep your party as-is, including character levels, attributes, spells, and any NPCs you've picked up, but (as happens when you get dumped into Purgatory) not including any of your equipment.
 
-The reason I didn't mention this until all the way down here in the Appendix is that you can pretty easily cheat by recycling the +5 CP [Irkalla](walkthrough#magan-underworld-highlights) bonus as many times as you like. All you have to do is start a new game, work your way over to the Apsu Waters, visit Irkalla's Realm, and step over the rail. It's a good way to get magic skills for your front line fighters; one trip gets a skill point in Low Magic, two more trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. You can build up extremely strong "level 1" characters from nothing this way and just breeze through the first half of the game.
+The reason I didn't mention this until all the way down here in the Appendix is that you can pretty easily cheat by recycling the +5 CP [Irkalla](/dragon-wars/walkthrough/#magan-underworld-highlights) bonus as many times as you like. All you have to do is start a new game, work your way over to the Apsu Waters, visit Irkalla's Realm, and step over the rail. It's a good way to get magic skills for your front line fighters; one trip gets a skill point in Low Magic, two more trips equals your first skill point in Sun Magic, and seven high-point *S:Infernos* will go a long way. You can build up extremely strong "level 1" characters from nothing this way and just breeze through the first half of the game.
 
 Otherwise, every map (mostly) resets every time you leave it, so the only other thing that starting a new game does is reset all the *global* state bits (looted chests, unique encounters like the Humbaba, etc). If you drop a unique quest item, though, this may be your only choice.
 
@@ -874,19 +874,19 @@ The lowest-level characters with which I've ever beaten the game (without multip
 
 Much of the contents of this guide are based off of work I did to rip apart, decompile, and reassemble the data files from the IBM PC version of *Dragon Wars*. If you want to peek over my shoulder and see what I did, you should check out [my GitHub repository](https://github.com/fraterrisus/dragonwars-crack). There's a fairly extensive `doc/` directory in that repo with notes on the data format, and the Gradle file can be used to generate a number of `jars` that will decompile the data files for you.
 
-I've also written up more extensive notes for each board alongside hand-drawn maps based on that decompliation work in the [`maps`](maps/) directory; you can check those out for more spoilers, or just use the maps.
+I've also written up more extensive notes for each board alongside hand-drawn maps based on that decompliation work in the [`maps`](/dragon-wars/maps/) directory; you can check those out for more spoilers, or just use the maps.
 
 ### The Speed Run
 
 *Dragon Wars* is a fairly non-linear RPG; you're not really restricted in what order you visit the various cities and dungeons, except that in some cases if you try to go to one that you're not sufficiently equipped for, you can find yourself stuck and unable to get out of where you are. But that's why you're backing up your save files, right?
 
-My [walkthrough](walkthrough) touches every location and tries to tell the game's entire story, but you certainly don't have to do all of that in order to win. If all you're interested in is getting through the game with the minimum amount of work, then this section is for you!
+My [walkthrough](/dragon-wars/walkthrough) touches every location and tries to tell the game's entire story, but you certainly don't have to do all of that in order to win. If all you're interested in is getting through the game with the minimum amount of work, then this section is for you!
 
-In theory, the only object that you literally cannot win the game without is the Golden Boots. It's impossible to get into the Nisir otherwise. So, head to [Mud Toad](walkthrough#follow-the-yellow-mud-toad) and plug up the leak, then visit the temple to get the Boots. First problem: if you're starting from scratch and don't already have a complete collection of spells, you need a copy of *D:Create Wall* to plug up the leak. That's easy enough to acquire from the Lansk Undercity, which is accessible from the Underworld.
+In theory, the only object that you literally cannot win the game without is the Golden Boots. It's impossible to get into the Nisir otherwise. So, head to [Mud Toad](/dragon-wars/walkthrough/#follow-the-yellow-mud-toad) and plug up the leak, then visit the temple to get the Boots. First problem: if you're starting from scratch and don't already have a complete collection of spells, you need a copy of *D:Create Wall* to plug up the leak. That's easy enough to acquire from the Lansk Undercity, which is accessible from the Underworld.
 
-Okay, so we get the Golden Boots. Then we climb [Salvation](walkthrough#salvation) via the Underworld, use the Boots to jump the chasm, fall into [Nisir](walkthrough#nisir), and track down Namtar. Problem number two: you can't actually navigate the Nisir if you don't have *D:Soften Stone*. That requires a trip out to Freeport, and *that* requires you to kill Ugly and his crew so you can steal his boat.
+Okay, so we get the Golden Boots. Then we climb [Salvation](/dragon-wars/walkthrough/#salvation) via the Underworld, use the Boots to jump the chasm, fall into [Nisir](/dragon-wars/walkthrough/#nisir), and track down Namtar. Problem number two: you can't actually navigate the Nisir if you don't have *D:Soften Stone*. That requires a trip out to Freeport, and *that* requires you to kill Ugly and his crew so you can steal his boat.
 
-Furthermore, once you actually find Namtar, I'm still not entirely convinced that it's possible to develop characters strong enough to defeat his army. You can't block breath weapons no matter how much armor you have. So in practice, you're going to need the Brood Queen's help. That means a stop at the Lansk Undercity for the Dragon Gem, stealing the boat, and navigating [Dragon Valley](walkthrough#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley).
+Furthermore, once you actually find Namtar, I'm still not entirely convinced that it's possible to develop characters strong enough to defeat his army. You can't block breath weapons no matter how much armor you have. So in practice, you're going to need the Brood Queen's help. That means a stop at the Lansk Undercity for the Dragon Gem, stealing the boat, and navigating [Dragon Valley](/dragon-wars/walkthrough/#for-death-awaits-you-all-with-nasty-big-pointy-teeth-dragon-valley).
 
 And frankly, it's just not practical to try to beat the game without any equipment at all. You're going to get hit in battle and there's no way you have enough Health to absorb all that damage without a bunch of armor. And if you don't have any good weapons, you'll need an infinite supply of Dragon Stones to power seven strong Sun Mages blowing *S:Inferno* all over the place.
 

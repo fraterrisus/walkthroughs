@@ -1,6 +1,6 @@
 # Byzanople Dungeon
 
-[![map](byzanople-dungeon.svg)](byzanople-dungeon.svg)
+{% map-svg 'dragon-wars', 'Byzanople Dungeon' %}
 
 Apologies for the idiotic way this map is aligned; the developers clearly wanted it to line up with the Byzanople map (despite being a more appropriate 16x15 instead of Byzanople's unnecessary 16x16). As a result, the map wraps needlessly.
 
@@ -8,7 +8,7 @@ Of course, you'll need **light** and a **compass** down here.
 
 ## Exits
 
-The only actual exit from this map is the stairs at (06,09) that take you up to [Byzanople](byzanople.md) (06,09). Technically you can also reverse course if you came down into one of the tunnels (09,01) or (07,03).
+The only actual exit from this map is the stairs at (06,09) that take you up to [Byzanople](/dragon-wars/maps/byzanople) (06,09). Technically you can also reverse course if you came down into one of the tunnels (09,01) or (07,03).
 
 ## Points of Interest
 

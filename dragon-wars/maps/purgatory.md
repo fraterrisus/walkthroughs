@@ -1,6 +1,6 @@
 # Purgatory
 
-[![map](purgatory.svg)](purgatory.svg)
+{% map-svg 'dragon-wars', 'Purgatory' %}
 
 The map where you start the game (20,13), although you'll come back here a number of times as well.
 
@@ -10,13 +10,13 @@ Whenever you wander inside a building (anything with a roof), there's a 1 in 100
 
 Which side of the map you exit from determines where you end up:
 
-- South or East: [Dilmun](dilmun.md) (13,02), on the southern peninsula of Forlorn near the recharge pool. Note that this means it's possible to exit through the secret door, walk all the way around to the NE corner of the map, exit E, and end up on the opposite side of the bay. (This doesn't set the "friendly Slave Camp" bit, though.)
+- South or East: [Dilmun](/dragon-wars/maps/dilmun) (13,02), on the southern peninsula of Forlorn near the recharge pool. Note that this means it's possible to exit through the secret door, walk all the way around to the NE corner of the map, exit E, and end up on the opposite side of the bay. (This doesn't set the "friendly Slave Camp" bit, though.)
 
-- North: [Dilmun](dilmun.md) (15,05) – This really ought to be (13,05), but there's a programming bug.
+- North: [Dilmun](/dragon-wars/maps/dilmun) (15,05) – This really ought to be (13,05), but there's a programming bug.
 
-- West: [Dilmun](dilmun.md) (12,04)
+- West: [Dilmun](/dragon-wars/maps/dilmun) (12,04)
 
-There's also the **Apsu Waters** (07,12), which will take you to the [Magan Underworld](magan-underworld.md) at (13,04).
+There's also the **Apsu Waters** (07,12), which will take you to the [Magan Underworld](/dragon-wars/maps/magan-underworld) at (13,04).
 
 ## Points of Interest
 
@@ -24,9 +24,9 @@ There's also the **Apsu Waters** (07,12), which will take you to the [Magan Unde
 
 **Tavern (25,27):** There are some Drunks outside, but you can add Ulrik to your party here.
 
-[**Low Magic Shoppe**](../things-and-stuff.md#magic-shoppe) **(03,22)**: Free scrolls make great items to sacrifice to Irkalla.
+[**Low Magic Shoppe**](/dragon-wars/things-and-stuff/#magic-shoppe) **(03,22)**: Free scrolls make great items to sacrifice to Irkalla.
 
-[**Black Market**]((../things-and-stuff.md#black-market)) **(12,30):** A useful source of early-game equipment and/or cash.
+[**Black Market**](/dragon-wars/things-and-stuff/#black-market) **(12,30):** A useful source of early-game equipment and/or cash.
 
 **Town Healer (29,27):** Charges $4/hp.
 
@@ -50,7 +50,7 @@ There's also the **Apsu Waters** (07,12), which will take you to the [Magan Unde
 
 **The Morgue (31,10):** The easiest way to escape Purgatory. Use *Hiding* or *DEX* to hide in one of the body bags; everyone in the party makes a Strength check against 1d20 or takes 1d10 damage. This sets character flag `0x40` which marks you as a friend of the Slave Camp, and sends you immediately to Dilmun (13,02).
 
-**The Slave Market (11,26):** A lousy way to escape Purgatory. Sell yourself into slavery and you're sent to the [Slave Mines](slave-mines.md) (07,08). If you have any summoned creatures in your party, they're banished.
+**The Slave Market (11,26):** A lousy way to escape Purgatory. Sell yourself into slavery and you're sent to the [Slave Mines](/dragon-wars/maps/slave-mines) (07,08). If you have any summoned creatures in your party, they're banished.
 
 **Secret Door #1 (30,25):** Just south of the Healer there's a secret door that lets you into the City Walls. Head south from there (and fight off some guards) and you'll find the Hole in the Wall.
 

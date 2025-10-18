@@ -1,6 +1,6 @@
 # Dwarf Clan Hall
 
-[![map](dwarf-clan-hall.svg)](dwarf-clan-hall.svg)
+{% map-svg 'dragon-wars', 'Dwarf Clan Hall' %}
 
 A grim underground habitat for a clan of dwarves who had an unfortunate run-in with a Gorgon, and have now all been petrified. True to their Tolkien-esque roots, the dwarves are unparalleled smiths and inventors; make friends with them (and boldly walk through a few secret doors) and you'll get to share in their talents.
 
@@ -10,9 +10,9 @@ It is *not* marked as wrapping, which means if you use *D:Soften Stone* to break
 
 ## Exits
 
-(14,08): Stairs up to the [Ruins](dwarf-ruins.md) (00,04)
+(14,08): Stairs up to the [Ruins](/dragon-wars/maps/dwarf-ruins) (00,04)
 
-(14,00): Stairs down to the [Underworld](magan-underworld.md) (10,21)
+(14,00): Stairs down to the [Underworld](/dragon-wars/maps/magan-underworld) (10,21)
 
 ## Points of Interest
 
@@ -20,7 +20,7 @@ If you start out by reanimating the clan, all the combat down here goes away.
 
 **The Crystal Wall (09,08):** There's an impassable but invisible barrier here that separates the dwarven forge from the rest of the Clan Hall. However, *D:Soften Stone* works just fine down here, so it's trivial to work around it. Or you can just take the stairs up from the Underworld.
 
-**The Forge (05,08):** If you bring the smiths the **Skull of Roba**, they will turn it into the Sword of Freedom (which you can go pick up on the [Isle of Woe](magan-underworld.md)).
+**The Forge (05,08):** If you bring the smiths the **Skull of Roba**, they will turn it into the Sword of Freedom (which you can go pick up on the [Isle of Woe](/dragon-wars/maps/magan-underworld)).
 
 **The Gorgon (09,04):** If you revive the dwarves without stealing from them, this combat disappears. There's nothing else in the southern half of the map (except a little bit of useless color text) so it's safe to skip this.
 

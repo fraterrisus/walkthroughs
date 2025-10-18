@@ -12,25 +12,25 @@ Perhaps obviously, these maps contain spoilers: not just what you'll find and wh
 
 One random note: in a few cases, in order to avoid cluttering the map any more than necessary, teleporter paths (grey dotted lines) sometimes "wrap" around from one side of the map to the other.
 
-1. [Skara Brae](svg/skara-brae.svg)
-2. [The Wine Cellar](svg/wine-cellar.svg)
-3. The Sewers
-  - [Level 1](svg/sewers-1.svg)
-  - [Level 2](svg/sewers-2.svg)
-  - [Level 3](svg/sewers-3.svg)
-4. The Catacombs
-  - [Level 1](svg/catacombs-1.svg)
-  - [Level 2](svg/catacombs-2.svg)
-  - [Level 3](svg/catacombs-3.svg)
-5. Harkyn's Castle
-  - [Level 1](svg/harkyn-1.svg)
-  - [Level 2](svg/harkyn-2.svg)
-  - [Level 3](svg/harkyn-3.svg)
-6. [Kylearan's Tower](svg/kylearan.svg)
-7. Mangar's Castle
-  - [Level 1](svg/mangar-1.svg)
-  - [Level 2](svg/mangar-2.svg)
-  - [Level 3](svg/mangar-3.svg)
-  - [Level 4](svg/mangar-4.svg)
-  - [Level 5](svg/mangar-5.svg)
+- [Skara Brae](/bards-tale-1/svg/skara-brae.svg)
+- [The Wine Cellar](/bards-tale-1/svg/wine-cellar.svg)
+- The Sewers
+  - [Level 1](/bards-tale-1/svg/sewers-1.svg)
+  - [Level 2](/bards-tale-1/svg/sewers-2.svg)
+  - [Level 3](/bards-tale-1/svg/sewers-3.svg)
+- The Catacombs
+  - [Level 1](/bards-tale-1/svg/catacombs-1.svg)
+  - [Level 2](/bards-tale-1/svg/catacombs-2.svg)
+  - [Level 3](/bards-tale-1/svg/catacombs-3.svg)
+- Harkyn's Castle
+  - [Level 1](/bards-tale-1/svg/harkyn-1.svg)
+  - [Level 2](/bards-tale-1/svg/harkyn-2.svg)
+  - [Level 3](/bards-tale-1/svg/harkyn-3.svg)
+- [Kylearan's Tower](/bards-tale-1/svg/kylearan.svg)
+- Mangar's Castle
+  - [Level 1](/bards-tale-1/svg/mangar-1.svg)
+  - [Level 2](/bards-tale-1/svg/mangar-2.svg)
+  - [Level 3](/bards-tale-1/svg/mangar-3.svg)
+  - [Level 4](/bards-tale-1/svg/mangar-4.svg)
+  - [Level 5](/bards-tale-1/svg/mangar-5.svg)
 

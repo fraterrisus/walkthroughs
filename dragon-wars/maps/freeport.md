@@ -1,6 +1,6 @@
 # Freeport
 
-[![map](freeport.svg)](freeport.svg)
+{% map-svg 'dragon-wars', 'Freeport' %}
 
 The last holdout from Namtar's rule... mostly because it's literally the furthest away.
 
@@ -8,7 +8,7 @@ Random encounters with nasty Adventurers abound (1 in 100).
 
 ## Exits
 
-If you exit the city on foot, you can explore the small [island](dilmun.md) that Freeport sits on, but there's nothing out there and the only way off this island is the Boat Dock (14,14).
+If you exit the city on foot, you can explore the small [island](/dragon-wars/maps/dilmun) that Freeport sits on, but there's nothing out there and the only way off this island is the Boat Dock (14,14).
 
 ## Points of Interest
 
@@ -16,13 +16,13 @@ Note: If Freeport has been evacuated, the shops are all closed and the City Coun
 
 **Town Healer (03,16):** Costs $4 per point of Health.
 
-**[Ryan's Armor](../things-and-stuff.md#ryans-armor) (05,14):** For no apparent reason, **Large Shields** (+3 AC, -2 AV, STR 12) only cost $100 here instead of the usual $1000.
+**[Ryan's Armor](/dragon-wars/things-and-stuff/#ryans-armor) (05,14):** For no apparent reason, **Large Shields** (+3 AC, -2 AV, STR 12) only cost $100 here instead of the usual $1000.
 
-**[Freeport Arms](../things-and-stuff.md#freeport-arms) (04,09):** Whatever you do, *don't* buy the **Long Mace** (1d12, +1 AV, STR 15) here, because it doesn't have the same stats (including reach) as the one you find in Byzanople.
+**[Freeport Arms](/dragon-wars/things-and-stuff/#freeport-arms) (04,09):** Whatever you do, *don't* buy the **Long Mace** (1d12, +1 AV, STR 15) here, because it doesn't have the same stats (including reach) as the one you find in Byzanople.
 
-**[Bewitching Potions and Elixirs](../things-and-stuff.md#bewitching-potions-and-elixirs) (03,01):** Nothing but **Dragon Stones**.
+**[Bewitching Potions and Elixirs](/dragon-wars/things-and-stuff/#bewitching-potions-and-elixirs) (03,01):** Nothing but **Dragon Stones**.
 
-**[Magic Inc.](../things-and-stuff.md#magic-inc) (07,01):** Several useful High Magic scrolls, plus spare copies of *D:Soften Stone*.
+**[Magic Inc.](/dragon-wars/things-and-stuff/#magic-inc) (07,01):** Several useful High Magic scrolls, plus spare copies of *D:Soften Stone*.
 
 **Brews Brothers (14,07):** You can pick up Halifax here, along with several important hints from the bartender.
 

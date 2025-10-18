@@ -1,6 +1,6 @@
 # Phoeban Dungeon
 
-[![map](phoeban-dungeon.svg)](phoeban-dungeon.svg)
+{% map-svg 'dragon-wars', 'Phoeban Dungeon' %}
 
 After your little encounter with Mystalvision, you're dropped into a jail cell. However, you'll have a chance to exact your revenge sooner than you think...
 
@@ -8,7 +8,7 @@ After your little encounter with Mystalvision, you're dropped into a jail cell. 
 
 Your jail cell is at (12,03).
 
-The stairs back up to [Phoebus](phoebus.md) are at (01,13), behind the Cave-In.
+The stairs back up to [Phoebus](/dragon-wars/maps/phoebus) are at (01,13), behind the Cave-In.
 
 ## Places of Interest
 
@@ -24,7 +24,7 @@ To slip past the guards, go to (10,05) and use *Hide*. Or, step boldly forward a
 
 **The Treasure Vault (03,14):** Contains the **Blow Horn** (*D:Whirl Wind*), **Magic Ring** (+2 AC, +1 AV, *D:Whirl Wind*), and the **Magic Quiver** (1d4, auto-refills itself).
 
-**Dinnertime for Dragons (13,13):** A hunchback is trying to feed Phoebus's dragon with a prisoner (paragraph #104). If you let him, the dragon falls asleep. If you don't let him, the dragon breaks his chains (paragraph #89) and permanently destroys Phoebus and the Dungeon; you travel to [Dilmun](dilmun.md) (05,10).
+**Dinnertime for Dragons (13,13):** A hunchback is trying to feed Phoebus's dragon with a prisoner (paragraph #104). If you let him, the dragon falls asleep. If you don't let him, the dragon breaks his chains (paragraph #89) and permanently destroys Phoebus and the Dungeon; you travel to [Dilmun](/dragon-wars/maps/dilmun) (05,10).
 
 **The Torture Chamber (06,11):** You rescue the druid that's being tortured (paragraph #106); if you *Bandage* or heal him, he croaks out the password to the Magic Mouth, `HALIFAX`.
 

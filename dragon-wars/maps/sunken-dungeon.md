@@ -1,12 +1,12 @@
 # Sunken Ruins (below)
 
-[![map](sunken-dungeon.svg)](sunken-dungeon.svg)
+{% map-svg 'dragon-wars', 'Sunken Dungeon' %}
 
 Another small, wrapping dungeon map with a spinner, much like the Tars Dungeon. You'll need **light** and a **compass**.
 
 ## Exits
 
-(05,03): Stairs up to the [upper level](sunken-ruins.md) (05,04).
+(05,03): Stairs up to the [upper level](/dragon-wars/maps/sunken-ruins) (05,04).
 
 ## Points of Interest
 

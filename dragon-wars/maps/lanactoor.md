@@ -1,6 +1,6 @@
 # Lanac'toor's Laboratory
 
-[![map](lanactoor.svg)](lanactoor.svg)
+{% map-svg 'dragon-wars', 'Lanactoor' %}
 
 A mystical place, just as badly flooded as Mud Toad and even more confusingly laid out.
 
@@ -8,9 +8,9 @@ Wandering monsters abound (1 in 25). Also, it's **dark** down here and you need 
 
 ## Exits
 
-(07,09): Stairs up to [Mud Toad](mud-toad.md).
+(07,09): Stairs up to [Mud Toad](/dragon-wars/maps/mud-toad).
 
-(02,12): Stairs down to the [Underworld](magan-underworld.md).
+(02,12): Stairs down to the [Underworld](/dragon-wars/maps/magan-underworld).
 
 ## Points of Interest
 
@@ -20,7 +20,7 @@ Wandering monsters abound (1 in 25). Also, it's **dark** down here and you need 
 
 **The Underworld Portal (02,12):** You can obviously use this to travel to the Underworld. But if you stand back and cast *D:Create Wall* at it, the portal is sealed up and all encounters (both wandering and fixed) are eliminated. You won't be able to *D:Soften Stone* the portal if you change your mind, though.
 
-**Lanac'toor's Inner Sanctum (00,00 and thereabouts):** There's a 4x4 room straddling the corners of the map that contains Lanac'toor's treasures. At (14,00) you'll find a **Healing Potion** (*S:Major Healing*), the **Battle Wand** (*S:Battle Power*), and the **Dragon Shield** (+5 AC, STR 10). **Lanac'toor's Spectacles** are at (00,15); they'll get you into the [Magic College](magic-college.md). Finally, there are several interesting scrolls at (01,15): *L:Mage Fire, S:Fire Storm, S:Sun Stroke, H:Dazzle, M:Zak's Speed*, and *M:Kill Ray*.
+**Lanac'toor's Inner Sanctum (00,00 and thereabouts):** There's a 4x4 room straddling the corners of the map that contains Lanac'toor's treasures. At (14,00) you'll find a **Healing Potion** (*S:Major Healing*), the **Battle Wand** (*S:Battle Power*), and the **Dragon Shield** (+5 AC, STR 10). **Lanac'toor's Spectacles** are at (00,15); they'll get you into the [Magic College](/dragon-wars/maps/magic-college). Finally, there are several interesting scrolls at (01,15): *L:Mage Fire, S:Fire Storm, S:Sun Stroke, H:Dazzle, M:Zak's Speed*, and *M:Kill Ray*.
 
 ## Bestiary
 

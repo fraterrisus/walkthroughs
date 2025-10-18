@@ -6,7 +6,7 @@ toc:
 ---
 # Bestiary
 
-Similar to the [Equipment](equipment.md) list, the monsters in this list are divided into categories based on what types of weapons are most effective against them. For example, the Dragonslayer does double damage against everything in the "Dragons" category. This data was obtained from a binary dump of the disk images, so it should be accurate, but there are definitely some inconsistencies.
+Similar to the [Equipment](/deathlord/equipment) list, the monsters in this list are divided into categories based on what types of weapons are most effective against them. For example, the Dragonslayer does double damage against everything in the "Dragons" category. This data was obtained from a binary dump of the disk images, so it should be accurate, but there are definitely some inconsistencies.
 
 One extra bit of weirdness: no one has ever reported seeing a Doom Golem or a Safir in the wild. That makes a tidy 127 unique monsters (accounting for two Guards with the same stats but different icons)... but it's still weird that there are entries for two monsters that don't exist.
 
@@ -16,7 +16,7 @@ One extra bit of weirdness: no one has ever reported seeing a Doom Golem or a Sa
 
 **Damage**, like on the Equipment list, is listed as the maximum random value. If the monster gets multiple attacks, the damage rating is prefixed with (for example) `2x`.
 
-**Hit** is the monster's combat ability; this number goes into their to-hit rolls, as described in the section on [Combat Basics](index.md#combat-basics).
+**Hit** is the monster's combat ability; this number goes into their to-hit rolls, as described in the section on [Combat Basics](/deathlord/#combat-basics).
 
 **HD** is a *relative*, not exact, measure of hit points; HD stands for Hit Dice in old AD&D terminology, although there it was 1–8 per HD and here it appears to be 1–7 per HD.
 

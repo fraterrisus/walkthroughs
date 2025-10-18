@@ -1,6 +1,6 @@
 # Snake Pit
 
-{% map-svg 'Snake Pit' %}
+{% map-svg 'dragon-wars', 'Snake Pit' %}
 
 A lovely little vacation home for the criminally insane (or, at least, those who will become insane after being declared criminals by Namtar...)
 

@@ -1,6 +1,6 @@
 # Slave Estate
 
-{% map-svg 'Slave Estate' %}
+{% map-svg 'dragon-wars', 'Slave Estate' %}
 
 Slaveholder Mog isn't an important figure in any way, although he will show up (posthumously) later on down the line. This map mostly serves as a gateway between the Slave Mines below and Forlorn, although the Magic Lamp is a nice piece of kit.
 

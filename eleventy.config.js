@@ -14,8 +14,8 @@ export default async function(eleventyConfig) {
     return sass.compileString(code).css;
   });
 
-  eleventyConfig.addShortcode("map-svg", function(name) {
-    const src = `/dragon-wars/maps/${slugify(name)}.svg`;
+  eleventyConfig.addShortcode("map-svg", function(game, name) {
+    const src = `/${game}/svg/${slugify(name)}.svg`;
     const alt = `Map of ${name}`;
     return `<a href="${src}">
   <picture>
@@ -28,7 +28,7 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("pool-of-radiance/walkthrough.txt");
-  eleventyConfig.addPassthroughCopy("**/*.svg");
+  eleventyConfig.addPassthroughCopy("**/svg/*.svg");
 
   eleventyConfig.addPlugin(IdAttributePlugin);
   eleventyConfig.addPlugin(TocPlugin, {ul: true});

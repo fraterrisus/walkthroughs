@@ -1,6 +1,6 @@
 # Sunken Ruins (above)
 
-{% map-svg 'Sunken Ruins' %}
+{% map-svg 'dragon-wars', 'Sunken Ruins' %}
 
 ## Exits
 

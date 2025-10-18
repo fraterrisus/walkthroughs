@@ -1,6 +1,6 @@
 # Slave Camp
 
-{% map-svg 'Slave Camp' %}
+{% map-svg 'dragon-wars', 'Slave Camp' %}
 
 There are two paths through the Slave Camp. If you can get the residents [on your side](/dragon-wars/walkthrough/#the-purgatory-day-spa-and-salon-slave-camp), you get to explore the camp and meet everybody. If not, the camp is empty except for a few nasty spirits.
 

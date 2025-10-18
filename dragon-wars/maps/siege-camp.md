@@ -1,6 +1,6 @@
 # Siege Camp
 
-{% map-svg 'Siege Camp' %}
+{% map-svg 'dragon-wars', 'Siege Camp' %}
 
 ## Exits
 

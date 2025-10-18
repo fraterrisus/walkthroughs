@@ -1,6 +1,6 @@
 # Byzanople Dungeon
 
-{% map-svg 'Byzanople Dungeon' %}
+{% map-svg 'dragon-wars', 'Byzanople Dungeon' %}
 
 Apologies for the idiotic way this map is aligned; the developers clearly wanted it to line up with the Byzanople map (despite being a more appropriate 16x15 instead of Byzanople's unnecessary 16x16). As a result, the map wraps needlessly.
 

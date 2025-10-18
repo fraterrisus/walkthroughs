@@ -1,6 +1,6 @@
 # War Bridge
 
-{% map-svg 'War Bridge' %}
+{% map-svg 'dragon-wars', 'War Bridge' %}
 
 Simple enough, if you have the Governor's Pass from Lansk. Just watch out for the Murk Tree.
 

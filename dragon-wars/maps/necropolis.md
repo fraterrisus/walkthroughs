@@ -1,6 +1,6 @@
 # Necropolis
 
-{% map-svg 'Necropolis' %}
+{% map-svg 'dragon-wars', 'Necropolis' %}
 
 Nergal's summer palace, aka where he hangs out when Irkalla's angry at him.
 

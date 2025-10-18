@@ -1,6 +1,6 @@
 # Dilmun
 
-{% map-svg 'Dilmun' %}
+{% map-svg 'dragon-wars', 'Dilmun' %}
 
 The overworld map through which your party will adventure.
 

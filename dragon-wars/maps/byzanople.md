@@ -1,6 +1,6 @@
 # Byzanople
 
-{% map-svg 'Byzanople' %}
+{% map-svg 'dragon-wars', 'Byzanople' %}
 
 ## Exits
 

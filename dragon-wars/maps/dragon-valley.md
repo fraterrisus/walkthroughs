@@ -1,6 +1,6 @@
 # Dragon Valley
 
-{% map-svg 'Dragon Valley' %}
+{% map-svg 'dragon-wars', 'Dragon Valley' %}
 
 The home of the fearsome Dragon Queen, who also happens to be your ticket to defeating Namtar's army.
 

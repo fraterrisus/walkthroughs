@@ -1,6 +1,6 @@
 # Bridge of Exiles
 
-{% map-svg 'Bridge of Exiles' %}
+{% map-svg 'dragon-wars', 'Bridge of Exiles' %}
 
 The most straightforward board in the entire game. No monsters, just a one-way door and a bunch of screaming.
 

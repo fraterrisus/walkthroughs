@@ -1,6 +1,6 @@
 # Scorpion Bridge
 
-{% map-svg 'Scorpion Bridge' %}
+{% map-svg 'dragon-wars', 'Scorpion Bridge' %}
 
 Connects Rustic Isle to the island with the Magic College.
 

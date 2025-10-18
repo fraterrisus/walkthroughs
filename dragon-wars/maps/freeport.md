@@ -1,6 +1,6 @@
 # Freeport
 
-{% map-svg 'Freeport' %}
+{% map-svg 'dragon-wars', 'Freeport' %}
 
 The last holdout from Namtar's rule... mostly because it's literally the furthest away.
 

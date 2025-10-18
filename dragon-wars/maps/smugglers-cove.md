@@ -1,6 +1,6 @@
 # Smuggler's Cove
 
-{% map-svg "Smuggler's Cove" %}
+{% map-svg 'dragon-wars', "Smuggler's Cove" %}
 
 Home base for Ugly and his crew of pirates, and the good ship *Prairie Madness* which you'll eventually steal.
 

@@ -1,6 +1,6 @@
 # Old Dock
 
-{% map-svg 'Old Dock' %}
+{% map-svg 'dragon-wars', 'Old Dock' %}
 
 A transit point for multiple ferries, but you probably won't come here until you're ready to take on Namtar.
 

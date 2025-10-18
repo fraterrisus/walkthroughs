@@ -1,6 +1,6 @@
 # Kingshome
 
-{% map-svg 'Kingshome' %}
+{% map-svg 'dragon-wars', 'Kingshome' %}
 
 Namtar is holed up in Drake's old chambers. He's a tired old man, er, demon, er thing. Regardless, there's no one to actually fight here, so feel free to explore the place.
 

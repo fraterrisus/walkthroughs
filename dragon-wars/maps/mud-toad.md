@@ -1,6 +1,6 @@
 # Yellow Mud Toad
 
-{% map-svg 'Mud Toad' %}
+{% map-svg 'dragon-wars', 'Mud Toad' %}
 
 A sinking, rotting, falling-apart old city, and yet one that marks a pivotal "mid-game" milestone. You find the Golden Boots here, which opens up a bunch of previously inaccessible locations.
 

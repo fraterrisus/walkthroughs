@@ -1,6 +1,6 @@
 # Magic College
 
-{% map-svg 'Magic College' %}
+{% map-svg 'dragon-wars', 'Magic College' %}
 
 Utnapishtim the Faraway welcomes(?) you to his college of magical trickery. I almost didn't bother drawing a map for this one, because it's not particularly useful.
 

@@ -1,6 +1,6 @@
 # Guard Bridge #1
 
-{% map-svg 'Guard Bridge #1' %}
+{% map-svg 'dragon-wars', 'Guard Bridge #1' %}
 
 Allows passage between Forlorn and Isle of the Sun, but you won't get there without some hassle.
 

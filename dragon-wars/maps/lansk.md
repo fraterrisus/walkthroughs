@@ -1,6 +1,6 @@
 # Lansk
 
-{% map-svg 'Lansk' %}
+{% map-svg 'dragon-wars', 'Lansk' %}
 
 Dust off your *Bureaucracy* skill, we're going hunting for paperwork! (Actually, you won't need that skill at all.)
 

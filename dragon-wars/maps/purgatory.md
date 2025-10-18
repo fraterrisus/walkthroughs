@@ -1,6 +1,6 @@
 # Purgatory
 
-{% map-svg 'Purgatory' %}
+{% map-svg 'dragon-wars', 'Purgatory' %}
 
 The map where you start the game (20,13), although you'll come back here a number of times as well.
 

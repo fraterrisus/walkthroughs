@@ -1,6 +1,6 @@
 # Lanac'toor's Laboratory
 
-{% map-svg 'Lanactoor' %}
+{% map-svg 'dragon-wars', 'Lanactoor' %}
 
 A mystical place, just as badly flooded as Mud Toad and even more confusingly laid out.
 

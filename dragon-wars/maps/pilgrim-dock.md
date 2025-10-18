@@ -1,6 +1,6 @@
 # Pilgrim Dock
 
-{% map-svg 'Pilgrim Dock' %}
+{% map-svg 'dragon-wars', 'Pilgrim Dock' %}
 
 You join a throng of pilgrims (paragraph #82) all making their way up to Mount Salvation. I hope you brought your Pilgrim Robes, or are prepared to fight off a bunch of Stosstrupen.
 

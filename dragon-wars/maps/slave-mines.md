@@ -1,6 +1,6 @@
 # Slave Mines
 
-{% map-svg 'Slave Mines' %}
+{% map-svg 'dragon-wars', 'Slave Mines' %}
 
 Possibly the most obvious way to exit Purgatory, but far from the easiest way to reach freedom. You're stripped of your equipment and chained, which makes combat really hard. In essence this board is one large puzzle: you need to break your chains, find your equipment, and defeat the guards to get out of here.
 

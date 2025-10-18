@@ -1,6 +1,6 @@
 # Sunken Ruins (below)
 
-{% map-svg 'Sunken Dungeon' %}
+{% map-svg 'dragon-wars', 'Sunken Dungeon' %}
 
 Another small, wrapping dungeon map with a spinner, much like the Tars Dungeon. You'll need **light** and a **compass**.
 

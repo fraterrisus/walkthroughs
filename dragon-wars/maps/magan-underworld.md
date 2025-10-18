@@ -1,6 +1,6 @@
 # Magan Underworld
 
-{% map-svg 'Magan Underworld' %}
+{% map-svg 'dragon-wars', 'Magan Underworld' %}
 
 The Underworld serves as a map that joins several places "Topside" (i.e. in Dilmun), as well as the place you'll come to during the endgame to defeat Namtar for the last time. You can use it to scoot between the various islands, but beware: the monsters down here are "late game" tough, so early on in the game you'll want to run from almost everything.
 

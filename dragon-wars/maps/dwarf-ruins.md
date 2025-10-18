@@ -1,6 +1,6 @@
 # Dwarf Ruins
 
-{% map-svg 'Dwarf Ruins' %}
+{% map-svg 'dragon-wars', 'Dwarf Ruins' %}
 
 ## Exits
 

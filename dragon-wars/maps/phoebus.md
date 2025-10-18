@@ -1,6 +1,6 @@
 # Phoebus
 
-{% map-svg 'Phoebus' %}
+{% map-svg 'dragon-wars', 'Phoebus' %}
 
 Home of Mystalvision, the High Priest of the Temple of the Sun and chief Sun Mage.
 

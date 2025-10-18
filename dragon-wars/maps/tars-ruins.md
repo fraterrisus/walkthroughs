@@ -1,6 +1,6 @@
 # Tars Ruins
 
-{% map-svg 'Tars Ruins' %}
+{% map-svg 'dragon-wars', 'Tars Ruins' %}
 
 A ruined city, destroyed by dragons. Random (1 in 100) and fixed encounters abound.
 

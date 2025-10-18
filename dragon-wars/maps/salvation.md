@@ -1,6 +1,6 @@
 # Salvation
 
-{% map-svg 'Salvation' %}
+{% map-svg 'dragon-wars', 'Salvation' %}
 
 The destination of many a pilgrim's trek, and your first step towards the endgame.
 

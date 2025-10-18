@@ -1,6 +1,6 @@
 # Lansk Undercity
 
-{% map-svg 'Lansk Undercity' %}
+{% map-svg 'dragon-wars', 'Lansk Undercity' %}
 
 The dirtier, nastier, deadlier, and more fun version of Lansk. Filled with just as many black market shops as you'd expect.
 

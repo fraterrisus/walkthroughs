@@ -1,6 +1,6 @@
 # Game Preserve
 
-{% map-svg 'Game Preserve' %}
+{% map-svg 'dragon-wars', 'Game Preserve' %}
 
 Plenty of random encounters (1 in 33), and even more traps. It's worth running a trap-detection spell while you're here.
 

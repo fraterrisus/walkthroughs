@@ -1,6 +1,6 @@
 # Tars Ruins
 
-[![map](tars-ruins.svg)](tars-ruins.svg)
+{% map-svg 'Tars Ruins' %}
 
 A ruined city, destroyed by dragons. Random (1 in 100) and fixed encounters abound.
 
@@ -8,9 +8,9 @@ A ruined city, destroyed by dragons. Random (1 in 100) and fixed encounters abou
 
 ## Exits
 
-The western edge of the map brings you back to [Dilmun](dilmun.md) (20,04).
+The western edge of the map brings you back to [Dilmun](/dragon-wars/maps/dilmun) (20,04).
 
-The stone slab at (15,15) hides stairs down to the [Tars Underground](tars-underground.md).
+The stone slab at (15,15) hides stairs down to the [Tars Underground](/dragon-wars/maps/tars-underground).
 
 ## Points of Interest
 

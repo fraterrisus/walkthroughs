@@ -1,6 +1,6 @@
 # Game Preserve
 
-[![map](game-preserve.svg)](game-preserve.svg)
+{% map-svg 'Game Preserve' %}
 
 Plenty of random encounters (1 in 33), and even more traps. It's worth running a trap-detection spell while you're here.
 
@@ -8,7 +8,7 @@ At any point, you can use *Forest Lore* for a hint that there's probably a game 
 
 ## Exits
 
-You can leave on foot in any direction, which brings you to the expected place on [Rustic](dilmun.md) near (25,27).
+You can leave on foot in any direction, which brings you to the expected place on [Rustic](/dragon-wars/maps/dilmun) near (25,27).
 
 ## Points of Interest
 
@@ -18,7 +18,7 @@ You can leave on foot in any direction, which brings you to the expected place o
 
 **Jack's House (03,03):** If you haven't already talked to the warden, he's here (paragraph #96).
 
-**Talking to Jack:** Wherever you run into him, Jack is initially suspicious. If you use *Bureaucracy*, *Forest Lore*, or *Tracker* to try to win him over, he likes you but throws you out the forest anyway ([Rustic](dilmun.md) (25,26)). If you show him the **Signet Ring**, he realizes old King Drake is dead and vanishes quietly into the distance, leaving you his **Magic Bow** (+4 AV, 70' range, DEX 10). If you run away from him, he attacks and you have to kill him, after which you get his Bow anyway.
+**Talking to Jack:** Wherever you run into him, Jack is initially suspicious. If you use *Bureaucracy*, *Forest Lore*, or *Tracker* to try to win him over, he likes you but throws you out the forest anyway ([Rustic](/dragon-wars/maps/dilmun) (25,26)). If you show him the **Signet Ring**, he realizes old King Drake is dead and vanishes quietly into the distance, leaving you his **Magic Bow** (+4 AV, 70' range, DEX 10). If you run away from him, he attacks and you have to kill him, after which you get his Bow anyway.
 
 **The Bandit Trap (12,02):** There's a tripwire here, which you spot if you have a trap-detection spell running. Otherwise, a bell rings and you have to fight off a bunch of Bandits.
 

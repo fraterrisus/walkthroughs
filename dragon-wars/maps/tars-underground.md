@@ -1,6 +1,6 @@
 # Tars Underground
 
-[![map](tars-underground.svg)](tars-underground.svg)
+{% map-svg 'Tars Underground' %}
 
 A tiny but confusing board, thanks to a spinner and a wrapping map. Your best bet is to get in and get out... although the easter egg is pretty epic.
 
@@ -8,9 +8,9 @@ This is a proper dungeon, so you need a **light** source to see and a **compass*
 
 ## Exits
 
-(02,05) Stairs up to the ruins of [Tars](tars-ruins.md).
+(02,05) Stairs up to the ruins of [Tars](/dragon-wars/maps/tars-ruins).
 
-(00,05) A pit that you can *Climb* down to the [Underworld](magan-underworld.md), behind a secret door.
+(00,05) A pit that you can *Climb* down to the [Underworld](/dragon-wars/maps/magan-underworld), behind a secret door.
 
 ## Points of Interest
 

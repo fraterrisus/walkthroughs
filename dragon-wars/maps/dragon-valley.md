@@ -1,6 +1,6 @@
 # Dragon Valley
 
-[![map](dragon-valley.svg)](dragon-valley.svg)
+{% map-svg 'Dragon Valley' %}
 
 The home of the fearsome Dragon Queen, who also happens to be your ticket to defeating Namtar's army.
 
@@ -10,7 +10,7 @@ Paragraph #147 sure looks like it belongs here, but isn't ever referenced.
 
 ## Exits
 
-South (07,00): Exit to the [Eastern Isles](dilmun.md) (34,14).
+South (07,00): Exit to the [Eastern Isles](/dragon-wars/maps/dilmun) (34,14).
 
 ## Points of Interest
 
@@ -20,7 +20,7 @@ South (07,00): Exit to the [Eastern Isles](dilmun.md) (34,14).
 
 **The Magic Cache (14,14):** A tough chest (difficulty 5) with some scrolls: *H:Sala's Swift, H:Vorn's Guard*, and *H:Cowardice*.
 
-**The Dragon Queen (06,12):** Read paragraph #134. Your only hope is to use the **Dragon Gem** that you received from the dragon in [Lansk](lansk-undercity.md); read paragraph #120 and gain 500 XP. If you try to run away, she attacks. With 100 DEX and a 10d12 breath weapon she *will* win, at which point you are blown back to the entrance (07,00).
+**The Dragon Queen (06,12):** Read paragraph #134. Your only hope is to use the **Dragon Gem** that you received from the dragon in [Lansk](/dragon-wars/maps/lansk-undercity); read paragraph #120 and gain 500 XP. If you try to run away, she attacks. With 100 DEX and a 10d12 breath weapon she *will* win, at which point you are blown back to the entrance (07,00).
 
 If you somehow manage to defeat her, she "surrenders" and swears to answer the call of the Dragon Gem next time you use it. However, this path *doesn't set the global flag* that gets checked when you face Namtar's army in the Nisir, so I don't even think it would work.
 

@@ -1,6 +1,6 @@
 # Magan Underworld
 
-[![map](magan-underworld.svg)](magan-underworld.svg)
+{% map-svg 'Magan Underworld' %}
 
 The Underworld serves as a map that joins several places "Topside" (i.e. in Dilmun), as well as the place you'll come to during the endgame to defeat Namtar for the last time. You can use it to scoot between the various islands, but beware: the monsters down here are "late game" tough, so early on in the game you'll want to run from almost everything.
 
@@ -10,23 +10,23 @@ The map is also **dark**, so you'll need to bring a light source with you.
 
 ## Exits
 
-(13,04): Stairs up to [Purgatory](purgatory.md) (07,12)
+(13,04): Stairs up to [Purgatory](/dragon-wars/maps/purgatory) (07,12)
 
-(19,04): Stairs up to [Tars Underground](tars-underground.md) (00,05)
+(19,04): Stairs up to [Tars Underground](/dragon-wars/maps/tars-underground) (00,05)
 
-(16,14): Stairs up to the [Lansk Undercity](lansk-undercity.md) (14,05)
+(16,14): Stairs up to the [Lansk Undercity](/dragon-wars/maps/lansk-undercity) (14,05)
 
-(27,16): Stairs up to the [Necropolis](necropolis.md) (00,07); you can't actually get to the Well of Souls building unless you came down from the Necropolis in the first place, so don't try using *Soften Stone* or anything.
+(27,16): Stairs up to the [Necropolis](/dragon-wars/maps/necropolis) (00,07); you can't actually get to the Well of Souls building unless you came down from the Necropolis in the first place, so don't try using *Soften Stone* or anything.
 
-(02,06): Stairs up to the [Mystic Wood](mystic-wood.md) (04,15)
+(02,06): Stairs up to the [Mystic Wood](/dragon-wars/maps/mystic-wood) (04,15)
 
-(10,21): Stairs up to the [Dwarf Clan Hall](dwarf-clan-hall.md) forge (00,08)
+(10,21): Stairs up to the [Dwarf Clan Hall](/dragon-wars/maps/dwarf-clan-hall) forge (00,08)
 
-(19,19): Stairs up to [Salvation](salvation.md) (03,04)
+(19,19): Stairs up to [Salvation](/dragon-wars/maps/salvation) (03,04)
 
 ## Points of Interest
 
-**The Refresh Pool (09,14)**: Conveniently located just N of the stairs from Purgatory, stepping onto this square refreshes your party's Power. You'll also wind up near here at the start of the [Endgame](../walkthrough.md#endgame).
+**The Refresh Pool (09,14)**: Conveniently located just N of the stairs from Purgatory, stepping onto this square refreshes your party's Power. You'll also wind up near here at the start of the [Endgame](/dragon-wars/walkthrough/#endgame).
 
 **Exposition Cavern (12,29):** Read `(p127)` to learn about Namtar's invasion, your goals, and the Sword of Freedom quest.
 
@@ -42,7 +42,7 @@ The map is also **dark**, so you'll need to bring a light source with you.
 
 **The Evil Fairies (20,20):** Accept their bargain and they take all but 1 HP (and 1 Stun) from your entire party. Refuse and they won't let you pass. Or cast *D:Scare* at them and they will forever get out of your way.
 
-**The Root of Salvation (19,17–21,19)**: Just past the fairies is a small island. Apart from the staircase up to Salvation, this is where you need to come to defeat Namtar for the final time during the [Endgame](../walthrough.md). Step up to any railing and `(U)se` his dead body to win the game.
+**The Root of Salvation (19,17–21,19)**: Just past the fairies is a small island. Apart from the staircase up to Salvation, this is where you need to come to defeat Namtar for the final time during the [Endgame](/dragon-wars/walkthrough/#endgame). Step up to any railing and `(U)se` his dead body to win the game.
 
 **The Well of Souls (03,11)**: only accessible from the Necropolis stairs (*D:Soften Stone* doesn't work). `(U)se` *Arcane Lore* and throw a dead PC's body into the Well and they'll be resurrected (Stunned with 1 HP).
 

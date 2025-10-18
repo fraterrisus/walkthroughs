@@ -1,22 +1,22 @@
 # Pilgrim Dock
 
-[![map](pilgrim-dock.svg)](pilgrim-dock.svg)
+{% map-svg 'Pilgrim Dock' %}
 
 You join a throng of pilgrims (paragraph #82) all making their way up to Mount Salvation. I hope you brought your Pilgrim Robes, or are prepared to fight off a bunch of Stosstrupen.
 
 ## Exits
 
-The ferry from the [Old Dock](old-dock.md) drops you on the pier at (02,07), but you can't go back that way.
+The ferry from the [Old Dock](/dragon-wars/maps/old-dock) drops you on the pier at (02,07), but you can't go back that way.
 
-West: [Isle of Salvation](dilmun.md) (17,21)
+West: [Isle of Salvation](/dragon-wars/maps/dilmun) (17,21)
 
-South: [Isle of Salvation](dilmun.md) (18,20)
+South: [Isle of Salvation](/dragon-wars/maps/dilmun) (18,20)
 
-East: [Isle of Salvation](dilmun.md) (19,21)
+East: [Isle of Salvation](/dragon-wars/maps/dilmun) (19,21)
 
 All of those destination coordinates would make sense if the Pilgrim Dock existed on the world map at (18,21). But it isn't; it's actually at (17,21). So prepare to be disoriented if you walk off this map.
 
-There's a teleporter at (00,01), west of your Jail Cell, that will send you straight to [Salvation](salvation.md) (07,15).
+There's a teleporter at (00,01), west of your Jail Cell, that will send you straight to [Salvation](/dragon-wars/maps/salvation) (07,15).
 
 ## Points of Interest
 

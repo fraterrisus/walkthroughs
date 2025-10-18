@@ -1,26 +1,26 @@
 # Yellow Mud Toad
 
-[![map](mud-toad.svg)](mud-toad.svg)
+{% map-svg 'Mud Toad' %}
 
 A sinking, rotting, falling-apart old city, and yet one that marks a pivotal "mid-game" milestone. You find the Golden Boots here, which opens up a bunch of previously inaccessible locations.
 
 ## Exits
 
-East: [Quag](dilmun.md) (26,08), which allows you to skip a Murk Tree fight.
+East: [Quag](/dragon-wars/maps/dilmun) (26,08), which allows you to skip a Murk Tree fight.
 
-South: [Quag](dilmun.md) (25,07), which doesn't.
+South: [Quag](/dragon-wars/maps/dilmun) (25,07), which doesn't.
 
-There's also the hidden staircase down to [Lanac'toor's Laboratory](lanactoor.md), once you repair the statue at (07,10).
+There's also the hidden staircase down to [Lanac'toor's Laboratory](/dragon-wars/maps/lanactoor), once you repair the statue at (07,10).
 
 ## Points of Interest
 
 **The Town Healer (10,04):** Charges $4 per point of Health, just like everyone else.
 
-**The [Souvenir Shop](../things-and-stuff.md#souvenir-shop) (13,06):** A source of **Dragon Stones**, **Bolts**, and **Arrows**. But the really interesting thing you can buy here is an **Ankh**, which you can give to the dragon in Lansk in exchange for the Dragon Gem. (No, there's no hint about this; you just have to guess.)
+**The [Souvenir Shop](/dragon-wars/things-and-stuff/#souvenir-shop) (13,06):** A source of **Dragon Stones**, **Bolts**, and **Arrows**. But the really interesting thing you can buy here is an **Ankh**, which you can give to the dragon in Lansk in exchange for the Dragon Gem. (No, there's no hint about this; you just have to guess.)
 
-**The Cavern Tavern (12,14):** The barkeep knows a bunch of interesting gossip, but there's no one to recruit here. However, if you navigated [Phoebus](phoebus.md) correctly, Berengaria is waiting for you at (13,14). Disappointingly, this doesn't advance the plot any, but you do receive scrolls of *S:Rage of Mithras, S:Holy Aim, S:Armor of Light, S:Major Healing*, and *S:Summon Salamander*.
+**The Cavern Tavern (12,14):** The barkeep knows a bunch of interesting gossip, but there's no one to recruit here. However, if you navigated [Phoebus](/dragon-wars/maps/phoebus) correctly, Berengaria is waiting for you at (13,14). Disappointingly, this doesn't advance the plot any, but you do receive scrolls of *S:Rage of Mithras, S:Holy Aim, S:Armor of Light, S:Major Healing*, and *S:Summon Salamander*.
 
-**The Statue of Lanac'toor (07,10):** Read paragraph #20. If you collect the four stone body parts from around Dilmun, you can use them here to repair the statue, which nets you 500 XP and opens the stairs down to [Lanac'toor's Laboratory](lanactoor.md).
+**The Statue of Lanac'toor (07,10):** Read paragraph #20. If you collect the four stone body parts from around Dilmun, you can use them here to repair the statue, which nets you 500 XP and opens the stairs down to [Lanac'toor's Laboratory](/dragon-wars/maps/lanactoor).
 
 **The Temple of the Mud Toad (04,13):** Read paragraph #17 to receive the quest to stop the Mud Leak. Once you seal up the leak, return here and read paragraph #113 to receive the **Golden Boots** (+2 AC, allows jumping).
 

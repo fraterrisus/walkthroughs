@@ -1,18 +1,18 @@
 # Scorpion Bridge
 
-[![map](scorpion-bridge.svg)](scorpion-bridge.svg)
+{% map-svg 'Scorpion Bridge' %}
 
 Connects Rustic Isle to the island with the Magic College.
 
 ## Exits
 
-West: [Rustic](dilmun.md) (30,19)
+West: [Rustic](/dragon-wars/maps/dilmun) (30,19)
 
-East: [Magic College isle](dilmun.md) (32,19)
+East: [Magic College isle](/dragon-wars/maps/dilmun) (32,19)
 
 ## Points of Interest
 
-**The Scorpion Guards (02,03 - 02,04):** Show them the **Enkidu Totem** that you got from the little island in the [Mystic Wood](mystic-wood.md) and they let you pass. Otherwise you have to fight them at (03,03 - 03,04).
+**The Scorpion Guards (02,03 - 02,04):** Show them the **Enkidu Totem** that you got from the little island in the [Mystic Wood](/dragon-wars/maps/mystic-wood) and they let you pass. Otherwise you have to fight them at (03,03 - 03,04).
 
 If you're coming from the east, the flag that forces you to fight the Scorpions doesn't get set until you cross all the way to the west side *and* turn around and face the tunnel.
 

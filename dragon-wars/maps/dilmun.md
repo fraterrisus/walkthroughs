@@ -1,6 +1,6 @@
 # Dilmun
 
-[![map](dilmun.svg)](dilmun.svg)
+{% map-svg 'Dilmun' %}
 
 The overworld map through which your party will adventure.
 
@@ -10,13 +10,13 @@ As a warning, you can't cast *D:Create Wall* here and I don't think there are an
 
 ### Forlorn
 
-**[Purgatory](purgatory.md) (13,04):** Contains a route to the [Underworld](magan-underworld.md).
+**[Purgatory](/dragon-wars/maps/purgatory) (13,04):** Contains a route to the [Underworld](/dragon-wars/maps/magan-underworld).
 
-**[Slave Camp](slave-camp.md) (11,03)**.
+**[Slave Camp](/dragon-wars/maps/slave-camp) (11,03)**.
 
-**[Slave Estate](slave-estate.md) (17,07)** and the Slave Mines beneath it.
+**[Slave Estate](/dragon-wars/maps/slave-estate) (17,07)** and the Slave Mines beneath it.
 
-The ruins of **[Tars](tars-ruins.md) (21,04)** and its dungeon.
+The ruins of **[Tars](/dragon-wars/maps/tars-ruins) (21,04)** and its dungeon.
 
 **The Refresh Pool (14,01):** If you swim your way out of Purgatory, you wind up right next to this pool, which will refresh your Health, Stun, and Power for free.
 
@@ -24,43 +24,43 @@ The ruins of **[Tars](tars-ruins.md) (21,04)** and its dungeon.
 
 **Guards (12,06):** Before you can get to the bridge, some Guards will jump you. (This combat goes away once you beat it.)
 
-**[Guard Bridge #1](guard-bridge-1.md) (12,07):** Connects you to Isle of the Sun.
+**[Guard Bridge #1](/dragon-wars/maps/guard-bridge-1) (12,07):** Connects you to Isle of the Sun.
 
 ### Isle of the Sun
 
-**[Guard Bridge #1](guard-bridge-1.md) (12,07):** Connects you to Forlorn.
+**[Guard Bridge #1](/dragon-wars/maps/guard-bridge-1) (12,07):** Connects you to Forlorn.
 
 **Goblins (12,09):** A bunch of Goblins wait for you on the N side of the bridge. This combat regenerates, so you'll have to fight it every time you come to Sun.
 
-**[Phoebus](phoebus.md) (05,11)**. Can be destroyed by a dragon.
+**[Phoebus](/dragon-wars/maps/phoebus) (05,11)**. Can be destroyed by a dragon.
 
-**[Mystic Wood](mystic-wood.md) (02,06):** Contains both a route to the [Underworld](magan-underworld.md) as well as a Transportation Nexus.
+**[Mystic Wood](/dragon-wars/maps/mystic-wood) (02,06):** Contains both a route to the [Underworld](/dragon-wars/maps/magan-underworld) as well as a Transportation Nexus.
 
-**[Guard Bridge #2](guard-bridge-2.md) (14,12):** Connects you to Lansk.
+**[Guard Bridge #2](/dragon-wars/maps/guard-bridge-2) (14,12):** Connects you to Lansk.
 
 ### Isle of Lansk
 
-**[Guard Bridge #2](guard-bridge-2.md) (14,12):** Connects you to Sun.
+**[Guard Bridge #2](/dragon-wars/maps/guard-bridge-2) (14,12):** Connects you to Sun.
 
-**[Lansk](lansk.md) (16,14)** and its Undercity, which connects to the [Underworld](magan-underworld.md) and has a ferry to the Old Dock.
+**[Lansk](/dragon-wars/maps/lansk) (16,14)** and its Undercity, which connects to the [Underworld](/dragon-wars/maps/magan-underworld) and has a ferry to the Old Dock.
 
-**[War Bridge](war-bridge.md) (18,12):** Connects you to Quag.
+**[War Bridge](/dragon-wars/maps/war-bridge) (18,12):** Connects you to Quag.
 
 ### Quag
 
-**[War Bridge](war-bridge.md) (18,12):** Connects you to Lansk.
+**[War Bridge](/dragon-wars/maps/war-bridge) (18,12):** Connects you to Lansk.
 
 **Murk Trees (20,12; 20,08; 25,11; 25,07; 26,09):** Dangerous.
 
 **Transportation Nexus (22,13)**. Allows you to teleport to the Mystic Wood, but only if you have *Arcane Lore*.
 
-**[Yellow Mud Toad](mud-toad.md) (25,08)** and Lanac'toor's Laboratory, which connects to the [Underworld](magan-underworld.md).
+**[Yellow Mud Toad](/dragon-wars/maps/mud-toad) (25,08)** and Lanac'toor's Laboratory, which connects to the [Underworld](/dragon-wars/maps/magan-underworld).
 
-**[Smuggler's Cove](smugglers-cove.md) (24,13)**, which contains a Boat Dock (eventually).
+**[Smuggler's Cove](/dragon-wars/maps/smugglers-cove) (24,13)**, which contains a Boat Dock (eventually).
 
 ### Necropolis
 
-**[The Necropolis](necropolis.md) (27,15)**, which connects to the Well of Souls (but no other part of the Underworld) and also contains a boat dock.
+**[The Necropolis](/dragon-wars/maps/necropolis) (27,15)**, which connects to the Well of Souls (but no other part of the Underworld) and also contains a boat dock.
 
 ### King's Isle
 
@@ -68,47 +68,47 @@ The ruins of **[Tars](tars-ruins.md) (21,04)** and its dungeon.
 
 **Goblins (17,24; 17,26; 18,25; 19,26):** almost like they're guarding Kingshome.
 
-**Ambush (20,26):** The first time you step on this square, you're subdued by guards and thrown in the [Kingshome Dungeon](kingshome-dungeon.md). This is also where the ferry master from the Snake Pit drops you, which may very well trigger the ambush if you haven't already.
+**Ambush (20,26):** The first time you step on this square, you're subdued by guards and thrown in the [Kingshome Dungeon](/dragon-wars/maps/kingshome-dungeon). This is also where the ferry master from the Snake Pit drops you, which may very well trigger the ambush if you haven't already.
 
-**[Kingshome](kingshome.md) (18,27)** and its dungeon.
+**[Kingshome](/dragon-wars/maps/kingshome) (18,27)** and its dungeon.
 
-**[Siege Camp](siege-camp.md) (07,26)**, **[Byzanople](byzanople.md) (07,27)**, and its dungeon. You can't enter Byzanople directly without going through the Siege Camp, even after the battle has been resolved.
+**[Siege Camp](/dragon-wars/maps/siege-camp) (07,26)**, **[Byzanople](/dragon-wars/maps/byzanople) (07,27)**, and its dungeon. You can't enter Byzanople directly without going through the Siege Camp, even after the battle has been resolved.
 
-**[Dwarf Ruins](dwarf-ruins.md) (10,21)** and the Clan Hall beneath, which connects to the Underworld (sort of).
+**[Dwarf Ruins](/dragon-wars/maps/dwarf-ruins) (10,21)** and the Clan Hall beneath, which connects to the Underworld (sort of).
 
-The **[Old Dock](old-dock.md) (14,17)** can be used to travel to the Lansk Undercity or the Pilgrim Dock.
+The **[Old Dock](/dragon-wars/maps/old-dock) (14,17)** can be used to travel to the Lansk Undercity or the Pilgrim Dock.
 
 **More Goblins (08,18):** These guys are just insult to injury; the fight regenerates, so if you try to exit the Bridge of Exiles to the E you hit them immediately.
 
-**[Bridge of Exiles](bridge-of-exiles.md) (07,18):** a one-way door that conveys you to the Snake Pit.
+**[Bridge of Exiles](/dragon-wars/maps/bridge-of-exiles) (07,18):** a one-way door that conveys you to the Snake Pit.
 
-**[Snake Pit](snake-pit.md) (02,19)**.
+**[Snake Pit](/dragon-wars/maps/snake-pit) (02,19)**.
 
 ### Rustic
 
 **Boat Dock (29,28)**.
 
-The **[Game Preserve](game-preserve.md) (25,27)**.
+The **[Game Preserve](/dragon-wars/maps/game-preserve) (25,27)**.
 
-The **[Scorpion Bridge](scorpion-bridge.md) (31,19):** links you to the Magic College.
+The **[Scorpion Bridge](/dragon-wars/maps/scorpion-bridge) (31,19):** links you to the Magic College.
 
-The **[Magic College](magic-college.md) (36,24)**.
+The **[Magic College](/dragon-wars/maps/magic-college) (36,24)**.
 
 ### The Eastern Isles
 
-**[Freeport](freeport.md) (43,23):** contains a Boat Dock.
+**[Freeport](/dragon-wars/maps/freeport) (43,23):** contains a Boat Dock.
 
 **Boat Dock (39,14):** for the Sunken Ruins and Dragon Valley.
 
-**[Sunken Ruins](sunken-ruins.md) (38,15)** and the underwater part.
+**[Sunken Ruins](/dragon-wars/maps/sunken-ruins) (38,15)** and the underwater part.
 
-**[Dragon Valley](dragon-valley.md) (34,15)**.
+**[Dragon Valley](/dragon-wars/maps/dragon-valley) (34,15)**.
 
 ### Salvation
 
-The **[Pilgrim Dock](pilgrim-dock.md) (17,21)**: a one-way trip from the Old Dock.
+The **[Pilgrim Dock](/dragon-wars/maps/pilgrim-dock) (17,21)**: a one-way trip from the Old Dock.
 
-Mount **[Salvation](salvation.md) (19,19)**, which is confusingly marked 'Nisir' during overland travel. Salvation connects to both the Underworld and to the Depths of Nisir.
+Mount **[Salvation](/dragon-wars/maps/salvation) (19,19)**, which is confusingly marked 'Nisir' during overland travel. Salvation connects to both the Underworld and to the Depths of Nisir.
 
 ## Bestiary
 

@@ -1,14 +1,14 @@
 # Guard Bridge #2
 
-[![map](guard-bridge-2.svg)](guard-bridge-2.svg)
+{% map-svg 'Guard Bridge #2' %}
 
 Allows passage between the Isle of the Sun and Lansk. Also contains several tasty bits of kit to go after.
 
 ## Exits
 
-North: [Lansk](dilmun.md) (14,13)
+North: [Lansk](/dragon-wars/maps/dilmun) (14,13)
 
-South: [Isle of the Sun](dilmun.md) (14,11)
+South: [Isle of the Sun](/dragon-wars/maps/dilmun) (14,11)
 
 These exits are true even if you exit to the East or West from the appropriate side of the bridge.
 

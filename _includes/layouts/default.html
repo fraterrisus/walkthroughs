@@ -32,8 +32,12 @@ navbar: true
         </div>
         <div id="toc-body" class="toc-hidden">
           {% assign a = toc.h_min %}
-          {% assign b = toc.h_max %}
-          {% capture local_opts %}{"tags": [{% for i in (a..b) %}"h{{i}}"{% unless forloop.last %},{% endunless %}{%endfor%}]}{% endcapture %}
+          {% if toc.h_max %}
+            {% assign b = toc.h_max %}
+            {% capture local_opts %}{"tags": [{% for i in (a..b) %}"h{{i}}"{% unless forloop.last %},{% endunless %}{%endfor%}]}{% endcapture %}
+          {% else %}
+            {% capture local_opts %}{"tags": ["h{{a}}"]}{% endcapture %}
+          {% endif %}
           {{ content | renderTransforms | toc: local_opts }}
         </div>
       </div>

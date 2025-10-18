@@ -1,9 +1,12 @@
 formats:="--formats=md,html,liquid"
 
-build:
+build: clean
   npx @11ty/eleventy {{formats}}
 
-serve:
+clean:
+  rm -rf _site
+
+serve: clean
   npx @11ty/eleventy {{formats}} --serve
 
 deploy: build

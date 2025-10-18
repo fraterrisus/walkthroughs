@@ -1,16 +1,16 @@
 # Old Dock
 
-[![map](old-dock.svg)](old-dock.svg)
+{% map-svg 'Old Dock' %}
 
 A transit point for multiple ferries, but you probably won't come here until you're ready to take on Namtar.
 
 ## Exits
 
-West: [King's Isle](dilmun.md) (15,17)
+West: [King's Isle](/dragon-wars/maps/dilmun) (15,17)
 
-(05,05): The ferry to the [Lansk Undercity](lansk-undercity.md) (07,15). Requires a ticket.
+(05,05): The ferry to the [Lansk Undercity](/dragon-wars/maps/lansk-undercity) (07,15). Requires a ticket.
 
-(03,06): The ferry to the [Pilgrim Dock](pilgrim-dock.md) (02,07). Requires Pilgrim Garb.
+(03,06): The ferry to the [Pilgrim Dock](/dragon-wars/maps/pilgrim-dock) (02,07). Requires Pilgrim Garb.
 
 ## Points of Interest
 

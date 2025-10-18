@@ -1,6 +1,6 @@
 # Lansk
 
-[![map](lansk.svg)](lansk.svg)
+{% map-svg 'Lansk' %}
 
 Dust off your *Bureaucracy* skill, we're going hunting for paperwork! (Actually, you won't need that skill at all.)
 
@@ -8,9 +8,9 @@ There aren't any random encounters, but the fixed ones are tough enough as it is
 
 ## Exits
 
-South: [Isle of Lansk](dilmun.md) (16,13)
+South: [Isle of Lansk](/dragon-wars/maps/dilmun) (16,13)
 
-(05,08): Stairs down to the [Lansk Undercity](lansk-undercity.md), but you'll have to bribe an official to use them.
+(05,08): Stairs down to the [Lansk Undercity](/dragon-wars/maps/lansk-undercity), but you'll have to bribe an official to use them.
 
 ## Points of Interest
 

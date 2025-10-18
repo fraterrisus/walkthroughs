@@ -1,14 +1,14 @@
 # War Bridge
 
-[![map](war-bridge.svg)](war-bridge.svg)
+{% map-svg 'War Bridge' %}
 
 Simple enough, if you have the Governor's Pass from Lansk. Just watch out for the Murk Tree.
 
 ## Exits
 
-West: [Isle of Lansk](dilmun.md) (17,12)
+West: [Isle of Lansk](/dragon-wars/maps/dilmun) (17,12)
 
-East: [Quag](dilmun.md) (19,12)
+East: [Quag](/dragon-wars/maps/dilmun) (19,12)
 
 ## Points of Interest
 

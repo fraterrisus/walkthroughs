@@ -1,6 +1,6 @@
 # Salvation
 
-[![map](salvation.svg)](salvation.svg)
+{% map-svg 'Salvation' %}
 
 The destination of many a pilgrim's trek, and your first step towards the endgame.
 
@@ -10,11 +10,11 @@ Standard random encounters (1 in 100).
 
 It's not exactly a proper exit, but the dark-grey squares on the map are places, usually without guardrails, where you can fall down to the Underworld (as opposed to just being impassable squares). You'll end up at (20,19) on the spire of rock with the stairs back up to Salvation.
 
-Those stairs are at (03,04) on this map and connect to (19,19) in the [Underworld](magan-underworld.md).
+Those stairs are at (03,04) on this map and connect to (19,19) in the [Underworld](/dragon-wars/maps/magan-underworld).
 
-The northern exit from this map drops you on the [Isle of Salvation](dilmun.md) (19,20).
+The northern exit from this map drops you on the [Isle of Salvation](/dragon-wars/maps/dilmun) (19,20).
 
-You can plunge into the [Depths of the Nisir](nisir.md) at (13,02 - 14,03).
+You can plunge into the [Depths of the Nisir](/dragon-wars/maps/nisir) at (13,02 - 14,03).
 
 ## Points of Interest
 

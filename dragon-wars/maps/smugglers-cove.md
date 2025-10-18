@@ -1,14 +1,14 @@
 # Smuggler's Cove
 
-[![map](smugglers-cove.svg)](smugglers-cove.svg)
+{% map-svg "Smuggler's Cove" %}
 
 Home base for Ugly and his crew of pirates, and the good ship *Prairie Madness* which you'll eventually steal.
 
 ## Exits
 
-East: [Quag](dilmun.md) (25,13)
+East: [Quag](/dragon-wars/maps/dilmun) (25,13)
 
-The fake boat dock at (02,01) will allow Ugly to take you to the [Necropolis](necropolis.md) (07,14).
+The fake boat dock at (02,01) will allow Ugly to take you to the [Necropolis](/dragon-wars/maps/necropolis) (07,14).
 
 The real boat dock at (01,01) takes you to all the places a normal Boat Dock takes you.
 
@@ -20,7 +20,7 @@ The real boat dock at (01,01) takes you to all the places a normal Boat Dock tak
 
 **Ugly's Hideout (03,03):** A crew of pirates demand that you speak their "language". You can use *Bureaucracy, Hiding, Lockpick, Merchant* (oops), or *Pickpocket* to satisfy them, but you'll also have to cough up at least $50.
 
-If you take the S door, Ugly transports you (one-way, of course) to the [Necropolis](necropolis.md).
+If you take the S door, Ugly transports you (one-way, of course) to the [Necropolis](/dragon-wars/maps/necropolis).
 
 If you take the W door, Ugly and his crew will fight to the death (i.e. if you run away or get Stunned, combat just restarts). Beat them and find a locked chest (difficulty 2) containing $3000, a suit of **Pilgrim Garb**, Peg's **Old Peg Leg** (1d8, +1 AV, STR 10), Ugly's **Hook** (1d8, +1 AV, STR 10), a **Parrot** (useless), a suit of **Heavy Plate** (+12 AC, -6 AV), and the **Jade Eyes**, which are used to get into the Dwarf Clan Hall. Then you get to use the normal Boat Dock.
 

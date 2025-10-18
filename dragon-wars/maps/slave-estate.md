@@ -1,6 +1,6 @@
 # Slave Estate
 
-[![map](slave-estate.svg)](slave-estate.svg)
+{% map-svg 'Slave Estate' %}
 
 Slaveholder Mog isn't an important figure in any way, although he will show up (posthumously) later on down the line. This map mostly serves as a gateway between the Slave Mines below and Forlorn, although the Magic Lamp is a nice piece of kit.
 
@@ -8,9 +8,9 @@ Slaveholder Mog isn't an important figure in any way, although he will show up (
 
 ## Exits
 
-Exiting to the S takes you to [Dilmun](dilmun.md).
+Exiting to the S takes you to [Dilmun](/dragon-wars/maps/dilmun).
 
-You can't take the stairs down to the [Slave Mines](slave-mines.md), but if you came up from there you're deposited in the shack at (05,12).
+You can't take the stairs down to the [Slave Mines](/dragon-wars/maps/slave-mines), but if you came up from there you're deposited in the shack at (05,12).
 
 ## Points of Interest
 

@@ -1,6 +1,6 @@
 # Phoebus
 
-[![map](phoebus.svg)](phoebus.svg)
+{% map-svg 'Phoebus' %}
 
 Home of Mystalvision, the High Priest of the Temple of the Sun and chief Sun Mage.
 
@@ -10,13 +10,13 @@ You'll find random encounters (1 in 100) with Stosstrupen, Soldiers, and Sullen 
 
 ## Exits
 
-The southern exit (08,01) from the city drops you back on the [Isle of the Sun](dilmun.md) (05,10).
+The southern exit (08,01) from the city drops you back on the [Isle of the Sun](/dragon-wars/maps/dilmun) (05,10).
 
-There aren't any other proper exits, although the fight with Mystalvision will dump you into the [Phoeban Dungeon](phoeban-dungeon.md), and eventually you'll come back up from the dungeon at (02,14). (Technically, you come up at 02,13, read a paragraph, and then are pushed to 02,14, but that's all transparent to the player.)
+There aren't any other proper exits, although the fight with Mystalvision will dump you into the [Phoeban Dungeon](/dragon-wars/maps/phoeban-dungeon), and eventually you'll come back up from the dungeon at (02,14). (Technically, you come up at 02,13, read a paragraph, and then are pushed to 02,14, but that's all transparent to the player.)
 
 ## Places of Interest
 
-**Buck Ironhead's Enlistment Office (14,02):** Buck tries to enlist you in the Kingshome army that's currently sieging the city of Byzanople on King's Isle. If you agree, you're sent to the [Siege Camp](siege-camp.md). If you refuse, he charges you a draft-dodging fee of $50 per party member. You can use this as a route to travel from Phoebus to the Siege Camp as often as you want, even once the War of Byzanople has been resolved.
+**Buck Ironhead's Enlistment Office (14,02):** Buck tries to enlist you in the Kingshome army that's currently sieging the city of Byzanople on King's Isle. If you agree, you're sent to the [Siege Camp](/dragon-wars/maps/siege-camp). If you refuse, he charges you a draft-dodging fee of $50 per party member. You can use this as a route to travel from Phoebus to the Siege Camp as often as you want, even once the War of Byzanople has been resolved.
 
 **The Barracks (06,09):** A nasty fight with *ten* Stosstrupen. Don't go in here unless you really know what you're doing.
 
@@ -30,9 +30,9 @@ There aren't any other proper exits, although the fight with Mystalvision will d
 
 **The Icarian Triumph Tavern (15,15):** Ulrik is here to be recruited. If you're coming back after going through the Dungeon, Berengaria isn't actually here but the barkeep tells you to meet him at the Cavern Tavern in Yellow Mud Toad instead.
 
-**Mystalvision's Temple (08,13):** First, fight off a few Stosstrupen. Then circle around to the N and fight off some Soldiers. Enter the temple and meet Mystalvision, who eventually attacks with a bunch more Stosstrupen. Regardless of whether you win or lose this battle, you're knocked out and dragged down into the [Dungeon](phoeban-dungeon.md) (12,03).
+**Mystalvision's Temple (08,13):** First, fight off a few Stosstrupen. Then circle around to the N and fight off some Soldiers. Enter the temple and meet Mystalvision, who eventually attacks with a bunch more Stosstrupen. Regardless of whether you win or lose this battle, you're knocked out and dragged down into the [Dungeon](/dragon-wars/maps/phoeban-dungeon) (12,03).
 
-If you've already been to the [Nisir](nisir.md) and killed Mystalvision there, he's not here, which means you can't get into the Dungeon. Otherwise you can repeat this as often as you like.
+If you've already been to the [Nisir](/dragon-wars/maps/nisir) and killed Mystalvision there, he's not here, which means you can't get into the Dungeon. Otherwise you can repeat this as often as you like.
 
 ## Bestiary
 

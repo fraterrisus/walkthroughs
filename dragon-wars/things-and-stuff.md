@@ -2,6 +2,7 @@
 toc:
   enabled: true
   h_min: 2
+  h_max: 3
 ---
 # Things and Stuff
 

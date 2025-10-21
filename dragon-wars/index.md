@@ -336,7 +336,7 @@ Every time you hit a new level, you get 2 CP to spend. Hit `(X)` and then pick a
 
 I'm fairly completionist, but when I start with a fresh party I always seem to finish the game at 12th or 13th level. That means you can expect to gain around 30 CP over the course of the game beyond what you start with, including the +5 Irkalla bonus. See the previous sections for more details on my suggested improvement paths for your PCs.
 
-One final note: there are a handful of places where you can earn an experience reward for hitting certain story beats. But the handler that converts experience into AP only runs at the end of a battle, so if the reward puts you over the threshold for the next level, you won't find out until your next combat *ends*. This sometimes results in hilarious situations, like you run away from a combat without landing a blow and half your party goes up a level.
+One final note: there are a handful of places where you can earn an experience reward for hitting certain story beats. But the handler that converts experience into CP only runs at the end of a battle, so if the reward puts you over the threshold for the next level, you won't find out until your next combat *ends*. This sometimes results in hilarious situations, like you run away from a combat without landing a blow and half your party goes up a level.
 
 ## Combat and General Information
 
@@ -926,24 +926,24 @@ So what I've assembled here is a "fastest practical" route through the game, ass
 9. Yellow Mud Toad
    - Fix the wall and get the Golden Boots.
    - Take out the Militia: Barbed Flail, Lucky Boots (optional)
-10. Smuggler's Cove
+9. Smuggler's Cove
    - Slaughter the crew, get the boat and a suit of Heavy Plate.
    - If you don't have *D:Soften Stone* already, take the boat to Freeport and buy a copy there.
    - Take the boat to Sunken Ruins.
-11. Dragon Valley
+9. Dragon Valley
    - Get the Dragon's Teeth.
    - Meet the Queen and use the Dragon Gem.
    - Armor in the SW: Dragon Helm, Dragon Shield, and Dragon Eyes
    - Take the boat back to the Cove, the Nexus to the Mystic Wood, and the Well to the Underworld.
-12. Salvation
+9. Salvation
    - *Scare* the Underworld fairies and climb the stairs to Salvation.
    - Guarded chest to the W: Dragon Plate, Dragon Helm
    - Use IQ and *Climb*, then cross the chasm with the Boots and fall.
-13. Nisir
+9. Nisir
    - Use "The Swamp" route to reach the final teleporter; this costs you three castings of *D:Soften Stone* plus a light spell, a compass spell, and whatever other buffs you like to have running.
    - Use the Dragon Gem to kill Namtar's army.
    - Kill Namtar three times.
-14. Magan Underworld
+9. Magan Underworld
    - Run the Endgame.
 
 

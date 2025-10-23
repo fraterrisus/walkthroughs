@@ -2,7 +2,8 @@ import CleanCSS from "clean-css";
 import { IdAttributePlugin } from "@11ty/eleventy";
 import path from "node:path";
 import * as sass from "sass";
-import slugify from '@sindresorhus/slugify';
+import SitemapPlugin from "@quasibit/eleventy-plugin-sitemap";
+import slugify from "@sindresorhus/slugify";
 import TocPlugin from "eleventy-plugin-toc";
 
 export default async function(eleventyConfig) {
@@ -33,6 +34,7 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("pool-of-radiance/walkthrough.txt");
 
   eleventyConfig.addPlugin(IdAttributePlugin);
+  eleventyConfig.addPlugin(SitemapPlugin, {sitemap: {hostname: "https://walkthroughs.hitchhikerprod.com"}});
   eleventyConfig.addPlugin(TocPlugin, {ul: true});
 
   eleventyConfig.ignores.add("LICENSE.md");

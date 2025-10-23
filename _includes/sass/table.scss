@@ -9,10 +9,10 @@ table {
   border-spacing: 0;
 }
 
-table.small {
+.small-font > table, table.small {
   font-size: 75%;
   td {
-    padding: 0.25rem 0.5rem;
+    padding: 0.1rem 0.25rem;
   }
 }
 

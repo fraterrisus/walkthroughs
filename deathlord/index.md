@@ -8,11 +8,11 @@ toc:
 
 # Yet Another Deathlord Walkthrough
 
-Version 2.1.1, September 2023
+Version 2.1.2, October 2025
 
 ## Administrivia
 
-{% include 'license', year:'2017–23' %}
+{% include 'license', year:'2017–25' %}
 
 ### Acknowledgements
 
@@ -38,6 +38,7 @@ And finally, a shout-out to **Chester**, the [CRPG Addict](https://crpgaddict.bl
 - v2.0, June 2022: update to CC4.0 license; major rewrite in GameFAQs HTML format; corrections, edits, and updates
 - v2.1, June 2023: reformat for GitHub Markdown
 - v2.1.1, September 2023: reorg some pages, reformat for GitHub Sites
+- v2.1.2, October 2025: rebuild tables, reformat for Eleventy
 
 ### Game Introduction
 
@@ -659,15 +660,13 @@ If one of your characters is slain in combat and you try to resurrect them in th
 
 ### Combat Strategies
 
-You're going to get into a lot of fights across a game of *Deathlord*. First of all, you can't really avoid them; once a monster decides to start chasing you, they will do so until they catch you. They also get to move diagonally and you don't, so they have the jump on you unless the terrain happens to be in your favor. Consider this terrible "map":
+You're going to get into a lot of fights across a game of *Deathlord*. First of all, you can't really avoid them; once a monster decides to start chasing you, they will do so until they catch you. They also get to move diagonally and you don't, so they have the jump on you unless the terrain happens to be in your favor. Consider this situation:
 
-```
-  **
-M **   P
-  **
-```
+<div class="float-right">
+<img src="/deathlord/skeletons.png" alt="Skeletons stalking my party">
+</div>
 
-Monsters don't know how to shuffle to the side to get around something, so even if that intervening wall (\*\*) is only three squares wide, the monster (M) doesn't know how to get closer to your party (P). As long as you stay in line with them, they won't move. However, if you move one square north or south, they *are* smart enough to move diagonally around the corner. You'll learn how to take advantage of this early on when you explore [Yokahama](/deathlord/walkthrough-1/#yokahama).
+Monsters don't know how to shuffle to the side to get around something, so even though that body of water is only three squares wide, the skeletons don't know how to get closer to your party. As long as you stay in line with them, they won't move. However, if you move one square east or west, they *are* smart enough to move diagonally around the corner. You'll learn how to take advantage of this early on when you explore [Yokahama](/deathlord/walkthrough-1/#yokahama).
 
 Once a fight starts, you have two options: stand and fight, or try to end the combat early. There are several options for the latter, which I described in [Combat Basics](#combat-basics). Ending combat early causes the combat to disappear, but you don't get XP or treasure.
 
@@ -675,14 +674,13 @@ If you decide to fight, your tactics are fairly limited. Your back line, in part
 
 Don't forget the [experience distribution](#experience-and-leveling) rules; make sure everybody gets a chance to do something "useful", and in general if you're facing fewer weaker monsters, it's probably a good idea to skip over your front line on the first turn so the back row has a chance to cast-and-cancel so they get something out of the fight. You should also consider having characters that have a +1 and are waiting to train not do anything at all in combat, to reduce the denominator of distributed experience.
 
-
 ### Atlas
 
 The world map that's printed on the inside of the box shows you five continents: Kodan, where you start, plus Chigaku, Akmihr, Asagata, and Nyuku. It also names the towns on those islands, which is useful for figuring out where Senju has gone hiding. But apart from a rough idea of which direction you need to go from Kodan, the continents aren't really in the right places, and finding them is a nightmare when you're trying to dodge sea monsters and not get poisoned.
 
 So here's a more accurate, and therefore more useful, world map. It's divided into disk sectors, which are 55 x 55 tiles square. You can always tell when you switch sectors because the disk drive will get accessed. You'll also see this when, say, walking across Kodan. Also, in case it isn't obvious, the world is round, so as you hit the edges of this map you will wrap around.
 
-![World Map](/deathlord/world-map.png)
+[![World Map](/deathlord/world-map.png)](/deathlord/world-map.png)
 
 Compared to most other maps, I've reoriented the continents such that Kodan is mostly central and any clues you get about the relative location of two continents line up. For instance, on this map, Narawn is south of Nyuku; the Black Isles are north of Tsumani, the 'star of the south'; and Giluin is east of Narawn. Even though in most cases it's faster to sail around the world in the opposite direction than the one you're given.
 

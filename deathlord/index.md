@@ -151,24 +151,9 @@ To play back a macro:
 
 **Bonus Computing History Lesson!** On the original Apple II keyboard, the number row looked like this:
 
-<table>
-  <tbody>
-    <tr>
-      <td class="c">!<br/>1</td>
-      <td class="c">"<br/>2</td>
-      <td class="c">#<br/>3</td>
-      <td class="c">$<br/>4</td>
-      <td class="c">%<br/>5</td>
-      <td class="c">&<br/>6</td>
-      <td class="c">'<br/>7</td>
-      <td class="c">(<br/>8</td>
-      <td class="c">)<br/>9</td>
-      <td class="c">&nbsp;<br/>0</td>
-      <td class="c">*<br/>:</td>
-      <td class="c">=<br/>&ndash;</td>
-    </tr>
-  </tbody>
-</table>
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| ! | " | # | $ | % | & | ' | ( | ) |   | * | = |
+| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | : | – |
 
 (The zero key didn't have a punctuation mark on it.)
 
@@ -426,38 +411,17 @@ The last one is the most interesting one. Because "useful" usually means "landed
 So we have a pool of XP and a number of characters who participated; divide A by B and you get the number of XP that each character gains. If there's a non-zero remainder, the PC in slot #1 gets 1 XP additional, then slot #2, and so on. So your back-rank characters tend to get the short end of this stick.
 
 <div class="float-left">
-  <table>
-    <thead>
-      <tr>
-        <th>Level</th>
-        <th>XP required</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="c">1</td>
-        <td class="c">0</td>
-      </tr><tr>
-        <td class="c">2–5</td>
-        <td class="c">200</td>
-      </tr><tr>
-        <td class="c">6–9</td>
-        <td class="c">400</td>
-      </tr><tr>
-        <td class="c">10–13</td>
-        <td class="c">600</td>
-      </tr><tr>
-        <td class="c">14–17</td>
-        <td class="c">800</td>
-      </tr><tr>
-        <td class="c">18–21</td>
-        <td class="c">1000</td>
-      </tr><tr>
-        <td class="c">22+</td>
-        <td class="c">1200</td>
-      </tr>
-    </tbody>
-  </table>
+
+| Level | XP required |
+| :---: | :---------: |
+|   1   |       0     |
+|  2–5  |     200     |
+|  6–9  |     400     |
+| 10–13 |     600     |
+| 14–17 |     800     |
+| 18–21 |    1000     |
+|  22+  |    1200     |
+
 </div>
 
 You start the game at level 1; level 2 requires 200 XP, as do levels 3–5. The next four levels (6–9) require 400 XP, the next four (10–13) 600 XP, and so on. The escalator tops out at level 22, after which all levels require 1200 XP. You can't advance past level 99. With this guide in hand, you can comfortably beat the game in the mid 20s. There are some math overflow bugs that trigger in the low 30s; see the section on [Weird Stuff](#weird-stuff) for more details. If your PCs are getting into the 40s, you either really like grinding or you haven't been [save-scumming](#save-scumming) for HP.
@@ -561,42 +525,15 @@ A final note: one of the few benefits that the game throws you is that only thre
 The health system in *Deathlord* is pretty straightforward. Everyone has a number of HP, or hit points. The game displays this as two three-digit numbers; the left-hand one is your current health, and the right-hand one is your maximum. If you have a "condition" inflicted upon you then your maximum health is replaced with the worst three-letter status indicator, as seen in the table below.
 
 <div class="float-right">
-  <table>
-    <thead>
-      <tr>
-        <th>Status</th>
-        <th>Condition</th>
-        <th>Cure with</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="c">PAR</td>
-        <td class="c">Paralyzed</td>
-        <td class="c">S3:MOTUNASU</td>
-      </tr><tr>
-        <td class="c">TOX</td>
-        <td class="c">Poisoned</td>
-        <td class="c">S4:DONASU</td>
-      </tr><tr>
-        <td class="c">ILL</td>
-        <td class="c">Diseased</td>
-        <td class="c">Z3:BYOKINASU</td>
-      </tr><tr>
-        <td class="c">RIP</td>
-        <td class="c">Dead</td>
-        <td class="c">
-          S7:MOINOCHI<br/>
-          S5:INOCHI<br/>
-          Z7:DRUINOCHI
-        </td>
-      </tr><tr>
-        <td class="c">STO</td>
-        <td class="c">Petrified</td>
-        <td class="c">S7:YAWARISHI</td>
-      </tr>
-    </tbody>
-  </table>
+
+| Status | Condition | Cure with |
+| :----: | :-------: | :-------: |
+| PAR | Paralysis | S3:MOTUNASU |
+| TOX | Poison | S4:DONASU |
+| ILL | Disease | Z3:BYOKINASU |
+| RIP | Death | Z7:MOINOCHI<br/>S5:INOCHI<br/>Z7:DRUINOCHI |
+| STO | Petrification | S7:YAWARISHI |
+
 </div>
 
 These five conditions can be cured by a high-enough level spellcaster. They can also be cured at a temple for money, although not every temple can heal every condition.
@@ -608,40 +545,17 @@ You don't have to explicitly rest, but if you want to kill a bunch of time, it's
 Keep in mind that monsters will continue to roam around while you're camping and will get first strike if they come across your camp. You may be able to find little corners where it's harder for monsters to find you.
 
 <div class="float-left">
-  <table>
-    <thead>
-      <tr>
-        <th>Spell</th>
-        <th>HP</th>
-        <th>Eff.</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>S1:NASU</td>
-        <td class="c" rowspan=2>1&ndash;8</td>
-        <td class="c">4.5</td>
-      </tr><tr>
-        <td>Z2:DUNASU</td>
-        <td class="c">2.2</td>
-      </tr><tr>
-        <td>S4:MONASU</td>
-        <td class="c" rowspan=2>17&ndash;32</td>
-        <td class="c">6.1</td>
-      </tr><tr>
-        <td>Z5:DRUNASU</td>
-        <td class="c">4.9</td>
-      </tr><tr>
-        <td>S5:HONASU</td>
-        <td class="c">33&ndash;64</td>
-        <td class="c">9.7</td>
-      </tr><tr>
-        <td>S6:ALNASU</td>
-        <td class="c">all</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+| Spell      |   HP  | Eff. |
+| ---------- | :---: | :--: |
+| S1:NASU    |  1–8  | 4.5 |
+| Z2:DUNASU  |   ^^  | 2.2 |
+| S4:MONASU  | 17–32 | 6.1 |
+| Z5:DRUNASU |   ^^  | 4.9 |
+| S5:HONASU  | 33–64 | 9.7 |
+| S6:ALNASU  | 100%  | |
+[Power/HP efficency of healing spells]
+
 </div>
 
 Health can also be regenerated with magic. Shisai and Shizen have healing spells, although the Shizen's spells cost more so they aren't as efficient: column three shows the average HP cured per POW spent, so higher is better. Because of its point cost, S6:ALNASU is best used for curing 60+ hp at once, although the lack of randomness might make it attractive for smaller amounts. The day you cast your first S6:ALNASU to cure 100 hp or more is a beautiful day indeed.

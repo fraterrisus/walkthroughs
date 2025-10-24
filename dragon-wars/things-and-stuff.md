@@ -13,7 +13,7 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 ### Axes
 
 | Item         | Price | Dmg  |  AV  |  AC  | Requires |
-| :----------- | :---: | :--: | :--: | :--: | :------: |
+| :----------- | ----: | :--: | :--: | :--: | :------: |
 | Small Pick   |  50   | 1d4  |      |      | STR 4    |
 | Pick         |  60   | 1d6  |      |      | STR 7    |
 | Hand Axe     |  60   | 1d6  |      |      | STR 5    |
@@ -27,7 +27,7 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 ### Flails
 
 | Item         | Price | Dmg  |  AV  |  AC  | Requires |
-| ------------ | :---: | :--: | :--: | :--: | :------: |
+| ------------ | ----: | :--: | :--: | :--: | :------: |
 | Flail        |  40   | 1d6  |      |      | STR 10   |
 | War Flail    |  400  | 1d12 |      |      | STR 10   |
 | Bladed Flail | 1000  | 1d12 |      |      | STR 10   |
@@ -38,7 +38,7 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 ### Swords
 
 | Item             | Price | Dmg         |  AV  |  AC  | Requires | Casts |
-| ---------------- | :---: | :---------: | :--: | :--: | :------: | ----- |
+| ---------------- | ----: | :---------: | :--: | :--: | :------: | ----- |
 | Dagger           |  30   | 1d4         |  +1  |      | STR 3    | |
 | Ruby Dagger      |  40   | 1d4         |  +3  |      | STR 3    | |
 | Shortsword       |  50   | 1d6         |  +1  |      | STR 8    | |
@@ -57,7 +57,7 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 Two-handers conflict with Full Shields, but not regular Shields.
 
 | Item                 | Price | Dmg  |  AV  |  AC  | Requires | Casts |
-| -------------------- | :---: | :--: | :--: | :--: | :------: | ----- |
+| -------------------- | ----: | :--: | :--: | :--: | :------: | ----- |
 | Polearm              | 90    | 1d10 |  +1  |      | STR 13   |       |
 | Pole Arm (Kingshome) | 90    | 1d20 |  +2  |      | STR 16   |       |
 | Greatsword,<br/>Magic Sword | 80 | 1d12 | +1 |     | STR 17   |       |
@@ -71,7 +71,7 @@ Two-handers conflict with Full Shields, but not regular Shields.
 ### Maces
 
 | Item | Price | Dmg | AV | AC | Requires | Casts |
-| ---- | :---: | :--: | :--: | :--: | --- | ----- |
+| ---- | ----: | :--: | :--: | :--: | :-: | ----- |
 | Mace | 40 | 1d8 | | | STR 10 | |
 | Old Peg Leg | 200 | 1d8 | +1 | | STR 10 | |
 | Hammer | 40 | 1d10 | | | STR 12 | |
@@ -89,10 +89,10 @@ Two-handers conflict with Full Shields, but not regular Shields.
 
 Bows, like Two-handers, conflict with Full Shields but not regular Shields.
 
-**Rate of Fire** is either one arrow, a burst (three), or auto-fire (entire quiver).
+**Rate of Fire** is either one arrow, a burst (three), or auto-fire (entire quiver). You can't select higher rates of fire in `(Q)uickfight` mode.
 
 | Item | Price | AV | Range | Rate | Requires |
-| ---- | :---: | :--: | :--: | :--: | :-----: |
+| ---- | ----: | :--: | :--: | :--: | :-----: |
 | Bow | 60 | | 20' | 1 | DEX 10 |
 | Long Bow | 90 | +1 | 40' | 1 | DEX 14 |
 | Great Bow | 310 | +2 | 50' | 1 | DEX 16 |
@@ -104,7 +104,7 @@ Bows, like Two-handers, conflict with Full Shields but not regular Shields.
 ### Crossbows
 
 | Item | Price | AV | Range | Rate | Requires |
-| ---- | :---: | :--: | :--: | :--: | :-----: |
+| ---- | ----: | :--: | :--: | :--: | :-----: |
 | Crossbow | 60 | | 30' | 1 | DEX 12 |
 | Tri-Cross | 600 | +1 | 30' | burst | DEX 15 |
 
@@ -117,74 +117,24 @@ The item conflict rules are written such that you have to equip ammunition *afte
 
 Ammunition also carries an "ammo type" flag which determines whether it can be loaded into a Bow ("Arrows" and "Quivers", type 0) or Crossbow ("Bolts", type 1).
 
-<table>
-    <tr>
-        <th>Item</th>
-        <th>Price</th>
-        <th>Dmg</th>
-        <th>Other</th>
-    </tr><tr>
-        <td>Arrow</td>
-        <td class="c">50</td>
-        <td class="c">1d6</td>
-        <td></td>
-    </tr><tr>
-        <td>White Arrow</td>
-        <td class="c">150</td>
-        <td class="c">1d8</td>
-        <td></td>
-    </tr><tr>
-        <td>Silver Arrow</td>
-        <td class="c">500</td>
-        <td class="c">1d12</td>
-        <td></td>
-    </tr><tr>
-        <td>Grey Arrow</td>
-        <td class="c">50</td>
-        <td class="c">1d20</td>
-        <td></td>
-    </tr><tr>
-        <td>Magic Arrow</td>
-        <td class="c">700</td>
-        <td class="c">1d20</td>
-        <td></td>
-    </tr><tr>
-        <td class="b">Magic Quiver</td>
-        <td class="b c">50</td>
-        <td class="b c">1d4</td>
-        <td class="b">auto-refills itself each round</td>
-    </tr><tr>
-        <td>Bolt, Bolts</td>
-        <td class="c">60</td>
-        <td class="c">1d4</td>
-        <td></td>
-    </tr><tr>
-        <td>Long Bolt</td>
-        <td class="c">60</td>
-        <td class="c">1d4</td>
-        <td>+20' range</td>
-    </tr><tr>
-        <td>Pierce Bolt</td>
-        <td class="c">1200</td>
-        <td class="c">1d6</td>
-        <td>+1 AV</td>
-    </tr><tr>
-        <td>Mega Bolt</td>
-        <td class="c">600</td>
-        <td class="c">1d20</td>
-        <td></td>
-    </tr><tr>
-        <td rowspan=2>Dead Bolt</td>
-        <td class="c">600</td>
-        <td class="c">1d20</td>
-        <td>can be refilled with <i>S:Charger</i></td>
-    </tr>
-</table>
+| Item         | Price|  Dmg | Other |
+| ------------ | ----:| :--: | ----- |
+| Arrow        |   50 |  1d6 | |
+| White Arrow  |  150 |  1d8 | |
+| Silver Arrow |  500 | 1d12 | |
+| Grey Arrow   |   50 | 1d20 | |
+| Magic Arrow  |  700 | 1d20 | |
+| Magic Quiver |   50 |  1d4 | refills itself each round <!--{tr:.thick} -->
+| Bolt, Bolts  |   60 |  1d4 | |
+| Long Bolt    |   60 |  1d4 | +20' range |
+| Pierce Bolt  | 1200 |  1d6 | +1 AV |
+| Mega Bolt    |  600 | 1d20 | |
+| Dead Bolt    |  600 | 1d20 | can be refilled with *S:Charger* |
 
 ### Thrown Weapons
 
 | Item | Price | Dmg | AV | AC | Range | Requires | Other |
-| ---- | :---: | :--: | :--: | :--: | :--: | :--: | ----- |
+| ---- | ----: | :--: | :--: | :--: | :--: | :--: | ----- |
 | Javelin | 40 | 1d6 | | | 30' | DEX 12 | |
 | Spear   | 40 | 1d8 | | | 40' | DEX 12 | |
 | Holy Spear | 40 | 1d30 | | | 10' | DEX 14 | |
@@ -203,7 +153,7 @@ Ammunition also carries an "ammo type" flag which determines whether it can be l
 Body Armor comes in a bunch of different "item types", like "Leather" and "Cuir Bouilli" and "Plate and Chain", but it doesn't make any difference to the game.
 
 | Item | Price |  AC  |  AV  | Requires | Other |
-| ---- | :---: | :--: | :--: | :------: | ----- |
+| ---- | ----: | :--: | :--: | :------: | ----- |
 | Cloth Armor | 25 | +1 | | | | 
 | Pilgrim Garb | 20 | +1 | | | wear to pass Old Dock guards |
 | Royal Robe | 2000 | +1 | | |
@@ -228,64 +178,27 @@ Technically, the Silver Gloves are "Mage Gloves" instead of "Gloves", but the di
 
 | Item          | Price |  AC  |  AV  |
 | ------------- | ----: | :--: | :--: |
-| Gauntlets     |  700  |  +2  |      |
+| Gauntlets     |  700  |  +2  | <!--{tr:.thick}-->
 | Silver Gloves | 2000  |  +3  |      |
 
 ### Shields
 
 Everything listed on this table is a "Full Shield" except for the basic "Shield". Full Shields can't be used with Two-handers or Bows.
 
-<table>
-    <tr>
-        <th>Item</th>
-        <th>Price</th>
-        <th>STR</th>
-        <th>AC</th>
-        <th>AV</th>
-    </tr><tr>
-        <td class="b">Shield</td>
-        <td class="b c">1000</td>
-        <td class="b c">10</td>
-        <td class="b c">+2</td>
-        <td class="b"></td>
-    </tr><tr>
-        <td>Fire Shield</td>
-        <td class="c">5000</td>
-        <td class="c">12</td>
-        <td class="c">+2</td>
-        <td class="c">-2</td>
-    </tr><tr>
-        <td>Large Shield</td>
-        <td class="c">1000<br />100 (Freeport)</td>
-        <td class="c">12</td>
-        <td class="c">+3</td>
-        <td class="c">-2</td>
-    </tr><tr>
-        <td>Magic Shield<br />(Byzanople, College)</td>
-        <td class="c">3000</td>
-        <td class="c">10</td>
-        <td class="c">+3</td>
-        <td></td>
-    </tr><tr>
-        <td>Magic Shield<br />(Phoebus)</td>
-        <td class="c">1000</td>
-        <td class="c">10</td>
-        <td class="c">+4</td>
-        <td></td>
-    </tr><tr>
-        <td>Dragon Shield</td>
-        <td class="c">12000</td>
-        <td class="c">10</td>
-        <td class="c">+5</td>
-        <td></td>
-    </tr>
-</table>
+| Item | Price | Requires | AC | AV |
+| ---- | ----: | :------: | :-: | :-: |
+| Shield | 1000 | STR 10 | +2 | <!--{tr:.thick}-->
+| Fire Shield | 5000 | STR 12 | +2 | -2 |
+| Large Shield | \*1000 | STR 12 | +3 | -2 |
+| Magic Shield (Byzanople, College) | 3000 | STR 10 | +3 | |
+| Magic Shield (Phoebus) | 1000 | STR 10 | +4 | |
+| Dragon Shield | 12000 | STR 10 | +5 | |
 
 Lots of things about shields don't make any sense:
 - The Fire Shield has weapon statistics (1d12 at 40') but can't actually be used as a weapon.
 - Shields (+2AC) cost the same as Large Shields (+3AC, -2AV).
 - ...except in Freeport, where Large Shields cost 1/10 what they do anywhere else.
-- The Fire Shield (+2AC, -2AV) is worse than every other shield.
+- The Fire Shield (+2AC, -2AV) is worse than every other shield, except in resale value.
 
 ### Helms
 

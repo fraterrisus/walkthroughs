@@ -9,6 +9,10 @@ table {
   border-spacing: 0;
 }
 
+table caption {
+  font-size: 75%;
+}
+
 .small-font > table, table.small {
   font-size: 75%;
   td {
@@ -30,4 +34,10 @@ th, td.b {
 
 tr.thick > td {
   border-bottom-width: 4px !important;
+}
+
+th.nb, td.nb {
+  width: 1.5em;
+  padding-left: 0px;
+  padding-right: 0px;
 }

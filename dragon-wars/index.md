@@ -167,152 +167,38 @@ Finally, we discussed **magic skills** already, but I didn't mention skill ranks
 
 Here's a sample set of starting characters that I took through the game. This will give you an idea of how I build my party, based on the advice above. You'll see them again in [Final Characters](#final-characters), towards the end of this guide.
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Level</th>
-      <th>STR</th>
-      <th>DEX</th>
-      <th>INT</th>
-      <th>SPR</th>
-      <th>Health</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan=3><b>Thog</b></td>
-      <td class="c">1</td>
-      <td class="c">19</td>
-      <td class="c">20</td>
-      <td class="c">10</td>
-      <td class="c">10</td>
-      <td class="c">15</td>
-    </tr><tr>
-      <td colspan=6><i>Skills:</i> Low Magic 1, Climb 2, Lockpick 2</td>
-    </tr><tr>
-      <td colspan=6><i>Upgrades:</i> Climb 4, Lockpick 4, STR 20+, Low 3, HP 20</td>
-    </tr><tr>
-      <td rowspan=3><b>Alex</b></td>
-      <td class="c">1</td>
-      <td class="c">16</td>
-      <td class="c">20</td>
-      <td class="c">10</td>
-      <td class="c">10</td>
-      <td class="c">15</td>
-    </tr><tr>
-      <td colspan=6><i>Skills:</i> Low Magic 1, Bandage 4, Tracker 1</td>
-    </tr><tr>
-      <td colspan=6><i>Upgrades:</i> STR 18+, Bandage 10, HP 20</td>
-    </tr><tr>
-      <td rowspan=3><b>Arthur</b></td>
-      <td class="c">1</td>
-      <td class="c">12</td>
-      <td class="c">12</td>
-      <td class="c">13</td>
-      <td class="c">19</td>
-      <td class="c">13</td>
-    </tr><tr>
-      <td colspan=6><i>Skills:</i> Low Magic 1, Druid Magic 1, Arcane Lore 1, Bureaucracy 1</td>
-    </tr><tr>
-      <td colspan=6><i>Upgrades:</i> DEX 13, Druid 3, INT 15, HP 15, SPR++</td>
-    </tr><tr>
-      <td rowspan=3><b>Valerie</b></td>
-      <td class="c">1</td>
-      <td class="c">10</td>
-      <td class="c">16</td>
-      <td class="c">15</td>
-      <td class="c">16</td>
-      <td class="c">13</td>
-    </tr><tr>
-      <td colspan=6><i>Skills:</i> Low Magic 1, High Magic 1</td>
-    </tr><tr>
-      <td colspan=6><i>Upgrades:</i> High 3, DEX 20+, Bows+, HP 15, SPR++</td>
-    </tr>
-  </tbody>
-</table>
+* **Thog**: STR 19, DEX 20, INT 10, SPR 10, Health 15
+  * *Skills:* Low Magic 1, Climb 2, Lockpick 2
+  * *Upgrades:* Climb 4, Lockpick 4, STR 20+, Low Magic 3, Health 20
+* **Alex**: STR 16, DEX 20, INT 10, SPR 10, Health 15
+  * *Skills:* Low Magic 1, Bandage 4, Tracker 1
+  * *Upgrades:* STR 18+, Bandage 10, Health 20
+* **Arthur**: STR 12, DEX 12, INT 13, SPR 19, Health 13
+  * *Skills:* Low Magic 1, Druid Magic 1, Arcane Lore 1, Bureaucracy 1
+  * *Upgrades:* DEX 13, Druid Magic 3, INT 15, Health 15, SPR++
+* **Valerie**: STR 16, DEX 20, INT 10, SPR 10, Health 15
+  * *Skills:* Low Magic 1, High Magic 1
+  * *Upgrades:* High Magic 3, DEX 20+, Bows+, Health 15, SPR++
 
 ### NPCs
 
 The game's NPCs are in a fixed place and always appear with the same stats and same level, no matter when you pick them up.
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Level</th>
-      <th>STR</th>
-      <th>DEX</th>
-      <th>INT</th>
-      <th>SPR</th>
-      <th>Health</th>
-      <th>Where?</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan=4><b>Ulrik</b></td>
-      <td class="c">3</td>
-      <td class="c">20</td>
-      <td class="c">17</td>
-      <td class="c">08</td>
-      <td class="c">14</td>
-      <td class="c">15</td>
-      <td>Purgatory</td>
-    </tr><tr>
-      <td colspan=7><i>Skills:</i> Cave Lore 3, Swim 1, Axes 3</td>
-    </tr><tr>
-      <td colspan=7><i>Equipment:</i> Hand Axe, Leather Armor</td>
-    </tr><tr>
-      <td colspan=7><i>Upgrades:</i> Low Magic 1, DEX 21, HP 20</td>
-    </tr><tr>
-      <td rowspan=4><b>Louie</b></td>
-      <td class="c">2</td>
-      <td class="c">14</td>
-      <td class="c">16</td>
-      <td class="c">16</td>
-      <td class="c">16</td>
-      <td class="c">15</td>
-      <td>Slave Camp</td>
-    </tr><tr>
-      <td colspan=7><i>Skills:</i> Hiding 2, Pickpocket 2</td>
-    </tr><tr>
-      <td colspan=7><i>Equipment:</i> None</td>
-    </tr><tr>
-      <td colspan=7><i>Upgrades:</i> Low Magic 1, DEX 21, STR 18, HP++</td>
-    </tr><tr>
-      <td rowspan=4><b>Valar</b></td>
-      <td class="c">2</td>
-      <td class="c">11</td>
-      <td class="c">14</td>
-      <td class="c">18</td>
-      <td class="c">16</td>
-      <td class="c">19</td>
-      <td>Phoebus</td>
-    </tr><tr>
-      <td colspan=7><i>Skills:</i> Low Magic 1, Sun Magic 1</td>
-    </tr><tr>
-      <td colspan=7><i>Spells:</i> L:everything; S:Sun Stroke, Heal, Armor of Light, Guidance</td>
-    </tr><tr>
-      <td colspan=7><i>Upgrades:</i> Sun 3, DEX 17, SPR++</td>
-    </tr><tr>
-      <td rowspan=4><b>Halifax</b></td>
-      <td class="c">6</td>
-      <td class="c">21</td>
-      <td class="c">18</td>
-      <td class="c">14</td>
-      <td class="c">14</td>
-      <td class="c">23</td>
-      <td>Freeport</td>
-    </tr><tr>
-      <td colspan=7><i>Skills:</i> Arcane Lore 2, Cave Lore 3, Climb 1, Swim 2, Maces 3</td>
-    </tr><tr>
-      <td colspan=7><i>Equipment:</i> Long Mace, Large Shield, Chain Armor</td>
-    </tr><tr>
-      <td colspan=7><i>Upgrades:</i> I never bother taking him in the first place.</td>
-    </tr>
-  </tbody>
-</table>
+* **Ulrik** (Purgatory): Level 3, STR 20, DEX 17, INT 8, SPR 14, Health 15
+  * *Skills:* Cave Lore 3, Swim 1, Axes 3
+  * *Equipment:* Hand Axe, Leather Armor
+  * *Upgrades:* Low Magic 1, DEX 21, Health 20
+* **Louie** (Slave Camp): Level 2, STR 14, DEX 16, INT 16, SPR 16, Health 15
+  * *Skills:* Hiding 2, Pickpocket 2
+  * *Upgrades:* Low Magic 1, STR 18, DEX 21, HP++
+* **Valar** (Phoebus): Level 2, STR 11, DEX 14, INT 18, SPR 16, Health 19
+  * *Skills:* Low Magic 1, Sun Magic 1
+  * *Spells:* Low:everything, Sun:Sun Stroke, Heal, Armor of Light, Guidance
+  * *Upgrades:* Sun Magic 3, DEX 17, SPR++
+* **Halifax** (Freeport): Level 6, STR 21, DEX 18, INT 14, SPR 14, Health 23
+  * *Skills:* Arcane Lore 2, Cave Lore 3, Climb 1, Swim 2, Maces 3
+  * *Equipment:* Long Mace, Large Shield, Chain Armor
+  * *Upgrades:* I never take him in the first place.
 
 ### Leveling Up
 
@@ -727,148 +613,38 @@ Note that some state bits are actually kept on the character, not on the game st
 
 ### Final Characters
 
-Here are some stats for my party after defeating Namtar for the last time.
+Here's a look at my example party after defeating Namtar for the last time:
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Level</th>
-      <th>STR</th>
-      <th>DEX</th>
-      <th>INT</th>
-      <th>SPR</th>
-      <th>Health</th>
-      <th>AV</th>
-      <th>DV</th>
-      <th>AC</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan=4><b>Thog</b></td>
-      <td class="c">13</td>
-      <td class="c">25</td>
-      <td class="c">24</td>
-      <td class="c">13</td>
-      <td class="c">13</td>
-      <td class="c">20</td>
-      <td class="c">15</td>
-      <td class="c">6</td>
-      <td class="c">35</td>
-    </tr><tr>
-      <td colspan=9><i>Skills:</i> Climb 4, Lockpick 4, Low Magic 3, Swords 2</td>
-    </tr><tr>
-      <td colspan=9><i>Equipment:</i> Heavy Plate, Silver Gloves, Dragon Shield, Dragon Helm, Mage Ring, Freedom Sword, Dragon Tooth</td>
-    </tr><tr>
-      <td colspan=9><i>Magic:</i> Low: all</td>
-    </tr><tr>
-      <td rowspan=4><b>Alex</b></td>
-      <td class="c">13</td>
-      <td class="c">24</td>
-      <td class="c">24</td>
-      <td class="c">13</td>
-      <td class="c">13</td>
-      <td class="c">20</td>
-      <td class="c">10</td>
-      <td class="c">6</td>
-      <td class="c">29</td>
-    </tr><tr>
-      <td colspan=9><i>Skills:</i> Bandage 10, Tracker 1, Low Magic 1</td>
-    </tr><tr>
-      <td colspan=9><i>Equipment:</i> Dragon Plate, Gauntlets, Magic Shield, Dragon Helm, Golden Boots, Dragon Tooth</td>
-    </tr><tr>
-      <td colspan=9><i>Magic:</i> Low: all</td>
-    </tr><tr>
-      <td rowspan=4><b>Ulrik</b></td>
-      <td class="c">13</td>
-      <td class="c">23</td>
-      <td class="c">24</td>
-      <td class="c">13</td>
-      <td class="c">17</td>
-      <td class="c">20</td>
-      <td class="c">10</td>
-      <td class="c">6</td>
-      <td class="c">30</td>
-    </tr><tr>
-      <td colspan=9><i>Skills:</i> Cave Lore 3, Swim 1, Low Magic 1, Axes 3</td>
-    </tr><tr>
-      <td colspan=9><i>Equipment:</i> Dragon Plate, Gauntlets, Dragon Shield, Dragon Helm, Lucky Boots, Dragon Tooth</td>
-    </tr><tr>
-      <td colspan=9><i>Magic:</i> Low: all</td>
-    </tr><tr>
-      <td rowspan=4><b>Louie</b></td>
-      <td class="c">12</td>
-      <td class="c">21</td>
-      <td class="c">24</td>
-      <td class="c">19</td>
-      <td class="c">19</td>
-      <td class="c">18</td>
-      <td class="c">13</td>
-      <td class="c">6</td>
-      <td class="c">26</td>
-    </tr><tr>
-      <td colspan=9><i>Skills:</i> Hiding 2, Pickpocket 2, Low Magic 1, Druid Magic 2</td>
-    </tr><tr>
-      <td colspan=9><i>Equipment:</i>Magic Plate, Gauntlets, Magic Shield, Black Helm, Lucky Boots, Magic Ring, Dragon Tooth</td>
-    </tr><tr>
-      <td colspan=9><i>Magic:</i> Low: all, Druid: all except <i>Brambles</i></td>
-    </tr><tr>
-      <td rowspan=4><b>Valar</b></td>
-      <td class="c">12</td>
-      <td class="c">14</td>
-      <td class="c">23</td>
-      <td class="c">22</td>
-      <td class="c">23</td>
-      <td class="c">19</td>
-      <td class="c">10</td>
-      <td class="c">5</td>
-      <td class="c">22</td>
-    </tr><tr>
-      <td colspan=9><i>Skills:</i> Low Magic 1, Sun Magic 3</td>
-    </tr><tr>
-      <td colspan=9><i>Equipment:</i> Magic Chain, Magic Shield, Gem Helm, Spell Staff</td>
-    </tr><tr>
-      <td colspan=9><i>Magic:</i> Low: all, Sun: all</td>
-    </tr><tr>
-      <td rowspan=4><b>Arthur</b></td>
-      <td class="c">13</td>
-      <td class="c">15</td>
-      <td class="c">16</td>
-      <td class="c">19</td>
-      <td class="c">30</td>
-      <td class="c">15</td>
-      <td class="c">14</td>
-      <td class="c">4</td>
-      <td class="c">14</td>
-    </tr><tr>
-      <td colspan=9><i>Skills:</i> Low Magic 1, Druid Magic 3, Arcane Lore 1, Bureaucracy 1</td>
-    </tr><tr>
-      <td colspan=9><i>Equipment:</i> Magic Chain, Shield, Black Helm, Mage Staff</td>
-    </tr><tr>
-      <td colspan=9><i>Magic:</i> Low: all, Druid: all except <i>Whirl Wind, Invoke Spirit</i>; Misc: <i>Zak's Speed, Kill Ray</i></td>
-    </tr><tr>
-      <td rowspan=4><b>Valerie</b></td>
-      <td class="c">13</td>
-      <td class="c">13</td>
-      <td class="c">24</td>
-      <td class="c">19</td>
-      <td class="c">24</td>
-      <td class="c">14</td>
-      <td class="c">6</td>
-      <td class="c">6</td>
-      <td class="c">12</td>
-    </tr><tr>
-      <td colspan=9><i>Skills:</i> Low Magic 1, High Magic 3, Bows 1</td>
-    </tr><tr>
-      <td colspan=9><i>Equipment:</i> Magic Chain, Shield, Helm, Gatlin Bow, Magic Quiver</td>
-    </tr><tr>
-      <td colspan=9><i>Magic:</i> Low: all, High: all except <i>Earth Summon</i></td>
-    </tr>
-  </tbody>
-</table>
+* **Thog**: Level 13, STR 25, DEX 24, INT 13, SPR 13, Health 20, AV 15, DV 6, AC 35
+  * *Skills:* Low Magic 3, Climb 4, Lockpick 4, Swords 2
+  * *Equipment:* Heavy Plate, Silver Gloves, Dragon Shield, Dragon Helm, Mage Ring, Freedom Sword, Dragon Tooth
+  * *Spells:* Low: all
+* **Alex**: Level 13, STR 24, DEX 24, INT 13, SPR 13, Health 20, AV 10, DV 6, AC 29
+  * *Skills:* Low Magic 1, Bandage 10, Tracker 1
+  * *Equipment:* Dragon Plate, Gauntlets, Magic Shield, Dragon Helm, Golden Boots, Dragon Tooth
+  * *Spells:* Low: all
+* **Ulrik**: Level 13, STR 23, DEX 24, INT 13, SPR 17, Health 20, AV 10, DV 6, AC 30
+  * *Skills:* Cave Lore 3, Swim 1, Low Magic 1, Axes 3
+  * *Equipment:* Dragon Plate, Gauntlets, Dragon Shield, Dragon Helm, Lucky Boots, Dragon Tooth
+  * *Spells:* Low: all
+* **Louie**: Level 12, STR 21, DEX 24, INT 19, SPR 19, Health 18, AV 13, DV 6, AC 26
+  * *Skills:* Hiding 2, Pickpocket 2, Low Magic 1, Druid Magic 2
+  * *Equipment:* Magic Plate, Gauntlets, Magic Shield, Black Helm, Lucky Boots, Magic Ring, Dragon Tooth
+  * *Spells:* Low: all; Druid: all except *Brambles*
+* **Valar**: Level 12, STR 14, DEX 23, INT 22, SPR 23, Health 19, AV 10, DV 5, AC 22
+  * *Skills:* Low Magic 1, Sun Magic 3
+  * *Equipment:* Magic Chain, Magic Shield, Gem Helm, Spell Staff
+  * *Spells:* Low: all; Sun: all
+* **Arthur**: Level 13, STR 15, DEX 16, INT 19, SPR 30, Health 15, AV 14, DV 4, AC 14
+  * *Skills:* Low Magic 1, Druid Magic 4, Arcane Lore 1, Bureaucracy 1
+  * *Equipment:* Magic Chain, Shield, Black Helm, Mage Staff
+  * *Spells:* Low: all; Druid: all except *Whirl Wind, Invoke Spirit*; Misc: all
+* **Valerie**: Level 13, STR 13, DEX 24, INT 19, SPR 24, Health 14, AV 6, DV 6, AC 12
+  * *Skills:* Low Magic 1, High Magic 3, Bows 1
+  * *Equipment:* Magic Chain, Shield, Helm, Gatlin Bow, Magic Quiver
+  * *Spells:* Low: all; High: all except *Earth Summon*
 
-The lowest-level characters with which I've ever beaten the game (without multiple Irkalla runs) were 12th level. Experience level, of course, is basically irrelevant to the game except as a means for gaining CP, so you could alternately call those 77 CP (50 + 5 + 2 x (12-1)) characters.
+The lowest-level characters with which I've ever beaten the game (without multiple Irkalla runs) were 12th level. Experience level, of course, is nearly irrelevant except as a means for gaining CP, so you could alternately call those 77 CP (50 + 5 + 2 x (12-1)) characters.
 
 ### Decompilation
 

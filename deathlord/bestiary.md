@@ -172,43 +172,11 @@ Slain by: Sword of Fire
 
 Slain by: Sunspear
 
-<table>
-  <thead>
-    <tr>
-      <th>Monster</th>
-      <th>Num</th>
-      <th>AC</th>
-      <th>Damage</th>
-      <th>XP</th>
-      <th>Hit</th>
-      <th>HD</th>
-      <th>Special</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan=2>DEATHLORD</td>
-      <td class="c">1</td>
-      <td class="c">-10</td>
-      <td class="c">48</td>
-      <td class="c">73</td>
-      <td class="c">31</td>
-      <td class="c">31</td>
-      <td>critical hit, drain, RIP-all</td>
-    </tr><tr>
-      <td colspan=7>Immune to all physical attacks <i>except</i> the Sunspear<br/>Immune to all spells <i>except</i> M1:TODO</td>
-    </tr><tr>
-      <td rowspan=2>DOOM GOLEM</td>
-      <td class="c">1</td>
-      <td class="c">-21</td>
-      <td class="c">4x127</td>
-      <td class="c">0</td>
-      <td class="c">31</td>
-      <td class="c">31</td>
-      <td>critical hit</td>
-    </tr>
-  </tbody>
-</table>
+Monster      | Num  | AC   | Damage | XP | Hit  |  HD  | Special                      |
+------------ | :--: | :--: | :--: | :--: | :--: | :--: | ---------------------------- |
+| DEATHLORD  |  1   |  -10 |   48 |  73  |  31  |  31  | critical hit, drain, RIP-all |
+| ^^         | Immune to physical attacks except the Sunspear<br/>Immune to spells except M1:TODO |||||||
+| DOOM GOLEM | 1    |  -21 | 127x4 |  0  |  31  |  31  | critical hit |
 
 Apparently, as part of the copy protection, if the game detects that its code has been tampered with, it replaces *every monster* in the sector with Doom Golems. Caveat hacker...
 
@@ -216,15 +184,15 @@ Apparently, as part of the copy protection, if the game detects that its code ha
 
 No weapon claims to "slay" type 5 creatures, so it's unclear what differentiates these monsters, or what effect this type has in-game. (Andrew Schultz's monster list claims these are monsters you can't run away from, but I have no confirmation of that.)
 
-| Monster      | Num  | AC   | Damage | XP   | Hit  | HD   | Special                      |
+| Monster      | Num  | AC   | Damage | XP | Hit  | HD   | Special                      |
 | ------------ | :--: | :--: | :--: | :--: | :--: | :--: | ---------------------------- |
 | BEHEMOTHS    | 3    | 2    | 20   | 20   | 8    | 10   | summon                       |
-| DIAMYO       | 1    | 2    | 24x2 | 26   | 10   | 16   | critical hit                         |
-| EMPEROR      | 1    | -4   | 24x2 | 43   | 24   | 28   | critical hit                         |
+| DIAMYO       | 1    | 2    | 24x2 | 26   | 10   | 16   | critical hit                 |
+| EMPEROR      | 1    | -4   | 24x2 | 43   | 24   | 28   | critical hit                 |
 | EVIL SPIRITS | 4    | 4    | 10   | 19   | 10   | 6    | PAR                          |
 | EVIL TOMATOS | 15   | 10   | 4    | 7    | 3    | 3    | summon                       |
 | EVIL TREES   | 4    | 3    | 15   | 15   | 6    | 6    |                              |
-| GOLEMS       | 6    | 3    | 32   | 27   | 10   | 16   | critical hit                         |
+| GOLEMS       | 6    | 3    | 32   | 27   | 10   | 16   | critical hit                 |
 | GREEN SLIMES | 10   | 6    | 10   | 18   | 6    | 10   | TOX                          |
 | ICE TOADS    | 6    | 8    | 8    | 16   | 4    | 2    | breath                       |
 | ICE WOLVES   | 6    | 5    | 8    | 16   | 6    | 4    | breath                       |
@@ -232,14 +200,14 @@ No weapon claims to "slay" type 5 creatures, so it's unclear what differentiates
 | KNIGHT       | 1    | 2    | 24   | 28   | 12   | 16   | drain                        |
 | KRAKEN       | 1    | 6    | 8x8  | 19   | 8    | 10   |                              |
 | NECROMANCER  | 1    | 2    | 16   | 37   | 20   | 16   | RIP-all, zap, PAR-all, zap-all (IV, V) |
-| PURPLE WORMS | 2    | 2    | 32   | 46   | 28   | 31   | critical hit, TOX                    |
-| RED SHOGUN   | 1    | -6   | 31x2 | 54   | 24   | 24   | critical hit, RIP-all, zap-all (IV)         |
+| PURPLE WORMS | 2    | 2    | 32   | 46   | 28   | 31   | critical hit, TOX                      |
+| RED SHOGUN   | 1    | -6   | 31x2 | 54   | 24   | 24   | critical hit, RIP-all, zap-all (IV)    |
 | ROOK         | 1    | 2    | 24   | 29   | 12   | 16   | STO                          |
 | SANDSQUIDS   | 6    | 3    | 8    | 13   | 4    | 5    | TOX                          |
 | SEA SERPENTS | 8    | 5    | 16   | 17   | 8    | 6    | TOX                          |
 | SEA SPIRITS  | 4    | 2    | 26x2 | 23   | 10   | 16   |                              |
 | SNOW BEARS   | 6    | 5    | 12x2 | 17   | 8    | 10   |                              |
-| SULTAN       | 1    | -4   | 32   | 44   | 20   | 24   | critical hit                         |
+| SULTAN       | 1    | -4   | 32   | 44   | 20   | 24   | critical hit                 |
 | VIPERS       | 8    | 10   | 4    | 7    | 4    | 1    | TOX                          |
 | WEREBEARS    | 2    | 5    | 16x3 | 27   | 16   | 18   | TOX                          |
 | WHORLS       | 4    | 10   | 8x4  | 17   | 6    | 16   |                              |

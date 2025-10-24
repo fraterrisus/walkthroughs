@@ -15,6 +15,8 @@
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "clean-css": "^5.3.3",
     "eleventy-plugin-toc": "^1.1.5",
+    "markdown-it-decorate": "^1.2.2",
+    "markdown-it-multimd-table": "^4.2.3",
     "sass": "^1.93.2"
   }
 }

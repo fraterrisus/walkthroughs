@@ -1301,103 +1301,16 @@ Hex editing your characters is trivially easy on the PC: every character in the 
 
 Character files are 109 (`0x6d`) bytes long. A reminder that the PC is little-endian, meaning the smallest byte comes first. So if you read two bytes `ab 02`, that's 683 (`0x02ab`), not 43778 (`0xab02`).
 
-<table class="small">
-  <tr>
-    <td></td>
-    <th>00</th>
-    <th>01</th>
-    <th>02</th>
-    <th>03</th>
-    <th>04</th>
-    <th>05</th>
-    <th>06</th>
-    <th>07</th>
-    <th>08</th>
-    <th>09</th>
-    <th>0a</th>
-    <th>0b</th>
-    <th>0c</th>
-    <th>0d</th>
-    <th>0e</th>
-    <th>0f</th>
-  </tr><tr>
-    <td class="c"><b>00</b></td>
-    <td class="c" colspan="14">Name</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-  </tr><tr>
-    <td class="c"><b>10</b></td>
-    <td class="c">P/C</td>
-    <td class="c">Stat</td>
-    <td class="c">00</td>
-    <td class="c" colspan="2">Race</td>
-    <td class="c" colspan="2">Class</td>
-    <td class="c" colspan="2">ST</td>
-    <td class="c" colspan="2">IQ</td>
-    <td class="c" colspan="2">DX</td>
-    <td class="c" colspan="2">CN</td>
-    <td class="c">LK</td>
-  </tr><tr>
-    <td class="c"><b>20</b></td>
-    <td class="c">LK</td>
-    <td class="c" colspan="2">ST'</td>
-    <td class="c" colspan="2">IQ'</td>
-    <td class="c" colspan="2">DX'</td>
-    <td class="c" colspan="2">CN'</td>
-    <td class="c" colspan="2">LK'</td>
-    <td class="c" colspan="2">AC</td>
-    <td class="c" colspan="2">HP</td>
-    <td class="c">HP'</td>
-  </tr><tr>
-    <td class="c"><b>30</b></td>
-    <td class="c">HP'</td>
-    <td class="c" colspan="2">SP</td>
-    <td class="c" colspan="2">SP'</td>
-    <td class="c" colspan="2">Inv #1</td>
-    <td class="c" colspan="2">Inv #2</td>
-    <td class="c" colspan="2">Inv #3</td>
-    <td class="c" colspan="2">Inv #4</td>
-    <td class="c" colspan="2">Inv #5</td>
-    <td class="c">Inv</td>
-  </tr><tr>
-    <td class="c"><b>40</b></td>
-    <td class="c">#6</td>
-    <td class="c" colspan="2">Inv #7</td>
-    <td class="c" colspan="2">Inv #8</td>
-    <td class="c" colspan="4">XP</td>
-    <td class="c" colspan="4">Gold</td>
-    <td class="c" colspan="2">Level</td>
-    <td class="c">Lv'</td>
-  </tr><tr>
-    <td class="c"><b>50</b></td>
-    <td class="c">Lv'</td>
-    <td class="c" colspan="4">Spell Levels</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c" colspan="2">Crit</td>
-    <td class="c" colspan="2">Songs</td>
-    <td class="c">00</td>
-  </tr><tr>
-    <td class="c"><b>60</b></td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c" colspan="2">Att</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c" colspan="2">Fights</td>
-    <td class="c">00</td>
-    <td class="c">00</td>
-    <td class="c" colspan="3"></td>
-  </tr>
-</table>
-
+|      | 00 | 01 | 02 | 03 | 04 | 05 | 06 | 07 | 08 | 09 | 0a | 0b | 0c | 0d | 0e | 0f |
+|:----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|**00**| Name                                                   |||||||||||||| 00 | 00 |
+|**01**| P/C | Stat | 00 | Race || Class ||   ST   ||   IQ   ||   DX   ||   CN   || LK |
+|**02**| LK | ST'    || IQ'    || DX'    || CN'    ||   LK'  ||   AC   ||   HP   || HP'|
+|**03**| HP'|   SP   ||  SP'   || Inv #1 || Inv #2 || Inv #3 || Inv #4 || Inv #5 || Inv |
+|**04**| #6 | Inv #7 || Inv #8 ||       XP       ||||     Gold       |||| Level  || Lv'|
+|**05**| Lv'|  Spell Levels  |||| 00 | 00 | 00 | 00 | 00 | 00 |  Crits || Songs  || 00 |
+|**06**| 00 | 00 | 00 | 00 | 00 |Attacks || 00 | 00 | Fights || 00 | 00 |
+<!--{table:.small}-->
 
 The character's **Name** (`0x00–0f`) uses normal ASCII character codes and is terminated by the first null (`0x00`) byte; garbage characters may make up the rest of the string, but won't be printed.
 

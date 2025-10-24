@@ -1,5 +1,8 @@
 import CleanCSS from "clean-css";
 import { IdAttributePlugin } from "@11ty/eleventy";
+import markdownIt from "markdown-it";
+import markdownItDecorate from "markdown-it-decorate";
+import multiMarkdownPlugin from "markdown-it-multimd-table";
 import path from "node:path";
 import * as sass from "sass";
 import SitemapPlugin from "@quasibit/eleventy-plugin-sitemap";
@@ -36,6 +39,11 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(IdAttributePlugin);
   eleventyConfig.addPlugin(SitemapPlugin, {sitemap: {hostname: "https://walkthroughs.hitchhikerprod.com"}});
   eleventyConfig.addPlugin(TocPlugin, {ul: true});
+
+  eleventyConfig.amendLibrary("md", (mdLib) => {
+    mdLib.use(markdownItDecorate);
+    mdLib.use(multiMarkdownPlugin, {headerless: true, rowspan: true});
+  });
 
   eleventyConfig.ignores.add("LICENSE.md");
 };

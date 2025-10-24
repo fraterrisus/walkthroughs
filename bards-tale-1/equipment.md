@@ -20,1091 +20,195 @@ The **Group** column indicates the dungeon levels on which the item can be rando
 
 ### Weapons
 
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>Dmg</th>
-    <th>Bonus</th>
-    <th>Casts</th>
-  </tr><tr>
-    <td class="r">20</td>
-    <td class="c">I</td>
-    <td>Dagger</td>
-    <td class="c">all</td>
-    <td class="c">1–4</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">200</td>
-    <td class="c">V</td>
-    <td>Mthr Dagger</td>
-    <td class="c">all</td>
-    <td class="c">1–4</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">300</td>
-    <td class="c">VII</td>
-    <td>Admt Dagger</td>
-    <td class="c">all</td>
-    <td class="c">1–4</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">600</td>
-    <td class="c">VII</td>
-    <td>Broom</td>
-    <td class="c">casters</td>
-    <td class="c">1–4</td>
-    <td class="c">+2</td>
-    <td><i>C6:MALE</i></td>
-  </tr><tr>
-  <td class="r">800</td>
-    <td class="c">XI</td>
-    <td>Dmnd Dagger</td>
-    <td class="c">Wa,Pa,Ba,Ro,Wi</td>
-    <td class="c">1–4</td>
-    <td class="c">+3</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">20</td>
-    <td class="c">II</td>
-    <td>Staff</td> 
-    <td class="c">all</td>
-    <td class="c">1–8</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">30</td>
-    <td class="c">I</td>
-    <td>Short Sword</td> 
-    <td class="c">Wa,Pa,Hu,Ba,Ro</td>
-    <td class="c">1–8</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">60</td>
-    <td class="c">II</td>
-    <td>Mace</td> 
-    <td class="c">fighters</td>
-    <td class="c">1–8</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">300</td>
-    <td class="c">V</td>
-    <td>Mtrh Mace</td> 
-    <td class="c">fighters</td>
-    <td class="c">1–8</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr class="thick">
-    <td class="r">400</td>
-    <td class="c">VII</td>
-    <td>Admt Mace</td> 
-    <td class="c">Wa,Pa,Hu,Ba,Ro</td>
-    <td class="c">1–8</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td class="r">70</td>
-    <td class="c">I</td>
-    <td>War Axe</td> 
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">2–8</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">80</td>
-    <td class="c">I</td>
-    <td>Broadsword</td> 
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">2–8</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">300</td>
-    <td class="c">III</td>
-    <td>Mthr Sword</td> 
-    <td class="c">Wa,Pa,Hu,Ba,Ro</td>
-    <td class="c">2–8</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">300</td>
-    <td class="c">V</td>
-    <td>Mthr Axe</td> 
-    <td class="c">Wa,Pa,Mo,Hu,Ba</td>
-    <td class="c">2–8</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">500</td>
-    <td class="c">VII</td>
-    <td>Admt Sword</td> 
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">2–8</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr class="thick">
-    <td class="r">1200</td>
-    <td class="c">X</td>
-    <td>Dmnd Sword</td> 
-    <td class="c">Wa,Pa,Hu</td>
-    <td class="c">2–8</td>
-    <td class="c">+3</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td class="r">4000</td>
-    <td class="c">X</td>
-    <td>Wither Staff</td> 
-    <td class="c">Mo,Hu,Ro,Wi</td>
-    <td class="c">3–12</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td rowspan="2" class="r">60000</td>
-    <td rowspan="2" class="c">—</td>
-    <td rowspan="2">Death Dagger</td> 
-    <td class="c">Mo,Hu,Ro,Wi</td>
-    <td class="c">3–12</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4"><i>grants Critical Hit ability</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">8000</td>
-    <td rowspan="2" class="c">XI</td>
-    <td rowspan="2">Conjurstaff</td> 
-    <td class="c">casters</td>
-    <td class="c">3–12</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4"><i>reduces SP cost of spells by 50%</i></td>
-  </tr><tr class="thick">
-    <td class="r">8000</td>
-    <td class="c">X</td>
-    <td>Sorcerstaff</td>
-    <td class="c">casters</td>
-    <td class="c">3–12</td>
-    <td class="c">+3</td>
-    <td><i>S5:DIIL</i></td>
-  </tr>
-  <tr>
-    <td class="r">200</td>
-    <td class="c">I</td>
-    <td>Halbard</td> 
-    <td class="c">Wa,Pa,Mo,Hu</td>
-    <td class="c">1–16</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td rowspan="2" class="r">1000</td>
-    <td rowspan="2" class="c">VI</td>
-    <td rowspan="2">Shield Staff</td> 
-    <td class="c">Wa,Pa,Hu,casters</td>
-    <td class="c">1–16</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4"><i>+2 AC</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">700</td>
-    <td rowspan="2" class="c">IV</td>
-    <td rowspan="2">Bardsword</td> 
-    <td class="c">Bard</td>
-    <td class="c">2–16</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4"><i>grants unlimited Bard songs</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">1500</td>
-    <td rowspan="2" class="c">IX</td>
-    <td rowspan="2">Soul Mace</td> 
-    <td class="c">Hu,Wi</td>
-    <td class="c">2–16</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4">+<code>POSS</code></td>
-  </tr><tr>
-    <td rowspan="2" class="b r">100000</td>
-    <td rowspan="2" class="b c">XIV</td>
-    <td rowspan="2" class="b">Troll Staff</td> 
-    <td class="c">Wa,Hu,Ba,Ro,<br/>casters</td>
-    <td class="c">4–16</td>
-    <td class="c">+4</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4" class="b"><i>grants HP regeneration</i></td>
-  </tr>
-  <tr>
-    <td rowspan="2" class="r">1100</td>
-    <td rowspan="2" class="c">IX</td>
-    <td rowspan="2">Thief Dagger</td> 
-    <td class="c">Rogue</td>
-    <td class="c">5–20</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4"><i>improves Hide in Shadows</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">9000</td>
-    <td rowspan="2" class="c">XI</td>
-    <td rowspan="2">Staff of Lor</td> 
-    <td class="c">Co,Ma,So</td>
-    <td class="c">5–20</td>
-    <td class="c">+1</td>
-    <td><i>M7:REST</i></td>
-  </tr><tr>
-    <td colspan="4">+<code>NUTS</code></td>
-  </tr><tr>
-    <td rowspan="2" class="b r">600</td>
-    <td rowspan="2" class="b c">VI</td>
-    <td rowspan="2" class="b">Kael's Axe</td> 
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">5–20</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4" class="b">+<code>PSND</code></td>
-  </tr>
-  <tr>
-    <td class="r">600</td>
-    <td class="c">VII</td>
-    <td>Hawkblade</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">3–24</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td rowspan="2" class="r">5000</td>
-    <td rowspan="2" class="c">IX</td>
-    <td rowspan="2">Mage Staff</td>
-    <td class="c">casters</td>
-    <td class="c">3–24</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4"><i>+2 AC; grants SP regeneration</i></td>
-  </tr><tr>
-    <td class="r">400</td>
-    <td class="c">VI</td>
-    <td>Dayblade</td>
-    <td class="c">Wa,Pa,Hu,Ba,<br/>Co,Ma,So</td>
-    <td class="c">3–24</td>
-    <td class="c">+1</td>
-    <td><i>C1:MAFL</i></td>
-  </tr><tr>
-    <td class="r">12000</td>
-    <td class="c">XI</td>
-    <td>Powerstaff</td>
-    <td class="c">casters</td>
-    <td class="c">3–24</td>
-    <td class="c">+1</td>
-    <td><i>C3:WAST</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">70000</td>
-    <td rowspan="2" class="c">XV</td>
-    <td rowspan="2">Stoneblade</td>
-    <td class="c">Wa,Hu</td>
-    <td class="c">3–24</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4">+<code>STON</code></td>
-  </tr><tr>
-    <td class="r">700</td>
-    <td class="c">VI</td>
-    <td>Blood Axe</td>
-    <td class="c">Hunter</td>
-    <td class="c">6–24</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">3000</td>
-    <td class="c">X</td>
-    <td>Sword of Pak</td>
-    <td class="c">Wa,Hu</td>
-    <td class="c">3–24</td>
-    <td class="c">+2</td>
-    <td><i>W2:LESU</i></td>
-  </tr><tr>
-    <td rowspan="2" class="b r">20000</td>
-    <td rowspan="2" class="b c">XIII</td>
-    <td rowspan="2" class="b">Spectre Mace</td>
-    <td class="c">Wa,Hu,Wi</td>
-    <td class="c">3–24</td>
-    <td class="c">+5</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4" class="b"><i>Level-drain</i></td>
-  </tr>
-  <tr>
-    <td class="r">600</td>
-    <td class="c">VIII</td>
-    <td>Pureblade</td>
-    <td class="c">Paladin</td>
-    <td class="c">2–32</td>
-    <td class="c"></td>
-    <td><i>C7:FLAN</i></td>
-  </tr><tr>
-    <td class="r">6000</td>
-    <td class="c">IX</td>
-    <td>War Staff</td>
-    <td class="c">Wa,Hu,Ba,Ro,<br/>casters</td>
-    <td class="c">4–32</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td rowspan="2" class="r">500</td>
-    <td rowspan="2" class="c">—</td>
-    <td rowspan="2">Crystal Sword</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">2–32</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4"><i>Defeats the Crystal Guardian</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">4000</td>
-    <td rowspan="2" class="c">XII</td>
-    <td rowspan="2">Mournblade</td>
-    <td class="c">Hunter</td>
-    <td class="c">2–32</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="4"><i>Level-drain</i></td>
-  </tr><tr class="thick">
-    <td class="r">4000</td>
-    <td class="c">XI</td>
-    <td>Arc's Hammer</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">4–32</td>
-    <td class="c">+1</td>
-    <td><i>C3:LERE</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">200000</td>
-    <td rowspan="2" class="c">—</td>
-    <td rowspan="2">Spectre Snare</td>
-    <td class="c">Wa,Hu,Ba,Wi</td>
-    <td class="c">4–64</td>
-    <td class="c">+1</td>
-    <td><i>W5:SPBI</i></td>
-  </tr><tr>
-    <td colspan="4"><i>+8 AC; grants Critical Hit ability</i></td>
-  </tr>
-</table>
+|      $ |         Grp         | Name          |Wa<!--{.nb}-->|Pa<!--{.nb}-->|Mo<!--{.nb}-->|Hu<!--{.nb}-->|Ba<!--{.nb}-->|Ro<!--{.nb}-->|Co<!--{.nb}-->|Ma<!--{.nb}-->|So<!--{.nb}-->|Wi<!--{.nb}-->| Dmg  | Bonus |  Casts  | Other    |
+| -----: | :-----------------: | ------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:| :--: | :---: | :-----: | -------- |
+|     20 | I   <!--{.serif}--> | Dagger        | + | + | + | + | + | + | + | + | + | + | 1–4  |       | | |
+|    200 | V   <!--{.serif}--> | Mthr Dagger   | + | + | + | + | + | + | + | + | + | + | 1–4  |  +1   | | |
+|    300 | VII <!--{.serif}--> | Admt Dagger   | + | + | + | + | + | + | + | + | + | + | 1–4  |  +2   | | |
+|    600 | VII <!--{.serif}--> | Broom         |   |   |   |   |   |   | + | + | + | + | 1–4  |  +2   | C6:MALE | |
+|    800 | XI  <!--{.serif}--> | Dmnd Dagger   | + | + |   |   | + | + |   |   |   | + | 1–4  |  +3   | | |
+|     20 | II  <!--{.serif}--> | Staff         | + | + | + | + | + | + | + | + | + | + | 1–8  |       | | |
+|     30 | I   <!--{.serif}--> | Short Sword   | + | + |   | + | + | + |   |   |   |   | 1–8  |       | | |
+|     60 | II  <!--{.serif}--> | Mace          | + | + | + | + | + | + |   |   |   |   | 1–8  |       | | |
+|    300 | V   <!--{.serif}--> | Mthr Mace     | + | + | + | + | + | + |   |   |   |   | 1–8  |       | | |
+|    400 | VII <!--{.serif}--> | Admt Mace     | + | + |   | + | + | + |   |   |   |   | 1–8  |  +2   | | <!--{tr:.thick}--> |
+|     70 | I   <!--{.serif}--> | War Axe       | + | + |   | + | + |   |   |   |   |   | 2–8  |       | | |
+|     80 | I   <!--{.serif}--> | Broadsword    | + | + |   | + | + |   |   |   |   |   | 2–8  |       | | |
+|    300 | III <!--{.serif}--> | Mthr Sword    | + | + |   | + | + | + |   |   |   |   | 2–8  |  +1   | | |
+|    300 | V   <!--{.serif}--> | Mthr Axe      | + | + | + | + | + |   |   |   |   |   | 2–8  |  +1   | | |
+|    500 | VII <!--{.serif}--> | Admt Sword    | + | + |   | + | + |   |   |   |   |   | 2–8  |  +2   | | |
+|   1200 | X   <!--{.serif}--> | Dmnd Sword    | + | + |   | + |   |   |   |   |   |   | 2–8  |  +3   | | <!--{tr:.thick}--> |
+|   4000 | X   <!--{.serif}--> | Wither Staff  |   |   | + | + |   | + |   |   |   | + | 3–12 |  +2   | | |
+|  60000 | —   <!--{.serif}--> | Death Dagger  |   |   | + | + |   | + |   |   |   | + | 3–12 |  +2   | | grants Critical Hit ability |
+|   8000 | XI  <!--{.serif}--> | Conjurstaff   |   |   |   |   |   |   | + | + | + | + | 3–12 |  +2   | | reduces SP cost of spells by 50% |
+|   8000 | X   <!--{.serif}--> | Sorcerstaff   |   |   |   |   |   |   | + | + | + | + | 3–12 |  +3   | S5:DIIL | <!--{tr:.thick}--> |
+|    200 | I   <!--{.serif}--> | Halbard       | + | + | + | + |   |   |   |   |   |   | 1–16 |       | | |
+|   1000 | VI  <!--{.serif}--> | Shield Staff  | + | + |   | + |   |   | + | + | + | + | 1–16 |  +1   | | +2 AC |
+|    700 | IV  <!--{.serif}--> | Bardsword     |   |   |   |   | + |   |   |   |   |   | 2–16 |  +1   | | grants unlimited Bard songs |
+|   1500 | IX  <!--{.serif}--> | Soul Mace     |   |   |   | + |   |   |   |   |   | + | 2–16 |  +1   | | +POSS |
+| 100000 | XIV <!--{.serif}--> | Troll Staff   | + |   |   | + | + | + | + | + | + | + | 4–16 |  +4   | | grants HP regeneration <!--{tr:.thick}-->  |
+|   1100 | IX  <!--{.serif}--> | Thief Dagger  |   |   |   |   |   | + |   |   |   |   | 5–20 |       | | improves Hide in Shadows |
+|   9000 | XI <!--{.serif}-->  | Staff of Lor  |   |   |   |   |   |   | + | + | + |   | 5–20 |  +1   | M7:REST | +NUTS |
+|    600 | VI <!--{.serif}-->  | Kael's Axe    | + | + |   | + | + |   |   |   |   |   | 5–20 |  +2   | | +PSND <!--{tr:.thick}--> |
+|    600 | VII <!--{.serif}--> | Hawkblade     | + | + |   | + | + |   |   |   |   |   | 3–24 |       | | |
+|   5000 | IX <!--{.serif}-->  | Mage Staff    |   |   |   |   |   |   | + | + | + | + | 3–24 |       | | +2 AC; grants SP regeneration |
+|    400 | VI <!--{.serif}-->  | Dayblade      | + | + |   | + | + |   | + | + | + |   | 3–24 |  +1   | C1:MAFL | |
+|  12000 | XI <!--{.serif}-->  | Powerstaff    |   |   |   |   |   |   | + | + | + | + | 3–24 |  +1   | C3:WAST | |
+|  70000 | XV <!--{.serif}-->  | Stoneblade    | + |   |   | + |   |   |   |   |   |   | 3–24 |  +1   | | +STON |
+|    700 | VI <!--{.serif}-->  | Blood Axe     |   |   |   | + |   |   |   |   |   |   | 6–24 |  +2   | | |
+|   3000 | X  <!--{.serif}-->  | Sword of Pak  | + |   |   | + |   |   |   |   |   |   | 3–24 |  +2   | W2:LESU | |
+|  20000 | XIII<!--{.serif}--> | Spectre Mace  | + |   |   | + |   |   |   |   |   | + | 3–24 |  +5   | | Level drain <!--{tr:.thick}--> |
+|    600 | VIII<!--{.serif}--> | Pureblade     |   | + |   |   |   |   |   |   |   |   | 2–32 |       | C7:FLAN | |
+|   6000 | IX <!--{.serif}-->  | War Staff     | + |   |   | + | + | + | + | + | + | + | 4–32 |       | | |
+|    500 | —  <!--{.serif}-->  | Crystal Sword | + | + |   | + | + |   |   |   |   |   | 2–32 |  +1   | | Defeats the Crystal Guardian |
+|   4000 | XII <!--{.serif}--> | Mournblade    |   |   |   | + |   |   |   |   |   |   | 2–32 |  +1   | | Level-drain |
+|   4000 | XI <!--{.serif}-->  | Arc's Hammer  | + | + |   | + | + |   |   |   |   |   | 4–32 |  +1   | C3:LERE | <!--{tr:.thick}--> |
+| 200000 | —  <!--{.serif}-->  | Spectre Snare | + |   |   | + | + |   |   |   |   | + | 4–64 |  +1   | W5:SPBI | +8 AC; grants Critical Hit ability |
+<!--{table:.small}-->
 
 ### Body Armor
 
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>AC</th>
-    <th>Casts</th>
-  </tr><tr>
-    <td class="r">40</td>
-    <td class="c">III</td>
-    <td>Robes</td>
-    <td class="c">all</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">70</td>
-    <td class="c">II</td>
-    <td>Leather Armor</td>
-    <td class="c">fighters,Wi</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">150</td>
-    <td class="c">II</td>
-    <td>Chain Armor</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">+3</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">300</td>
-    <td class="c">II</td>
-    <td>Scale Armor</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">+4</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">500</td>
-    <td class="c">IV</td>
-    <td>Mthr Chain</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">+4</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">600</td>
-    <td class="c">IV</td>
-    <td>Bracers [6]</td>
-    <td class="c">all</td>
-    <td class="c">+4</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">700</td>
-    <td class="c">II</td>
-    <td>Plate Armor</td>
-    <td class="c">Wa,Pa</td>
-    <td class="c">+5</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">800</td>
-    <td class="c">VIII</td>
-    <td>Admt Chain</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">+5</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">900</td>
-    <td class="c">IV</td>
-    <td>Mthr Scale</td>
-    <td class="c">Wa,Pa,Hu,Ba,Co,Ma,So</td>
-    <td class="c">+5</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">1000</td>
-    <td class="c">IX</td>
-    <td>Bracers [4]</td>
-    <td class="c">Mo,Hu,Ba,Ro,<br/>casters</td>
-    <td class="c">+6</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">1200</td>
-    <td class="c">VIII</td>
-    <td>Admt Scale</td>
-    <td class="c">Wa,Pa</td>
-    <td class="c">+6</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">2000</td>
-    <td class="c">V</td>
-    <td>Mthr Plate</td>
-    <td class="c">Wa,Pa</td>
-    <td class="c">+6</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">1600</td>
-    <td class="c">IX</td>
-    <td>Admt Plate</td>
-    <td class="c">Wa</td>
-    <td class="c">+7</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">4000</td>
-    <td class="c">XII</td>
-    <td>Dmnd Plate</td>
-    <td class="c">Wa</td>
-    <td class="c">+8</td>
-    <td></td>
-  </tr>
-</table>
-
-
+|      $ |         Grp         | Name          |Wa<!--{.nb}-->|Pa<!--{.nb}-->|Mo<!--{.nb}-->|Hu<!--{.nb}-->|Ba<!--{.nb}-->|Ro<!--{.nb}-->|Co<!--{.nb}-->|Ma<!--{.nb}-->|So<!--{.nb}-->|Wi<!--{.nb}-->| AC |  Casts  |
+| -----: | :-----------------: | ------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:| ------- |
+|     40 | III <!--{.serif}--> | Robes         | + | + | + | + | + | + | + | + | + | + | +1 | |
+|     70 | II  <!--{.serif}--> | Leather Armor | + | + | + | + | + | + |   |   |   | + | +2 | |
+|    150 | II  <!--{.serif}--> | Chain Armor   | + | + |   | + | + |   |   |   |   |   | +3 | |
+|    300 | II  <!--{.serif}--> | Scale Armor   | + | + |   | + | + |   |   |   |   |   | +4 | |
+|    500 | IV  <!--{.serif}--> | Mthr Chain    | + | + |   | + | + |   |   |   |   |   | +4 | |
+|    600 | IV  <!--{.serif}--> | Bracers [6]   | + | + | + | + | + | + | + | + | + | + | +4 | |
+|    700 | II  <!--{.serif}--> | Plate Armor   | + | + |   |   |   |   |   |   |   |   | +5 | |
+|    800 | VIII<!--{.serif}--> | Admt Chain    | + | + |   | + | + |   |   |   |   |   | +5 | |
+|    900 | IV  <!--{.serif}--> | Mthr Scale    | + | + |   | + | + |   | + | + | + |   | +5 | |
+|   1000 | IX  <!--{.serif}--> | Bracers [4]   |   |   | + | + | + | + | + | + | + | + | +6 | |
+|   1200 | VIII<!--{.serif}--> | Admt Scale    | + | + |   |   |   |   |   |   |   |   | +6 | |
+|   2000 | V   <!--{.serif}--> | Mthr Plate    | + | + |   |   |   |   |   |   |   |   | +6 | |
+|   1600 | IX  <!--{.serif}--> | Admt Plate    | + |   |   |   |   |   |   |   |   |   | +7 | |
+|   4000 | XII <!--{.serif}--> | Dmnd Plate    | + |   |   |   |   |   |   |   |   |   | +8 | |
+<!--{table:.small}-->
 
 ### Gloves
 
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>AC</th>
-    <th>Casts</th>
-  </tr><tr>
-    <td class="r">40</td>
-    <td class="c">III</td>
-    <td>Gauntlets</td>
-    <td class="c">Wa,Pa,Hu</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">80</td>
-    <td class="c">III</td>
-    <td>Leather Glvs</td>
-    <td class="c">fighters,Wi</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">400</td>
-    <td class="c">V</td>
-    <td>Mthr Gloves</td>
-    <td class="c">Wa,Pa,Hu,Ba,Ro,Wi</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">500</td>
-    <td class="c">VII</td>
-    <td>Admt Gloves</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">+3</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">3000</td>
-    <td class="c">XII</td>
-    <td>Wargloves</td>
-    <td class="c">Wa,Pa,Ba</td>
-    <td class="c">+5</td>
-    <td></td>
-  </tr>
-</table>
+|      $ |         Grp         | Name          |Wa<!--{.nb}-->|Pa<!--{.nb}-->|Mo<!--{.nb}-->|Hu<!--{.nb}-->|Ba<!--{.nb}-->|Ro<!--{.nb}-->|Co<!--{.nb}-->|Ma<!--{.nb}-->|So<!--{.nb}-->|Wi<!--{.nb}-->| AC |  Casts  |
+| -----: | :-----------------: | ------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:| ------- |
+|     40 | III <!--{.serif}--> | Gauntlets     | + | + |   | + |   |   |   |   |   |   | +1 | |
+|     80 | III <!--{.serif}--> | Leather Glvs  | + | + | + | + | + | + |   |   |   | + | +1 | |
+|    400 | V   <!--{.serif}--> | Mthr Gloves   | + | + |   | + | + |   |   |   |   |   | +2 | |
+|    500 | VII <!--{.serif}--> | Admt Gloves   | + | + |   | + | + |   |   |   |   |   | +3 | |
+|   3000 | XII <!--{.serif}--> | Wargloves     | + | + |   |   | + |   |   |   |   |   | +5 | |
+<!--{table:.small}-->
 
 ### Helmets
 
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>AC</th>
-    <th>Casts</th>
-  </tr><tr>
-    <td class="r">50</td>
-    <td class="c">III</td>
-    <td>Helm</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">300</td>
-    <td class="c">V</td>
-    <td>Mthr Helm</td>
-    <td class="c">Wa,Pa,Hu,Ba,Ro</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">8000</td>
-    <td class="c">XII</td>
-    <td>Lorehelm</td>
-    <td class="c">Wa,Pa,Ba,Wi</td>
-    <td class="c">+2</td>
-    <td><i>S7:SOSI</i></td>
-  </tr><tr>
-    <td class="r">400</td>
-    <td class="c">VII</td>
-    <td>Admt Helm</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">+3</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">10000</td>
-    <td class="c">XV</td>
-    <td>Travelhelm</td>
-    <td class="c">Wa,Pa,Ba</td>
-    <td class="c">+3</td>
-    <td><i>C7:APAR</i></td>
-  </tr><tr>
-    <td class="r">50000</td>
-    <td class="c">XIV</td>
-    <td>Spirithelm</td>
-    <td class="c">Wa,Hu</td>
-    <td class="c">+3</td>
-    <td><i>W2:LESU</i></td>
-  </tr><tr>
-    <td class="r">1100</td>
-    <td class="c">XI</td>
-    <td>Dmnd Helm</td>
-    <td class="c">Wa,Pa</td>
-    <td class="c">+4</td>
-    <td></td>
-  </tr>
-</table>
+|      $ |         Grp         | Name          |Wa<!--{.nb}-->|Pa<!--{.nb}-->|Mo<!--{.nb}-->|Hu<!--{.nb}-->|Ba<!--{.nb}-->|Ro<!--{.nb}-->|Co<!--{.nb}-->|Ma<!--{.nb}-->|So<!--{.nb}-->|Wi<!--{.nb}-->| AC |  Casts  |
+| -----: | :-----------------: | ------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:| ------- |
+|     50 | III <!--{.serif}--> | Helm          | + | + |   | + | + |   |   |   |   |   | +1 | |
+|    300 | V   <!--{.serif}--> | Mthr Helm     | + | + |   | + | + | + |   |   |   |   | +2 | |
+|   8000 | XII <!--{.serif}--> | Lorehelm      | + | + |   |   | + |   |   |   |   | + | +2 | S7:SOSI |
+|    400 | VII <!--{.serif}--> | Admt Helm     | + | + |   | + | + |   |   |   |   |   | +3 | |
+|  10000 | XV  <!--{.serif}--> | Travelhelm    | + | + |   |   | + |   |   |   |   |   | +3 | C7:APAR |
+|  50000 | XIV <!--{.serif}--> | Spirithelm    | + |   |   | + |   |   |   |   |   |   | +3 | W2:LESU |
+|   1100 | XI  <!--{.serif}--> | Dmnd Helm     | + | + |   |   |   |   |   |   |   |   | +4 | |
+<!--{table:.small}-->
+
 ### Shields
 
 Note that all Weapons and Wands are assumed to occupy one hand, so you can always wield a Shield no matter what weapon you have equipped.
 
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>AC</th>
-    <th>Casts</th>
-  </tr><tr>
-    <td class="r">40</td>
-    <td class="c">II</td>
-    <td>Buckler</td>
-    <td class="c">fighters,Wi</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">100</td>
-    <td class="c">II</td>
-    <td>Tower Shield</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td rowspan="2" class="r">800</td>
-    <td rowspan="2" class="c">VIII</td>
-    <td rowspan="2">Luckshield</td>
-    <td class="c">any</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="3"><i>+2 to Saving Throws</i></td>
-  </tr><tr>
-    <td class="r">400</td>
-    <td class="c">IV</td>
-    <td>Mthr Shield</td>
-    <td class="c">fighters</td>
-    <td class="c">+3</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">2000</td>
-    <td class="c">IX</td>
-    <td>Arcshield</td>
-    <td class="c">fighters</td>
-    <td class="c">+3</td>
-    <td><i>C1:ARFI</i></td>
-  </tr><tr>
-    <td class="r">10000</td>
-    <td class="c">XII</td>
-    <td>Ybarrashield</td>
-    <td class="c">Fi,Pa,Ba</td>
-    <td class="c">+3</td>
-    <td><i>M6:YMCA</i></td>
-  </tr><tr>
-    <td class="r">15000</td>
-    <td class="c">XII</td>
-    <td>Dragonshield</td>
-    <td class="c">Wa,Pa,Hu</td>
-    <td class="c">+3</td>
-    <td><i>M4:DRBR</i></td>
-  </tr><tr>
-    <td class="r">500</td>
-    <td class="c">VII</td>
-    <td>Admt Shield</td>
-    <td class="c">Wa,Pa,Hu,Ba</td>
-    <td class="c">+4</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">1000</td>
-    <td class="c">X</td>
-    <td>Dmnd Shield</td>
-    <td class="c">Wa</td>
-    <td class="c">+5</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">2000</td>
-    <td class="c">IX</td>
-    <td>Pure Shield</td>
-    <td class="c">Pa</td>
-    <td class="c">+5</td>
-    <td></td>
-  </tr>
-</table>
-
+|      $ |         Grp         | Name          |Wa<!--{.nb}-->|Pa<!--{.nb}-->|Mo<!--{.nb}-->|Hu<!--{.nb}-->|Ba<!--{.nb}-->|Ro<!--{.nb}-->|Co<!--{.nb}-->|Ma<!--{.nb}-->|So<!--{.nb}-->|Wi<!--{.nb}-->| AC |  Casts  |  Other  |
+| -----: | :-----------------: | ------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:| ------- | ------- |
+|     40 | II  <!--{.serif}--> | Buckler       | + | + | + | + | + | + |   |   |   | + | +1 | | |
+|    100 | II  <!--{.serif}--> | Tower Shield  | + | + |   | + | + |   |   |   |   |   | +2 | | |
+|    800 | VIII<!--{.serif}--> | Luckshield    | + | + | + | + | + | + | + | + | + | + | +2 | | +2 to Saving Throws |
+|    400 | IV  <!--{.serif}--> | Mthr Shield   | + | + | + | + | + |   |   |   |   |   | +3 | | |
+|   2000 | IX  <!--{.serif}--> | Arcshield     | + | + | + | + | + |   |   |   |   |   | +3 | C1:ARFI | |
+|  10000 | XII <!--{.serif}--> | Ybarrashield  | + | + |   |   | + |   |   |   |   |   | +3 | M6:YMCA | |
+|  15000 | XII <!--{.serif}--> | Dragonshield  | + | + |   | + |   |   |   |   |   |   | +3 | M4:DRBR | |
+|    500 | VII <!--{.serif}--> | Admt Shield   | + | + |   | + | + |   |   |   |   |   | +4 | | |
+|   1000 | X   <!--{.serif}--> | Dmnd Shield   | + |   |   |   |   |   |   |   |   |   | +5 | | |
+|   2000 | IX  <!--{.serif}--> | Pure Shield   |   | + |   |   |   |   |   |   |   |   | +5 | | |
+<!--{table:.small}-->
 
 ### Rings
 
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>AC</th>
-    <th>Casts</th>
-  </tr><tr>
-    <td class="r">100</td>
-    <td class="c">VI</td>
-    <td>Dork Ring</td>
-    <td class="c">all</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">700</td>
-    <td class="c">VI</td>
-    <td>Shield Ring</td>
-    <td class="c">all</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">40000</td>
-    <td class="c">XII</td>
-    <td>Ring of Power</td>
-    <td class="c">casters</td>
-    <td class="c"></td>
-    <td><i>S5:MIBL</i></td>
-  </tr><tr>
-    <td class="r">60000</td>
-    <td class="c">XII</td>
-    <td>Deathring</td>
-    <td class="c">Hu,casters</td>
-    <td class="c">+1</td>
-    <td><i>W4:ANDE</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">80000</td>
-    <td rowspan="2" class="c">XIV</td>
-    <td rowspan="2">Troll Ring</td>
-    <td class="c">all</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td colspan="3"><i>grants HP regeneration</i></td>
-  </tr>
-</table>
-
+|      $ |         Grp         | Name          |Wa<!--{.nb}-->|Pa<!--{.nb}-->|Mo<!--{.nb}-->|Hu<!--{.nb}-->|Ba<!--{.nb}-->|Ro<!--{.nb}-->|Co<!--{.nb}-->|Ma<!--{.nb}-->|So<!--{.nb}-->|Wi<!--{.nb}-->| AC |  Casts  |  Other  |
+| -----: | :-----------------: | ------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:| ------- | ------- |
+|    100 | VI  <!--{.serif}--> | Dork Ring     | + | + | + | + | + | + | + | + | + | + |    | | |
+|    700 | VI  <!--{.serif}--> | Shield Ring   | + | + | + | + | + | + | + | + | + | + | +2 | | |
+|  40000 | XII <!--{.serif}--> | Ring of Power |   |   |   |   |   |   | + | + | + | + |    | S5:MIBL | |
+|  60000 | XII <!--{.serif}--> | Deathring     |   |   |   | + |   |   | + | + | + | + | +1 | W4:ANDE | |
+|  80000 | XIV <!--{.serif}--> | Troll Ring    | + | + | + | + | + | + | + | + | + | + |    | | grants HP regeneration |
+<!--{table:.small}-->
 
 ### Figurines
 
 When used, a Figurine summons a creature to fill your NPC slot.
 
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>AC</th>
-    <th>Casts</th>
-  </tr><tr>
-    <td class="r">300</td>
-    <td class="c">V</td>
-    <td>Ogre Fgn</td>
-    <td class="c">any</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">300</td>
-    <td class="c">XI</td>
-    <td>Golem Fgn</td>
-    <td class="c">any</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">400</td>
-    <td class="c">VIII</td>
-    <td>Giant Fgn</td>
-    <td class="c">any</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">600</td>
-    <td class="c">XI</td>
-    <td>Titan Fgn</td>
-    <td class="c">any</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">800</td>
-    <td class="c">XIV</td>
-    <td>Dragon Fgn</td>
-    <td class="c">any</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">1000</td>
-    <td class="c">XIV</td>
-    <td>Mage Fgn</td>
-    <td class="c">any</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">1000</td>
-    <td class="c">—</td>
-    <td>Mongo Fgn</td>
-    <td class="c">any</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">1200</td>
-    <td class="c">—</td>
-    <td>Lich Fgn</td>
-    <td class="c">any</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">1500</td>
-    <td class="c">—</td>
-    <td>Old Man Fgn</td>
-    <td class="c">any</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">2000</td>
-    <td class="c">—</td>
-    <td>Thor Fgn</td>
-    <td class="c">any</td>
-    <td class="c"></td>
-    <td></td>
-  </tr>
-</table>
+|      $ |         Grp         | Name          |Wa<!--{.nb}-->|Pa<!--{.nb}-->|Mo<!--{.nb}-->|Hu<!--{.nb}-->|Ba<!--{.nb}-->|Ro<!--{.nb}-->|Co<!--{.nb}-->|Ma<!--{.nb}-->|So<!--{.nb}-->|Wi<!--{.nb}-->|
+| -----: | :-----------------: | ------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|    300 | V   <!--{.serif}--> | Ogre Fgn      | + | + | + | + | + | + | + | + | + | + |
+|    300 | XI  <!--{.serif}--> | Golem Fgn     | + | + | + | + | + | + | + | + | + | + |
+|    400 | VIII<!--{.serif}--> | Giant Fgn     | + | + | + | + | + | + | + | + | + | + |
+|    600 | XI  <!--{.serif}--> | Titan Fgn     | + | + | + | + | + | + | + | + | + | + |
+|    800 | XIV <!--{.serif}--> | Dragon Fgn    | + | + | + | + | + | + | + | + | + | + |
+|   1000 | XIV <!--{.serif}--> | Mage Fgn      | + | + | + | + | + | + | + | + | + | + |
+|   1000 | —   <!--{.serif}--> | Mongo Fgn     | + | + | + | + | + | + | + | + | + | + |
+|   1200 | —   <!--{.serif}--> | Lich Fgn      | + | + | + | + | + | + | + | + | + | + |
+|   1500 | —   <!--{.serif}--> | Old Man Fgn   | + | + | + | + | + | + | + | + | + | + |
+|   2000 | —   <!--{.serif}--> | Thor Fgn      | + | + | + | + | + | + | + | + | + | + |
+<!--{table:.small}-->
 
 ### Instruments
 
 A Bard must have an Instrument in order to play Bard Songs; the magical Horns don't count.
 
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>AC</th>
-    <th>Casts</th>
-  </tr><tr class="thick">
-    <td class="r">130</td>
-    <td class="c">III</td>
-    <td>Mandolin, Harp, Flute</td>
-    <td class="c">Bard</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td rowspan="2" class="r">1000</td>
-    <td rowspan="2" class="c">V</td>
-    <td rowspan="2">Lak's Lyre</td>
-    <td class="c">Bard</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td colspan="3"><i>grants unlimited Bard songs</i></td>
-  </tr><tr>
-    <td class="r">1300</td>
-    <td class="c">VI</td>
-    <td>Fin's Flute</td>
-    <td class="c">Bard</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">7000</td>
-    <td class="c">X</td>
-    <td>Heal Harp</td>
-    <td class="c">Bard</td>
-    <td class="c"></td>
-    <td><i>C2:WOHL</i></td>
-  </tr><tr>
-    <td class="r">10000</td>
-    <td class="c">X</td>
-    <td>Galt's Flute</td>
-    <td class="c">Bard</td>
-    <td class="c"></td>
-    <td><i>C4:INWO</i></td>
-  </tr><tr>
-    <td class="r">20000</td>
-    <td class="c">XII</td>
-    <td>Truthdrum</td>
-    <td class="c">Bard</td>
-    <td class="c"></td>
-    <td><i>S5:DIIL</i></td>
-  </tr><tr>
-    <td class="r">30000</td>
-    <td class="c">XII</td>
-    <td>Spiritdrum</td>
-    <td class="c">Bard</td>
-    <td class="c"></td>
-    <td><i>W2:LESU</i></td>
-  </tr><tr class="thick">
-    <td class="r">30000</td>
-    <td class="c">XII</td>
-    <td>Pipes of Pan</td>
-    <td class="c">Bard</td>
-    <td class="c"></td>
-    <td><i>C5:GRRE</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">1200</td>
-    <td rowspan="2" class="c">IV</td>
-    <td rowspan="2">Fire Horn</td>
-    <td class="c">Bard</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td colspan="3"><i>group zap, 33–46 HP</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">12000</td>
-    <td rowspan="2" class="c">X</td>
-    <td rowspan="2">Frost Horn</td>
-    <td class="c">Bard</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td colspan="3"><i>group zap, 52–59 HP</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">20000</td>
-    <td rowspan="2" class="c">XII</td>
-    <td rowspan="2">Flame Horn</td>
-    <td class="c">Bard</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td colspan="3"><i>group zap, 86–101 HP</i></td>
-  </tr>
-</table>
+|      $ |         Grp         | Name          |Wa<!--{.nb}-->|Pa<!--{.nb}-->|Mo<!--{.nb}-->|Hu<!--{.nb}-->|Ba<!--{.nb}-->|Ro<!--{.nb}-->|Co<!--{.nb}-->|Ma<!--{.nb}-->|So<!--{.nb}-->|Wi<!--{.nb}-->| AC |  Casts  |  Other  |
+| -----: | :-----------------: | ------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:| ------- | ------- |
+|    130 | III <!--{.serif}--> | Mandolin      |   |   |   |   | + |   |   |   |   |   |    | | |
+|    130 | III <!--{.serif}--> | Harp          |   |   |   |   | + |   |   |   |   |   |    | | |
+|    130 | III <!--{.serif}--> | Flute         |   |   |   |   | + |   |   |   |   |   |    | | <!--{tr:.thick}--> |
+|   1000 | V   <!--{.serif}--> | Lak's Lyre    |   |   |   |   | + |   |   |   |   |   |    | | unlimited Bard songs |
+|   1300 | VI  <!--{.serif}--> | Fin's Flute   |   |   |   |   | + |   |   |   |   |   | +2 | | |
+|   7000 | X   <!--{.serif}--> | Heal Harp     |   |   |   |   | + |   |   |   |   |   |    | C2:WOHL | |
+|  10000 | X   <!--{.serif}--> | Galt's Flute  |   |   |   |   | + |   |   |   |   |   |    | C4:INWO | |
+|  20000 | XII <!--{.serif}--> | Truthdrum     |   |   |   |   | + |   |   |   |   |   |    | S5:DIIL | |
+|  30000 | XII <!--{.serif}--> | Spiritdrum    |   |   |   |   | + |   |   |   |   |   |    | W2:LESU | |
+|  30000 | XII <!--{.serif}--> | Pipes of Pan  |   |   |   |   | + |   |   |   |   |   |    | C5:GRRE | <!--{tr:.thick}--> |
+|   1200 | IV  <!--{.serif}--> | Fire Horn     |   |   |   |   | + |   |   |   |   |   |    | | 33–46 HP group zap |
+|  12000 | X   <!--{.serif}--> | Frost Horn    |   |   |   |   | + |   |   |   |   |   |    | | 52–59 HP group zap |
+|  20000 | XII <!--{.serif}--> | Flame Horn    |   |   |   |   | + |   |   |   |   |   |    | | 86–101 HP group zap |
+<!--{table:.small}-->
 
 ### Wands
 
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>AC</th>
-    <th>Casts</th>
-  </tr><tr>
-    <td class="r">1000</td>
-    <td class="c">VIII</td>
-    <td>Exorwand</td>
-    <td class="c">casters</td>
-    <td class="c"></td>
-    <td><i>W3:DISP</i></td>
-  </tr><tr>
-    <td class="r">1000</td>
-    <td class="c">IV</td>
-    <td>Lightwand</td>
-    <td class="c">casters</td>
-    <td class="c"></td>
-    <td><i>C1:MAFL</i></td>
-  </tr><tr>
-    <td class="r">14000</td>
-    <td class="c">XII</td>
-    <td>Dragonwand</td>
-    <td class="c">casters</td>
-    <td class="c">+1</td>
-    <td><i>M4:DRBR</i></td>
-  </tr><tr>
-    <td class="r">30000</td>
-    <td class="c">XIV</td>
-    <td>Ogrewand</td>
-    <td class="c">casters</td>
-    <td class="c">+1</td>
-    <td><i>C6:INOG</i></td>
-  </tr><tr>
-    <td class="r">120000</td>
-    <td class="c">—</td>
-    <td>Wizwand</td>
-    <td class="c">Wizard</td>
-    <td class="c">+2</td>
-    <td><i>W4:PRSU</i></td>
-  </tr>
-</table>
+|      $ |         Grp         | Name          |Wa<!--{.nb}-->|Pa<!--{.nb}-->|Mo<!--{.nb}-->|Hu<!--{.nb}-->|Ba<!--{.nb}-->|Ro<!--{.nb}-->|Co<!--{.nb}-->|Ma<!--{.nb}-->|So<!--{.nb}-->|Wi<!--{.nb}-->| AC |  Casts  |
+| -----: | :-----------------: | ------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:| ------- |
+|   1000 | VIII<!--{.serif}--> | Exorwand      |   |   |   |   |   |   | + | + | + | + |    | W3:DISP |
+|   1000 | IV  <!--{.serif}--> | Lightwand     |   |   |   |   |   |   | + | + | + | + |    | C1:MAFL |
+|  14000 | XII <!--{.serif}--> | Dragonwand    |   |   |   |   |   |   | + | + | + | + | +1 | M4:DRBR |
+|  30000 | XIV <!--{.serif}--> | Ogrewand      |   |   |   |   |   |   | + | + | + | + | +1 | C6:INOG |
+| 120000 | —   <!--{.serif}--> | Wizwand       |   |   |   |   |   |   |   |   |   | + | +2 | W4:PRSU |
+<!--{table:.small}-->
 
 ### Miscellaneous Items
 
 The Torch and Lamp can be `(U)sed` to produce light in dungeons, and are consumed as soon as you light them. The Lamp lasts longer than the Torch. On the PC (at least), these items must be equipped before they can be used.
 
-<table>
-  <tr>
-    <th>$</th>
-    <th>Grp</th>
-    <th>Name</th>
-    <th>Usable By</th>
-    <th>AC</th>
-    <th>Casts</th>
-  </tr><tr>
-    <td class="r">5</td>
-    <td class="c">I</td>
-    <td>Torch</td>
-    <td class="c">all</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr class="thick">
-    <td class="r">15</td>
-    <td class="c">I</td>
-    <td>Lamp</td>
-    <td class="c">all</td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td class="r">500</td>
-    <td class="c">VI</td>
-    <td>Elf Cloak</td>
-    <td class="c">Wa,Pa,Ba,Ro,Wi</td>
-    <td class="c">+2</td>
-    <td></td>
-  </tr><tr>
-    <td class="r">800</td>
-    <td class="c">VIII</td>
-    <td>Ali's Carpet</td>
-    <td class="c">Mo,Ro,casters</td>
-    <td class="c">+2</td>
-    <td><i>C6:MALE</i></td>
-  </tr><tr>
-    <td class="r">1000</td>
-    <td class="c">—</td>
-    <td>Silver shapes</td>
-    <td class="c">all</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td rowspan="2" class="r">2000</td>
-    <td rowspan="2" class="c">XII</td>
-    <td rowspan="2" >Speedboots</td>
-    <td class="c">Mo,Ba,Ro,casters</td>
-    <td class="c">+1</td>
-    <td></td>
-  </tr><tr>
-    <td colspan="3"><i>improves "flee combat" saving throw</i></td>
-  </tr><tr>
-    <td class="r">6000</td>
-    <td class="c">XIV</td>
-    <td>Kiel's Compass</td>
-    <td class="c">not Paladin</td>
-    <td class="c"></td>
-    <td><i>M1:SCSI</i></td>
-  </tr><tr>
-    <td class="r">10000</td>
-    <td class="c">XIV</td>
-    <td>Arc's Eye</td>
-    <td class="c">casters</td>
-    <td class="c"></td>
-    <td><i>S7:SOSI</i></td>
-  </tr><tr>
-    <td class="r">10000</td>
-    <td class="c">XIV</td>
-    <td>Dag Stone</td>
-    <td class="c">Paladin</td>
-    <td class="c"></td>
-    <td><i>S5:GRRE</i></td>
-  </tr><tr>
-    <td rowspan="2" class="b r">50000</td>
-    <td rowspan="2" class="b c">XV</td>
-    <td rowspan="2" class="b">Eye</td>
-    <td class="c"></td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td colspan="3" class="b"><i>brings the Mad God back to life</i></td>
-  </tr>
-  <tr>
-    <td rowspan="2" class="r">1200</td>
-    <td rowspan="2" class="c">XVI</td>
-    <td rowspan="2">Master Key</td>
-    <td class="c"></td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td colspan="3"><i>opens all gates in Skara Brae</i></td>
-  </tr><tr>
-    <td rowspan="2" class="r">100000</td>
-    <td rowspan="2" class="c">XV</td>
-    <td rowspan="2">Onyx Key</td>
-    <td class="c"></td>
-    <td class="c"></td>
-    <td></td>
-  </tr><tr>
-    <td colspan="3"><i>allows entry to Mangar's Tower</i></td>
-  </tr>
-</table>
+|      $ |         Grp         | Name          |Wa<!--{.nb}-->|Pa<!--{.nb}-->|Mo<!--{.nb}-->|Hu<!--{.nb}-->|Ba<!--{.nb}-->|Ro<!--{.nb}-->|Co<!--{.nb}-->|Ma<!--{.nb}-->|So<!--{.nb}-->|Wi<!--{.nb}-->| AC |  Casts  |  Other  |
+| -----: | :-----------------: | ------------- |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:| ------- | ------- |
+|      5 | I   <!--{.serif}--> | Torch         | + | + | + | + | + | + | + | + | + | + |    | | provides light |
+|     15 | I   <!--{.serif}--> | Lamp          | + | + | + | + | + | + | + | + | + | + |    | | provides light <!--{tr:.thick}--> |
+|    500 | VI  <!--{.serif}--> | Elf Cloak     | + | + |   |   | + | + |   |   |   | + | +2 | | |
+|    800 | VIII<!--{.serif}--> | Ali's Carpet  |   |   | + |   |   | + | + | + | + | + | +2 | C6:MALE | |
+|   1000 | —   <!--{.serif}--> | Silver shapes | + | + | + | + | + | + | + | + | + | + | +1 | | |
+|   2000 | XII <!--{.serif}--> | Speedboots    |   |   | + |   | + | + | + | + | + | + | +1 | | improves "flee combat" saving throw |
+|   6000 | XIV <!--{.serif}--> | Kiel's Compass |+ |   | + | + | + | + | + | + | + | + |    | M1:SCSI | |
+|  10000 | XIV <!--{.serif}--> | Arc's Eye     |   |   |   |   |   |   | + | + | + | + |    | S7:SOSI | |
+|  10000 | XIV <!--{.serif}--> | Dag Stone     |   | + |   |   |   |   |   |   |   |   |    | S5:GRRE | <!--{tr:.thick}--> |
+|  50000 | XV  <!--{.serif}--> | Eye           |   |   |   |   |   |   |   |   |   |   |    | | brings the Mad God back to life |
+|   1200 | XVI <!--{.serif}--> | Master Key    |   |   |   |   |   |   |   |   |   |   |    | | opens all gates in Skara Brae |
+| 100000 | XV  <!--{.serif}--> | Onyx Key      |   |   |   |   |   |   |   |   |   |   |    | | allows entry to Mangar's Tower |
+<!--{table:.small}-->
+
 ## By Group
 
 Handy if you're trying to figure out what drops are possible on a given dungeon level, or for [hex editing](/bards-tale-1/#hex-editing) your party.

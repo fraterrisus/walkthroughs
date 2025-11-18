@@ -46,6 +46,7 @@ export default async function(eleventyConfig) {
   });
 
   eleventyConfig.ignores.add("LICENSE.md");
+  eleventyConfig.ignores.add("gamefaqs");
 };
 
 export const config = {

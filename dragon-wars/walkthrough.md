@@ -500,7 +500,7 @@ Map: [Smuggler's Cove](/dragon-wars/maps/smugglers-cove/)
 
 In the NE corner of Quag, there's a little peninsula hidden behind a couple of Murk Trees. At the end of that peninsula you'll find Smuggler's Cove.
 
-The Cove is pretty tiny `(p39)`. N of where you enter you can find a statue of Irkalla `(p3)`, which I'm going to generously suggest is a hint from the developers to go visit the Isle of Woe and speak with the Mistress of Magan herself, like I just told you to do in the previous section.
+The Cove is pretty tiny `(p39)`. N of where you enter you can find a statue of Irkalla `(p3)`, which I'm going to generously suggest is a hint to go visit the Isle of Woe and speak with the Mistress of Magan herself, like I just told you to do in the previous section.
 
 On the opposite shore, S of Irkalla's statue, is a Serpent Swimmer you can fight (ow).
 

@@ -29,7 +29,7 @@ I also used another barebones walkthrough by an author named **Psychosis**; it's
 
 ### Game Introduction
 
-*Phantasie* is probably most notable in the CRPG world for being the first RPG produced by SSI, who would go on to produce the classic Gold Box series, starting with Pool of Radiance. For such an early effort, it will feel familiar to people who have played lots of CRPGs, kind of in that same way that people who watched the _Lord of the Rings_ movies as their first exposure had a tendency to say "Wow, this is all super *derivative*." No, friend, the problem is that this is the stuff that everyone else ripped off...
+*Phantasie* is probably most notable in the CRPG world for being the first RPG produced by SSI, who would go on to produce the classic Gold Box series, starting with *Pool of Radiance*. For such an early effort, it will feel familiar to people who have played lots of CRPGs, kind of in that same way that people who watched the _Lord of the Rings_ movies as their first exposure had a tendency to say "Wow, this is all super *derivative*." No, friend, the problem is that this is the stuff that everyone else ripped off...
 
 That being said, it's not a particularly challenging game. I have heard tell of an Apple II version that has a bug that prevents you from winning, but I don't have any specific details on that. So long as you can put together a combination of an emulator and a version of the game disks that works, you should be in for a pretty easy ride.
 
@@ -43,11 +43,11 @@ This also means I'm going to forgo my usual sections on managing save files, sav
 
 If you're in a town and pick **Save Game**, the state of your party members is written to disk along with the ID of the town you're currently in. The next time you start the game, if you select **Continue Saved Game** it will bring up the roster and allow you to pick a character. Then it drops you in whatever town that character was last saved with an empty party, and you start from there.
 
-All that being said, you can pretty easily back up the Boot disk image as much as you like, but the game is easy enough that you probably don't need to. I do recommend using emulator save states if you do something dangerous (like fighting a Minor Deity somewhere), although you always have the option of killing the emulator and reloading from disk if you like the feel consequences for your actions.
+All that being said, you can pretty easily back up the Boot disk image as much as you like, but the game is easy enough that you probably don't need to. I do recommend using emulator save states if you do something dangerous (like fighting a Minor Deity somewhere), although you always have the option of killing the emulator and reloading from disk if you don't like the consequences of your actions.
 
 ### Getting Around and Getting Along
 
-*Phantasie* uses a top-down view for overland exploration and a novel map-based view for dungeons. On the Apple you'll use a somewhat novel 3-W-E-S cluster for movement, although 'N' and '3' work equally well for north. On the Amiga you have to click on the map in the rough direction you want your party to move, although in dungeons you're given a compass rose you can click if you prefer that.
+*Phantasie* uses a top-down view for overland exploration and a map-based view for dungeons. On the Apple you'll use a somewhat novel 3-W-E-S cluster for movement, although 'N' and '3' work equally well for north. On the Amiga you have to click on the map in the rough direction you want your party to move, although in dungeons you're given a compass rose you can click if you prefer that.
 
 There is a working in-game time system, although it tends to be transparent right up until it isn't. Characters have an Age statistic and it is possible for them to die of old age but in practice that shouldn't be an issue. Resting at an inn ostensibly takes two weeks but I haven't paid close enough attention to the passage of years to know whether this makes any practical difference.
 
@@ -64,9 +64,9 @@ There are 256 "minutes" in a day. The game keeps track of days and nights – yo
 
 NPCs do exist, but they're handled as special encounters in dungeons, and there's no dialogue system at all. You do have the occasional choice to make, but we'll cover those when we get to the [walkthrough](#walkthrough) itself.
 
-You have two types of base of operations: towns and inns. Towns are "menu towns" and they're all basically the same. They have an **Armory** where you can buy and sell items, a **Bank** where you can deposit and withdraw money (no matter which branch you deposited it in), a **Mystic** who tells you your party's current "score", an **Inn** for sleeping and distributing treasure, and the **Adventurers Guild** where you can view and modify your party, level up, and learn new spells. The specifics of these actions are slightly platform-dependent, but we'll talk about them more later. 
+There are several Towns scattered throughout the map, which act as your base of operations. You interact with towns through menus (rather than walking around a map), and they're all basically (but not entirely) the same: they have an **Armory** where you can buy and sell items, a **Bank** where you can deposit and withdraw money (no matter which branch you deposited it in), a **Mystic** who tells you your party's current "score", an **Inn** for sleeping and distributing treasure, and the **Adventurers Guild** where you can view and modify your party, level up, and learn new spells. The specifics of these actions are slightly platform-dependent, but we'll talk about them more later. 
 
-If you find an Inn on the road, all you can do there is pay $250 to rest; you can't distribute treasure or do any of the other fun activities at a roadside inn. Resting at an Inn (town or roadside) restores your HP and MP to full.
+If you find an Inn on the road, all you can do there is pay $250 to rest; you can't distribute treasure or do any of the other fun activities at a roadside inn. Resting at either type of Inn (town or roadside) restores your HP and MP to full.
 
 #### Exploring Dungeons
 
@@ -76,7 +76,7 @@ When you exit a dungeon, the game will ask if you want to save the state of the 
 
 ## Creating Characters
 
-When you start the game for the first time, pick **Start in Pelnor**. This drops you into the first menu town (more about towns [later](#getting-around-and-getting-along)) with an empty party. From there, select the **Guild** and then create a **New Member**.
+When you start the game for the first time, pick **Start in Pelnor**. This drops you into the first town with an empty party. From there, select the **Guild** and then create a **New Member**.
 
 The game will have you pick a Race (or select "random", see below), which determines the maximum range of each attribute. If you didn't get the race you wanted, you can cancel and back up a step. Otherwise, pick a Class, which grants bonuses and penalties to some attributes. Finally, the game generates random attributes and shows you the result. You get to either keep the character or start over from scratch.
 
@@ -121,11 +121,11 @@ Races that are only available by picking "random" at creation time are in italic
 
 ### Classes
 
-No surprises here. **Fighters** are your go-to for melee damage; they have the most hit points and the highest *Attack* skill, gain attacks faster than anyone else, and can *Lunge* into the second row. **Monks** and **Rangers** are your hybrid melee/caster types; check their [spell lists](#spells-by-class). Monks share spells with Wizards and have some thieving skills, while Rangers are better fighters and have a more Priest-like spell list. **Priests** are also perfectly good fighters, and **Wizards** very much are not. Finally, **Thieves** have good out-of-combat skills, are passable fighters, advance through levels faster than anyone else, and can attack any row of enemies they want. (Fighters and Thieves aren't completely without magic, either; high-level Thieves can even learn *FireFlash 4*.)
+No surprises here. **Fighters** are your go-to for melee damage; they have the most hit points and the highest *Attack* skill, gain attacks faster than anyone else, and can *Lunge* into the second row. **Monks** and **Rangers** are your hybrid melee/caster types; check their [spell lists](#spells-by-class). Monks share spells with Wizards and have some thieving skills, while Rangers are better fighters and have a more Priest-like spell list. **Priests** are also perfectly good fighters, and **Wizards** very much are not. Finally, **Thieves** have good out-of-combat skills, are passable fighters, advance through levels faster than anyone else, and can attack any row of enemies they want. (Fighters and Thieves aren't completely without magic, either; high-level Thieves can even learn *FireFlash4*.)
 
-On the Amiga, random races can only be Fighters or Thieves. The Apple doesn't apply this restriction.
+On the Amiga, random races can only be Fighters or Thieves. The Apple version doesn't apply this restriction.
 
-The manual suggests two tanks (Fighters/Rangers), two spell casters (Wizards/Monks), one healer (Priest/Ranger), and one Thief (or Monk). However, Priests are arguably the best class in the game: their fighting skills lag only a little behind the Fighter and they can learn *FireFlash 4*. Having someone who can attack behind the first rank would make melee go a bit faster, but all-in-all I think you could be successful in the Temple of the Gods with five Clerics and a Monk (you still need to be able to cast *Transportation*).
+The manual suggests two tanks (Fighters/Rangers), two spell casters (Wizards/Monks), one healer (Priest/Ranger), and one Thief (or Monk). However, Priests are arguably the best class in the game: their fighting skills lag only a little behind the Fighter and they can learn *FireFlash4*. Having someone who can attack behind the first rank would make melee go a bit faster, but all-in-all I think you could be successful in the Temple of the Gods with five Clerics and a Monk (you still need to be able to cast *Transportation*).
 
 Basically, do whatever you want here; there are a nigh-infinite number of functional combinations and they're basically all winnable.
 
@@ -144,7 +144,7 @@ Basically, do whatever you want here; there are a nigh-infinite number of functi
 
 **STR** is for physical combat and in particular determines what equipment you can wield in battle. **INT** determines your ability to learn spells. **DEX** is for dodging attacks and spell casting, at least according to the manual. **CON** directly affects your maximum HP. **CHA** directly affects the cost of training for new levels or new spells.
 
-Unfortunately, there basically are no dump stats. The penalty for low Charisma is really painful at early levels – if you're carrying a Minotaur Fighter, they're going to lag behind everyone else because you simply don't have enough money to pay for training. The penalty is much more manageable with CHR 10, but that's close to the max for most random races. You can live without Intelligence if you're willing to fail to learn spells a bunch of times, which also costs you money. Everyone needs to fight, wear armor, and carry a shield, so everyone needs at least some Strength and Dexterity. And low Constitution means low hit points; you will be very sad if you get all the way to the end of the game with a Wizard with 10 CON and only 50 or so HP, because the Dark Lord will laugh in your face and kill them before they get off a single casting of *FireFlash 4*.
+Unfortunately, there basically are no dump stats. The penalty for low Charisma is really painful at early levels – if you're carrying a Minotaur Fighter, they're going to lag behind everyone else because you simply don't have enough money to pay for training. The penalty is much more manageable with CHR 10, but that's close to the max for most random races. You can live without Intelligence if you're willing to fail to learn spells a bunch of times, which also costs you money. Everyone needs to fight, wear armor, and carry a shield, so everyone needs at least some Strength and Dexterity. And low Constitution means low hit points; you will be very sad if you get all the way to the end of the game with a Wizard with 10 CON and only 50 or so HP, because the Dark Lord will laugh in your face and kill them before they get off a single casting of *FireFlash4*.
 
 ### Skills
 
@@ -436,13 +436,13 @@ Combat spells come in two types, "active" and "passive". Passive spells don't st
 
 **Protection** (#17–20, combat, passive): improves party AC by 1, 3, 6, 10.
 
-**Quickness** (#9–12, combat, passive): improves target's speed by 10%, 25%, 45%, 70%.
+**Quickness** (#9–12, combat, passive): improves target's speed by 10%, 25%, 45%, 70%. Also useful for countering *Slow* effects.
 
 **Resurrection** (#44, 4 pts, any time): attempts to raise a party member from the dead; costs 1–2 points of CON.
 
 **Sleep** (#42, 2 pts, combat, active): prevents target from taking actions.
 
-**Strength** (#13–16, combat, passive): improves melee damage. Max bonus damage 2, 4, 7, 11.
+**Strength** (#13–16, combat, passive): improves melee damage. Max bonus damage 2, 4, 7, 11. Also useful for countering *Weak* effects.
 
 **SummonElemental** (#48, 4 pts, combat, passive): temporarily adds an elemental to your party, but only if you already have six party members *and* you remembered to "add" the elemental to your party at the last city's Adventurers Guild.
 
@@ -464,7 +464,7 @@ Remember that your priests start the game with healing spells, so you shouldn't 
 
 There's not too much interesting in the area around Pelnor. If you explore the forest to the NE, you may come across a small temple. If your party is killed, you'll be resurrected and sent here, minus a couple of points of CON.
 
-Otherwise, you can map out the edges of the peninsula – don't try to walk into the water yet – or follow the road W until you find the Red Pony Inn. Inns charge you $250 to rest, which refreshes your HP and MP but doesn't allow you to redistribute items. For now you're better off going back to a town; in this particular case the Red Pony also serves as a landmark.
+Otherwise, you can map out the edges of the peninsula – don't try to go into the water yet – or follow the road W until you find the Red Pony Inn. Inns charge you $250 to rest, which refreshes your HP and MP but doesn't allow you to redistribute items. For now you're better off going back to a town; in this particular case the Red Pony also serves as a landmark.
 
 If you check the Pelnor Armory, you might find a copy of Scroll #8 to purchase:
 
@@ -578,7 +578,7 @@ The next numbered town (#4) is actually [Hobbiton](#lord-woods-castle), just S o
 
 Woodville is a great place to farm equipment – you can find God Shields and Giant Shields along with lots of high-quality weapons as loot from the various encounters. Just try not to wear yourself out; the trip back to Pineville can be somewhat treacherous, not least because you'll find wandering parties of Devils and various Dragons as you're trying to get back to safety. Stop and rest in Appleton if you need to.
 
-The map is laid out with almost everything of interest around the outside, so I'll use clock positioning (12:00 is N, 3:00 is E, etc.) to give you the lay of the land.
+The map is laid out with almost everything of interest around the outside, so I'll use clock positioning (12:00, where you come in, is N, 3:00 is E, etc.) to give you the lay of the land.
 
 The house at 11:00 has a party of Ogres and Orcs. Ogres hit pretty hard but Orcs shouldn't be giving you any trouble at this point. Just S of there at 10:00 is Filmon's Pet Shop which is full of fights (Werebears, Dragons) if you want to go looking for XP and a bit of gold.
 
@@ -865,7 +865,7 @@ Return to Olympia, rest up, and *Transport* yourself back to the Material Plane 
 
 ### Temple of the Gods
 
-In order to assault the final dungeon, you're going to have to take on at least four parties of Black Knights, which means a lot of *FireFlash 4* spells. You're going to want to have a number of Magic potions in your inventory to replenish Power; try running the Crypt inside the [Cathedral](#the-cathedral) repeatedly for *Magic 7* potions. Apart from that, I think Woodville is generally the best place to grind because of the mixture of XP, gold, and equipment from the encounters you'll find there. You may pick up Giant Shields off the street, and once you're comfortable fighting High Demons you can clear the blind alley for God Knives for anyone who can wield one. Plus there's the Minor Deity to knock over if you're feeling brave.
+In order to assault the final dungeon, you're going to have to take on at least four parties of Black Knights, which means a lot of *FireFlash4* spells. You're going to want to have a number of Magic potions in your inventory to replenish Power; try running the Crypt inside the [Cathedral](#the-cathedral) repeatedly for *Magic 7* potions. Apart from that, I think Woodville is generally the best place to grind because of the mixture of XP, gold, and equipment from the encounters you'll find there. You may pick up Giant Shields off the street, and once you're comfortable fighting High Demons you can clear the blind alley for God Knives for anyone who can wield one. Plus there's the Minor Deity to knock over if you're feeling brave.
 
 Ready? Okay, deep breath.
 
@@ -883,7 +883,7 @@ Chase the Black Lord through the tunnel. He'll stop several times to zap you wit
 
 Head N to pick up his wand. This causes the fissure in the earth to seal up. If you now choose to Break his wand, it explodes and kills you. If you Wave the wand instead, you wind up in a treasure room containing Scroll #17 and Filmon the sage. He asks if you want to fight the Black Lord now or leave first and heal up a bit; regardless of what you decide, he tells you it's "a wise decision." With most of the map cleared out, you could choose to leave, save the map, recharge, and come back to finish the job. This also gives you the chance to add the Wand of Nikademus to your inventory, but it's not clear what impact that has. Or, if you're feeling beefy, tell Filmon you're ready to fight the Black Lord right now and he'll teleport you back to the hallway you came from where you can proceed S and around the corner.
 
-Finally, you encounter the Black Lord at the end of the hallway. He gets the jump on you, which means there's a reasonable chance that he kills your weakest character outright before you even get a chance to act. Spam him with *FireFlash 4* (and maybe *Confusion* to reduce his mass-effect spellcasting) until he dies. If you're successful, Zeus appears and congratulates you on defeating the Lord:
+Finally, you encounter the Black Lord at the end of the hallway. He gets the jump on you, which means there's a reasonable chance that he kills your weakest character outright before you even get a chance to act. Spam him with *FireFlash4* (and maybe *Confusion* to reduce his mass-effect spellcasting) until he dies. If you're successful, Zeus appears and congratulates you on defeating the Lord:
 
 > Well done, my small friends. You have removed a great evil from Gelnor. Your quest is over, now go and rest to prepare you for the next adventure. I grant you your first Divine Spell. You will learn how later to use it properly [in *Phantasie II*].
 

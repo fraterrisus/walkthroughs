@@ -34,6 +34,7 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("**/svg/*.svg");
   eleventyConfig.addPassthroughCopy("deathlord/world-map.png");
   eleventyConfig.addPassthroughCopy("deathlord/skeletons.png");
+  eleventyConfig.addPassthroughCopy("human.json");
   eleventyConfig.addPassthroughCopy("pool-of-radiance/walkthrough.txt");
 
   eleventyConfig.addPlugin(IdAttributePlugin);

@@ -1,5 +1,8 @@
 <footer class="site-footer">
-  These <a href="https://github.com/fraterrisus/walkthroughs">walkthroughs</a> are built with <a href="https://www.11ty.dev">Eleventy</a> and maintained by <b>Frater Risus</b>.<br/>
+  {% if homelink %}
+  <p>Return to the <a href="/">front page</a>.</p>
+  {% endif %}
+  These <a href="https://github.com/fraterrisus/walkthroughs">walkthroughs</a> are built <a href="/ai">by humans</a> with <a href="https://www.11ty.dev">Eleventy</a> and maintained by <a href="https://indieweb.social/@fraterrisus">Frater Risus</a>.<br/>
   Want to support my work? <a href="https://buymeacoffee.com/fraterrisus">Buy me a coffee!</a>
 </footer>
 

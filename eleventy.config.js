@@ -28,8 +28,15 @@ export default async function(eleventyConfig) {
 </a>`;
   });
 
+  eleventyConfig.addShortcode("icon-png", function(game, name) {
+    const src = `/${game}/icons/${name}.png`;
+    return `<picture><img class="icon" src="${src}" alt="${name}" /></picture>
+<a name="${slugify(name)}"><b>${name}</b></a>`
+  });
+
   eleventyConfig.addGlobalData("layout", "default");
 
+  eleventyConfig.addPassthroughCopy("aethus/icons/*.png");
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("**/svg/*.svg");
   eleventyConfig.addPassthroughCopy("deathlord/world-map.png");

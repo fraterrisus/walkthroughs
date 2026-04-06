@@ -9,6 +9,10 @@ table {
   border-spacing: 0;
 }
 
+div.autowidth > table {
+  width: auto;
+}
+
 table caption {
   font-size: 75%;
 }

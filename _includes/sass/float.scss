@@ -9,3 +9,17 @@ div.float-right {
   float: right;
   margin-left: $float-margin;
 }
+
+// "Clearfix" hack
+div.clear::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img.icon {
+  float: left;
+  clear: both;
+  margin-right: $float-margin;
+}
+

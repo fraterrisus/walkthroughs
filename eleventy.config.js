@@ -28,10 +28,18 @@ export default async function(eleventyConfig) {
 </a>`;
   });
 
-  eleventyConfig.addShortcode("icon-png", function(game, name) {
-    const src = `/${game}/icons/${name}.png`;
-    return `<picture><img class="icon" src="${src}" alt="${name}" /></picture>
-<a name="${slugify(name)}"><b>${name}</b></a>`
+  eleventyConfig.addPairedShortcode("aethusitem", function(content, name, ...img) {
+    var result = '<div class="aethus-icons">';
+    if (img.length === 0) { img = [name]; }
+    for (const src of img) {
+      result += `\n<picture><img src="/aethus/icons/${src}.png" alt="${name}" /></picture>`;
+    }
+    result += `</div>
+<div class="aethus-item">
+<h3 class="notop">${name}</h3>
+${content}
+</div>`;
+    return result;
   });
 
   eleventyConfig.addGlobalData("layout", "default");
@@ -55,6 +63,8 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.ignores.add("LICENSE.md");
   eleventyConfig.ignores.add("gamefaqs");
+
+  eleventyConfig.setLiquidParameterParsing("builtin");
 };
 
 export const config = {

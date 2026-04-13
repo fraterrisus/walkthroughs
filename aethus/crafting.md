@@ -7,6 +7,8 @@ toc:
 
 *Aethus* is, at its core, a farming and crafting game. The core game loop involves going out into the world and collecting resources, then using equipment to turn those resources into things you can use to explore further.
 
+Quantities in parentheses are the discount you get if you place your workbenches in a Manufacturing Habitat.
+
 ## Crafting Bench
 
 | From                                                         | To                         |
@@ -19,28 +21,27 @@ toc:
 | 1x Terraforming Charge (S)<br />1x Basic Electronics         | 1x Quakemaker Charge       |
 | 1x Mining Explosives<br />1x Kalynite Bar<br />2x Solazine<br />2x Oxite | 1x Terraforming Charge (S) |
 | 4x Kalynite Bar<br />2x Kalynite Frame<br />2x Basic Electronics<br />4x Solazine | 1x Kalynite Drill Bit      |
-| 1x Kalynite Drill Bit<br />2x Meteorite Frame<br />3x Basic Electronics | 1x Meteorite Drill Bit     |
+| 1x Kalynite Drill Bit<br />2x Meteorite Frame<br />3x Microcircuits| 1x Meteorite Drill Bit     |
 | 1x Meteorite Drill Bit<br />2x Tangrite Bar<br />1x Tangrite Frame<br />2x Microcircuits<br />4x Foucer Crystals | 1x Tangrite Drill Bit      |
 | 2x Hardened Glass<br />2x Tangrite Frame<br />1x Bladestone<br />1x Tangrite Ore | 1x Tangrite Focusing Lens  |
 | 3x Hardened Glass<br />2x Tangrite Frame<br />1x Vitaglass<br />1x Jaspite Ore | 1x Jaspite Focusing Lens   |
 | 4x Hardened Glass<br />3x Tangrite Frame<br />1x Depthane's Heart<br />1x Depthane Ore | 1x Depthane Focusing Lens |
 | 4x Hardened Glass<br />3x Tangrite Frame<br />1x Miner's Bane<br />1x Quarinium Ore | 1x Quarinium Focusing Lens |
 | 3x (2x) Kalynite Bar<br />3x (2x) Oxite                      | 1x Kalynite Frame          |
-| 2x Meteorite Frame<br />2x (1x) Dust Ruby Powder             | 1x Meteorite Frame         |
+| 2x Meteorite Bar<br />2x (1x) Dust Ruby Powder               | 1x Meteorite Frame         |
 | 3x (2x) Tangrite<br />3x (2x) Foucer Crystal                 | 1x Tangrite Frame          |
 | 5x (3x) Silica<br />1x Solazine                              | 1x Basic Electronics       |
 | 1x Basic Electronics<br />2x (1x) Kalynite Frame<br />5x (3x) Solazine | 1x Power Cell              |
 | 1x Advanced Electronics<br />2x (1x) Depthane Bar<br />5x (3x) Camberflex | 1x High-Voltage Converter    |
-| 4x (??) Kalynite Bar                                         | 1x Fuel Rod Mould          |
+| 4x (3x) Kalynite Bar                                         | 1x Fuel Rod Mould          |
 | *2x (1x) Depthane Bar<br />1x Crystal Electronics<br />2x (1x) Power Cell<br />2x Coolant<br />3x (2x) Camberflex* | *1x Cognative Link Module* |
-| *1x Depthane Bar<br />1x Crystal Electronics<br />4x (3x) Camberflex<br />2x (1x) Bypass Mole* | *1x Programmable Splice*   |
 
 ## Electronics Workbench
 
 | From                                                         | To                           |
 | ------------------------------------------------------------ | ---------------------------- |
 | 5x (3x) Silica<br />1x Solazine                              | 1x Basic Electronics         |
-| 3?? (2x) Basic Electronics<br />2x (1x) Microcircuits<br />1x Jaspite Bar | 1x Advanced Electronics      |
+| 3x (2x) Basic Electronics<br />2x (1x) Microcircuits<br />1x Jaspite Bar | 1x Advanced Electronics      |
 | 2x (1x) Advanced Electronics<br />2x Hyperion Crystal<br />2x (1x) Depthane Bar | 1x Crystal Electronics |
 | 1x Basic Electronics<br />2x (1x) Kalynite Frame<br />5x (3x) Solazine | 1x Power Cell                |
 | 1x Advanced Electronics<br />2x (1x) Depthane Bar<br />5x (3x) Camberflex | 1x High-Voltage Converter    |
@@ -54,8 +55,9 @@ toc:
 | 1x Basic Electronics<br />1x Microcircuits                   | 1x Bypass Mole               |
 | 1x Gold Bar<br />2x (1x) Dust Ruby Powder                    | 1x Microcircuits             |
 | 3x (2x) Microcircuits<br />2x (1x) Basic Electronics<br />2x Kalynite Frame | 1x Servomotor                |
-| 1x Depthane Bar<br />1x Crystal Electronics<br />3x Camberflex<br />1x Bypass Mole | 1x Programmable Splice       |
-| 2x Strange Ore Chunk<br />1x Depthane Bar<br />1x Advanced Electronics | 1x Anti-Gravity Tech         |
+| 1x Depthane Bar<br />1x Crystal Electronics<br />4x (3x) Camberflex<br />2x (1x) Bypass Mole | 1x Programmable Splice       |
+| 1x Programmable Splice<br />1x Advanced Electronics<br />1x High-Voltage Covnerter | 1x Remote Restart Chip |
+| 3x (2x) Strange Ore Chunk<br />1x Depthane Bar<br />1x Advanced Electronics | 1x Anti-Gravity Tech         |
 | 1x Tangrite Bar<br />1x Basic Electronics<br />1x Anti-Gravity Tech | 1x Fishing Lure              |
 | 1x Glowtus Fruit<br />1x Basic Electronics                   | 2x Smart Glowstick           |
 | 1x Tangrite Bar<br />1x Basic Electronics<br />1x Power Cell<br />1x Bypass Mole | 2x Hardened Storage Drive    |
@@ -71,6 +73,7 @@ toc:
 | From                                                         | To                      |
 | ------------------------------------------------------------ | ----------------------- |
 | 1x Cactus Fruit<br />1x Biomass                              | 1x Grilled Cactus Fruit |
+| 1x Heatshrimp                                                | 1x Barbecued Heatshrimp |
 | 1x Bottled Water (L)                                         | 2x Bottled Water (S)    |
 | 1x Bottled Water (S)<br />1x Refined Sugar<br />1x Building Material | 2x ARCola               |
 | 1x Bottled Water (S)<br />1x Refined Sugar<br />1x Building Material<br />2x Venturer Worm | 2x Chill Cola           |
@@ -92,7 +95,7 @@ toc:
 | 1x Magmafish                                                 | 3x Magmafish Bacon      |
 | 5x Swampwheat                                                | 2x Swampwheat Flour     |
 
-You can also "use" a 1x Deepmussel in your inventory to produce 1x Fish Flesh.
+You can also "use" a Deepmussel in your inventory to produce 1x Fish Flesh.
 
 ## Biology Lab
 
@@ -101,12 +104,12 @@ You can also "use" a 1x Deepmussel in your inventory to produce 1x Fish Flesh.
 | 2x Mining Explosive<br />2x Glowing Bulb<br />3x Hive Mycelia | 2x Herbicide Charge                  |
 | 2x Pollen Stalk<br />1x Sugarplant                           | 1x Sugarplant Seed                   |
 | 1x Tangrite Bar<br />1x Hardened Glass                       | 2x Empty Injector                    |
-| 2x Empty Injector<br />2x Lifeshroom<br />1x Inert Mycelia   | 1x Injector (Health)                 |
-| 2x Empty Injector<br />1x Queen Mycelia<br />1x Inert Mycelia<br />2x Sandfish | 1x Injector (Strength)               |
-| 2x Empty Injector<br />5x Oxite<br />1x Queen Mycelia<br />1x Inert Mycelia | 1x Injector (Oxygen)                 |
-| 2x Empty Injector<br />5x Refined Sugar<br />1x Queen Mycelia<br />1x Inert Mycelia | 1x Injector (Speed)                  |
-| 2x Empty Injector<br />3x Inert Mycelia<br />6x Moudlshroom<br />4x Queen Mycelia | 1x Injector (Mycelial Antigen)       |
-| 2x Empty Injector<br />1x Queen Mycelia<br />1x Inert Mycelia<br />10x Radiotrophic Mushroom | 1x Injector (Anti-Rad)               |
+| 2x Empty Injector<br />2x Lifeshroom<br />1x Inert Mycelia   | 2x Injector (Health)                 |
+| 2x Empty Injector<br />1x Queen Mycelia<br />1x Inert Mycelia<br />2x Sandfish | 2x Injector (Strength)               |
+| 2x Empty Injector<br />5x Oxite<br />1x Queen Mycelia<br />1x Inert Mycelia | 2x Injector (Oxygen)                 |
+| 2x Empty Injector<br />1x Refined Sugar<br />1x Queen Mycelia<br />1x Inert Mycelia | 2x Injector (Speed)                  |
+| 2x Empty Injector<br />3x Inert Mycelia<br />6x Mouldshroom<br />4x Queen Mycelia | 2x Injector (Mycelial Antigen)       |
+| 2x Empty Injector<br />1x Queen Mycelia<br />1x Inert Mycelia<br />10x Radiotrophic Mushroom | 2x Injector (Anti-Rad)               |
 | 8x Hive Mycelia<br />2x Lifeshroom                           | 1x Cleansed Mycelia                  |
 | 10x Biomass<br />2x Hive Mycelia                             | 1x Mycelial Biomass                  |
 | 1x Magmafish<br />2x Venturer Worm<br />10x Biomass          | 1x Aquaculture Pack (Magmafish)      |
@@ -151,8 +154,8 @@ A **Coolant Hypercompressor** generates **Industrial Coolant** over time, but it
 | From            | To                            |
 | --------------- | ----------------------------- |
 | 2x Metal Scrap  | 1x Building Material          |
-| 2x Kaloxite Ore | 1x Kalynite Bar<br />3x Oxite |
 | 2x Kalynite Ore | 1x Kalynite Bar               |
+| 2x Kaloxite Ore | 1x Kalynite Bar<br />3x Oxite |
 
 ## Standard Smelter
 

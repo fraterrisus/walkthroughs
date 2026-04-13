@@ -45,3 +45,37 @@ A few commands that aren't mentioned anywhere in the docs that are helpful to kn
 ### Getting Started
 
 As you're walking around and discovering objects, remember that you can enter `(B)`uild mode anywhere on the surface. This means that it's possible to pick up and move the sun shade you find over by the giant pit, or move the storage crates closer to (or even inside) your Outpost.
+
+### Outer Caves
+
+### Inner Caves, Facilities Alpha and Beta
+
+### Lower Caves
+
+### Meteor Crater and Facility Delta
+
+### Lost World: Facility Epsilon
+
+The door to Crew Quarters C never actually opens.
+
+### Lost World: Facility Kappa
+
+Every facility has an "outhouse" single-room facility that's nearby. You should explore these because there's stuff to find there, but also they make reasonable staging areas for long mining runs.
+
+New: facilities have Drone Pods now, so if you drop a mk1 drone into them you can fill the cargo pod (250kg) and stuff will get delivered to a Storage Silo inside the gates of Epsilon. Unlike the automated drills, though, you have to manage the drones manually, choosing when to send a full load from an outer Facility to Epsilon. You then have to return to Epsilon and manually send the drone back to its starting place.
+
+### Lost World: Lambda, Mu, Theta
+
+### Magma Rifts: Rho
+
+### Magma Rifts: Tau
+
+### Magma Rifts: Iota
+
+### Magma Rifts: Omicron
+
+### Magma Rifts: Sigma
+
+### Endgame: Kryptos
+
+### Endgame: Gamma

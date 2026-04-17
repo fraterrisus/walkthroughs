@@ -68,13 +68,39 @@ New: facilities have Drone Pods now, so if you drop a mk1 drone into them you ca
 
 ### Magma Rifts: Rho
 
+Rho's transporter address is `TP-OM-1`; the fact that it's incorrectly identified as "omicron" is a part of the story. Technically Rho has a second transporter, but it doesn't work and can't be repaired.
+
 ### Magma Rifts: Tau
+
+Tau has two transporters, `TP-T4U-1` and `TP-T4U-2`.
+
+The plans for the Atmodome Buildkit are sitting on top of one of the crates over by the platform hanging out under the pipes, off to your right as you exit Tau.
 
 ### Magma Rifts: Iota
 
+### Magma Rifts: Seam X-5
+
+Follow Grampa's directions: walk NNE away from the Tau airlock (towards the bridge in the distance), then look North and down at the magmafall. You should see a lightstick stuck in the side of the cliff; you won't be able to see the cave entrance, but trust me, work your way down there and you can enter the seam. If you're having trouble, hop down to the generator that's on the near side of the bridge, then look WNW and down and you should find it.
+
+On the inside, you're hit with a blast of oppressive heat from the magma-filled cavern. But you're also awestruck at the enormous Hyperion Crystals jutting out from the landscape. And, is that a little Habitat off to your left? I believe it is! You can either cross the *very narrow* metal bridges to get there, or hop around the outside of the cavern. Inside you'll find [...]
+
+To actually mine this place out, you'll need to bring a whole bunch of infrastructure with you in the form of Buildpacks. A couple of Large Crates will make the Habitat a little more useful as a waystation, although there are some Lockers you can drop supplies in. You'll want some Chill Cola and maybe an Anti-Rad Injector or two while you figure this place out, but the name of the game is ultimately this: hop between rocky outcroppings using Roland's jump- and fall-assist lasers, build Power Relays to craft a power grid, and chain together Atmodomes to give you a place to rest between jumps. Fill the 'domes with Industrial Coolant and they act as heat shields, which is downright mandatory around here. RadProtect Atmodomes will help on the central island that's covered in Miner's Bane, and once you find the plans for them (**FIXME** where?) it's easier to grow Radiotropic Mushrooms in the Grow Bed than it is to mine more Oxite at this point.
+
+As you get faster at building underground, remember that you can't "Interact" with an Atmodome in order to add Coolant to it while you're in build mode. So you'll have to be quick on the draw to drop a 'dome, exit build mode (right-click), then add the Coolant. But 'domes also act as Relays, so at least you don't need to drop one of each in the same place.
+
+Oh, one more thing; unlike the rest of the Rifts, if you fall all the way down to the magma lake below, it's instant death. So be careful. The good news is that the game *won't* drop your inventory if you do this, so the penalty isn't quite so high as it could be.
+
+For now, you need at least six or eight Hyperion Crystals in order to make Crystal Electronics so you can craft the stuff you need to reach the endgame. You ought to be able to get those from the first island of blue crystals, so if you aren't feeling brave, feel free to hit that first batch (you can even do it without any Buildpacks, if you bring enough Cola) and get the heck out of here.
+
+If you want to explore fully, head East to the first Hyperion outcrop, then a short hop North to the next island. The higher-challenge step is to the NW: you have to hop across two or three small islands to the next Hyperion block in the side of the cavern. The easier way is to go NE first and then NW to an island full of Miner's Bane; bring a RadProtect Atmodome for this bad boy. From there it's another relatively easy hop NE to the last big island of Hyperion. All of this took me 15-20 Buildpacks of various kinds, not counting Lightsticks to make it easier to spot landing zones. But I didn't clean out the cavern until I'd already beaten the game once, and there's no need for you to do so either.
+
 ### Magma Rifts: Omicron
 
+Omicron's transporter address is `TP-RESET-ID`.
+
 ### Magma Rifts: Sigma
+
+Sigma's transporter address is `TP-SIGM01`.
 
 ### Endgame: Kryptos
 

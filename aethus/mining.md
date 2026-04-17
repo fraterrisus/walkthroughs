@@ -2,16 +2,16 @@
 
 | Region | Stone | Ore / Geode | Gemstone |
 | ---- | ---- | ---- | ---- |
-| Caves | Sandstone | Kalynite | Dust Ruby, Parsimony |
-| Caves | | Kaloxite | Oxite, Parsimony |
-| Crater | Meteorite Glass | Meteorite | Black Diamond |
-| Crater | | Gold | (Sky Sapphires?) |
-| Crater | | Tangrite | Bladestone |
-| Lost World | | Jaspite | (Vitaglass?) |
-| Lost World | | Swamp | |
-| Lost World | Deepstone | Depthane | Depthane's Heart |
-| Magma Rifts | Lavastone |Quarinium|Miner's Bane|
-|  |  |Strange|Strange Ore (no gems)|
+| Caves       | Sandstone | Kalynite | Dust Ruby |
+| Caves       |           | Kaloxite | Pangimony |
+| Crater      | Meteor Glass | Meteorite | Black Diamond |
+| Crater      |              | Gold | Sky Sapphires |
+| Lost World  | Deepstone    | Tangrite | Bladestone |
+| Lost World  |              | Jaspite | (???) |
+| Lost World  |              | Swamp | Vitaglass |
+| Magma Rifts | Lavastone    | Depthane | Depthane's Heart |
+| Magma Rifts |              | Quarinium | Miner's Bane |
+| Magma Rifts |              | Strange | Strange Ore (no gems) |
 
 
 ### Outside
@@ -24,7 +24,7 @@ Where you build your Outpost.
 
 ### Outer Caves
 Your first steps underground.
-- **Reoglith Node**: Sandstone, Regolith, Dust Ruby
+- **Reoglith Node** (orange): Sandstone, Regolith, Dust Ruby
 - **Sandstone Spire**: Sandstone, Sandstone Shard
 - **Cactus**: Biomass, Cactus Fruit
 - **Palm Tree**: Biomass
@@ -33,9 +33,9 @@ Your first steps underground.
 ### Inner Caves
 Facilities Alpha and Beta (at the foot of the elevator), and the steamy swamps along the hill.
 - Everything in the Outer Caves
-- **Kaloxite Node**: Sandstone, Kaloxite Ore, Oxite, Silica, Dust Ruby, Parsimony, Kaloxite Geode
-- **Kalynite Node**: Sandstone, Kalynite Ore, Solazine, Silica, Dust Ruby, Parsimony, Kalynite Geode
-- **Dust Ruby Node**: Sandstone, Dust Ruby, Kalynite Geode
+- **Kaloxite Node** (pale blue): Sandstone, Kaloxite Ore, Oxite, Silica, Dust Ruby, Pangimony, Kaloxite Geode
+- **Kalynite Node** (white): Sandstone, Kalynite Ore, Solazine, Silica, Dust Ruby, Pangimony, Kalynite Geode
+- **Dust Ruby Node** (red): Sandstone, Dust Ruby, Kalynite Geode
 - **Korvo Plant**: Korvo Leaf, Korvo Seed
 - **Mysterious Egg Nest**: Mysterious Egg
 - **Glowtus Plant**: Glowtus Seed, Glowtus Fruit, Biomass
@@ -59,7 +59,7 @@ Broadly covering the upper, central region.
 - **Greatwood Node** (brown): Greatwood, Living Amber
 - **Jaspite Node** (blue): Jaspite Ore, Deepstone, Bladestone, Jaspite Geode, Sky Sapphire, Vitaglass. Jaspite Nodes are rare; try looking near water.
 - **Tangrite Node** (purple): Tangrite Ore, Deepstone, Bladestone, Foucer Crytsal, Tangrite Geode
-- **Vitaglass Node** (green, rare): Vitaglass, Deepstone, Vitaglass Geode(???)
+- **Vitaglass Node** (green, rare): Vitaglass, Deepstone, ??? 
 - **Lifeshroom**: Lifeshroom
 - **Gorgo Tree**: Biomass, Pollen Stalk
 
@@ -91,16 +91,39 @@ The infected area with spores floating in the air and reddish water, including t
 - **Depthane Node** (red): Lavastone, Depthane Ore, Camberflex, Depthane's Heart, Depthane Geode
 - **Depthane Heart Node** (pink): Lavastone, Depthane's Heart, Depthane Geode
 
+### Magma Rifts: Tau and Iota
+- Everything near Rho, plus:
+- **Quarinium Node** (green): Lavastone, Quarinium Ore, Camberflex, Miner's Bane, Quarinium Geode
+- **Miner's Bane Node** (green): Lavastone, Miner's Bane, Quarinium Geode
+- **Radiotrophic Mushrooms**
+
+### Magma Rifts: Seam X-5
+- **Lavastone Node** (neutral): Lavastone, Depthane's Heart
+- **Depthane Node** (red): Lavastone, Depthane Ore, Camberflex, Depthane's Heart, Depthane Geode
+- **Depthane Heart Node** (pink): Lavastone, Depthane's Heart, Depthane Geode
+- **Hyperion Node** (blue): Lavastone, Hyperion Crystals
+- **Miner's Bane Node** (green): Lavastone, Miner's Bane, Quarinium Geode
+
+### Magma Rifts: Omicron and Gondola Control Station
+- same as Tau
+
+### Magma Rifts: Hades and Sigma
+On the far side of the gondola
+- **Lavastone Node**: Lavastone, Strange Geode
+- **Depthane Node**: Lavastone, Depthane Ore, Camberflex, Strange Geode
+- **Depthane Heart Node** (pink): Lavastone, Depthane's Heart, Depthane Geode
+
+### Endgame: Kryptos
+You're indoors, so there's nothing to mine here
 
 ## Drills and Mining Lasers
-
 - Outer Caves: Sandstone, Sandstone Shards [Kalynite drill, mk1 drone]
 - Inner Caves, behind Beta: Kalynite Ore, Silica, Sandstone, Dust Ruby [Meteorite drill, mk1 drone]
-- Lower Caves, near the waterfall: Kaloxite Ore, Sandstone, Parsimony [Meteorite drill, mk1 drone]
+- Lower Caves, near the waterfall: Kaloxite Ore, Sandstone, Pangimony [Meteorite drill, mk1 drone]
 - Lower Caves, behind Delta: Gold Ore, Kalynite Ore, Sandstone [Tangrite drill, mk1 drone]
 - Between Epsilon and Kappa: Deepstone [Tangrite lens, mk1 drone]
 - Behind Mu: Deepstone, Jaspite Ore, Vitaglass [Jaspite lens, mk1 drone]
 - Down in the valley: Deepstone, Tangrite Ore, Foucer Crystals, Bladestone [Tangrite lens, mk1 drone]
-- ??: [Depthane Lens, mk2 drone]
+- Between Rho and Tau: [Depthane Lens, mk2 drone]
 - Near Omicron: [Quarinium Lens, mk2 drone]
-- Near the Hades med facility: [Depthane Lens, mk2 drone]
+- Near Hades: [Depthane Lens, mk2 drone]

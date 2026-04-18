@@ -7,16 +7,19 @@ toc:
 
 # Things and Stuff
 
-A list of every item in the game and where and how to find it, craft it, or build it. I have grouped some things together for convenience, but for the most part this list is in alphabetical order. Check for "Variants" if you can't find the thing you're looking for.
+A list of every* item in the game and where and how to find it, craft it, or build it. I have grouped some things together for convenience, but for the most part this list is in alphabetical order. Check for "Variants" if you can't find the thing you're looking for.
+
+\*: I didn't bother including Decorations.
 
 If a discount is available (for having a crafting facility in the correct Habitat), the reduced cost is shown in parentheses.
 
 ## Errata
 - Need more unique plot objects (Cognative Link Module, others?)
 - Find a !@#%* Jaspite Geode
-- How much does a Jenkins sell for? Look for other objects you have that don't(?) sell
+- Find a Quarinium Geode (for market value)
 - What's the order of fetch quests?
 - What does Oxygen Poisoning do?
+- Fatigue effects?
 
 ## Item-o-pedia
 
@@ -32,7 +35,7 @@ If a discount is available (for having a crafting facility in the correct Habita
 
 *Cost:* 2x [Building Material](#building-material)
 
-Provides stairs down from your Habitats to the ground level, and more importantly, a way to get back up into your Habitats once you're in the dirt. Not needed for the [Makeshift Habitat]() but otherwise necessary. Snaps reliably to Habitats, does not provide ground-level snapping for Platforms.
+Provides stairs down from your Habitats to the ground level, and more importantly, a way to get back up into your Habitats once you're in the dirt. Not needed for the [Makeshift Habitat](#makeshift-habitat) but otherwise necessary. Snaps reliably to Habitats, does not provide ground-level snapping for Platforms.
 
 {% endaethusitem %}
 {% aethusitem 'Advanced Electronics' %}
@@ -48,14 +51,14 @@ A core crafting component for mid- and late-game objects.
 
 *Where:* [Fished](#fishing-lure) out of just about any water you can find, including the magma lakes.
 
-Can be converted to [Fish Flesh](#fish-flesh) at the [Cooking Station](), although the recipe is called "Minnow Preparation."
+Can be converted to [Fish Flesh](#fish-flesh) at the [Cooking Station](#cooking-station).
 
 {% endaethusitem %}
 {% aethusitem 'AI Core Containment' %}
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 20x [Reinforced Material], 2x [Advanced Electronics], 1x [Servomotor], 3x [Jaspite Frame], 2x [Meteorite Frame], 2x [Hardened Glass]
+*Cost:* 20x [Reinforced Material](#reinforced-building-material), 2x [Advanced Electronics](#advanced-electronics), 1x [Servomotor](#servomotor), 3x [Jaspite Frame](#jaspite-frame), 2x [Meteorite Frame](#meteorite-frame), 2x [Hardened Glass](#hardened-glass)
 
 Build one of these to put your new friend Stanley into.
 
@@ -78,9 +81,9 @@ Generally required between any two Habitats and/or Connectors. Snapping is moder
 {% endaethusitem %}
 {% aethusitem 'Ancient Bones' %}
 
-*Where:* [Fished](#fishing-lure) out of the Lost World swamps (specifically the ones surrounding **Lambda**), or occasionally from prospecting a [Swamp Geode](#swamp-geode).
+*Where:* [Fished](#fishing-lure) out of the Lost World swamps (specifically the ones surrounding Lambda), or occasionally from [prospecting](#prospecting-bench) a [Swamp Geode](#swamp-geode).
 
-You need 3x of these to fulfill one of Trudy's fetch quests. Otherwise they can be sold ($1500), or the game recommends you arrange a display of bones in your Outpost.
+You need 3x of these to fulfill one of Trudy's fetch quests. Otherwise they can be sold for $1500.
 
 {% endaethusitem %}
 {% aethusitem 'Ancient Parts', 'Ancient Jaw' %}
@@ -131,16 +134,16 @@ Combine one fish, ten Biomass, and two of some random other thing to make a Pack
 
 *Where:* Constructed (Production).
 
-*Cost:* 10x [Reinforced Material](#reinforced-material), 1x [Advanced Electronics](#advanced-electronics), 1x [Microcircuits](#microcircuits)
+*Cost:* 10x [Reinforced Material](#reinforced-building-material), 1x [Advanced Electronics](#advanced-electronics), 1x [Microcircuits](#microcircuits)
 
-Allows you to grow fish that you've caught using [Fishing Lures](), although you have to craft [Aquaculture Packs](#aquaculture-pack-deepmussel) at the [Biology Lab](#biology-lab) first. Contains four slots.
+Allows you to grow fish that you've caught using [Fishing Lures](#fishing-lure), although you have to craft [Aquaculture Packs](#aquaculture-pack) at the [Biology Lab](#biology-lab) first. Contains four slots.
 
 {% endaethusitem %}
 {% aethusitem 'ARCola' %}
 
 *Where:* Crafted at the [Cooking Station](#cooking-station).
 
-*Cost* (for 2x): 1x [Bottled Water (S)](#bottled-water), 1x [Refined Sugar](#refined-sugar), 1x [Building Material](#building-materials)
+*Cost (for 2x)*: 1x [Bottled Water (S)](#bottled-water), 1x [Refined Sugar](#refined-sugar), 1x [Building Material](#building-material)
 
 *Effect:* +20% Stamina, +15% Hydration. Grants **Sugar Rush** (+10% move speed) for 10m.
 
@@ -156,7 +159,7 @@ Comes in a variety of different denominations. Of course, ARC will take a 20% fe
 
 *Where:* Crafted at the [Cooking Station](#cooking-station).
 
-*Cost:* 1x [Heatshrimp]
+*Cost:* 1x [Heatshrimp](#heatshrimp)
 
 *Effect:* +5% Stamina, +10% Nutrition
 
@@ -183,7 +186,7 @@ Does what it says on the tin: a simple, mid-sized room for your Outpost. Has two
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 10x [Building Material](#building-materials), 5x [Solazine](#solazine)
+*Cost:* 10x [Building Material](#building-material), 5x [Solazine](#solazine)
 
 *Power:* &ndash;2
 
@@ -212,6 +215,8 @@ Essential, in that if you don't sleep the game will nag you (and eventually star
 
 *Cost:* 20x [Reinforced Material](#reinforced-building-material), 5x [Kalynite Bar](#kalynite-bar), 1x [Tangrite Frame](#tangrite-frame), 2x [Hardened Glass](#hardened-glass), 1x [Advanced Electronics](#advanced-electronics)
 
+*Power:* &ndash;3
+
 Your reward for making your way through the Lost World is a new crafting bench that can perform miracles on the various fungi and biological materials found down there.
 
 {% endaethusitem %}
@@ -237,7 +242,7 @@ Not really the best way to generate energy, but until you get [Wind Turbines](#v
 
 *Where:* Constructed (Production).
 
-*Cost:* 4x [Reinforced Material](#reinforced-material), 4x [Basic Electronics](#basic-electronics), 2x [Bottled Water (L)](#bottled-water), 1x [Cleansed Mycelia](#cleansed-mycelia), 4x [Mycelial Biomass](#mycelial-biomass)
+*Cost:* 4x [Reinforced Material](#reinforced-building-material), 4x [Basic Electronics](#basic-electronics), 2x [Bottled Water (L)](#bottled-water), 1x [Cleansed Mycelia](#cleansed-mycelia), 4x [Mycelial Biomass](#mycelial-biomass)
 
 *Power:* &ndash;2
 
@@ -246,27 +251,31 @@ Generates [Biomass](#biomass) over time. By the time you can build one of these,
 {% endaethusitem %}
 {% aethusitem 'Black Diamond' %}
 
-Gemstones are for selling ($450 / $562).
+*Where:* Mined from Meteorite Nodes near Delta, or [prospected](#prospecting-bench) from a [Meteorite Geode](#meteorite-geode).
+
+Gemstones are for selling ($450 and up).
 
 {% endaethusitem %}
 {% aethusitem 'Black Market' %}
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 15x Reinforced Material, 2x Meteorite Frame, 2x Advanced Electronics
+*Cost:* 15x [Reinforced Material](#reinforced-building-material), 2x [Meteorite Frame](#meteorite-frame), 2x [Advanced Electronics](#advanced-electronics)
+
+**FIXME** needs description
 
 {% endaethusitem %}
 {% aethusitem 'Bladestone' %}
 
 *Where:* Mined from nodes all over the Lost World, [prospected](#prospecting-bench) from [Tangrite Geodes](#tangrite-geode).
 
-Gemstones are for selling ($1000 / $1250 / $1500), or in this case, crafting [Tangrite Focusing Lenses](#focusing-lens).
+Gemstones are for selling ($1000 and up), or in this case, crafting [Tangrite Focusing Lenses](#focusing-lens).
 
 {% endaethusitem %}
 {% aethusitem 'Bottled Water' %}
 *Variants:* Small, Large
 
-*Where:* Farmed from [Dew Collectors](#dew-collector) (small) and [Water Pumps](#water-pump) (large); found throughout the various Facilities. Large bottles can be "crafted" into 2x small bottles at a [Cooking Station](#cooking-station).
+*Where:* Farmed from [Dew Collectors](#dew-collector) (small) and [Water Pumps](#water-pump) (large); found throughout the various Facilities. Large bottles can be split into 2x small bottles at a [Cooking Station](#cooking-station).
 
 *Effect:* +5%/10% Stamina, +20%/40% Hydration
 
@@ -284,7 +293,7 @@ Mmmmm, hot bread. Easy to produce, disappears pretty fast.
 {% endaethusitem %}
 {% aethusitem 'Building Material' %}
 
-*Where:* Crafted from the [Makeshift Forge](#makeshift-forge), [Basic Smelter](#basic-smelter), or [Regolith Printer](#regolith-printer).
+*Where:* Manufactured at the [Makeshift Forge](#makeshift-forge), [Basic Smelter](#basic-smelter), or [Regolith Printer](#regolith-printer).
 
 *Cost (Forge):* 5x [Metal Scrap](#metal-scrap)<br/>
 *Cost (Smelter):* 2x [Metal Scrap](#metal-scrap)<br/>
@@ -292,7 +301,7 @@ Mmmmm, hot bread. Easy to produce, disappears pretty fast.
 
 The core, abstract building material that will get you through the first half of the game. Fortunately, its component materials are abundantly available, especially once you get a [Stone Crusher](#stone-crusher) and can convert [Sandstone](#sandstone) into [Regolith](#regolith). Even before that, there's generally enough [Metal Scrap](#metal-scrap) to go around between what's on the Surface and in the Outer Caves.
 
-Eventually you'll have so much you won't know what to do with it. Selling them isn't worth it ($5) unless you're trying to unload inventory. But that's what [Storage Silos](#storage-silo) are for.
+Eventually you'll have so much you won't know what to do with it. Selling them on the [Trade Node](#trade-node) isn't worth it unless you're trying to unload inventory. But that's what [Storage Silos](#storage-silo) are for.
 
 {% endaethusitem %}
 {% aethusitem 'Buildkits', 'Empty Buildkit' %}
@@ -301,11 +310,9 @@ Eventually you'll have so much you won't know what to do with it. Selling them i
 
 *Where:* Crafted at the [Expedition Hub](#expedition-hub); found occasionally throughout the Magma Rifts.
 
-Buildkits allow you to use the `(B)`uild command to add new structures to the Magma Rifts. This is essential for opening up the various facilities that you'll need to visit. Beware the fact that time does not stop when you're in build mode, which means heat exhaustion and radiation poisoning will continue to accrue. Best be quick and know what you're trying to do before you start.
-
 | Buildkit | Cost |
 | --- | --- |
-| Empty | 5x (3x) Building Material, 1x Tangrite Bar |
+| Empty | 5x (3x) [Building Material](#building-material), 1x [Tangrite Bar](#tangrite-bar) |
 | Atmodome | 1x Empty, 10x [Magmasafe Material](#magmasafe-building-material), 2x [Tangrite Frame](#tangrite-frame), 1x [Advanced Electronics](#advanced-electronics), 1x [High-Voltage Converter](#high-voltage-converter), 15x [Oxite](#oxite) |
 | RadProtect | 1x Empty, 10x [Magmasafe Material](#magmasafe-building-material), 2x [Tangrite Frame](#tangrite-frame), 1x [Advanced Electronics](#advanced-electronics), 1x [High-Voltage Converter](#high-voltage-converter), 15x [Radiotropic Mushroom](#radiotropic-mushroom) |
 | Coolant | 1x Empty, 12x [Magmasafe Material](#magmasafe-building-material), 4x [Meteorite Frame](#meteorite-frame), 1x [Advanced Electronics](#advanced-electronics), 1x [High-Voltage Converter](#high-voltage-converter), 4x [Servomotor](#servomotor) |
@@ -313,9 +320,11 @@ Buildkits allow you to use the `(B)`uild command to add new structures to the Ma
 | Lightstick | 1x Empty, 2x [Magmasafe Material](#magmasafe-building-material), 2x [Solazine](#solazine) |
 | Power Relay | 1x Empty, 5x [Magmasafe Material](#magmasafe-building-material), 2x [Microcircuits](#microcircuits), 2x [Power Cell](#power-cell)|
 
+Buildkits allow you to use the `(B)`uild command to add new structures to the Magma Rifts. This is essential for opening up the various facilities that you'll need to visit. Beware the fact that time does not stop when you're in build mode, which means heat exhaustion and radiation poisoning will continue to accrue. Best be quick and know what you're trying to do before you start.
+
 **Atmodomes** require a live connection to a nearby Power Relay, but they produce a dome that provides oxygen. Once it's built, if you add 2x [Industrial Coolant](#industrial-coolant) it also eliminates heat exhaustion. The "RadProtect Edition", perhaps obviously, also eliminates radiation poisioning.
 
-**Coolant Hypercompressors** do not actually provide oxygen or cooling (rude). As a result, they don't need to be connected to a live power grid, but you *do* need to stick a [nuclear fuel rod](#fuel-rod) in them if you want them to work and a [Cargo Drone mk II](#cargo-drone) if you want them to deliver [Coolant](#industrial-coolant) to your cargo bays. Since the demand for coolant occupies a relatively short portion of the game, I don't really see the point.
+**Coolant Hypercompressors** do not actually provide oxygen or cooling &ndash; rude &ndash; they gather [Industrial Coolant](#industrial-coolant) for your use elsewhere. Instead of being powered by a live grid, you need to deposit a [nuclear fuel rod](#fuel-rod) to make them work and a [Cargo Drone mk II](#cargo-drone) if you want the output delivered to your base.
 
 **Large Crates** are very useful to add to Seam X-5. Most of the other Facilities in the Rifts already have nearby Storage Containers in which you can stage raw materials.
 
@@ -330,7 +339,7 @@ Buildkits allow you to use the `(B)`uild command to add new structures to the Ma
 
 *Cost:* 3x [Building Material](#building-material)
 
-An alternate [bed](#bed) that takes up less footprint, not that you really care. You'll find these all over the mining Facilities, and now you can have your own. Yay?
+An alternate [bed](#bed) that takes up less footprint, not that you really care. You'll find these all over the mining Facilities &ndash; and keep in mind that you *can* use them when you find them &ndash; and now you can have your own. Yay?
 
 {% endaethusitem %}
 {% aethusitem 'Bypass Mole' %}
@@ -394,7 +403,7 @@ Used to craft advanced electronic items; can also be combined with [Lavastone](#
 
 </div>
 
-Cargo Bays are the receiving end of any automated resource collection equipment you find (mining drills) or manufacture ([Water Pumps](#water-pump), [Coolant Hypercompressors](#buildkit-coolant)) throughout the game. The Mark I bays are small enough to fit inside a Habitat next to your manufacturing equipment so you don't even have to go far; Mark IIs and IIIs are so tall you'll be forced to place them outside.
+Cargo Bays are the receiving end of any automated resource collection equipment you find (mining drills) or manufacture ([Water Pumps](#water-pump), [Coolant Hypercompressors](#buildkit)) throughout the game. The Mark I bays are small enough to fit inside a Habitat next to your manufacturing equipment so you don't even have to go far; Mark IIs and IIIs are so tall you'll be forced to place them outside.
 
 Towards the end of the game, if you've enabled every mining drill you've found and you're not particularly diligent about emptying them, you *might* find that a Mark III bay *occasionally* gets full.
 
@@ -405,10 +414,12 @@ Towards the end of the game, if you've enabled every mining drill you've found a
 
 *Where:* Crafted at an [Electronics Workbench](#electronics-workbench), and occasionally found throughout the Facilities.
 
-*Cost (Mark I):* 3x (2x) [Kalynite Frame](#kalynite-frame), 2x [Meteorite Frame](#meteorite-frame), 3x (2x) [Microcircuits](#microcircuits)<br/>
-*Cost (Mark II):* 1x Mark I Drone, 1x [Advanced Electronics](#advanced-electronics), 1x [Matter Folder](#matter-folder)
+| Model | Cost |
+| :-: | --- |
+| 1 | 3x (2x) [Kalynite Frame](#kalynite-frame), 2x [Meteorite Frame](#meteorite-frame), 3x (2x) [Microcircuits](#microcircuits) |
+| 2 | 1x Mark I Drone, 1x [Advanced Electronics](#advanced-electronics), 1x [Matter Folder](#matter-folder) |
 
-Add a drone to a mining drill, and whatever resources it can produce will occasionally show up at your Outpost. It's not as fast as mining by hand, but it's a lot less work. Mark I drones work in mining drills up through and including the Lost World. Mark II drones, by virtue of requiring [Matter Folders](#matter-folder) in their construction, work in automated equipment throughout the Magma Rifts.
+Add a drone to a mining drill, and whatever resources it produces will periodically show up in a [Cargo Bay](#cargo-bay) at your Outpost. It's not as fast as mining by hand, but it's a lot less work. Mark I drones work in the mining drills of the Caves, the mining lasers of the Lost World, and the Resource Transportation Facilities (**FIXME** what are these actually called?) located at each mining facility in the Lost World. Mark II drones, by virtue of containing [Matter Folders](#matter-folder), are required throughout the Magma Rifts.
 
 {% endaethusitem %}
 {% aethusitem 'Cargo Habitat' %}
@@ -433,7 +444,7 @@ Add a drone to a mining drill, and whatever resources it can produce will occasi
 
 *Effect:* Increases the capacity of any Storage item inside it (see table).
 
-This large, warehouse-shaped module is designed to hold an enormous amount of storage. You can fit six [Storage Containers](#storage-container) or two [Storage Silos](#storage-silo) in here if you try hard enough (and are willing to block two exits). Snaps to one of the doors along the long axis, which is a little surprising.
+This large, warehouse-shaped module is designed to hold an enormous amount of storage. You can fit six [Storage Containers](#storage-container) or two [Storage Silos](#storage-silo) in here if you try hard enough (and are willing to block two exits).
 
 {% endaethusitem %}
 {% aethusitem 'Cave Mushroom' %}
@@ -449,14 +460,14 @@ Keep a bunch on hand at all times; [Mushroom Soup](#mushroom-soup) is great.
 
 *Cost* (for 2x): 1x [Bottled Water (S)](#bottled-water), 1x [Refined Sugar](#refined-sugar), 1x [Building Material](#building-material), 2x [Venturer Worm](#venturer-worm)
 
-*Effect:* +15% Stamina, +15% Hydration. Reduces **heat exhaustion** by 50% immediately when used.
+*Effect:* +15% Stamina, +15% Hydration. Reduces heat exhaustion by 50% immediately when used.
 
 Venturer Worms are hard to come by, but this is the only object you can carry that will reduce heat exhaustion, which makes it invaluable for exploring Seam X-5. Always have one or two on hand when moving between stations in the Rifts.
 
 {% endaethusitem %}
 {% aethusitem 'Cleansed Mycelia' %}
 
-*Where:* Grown in the [Biology Lab](#biology-lab). (FIXME: found?)
+*Where:* Grown in the [Biology Lab](#biology-lab).
 
 *Cost:* 8x [Hive Mycelia](#hive-mycelia), 2x [Lifeshroom](#lifeshroom)
 
@@ -481,7 +492,7 @@ Its primary purpose is as an intermediate step towards producing [Inert Mycelia]
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 10x [Building Materials](#building-materials), 2x [Basic Electronics](#basic-electronics), 2x [Kalynite Bar](#kalynite-bar)
+*Cost:* 10x [Building Materials](#building-material), 2x [Basic Electronics](#basic-electronics), 2x [Kalynite Bar](#kalynite-bar)
 
 *Power:* &ndash;1
 
@@ -555,7 +566,7 @@ A central habitat with four doorways. Snaps to the one with the little built-in 
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 20x [Reinforced Material](#reinforced-building-material), 3x Kalynite Frame, 2x Meteorite Frame, 2x Advanced Electronics, 4x Hardened Glass, 1x High-Voltage Converter
+*Cost:* 20x [Reinforced Material](#reinforced-building-material), 3x [Kalynite Frame](#kalynite-frame), 2x [Meteorite Frame](#meteorite-frame), 2x [Advanced Electronics](#advanced-electronics), 4x [Hardened Glass](#hardened-glass), 1x [High-Voltage Converter](#high-voltage-converter)
 
 *Power:* &ndash;10
 
@@ -594,12 +605,12 @@ The end-stage electronics ingredient, only available once you make a successful 
 
 You can spend all the credits you want acquiring custom suit colors for Maeve and Roland, although you'll also find many more as you explore the world. None of them do you any good unless you build this Kiosk, though.
 
-The ability to turn on/off picking up certain objects is kind of handy if you decide that Deepstone (or whatever) just isn't worth collecting any more.
+The ability to turn on/off picking up certain objects is kind of handy if you decide that Regolith / Sandstone / Deepstone / Lavastone just isn't worth collecting any more.
 
 {% endaethusitem %}
 {% aethusitem 'Dead Amber' %}
 
-*Where:* Mined from Wormwood Nodes on infected trees around **Facilty Theta**.
+*Where:* Mined from Wormwood Nodes on infected trees around Theta.
 
 Gemstones(...?) are for selling ($2000).
 
@@ -622,35 +633,37 @@ Deepstone is to the Lost World what Sandstone is to the Caves: the most common e
 
 *Where:* Forged in the [Standard Smelter](#standard-smelter).
 
-*Cost:* 5x Depthane Ore
+*Cost:* 5x [Depthane Ore](#depthane-ore)
+
+Used to construct a variety of late-game gadgets.
 
 {% endaethusitem %}
 {% aethusitem 'Depthane Geode' %}
 
 *Where:* Occasionally produced by the [Standard Smelter](#standard-smelter) if it's inside a [Hub Habitat](#hub-habitat); very occasionally found when mining Depthane Ore.
 
-Like other Geodes, your best usage is to bring it to a [Prospecting Bench](#prospecting-bench) to try to break it into [Depthane's Hearts](#depthanes-heart). By itself, it sells for $3200.
+Geodes are for [prospecting](#prospecting-bench). These produce [Depthane's Hearts](#depthanes-heart).
 
 {% endaethusitem %}
 {% aethusitem 'Depthane Ore' %}
 
-*Where:* Common mining nodes in the Magma Rifts, especially near **Rho**. Also shows up when [fishing](#fishing-lure).
+*Where:* Common mining nodes in the Magma Rifts, especially near Rho. Also shows up when [fishing](#fishing-lure).
 
-Its primary use is to produce [Depthane Bars](#depthane-bar), although it can also be used to produce [Magmasafe Material](#magmasafe-building-material) and you might make a [Focusing Lens](#focusing-lens) or two out of it as well.
+Used to produce [Depthane Bars](#depthane-bar) and [Magmasafe Material](#magmasafe-building-material). You might make a [Focusing Lens](#focusing-lens) or two out of it as well. Depthane Ore is one of the few raw materials that can be used in two different processing facilities, so be intentional about whether you're trying to produce Bars or Materials when you drop off a load.
 
 {% endaethusitem %}
 {% aethusitem "Depthane's Heart" %}
 
-*Where:* Mined from nodes in the Magma Rifts near **Rho**, [prospected](#prospecting-bench) from [Depthane Geodes](#depthane-geode).
+*Where:* Mined from nodes in the Magma Rifts near Rho; [prospected](#prospecting-bench) from [Depthane Geodes](#depthane-geode).
 
-Gemstones are for selling ($1600 / $2000 / $2400), or for making [Focusing Lenses](#focusing-lens).
+Gemstones are for selling ($1600 and up) or for making [Focusing Lenses](#focusing-lens).
 
 {% endaethusitem %}
 {% aethusitem 'Desk Lamp' %}
 
 *Where:* Constructed (Lighting).
 
-*Cost:* 1x Building Material, 1x Solanite
+*Cost:* 1x [Building Material](#building-material), 1x [Solanite](#solanite)
 
 {% endaethusitem %}
 {% aethusitem 'Dew Catcher' %}
@@ -668,7 +681,7 @@ Your only early-game source for drinking water, apart from what you luck into fi
 
 *Cost:* 3x [Building Material](#building-material)
 
-This is what you use when you don't want to use an [Airlock](#airlock) to allow passage.
+This is how you stop yourself from accidentally falling out an open doorway of your Habitats.
 
 {% endaethusitem %}
 {% aethusitem 'Drone Pod' %}
@@ -686,11 +699,13 @@ This is what you use when you don't want to use an [Airlock](#airlock) to allow 
 
 *Variants:* **Kalynite Drill Bit, Meteorite Drill Bit, Tangrite Drill Bit**
 
-*Cost (Kalynite):* 4x Kalynite Bar, 2x Kalynite Frame, 2x [Basic Electronics](#basic-electronics), 4x Solazine<br/>
-*Cost (Meteorite):* 1x Kalynite Drill Bit, 2x Meteorite Frame, 3x [Microcircuits]<br/>
-*Cost (Tangrite):* 1x Meteorite Drill Bit, 2x Tangrite Bar, 1x Tangrite Frame, 2x Microcircuits, 4x Foucer Crystals
+| Type | Cost |
+| :--: | ---- |
+| Kalynite | 4x [Kalynite Bar](#kalynite-bar), 2x [Kalynite Frame](#kalynite-frame), 2x [Basic Electronics](#basic-electronics), 4x [Solazine](#solazine) |
+| Meteorite | 1x Kalynite Drill Bit, 2x [Meteorite Frame](#meteorite-frame), 3x [Microcircuits](#microcircuits) |
+| Tangrite | 1x Meteorite Drill Bit, 2x [Tangrite Bar](#tangrite-bar), 1x [Tangrite Frame](#tangrite-frame), 2x [Microcircuits](#microcircuits), 4x [Foucer Crystals](#foucer-crystals) |
 
-Drill Bits are an essential part of activating any automated resource collection equipment you come across, which will generally be missing a few essential pieces. Load in a drill bit and they'll start producing resources; load in a [Cargo Drone](#cargo-drone) and they'll automatically deliver those resources to your Outpost's [Cargo Bays](#cargo-bay). Once you reach the Lost World, the drills are upgraded to lasers, and they use [Focusing Lenses](#focusing-lens) instead of drill bits.
+Drill Bits are an essential part of activating any automated resource collection equipment you come across, which will generally be missing a few essential pieces. Load in the right drill bit and they'll start producing resources; load in a [Cargo Drone](#cargo-drone) and they'll automatically deliver those resources to your outpost's [Cargo Bays](#cargo-bay). Once you reach the Lost World, the drills are upgraded to lasers, and they use [Focusing Lenses](#focusing-lens) instead of drill bits.
 
 Note that drill bits are "recursive", meaning you need to manufacture a weaker drill bit in order to then manufacture a stronger one. This also works in reverse; if you find a strong drill bit you don't need, you can [recycle](#recycling-center) it down to lots of useful spare parts.
 
@@ -699,7 +714,7 @@ Note that drill bits are "recursive", meaning you need to manufacture a weaker d
 
 *Where:* Mined from nodes throughout the Caves; [prospected](#prospecting-station) from Kalynite Geodes.
 
-Gemstones are for selling, although in this case it doesn't hurt to put them in the [Stone Crusher](#stone-crusher) and convert them into [Dust Ruby Powder](#dust-ruby-powder), since it sells for the same price whole ($200) as it does in pieces (4x$50). Higher-quality gems ($250 superior, $300 flawless) should go straight to the market for the additional markup, though.
+Gemstones are for selling, although in this case it doesn't hurt to put them in the [Stone Crusher](#stone-crusher) and convert them into [Dust Ruby Powder](#dust-ruby-powder), since it sells for the same price whole ($200) as it does in pieces (4x$50). Higher-quality gems ($250 superior, $300 flawless) should go straight to the market for the additional markup, though. (Don't worry, the Crusher won't accept high-quality Dust Rubies.)
 
 {% endaethusitem %}
 {% aethusitem 'Dust Ruby Powder' %}
@@ -715,6 +730,8 @@ Useful for producing [Microelectronics](#microelectronics).
 
 *Cost:* 20x Building Material, 4x Kalynite Bar, 2x [Basic Electronics](#basic-electronics)
 
+*Power:* &ndash;3
+
 Another major upgrade in your crafting capabilities. Although the [Crafting Bench](#crafting-bench) can be used to make basic electronic gizmos, building this opens up a world of possibilities.
 
 {% endaethusitem %}
@@ -726,14 +743,14 @@ Another major upgrade in your crafting capabilities. Although the [Crafting Benc
 
 *Power:* &ndash;3
 
-Used to craft [Buildkits](#empty-buildkit) for use in the Magma Rifts.
+Used to craft [Buildkits](#buildkit) for use in the Magma Rifts.
 
 {% endaethusitem %}
 {% aethusitem 'Fish Flesh' %}
 
-*Where:* Prepared in the [Cooking Station](#cooking-station) from various raw fish, or squeezed out of a [Deepmussel].
+*Where:* Prepared in the [Cooking Station](#cooking-station) from various raw fish, or squeezed out of a [Deepmussel](#deepmussel).
 
-*Cost (for 2x):* 1x [Ghostfish](#ghostfish)
+*Cost (for 2x):* 1x [Ghostfish](#ghostfish)<br/>
 *Cost (for 1x):* 1x [Aelian Minnows](#aelian-minnow) &ndash; or &ndash; 1x [Sandfish](#sandfish)
 
 {% endaethusitem %}
@@ -769,7 +786,7 @@ Warning: this food is not Vegetarian. Similar to [Mushroom Soup](#mushroom-soup)
 
 One of the more entertaining objects in the game: any time you're near water (or even something that *looks* like water), toss one of these out by activating it on your hotbar and hitting `R`. You'll pick up three or four random items based on where you happen to be. Several items on this page are *only* available via fishing, such as the [Ancient Bones](#ancient-bones) needed for one of Trudy's fetch quests, as well as most actual fish.
 
-Because you find them for the first time in the Lost World, you may not think to try using them "higher up" than that, but it's worth doing so. [Heatshrimp](#heatshrimp) can only be found in the Inner Caves, [Sandfish](#sandfish) only on the Surface, and [Ghostfish](#ghostfish) only in the Lost World.
+Because you find them for the first time in the Lost World, you may not think to try using them "higher up" than that, but it's worth doing so. [Sandfish](#sandfish) can only be found on the Surface, [Heatshrimp](#heatshrimp) only in the Inner Caves, and [Ghostfish](#ghostfish) only in the Lost World.
 
 {% endaethusitem %}
 {% aethusitem 'Floodlight' %}
@@ -789,7 +806,7 @@ Useful for lighting up the Outside after dark. Leave a couple of these near the 
 
 *Cost:* 2x Building Material, 2x Solazine
 
-Provides interior lighting. Emergency lights are red. You don't need it, because Habitats are self-lit, but they do brighten up the place a bit.
+Provides interior lighting. Emergency lights are red. You don't *need* lighting, because Habitats are self-lit, but they do brighten up the place a bit.
 
 {% endaethusitem %}
 {% aethusitem 'Focusing Lens', 'Depthane Focusing Lens' %}
@@ -805,7 +822,7 @@ Provides interior lighting. Emergency lights are red. You don't need it, because
 | Depthane | 4x [Hardened Glass](#hardened-glass), 3x Tangrite Frame, 1x Depthane's Heart, 1x Depthane Ore |
 | Quarinium | 4x [Hardened Glass](#hardened-glass), 3x Tangrite Frame, 1x Miner's Bane, 1x Quarinium Ore |
 
-Focusing Lenses are upgraded versions of [Drill Bits](#tangrite-drill-bit), used in the Lost World and Magma Rifts to power a handful of mining lasers.
+Focusing Lenses are upgraded versions of [Drill Bits](#drill-bit), used in the Lost World and Magma Rifts to power a handful of mining lasers. Don't be afraid to craft them as soon as you find a drill that needs one; you can always [recycle](#recycling-station) any that you find afterwards.
 
 {% endaethusitem %}
 {% aethusitem 'Foucer Crystals' %}
@@ -819,30 +836,23 @@ An important crafting ingredient. Used to craft several things from Tangrite, bu
 
 *Variants:* **Nuclear Fuel Rod, Strange Fuel Rod**
 
-*Where:* Crafted at the manufacturing facility inside Facility Tau. If you run the particle accelerator at Iota first, you get *both* 1x Nuclear Fuel Rod and 1x Strange Fuel Rod at the same time.
+*Where:* Crafted at the manufacturing facility inside Tau. If you run the particle accelerator at Iota first, you get *both* 1x Nuclear Fuel Rod and 1x Strange Fuel Rod at the same time.
 
-*Cost:* The Tau manufacturing process consumes 10x [Quarinium Ore](#quarinium-ore) and 2x [Fuel Rod Moulds](#fuel-rod-mould). The Iota particle accelerator consumes an additional 5x [Quarinium Ore](#quarinium-ore) and 10x [Strange Ore Chunks](#strange-ore-chunk).
-
-1. In the "Control Room" at Tau, check the readout of the terminal. If it says "Iota additive: not present", run over to Iota. Climb down to the basement, insert the materials into the accelerator, then run it from the terminal. If there's smoke or fog in the accelerator room, you're good to go.
-2. At Tau, enter the "Material Processing" room and insert the Quarinium Ore into one of the four available slots across two machines. (It doesn't seem to matter if you fill more than one slot.)
-3. Go to the "Manufacturing Hub" and insert the Fuel Rod Moulds. There's also a Crafting Bench in this room, so you can also bring Kalynite Bars with you and make the moulds on the spot.
-4. Enter the "Waste Processing" control facility, "Raise Outflow" at both consoles, then "Flush System" at the third.
-5. Return to the *Control Room* and enable processing.
-6. Retrieve the fuel rods from the Output Receptacle in the *Manufacturing Hub*.
+*Cost:* The Tau manufacturing process consumes 10x [Quarinium Ore](#quarinium-ore) and 2x [Fuel Rod Moulds](#fuel-rod-mould). The Iota particle accelerator consumes an additional 5x [Quarinium Ore](#quarinium-ore) and 10x [Strange Ore Chunks](#strange-ore-chunk). See the [walkthrough](/aethus/#magma-rifts-tau) for details on the process.
 
 {% endaethusitem %}
 {% aethusitem 'Fuel Rod Housing' %}
 
 *Where:* Crafted at the [Crafting Bench](#crafting-bench).
 
-*Cost:* 2x Meteorite Frame, 5x (2x) Tangrite Bar
+*Cost:* 2x [Meteorite Frame](#meteorite-frame), 5x (2x) [Tangrite Bar](#tangrite-bar)
 
 Used to carry around nuclear reactors, which unfortunately you need to do if you're going to build your own [RTGs](#rtg).
 
 {% endaethusitem %}
 {% aethusitem 'Fuel Rod Mould' %}
 
-*Where:* Crafted at the [Crafting Bench](#crafting-bench). Note that Facility Tau, where you are most likely to use these things, has a Crafting Bench in the Manufacturing Hub.
+*Where:* Crafted at the [Crafting Bench](#crafting-bench). Note that the Manufacturing Hub at Tau, where you are most likely to use these things, has its own Crafting Bench.
 
 *Cost:* 4x (3x) [Kalynite Bar](#kalynite-bar)
 
@@ -853,12 +863,12 @@ Used to carry around fuel rods for nuclear reactors. See previous comment about 
 
 *Where:* [Fished](#fishing-lure) out of the sparkling ponds of the Lost World. Can also be raised in a [Grow Bed](#grow-bed).
 
-Make Aquaculture Packs at the Biology Lab, or process them into Fish Flesh at the Cooking Station.
+Make Aquaculture Packs at the Biology Lab, or process them into [Fish Flesh](#fish-flesh) at the [Cooking Station](#cooking-station).
 
 {% endaethusitem %}
 {% aethusitem 'Glowing Bulb' %}
 
-*Where:* Collected from the ground near the large, red, bioluminescent plants near **Facility Mu**. They can be somewhat hard to see, even on a suit scan.
+*Where:* Collected from the ground near the large, red, bioluminescent plants near Mu. They can be somewhat hard to see, even on a suit scan.
 
 Used only to produce [Herbicide](#herbicide-charge) so that you can explore the entirety of Mu. They can't even be cultivated in a Grow Bed, so you're stuck with whatever you can collect.
 
@@ -885,7 +895,7 @@ Used to produce [Glowsticks](#glowstick) and [Minnow Aquaculture Packs](#aquacul
 
 *Where:* Collect from Glowtus Plants, found in the lower Cave system.
 
-Plant one these in a [Plant Bed](#plant-bed), and if you let it germinate all the way you'll get your Seed back as well as a bunch of [Fruit](#glowtus-fruit). (**FIXME** double check this.)
+Plant one these in a [Plant Bed](#grow-bed), and if you let it germinate all the way you'll probably get your Seed back, a bunch of [Fruit](#glowtus-fruit), and some [Biomass](#biomass) to boot. (Possibly some of those things are dependent on being inside a Greenhouse.)
 
 {% endaethusitem %}
 {% aethusitem 'Gold Bar' %}
@@ -894,21 +904,21 @@ Plant one these in a [Plant Bed](#plant-bed), and if you let it germinate all th
 
 *Cost:* 3x [Gold Ore](#gold-ore)
 
-Used to make [Microcircuits](#microcircuits), which are pretty handy.
+Used to make [Microcircuits](#microcircuits), which you'll use a lot of.
 
 {% endaethusitem %}
 {% aethusitem 'Gold Geode' %}
 
 *Where:* Occasionally mined from Gold Nodes, or produced by the [Standard Smelter](#standard-smelter) if it's inside a [Hub Habitat](#hub-habitat). Also occasionally found when [fishing](#fishing-lure) the Lost World.
 
-Produces [Sky Sapphires] when [prospected]. Sells for $800.
+Geodes are for [prospecting](#prospecting-bench). These produce [Sky Sapphires](#sky-sapphires).
 
 {% endaethusitem %}
 {% aethusitem 'Gold Ore' %}
 
 *Where:* Mined from Gold Nodes, everywhere from the Lower Caves through the Magma Rifts.
 
-Like most ore, its principal use is to be [smelted](#standard-smelter) into [bars](#gold-bar).
+Like most ores, the purpose of this stuff is to be [smelted](#standard-smelter) into [bars](#gold-bar).
 
 {% endaethusitem %}
 {% aethusitem 'Greatwood' %}
@@ -922,7 +932,7 @@ Light (0.3kg), sells for a good price ($40) considering the weight, has no other
 
 *Where:* Constructed (Structures).
 
-*Cost:* 25x Reinforced Materials, 2x Kalynite Bar, 1x [Basic Electronics](#basic-electronics), 2x Hardened Glass
+*Cost:* 25x [Reinforced Materials](#reinforced-building-material), 2x [Kalynite Bar](#kalynite-bar), 1x [Basic Electronics](#basic-electronics), 2x [Hardened Glass](#hardened-glass)
 
 *Effect:* Crops grown in [Grow Beds](#grow-bed) in this Habitat generate more output than crops grown elsewhere.
 
@@ -946,10 +956,10 @@ Your *second* source of nutrition, once you build a [Scrap Grill](#scrap-grill).
 
 *Where:* Constructed (Production).
 
-*Cost (Small)*: 10x [Building Material](#building-material), 1x [Basic Electronics](#basic-electronics), 2x [Microcircuits](#microcircuits)<br/>
-*Cost (Large)*: 15x [Building Material](#building-material), 1x [Advanced Electronics](#advanced-electronics), 2x [Tangrite Bar](#tangrite-bar)
-
-*Power*: &ndash;2 / &ndash;3
+| Size | Cost | Power |
+| :--: | ---- | :---: |
+| Small | 10x [Building Material](#building-material), 1x [Basic Electronics](#basic-electronics), 2x [Microcircuits](#microcircuits) | &ndash;2 |
+| Large | 15x [Building Material](#building-material), 1x [Advanced Electronics](#advanced-electronics), 2x [Tangrite Bar](#tangrite-bar) | &ndash;3 |
 
 Many plants that you harvest while you're out mining can be planted in these grow beds. Roughly speaking, for every one you plant you'll get three to five back; more if you're in a [Greenhouse Habitat](#greenhouse-habitat). Small beds have two spaces, large beds have four.
 
@@ -981,34 +991,34 @@ Used to make [Fancy Fish Stew](#fish-stew) instead of just the regular stuff. Yo
 {% endaethusitem %}
 {% aethusitem 'Herbicide' %}
 
-*Where:* The first one can be found in **Facility Theta**, but you shouldn't use it there. Otherwise, manufactured at a [Biology Lab](#biology-lab).
+*Where:* The first one can be found in Theta, but you shouldn't use it there. Otherwise, manufactured at a [Biology Lab](#biology-lab).
 
 *Cost (for 2x):* 2x [Mining Explosive](#mining-explosive), 2x [Glowing Bulb](#glowing-bulb), 3x [Hive Mycelia](#hive-mycelia)
 
-Let's use *explosives* as a distribution mechanism for an antibiotic agent; what could possibly go wrong? You'll need six or so of these to fully explore **Facility Mu**.
+Let's use *explosives* as a distribution mechanism for an antibiotic agent; what could possibly go wrong? You'll need six or so of these to fully explore Mu.
 
 {% endaethusitem %}
 {% aethusitem 'High-Voltage Converter' %}
 
 *Where:* Crafted at the [Electronics Workbench](#electronics-workbench).
 
-*Cost:* 1x Advanced Electronics, 2x (1x) Depthane Bar, 5x (3x) Camberflex
+*Cost:* 1x [Advanced Electronics](#advanced-electronics), 2x (1x) [Depthane Bar](#depthane-bar), 5x (3x) [Camberflex](#camberflex)
 
 Used as a component in several required late-game items.
 
 {% endaethusitem %}
 {% aethusitem 'Hive Mycelia' %}
 
-*Where:* Harvested in the "infected" areas of the Lost World (between **Kappa** and **Theta**), from Wormwood Nodes, Corrupt Trees, Mycelial Masses, and Mycelial Towers.
+*Where:* Harvested in the "infected" areas of the Lost World (between Kappa and Theta), from Wormwood Nodes, Corrupt Trees, Mycelial Masses, and Mycelial Towers.
 
-Used as a component in the [Biology Lab](#biology-lab) to make [Herbicide], [Cleansed Mycelia], or [Mycelial Biomass].
+Used as a component in the [Biology Lab](#biology-lab) to make [Herbicide](#herbicide-charge), [Cleansed Mycelia](#cleansed-mycelia), or [Mycelial Biomass](#mycelial-biomass).
 
 {% endaethusitem %}
 {% aethusitem 'Horizontal Wind Turbine' %}
 
 *Where:* Constructed (Power). Purchase the blueprint from the [Trade Node](#trade-node).
 
-*Cost:* 20x Building Material, 2x [Basic Electronics](#basic-electronics), 1x Servomotor, 2x Meteorite Frame.
+*Cost:* 20x [Building Material](#building-material), 2x [Basic Electronics](#basic-electronics), 1x [Servomotor](#servomotor), 2x [Meteorite Frame](#meteorite-frame)
 
 *Power:* +6
 
@@ -1019,11 +1029,11 @@ You should mostly not bother with this object, because the [Vertical Turbine](#v
 
 *Where:* Constructed (Structures)
 
-*Cost:* 20x Building Material, 2x Kalynite Bar, 1x Hardened Glass
+*Cost:* 20x [Building Material](#building-material), 2x [Kalynite Bar](#kalynite-bar), 1x [Hardened Glass](#hardened-glass)
 
-Hubs are small, four-door Habitats that don't seem particularly useful at first glance. However, if you set up your Manufacturing facilities in them , they will occasionally produce Geodes for you as they process raw materials. This is basically free money, if you build a Prospecting Bench.
+Hubs are small, four-door Habitats that don't seem particularly useful at first glance. However, if you set up your materials processing facilities in them, they will occasionally produce Geodes for you. This is basically free money, if you build a Prospecting Bench.
 
-If you're willing to block one of the doors, you can fit all five manufacturing facilities ([Regolith Printer](#regolith-printer), [Stone Crusher](#stone-crusher), [Basic Smelter](#basic-smelter), [Standard Smelter](#standard-smelter), [Superheating Kiln](#superheating-kiln)), a [Prospecting Bench](#prospecting-bench), and a couple of [Large Crates](#large-crates) in here and still have room for an exit door for your [Cargo Bays](#cargo-bay).
+If you're willing to block one of the doors, you can fit all five processing facilities ([Regolith Printer](#regolith-printer), [Stone Crusher](#stone-crusher), [Basic Smelter](#basic-smelter), [Standard Smelter](#standard-smelter), [Superheating Kiln](#superheating-kiln)), a [Prospecting Bench](#prospecting-bench), and a couple of [Large Crates](#large-crate) in here and still have room for an exit door for your [Cargo Bays](#cargo-bay).
 
 {% endaethusitem %}
 {% aethusitem 'Hyperion Crystal' %}
@@ -1035,9 +1045,9 @@ Terrifically valuable ($5000 a pop!) at the [Trade Node](#trade-node), but also 
 {% endaethusitem %}
 {% aethusitem 'Industrial Coolant' %}
 
-*Where:* Found throughout the Magma Rift facilities; produced by [Coolant Hypercompressors](#buildkit) and (FIXME: a compressor in Rho?)
+*Where:* Found throughout the Magma Rift facilities; produced by [Coolant Hypercompressors](#buildkit) and a permanent compressor in Rho near the Airlock door.
 
-Broadly speaking, this does what it says on the tin. You'll use it in a handful of places across the Rifts (always 2x at a time) to enable atmosphere generators to also provide protection from heat exhaustion.
+Broadly speaking, this does what it says on the tin. There are a couple of story-specific uses for it, but largely speaking what it does is enable atmosphere generators – ones you find or ones you [build](#buildkit) – to also provide protection from heat exhaustion, which you'll need throughout the Rifts. If you're playing extra-fast you may not use much over the course of the game, but most people will use a bunch to establish Atmodomes all over the Rifts (and Seam X-5).
 
 {% endaethusitem %}
 {% aethusitem 'Industrial Tools' %}
@@ -1057,18 +1067,20 @@ A series of pick-me-ups ("buffs", if you must) that can be carried around and us
 
 | Injector | Cost (for 2x injectors) | Effect |
 | -------- | ---- | ------ |
-| Empty | 1x Tangrite Bar, 1x Hardened Glass | &mdash; |
-| Health | 2x Empty, 2x Lifeshroom, 1x Inert Mycelia | +50 Health over 10s |
-| Strength | 2x Empty, 1x Queen Mycelia, 1x Inert Mycelia, 2x [Sandfish](#sandfish) | +50kg weight limit for 20m |
-| Oxygen | 2x Empty, 5x Oxite, 1x Queen Mycelia, 1x Inert Mycelia | +70 Oxygen |
-| Speed | 2x Empty, 1x Refined Sugar, 1x Queen Mycelia, 1x Inert Mycelia | 25% faster move for 20m |
-| Mycelial Antigen | 2x Empty, 3x Inert Mycelia, 6x Mouldshroom, 4x Queen Mycelia | Resistance to spores for 15m |
-| Anti-Rad | 2x Empty, 1x Queen Mycelia, 1x Inert Mycelia, 10x Radiotropic Mushroom | -25% Radiation poisoning
+| Empty    | 1x [Tangrite Bar](#tangrite-bar), 1x [Hardened Glass](#hardened-glass) | &mdash; |
+| Health   | 2x Empty, 1x [Inert Mycelia](#inert-mycelia), 2x [Lifeshroom](#lifeshroom) | +50 Health over 10s |
+| Strength | 2x Empty, 1x [Inert Mycelia](#inert-mycelia), 1x [Queen Mycelia](#queen-mycelia), 2x [Sandfish](#sandfish) | +50kg carry limit for 20m |
+| Oxygen   | 2x Empty, 1x [Inert Mycelia](#inert-mycelia), 1x [Queen Mycelia](#queen-mycelia), 5x [Oxite](#oxite) | +70 Oxygen |
+| Speed    | 2x Empty, 1x [Inert Mycelia](#inert-mycelia), 1x [Queen Mycelia](#queen-mycelia), 1x [Refined Sugar](#refined-sugar) | +25% speed for 20m |
+| Anti-Rad | 2x Empty, 1x [Inert Mycelia](#inert-mycelia), 1x [Queen Mycelia](#queen-mycelia), 10x [Radiotropic Mushroom](#radiotropic-mushroom) | -25% radiation poisoning
+| Mycelial Antigen | 2x Empty, 3x [Inert Mycelia](#inert-mycelia), 4x [Queen Mycelia](#queen-mycelia), 6x [Mouldshroom](#mouldshroom) | Resistance to spores for 15m |
+
+You'll need one **Antigen** injector to explore half of Mu and another to repair the Climber in Omicron, but they last for 15m of real time so you shouldn't need more than one each. The others are entirely optional.
 
 {% endaethusitem %}
 {% aethusitem 'Inert Mycelia' %}
 
-*Where:* Grown in a [plant bed](#grow-bed) from [Cleansed Mycelia](#cleansed-mycelia). 
+*Where:* Cultivated from [Cleansed Mycelia](#cleansed-mycelia) in a [Grow Bed](#grow-bed).
 
 Used to manufacture your own [Injectors](#injector) in the [Biology Lab](#biology-lab).
 
@@ -1079,19 +1091,21 @@ Used to manufacture your own [Injectors](#injector) in the [Biology Lab](#biolog
 
 *Cost:* 10x [Jaspite Ore](#jaspite-ore)
 
-Used to produce Advanced Electronics, and not much else.
+Used to produce [Advanced Electronics](#advanced-electronics) and not much else.
 
 {% endaethusitem %}
 {% aethusitem 'Jaspite Geode' %}
 
-*Where:* Occasionally mined from Jaspite Nodes in the Lost world, or produced by the [Standard Smelter](#standard-smelter) if it's inside a [Hub Habitat](#hub-habitat).
+*Where:* Occasionally mined from Jaspite Nodes in the Lost world, or rarely produced by the [Standard Smelter](#standard-smelter) if it's inside a [Hub Habitat](#hub-habitat).
 
-Produces ???.
+Geodes are for [prospecting](#prospecting-bench). These produce **FIXME**
 
 {% endaethusitem %}
 {% aethusitem 'Jaspite Ore' %}
 
-*Where:* Mined from nodes in the Lost World, specifically near **Facility Lambda**.
+*Where:* Mined from nodes in the Lost World, specifically near Lambda.
+
+Like most ores, the purpose of this stuff is to be [smelted](#standard-smelter) into [bars](#jaspite-bar).
 
 {% endaethusitem %}
 {% aethusitem 'Jenkins' %}
@@ -1114,30 +1128,30 @@ You can find them in the Build menu under "Placeables"; they go nicely on shelvi
 
 *Where:* Occasionally mined from Kaloxite Nodes in the Outer Caves, or produced by the [Standard Smelter](#standard-smelter) if it's inside a [Hub Habitat](#hub-habitat).
 
-Produces [Pangimony](#pangimony), and as I said [elsewhere](#kalynite-geode), you should never sell geodes directly. Convert them to gemstones and sell those.
+Geodes are for [prospecting](#prospecting-bench). These produce [Pangimony](#pangimony).
 
 {% endaethusitem %}
 {% aethusitem 'Kaloxite Ore' %}
 
 *Where:* Mined from Kaloxite Nodes in the Inner Caves.
 
-Distinguishable from [Kalynite](#kalynite-ore) by its slight blueish tint, and the fact that it produces [Oxite](#oxite) when you [smelt](#basic-smelter) it.
+Distinguishable from [Kalynite](#kalynite-ore) by its slight blueish tint, and the fact that it also produces [Oxite](#oxite) when you [smelt](#basic-smelter) it.
 
 {% endaethusitem %}
 {% aethusitem 'Kalynite Bar' %}
 
 *Where:* Forged in the Basic Smelter.
 
-*Cost:* 2x Kalynite Ore &mdash; or &mdash; 2x Kaloxite Ore
+*Cost:* 2x [Kalynite Ore](#kalynite-ore) &mdash; or &mdash; 2x [Kaloxite Ore](#kaloxite-ore)
 
 A construction material of which you will use hundreds, and probably produce hundreds more than that. But that's what [Storage Silos](#storage-silo) are for. You *can* sell them at the [Trade Node](#trade-node), but don't expect much.
 
 {% endaethusitem %}
 {% aethusitem 'Kalynite Frame' %}
 
-*Where:* Crafted at the Crafting Bench.
+*Where:* Crafted at the [Crafting Bench](#crafting-bench).
 
-*Cost:* 3x (2x) Kalynite Bar, 3x (2x) Oxite
+*Cost:* 3x (2x) [Kalynite Bar](#kalynite-bar), 3x (2x) [Oxite](#oxite)
 
 Used to make lots of mid-game electronic parts, which makes the [Manufacturing Habitat](#manufacturing-habitat) upgrade really worth it.
 
@@ -1146,14 +1160,16 @@ Used to make lots of mid-game electronic parts, which makes the [Manufacturing H
 
 *Where:* Occasionally mined from Kalynite Nodes in the Outer Caves, produced by the [Stone Crusher](#stone-crusher) if it's inside a [Hub Habitat](#hub-habitat), or [fished](#fishing-lure) from the Inner Caves.
 
-Produces [Dust Rubies](#dust-ruby). Sells for $400, which is the same as two low-quality Dust Rubies. Let this be a lesson: you're *always* better off [prospecting](#prospecting-bench) geodes for gemstones and then selling the gemstones.
+Geodes are for [prospecting](#prospecting-bench). These produce [Dust Rubies](#dust-ruby).
 
 {% endaethusitem %}
 {% aethusitem 'Kalynite Ore' %}
 
-*Where:* Mined from Kalynite Nodes in the Inner Caves, and produced by [crushing] [Sandstone](#sandstone).
+*Where:* Mined from Kalynite Nodes in the Inner Caves, and produced by [crushing](#stone-crusher) [Sandstone](#sandstone).
 
-*Cost:* 10x [Sandstone](#sandstone) (produces 2x) or 10x [Sandstone Shards](#sandstone-shards) (produces 1x)
+*Cost:* 10x [Sandstone](#sandstone) (produces 2x) or 10x [Sandstone Shards](#sandstone-shard) (produces 1x)
+
+Like most ores, the purpose of this stuff is to be [smelted](#standard-smelter) into [bars](#kalynite-bar).
 
 {% endaethusitem %}
 {% aethusitem 'Korvo Leaves' %}
@@ -1172,7 +1188,7 @@ You can plant these in a [Grow Bed](#grow-bed), which will produce two or three 
 
 *Where:* Crafted at a Cooking Station.
 
-*Cost:* 2x Mysterious Egg, 3x Korvo Leaves
+*Cost:* 2x [Mysterious Egg](#mysterious-egg), 3x [Korvo Leaves](#korvo-leaves)
 
 *Effect:* +15% Stamina, +20% Nutrition
 
@@ -1185,7 +1201,7 @@ The game counts these as Vegetarian. But they lack the Hydration bonus of [Mushr
 
 *Where:* Constructed (Storage).
 
-*Cost:* 6x Building Material
+*Cost:* 6x [Building Material](#building-material)
 
 *Capacity:* 100kg (137.50kg)
 
@@ -1210,57 +1226,59 @@ Used to make [Health Injectors](#injector), [Cleansed Mycelia](#cleansed-mycelia
 
 *Where:* Constructed (Lighting).
 
-*Cost:* 1x Building Material, 1x Solazine
+*Cost:* 1x [Building Material](#building-material), 1x [Solazine](#solazine)
 
 You'll run into lots of these used as waymarkers throughout your exploration. You can also construct them yourself if you want to mark the path between, say, your Outpost and the Bloodfall. They throw much less light than a [Floodlight](#floodlight).
 
 {% endaethusitem %}
 {% aethusitem 'Living Amber' %}
 
-*Where:* Mined from Greatwood Nodes on giant trees around **Facility Epsilon**.
+*Where:* Mined from Greatwood Nodes on giant trees around Epsilon.
 
-Gemstones are for selling ($1300 / $1625)
+Gemstones are for selling ($1300 and up).
 
 {% endaethusitem %}
 {% aethusitem 'Loadmasters Key' %}
 
-Used to get into the secure storage cage in **Epsilon**.
+*Where:* **FIXME**
+
+Used to get into the secure storage cage in Epsilon.
 
 {% endaethusitem %}
 {% aethusitem 'Locker' %}
 
 *Where:* Constructed (Storage).
 
-*Cost:* 3x Building Material
+*Cost:* 3x [Building Material](#building-material)
 
 *Capacity:* 55kg (68.75kg)
 
 Particularly useful because of its upright orientation and small footprint.
 
 {% endaethusitem %}
-{% aethusitem 'Magmafish Bacon' %}
-
-*Where:* The product of cleaning a [Magmafish](#magmafish) at a [Cooking Station](#cooking-station).
-
-*Cost (for 3x):* 1x Magmafish
-
-*Effect:* +5% Stamina, +5% Nutrition
-
-{% endaethusitem %}
 {% aethusitem 'Magmafish' %}
 
 *Where:* [Fished](#fishing-lure) out of the Magma Rifts.
 
-Roughly half of the Magmafish you catch will be **Bulging Magmafish**; middle-click to Use one out of your inventory, and it will likely belch up a chunk of [Strange Ore](#strange-ore-chunk).
+Some number of the Magmafish you catch will be **Bulging Magmafish**; middle-click to "use" one out of your inventory, and it will likely belch up a chunk of [Strange Ore](#strange-ore-chunk).
 
 Magmafish can't be turned into Fish Flesh; instead they produce 3x [Magmafish Bacon](#magmafish-bacon) when processed at a [Cooking Station](#cooking-station).
+
+{% endaethusitem %}
+{% aethusitem 'Magmafish Bacon' %}
+
+*Where:* The product of cleaning a Magmafish at a [Cooking Station](#cooking-station).
+
+*Cost (for 3x):* 1x [Magmafish](#magmafish)
+
+*Effect:* +5% Stamina, +5% Nutrition
 
 {% endaethusitem %}
 {% aethusitem 'Magmasafe Building Material' %}
 
 *Where:* Smelted in a [Superheating Kiln](#superheating-kiln).
 
-*Cost:* 2x [Reinforced Materials](#reinforced-building-materials), 10x [Lavastone](#lavastone), 2x [Depthane Ore](#depthane-ore)
+*Cost:* 2x [Reinforced Materials](#reinforced-building-material), 10x [Lavastone](#lavastone), 2x [Depthane Ore](#depthane-ore)
 
 The apex building material. Used to produce [Buildkits](#buildkit), which are in turn used to add capabilities to the Magma Rifts environment.
 
@@ -1304,12 +1322,14 @@ Your first home; little more than a shipping container with an open doorway that
 
 *Where:* Constructed (Structures).
 
-**FIXME** (description)
+*Cost:* 20x [Reinforced Material](#reinforced-building-material), 10x [Kalynite Bar](#kalynite-bar), 1x [Advanced Electronics](#advanced-electronics), 2x [Hardened Glass](#hardened-glass)
+
+One of the more useful purpose-specific Habitats you can build. It's quite roomy inside, so you have plenty of space to put your [Crafting Bench](#crafting-bench), [Electronics Workbench](#electronics-workbench), [Biology Lab](#biology-lab), and [Expedition Hub](#expedition-hub) and still have half the room left empty. The real benefit is that fabrication facilities that you place inside this habitat offer discounts on the material cost of the things you craft. (Sadly not true of the Biology Lab, but true for all the others.)
 
 {% endaethusitem %}
 {% aethusitem 'Matter Folder' %}
 
-*Where:* Found in Gaia facilities.
+*Where:* Scavenged from Gaia facilities in the Magma Rifts.
 
 An essential part of any teleportation device. Y'know. Used to construct [Cargo Drone mk IIs](#cargo-drone), which can carry resources across space and time, as well as [Matter Transporters](#matter-transporter), of which you only need to *build* one.
 
@@ -1318,9 +1338,9 @@ An essential part of any teleportation device. Y'know. Used to construct [Cargo 
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 15 Reinforced Material, 2x Advanced Electronics, 2x Servomotor, 2x Kalynite Frame, 3x Meteorite Frame, 1x Matter Folder
+*Cost:* 15x [Reinforced Material](#reinforced-building-material), 2x [Advanced Electronics](#advanced-electronics), 2x [Servomotor](#servomotor), 2x [Kalynite Frame](#kalynite-frame), 3x [Meteorite Frame](#meteorite-frame), 1x [Matter Folder](#matter-folder)
 
-An honest-to-god teleporter that will connect you to the facilities beyond the Lost World. You'll need to click on it to dial in a station code before entering, although the game will helpfully display all the station codes you know so you don't have to remember them (although you do have to remember which code goes with which station).
+An honest-to-god teleporter that will connect you to the facilities beyond the Lost World. You'll need to click on it to dial in a station code before entering, although the game will helpfully display all the station codes you know so you don't have to remember them. You *do* have to remember which code goes with which station, though.
 
 {% endaethusitem %}
 {% aethusitem 'Medical Supplies' %}
@@ -1334,7 +1354,7 @@ Believe it or not, these have no use other than being sold at the [Trade Node](#
 
 *Where:* Constructed (Storage).
 
-*Cost:* 4x Building Material
+*Cost:* 4x [Building Material](#building-material)
 
 *Capacity:* 75kg (93.75kg)
 
@@ -1368,32 +1388,32 @@ Like most ores, the purpose of this stuff is to be [smelted](#standard-smelter) 
 
 *Where:* Forged in the [smelter](#standard-smelter).
 
-*Cost:* 4x [Meteorite], 3x [Kalynite Ore], 2x [Oxite]
+*Cost:* 4x [Meteorite](#meteorite), 3x [Kalynite Ore](#kalynite-ore), 2x [Oxite](#oxite)
 
-Like most bars, these are mostly used to make [frames](#meteorite-frame), but also used in other construction projects.
+Like most bars, you make [frames](#meteorite-frame) from them, but they're also used in other construction projects.
 
 {% endaethusitem %}
 {% aethusitem 'Meteorite Frame' %}
 
 *Where:* Crafted at the [Crafting Bench](#crafting-bench).
 
-*Cost:* 2x [Meteorite Bar], 2x (1x) [Dust Ruby Powder]
+*Cost:* 2x [Meteorite Bar](#meteorite-bar), 2x (1x) [Dust Ruby Powder](#dust-ruby-powder)
 
 Used to make [Cargo Drones](#cargo-drone), [Fuel Rod Housings](#fuel-rod-housing), [Drill Bits](#drill-bit), and [Buildkits](#buildkit).
 
 {% endaethusitem %}
 {% aethusitem 'Meteorite Geode' %}
 
-*Where:* Rarely mined from a Meteorite Node near **Facility Delta**. Occasionally produced by the [Stone Crusher](#stone-crusher) if it's inside a [Hub Habitat](#hub-habitat).
+*Where:* Rarely mined from a Meteorite Node near Delta. Occasionally produced by the [Stone Crusher](#stone-crusher) if it's inside a [Hub Habitat](#hub-habitat).
 
-Produces [Black Diamonds](#black-diamond) when [prospected](#prospecting-bench). Sells for $900.
+Geodes are for [prospecting](#prospecting-bench). These produce [Black Diamonds](#black-diamond).
 
 {% endaethusitem %}
 {% aethusitem 'Microcircuits' %}
 
-*Where:* Crafted at the [Electronics Bench](#electronics-bench).
+*Where:* Crafted at the [Electronics Workbench](#electronics-workbench).
 
-*Cost:* 1x [Gold Bar], 2x (1x) [Dust Ruby Powder]
+*Cost:* 1x [Gold Bar](#gold-bar), 2x (1x) [Dust Ruby Powder](#dust-ruby-powder)
 
 Used in tons and tons of different crafting and building projects. This is an entire reason to find a drill that can dig gold for you.
 
@@ -1402,26 +1422,28 @@ Used in tons and tons of different crafting and building projects. This is an en
 
 *Where:* Mined from Quarinium Nodes in the Magma Rifts, [prospected](#prospecting-bench) from [Quarinium Geodes](#quarinium-geode).
 
-Gemstones are for selling ($2000 / $2500 / $3000). Like most gems, you can also use them to create [Focusing Lenses](#focusing-lens).
+Gemstones are for selling ($2000 and up) or for making [Focusing Lenses](#focusing-lens).
 
 {% endaethusitem %}
 {% aethusitem 'Mining Explosives' %}
 
 *Where:* Crafted at the [Crafting Bench](#crafting-bench).
 
-*Cost:* 2x [Solazine], 1x [Kalynite Bar]
+*Cost:* 2x [Solazine](#solazine), 1x [Kalynite Bar](#kalynite-bar)
 
-A useful crafting ingredient in other things that go boom, like [Terraforming Charges] and [Herbicide]. They also sell for a reasonable price and are straightforward to craft starting from nothing but [Sandstone], which makes them handy for raising money early on.
+A useful crafting ingredient in other things that go boom, like [Terraforming Charges](#terraforming-charge) and [Herbicide](#herbicide-charge). They also sell for a reasonable price and are straightforward to craft starting from nothing but [Sandstone](#sandstone), which makes them handy for raising money early on.
 
 {% endaethusitem %}
 {% aethusitem 'Module Authenticator' %}
 
-*Where:* Crafted at the [Electronics Bench]; Roland teaches you how to make one.
+*Where:* Crafted at the [Electronics Workbench](#electronics-workbench); Roland teaches you how to make one.
+
+*Cost:* **FIXME**
 
 {% endaethusitem %}
 {% aethusitem 'Mouldshroom' %}
 
-*Where:* Gathered from the area around **Facility Theta**, or cultivated in a [Grow Bed].
+*Where:* Gathered from the area around Theta, or cultivated in a [Grow Bed](#grow-bed).
 
 Used to produce [Antigen Injectors](#injector), but you can probably gather more than you need to serve that purpose without needing to grow any yourself.
 
@@ -1432,21 +1454,21 @@ Used to produce [Antigen Injectors](#injector), but you can probably gather more
 
 *Where:* Crafted at a [Cooking Station](#cooking-station).
 
-*Cost (Basic):* 5x [Cave Mushroom](#cave-mushroom), 1x [Bottled Water (S)](#bottled-water), 2x [Biomass](#biomass)<br />
-*Cost (Rich):* 5x [Cave Mushroom](#cave-mushroom), 1x [Bottled Water (S)](#bottled-water), 3x [Biomass](#biomass), 5x [Korvo Leaves](#korvo-leaves)
-
-*Effect:* +15%/20% Stamina, +20%/25% Nutrition, +22%/25% Hydration.
+| Soup | Cost | Stam | Nutr | Hydr |
+| :--: | ---- | :--: | :--: | :--: |
+| Basic | 5x [Cave Mushroom](#cave-mushroom), 1x [Bottled Water (S)](#bottled-water), 2x [Biomass](#biomass) | +15% | +20% | +22% |
+| Rich | 5x [Cave Mushroom](#cave-mushroom), 1x [Bottled Water (S)](#bottled-water), 3x [Biomass](#biomass), 5x [Korvo Leaves](#korvo-leaves) | +20% | +25% | +25% |
 
 A staple dish, especially if you're trying to stay Vegetarian. The fact that it provides Hydration makes the water cost completely worthwhile.
 
 {% endaethusitem %}
 {% aethusitem 'Mycelial Biomass' %}
 
-*Where:* Gathered in the swampy, infected areas of the Lost World; cultured at the [Biology Lab]; can be cultivated from [Queen Mycelia] in a [Grow Bed].
+*Where:* Gathered in the swampy, infected areas of the Lost World; cultured at the [Biology Lab](#biology-lab); can be cultivated from [Queen Mycelia](#queen-mycelia) in a [Grow Bed](#grow-bed).
 
-*Cost (lab, for 5x):* 10x [Biomass], 2x [Hive Mycelia]
+*Cost (lab, for 5x):* 10x [Biomass](#biomass), 2x [Hive Mycelia](#hive-mycelia)
 
-Combine with [Deepstone] to make [Reinforced Materials], or build a [Biomass Planter]. Think twice before burning all your [Hive Mycelia] or your [Queen Mycelia] on making it, though.
+Combine with [Deepstone](#deepstone) to make [Reinforced Materials](#reinforced-building-material), or build a [Biomass Planter](#biomass-planter). Think twice before burning all your [Hive Mycelia](#hive-mycelia) or your [Queen Mycelia](#queen-mycelia) on making it, though.
 
 {% endaethusitem %}
 {% aethusitem 'Mysterious Egg' %}
@@ -1460,9 +1482,9 @@ Your first (FIXME) fetch quest for Trudy involves gathering ten of these to give
 {% endaethusitem %}
 {% aethusitem 'Nutrient Bar' %}
 
-*Where:* Found scattered across the deep Facilities, or produced at a [Cooking Station].
+*Where:* Found scattered across the deep Facilities, or produced at a [Cooking Station](#cooking-station).
 
-*Cost (for 2x):* 1x [Packaged Foodstuffs]
+*Cost (for 2x):* 1x [Packaged Foodstuffs](#packaged-foodstuffs)
 
 *Effect:* +25% Stamina, +30% Nutrition, &ndash;5% Hydration
 
@@ -1473,16 +1495,16 @@ I mean, *technically* this is food. If you weren't playing a video game you defi
 
 *Where:* Constructed (Furniture).
 
-*Cost:* 2x [Building Material]
+*Cost:* 2x [Building Material](#build-material)
 
 For the evil genius in us all.
 
 {% endaethusitem %}
 {% aethusitem 'Oxite' %}
 
-*Where:* Mined from Kaloxite Nodes in the Inner Caves. Also a by-product of smelting [Kalynite Bars] from [Kaloxite Ore].
+*Where:* Mined from Kaloxite Nodes in the Inner Caves. Also a by-product of smelting [Kalynite Bars](#kalynite-bar) from [Kaloxite Ore](#kaloxite-ore).
 
-Used in a number of crafting recipes, but broadly speaking you'll have more of this stuff than you know what to do with.
+Used in a number of crafting recipes. For most of the game you'll have more than you know what to do with, but make sure you keep some around for the endgame.
 
 {% endaethusitem %}
 {% aethusitem 'Oxygen Dome' %}
@@ -1491,10 +1513,10 @@ Used in a number of crafting recipes, but broadly speaking you'll have more of t
 
 *Where:* Found throughout the various Facilities; craft at a [Crafting Bench](#crafting-bench).
 
-*Cost (mark 1):* 2x Oxite, 1x Kalynite Bar<br />
-*Cost (mark 2):* 4x Oxite, 1x Kalynite Bar, 1x Basic Electronics
+*Cost (mark 1):* 2x [Oxite](#oxite), 1x [Kalynite Bar](#kalynite-bar)<br />
+*Cost (mark 2):* 4x [Oxite](#oxite), 1x [Kalynite Bar](#kalynite-bar), 1x [Basic Electronics](#basic-electronics)
 
-These generate a short-lived region of breathable atmosphere. Throw them against a wall (or the ground) to activate. The Mark I model will save you from dying but it will not fully recharge your air tank; the Mark II will do significantly better. However, if you use more than two of them in a row without finding some other source of air, you will get **Oxygen Poisioning**.
+These generate a short-lived region of breathable atmosphere. Throw them against a wall (or the ground) to activate. The Mark I model will save you from dying but probably will not fully recharge your air tank; the Mark II will do significantly better. However, if you use more than two of them in a row without finding some other source of air, you will get **Oxygen Poisioning**.
 
 {% endaethusitem %}
 {% aethusitem 'Packaged Foodstuffs' %}
@@ -1506,14 +1528,14 @@ The Aethus version of an MRE (Meals Ready to Eat); highly preserved foodstuff th
 {% endaethusitem %}
 {% aethusitem 'Pangimony' %}
 
-*Where:* Mined from several different nodes throughout the caves, or [prospected] from [Kaloxite Geodes].
+*Where:* Mined from several different nodes throughout the caves, or [prospected](#prospecting-bench) from [Kaloxite Geodes](#kaloxite-geode).
 
-Gemstones are for selling ($250 / $312 / $375).
+Gemstones are for selling ($250 and up).
 
 {% endaethusitem %}
 {% aethusitem 'Personal Keycard' %}
 
-Issued to various members of the Lost World staff. You'll spend the middle game looking for several of these in order to unlock a series of doors, mostly culminating at the **Facility Kappa** dam control room.
+*Where:* Issued to various members of the Lost World staff. You'll spend the middle game looking for several of these in order to unlock a series of doors, mostly culminating at the Kappa dam control room.
 
 {% endaethusitem %}
 {% aethusitem 'Petroleum Fuel' %}
@@ -1525,9 +1547,9 @@ No use other than being sold at the [Trade Node](#trade-node) ($250).
 {% endaethusitem %}
 {% aethusitem 'Pioneer Stew' %}
 
-*Where:* Produced at a [Cooking Station].
+*Where:* Produced at a [Cooking Station](#cooking-station).
 
-*Cost:* 1x [Packaged Foodstuffs], 1x [Bottled Water (S)]
+*Cost:* 1x [Packaged Foodstuffs](#packaged-foodstuffs), 1x [Bottled Water (S)](#bottled-water)
 
 *Effect:* +40% Stamina, +40% Nutrition, +30% Hydration
 
@@ -1544,21 +1566,21 @@ You took a non-vegetarian MRE and boiled the contents in water... and then you *
 
 Unless you constantly rebuild your Outpost close to whatever cave entrance is most useful, you'll spend a bunch of time running over the sand. But that's slow. If you lay down these Platforms, it's 25% faster!
 
-Platforms snap to each other quite well, but it can be tricky to change angles in order to add "turns" to your path. You can also snap [Lightsticks](#lightstick) and [Floodlights](#floodlight) to them. [Railings](#railings) are, in theory, designed to be snapped to them, but I had trouble making the aesthetics work out the way I wanted.
+Platforms snap to each other quite well, but it can be tricky to change angles in order to add "turns" to your path. You can also snap [Lightsticks](#lightstick) and [Floodlights](#floodlight) to them. [Railings](#railing) are, in theory, designed to be snapped to them, but I had trouble making the aesthetics work out the way I wanted.
 
 {% endaethusitem %}
 {% aethusitem 'Pollen Stalk' %}
 
 *Where:* Harvested by cutting down Gorgo Trees in the Lost World.
 
-Combine this with [Sugarplants](#sugarplant) (at the Biology Lab) to make pollinated [seeds](#sugarplant-seed) that can be germinated in a Grow Bed.
+Combine this with [Sugarplants](#sugarplant) (at the Biology Lab) to make pollinated [seeds](#sugarplant-seed) that can be germinated in a [Grow Bed](#grow-bed).
 
 {% endaethusitem %}
 {% aethusitem 'Power Cell' %}
 
-*Where:* Crafted at either the [Crafting Bench] or the [Electronics Workbench].
+*Where:* Crafted at either the [Crafting Bench](#crafting-bench) or the [Electronics Workbench](#electronics-workbench).
 
-*Cost:* 1x [Basic Electronics], 2x (1x) [Kalynite Frame], 5x (3x) [Solazine]
+*Cost:* 1x [Basic Electronics](#basic-electronics), 2x (1x) [Kalynite Frame](#kalynite-frame), 5x (3x) [Solazine](#solazine)
 
 Extremely useful while you're exploring the Lost World; you should always have one on you. You will come across several Oxygen Generators dotting the landscape that are missing their batteries. Plug one of these in and you've got an additional waypoint where you can refresh your oxygen tank, which is invaluable. In a pinch, you can take a cell out of one generator and plug it into a different one.
 
@@ -1567,7 +1589,7 @@ Extremely useful while you're exploring the Lost World; you should always have o
 
 *Where:* Crafted at the Electronics Workbench.
 
-*Cost:* 1x Depthane Bar, 1x Crystal Electronics, 4x (3x) Camberflex, 2x (1x) Bypass Mole
+*Cost:* 1x [Depthane Bar](#depthane-bar), 1x [Crystal Electronics](#crystal-electronics), 4x (3x) [Camberflex](#camberflex), 2x (1x) [Bypass Mole](#bypass-mole)
 
 Used to override the programming on the runaway laser drills near the giant Aetherium crystal outside Hades.
 
@@ -1576,20 +1598,20 @@ Used to override the programming on the runaway laser drills near the giant Aeth
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 15x Reinforced Material, 6x Kalynite Bar, 1x Tangrite Frame, 1x Advanced Electronics, 1x Servomotor, 2x Hardened Glass
+*Cost:* 15x [Reinforced Material](#reinforced-building-material), 6x [Kalynite Bar](#kalynite-bar), 1x [Tangrite Frame](#tangrite-frame), 1x [Advanced Electronics](#advanced-electronics), 1x [Servomotor](#servomotor), 2x [Hardened Glass](#hardened-glass)
 
 *Power:* &ndash;4
 
 "Prospecting" is a little minigame where you get to blast away chunks of a geode, looking for the shiny gemstone that's hidden within. The more geode material you blast away from near the gem, the higher your score and the more and better gems you get out of it.
 
-Geodes don't start appearing until you build one of these(?) and a [Hub Habitat].
+Geodes don't start appearing until you build one of these(?) and a [Hub Habitat](#hub-habitat).
 
 {% endaethusitem %}
 {% aethusitem 'Quakemaker' %}
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 10x [Building Material](#building-material), 1x [Meteorite Frame](#meteorite-frame), 1x [Basic Electronics](#basic-electronics), 1x [Kalynite Drill Bit](#kalynite-drill-bit)
+*Cost:* 10x [Building Material](#building-material), 1x [Meteorite Frame](#meteorite-frame), 1x [Basic Electronics](#basic-electronics), 1x [Kalynite Drill Bit](#drill-bit)
 
 *Power:* &ndash;2
 
@@ -1600,7 +1622,7 @@ As you spend more time in your Outpost crafting things and expanding your territ
 
 *Where:* Crafted at the [Crafting Bench](#crafting-bench).
 
-*Cost:* 1x Terraforming Charge (S), 1x Basic Electronics
+*Cost:* 1x [Terraforming Charge (S)](#terraforming-charge), 1x [Basic Electronics](#basic-electronics)
 
 See [Quakemaker](#quakemaker) for usage.
 
@@ -1609,7 +1631,7 @@ See [Quakemaker](#quakemaker) for usage.
 
 *Where:* Occasionally produced by the [Standard Smelter](#standard-smelter) and [Superheating Kiln](#superheating-kiln) if they're inside a [Hub Habitat](#hub-habitat). Rarely found when mining [Miner's Bane](#miners-bane).
 
-Produces [Miner's Bane](#miners-bane) when [prospected](#prospecting-bench).
+Geodes are for [prospecting](#prospecting-bench). These produce [Miner's Bane](#miners-bane).
 
 {% endaethusitem %}
 {% aethusitem 'Quarinium Ore' %}
@@ -1621,9 +1643,9 @@ A radioactive ore whose only use is in the manufacture of [Nuclear Fuel Rods](#f
 {% endaethusitem %}
 {% aethusitem 'Queen Mycelia' %}
 
-*Where:* Mined from Mycelial Mass nodes near **Facility Theta**.
+*Where:* Mined from Mycelial Mass nodes near Theta.
 
-Used to make all sorts of [Injectors](#injector). You can also cultivate one in a [Grow Bed](#grow-bed) to produce a bunch of [Mycelial Biomass] and [Hive Mycelia], but Queens are hard enough to find that you probably don't want to spend them on that.
+Used to make all sorts of [Injectors](#injector). You can also cultivate one in a [Grow Bed](#grow-bed) to produce a bunch of [Mycelial Biomass](#mycelial-biomass) and [Hive Mycelia](#hive-mycelia), but Queens are hard enough to find that you probably don't want to spend them on that.
 
 {% endaethusitem %}
 {% aethusitem 'Radiotrophic Mushroom' %}
@@ -1637,23 +1659,25 @@ Used to make all sorts of [Injectors](#injector). You can also cultivate one in 
 
 *Where:* Constructed (Platforms).
 
-*Cost:* 1x Building Material
+*Cost:* 1x [Building Material](#building-material)
 
 {% endaethusitem %}
 {% aethusitem 'Rectangular Table' %}
 
 *Where:* Constructed (Furniture).
 
-*Cost:* 2x Building Material
+*Cost:* 2x [Building Material](#building-material)
 
 {% endaethusitem %}
 {% aethusitem 'Recycling Station' %}
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 15x Building Material, 2x Kalynite Bar, 2x Basic Electronics
+*Cost:* 15x [Building Material](#building-material), 2x [Kalynite Bar](#kalynite-bar), 2x [Basic Electronics](#basic-electronics)
 
-*Aethus* is pretty big on recycling. You can dismantle anything you've built at any time and recover 100% of the materials used to build it. Likewise, if you build one of these, you can feed any crafted (or craftable — you don't have to have made it yourself) item in and get back all of the constitutent parts back. This is especially powerful with "recursive" items like [Drill Bits](#drill-bit) or [Focusing Lenses](#focusing-lens).
+*Aethus* is pretty big on recycling. You can dismantle anything you've built at any time and recover 100% of the materials used to build it. Likewise, if you build one of these, you can feed any* crafted item in and get back all of the constitutent parts back. This is especially powerful with "recursive" items like [Drill Bits](#drill-bit) or [Terraforming Charges](#terraforming-charge).
+
+\*: Doesn't work on *everything*, but works on most things. You can't recycle food, or anything that you produce two at a time (like Injectors). But it does work on things you scavenge if they *could* be crafted, like [Focusing Lenses](#focusing-lens).
 
 {% endaethusitem %}
 {% aethusitem 'Refined Sugar' %}
@@ -1669,9 +1693,7 @@ The sugar plant, by itself, is toxic; you need to refine the sugar out of it fir
 
 *Where:* Found in Regolith Spires on the surface, and in nodes throughout the Caves.
 
-Wikipedia defines regolith as "a blanket of unconsolidated, loose, heterogeneous superficial deposits covering solid rock. It includes dust, broken rocks, and other related materials..."
-
-You're going to pretend it's concrete and convert it into [Building Materials](#building-material) in the [Regolith Printer](#regolith-printer).
+Wikipedia defines [regolith](https://en.wikipedia.org/wiki/Regolith) as "a blanket of unconsolidated, loose, heterogeneous superficial deposits covering solid rock. It includes dust, broken rocks, and other related materials..." You're going to pretend it's concrete and convert it into [Building Materials](#building-material) in the [Regolith Printer](#regolith-printer).
 
 {% endaethusitem %}
 {% aethusitem 'Regolith Chunk' %}
@@ -1689,7 +1711,7 @@ A less-efficient form of raw material for feeding the [printer](#regolith-printe
 
 *Power:* &ndash;2
 
-Put in [Regolith](#regolith), get out [Building Materials](#building-materials). Essential for establishing a proper Outpost on Aethus. Honestly you'll be feeding it the byproducts of your Stone Crusher for the entire game just to get rid of them, but you will also go through an awful lot of Building Material and it's nice to not have to worry about where they're going to come from.
+Put in [Regolith](#regolith), get out [Building Materials](#building-material). Essential for establishing a proper Outpost on Aethus. Honestly you'll be feeding it the byproducts of your Stone Crusher for the entire game just to get rid of them, but you will also go through an awful lot of Building Material and it's nice to not have to worry about where they're going to come from.
 
 Remember that, like all manufacturing facilities, Printers have an infinite capacity to store their own output (and input). You can't use its products until you remove them from the machine, but if you leave them in there you don't otherwise have to store them anywhere, which is sometimes half the battle.
 
@@ -1726,7 +1748,7 @@ Six separate objects that share the same names. RTGs are condensed nuclear power
 
 *Where:* The hard part is crafting a **Reactor Core** at the [Electronics Workbench](#electronics-workbench). Once you have the core you can craft an **RTG** (its only ingredient is the Core), then use that to Construct the **RTG** building under the Power category.
 
-*Cost (Reactor Core):* 1x [Nuclear Fuel Rod](#fuel-rod), 1x [Fuel Rod Housing](#fuel-rod-housing), 2x (1x) [Advanced Electronics](#advanced-electronics). The **Modified** version is the same but it uses a [Strange Fuel Rod](#fuel-rod) instead.
+*Cost (for 1x Reactor Core):* 1x [Nuclear Fuel Rod](#fuel-rod), 1x [Fuel Rod Housing](#fuel-rod-housing), 2x (1x) [Advanced Electronics](#advanced-electronics). The **Modified** version is the same but it uses a [Strange Fuel Rod](#fuel-rod) instead.
 
 *Power:* +15 / +20
 
@@ -1742,7 +1764,7 @@ Used to produce [Strength Injectors](#injector), or cooked into [stew](#fish-ste
 
 *Where:* Ubquitous throughout the Caves; every node will produce some.
 
-The bad news is that you're going to collect sandstone every time you blow up a node in the Caves. The good news is that you can convert it directly into cash once you have a [Stone Crusher](#stone-crusher), a [Basic Smelter](#basic-smelter), and a [Crafting Table](#crafting-table): crush Sandstone into Solzaine and Kalynite Ore; smelt the Ore in a Bar; craft Solazine and a Bar to make Mining Explosives, which sell for $150 a pop. Not bad for a little bit of running around.
+The bad news is that you're going to collect Sandstone every time you blow up a node in the Caves. The good news is that you can convert it directly into cash once you have a [Stone Crusher](#stone-crusher), a [Basic Smelter](#basic-smelter), and a [Crafting Table](#crafting-table): there's a recipe in the [walkthrough](/aethus/#how-to-make-money).
 
 {% endaethusitem %}
 {% aethusitem 'Sandstone Shard' %}
@@ -1763,7 +1785,7 @@ An important early facility to build. It may not look like much, but it lets you
 
 *Where:* Crafted at the [Electronics Workbench](#electronics-workbench).
 
-*Cost:* 3x (2x) Microcircuits, 2x (1x) Basic Electronics, 2x Kalynite Frame
+*Cost:* 3x (2x) [Microcircuits](#microcircuits), 2x (1x) [Basic Electronics](#basic-electronics), 2x [Kalynite Frame](#kalynite-frame)
 
 Awfully useful little buggers; they're a crucial crafting ingredient, especially for making large [storage](#storage-container) [items](#storage-silo). Of particular note: You'll need a handful of these to repair the facility gates throughout the Lost World, so it behooves you to always carry one in your inventory whenever you're exploring (and especially if you intend to visit a new facility for the first time).
 
@@ -1772,23 +1794,23 @@ Awfully useful little buggers; they're a crucial crafting ingredient, especially
 
 *Where:* Mined from Gold and Jaspite nodes, or [prospected](#prospecting-bench) from [Gold Geodes](#gold-geode).
 
-Gemstones are for selling ($300 / $375 / $450), and for once there simply isn't any other use for them. (**FIXME**: is this one of Trudy's fetch quests?)
+Gemstones are for selling ($300 and up). **FIXME**: Trudy fetch quest?
 
 {% endaethusitem %}
 {% aethusitem 'Silica' %}
 
 *Where:* Mined from Kaloxite and Kalynite nodes in the Outer Caves; eventually, forged directly in a [Superheating Kiln](#superheating-kiln).
 
-*Cost (when forged, for 2x):* 1x Kalynite Ore
+*Cost (when forged, for 2x):* 1x [Kalynite Ore](#kalynite-ore)
 
-Used to make Basic Electronics and Hardened Glass, two things you will definitely want a lot of. Fortunately tends to be rather abundant, so you will probably never have to worry about whether you have enough.
+Used to make [Basic Electronics](#basic-electronics) and [Hardened Glass](#hardened-glass), two things you will definitely want a lot of. Fortunately tends to be rather abundant, so you will probably never have to worry about whether you have enough.
 
 {% endaethusitem %}
 {% aethusitem 'Small Crate' %}
 
 *Where:* Constructed (Storage).
 
-*Cost:* 2x Building Material
+*Cost:* 2x [Building Material](#building-material)
 
 *Capacity:* 40kg (50kg)
 
@@ -1799,7 +1821,7 @@ Baby's *second* storage unit. See [Makeshift Crate](#makeshift-crate) for notes.
 
 *Where:* Constructed (Power).
 
-*Cost:* 13x Reinforced Material, 7x Solazine, 1x Advanced Electronics, 3x Tangrite Bar
+*Cost:* 13x [Reinforced Material](#reinforced-building-material), 7x [Solazine](#solazine), 1x [Advanced Electronics](#advanced-electronics), 3x [Tangrite Bar](#tangrite-bar)
 
 *Power:* +12
 
@@ -1810,7 +1832,7 @@ This is where it's at for power generation, until you start making your own [nuc
 
 *Where:* Constructed (Power).
 
-*Cost:* 10x Reinforced Material, 5x Solazine, 1x Advanced Electronics, 3x Tangrite Bar
+*Cost:* 10x [Reinforced Material](#reinforced-building-material), 5x [Solazine](#solazine), 1x [Advanced Electronics](#advanced-electronics), 3x [Tangrite Bar](#tangrite-bar)
 
 *Power:* +10
 
@@ -1819,11 +1841,14 @@ Much better than building tons of generators.
 {% endaethusitem %}
 {% aethusitem 'Solazine' %}
 
-*Where:* Mined from Kalynite Nodes in the Inner Caves; produced by [crushing] [Sandstone](#sandstone).
+*Where:* Mined from Kalynite Nodes in the Inner Caves; produced by [crushing](#stone-crusher) [Sandstone](#sandstone).
 
-*Cost:* 10x [Sandstone](#sandstone) (produces 2x) or 10x [Sandstone Shards](#sandstone-shards) (produces 1x)
+| In | Out |
+| --- | :-: |
+| 10x [Sandstone](#sandstone) | 2x |
+| 10x [Sandstone Shards](#sandstone-shard) | 1x |
 
-A key ingredient for producing things that glow or explode. Because it's easy to produce, though, you shouldn't worry too much about running out.
+A key ingredient for producing things that glow or explode. So easy to produce that you *really* shouldn't worry about running out.
 
 {% endaethusitem %}
 {% aethusitem 'Solazine Generator' %}
@@ -1841,7 +1866,7 @@ See [Biomass Generator](#biomass-generator); these are a stopgap in your power-g
 
 *Where:* Produced at a [Cooking Station](#cooking-station).
 
-*Cost:* 1x Solazine, 1x Biomass
+*Cost:* 1x [Solazine](#solazine), 1x [Biomass](#biomass)
 
 *Effect:* **Energy Boost:** +10% movement speed for 60s
 
@@ -1850,7 +1875,7 @@ See [Biomass Generator](#biomass-generator); these are a stopgap in your power-g
 
 *Where:* Constructed (Furniture).
 
-*Cost:* 2x Building Material
+*Cost:* 2x [Building Material](#building-material)
 
 Look, it's a table, and it's square. What do you want from me?
 
@@ -1859,7 +1884,7 @@ Look, it's a table, and it's square. What do you want from me?
 
 *Where:* Constructed (Structures).
 
-*Cost:* 20x Building Material
+*Cost:* 20x [Building Material](#building-material)
 
 A simple, two-door habitat module. It's an upgrade over the [Basic Habitat](#basic-habitat) in that it provides somewhat more usable interior space.
 
@@ -1868,43 +1893,47 @@ A simple, two-door habitat module. It's an upgrade over the [Basic Habitat](#bas
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 13x Building Materials, 5x Solazine, 5x Kalynite Bar, 2x [Basic Electronics](#basic-electronics)
+*Cost:* 13x [Building Materials](#building-material), 5x [Solazine](#solazine), 5x [Kalynite Bar](#kalynite-bar), 2x [Basic Electronics](#basic-electronics)
 
 *Power:* &ndash;3
 
-The workhorse of your production line. Converts Ore into Bars, from Meteorite up through Depthane. Stick it in a [Hub Habitat](#hub-habitat) and it produces bonus Geodes at the same time. Note that there are two different recipes for producing [Tangrite Bars](#tangrite-bar); it may be worth disabling the less-efficient one.
+The workhorse of your production line. Converts Ore into Bars from Meteorite up through Depthane. Stick it in a [Hub Habitat](#hub-habitat) and it produces bonus Geodes at the same time. Note that there are two different recipes for producing [Tangrite Bars](#tangrite-bar); it may be worth disabling the less-efficient one.
 
 {% endaethusitem %}
 {% aethusitem 'Stone Crusher' %}
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 5x [Building Materials](#building-materials)
+*Cost:* 5x [Building Materials](#building-material)
 
 *Power:* &ndash;2
 
-A "refinement" facility for stone. In the early game this is your money-printing press, processing [Sandstone](#sandstone) into [Regolith](#regolith), [Solazine](#solazine), and ore. It will also crush [Dust Rubies](#dust-ruby), converts [Meteor Glass](#meteor-glass) into [Meteorite "Ore"](#meteorite), and produces [Refinforced Materials](#reinforced-building-material) from [Lavastone](#lavastone), [Camberflex](#camberflex), and [Unstabilite](#unstabilite).
-
-{% endaethusitem %}
-{% aethusitem 'Stool with Back' %}
-
-*Where:* Constructed (Furniture).
-
-Click on it to sit down.
+A "refinement" facility for stone. In the early game this is your money-printing press, processing [Sandstone](#sandstone) into [Regolith](#regolith), [Solazine](#solazine), and ore. It will also crush [Dust Rubies](#dust-ruby), converts [Meteor Glass](#meteor-glass) into [Meteorite "Ore"](#meteorite), and in the late game can produce [Refinforced Materials](#reinforced-building-material) from [Lavastone](#lavastone), [Camberflex](#camberflex), and [Unstabilite](#unstabilite).
 
 {% endaethusitem %}
 {% aethusitem 'Stool' %}
 
 *Where:* Constructed (Furniture).
 
-Click on it to sit down.
+*Cost:* 1x [Building Material](#building-material)
+
+Click on it to sit down. No back support, though.
+
+{% endaethusitem %}
+{% aethusitem 'Stool with Back' %}
+
+*Where:* Constructed (Furniture).
+
+*Cost:* 1x [Building Material](#building-material)
+
+Ahh, that's better.
 
 {% endaethusitem %}
 {% aethusitem 'Storage Container' %}
 
 *Where:* Constructed (Storage). You'll also find at least one of these next to almost every mining Facility you discover; they serve as excellent staging points when you're on long mining runs.
 
-*Cost:* 6x [Reinforced Materials](#reinforced-building-materials), 1x [Servomotor](#servomotor)
+*Cost:* 6x [Reinforced Materials](#reinforced-building-material), 1x [Servomotor](#servomotor)
 
 *Capacity:* 600kg / 750kg
 
@@ -1915,11 +1944,11 @@ Invaluable, once you have the parts to spare constructing them.
 
 *Where:* Constructed (Storage).
 
-*Cost:* 10x [Reinforced Materials](#reinforced-building-materials), 2x [Servomotors](#servomotor)
+*Cost:* 10x [Reinforced Materials](#reinforced-building-material), 2x [Servomotors](#servomotor)
 
 *Capacity:* 2000kg / 2500kg
 
-If you find yourself overwhelmed with [Building Materials](#building-materials) (and you probably will), building one of these outside will go a long way towards making it so you never have to worry about them again.
+If you find yourself overwhelmed with [Building Materials](#building-material) (and you probably will), building one of these outside will go a long way towards making it so you never have to worry about them again.
 
 {% endaethusitem %}
 {% aethusitem 'Strange Geode' %}
@@ -1933,7 +1962,7 @@ Unlike other Geodes, this one just produces a bunch more [ore chunks](#strange-o
 
 *Where:* A small number of very specific places in the Magma Rifts; also extracted from the belly of a Bulging [Magmafish](#magmafish), or [prospected](#prospecting-bench) from [Strange Geodes](#strange-geode).
 
-Also known as **Aetherium**, this crystalline white material floats of its own accord and seems to cause madness in humans who handle too much of it. You *must* use some of this to run the particle accelerator in **Iota** so that you can make a [Strange Fuel Rod](#fuel-rod) in order to beat the game, so keep at least 10x of it around for that. Apart from that, you can use them to produce more [Anti-Gravity Tech](#anti-gravity-tech) (and thus more [Fishing Lures](#fishing-lure)). You can't even sell them at the Trade Node, because it would arouse too much suspicion.
+Also known as **Aetherium**, this crystalline white material floats of its own accord and seems to cause madness in humans who handle too much of it. You *must* use some of this to run the particle accelerator in Iota so that you can make a [Strange Fuel Rod](#fuel-rod) in order to beat the game, so keep at least 10x of it around for that. Apart from that, you can use them to produce more [Anti-Gravity Tech](#anti-gravity-tech) (and thus more [Fishing Lures](#fishing-lure)). You can't even sell them at the Trade Node, because it would arouse too much suspicion.
 
 {% endaethusitem %}
 {% aethusitem 'Sugarplant Seed' %}
@@ -1958,6 +1987,8 @@ Used in a number of useful kitchen recipes. Always a good idea to collect more w
 
 *Cost:* 10x Reinforced Materials, 1x Advanced Electronics, 1x Microcircuits, 2x [Kalynite Frame](#kalynite-frame)
 
+*Power:* &ndash;2
+
 Step onto a Charger and your suit will get turbo-charged for a couple of minutes. Step on for a moment and you get a 5% speed boost for 1m. Stay longer, that goes up to 10% for 2m, then 15% for 3m. This effect *does* stack with the benefits of consumables. You can also build one yourself for your Outpost, although I'm not sure how useful that is because you're likely to run out of charge before you get to wherever you're going.
 
 {% endaethusitem %}
@@ -1965,7 +1996,7 @@ Step onto a Charger and your suit will get turbo-charged for a couple of minutes
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 5x [Building Material], 2x [Bottled Water (S)]
+*Cost:* 5x [Building Material](#building-material), 2x [Bottled Water (S)](#bottled-water)
 
 As you run around Outside, your suit gets dirty. Eventually you'll start leaving dirty footprints all throughout your facility. You can buy the Electrostatic upgrade to reduce how often this happens, and you can install these things at the entrypoints to give you a bath whenever you pass through it. Purely cosmetic, though.
 
@@ -1983,18 +2014,18 @@ I hear there's a Skin Cancer DLC coming soon that will make these things absolut
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 20x Building Material, 10x Solazine, 5x Kalynite Bar, 4x Meteorite Bar, 2x Microcircuits
+*Cost:* 20x [Building Material](#building-material), 10x [Solazine](#solazine), 5x [Kalynite Bar](#kalynite-bar), 4x [Meteorite Bar](#meteorite-bar), 2x [Microcircuits](#microcircuits)
 
 *Power:* &ndash;3
 
-The big brother of the [Standard Smelter](#standard-smelter). You'll need one of these to produce late-game building materials such as [Hardened Glass](#hardened-glass) and [Magmasafe Materials](#magmasafe-building-material), but it can also produce [Silica](#silica) and [Reinforced Materials](#reinforced-building-material) before the Stone Crusher can do it.
+The big brother of the [Standard Smelter](#standard-smelter). You'll need one of these to produce late-game building materials such as [Hardened Glass](#hardened-glass) and [Magmasafe Materials](#magmasafe-building-material), but it can also produce [Silica](#silica) and [Reinforced Materials](#reinforced-building-material) before the [Stone Crusher](#stone-crusher) can do it.
 
 {% endaethusitem %}
 {% aethusitem 'Swamp Geode' %}
 
-*Where:* Very occasionally found from mining Swamp Nodes and/or [fishing](#fishing-lure) near **Lambda**.
+*Where:* Very occasionally found from mining Swamp Nodes and/or [fishing](#fishing-lure) near Lambda.
 
-Produces [Vitaglass](#vitaglass) when [prospected]. Sells for $2500.
+Geodes are for [prospecting](#prospecting-bench). These produce [Vitaglass](#vitaglass).
 
 {% endaethusitem %}
 {% aethusitem 'Swampwheat' %}
@@ -2017,37 +2048,39 @@ An intermediate processing step towards making some tasty dishes.
 
 *Where:* Constructed (Lighting).
 
-*Cost:* 1x Building Material, 1x Solazine
+*Cost:* 1x [Building Material](#building-material), 1x [Solazine](#solazine)
 
 A tiny bit of extra light for your Habitat.
 
 {% endaethusitem %}
 {% aethusitem 'Tangrite Bar' %}
 
-*Where:* Forged in the Standard Smelter.
+*Where:* Forged in the [Standard Smelter](#standard-smelter).
 
-*Cost:* 3x Tangrite Ore &ndash; or &ndash; 2x Tangrite Ore, 2x Kaloxyte Ore
+*Cost:* 3x [Tangrite Ore](#tangrite-ore) &ndash; or &ndash; 2x [Tangrite Ore](#tangrite-ore), 2x [Kaloxyte Ore](#kaloxyte-ore)
 
-Tangrite is harder to come by than Kaloxyte, so it's probably worth disabling the 3:1 recipe.
+Like most bars, you make [frames](#tangrite-frame) from them, but they're also used in other construction projects. Tangrite Ore is harder to come by than Kaloxyte Ore, so it's probably worth disabling the 3:1 recipe.
 
 {% endaethusitem %}
 {% aethusitem 'Tangrite Frame' %}
 
 *Where:* Crafted at the Crafting Bench.
 
-*Cost:* 3x (2x) Tangrite Ore, 3x (2x) Foucer Crystal
+*Cost:* 3x (2x) [Tangrite Ore](#tangrite-ore), 3x (2x) [Foucer Crystal](#foucer-crystal)
 
 {% endaethusitem %}
 {% aethusitem 'Tangrite Geode' %}
 
 *Where:* Occasionally produced by the [Standard Smelter](#standard-smelter) and [Superheating Kiln](#superheating-kiln) if they're inside a [Hub Habitat](#hub-habitat). Mined from Tangrite and Bladestone Nodes in the Lost World. [Fished](#fishing-lure) from the Lost World.
 
-Produces [Bladestones](#bladestone) when [prospected](#prospecting-bench).
+Geodes are for [prospecting](#prospecting-bench). These produce [Bladestones](#bladestone).
 
 {% endaethusitem %}
 {% aethusitem 'Tangrite Ore' %}
 
-*Where:* Mined from nodes around **Facility Delta** and in the Lost World.
+*Where:* Mined from nodes around Delta and in the Lost World.
+
+Like most ores, the purpose of this stuff is to be [smelted](#standard-smelter) into [bars](#tangrite-bar).
 
 {% endaethusitem %}
 {% aethusitem 'Terraforming Charge' %} 
@@ -2059,10 +2092,10 @@ Produces [Bladestones](#bladestone) when [prospected](#prospecting-bench).
 Used on the Surface to get rid of pesky terrain that's in the way of you building Habitats and other things. Add them to your quick bar, then hit `R` to throw at an outcropping. (The game will indicate when you're pointed at an outcrop that can be removed, and will even tell you what size of Terraforming Charge you need to throw at it.)
 
 | Size | Cost |
-| --- | --- |
-| Small | 1x Mining Explosives, 1x Kalynite Bar, 2x Solazine, 2x Oxite |
-| Medium | 1x Small, 2x Kalynite Frame, 4x Solazine, 1x Microcircuits | 
-| Large | 1x Medium, 1x Tangrite Frame, 1x Microcircuits |
+| :-:    | --- |
+| Small  | 1x [Mining Explosives](#mining-explosives), 1x [Kalynite Bar](#kalynite-bar), 2x [Solazine](#solazine), 2x [Oxite](#oxite) |
+| Medium | 1x Small, 2x [Kalynite Frame](#kalynite-frame), 4x [Solazine](#solazine), 1x [Microcircuits](#microcircuits) | 
+| Large  | 1x Medium, 1x [Tangrite Frame](#tangrite-frame), 1x [Microcircuits](#microcircuits) |
 
 Note that these are "recursive", meaning you need a Small one to craft a Medium one, and so on.
 
@@ -2071,7 +2104,7 @@ Note that these are "recursive", meaning you need a Small one to craft a Medium 
 
 *Where:* Constructed (Facilities).
 
-*Cost:* 20x Building Material, 4x Kalynite Bar, 2x [Basic Electronics](#basic-electronics)
+*Cost:* 20x [Building Material](#building-material), 4x [Kalynite Bar](#kalynite-bar), 2x [Basic Electronics](#basic-electronics)
 
 *Power:* &ndash;3
 
@@ -2089,14 +2122,14 @@ Combine with [Lavastone](#lavastone) in the [Stone Crusher](#stone-crusher) to m
 
 *Where:* [Fished](#fishing-lure) out of the magma lakes in the Magma Rifts.
 
-Used to craft [Chill Cola](#chill-cola) at the [Cooking Station](#cooking-station). Can't be bred in the Aquaculture Tank.
+Used to craft [Chill Cola](#chill-cola) at the [Cooking Station](#cooking-station) and [Magmafish Aquaculture Packs](#aquaculture-pack) at the [Biology Lab](#biology-lab). Can't be bred in the Aquaculture Tank.
 
 {% endaethusitem %}
 {% aethusitem 'Vertical Wind Turbine' %}
 
 *Where:* Constructed (Power). Purchase the blueprint from the [Trade Node](#trade-node).
 
-*Cost:* 30x Building Material, 3x [Basic Electronics](#basic-electronics), 1x Servomotor, 2x Meteorite Frame.
+*Cost:* 30x [Building Material](#building-material), 3x [Basic Electronics](#basic-electronics), 1x [Servomotor](#servomotor), 2x [Meteorite Frame](#meteorite-frame)
 
 *Power:* +8
 
@@ -2107,12 +2140,14 @@ Generally a better option than its [Horizontal](#horizontal-wind-turbine) siblin
 
 *Where:* Mined from Jaspite Nodes in the Lost World, or [prospected](#prospecting-bench) from [Jaspite Geodes](#jaspite-geode).
 
-Gemstones are for selling ($1300 / $1625 / $1950) and, in this case, for making [Jaspite Focusing Lenses](#focusing-lens).
+Gemstones are for selling ($1300 and up) or for making [Focusing Lenses](#focusing-lens).
 
 {% endaethusitem %}
 {% aethusitem 'Wall Light' %}
 
 *Where:* Constructed (Lighting).
+
+*Cost:* 1x [Building Material](#building-material), 1x [Solazine](#solazine)
 
 Throws some additional bright light into a space. Mounted vertically on a wall; awfully tricky to get the placement right given the Z-axis weirdness of the floating cursor.
 
@@ -2125,7 +2160,7 @@ Throws some additional bright light into a space. Mounted vertically on a wall; 
 
 *Power:* &ndash;2
 
-If you're sick of running around collecting bottled water from [Dew Collectors](#dew-collectors), pop one or two of these into the freshwater lake near your Outpost and stick some [Cargo Drones](#cargo-drone) in them. Now [Bottled Water (L)](#bottled-water) will periodically show up in your [Cargo Bay](#cargo-bay).
+If you're sick of running around collecting [bottled water](#bottled-water) from [Dew Collectors](#dew-collector), pop one or two of these into the freshwater lake near your Outpost and stick some [Cargo Drones](#cargo-drone) in them. Now [Bottled Water (L)](#bottled-water) will periodically show up in your [Cargo Bay](#cargo-bay).
 
 {% endaethusitem %}
 {% aethusitem 'Welfare Habitat' %}
@@ -2134,14 +2169,14 @@ If you're sick of running around collecting bottled water from [Dew Collectors](
 
 *Cost:* 20x [Building Material](#building-material), 1x [Basic Electronics](#basic-electronics), 3x [Kalynite Bar](#kalynite-bar)
 
-A small, two-door habitat, ideal for use as your living quarters. Place your [bed](#bed) in one of these, and when you sleep you will wake up Well Rested instead of just Rested. **Rested** players get +10% bonus from consumables and a +5% speed boost for 10m; **Well Rested** players increase that to +20% / +10%. Don't forget to take advantage of this by eating as soon as you wake up!
+A small, two-door habitat, ideal for use as your living quarters. Place your [bed](#bed) in one of these, and when you sleep you will wake up **Well Rested** instead of just **Rested**. Don't forget to take advantage of this by eating as soon as you wake up!
 
 {% endaethusitem %}
 {% aethusitem 'Wormwood' %}
 
-*Where:* Mined from Lost World nodes near **Theta** and **Kappa**.
+*Where:* Mined from Lost World nodes near Theta and Kappa, usually on giant Infected trees.
 
-It's hard to find, but it's a part of one route to creating [Reinforced Materials](#reinforced-building-materials). That said, that is the only thing you can use it for.
+It's hard to find, but it's a part of one route to creating [Reinforced Materials](#reinforced-building-material). That said, that is the only thing you can use it for.
 
 {% endaethusitem %}
 
@@ -2149,7 +2184,7 @@ It's hard to find, but it's a part of one route to creating [Reinforced Material
 
 ## Trade Node Prices
 
-If it's not on this list, you can't sell it at the Trade Node. In particular, a lot of food items can't be sold. I guess DoorDash isn't a thing on Aethus.
+If it's not on this list, you can't sell it at the Trade Node. In particular, most food items can't be sold — I guess DoorDash isn't a thing on Aethus — and neither can Mycelia or Biomass.
 
 Gemstones come in three varieties (normal, superior, and flawless) and therefore have three prices listed.
 
@@ -2169,7 +2204,7 @@ Gemstones come in three varieties (normal, superior, and flawless) and therefore
 | Camberflex                   |      $500 |
 | Cargo Drone mk I             |     $4750 |
 | Cargo Drone mk II            |    $13000 |
-| Cognative Link Module        |         ? |
+| Cognative Link Module        |   **???** |
 | Crystal Electronics          |        $1 |
 | Dead Amber                   |     $2000 |
 | Deepmussel                   |      $250 |
@@ -2183,12 +2218,9 @@ Gemstones come in three varieties (normal, superior, and flawless) and therefore
 | Drill Bit, Tangrite          |     $8500 |
 | Dust Ruby                    | $200/250/300 |
 | Dust Ruby Powder             |       $50 |
-| Fishing Lure                 |        $? |
+| Fishing Lure                 |      $500 |
 | Focusing Lens, any           |     $5000 |
 | Foucer Crystals              |      $100 |
-| Fuel Rod                     |        $? |
-| Fuel Rod Housing             |        $? |
-| Fuel Rod Mould               |        $? |
 | Ghostfish                    |      $250 |
 | Glowing Bulb                 |       $10 |
 | Glowstick                    |        $8 |
@@ -2200,18 +2232,15 @@ Gemstones come in three varieties (normal, superior, and flawless) and therefore
 | Greatwood                    |       $40 |
 | Hardened Glass               |      $300 |
 | Heatshrimp                   |      $100 |
-| Herbicide                    |        $? |
+| Herbicide Charge             |      $150 |
 | High-Voltage Converter       |     $1000 |
-| Hive Mycelia                 |        $? |
 | Hyperion Crystal             |     $5000 |
-| Industrial Coolant           |        $? |
 | Industrial Tools             |      $300 |
 | Injector, any                |      $800 |
-| Inert Mycelia                |        $? |
 | Jaspite Bar                  |     $4000 |
-| Jaspite Geode                |        $? |
+| Jaspite Geode                |   **???** |
 | Jaspite Ore                  |      $350 |
-| Jenkins                      |        $? |
+| Jenkins, any                 |     $1000 |
 | Kaloxite Geode               |      $500 |
 | Kaloxite Ore                 |       $30 |
 | Kalynite Bar                 |       $80 |
@@ -2235,40 +2264,31 @@ Gemstones come in three varieties (normal, superior, and flawless) and therefore
 | Microcircuits                |      $300 |
 | Miner's Bane                 | $2000/2500/3000 |
 | Mining Explosives            |      $150 |
-| Module Authenticator         |        $? |
-| Mycelial Biomass             |        $? |
 | Mysterious Egg               |       $50 |
-| Nutrient Bar                 |        $? |
 | Oxite                        |       $20 |
-| Oxygen Dome                  |        $? |
+| Oxygen Dome                  |      $180 |
 | Oxygen Dome mk II            |      $350 |
 | Packaged Foodstuffs          |       $50 |
 | Pangimony                    | $250/312/375 |
 | Petroleum Fuel               |      $250 |
 | Pollen Stalk                 |       $30 |
 | Power Cell                   |      $250 |
-| Programmable Splice          |        $? |
 | Quakemaker Charge            |      $350 |
-| Quarinium Geode              |        $? |
+| Quarinium Geode              |   **???** |
 | Quarinium Ore                |      $700 |
-| Queen Mycelia                |        $? |
 | Radiotrophic Mushroom        |       $50 |
 | Refined Sugar                |      $200 |
-| Regolith                     |        $? |
-| Regolith Chunk               |        $? |
+| Regolith                     |        $1 |
 | Reinforced Building Material |       $50 |
-| Remote Restart Chip          |        $? |
-| RTG                          |        $? |
-| RTG Core                     |        $? |
+| Remote Restart Chip          |   **???** |
 | Sandfish                     |      $150 |
 | Sandstone                    |        $2 |
-| Sandstone Shard              |        $? |
 | Servomotor                   |     $1650 |
 | Sky Sapphire                 | $300/375/450 |
 | Silica                       |       $12 |
 | Smart Glowstick              |      $125 |
 | Solazine                     |       $10 |
-| Solazine Tablets             |        $? |
+| Solazine Tablets             |       $30 |
 | Sugarplant Seed              |       $75 |
 | Sugarplant                   |       $25 |
 | Swamp Geode                  |     $2500 |
@@ -2282,4 +2302,3 @@ Gemstones come in three varieties (normal, superior, and flawless) and therefore
 | Unstabilite Chunk            |      $400 |
 | Venturer Worm                |      $250 |
 | Vitaglass                    | $1300/1625/1950 |
-| Wormwood                     |        $? |

@@ -57,7 +57,7 @@ Broadly covering the upper, central region.
 - **Deepstone Node** (neutral): Deepstone, Bladestone
 - **Gold Node** (gold): Gold Ore, Deepstone, Bladestone, Sky Sapphire, Gold Geode
 - **Greatwood Node** (brown): Greatwood, Living Amber
-- **Jaspite Node** (blue): Jaspite Ore, Deepstone, Bladestone, Jaspite Geode, Sky Sapphire, Vitaglass. Jaspite Nodes are rare; try looking near water.
+- **Jaspite Node** (blue): Jaspite Ore, Deepstone, Bladestone, Jaspite Geode, Sky Sapphire, Vitaglass. Jaspite Nodes are rare; try looking near water, especially on river banks in the 'lower' area.
 - **Tangrite Node** (purple): Tangrite Ore, Deepstone, Bladestone, Foucer Crytsal, Tangrite Geode
 - **Vitaglass Node** (green, rare): Vitaglass, Deepstone, ??? 
 - **Lifeshroom**: Lifeshroom

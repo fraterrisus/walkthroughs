@@ -28,7 +28,7 @@ This marks a significant departure for your humble walkthrough writer. Usually I
 
 A few commands that aren't mentioned anywhere in the docs that are helpful to know:
 
-- When you're selling items in the [Market](), hold down `ctrl` to sell five units at a time, or `shift` to sell ten.
+- When you're selling items in the Trade Node, hold down `ctrl` to sell five units at a time, or `shift` to sell ten.
 
 ### Basic Tips
 
@@ -37,10 +37,34 @@ A few commands that aren't mentioned anywhere in the docs that are helpful to kn
   - For an easier experience, turn down Air Supply, Carry Weight, and Economy. You'll be able to mine for longer, carry more home, and get better prices on the market for your goods, all of which will help you progress faster.
 - Read *everything* in as much detail as you can. Hover over items in your inventory and read the descriptions. Read the small print on the screens of terminals you interact with. Read the journal entries (maybe save these for once you're back in your Outpost).
 - Use your Suit Scan (`x`). A *lot*. Hold it down for a couple of seconds to increase the range and duration.
-- Whenever you run into a lab bench, seating area, etc. look *very* closely. Often times there will be small items scattered about that you can pick up by clicking on them. This might be a can of cola or food item, but it might also be things like [Servomotors]() or other expensive crafting ingredients! These items are especially hard to spot, even on a suit scan, when they're sitting on a workbench or console that you can interact with. Click anything that looks suspiciously like a collectible!
+- Whenever you run into a lab bench, seating area, etc. look *very* closely. Often times there will be small items scattered about that you can pick up by clicking on them. This might be a can of cola or food item, but it might also be things like Servomotors or other expensive crafting ingredients! These items are especially hard to spot, even on a suit scan, when they're sitting on a workbench or console that you can interact with. Click anything that looks suspiciously like a collectible!
 - If you die, you drop all your items. (You can turn this off in Settings, if you want.) If you die, for example, by falling off the edge of the Lost World, the game will do its best to collect your items and place them in some *reachable* spot near where you died. It might take one or two board reloads before the cache of items shows up, though, so keep an eye on the compass and look for the little skull that indicates a cache of dropped items.
+- Dismantling a Construction returns 100% of the material cost to your inventory. If you "construct" a "placeable" &ndash; this is how you can put a Jenkins up on a display shelf &ndash; "dismantling" it is how you return it to your inventory.
+
+### Status Modifiers
+
+| Status | Why | Effect |
+| --- | --- | --- |
+| Energized | 'Stamina' over 60%/75% | +5%/10%/15% speed |
+| Energy Boost | +10% speed for 60s |
+| Exhausted | Dim vision; **FIXME** |
+| Hydrated | 'Hydration' over 60%/75% | +5/10/15 max oxygen |
+| Oxygen Poisoning | Used too many Oxygen Domes | **???** |
+| Rested | Slept for a while | Consumables have +10% effect; +5% speed for 10m |
+| Sugar Rush | Drank an ARCola | +10% speed for 10m |
+| Tipsy | Drank a Cactus Moonshine | Increases chances of mining gemstones from nodes? Makes the screen fuzzy. |
+| Well-Fed | 'Nutrition' over 60%/75% | +10%/20%/30% carry limit |
+| Well-Rested | Slept for a while in a Welfare Habitat | Consumables have +20% effect; +10% speed for 10m |
 
 ## Walkthrough
+
+### How to Make Money
+
+**In the early game:** Mine as much Sandstone as you can. Put Sandstone (and Shards) in the [Stone Crusher](/aethus/items#stone-crusher) to convert it to [Solazine](/aethus/items#solazine) and [Kalynite Ore](/aethus/items#kalynite-ore). Put the Ore in the [Basic Smelter](/aethus/items#basic-smelter) to convert it to [Kalynite Bars](/aethus/items#kalynite-bar). Bring the Solazine and the Bars to the [Crafting Table](/aethus/items#crafting-table) and make [Mining Explosives](/aethus/items#mining-explosives), which sell for $150 a pop.
+
+**In the middle game:** Build yourself a [Prospecting Bench](/aethus/items#prospecting-bench) (you need a [Superheating Kiln](/aethus/items#superheating-kiln) first so you can make [Hardened Glass](/aethus/items#hardened-glass)). This will cause Geodes of various types to start appearing. Geodes will sell for 2x the price of a normal gemstone of the same variety, but you shouldn't ever sell geodes directly; bring them to the Prospecting Bench and play the minigame to convert them into gemstones. You'll almost certainly get two or more gemstones and you're likely to get higher-quality ones, which means you'll come out ahead over selling the raw geode.
+
+**In the late stages:** You don't really need credits at this point, but you also have plenty of things you can sell for cash if you're trying to buy an expensive blueprint.
 
 ### Getting Started
 
@@ -74,6 +98,14 @@ Rho's transporter address is `TP-OM-1`; the fact that it's incorrectly identifie
 
 Tau has two transporters, `TP-T4U-1` and `TP-T4U-2`.
 
+Tau contains a manufacturing facility that you can use to produce nuclear fuel rods. Here's how to do it:
+
+1. Find the "Control Room" and check the readout of the terminal. If it says "Iota additive: not present", run over to Iota. Climb down to the basement, insert the materials into the accelerator, then run it from the terminal. If there's smoke or fog in the accelerator room, you're good to go.
+2. Go back to Tau, enter the "Material Processing" room, and insert the Quarinium Ore into one of the four available slots across two machines. (It doesn't seem to matter if you fill more than one slot.)
+3. Go to the "Manufacturing Hub" and insert the Fuel Rod Moulds. There's also a Crafting Bench in this room, so you can also bring Kalynite Bars with you and make the moulds on the spot.
+4. Enter the "Waste Processing" control facility, "Raise Outflow" at both consoles, then "Flush System" at the third.
+5. Return to the *Control Room* and enable processing.
+6. Retrieve the fuel rods from the Output Receptacle in the *Manufacturing Hub*.
 The plans for the Atmodome Buildkit are sitting on top of one of the crates over by the platform hanging out under the pipes, off to your right as you exit Tau.
 
 ### Magma Rifts: Iota

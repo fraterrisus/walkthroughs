@@ -105,11 +105,11 @@ You can also "use" a Deepmussel in your inventory to produce 1x Fish Flesh.
 | 2x Pollen Stalk<br />1x Sugarplant                           | 1x Sugarplant Seed                   |
 | 1x Tangrite Bar<br />1x Hardened Glass                       | 2x Empty Injector                    |
 | 2x Empty Injector<br />2x Lifeshroom<br />1x Inert Mycelia   | 2x Injector (Health)                 |
-| 2x Empty Injector<br />1x Queen Mycelia<br />1x Inert Mycelia<br />2x Sandfish | 2x Injector (Strength)               |
+| 2x Empty Injector<br />1x Queen Mycelia<br />1x Inert Mycelia<br />2x Sandfish | 2x Injector (Strength)            |
 | 2x Empty Injector<br />5x Oxite<br />1x Queen Mycelia<br />1x Inert Mycelia | 2x Injector (Oxygen)                 |
-| 2x Empty Injector<br />1x Refined Sugar<br />1x Queen Mycelia<br />1x Inert Mycelia | 2x Injector (Speed)                  |
-| 2x Empty Injector<br />3x Inert Mycelia<br />6x Mouldshroom<br />4x Queen Mycelia | 2x Injector (Mycelial Antigen)       |
-| 2x Empty Injector<br />1x Queen Mycelia<br />1x Inert Mycelia<br />10x Radiotrophic Mushroom | 2x Injector (Anti-Rad)               |
+| 2x Empty Injector<br />1x Refined Sugar<br />1x Queen Mycelia<br />1x Inert Mycelia | 2x Injector (Speed)            |
+| 2x Empty Injector<br />3x Inert Mycelia<br />6x Mouldshroom<br />4x Queen Mycelia | 2x Injector (Mycelial Antigen)    |
+| 2x Empty Injector<br />1x Queen Mycelia<br />1x Inert Mycelia<br />10x Radiotrophic Mushroom | 2x Injector (Anti-Rad) |
 | 8x Hive Mycelia<br />2x Lifeshroom                           | 1x Cleansed Mycelia                  |
 | 10x Biomass<br />2x Hive Mycelia                             | 1x Mycelial Biomass                  |
 | 1x Magmafish<br />2x Venturer Worm<br />10x Biomass          | 1x Aquaculture Pack (Magmafish)      |

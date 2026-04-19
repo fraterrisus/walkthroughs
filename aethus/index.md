@@ -62,7 +62,7 @@ A few commands that aren't mentioned anywhere in the docs that are helpful to kn
 
 **In the early game:** Mine as much Sandstone as you can. Put Sandstone (and Shards) in the [Stone Crusher](/aethus/items#stone-crusher) to convert it to [Solazine](/aethus/items#solazine) and [Kalynite Ore](/aethus/items#kalynite-ore). Put the Ore in the [Basic Smelter](/aethus/items#basic-smelter) to convert it to [Kalynite Bars](/aethus/items#kalynite-bar). Bring the Solazine and the Bars to the [Crafting Table](/aethus/items#crafting-table) and make [Mining Explosives](/aethus/items#mining-explosives), which sell for $150 a pop.
 
-**In the middle game:** Build yourself a [Prospecting Bench](/aethus/items#prospecting-bench) (you need a [Superheating Kiln](/aethus/items#superheating-kiln) first so you can make [Hardened Glass](/aethus/items#hardened-glass)). This will cause Geodes of various types to start appearing. Geodes will sell for 2x the price of a normal gemstone of the same variety, but you shouldn't ever sell geodes directly; bring them to the Prospecting Bench and play the minigame to convert them into gemstones. You'll almost certainly get two or more gemstones and you're likely to get higher-quality ones, which means you'll come out ahead over selling the raw geode.
+**In the middle game:** Build yourself a [Prospecting Bench](/aethus/items#prospecting-bench) (you need a [Superheating Kiln](/aethus/items#superheating-kiln) first so you can make [Hardened Glass](/aethus/items#hardened-glass)). This will cause Geodes of various types to start appearing. Geodes will sell for 2x the price of a normal gemstone of the same variety, but you're better off bringing them to the Prospecting Bench and playing the minigame to convert them into gemstones. **FIXME:** You'll almost certainly get two or more gemstones and you're likely to get higher-quality ones, which means you'll come out ahead over selling the raw geode.
 
 **In the late stages:** You don't really need credits at this point, but you also have plenty of things you can sell for cash if you're trying to buy an expensive blueprint.
 
@@ -84,7 +84,7 @@ The door to Crew Quarters C never actually opens.
 
 ### Lost World: Facility Kappa
 
-Every facility has an "outhouse" single-room facility that's nearby. You should explore these because there's stuff to find there, but also they make reasonable staging areas for long mining runs.
+Every facility has an "outbuilding" single-room facility, similar to Facility Alpha, that's nearby (although sometimes it takes a generous definition of "nearby"). You should explore these because there's stuff to find there, but also they make reasonable staging areas for long mining runs.
 
 New: facilities have Drone Pods now, so if you drop a mk1 drone into them you can fill the cargo pod (250kg) and stuff will get delivered to a Storage Silo inside the gates of Epsilon. Unlike the automated drills, though, you have to manage the drones manually, choosing when to send a full load from an outer Facility to Epsilon. You then have to return to Epsilon and manually send the drone back to its starting place.
 
@@ -96,16 +96,17 @@ Rho's transporter address is `TP-OM-1`; the fact that it's incorrectly identifie
 
 ### Magma Rifts: Tau
 
-Tau has two transporters, `TP-T4U-1` and `TP-T4U-2`.
-
 Tau contains a manufacturing facility that you can use to produce nuclear fuel rods. Here's how to do it:
 
-1. Find the "Control Room" and check the readout of the terminal. If it says "Iota additive: not present", run over to Iota. Climb down to the basement, insert the materials into the accelerator, then run it from the terminal. If there's smoke or fog in the accelerator room, you're good to go.
-2. Go back to Tau, enter the "Material Processing" room, and insert the Quarinium Ore into one of the four available slots across two machines. (It doesn't seem to matter if you fill more than one slot.)
-3. Go to the "Manufacturing Hub" and insert the Fuel Rod Moulds. There's also a Crafting Bench in this room, so you can also bring Kalynite Bars with you and make the moulds on the spot.
-4. Enter the "Waste Processing" control facility, "Raise Outflow" at both consoles, then "Flush System" at the third.
-5. Return to the *Control Room* and enable processing.
-6. Retrieve the fuel rods from the Output Receptacle in the *Manufacturing Hub*.
+1. Find the "Control Room" and check the readout of the terminal. If it says "Iota additive: not present", run over to Iota. Climb down to the basement, insert the materials into the accelerator, then run it from the terminal.
+2. Go back to Tau. Pass through "Material Processing" and the "Manufacturing Hub" to enter the "Waste Processing" control facility. Console #1 is at ground level in the back corner; select "Raise Outflow". Then go down the stairs to the second console and "Raise Outflow" there as well before selecting "Flush System" at the third.
+3. Backtrack to the Manufacturing Hub and insert two Fuel Rod Moulds into the terminal there, then select "Load Moulds". Conveniently, there's a Crafting Bench in this room on the back side of the central terminal, so you can also just bring a bunch of Kalynite Bars down here and make moulds on the spot.
+4. Backtrack again to the Material Processing room. Insert 10x Quarinium Ore into at least one of the four available slots across two machines. If you fill all four slots, you get four fuel rods. Convienently, there's a Cargo Container here where you can leave a bunch of Ore and Bars for later use.
+5. Return to the Control Room, confirm that everything's good to go, and select "Start Run".
+6. Retrieve the fuel rods from the Output Receptacle in the Manufacturing Hub.
+
+Tau has two transporters, `TP-T4U-1` and `TP-T4U-2`.
+
 The plans for the Atmodome Buildkit are sitting on top of one of the crates over by the platform hanging out under the pipes, off to your right as you exit Tau.
 
 ### Magma Rifts: Iota
@@ -128,12 +129,20 @@ If you want to explore fully, head East to the first Hyperion outcrop, then a sh
 
 ### Magma Rifts: Omicron
 
+You'll need a bunch more Power Relays and Atmodomes to make it through this run.
+
+Don't miss the fishing hab, across the bridges, East, then SE.
+
 Omicron's transporter address is `TP-RESET-ID`.
 
-### Magma Rifts: Sigma
+More Power Relays to reactivate the gondola over to Hades.
+
+### Magma Rifts: Hades, Sigma
+
+Override the runaway mining lasers in order to get near the Aetherium crystal.
+
+No, you can't stop yourself from touching it the first time.
 
 Sigma's transporter address is `TP-SIGM01`.
 
-### Endgame: Kryptos
-
-### Endgame: Gamma
+### Endgame: Kryptos, Gamma

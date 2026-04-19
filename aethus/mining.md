@@ -109,21 +109,27 @@ The infected area with spores floating in the air and reddish water, including t
 
 ### Magma Rifts: Hades and Sigma
 On the far side of the gondola
-- **Lavastone Node**: Lavastone, Strange Geode
-- **Depthane Node**: Lavastone, Depthane Ore, Camberflex, Strange Geode
+- **Lavastone Node** (neutral): Lavastone, Strange Geode
+- **Depthane Node** (red): Lavastone, Depthane Ore, Camberflex, Strange Geode
 - **Depthane Heart Node** (pink): Lavastone, Depthane's Heart, Depthane Geode
 
 ### Endgame: Kryptos
 You're indoors, so there's nothing to mine here
 
 ## Drills and Mining Lasers
-- Outer Caves: Sandstone, Sandstone Shards [Kalynite drill, mk1 drone]
-- Inner Caves, behind Beta: Kalynite Ore, Silica, Sandstone, Dust Ruby [Meteorite drill, mk1 drone]
-- Lower Caves, near the waterfall: Kaloxite Ore, Sandstone, Pangimony [Meteorite drill, mk1 drone]
-- Lower Caves, behind Delta: Gold Ore, Kalynite Ore, Sandstone [Tangrite drill, mk1 drone]
-- Between Epsilon and Kappa: Deepstone [Tangrite lens, mk1 drone]
-- Behind Mu: Deepstone, Jaspite Ore, Vitaglass [Jaspite lens, mk1 drone]
-- Down in the valley: Deepstone, Tangrite Ore, Foucer Crystals, Bladestone [Tangrite lens, mk1 drone]
-- Between Rho and Tau: [Depthane Lens, mk2 drone]
-- Near Omicron: [Quarinium Lens, mk2 drone]
-- Near Hades: [Depthane Lens, mk2 drone]
+
+Drills in the Caves and lasers in the Lost World require a **mark 1** Cargo Drone if you want them to deliver materials straight to your Outpost; lasers in the Magma Rifts require a **mark 2** drone.
+
+| Where | Required | Produces |
+| ----- | -------- | -------- |
+| Outer Caves | Kalynite Bit | Sandstone, Sandstone Shard |
+| Inner Caves, Beta | Meteorite Bit | Sandstone, Kalynite Ore, Silica, Dust Ruby |
+| Lower Caves, Waterfall | Meteorite Bit | Sandstone, Kaloxite Ore, Silica, Pangimony |
+| Lower Caves, Delta | Tangrite Bit | Sandstone, Kalynite Ore, Gold Ore |
+| Lost World, Epsilon/Kappa | Tangrite Lens | Deepstone |
+| Lost World, Mu | Jaspite Lens | Deepstone, Jaspite Ore, Vitaglass |
+| Lost World, Epsilon valley | Tangrite Lens | Deepstone, Tangrite Ore, Foucer Crystals, Bladestone |
+| Rifts, Rho/Tau | Depthane Lens | Lavastone, Depthane Ore, Camberflex, Depthane's Heart |
+| Rifts, Tau/Iota | Depthane Lens | Lavastone, Depthane's Heart |
+| Rifts, Omicron | Quarinium Lens | Lavastone, Quarinium Ore, Miner's Bane |
+| Rifts, Hades | Depthane Lens | Lavastone, Depthane's Heart |

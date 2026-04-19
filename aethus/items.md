@@ -114,6 +114,13 @@ Fits nicely along a curved or diagonal wall.
 Anti-Gravity tech is the reason why ARC has such a dominant position among the megacorps, and turns into a major plot point later in the game. Your only use for it is to craft [Fishing Lures](#fishing-lure), though.
 
 {% endaethusitem %}
+{% aethusitem 'Arming Key', 'Loadmasters Key' %}
+
+*Where:* Part of the Prologue, in the storage crate near the mining explosives.
+
+You use this as part of the tutorial on using codes to unlock crates, taking things from crates, and sticking them into the interaction panel.
+
+{% endaethusitem %}
 {% aethusitem 'Aquaculture Pack', 'Aquaculture Pack-Magmafish' %}
 *Variants:* **Deepmussel, Magmafish, Sandfish, Minnows, Heatshrimp**
 
@@ -199,6 +206,8 @@ An upgrade from the [Makeshift Forge](#makeshift-forge); this one runs on base p
 {% aethusitem 'Bed' %}
 
 *Where:* Constructed (Furniture).
+
+*Blueprint:* Given to you for free when you build your first Makeshift Habitat in the opening phases of the game.
 
 *Cost:* 2x [Building Material](#building-material)
 
@@ -693,7 +702,7 @@ Gemstones are for selling ($1600 and up) or for making [Focusing Lenses](#focusi
 
 *Where:* Constructed (Production).
 
-*Blueprint:* On the surface, inside the code-locked chest under the Sun Shade near the Crater.
+*Blueprint:* On the surface, on the table under the Sun Shade near the Crater.
 
 *Cost:* 4x [Building Material](#building-material)
 
@@ -1337,6 +1346,8 @@ The apex building material. Used to produce [Buildkits](#buildkit), which are in
 
 *Where:* Constructed (Storage).
 
+*Blueprint:* Given to you for free when you build your first Bed in the opening phases of the game.
+
 *Cost:* 1x [Metal Scrap](#metal-scrap), 1x [Building Material](#building-material)
 
 *Capacity:* 25kg (31.25kg)
@@ -1350,6 +1361,8 @@ Storage units have two advantages over just leaving your stuff anywhere (hit `De
 
 *Where:* Constructed (Facilities).
 
+*Blueprint:* None; you start the game knowing how to make one of these.
+
 *Cost:* 3x [Metal Scrap](#metal-scrap)
 
 Feed it a bunch of [Biomass](#biomass), and it turns [Scrap](#metal-scrap) into [Building Material](#building-material). You need one of these in order to have any ability to advance in your manufacturing capabilities. 
@@ -1362,6 +1375,8 @@ However, stuff that's stored in a facility will not show up anywhere else. It do
 {% aethusitem 'Makeshift Habitat' %}
 
 *Where:* Constructed (Structures).
+
+*Blueprint:* Given to you by Roland as soon as you make a [Forge](#makeshift-forge).
 
 *Cost:* 5x [Building Material](#building-material)
 
@@ -1841,6 +1856,8 @@ A less-efficient form of raw material for feeding the [Stone Crusher](#stone-cru
 {% aethusitem 'Scrap Grill' %}
 
 *Where:* Constructed (Facilities).
+
+*Blueprint:* Given to you for free when you build your first Bed in the opening phases of the game.
 
 *Cost:* 2x [Metal Scrap](#metal-scrap)
 

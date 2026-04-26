@@ -50,10 +50,13 @@ body {
 
 .main-content {
   color: #555;
-  line-height: 1.4rem;
-  max-width: 50rem;
   padding: 2rem 6rem;
+  max-width: 50rem;
   margin: 0 auto;
+
+  p {
+    line-height: 1.4rem;
+  }
 
   a {
     color: #44f;
@@ -95,6 +98,12 @@ body {
     p {
       margin: 5px 0px;
     }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-content {
+    padding: 2rem 5px;
   }
 }
 

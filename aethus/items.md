@@ -51,11 +51,7 @@ If a discount is available (for having a crafting facility in the correct Habita
 
 ## Item-o-pedia
 
-<div style="
-  display: grid;
-  row-gap: 1rem;
-  grid-template-columns: 130px 1fr;
-">
+<div class="item-grid">
 
 {% aethusitem 'Access Platform' %}
 

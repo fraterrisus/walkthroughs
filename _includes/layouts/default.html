@@ -22,8 +22,6 @@ navbar: true
     {% endif %}
 
     <main id="content" class="main-content" role="main">
-      {{ content }}
-
       {% if toc.enabled %}
       <div id="table-of-contents">
         <div id="toc-header">
@@ -44,6 +42,8 @@ navbar: true
         </div>
       </div>
       {% endif %}
+
+      {{ content }}
 
       {% include "footer.html" %}
     </main>

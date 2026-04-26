@@ -15,4 +15,7 @@ function hideToc(ev) {
 
 window.addEventListener('load', () => {
   document.getElementById('toc-header').addEventListener('click', hideToc);
+  document.querySelectorAll('nav.toc a').forEach(
+    it => it.addEventListener('click', hideToc)
+  );
 });

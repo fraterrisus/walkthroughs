@@ -1,3 +1,9 @@
+.item-grid {
+  display: grid;
+  row-gap: 1rem;
+  grid-template-columns: 130px 1fr;
+}
+
 table {
   display: block;
   width: 100%;
@@ -56,3 +62,16 @@ th.nb, td.nb {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+@media screen and (max-width: 800px) {
+  .item-grid {
+    grid-template-columns: 1fr;
+  }
+
+  div.aethus-item {
+    padding: 0;
+    border-top: 0;
+  }
+}
+
+

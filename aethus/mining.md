@@ -49,6 +49,8 @@ Across the landbridge or down the long ramp from Beta, including the area up the
 ### Facility Delta
 The meteorite crater itself. Remarkably few things can actually be found here.
 - **Meteorite Node**: Meteorite, Meteor Glass, Black Diamond, Meteorite Geode
+- **Cave Mushroom**: Cave Mushroom
+- **Mysterious Egg Nest**: Mysterious Egg
 - **Sugarplant**: Sugarplant
 
 ### Lost World: Epsilon
@@ -57,7 +59,7 @@ Broadly covering the upper, central region.
 - **Deepstone Node** (neutral): Deepstone, Bladestone
 - **Gold Node** (gold): Gold Ore, Deepstone, Bladestone, Sky Sapphire, Gold Geode
 - **Greatwood Node** (brown): Greatwood, Living Amber
-- **Jaspite Node** (blue): Jaspite Ore, Deepstone, Bladestone, Jaspite Geode, Sky Sapphire, Vitaglass. Jaspite Nodes are rare; try looking near water, especially on river banks in the 'lower' area.
+- **Jaspite Node** (blue): Jaspite Ore, Deepstone, Bladestone, Jaspite Geode, Sky Sapphire, Vitaglass. Jaspite Nodes are rare; try looking near water, especially on river banks in the 'lower' area. (No longer convinced you can find these in the upper regions near Epsilon.)
 - **Tangrite Node** (purple): Tangrite Ore, Deepstone, Bladestone, Foucer Crytsal, Tangrite Geode
 - **Vitaglass Node** (green, rare): Vitaglass, Deepstone, ??? 
 - **Lifeshroom**: Lifeshroom
@@ -125,7 +127,8 @@ Drills in the Caves and lasers in the Lost World require a **mark 1** Cargo Dron
 | Outer Caves | Kalynite Bit | Sandstone, Sandstone Shard |
 | Inner Caves, Beta | Meteorite Bit | Sandstone, Kalynite Ore, Silica, Dust Ruby |
 | Lower Caves, Waterfall | Meteorite Bit | Sandstone, Kaloxite Ore, Silica, Pangimony |
-| Lower Caves, Delta | Tangrite Bit | Sandstone, Kalynite Ore, Gold Ore |
+| Lower Caves, Delta | Tangrite Bit | Meteorite, Kalynite Ore, Meteor Glass |
+| Lower Caves, behind Delta | Tangrite Bit | Sandstone, Kalynite Ore, Gold Ore |
 | Lost World, Epsilon/Kappa | Tangrite Lens | Deepstone |
 | Lost World, Mu | Jaspite Lens | Deepstone, Jaspite Ore, Vitaglass |
 | Lost World, Epsilon valley | Tangrite Lens | Deepstone, Tangrite Ore, Foucer Crystals, Bladestone |
@@ -133,3 +136,4 @@ Drills in the Caves and lasers in the Lost World require a **mark 1** Cargo Dron
 | Rifts, Tau/Iota | Depthane Lens | Lavastone, Depthane's Heart |
 | Rifts, Omicron | Quarinium Lens | Lavastone, Quarinium Ore, Miner's Bane |
 | Rifts, Hades | Depthane Lens | Lavastone, Depthane's Heart |
+

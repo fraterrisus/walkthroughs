@@ -5,12 +5,6 @@ toc:
   h_max: 3
 ---
 
-<!-- Desktop Plant, Wall Art: granted when you build your second above-the-ground Habitat -->
-<!-- Drink Can, Can Stack: on the tiny island in the little pool in the Outer Caverns -->
-<!-- Stool w/Back, Lightstick, Potted Plant, Square Table: granted when you build a Basic Smelter -->
-<!-- Bowl, Bowl Stack: granted when you build a Cooking Station -->
-<!-- Small Boulder, Regolith Spire, Rocky Outcrop: under the sun shade by the Hot Springs -->
-
 <!--
 Blueprints I've purchased:
 - Cargo Bay mk 1
@@ -20,10 +14,12 @@ Blueprints I've purchased:
 - Display Shelf
 - Electronics Workbench
 - Ground Platform (S, L)
+- Hub Habitat
 - Locker
 - Meteorite Frame (oops.)
 - Micro Connector
 - Recycling Station
+- Solar Panel (S)
 - Standard Smelter (oops?)
 - Storage Container
 - Suit Cleaner
@@ -42,11 +38,10 @@ A list of every* item in the game and where and how to find it, craft it, or bui
 
 If a discount is available (for having a crafting facility in the correct Habitat), the reduced cost is shown in parentheses.
 
-*Blueprints* haven't been added for every item yet; if it says "RAPP" that means it is available for purchase from the Trade Node at the given level of the Resource Acquisition Partner Program.
+*Blueprints* haven't been added for every item yet; if it says "RAPP" that means it is available for purchase from the Trade Node at the given level of the Resource Acquisition Partner Program. You'll probably be at RAPP-3 when ARC imposes a 10% tariff, so RAPP-3 prices are listed before/after the tariff, but RAPP-4 and -5 prices are all post-tariff. (Anything you haven't purchased at a lower level is also subject to the tariff, I'm just not listing it here.)
 
 ## Errata
 - Need more unique plot objects (Cognative Link Module, others?)
-- Find a !@#%* Jaspite Geode
 - Fatigue effects?
 
 ## Item-o-pedia
@@ -86,16 +81,20 @@ Can be converted to [Fish Flesh](#fish-flesh) at the [Cooking Station](#cooking-
 
 *Where:* Constructed (Facilities).
 
+*Blueprint:* Granted once you return to your outpost after finding Stanley's [AI Core](#ai-core-stanley).
+
 *Cost:* 20x [Reinforced Material](#reinforced-building-material), 2x [Advanced Electronics](#advanced-electronics), 1x [Servomotor](#servomotor), 3x [Jaspite Frame](#jaspite-frame), 2x [Meteorite Frame](#meteorite-frame), 2x [Hardened Glass](#hardened-glass)
+
+*Power:* &ndash;10
 
 Build one of these to put your new friend Stanley into.
 
 {% endaethusitem %}
 {% aethusitem 'AI Core: STANLEY', 'AI Core' %}
 
-*Where:* In the Fishing Habitat at the bottom of the Kappa elevator (under the water, not inside the dam).
+*Where:* In the Core Containment unit within Facility Kappa, at the bottom of the elevator. (The one that's underwater, not the one inside the dam.)
 
-Stick the core in the [Containment Facility](#ai-core-containment), cool it down, and you're good to go! Well, kinda.
+The [Core Containment Facility](#ai-core-containment) you pulled Stanley out of had cooling problems, so obviously the right answer is to build a new one. Right?
 
 {% endaethusitem %}
 {% aethusitem 'Airlock' %}
@@ -144,7 +143,7 @@ Fits nicely along a curved or diagonal wall.
 
 *Cost:* 3x (2x) [Strange Ore Chunks](#strange-ore-chunk), 1x [Depthane Bar](#depthane-bar), 1x [Advanced Electronics](#advanced-electronics)
 
-Anti-Gravity tech is the reason why ARC has such a dominant position among the megacorps, and turns into a major plot point later in the game. Your only use for it is to craft [Fishing Lures](#fishing-lure), though.
+Anti-Gravity tech is the reason why ARC has such a dominant position among the megacorps, and turns into a major plot point later in the game. Hilariously, your only use for it is to craft [Fishing Lures](#fishing-lure), the most frivolous item in the game.
 
 {% endaethusitem %}
 {% aethusitem 'Arming Key', 'Loadmasters Key' %}
@@ -155,9 +154,12 @@ You use this as part of the tutorial on using codes to unlock crates, taking thi
 
 {% endaethusitem %}
 {% aethusitem 'Aquaculture Pack', 'Aquaculture Pack-Magmafish' %}
+
 *Variants:* **Deepmussel, Magmafish, Sandfish, Minnows, Heatshrimp**
 
 *Where:* Crafted at the [Biology Lab](#biology-lab).
+
+*Blueprints:* Granted (along with the appropriate Cooking Station recipes) whenver you acquire your first fish of each kind.
 
 | Pack | Cost |
 | ---- | ---- |
@@ -175,7 +177,7 @@ Combine one fish, ten Biomass, and two of some random other thing to make a Pack
 
 *Where:* Constructed (Production).
 
-*Blueprint:* The fishing habitat between Iota and Omicron: cross both bridges from Tau, turn East, _don't_ turn North towards Omicron, and keep going. Bring Power Relays with you. Or, $5000 at RAPP-3.
+*Blueprint:* The fishing habitat between Iota and Omicron: cross both bridges from Tau, turn East, _don't_ turn North towards Omicron, and keep going. Bring Power Relays with you. Or, $5000/$5500 at RAPP-3.
 
 *Cost:* 10x [Reinforced Material](#reinforced-building-material), 1x [Advanced Electronics](#advanced-electronics), 1x [Microcircuits](#microcircuits)
 
@@ -275,6 +277,8 @@ A new facility (patch 4/21 maybe?) modeled after the infected Theta.
 
 *Where:* Constructed (Facilities).
 
+*Blueprint:* Granted when you find the bio lab inside Theta.
+
 *Cost:* 20x [Reinforced Material](#reinforced-building-material), 5x [Kalynite Bar](#kalynite-bar), 1x [Tangrite Frame](#tangrite-frame), 2x [Hardened Glass](#hardened-glass), 1x [Advanced Electronics](#advanced-electronics)
 
 *Power:* &ndash;3
@@ -326,9 +330,13 @@ Gemstones are for selling ($450 and up).
 
 *Where:* Constructed (Facilities).
 
+*Blueprint:* Granted once you get in touch with the Resistance (*Under the Table*).
+
 *Cost:* 15x [Reinforced Material](#reinforced-building-material), 2x [Meteorite Frame](#meteorite-frame), 2x [Advanced Electronics](#advanced-electronics)
 
-**FIXME** needs description
+*Power:* &ndash;5
+
+A "jailbroken version of the Trade Node", according to the Resistance. This is where you'll trade full [Hardened Storage Drives] for new upgrades.
 
 {% endaethusitem %}
 {% aethusitem 'Bladestone' %}
@@ -352,6 +360,8 @@ Gemstones are for selling ($1000 and up), or in this case, crafting [Tangrite Fo
 
 *Where:* Crafted at a [Cooking Station](#cooking-station).
 
+*Blueprint:* Granted when you make your first batch of flour.
+
 *Cost:* 1x [Swampwheat Flour](#swampwheat-flour)
 
 *Effect:* +13% Stamina, +13% Nutrition
@@ -371,7 +381,7 @@ Mmmmm, hot bread. Easy to produce, disappears pretty fast.
 
 The core, abstract building material that will get you through the first half of the game. Fortunately, its component materials are abundantly available, especially once you get a [Stone Crusher](#stone-crusher) and can convert [Sandstone](#sandstone) into [Regolith](#regolith). Even before that, there's generally enough [Metal Scrap](#metal-scrap) to go around between what's on the Surface and in the Outer Caves.
 
-Eventually you'll have so much you won't know what to do with it. Selling them on the [Trade Node](#trade-node) isn't worth it unless you're trying to unload inventory. But that's what [Storage Silos](#storage-silo) are for. Or, honestly, just leave the output sitting in the printer until you need it.
+Eventually you'll have so many you won't know what to do with them. Selling them on the [Trade Node](#trade-node) isn't worth it unless you're trying to unload inventory. But that's what [Storage Silos](#storage-silo) are for. Or, honestly, just leave the output sitting in the printer until you need it.
 
 {% endaethusitem %}
 {% aethusitem 'Buildkits', 'Empty Buildkit' %}
@@ -381,7 +391,9 @@ Eventually you'll have so much you won't know what to do with it. Selling them o
 *Where:* Crafted at the [Expedition Hub](#expedition-hub); found occasionally throughout the Magma Rifts.
 
 *Blueprints:*
-- *Atmodome*: Exit Tau to the East, turn South and walk under the pipes. Past the storage container near the raised platform, there's a chest against the wall.
+- *Empty, Power Relay, Lightstick:* Comes with the Expedition Hub.
+- *Atmodome*: Exit Tau through the airlock, turn NE and walk under the pipes. Past the storage container near the raised platform, there's a chest against the wall. An Atmodome Buildkit is sitting on top of it; pick it up to *also* learn the blueprint.
+- *RadProtect*: An item in the code-locked chest inside the Seam X-5 habitat.
 - *Large Crate*: Near the western (initial) entrance to Tau, in the half-sunken storage container.
 - *Hypercompressor*: On the bridge between Tau and Omicron.
 
@@ -389,7 +401,7 @@ Eventually you'll have so much you won't know what to do with it. Selling them o
 | --- | --- |
 | Empty | 5x (3x) [Building Material](#building-material), 1x [Tangrite Bar](#tangrite-bar) |
 | Atmodome | 1x Empty, 10x [Magmasafe Material](#magmasafe-building-material), 2x [Tangrite Frame](#tangrite-frame), 1x [Advanced Electronics](#advanced-electronics), 1x [High-Voltage Converter](#high-voltage-converter), 15x [Oxite](#oxite) |
-| RadProtect | 1x Empty, 10x [Magmasafe Material](#magmasafe-building-material), 2x [Tangrite Frame](#tangrite-frame), 1x [Advanced Electronics](#advanced-electronics), 1x [High-Voltage Converter](#high-voltage-converter), 15x [Radiotropic Mushroom](#radiotropic-mushroom) |
+| RadProtect | 1x Empty, 10x [Magmasafe Material](#magmasafe-building-material), 2x [Tangrite Frame](#tangrite-frame), 1x [Advanced Electronics](#advanced-electronics), 1x [High-Voltage Converter](#high-voltage-converter), 15x [Radiotrophic Mushroom](#radiotrophic-mushroom) |
 | Coolant | 1x Empty, 12x [Magmasafe Material](#magmasafe-building-material), 4x [Meteorite Frame](#meteorite-frame), 1x [Advanced Electronics](#advanced-electronics), 1x [High-Voltage Converter](#high-voltage-converter), 4x [Servomotor](#servomotor) |
 | Large Crate | 1x Empty, 2x [Magmasafe Material](#magmasafe-building-material) |
 | Lightstick | 1x Empty, 2x [Magmasafe Material](#magmasafe-building-material), 2x [Solazine](#solazine) |
@@ -397,7 +409,7 @@ Eventually you'll have so much you won't know what to do with it. Selling them o
 
 Buildkits allow you to use the `(B)`uild command to add new structures to the Magma Rifts. This is essential for opening up the various facilities that you'll need to visit. Beware the fact that time does not stop when you're in build mode, which means heat exhaustion and radiation poisoning will continue to accrue. Best be quick and know what you're trying to do before you start.
 
-**Atmodomes** require a live connection to a nearby Power Relay, but they produce a dome that provides oxygen. Once it's built, if you add 2x [Industrial Coolant](#industrial-coolant) it also eliminates heat exhaustion. The "RadProtect Edition", perhaps obviously, also eliminates radiation poisioning, and by the time you start manufacturing Buildkits you'll have other uses for [Oxite](#oxite) so it's probably easier to farm [Radiotropic Mushrooms](#radiotropic-mushrooms) and use RadProtect Atmodomes exclusively.
+**Atmodomes** require a live connection to a nearby Power Relay, but they produce a dome that provides oxygen. Once it's built, if you add 2x [Industrial Coolant](#industrial-coolant) it also eliminates heat exhaustion. The "RadProtect Edition", perhaps obviously, also eliminates radiation poisioning, and by the time you start manufacturing Buildkits you'll have other uses for [Oxite](#oxite) so it's probably easier to farm [Radiotrophic Mushrooms](#radiotrophic-mushrooms) and use RadProtect Atmodomes exclusively.
 
 **Coolant Hypercompressors** do not actually provide oxygen or cooling &ndash; rude &ndash; they gather [Industrial Coolant](#industrial-coolant) for your use elsewhere. Instead of being powered by a live grid, you need to deposit a [nuclear fuel rod](#fuel-rod) to make them work and a [Cargo Drone mk II](#cargo-drone) if you want the output delivered to your base.
 
@@ -416,7 +428,7 @@ Buildkits allow you to use the `(B)`uild command to add new structures to the Ma
 
 *Cost:* 3x [Building Material](#building-material)
 
-An alternate [bed](#bed) that takes up less footprint, not that you really care. You'll find these all over the mining Facilities &ndash; and keep in mind that you *can* use them when you find them &ndash; and now you can have your own. Yay?
+An alternate [bed](#bed) that takes up less floor space, not that you really care. You'll find these all over the mining Facilities &ndash; and keep in mind that you *can* use them when you find them &ndash; and now you can have your own. Yay?
 
 {% endaethusitem %}
 {% aethusitem 'Bypass Mole' %}
@@ -445,7 +457,7 @@ Your only source of food at the beginning of the game, at least until you set up
 
 *Blueprint:* $500 at RAPP-1.
 
-*Cost:* 2x Swampwheat Flour, 3x Cactus Fruit, 2x Refined Sugar
+*Cost:* 2x [Swampwheat Flour], 3x [Cactus Fruit], 2x [Refined Sugar]
 
 *Effect:* +35% Stamina, +40% Nutrition
 
@@ -458,7 +470,7 @@ An excellent choice for mid-game nutrition, once you can produce [Refined Sugar]
 
 *Blueprint:* Granted when you build a Cooking Station.
 
-*Cost:* 1x Bottled Water (S), 3x Cactus Fruit, 4x Korvo Leaves, 1x Refined Sugar
+*Cost:* 1x [Bottled Water (S)], 3x [Cactus Fruit], 4x [Korvo Leaves], 1x [Refined Sugar]
 
 *Effect:* Makes you **Tipsy** for 10m. In theory this increases the chance of mining gems straight out of nodes; in practice it applies a blur effect to the screen that can be a little distracting.
 
@@ -467,7 +479,7 @@ An excellent choice for mid-game nutrition, once you can produce [Refined Sugar]
 
 *Where:* Mined from Depthane Nodes in the Magma Rifts, or produced by the drill between Rho and Tau.
 
-Used to craft advanced electronic items; can also be combined with [Lavastone](#lavastone) to produce [Reinforced Materials](#reinforced-building-material). Also valuable for its resale value on the [Trade Node](#trade-node).
+Used to craft advanced electronic items; can also be combined with [Lavastone](#lavastone) to produce [Reinforced Materials](#reinforced-building-material). Also has good resale value on the [Trade Node](#trade-node).
 
 {% endaethusitem %}
 {% aethusitem 'Cargo Bay', 'Cargo Bay I', 'Cargo Bay II', 'Cargo Bay III' %}
@@ -477,9 +489,9 @@ Used to craft advanced electronic items; can also be combined with [Lavastone](#
 *Where:* Constructed (Production).
 
 *Blueprints:*
-- *Mk 1:* $1250 at RAPP-1.
-- *Mk 2:* In the outbuilding near Theta, or $2500 at RAPP-2.
-- *Mk 3:* $5000 at RAPP-3.
+- *Model 1:* $1250 at RAPP-1.
+- *Model 2:* In the outbuilding near Theta, or $2500 at RAPP-2.
+- *Model 3:* $5000/$5500 at RAPP-3.
 
 | Model | Cost | Capacity | Power |
 | :---: | ---- | :------: | :---: |
@@ -487,9 +499,9 @@ Used to craft advanced electronic items; can also be combined with [Lavastone](#
 | 2 | 10x [Reinforced Material](#reinforced-building-material), 1x [Advanced Electronics](#advanced-electronics), 4x [Kalynite Frame](#kalynite-frame) | 140 | &ndash;2 |
 | 3 | 12x [Reinforced Material](#reinforced-building-material), 1x [Advanced Electronics](#advanced-electronics), 2x [Servomotor](#servomotor), 5x [Kalynite Frame](#kalynite-frame), 2x [Meteorite Frame](#meteorite-frame) | 230 | &ndash;3 |
 
-Cargo Bays are the receiving end of any automated resource collection equipment you find (mining drills/lasers) or manufacture ([Water Pumps](#water-pump), [Coolant Hypercompressors](#buildkit)) throughout the game. The Mark I bays are small enough to fit inside a Habitat next to your manufacturing equipment so you don't even have to go far; Mark IIs and IIIs are so tall you'll be forced to place them outside.
+Cargo Bays are the receiving end of any automated resource collection equipment you find (mining drills/lasers) or manufacture ([Water Pumps](#water-pump), [Coolant Hypercompressors](#buildkit)) throughout the game. The Model 1 bays are small enough to fit inside a Habitat next to your manufacturing equipment so you don't even have to go far; Model 2s and 3s are so tall you'll be forced to place them outside.
 
-Towards the end of the game, if you've enabled every mining drill you've found and you're not particularly diligent about emptying them, you *might* find that a Mark III bay *occasionally* gets full.
+Towards the end of the game, if you've enabled every mining drill you've found and you're not particularly diligent about emptying them, you *might* find that a Model 3 bay *occasionally* gets full.
 
 {% endaethusitem %}
 {% aethusitem 'Cargo Drone', 'Cargo Drone I' %}
@@ -499,20 +511,26 @@ Towards the end of the game, if you've enabled every mining drill you've found a
 *Where:* Crafted at an [Electronics Workbench](#electronics-workbench), and occasionally found throughout the Facilities.
 
 *Blueprints:*
-- *Mk 1:* Inside Beta (at the foot of the Inner Caves elevator), or $4000 at RAPP-1.
-- *Mk 2:* In the Control Room of Tau.
+- *Model 1:* Inside Beta (at the foot of the Inner Caves elevator), or $4000 at RAPP-1.
+- *Model 2:* In the Operations room at Tau.
 
 | Model | Cost |
 | :-: | --- |
 | 1 | 3x (2x) [Kalynite Frame](#kalynite-frame), 2x [Meteorite Frame](#meteorite-frame), 3x (2x) [Microcircuits](#microcircuits) |
-| 2 | 1x Mark I Drone, 1x [Advanced Electronics](#advanced-electronics), 1x [Matter Folder](#matter-folder) |
+| 2 | 1x Model 1 Drone, 1x [Advanced Electronics](#advanced-electronics), 1x [Matter Folder](#matter-folder) |
 
-Add a drone to a mining drill, and whatever resources it produces will periodically show up in a [Cargo Bay](#cargo-bay) at your Outpost. It's not as fast as mining by hand, but it's a lot less work. Mark I drones work in the mining drills of the Caves, the mining lasers of the Lost World, and the Drone Pods located at each mining facility in the Lost World. Mark II drones, by virtue of containing [Matter Folders](#matter-folder), are required throughout the Magma Rifts.
+Add a drone to a mining drill, and whatever resources it produces will periodically show up in a [Cargo Bay](#cargo-bay) at your Outpost. It's not as fast as mining by hand, but it's a lot less work. Model 1 drones are used in the mining drills of the Caverns, the mining lasers of the Lost World, and the Drone Pods located at each facility in the Lost World. Model 2 drones, by virtue of containing [Matter Folders](#matter-folder), are required throughout the Magma Rifts.
 
 {% endaethusitem %}
 {% aethusitem 'Cargo Habitat' %}
 
-<div class="float-right">
+*Where:* Constructed (Structures).
+
+*Blueprint:* $2500 at RAPP-2.
+
+*Cost:* 30x [Building Material](#building-material), 2x [Basic Electronics](#basic-electronics), 5x [Kalynite Bar](#kalynite-bar)
+
+*Effect:* Increases the capacity of any Storage item inside it:
 
 | Unit | Capacity | Bonus |
 | ---- | ---: | ---: |
@@ -524,17 +542,7 @@ Add a drone to a mining drill, and whatever resources it produces will periodica
 | Storage Container | 600 | 750 |
 | Silo | 2000 | 2500 |
 
-</div>
-
-*Where:* Constructed (Structures).
-
-*Blueprint:* $2500 at RAPP-2.
-
-*Cost:* 30x [Building Material](#building-material), 2x [Basic Electronics](#basic-electronics), 5x [Kalynite Bar](#kalynite-bar)
-
-*Effect:* Increases the capacity of any Storage item inside it (see table).
-
-This large, warehouse-shaped module is designed to hold an enormous amount of storage. You can fit six [Storage Containers](#storage-container) or two [Storage Silos](#storage-silo) in here if you try hard enough (and are willing to block two exits).
+This large, warehouse-shaped module is designed to hold an enormous amount of material. You can fit six [Storage Containers](#storage-container) or two [Storage Silos](#storage-silo) in here if you try hard enough (and are willing to block two exits).
 
 {% endaethusitem %}
 {% aethusitem 'Cave Mushroom' %}
@@ -546,7 +554,9 @@ Keep a bunch on hand at all times; [Mushroom Soup](#mushroom-soup) is great.
 {% endaethusitem %}
 {% aethusitem 'Chill Cola' %}
 
-*Where:* Found occasionally in the Rift Facilities, or crafted at a [Cooking Station](#cooking-station).
+*Where:* You find the first one in the Medical Bay at Rho, and from then on you'll find them scattered across the Rift Facilities. You can also make them at a [Cooking Station](#cooking-station).
+
+*Blueprint:* Granted whenever you pick up your first can.
 
 *Cost* (for 2x): 1x [Bottled Water (S)](#bottled-water), 1x [Refined Sugar](#refined-sugar), 1x [Building Material](#building-material), 2x [Venturer Worm](#venturer-worm)
 
@@ -559,9 +569,11 @@ Venturer Worms are hard to come by, but this is the only object you can *carry* 
 
 *Where:* Grown in the [Biology Lab](#biology-lab).
 
+*Blueprint:* Granted when you enter the infected portion of Theta for the first time.
+
 *Cost:* 8x [Hive Mycelia](#hive-mycelia), 2x [Lifeshroom](#lifeshroom)
 
-Its primary purpose is as an intermediate step towards producing [Inert Mycelia](#inert-mycelia) when planted in a [bed](#grow-bed). Can also used to build a [Biomass Planter](#biomass-planter).
+Its primary purpose is as an intermediate step towards producing [Inert Mycelia](#inert-mycelia) when planted in a [bed](#grow-bed). Also used to build a [Biomass Planter](#biomass-planter).
 
 {% endaethusitem %}
 {% aethusitem 'Cliffside Ramp' %}
@@ -570,7 +582,7 @@ Its primary purpose is as an intermediate step towards producing [Inert Mycelia]
 
 *Blueprint:* Granted when you complete *Exit Via the Back Door*, but you can only build one.
 
-*Cost:* 15x [Building Material]
+*Cost:* 15x [Building Material](#building-material)
 
 Provides a safe(ish) route between the Bloodfall Overlook and the valley floor.
 
@@ -586,7 +598,7 @@ Provides a safe(ish) route between the Bloodfall Overlook and the valley floor.
 {% endaethusitem %}
 {% aethusitem 'Cognative Link Module' %}
 
-*Where:* Crafted in response to (FIXME)
+*Where:* Crafted in response to (**FIXME**)
 
 *Cost:* 2x (1x) Depthane Bar, 1x Crystal Electronics, 2x (1x) Power Cell, 2x Industrial Coolant, 3x (2x) Camberflex
 
@@ -595,11 +607,13 @@ Provides a safe(ish) route between the Bloodfall Overlook and the valley floor.
 
 *Where:* Constructed (Facilities).
 
+*Blueprint:* Granted after you construct a [Trade Node](#trade-node).
+
 *Cost:* 10x [Building Materials](#building-material), 2x [Basic Electronics](#basic-electronics), 2x [Kalynite Bar](#kalynite-bar)
 
 *Power:* &ndash;1
 
-**FIXME:** Build one of these in order to make the [Trade Node](#trade-node) work.
+The game makes you build the Trade Node first, *then* tells you that you also need to build one of these in order to turn it on. Kind of a dirty trick, but at least it coughs up the blueprint right away.
 
 {% endaethusitem %}
 {% aethusitem 'Command Table' %}
@@ -615,17 +629,6 @@ Displays a virtual representation of your Outpost, which is kinda cute.
 {% endaethusitem %}
 {% aethusitem 'Connector' %}
 
-<div class="float-right">
-
-| Connector | Cost |
-| --- | --- |
-| Three-way, Four-way | 6x [Building Materials](#building-material) |
-| Regular, 45°, 90° | 5x Building Materials |
-| Short | 3x Building Materials |
-| Micro | 2x Building Materials |
-
-</div>
-
 *Variants:* **45-Degree Connector, 90-Degree Connector, Micro Connector, Small Connector, Four-Way Connector, Three-Way Connector**
 
 *Where:* Constructed (Structures).
@@ -637,7 +640,14 @@ Displays a virtual representation of your Outpost, which is kinda cute.
 - *90°:* A chest up on the hill behind Delta, or $500 each (RAPP-1).
 - *Three-way, Four-way:* $1250 each, RAPP-1
 
-Some Habitats require Connectors to space them apart so they don't get in each others' way. (Try the Small and Micro variants for this.) Three- and Four-Way Connectors are handy to add branching to your Outpost when all you have are a bunch of rooms with only two doors. You might need to build a hallway to get around some natural features that you can't [blow up](#terraforming-charge) yet. Or you might decide you want some for the sake of aesthetics. But generally you won't need many of these.
+| Variant | Cost |
+| --- | --- |
+| Three-way, Four-way | 6x [Building Materials](#building-material) |
+| Regular, 45°, 90° | 5x Building Materials |
+| Short | 3x Building Materials |
+| Micro | 2x Building Materials |
+
+Some Habitats require Connectors to space them apart so they don't get in each others' way. (Try the Short and Micro variants for this.) Three- and Four-Way Connectors are handy to add branching to your Outpost when all you have are a bunch of rooms with only two doors. You might need to build a hallway to get around some natural features that you can't [blow up](#terraforming-charge) yet. Or you might decide you want some for the sake of aesthetics. But generally you won't need many of these.
 
 {% endaethusitem %}
 {% aethusitem 'Cooking Station' %}
@@ -661,7 +671,7 @@ The upgrade from the [Scrap Grill](#scrap-grill) that uses base power instead of
 
 *Cost:* 25x [Building Material](#building-material), 2x [Kalynite Bar](#kalynite-bar)
 
-A central habitat with four doorways. Snaps to the one with the little built-in hallway, which is handy for connecting to a [Basic Habitat](#basic-habitat).
+A central habitat with four doorways. The little built-in connector on one side is handy for attaching to a [Basic Habitat](#basic-habitat).
 
 {% endaethusitem %}
 {% aethusitem 'Corner Seat' %}
@@ -697,11 +707,20 @@ Without one of these, the Trade Node can't actually communicate with anyone.
 
 *Where:* Constructed (Facilities).
 
+*Blueprint:* Granted by the Resistance as part of *Buried Memories*.
+
 *Cost:* 20x [Reinforced Material](#reinforced-building-material), 3x [Kalynite Frame](#kalynite-frame), 2x [Meteorite Frame](#meteorite-frame), 2x [Advanced Electronics](#advanced-electronics), 4x [Hardened Glass](#hardened-glass), 1x [High-Voltage Converter](#high-voltage-converter)
 
 *Power:* &ndash;10
 
 The Resistance convinces you to build one of these so that you can communicate with them without ARC noticing. It serves as a "do you have a bunch of late-game materials" gate.
+
+{% endaethusitem %}
+{% aethusitem 'Climber Storage Module' %}
+
+*Where:* Omicron, in one of the half-sunken cargo containers in the lava-filled hallway.
+
+Stick this in the Climber (try clicking on the console on the outer edge, rather than the center) and its cargo capacity is greatly increased (**FIXME**)
 
 {% endaethusitem %}
 {% aethusitem 'Crafting Bench' %}
@@ -723,7 +742,9 @@ An essential early-game upgrade in capabilities, allowing you to produce all sor
 
 *Blueprint:* Found by inserting a [Bypass Mole](#bypass-mole) into the command terminal inside the Epsilon control room.
 
-*Cost:* 50x [Building Material], 3x [Servomotor], 5x [Kalynite Frame], 2x [Meteorite Frame], 5x [Jaspite Bar]
+*Cost:* 50x [Building Material](#building-material), 3x [Servomotor](#servomotor), 5x [Kalynite Frame](#kalynite-frame), 2x [Meteorite Frame](#meteorite-frame), 5x [Jaspite Bar](#jaspite-bar)
+
+*Power:* &ndash;4
 
 Build one of these over the giant meteorite crater, and the Climber will connect Delta and Epsilon (and later Omicron) straight up to the Surface.
 
@@ -732,9 +753,11 @@ Build one of these over the giant meteorite crater, and the Climber will connect
 
 *Where:* Crafted at the [Electronics Workbench](#electronics-workbench).
 
+*Blueprint:* Granted the first time you mine [Hyperion Crystals](#hyperion-crystal).
+
 *Cost:* 2x (1x) [Advanced Electronics](#advanced-electronics), 2x [Hyperion Crystal](#hyperion-crystal), 2x (1x) [Depthane Bar](#depthane-bar)
 
-The end-stage electronics ingredient, only available once you make a successful run into Seam X-5 to bring back some Hyperion Crystals. Required to win the game, given its use in crafting [Programmable Splices](#programmable-splice) and the [Cognative Link Module](#cognative-link-module).
+The end-stage electronics ingredient. Required to win the game, given its use in crafting [Programmable Splices](#programmable-splice) and the [Cognative Link Module](#cognative-link-module).
 
 {% endaethusitem %}
 {% aethusitem 'Customization Kiosk' %}
@@ -754,11 +777,25 @@ You can spend all the credits you want acquiring custom suit colors for Maeve an
 The ability to turn on/off picking up certain objects is kind of handy if you decide that Regolith / Sandstone / Deepstone / Lavastone just isn't worth collecting any more.
 
 {% endaethusitem %}
+{% aethusitem 'Data Spindle' %}
+
+*Where:* In the Administrator's Office in Iota; inaccessible until you run the particle accelerator for the first time.
+
+A MacGuffin that's part of the crafting puzzle for *Buried Memories*.
+
+{% endaethusitem %}
 {% aethusitem 'Dead Amber' %}
 
 *Where:* Mined from Wormwood Nodes on infected trees around Theta.
 
 Gemstones(...?) are for selling ($2000).
+
+{% endaethusitem %}
+{% aethusitem 'Decompiler Info' %}
+
+*Where:* Downloaded from the [Covert Comms Antenna](#covert-comms-antenna).
+
+A MacGuffin that's part of the crafting puzzle for *Buried Memories*.
 
 {% endaethusitem %}
 {% aethusitem 'Deepmussel' %}
@@ -772,7 +809,7 @@ Oddly, Deepmussels are converted into [Fish Flesh](#fish-flesh) by "using" them 
 
 *Where:* The "default" stone for the Lost World. Produced by every drill in the Lost World.
 
-Deepstone is to the Lost World what Sandstone is to the Caves: the most common element found in almost every node you break, and heavier than anything else so you'll get sick of lugging it around. It has almost no utility &mdash; you can combine it with [Mycelial Biomass](#mycelial-biomass) to make [Reinforced Materials](#reinforced-building-material), but you won't have nearly enough biomass to keep up with the amount of Deepstone you collect &mdash; but you can sell it at the market; 150kg goes for a bit north of $5000, which isn't too bad.
+Deepstone is to the Lost World what Sandstone is to the Caves: the most common element found in almost every node you break, and heavier than anything else so you'll get sick of lugging it around. Its only real use is to be combined with [Mycelial Biomass](#mycelial-biomass) to make [Reinforced Materials](#reinforced-building-material), but it's hard to collect enough Biomass to keep up with the sheer quantities of Deepstone. You can sell it at the market; 150kg goes for a bit north of $5000, which isn't too bad.
 
 {% endaethusitem %}
 {% aethusitem 'Depthane Bar' %}
@@ -795,7 +832,7 @@ Geodes are for [prospecting](#prospecting-bench). These produce [Depthane's Hear
 
 *Where:* Common mining nodes in the Magma Rifts, especially near Rho. Produced by the drill between Rho and Tau. Also shows up when [fishing](#fishing-lure).
 
-Used to produce [Depthane Bars](#depthane-bar) and [Magmasafe Material](#magmasafe-building-material). You might make a [Focusing Lens](#focusing-lens) or two out of it as well. Depthane Ore is one of the few raw materials that can be used in two different processing facilities, so be intentional about whether you're trying to produce Bars or Materials when you drop off a load.
+Used to produce [Depthane Bars](#depthane-bar) and [Magmasafe Material](#magmasafe-building-material). You might make a [Focusing Lens](#focusing-lens) or two out of it as well. Depthane Ore is one of the few raw materials that can be used in multiple processing facilities, so be intentional about whether you're trying to produce Bars or Materials when you drop off a load.
 
 {% endaethusitem %}
 {% aethusitem "Depthane's Heart" %}
@@ -873,7 +910,7 @@ Note that drill bits are "recursive", meaning you need to manufacture a weaker d
 {% endaethusitem %}
 {% aethusitem 'Dust Ruby' %}
 
-*Where:* Mined from nodes throughout the Caves, produced by the Beta drill, or [prospected](#prospecting-station) from Kalynite Geodes.
+*Where:* Mined from nodes throughout the Caverns, produced by the Beta drill, or [prospected](#prospecting-station) from [Kalynite Geodes].
 
 Gemstones are for selling, although in this case it doesn't hurt to put them in the [Stone Crusher](#stone-crusher) and convert them into [Dust Ruby Powder](#dust-ruby-powder), since it sells for the same price whole ($200) as it does in pieces (4x$50). Higher-quality gems ($250 superior, $300 flawless) should go straight to the market for the additional markup, though. (Don't worry, the Crusher won't accept high-quality Dust Rubies.)
 
@@ -891,7 +928,7 @@ Useful for producing [Microelectronics](#microelectronics).
 
 *Blueprint:* $1000 at RAPP-1.
 
-*Cost:* 20x Building Material, 4x Kalynite Bar, 2x [Basic Electronics](#basic-electronics)
+*Cost:* 20x [Building Material], 4x [Kalynite Bar], 2x [Basic Electronics](#basic-electronics)
 
 *Power:* &ndash;3
 
@@ -904,7 +941,7 @@ Another major upgrade in your crafting capabilities. Although the [Crafting Benc
 
 *Blueprint:* Temporarily granted during *Deep Impact*.
 
-*Cost:* 2x [Kalynite Frame], 2x [Meteorite Frame], 2x [Basic Electronics], 1x [Power Cell], 3x [Solazine], 4x [Microcircuits]
+*Cost:* 2x [Kalynite Frame](#kalynite-frame), 2x [Meteorite Frame](#meteorite-frame), 2x [Basic Electronics](#basic-electronics), 1x [Power Cell](#power-cell), 3x [Solazine](#solazine), 4x [Microcircuits](#microcircuits)
 
 Roland comes up with a cockamamie plan to use an EMP to break through whatever's holding the blast door over the Delta Climber closed. Craft one of these and bring it back to Delta and you can advance the story (and free up the Climber as well).
 
@@ -912,6 +949,8 @@ Roland comes up with a cockamamie plan to use an EMP to break through whatever's
 {% aethusitem 'Expedition Hub' %}
 
 *Where:* Constructed (Facilities).
+
+*Blueprint:* $4400 at RAPP-3, but only becomes available once you learn about Buildkits in the Rifts.
 
 *Cost:* 15x [Reinforced Material](#reinforced-building-material), 5x [Kalynite Bar](#kalynite-bar), 1x [Advanced Electronics](#advanced-electronics), 1x [Servomotor](#servomotor)
 
@@ -924,17 +963,21 @@ Used to craft [Buildkits](#buildkit) for use in the Magma Rifts.
 
 *Where:* Prepared in the [Cooking Station](#cooking-station) from various raw fish, or squeezed out of a [Deepmussel](#deepmussel).
 
+*Blueprint:* Granted when you bring fish to the Cooking Station for the first time.
+
 | In | Out |
 | --- | --- |
 | 1x [Ghostfish](#ghostfish) | 2x Fish Flesh |
 | 1x [Aelian Minnows](#aelian-minnow) *or*<br/>1x [Sandfish](#sandfish) | 1x Fish Flesh |
 
-You can't eat this stuff raw (sushi, anyone?) but you can use it to craft other foods.
+You can't eat this stuff raw (sushi, anyone?) but you can use it to craft other foods. The recipes are called "Minnow Preparation", etc.
 
 {% endaethusitem %}
 {% aethusitem 'Fish Pie' %}
 
 *Where:* Prepared in the [Cooking Station](#cooking-station).
+
+*Blueprint:* Granted when you make your first batch of flour, presuming you have fish in your inventory somewhere.
 
 *Cost:* 3x [Fish Flesh](#fish-flesh), 2x [Swampwheat Flour](#swampwheat-flour)
 
@@ -949,6 +992,8 @@ Warning: this food is not Vegetarian.
 
 *Where:* Prepared in the [Cooking Station](#cooking-station).
 
+*Blueprint:* Both variants are granted the first time you make Fish Flesh from one of the Preparation recipes.
+
 *Cost:* 3x [Fish Flesh](#fish-flesh), 1x [Bottled Water (S)](#bottled-water). Fancy Stew also uses 2x [Heatshrimp](#heatshrimp).
 
 *Effect:* +20%/30% Stamina, +25%/45% Nutrition, +25% Hydration
@@ -960,7 +1005,7 @@ Warning: this food is not Vegetarian. Similar to [Mushroom Soup](#mushroom-soup)
 
 *Where:* Kappa dam, several other places; crafted at the [Electronics Workbench](#electronics-workbench).
 
-*Blueprint:* In the Kappa outbuilding, which is across the first dam and a ways off to the left (**FIXME:** West?)
+*Blueprint:* Stored in the computer console in the Fishing Habitat that's "near" Kappa.
 
 *Cost:* 1x [Tangrite Ba](#tangrite-bar), 1x [Basic Electronics](#basic-electronics), 1x [Anti-Gravity Tech](#anti-gravity-tech)
 
@@ -986,7 +1031,7 @@ Useful for lighting up the Outside after dark. Leave a couple of these near the 
 
 *Where:* Constructed (Lighting).
 
-*Blueprint:* $400 at RAPP-2.
+*Blueprint:* The basic model costs $400 at RAPP-2. The Emergency blueprint is in the Magma Generator room at Rho.
 
 *Cost:* 2x [Building Material](#building-material), 2x [Solazine](#solazine)
 
@@ -1002,9 +1047,9 @@ Provides interior lighting. Emergency lights are red. You don't *need* lighting,
 | Lens | Cost | Blueprint |
 | ---- | ---- | --------- |
 | Tangrite | 2x [Hardened Glass](#hardened-glass), 2x [Tangrite Frame](#tangrite-frame), 1x [Bladestone](#bladestone), 1x [Tangrite Ore](#tangrite-ore) | $3000, RAPP-2 |
-| Jaspite | 3x [Hardened Glass](#hardened-glass), 2x [Tangrite Frame](#tangrite-frame), 1x [Vitaglass](#vitaglass), 1x [Jaspite Ore](#jaspite-ore) | $5000, RAPP-3 |
-| Depthane | 4x [Hardened Glass](#hardened-glass), 3x [Tangrite Frame](#tangrite-frame), 1x [Depthane's Heart](#depthanes-heart), 1x [Depthane Ore](#depthane-ore) | $7000, RAPP-4 |
-| Quarinium | 4x [Hardened Glass](#hardened-glass), 3x [Tangrite Frame](#tangrite-frame), 1x [Miner's Bane](#miners-bane), 1x [Quarinium Ore](#quarinium-ore) | $9000, RAPP-4 |
+| Jaspite | 3x [Hardened Glass](#hardened-glass), 2x [Tangrite Frame](#tangrite-frame), 1x [Vitaglass](#vitaglass), 1x [Jaspite Ore](#jaspite-ore) | $5000/$5500, RAPP-3 |
+| Depthane | 4x [Hardened Glass](#hardened-glass), 3x [Tangrite Frame](#tangrite-frame), 1x [Depthane's Heart](#depthanes-heart), 1x [Depthane Ore](#depthane-ore) | $7700, RAPP-4 |
+| Quarinium | 4x [Hardened Glass](#hardened-glass), 3x [Tangrite Frame](#tangrite-frame), 1x [Miner's Bane](#miners-bane), 1x [Quarinium Ore](#quarinium-ore) | $9900, RAPP-4 |
 
 Focusing Lenses are fancier [Drill Bits](#drill-bit), used in the Lost World and Magma Rifts to enable a handful of mining lasers. Don't be afraid to craft them as soon as you find a drill that needs one; you can always [recycle](#recycling-station) any that you find afterwards.
 
@@ -1020,11 +1065,19 @@ An important crafting ingredient. Used to craft several things from Tangrite, bu
 
 *Variants:* **Nuclear Fuel Rod, Strange Fuel Rod**
 
-*Where:* Crafted at the manufacturing facility inside Tau. If you run the particle accelerator at Iota first, you get *both* 1x Nuclear Fuel Rod and 1x Strange Fuel Rod at the same time.
+*Where:* The first Nuclear Fuel Rod shows up inside the Secure Storage area in Epsilon. Later you can craft your own at the manufacturing facility inside Tau. If you run the particle accelerator at Iota first, you get *both* 1x Nuclear Fuel Rod and 1x Strange Fuel Rod at the same time.
 
 *Cost:* The Tau manufacturing process consumes at least 10x [Quarinium Ore](#quarinium-ore) and 2x [Fuel Rod Moulds](#fuel-rod-mould). The Iota particle accelerator consumes an additional 5x [Quarinium Ore](#quarinium-ore) and 10x [Strange Ore Chunks](#strange-ore-chunk). See the [walkthrough](/aethus/#magma-rifts-tau) for details on the process.
 
-You must make one **Strange Fuel Rod** in order to beat the game. You can make as many **Nuclear Fuel Rods** as you want, but the only use for them is to construct [RTGs](#rtg), and in all honestly you need no more than one or two of those (beyond the one you get for free towards the start of the game). On the other hand, there is no other use for Quarinium Ore, so go nuts.
+Broadly speaking, the way you use Fuel Rods is by combining them with a [Fuel Rod Housing] to make an [RTG Core](#rtg).
+
+The core you make from the **Nuclear Fuel Rod** in the cage at Epsilon is used to repair the reactor in Lambda, which stops it from leaking radiation all over the place (and you).
+
+Later, when you reach Tau, you can use **Nuclear** or **Strange Fuel Rods** to construct your own [RTGs](#rtg) to power your base, and in all honesty you need no more than one or two of those (beyond the one you get for free at the start of the game). On the other hand, there is no other use for [Quarinium Ore], so go nuts.
+
+You will, however, need at least one spare **Strange Fuel Rod** that you haven't converted into an RTG in order to reactivate the flying drone that takes you to the endgame facility.
+
+**Nuclear Fuel Rods** are also required to activate [Coolant Hypercompressors](#buildkit).
 
 {% endaethusitem %}
 {% aethusitem 'Fuel Rod Housing' %}
@@ -1122,7 +1175,7 @@ Light (0.3kg), sells for a good price ($40) considering the weight, has no other
 
 *Where:* Constructed (Structures).
 
-*Blueprint:* Inside Theta, or $1500 at RAPP-2.
+*Blueprint:* In the central control room of Theta, or $1500 at RAPP-2.
 
 *Cost:* 25x [Reinforced Materials](#reinforced-building-material), 2x [Kalynite Bar](#kalynite-bar), 1x [Basic Electronics](#basic-electronics), 2x [Hardened Glass](#hardened-glass)
 
@@ -1188,11 +1241,13 @@ A mid-game crafting material, used to fabricate [Focusing Lenses](#focusing-lens
 {% endaethusitem %}
 {% aethusitem 'Hardened Storage Drive' %}
 
-*Where:* Crafted at the [Electronics Workbench](#electronics-workbench).
+*Where:* Find the first one in the lockbox in Lisa Chapman's quarters, as part of the *Existence in Flux* storyline. Further (empty) ones are crafted at the [Electronics Workbench](#electronics-workbench).
+trophic
+*Blueprint:* Granted once you get in touch with the Resistance (*Under the Table*).
 
 *Cost (for 2x):* 1x [Tangrite Bar](#tangrite-bar), 1x [Basic Electronics](#basic-electronics), 1x [Power Cell](#power-cell), 1x [Bypass Mole](#bypass-mole)
 
-The "Resistance" storyline is based on an exchange of data: you gather data from the Gaia Terminals scattered throughout the deeper Facilities using these Drives, and in exchange the Resistance provides you with upgrades beyond what you can buy on ARC's marketplace. You'll need several of these over the course of the game; there are at least twelve batches of data you can collect, although you aren't required to bring back all of them.
+The "Resistance" storyline starts when you bring Stanley's AI Core back to your outpost. Their first demand is that you break into Lisa Chapman's quarters and bring back the Drive that's inside. Your relationship quickly becomes transactional: you gather data from the Gaia Terminals scattered throughout the deeper Facilities using these Drives, and in exchange the Resistance provides you with upgrades beyond what you can buy on ARC's marketplace. You'll need several of these over the course of the game; there are at least twelve batches of data you can collect, although you aren't required to bring back all of them.
 
 {% endaethusitem %}
 {% aethusitem 'Heatshrimp' %}
@@ -1206,6 +1261,8 @@ Used to make [Fancy Fish Stew](#fish-stew) instead of just the regular stuff. Yo
 
 *Where:* The first one can be found in Theta, but you shouldn't use it there. Otherwise, manufactured at a [Biology Lab](#biology-lab).
 
+*Blueprint:* Granted when you find the first one in the output hopper of the Theta Biology Lab.
+
 *Cost (for 2x):* 2x [Mining Explosive](#mining-explosive), 2x [Glowing Bulb](#glowing-bulb), 3x [Hive Mycelia](#hive-mycelia)
 
 Let's use *explosives* as a distribution mechanism for an antibiotic agent; what could possibly go wrong? You'll need six or so of these to fully explore Mu, plus a handful of other places throughout the Lost World.
@@ -1215,9 +1272,11 @@ Let's use *explosives* as a distribution mechanism for an antibiotic agent; what
 
 *Where:* Crafted at the [Electronics Workbench](#electronics-workbench).
 
+*Blueprint:* $5500 at RAPP-4.
+
 *Cost:* 1x [Advanced Electronics](#advanced-electronics), 2x (1x) [Depthane Bar](#depthane-bar), 5x (3x) [Camberflex](#camberflex)
 
-Used as a component in several required late-game items.
+Used as a component to craft [Buildkits](#buildkit), the [Covert Comms Antenna](#covert-comms-antenna), and the [Remote Restart Chip](#remote-restart-chip) that grants access to the endgame.
 
 {% endaethusitem %}
 {% aethusitem 'Hive Mycelia' %}
@@ -1244,13 +1303,13 @@ Wind-powered energy sources are a vast improvement over [Generators](#biomass-ge
 
 *Where:* Constructed (Structures)
 
-*Blueprint:* $2500 at RAPP-3.
+*Blueprint:* The drill site behind Mu, or $2500/$2750 at RAPP-3.
 
 *Cost:* 20x [Building Material](#building-material), 2x [Kalynite Bar](#kalynite-bar), 1x [Hardened Glass](#hardened-glass)
 
 Hubs are small, four-door Habitats that don't seem particularly useful at first glance. However, if you set up your materials processing facilities in them, they will occasionally produce Geodes for you. This is free money, especially if you build a Prospecting Bench.
 
-If you're willing to block one of the doors, you can fit all five processing facilities ([Regolith Printer](#regolith-printer), [Stone Crusher](#stone-crusher), [Basic Smelter](#basic-smelter), [Standard Smelter](#standard-smelter), [Superheating Kiln](#superheating-kiln)), a [Prospecting Bench](#prospecting-bench), and a couple of [Large Crates](#large-crate) in here and still have room for an exit door so you can get to your [Mark III Cargo Bay](#cargo-bay).
+If you're willing to block one of the doors, you can fit all five processing facilities ([Regolith Printer](#regolith-printer), [Stone Crusher](#stone-crusher), [Basic Smelter](#basic-smelter), [Standard Smelter](#standard-smelter), [Superheating Kiln](#superheating-kiln)), a [Prospecting Bench](#prospecting-bench), and a couple of [Large Crates](#large-crate) in here and still have room for an exit door so you can get to your [Model 3 Cargo Bay](#cargo-bay).
 
 {% endaethusitem %}
 {% aethusitem 'Hyperion Crystal' %}
@@ -1281,11 +1340,12 @@ No use other than being sold at the [Trade Node](#trade-node) ($300).
 *Where:* Crafted at the [Biology Lab](#biology-lab), or found throughout the various Facilities.
 
 *Blueprints:*
-- *Empty:* $2500 at RAPP-2.
-- *Health:* In the infected portion of Theta, or $3000 at RAPP-2.
-- *Strength:* In the infected portion of Theta, or $4500 at RAPP-3.
-- *Oxygen:* Inside Sinclar Ncuti's quarters in Epsilon, or $4000 at RAPP-2.
-- *Speed:* $5000 at RAPP-3.
+- *Empty:* The rear courtyard of Epsilon, or $2500 at RAPP-2.
+- *Health:* Near the Bio Lab of Theta, or $3000 at RAPP-2.
+- *Antigen:* Granted when you enter the infected portion of Theta for the first time.
+- *Strength:* In the infected portion of Theta, or $4500/$4950 at RAPP-3.
+- *Oxygen:* Inside Ncuti Sinclair's quarters in Epsilon, or $4000 at RAPP-2.
+- *Speed:* $5000/$5500 at RAPP-3.
 
 A series of pick-me-ups ("buffs", if you must) that can be carried around and used as necessary during your travels. [Queen Mycelia](#queen-mycelia) aren't particularly easy to come by, so don't go nuts crafting Injectors you won't use. Unfortunately, they can't be recycled.
 
@@ -1296,7 +1356,7 @@ A series of pick-me-ups ("buffs", if you must) that can be carried around and us
 | Strength | 2x Empty, 1x [Inert Mycelia](#inert-mycelia), 1x [Queen Mycelia](#queen-mycelia), 2x [Sandfish](#sandfish) | +50kg carry limit for 20m |
 | Oxygen   | 2x Empty, 1x [Inert Mycelia](#inert-mycelia), 1x [Queen Mycelia](#queen-mycelia), 5x [Oxite](#oxite) | +70 Oxygen |
 | Speed    | 2x Empty, 1x [Inert Mycelia](#inert-mycelia), 1x [Queen Mycelia](#queen-mycelia), 1x [Refined Sugar](#refined-sugar) | +25% speed for 20m |
-| Anti-Rad | 2x Empty, 1x [Inert Mycelia](#inert-mycelia), 1x [Queen Mycelia](#queen-mycelia), 10x [Radiotropic Mushroom](#radiotropic-mushroom) | -25% radiation poisoning
+| Anti-Rad | 2x Empty, 1x [Inert Mycelia](#inert-mycelia), 1x [Queen Mycelia](#queen-mycelia), 10x [Radiotrophic Mushroom](#radiotrophic-mushroom) | -25% radiation poisoning
 | Mycelial Antigen | 2x Empty, 3x [Inert Mycelia](#inert-mycelia), 4x [Queen Mycelia](#queen-mycelia), 6x [Mouldshroom](#mouldshroom) | Resistance to spores for 15m |
 
 You'll need one **Antigen** injector to explore half of Mu and another to repair the Climber in Omicron, but they last for 15m of real time so you shouldn't need more than one each. Everything else is entirely optional and depends on your play style.
@@ -1307,6 +1367,13 @@ You'll need one **Antigen** injector to explore half of Mu and another to repair
 *Where:* Cultivated from [Cleansed Mycelia](#cleansed-mycelia) in a [Grow Bed](#grow-bed).
 
 Used to manufacture your own [Injectors](#injector) in the [Biology Lab](#biology-lab).
+
+{% endaethusitem %}
+{% aethusitem 'Ionization Sub-System', 'Ionization Subsystem' %}
+
+*Where:* One of the Lockers in the Control Room of Iota.
+
+You can't get into the Control Room without passing through a very strong electromagnetic field, which causes Roland to make funny noises. Fortunately there's a replacement one of these things sitting in a Locker; popping it back into the EM shields makes the problem go away.
 
 {% endaethusitem %}
 {% aethusitem 'Jaspite Bar' %}
@@ -1320,9 +1387,9 @@ Your first use for this stuff is to build the [Crater Climber](#crater-climber) 
 {% endaethusitem %}
 {% aethusitem 'Jaspite Geode' %}
 
-*Where:* Occasionally mined from Jaspite Nodes in the Lost world, or rarely produced by the [Standard Smelter](#standard-smelter) if it's inside a [Hub Habitat](#hub-habitat).
+*Where:* You find one inside the Bunker at Lambda. They're occasionally mined from Jaspite Nodes in the Lost world, or rarely produced by the [Standard Smelter](#standard-smelter) if it's inside a [Hub Habitat](#hub-habitat).
 
-Geodes are for [prospecting](#prospecting-bench). These produce **FIXME**
+Geodes are for [prospecting](#prospecting-bench). These produce Bladestones.
 
 {% endaethusitem %}
 {% aethusitem 'Jaspite Ore' %}
@@ -1473,9 +1540,9 @@ You'll run into lots of these used as waymarkers throughout your exploration. Yo
 Gemstones are for selling ($1300 and up).
 
 {% endaethusitem %}
-{% aethusitem 'Loadmasters Key' %}
+{% aethusitem "Loadmaster's Key", 'Loadmasters Key' %}
 
-*Where:* **FIXME**
+*Where:* In the "Fishing Habitat", vaguely near Kappa but over the first dam segment.
 
 Used to get into the secure storage cage in Epsilon.
 
@@ -1486,7 +1553,7 @@ Used to get into the secure storage cage in Epsilon.
 
 *Blueprint:* $150 at RAPP-0.
 
-*Cost:* 1x [Building Material](#building-material) ???
+*Cost:* 1x [Building Material](#building-material)
 
 *Capacity:* 15kg
 
@@ -1578,7 +1645,7 @@ Your first home; little more than a shipping container with an open doorway that
 
 *Where:* Constructed (Structures).
 
-*Blueprint:* $3000 at RAPP-3.
+*Blueprint:* $3000/$3300 at RAPP-3.
 
 *Cost:* 20x [Reinforced Material](#reinforced-building-material), 10x [Kalynite Bar](#kalynite-bar), 1x [Advanced Electronics](#advanced-electronics), 2x [Hardened Glass](#hardened-glass)
 
@@ -1587,20 +1654,25 @@ One of the more useful purpose-specific Habitats you can build. It's quite roomy
 {% endaethusitem %}
 {% aethusitem 'Matter Folder' %}
 
-*Where:* Scavenged from Gaia facilities in the Magma Rifts.
+*Where:*
 
-*Blueprint:* Inside Lisa Chapman's quarters in Epsilon.
+- In the locked crate in Chapman's quarters in Epsilon.
+- In the Rho bunker.
 
-An essential part of any teleportation device. Y'know. Used to construct [Cargo Drone mk IIs](#cargo-drone), which can carry resources across space and time, as well as [Matter Transporters](#matter-transporter), of which you only need to *build* one.
+An essential part of any teleportation device. Y'know. Used to construct [Model 2 Cargo Drones](#cargo-drone), which can carry resources across space and time, as well as [Matter Transporters](#matter-transporter), of which you only need to *build* one.
 
 {% endaethusitem %}
 {% aethusitem 'Matter Transporter' %}
 
 *Where:* Constructed (Facilities).
 
+*Blueprint:* In the locked crate inside Lisa Chapman's quarters in Epsilon. (Because it's inside a crate, it shows up as an item you have to Use from your inventory.)
+
 *Cost:* 15x [Reinforced Material](#reinforced-building-material), 2x [Advanced Electronics](#advanced-electronics), 2x [Servomotor](#servomotor), 2x [Kalynite Frame](#kalynite-frame), 3x [Meteorite Frame](#meteorite-frame), 1x [Matter Folder](#matter-folder)
 
-An honest-to-god teleporter that will connect you to the facilities beyond the Lost World. You'll need to click on it to dial in a station code before entering, although the game will helpfully display all the station codes you know so you don't have to remember them. You *do* have to remember which code goes with which station, though.
+*Power:* &ndash;6
+
+An honest-to-god teleporter that will connect you to the facilities beyond the Lost World. Click on it to dial in a station code before entering, although the game will helpfully display all the station codes you know so you don't have to remember them. You *do* have to remember which code goes with which station, though.
 
 {% endaethusitem %}
 {% aethusitem 'Medical Supplies' %}
@@ -1704,9 +1776,11 @@ A useful crafting ingredient in other things that go boom, like [Terraforming Ch
 {% endaethusitem %}
 {% aethusitem 'Module Authenticator' %}
 
-*Where:* Crafted at the [Electronics Workbench](#electronics-workbench); Roland teaches you how to make one.
+*Where:* Crafted at the [Electronics Workbench](#electronics-workbench).
 
-*Cost:* **FIXME**
+*Blueprint:* Roland grants you the blueprint after you download the data from the [Covert Comms Antenna](#covert-comms-antenna) as part of *Buried Memories*.
+
+*Cost:* 1x [Data Spindle](#data-spindle), 1x [Decompiler Info](#decompiler-info), 1x [Hardened Storage Drive](#hardened-storage-drive)
 
 {% endaethusitem %}
 {% aethusitem 'Mouldshroom' %}
@@ -1739,6 +1813,8 @@ A staple dish, especially if you're trying to stay Vegetarian. The fact that it 
 *Cost (lab, for 5x):* 10x [Biomass](#biomass), 2x [Hive Mycelia](#hive-mycelia)
 
 Combine with [Deepstone](#deepstone) to make [Reinforced Materials](#reinforced-building-material), or build a [Biomass Planter](#biomass-planter). Think twice before burning all your [Hive Mycelia](#hive-mycelia) or your [Queen Mycelia](#queen-mycelia) on making it, though.
+
+The trouble with Mycelial Towers is that they take a very long time to knock down and don't produce much biomass. You will have a higher rate of return if you cut down Infected Gorgo Trees, instead.
 
 {% endaethusitem %}
 {% aethusitem 'Mysterious Egg' %}
@@ -1798,7 +1874,7 @@ Used in a number of crafting recipes, especially for things that produce oxygen.
 | 1 | 2x [Oxite](#oxite), 1x [Kalynite Bar](#kalynite-bar) |
 | 2 | 4x [Oxite](#oxite), 1x [Kalynite Bar](#kalynite-bar), 1x [Basic Electronics](#basic-electronics) |
 
-These generate a short-lived region of breathable atmosphere. Throw them against a wall (or the ground) to activate. The Mark I model will save you from dying but probably will not fully recharge your air tank; the Mark II will do significantly better.
+These generate a short-lived region of breathable atmosphere. Throw them against a wall (or the ground) to activate. The Model 1 model will save you from dying but probably will not fully recharge your air tank; the Model 2 will do significantly better.
 
 {% endaethusitem %}
 {% aethusitem 'Packaged Foodstuffs' %}
@@ -1860,7 +1936,7 @@ Your first use for this object is to repair the elevator between Alpha and Beta.
 
 *Where:* Crafted at the Electronics Workbench.
 
-*Blueprint:* $10000 at RAPP-4.
+*Blueprint:* $11000 at RAPP-4.
 
 *Cost:* 1x [Depthane Bar](#depthane-bar), 1x [Crystal Electronics](#crystal-electronics), 4x (3x) [Camberflex](#camberflex), 2x (1x) [Bypass Mole](#bypass-mole)
 
@@ -1871,7 +1947,7 @@ Used to override the programming on the runaway laser drills near the giant Aeth
 
 *Where:* Constructed (Facilities).
 
-*Blueprint:* $5000 at RAPP-2.
+*Blueprint:* Found inside Lambda after you fix the reactor. Don't waste $5000 at RAPP-2, since you basically can't find Geodes until you do this anyway.
 
 *Cost:* 15x [Reinforced Material](#reinforced-building-material), 6x [Kalynite Bar](#kalynite-bar), 1x [Tangrite Frame](#tangrite-frame), 1x [Advanced Electronics](#advanced-electronics), 1x [Servomotor](#servomotor), 2x [Hardened Glass](#hardened-glass)
 
@@ -1879,7 +1955,7 @@ Used to override the programming on the runaway laser drills near the giant Aeth
 
 "Prospecting" is a little minigame where you get to blast away chunks of a geode, looking for the shiny gemstone that's hidden within. The more geode material you blast away from near the gem, the higher your score and the more and better gems you get out of it.
 
-Geodes don't start appearing until you build one of these(?) and a [Hub Habitat](#hub-habitat).
+Geodes don't start appearing until you collect the [Suit Upgrade Chip] that enables you to find them from mining. Processing facilities inside a [Hub Habitat](#hub-habitat) will also occasionally generate them as a byproduct.
 
 {% endaethusitem %}
 {% aethusitem 'Quakemaker' %}
@@ -1917,7 +1993,7 @@ Geodes are for [prospecting](#prospecting-bench). These produce [Miner's Bane](#
 
 *Where:* Mined or [fished](#fishing-lure) in the Magma Rifts, specifically in the high-rad area between Tau and Iota. The drill near Omicron also produces it (**FIXME**?)
 
-A radioactive ore whose only use is in the manufacture of [Nuclear Fuel Rods](#fuel-rod).
+A radioactive ore whose only use is in the manufacture of [Nuclear Fuel Rods](#fuel-rod) and [Focusing Lenses](#focusing-lens).
 
 {% endaethusitem %}
 {% aethusitem 'Queen Mycelia' %}
@@ -2033,7 +2109,8 @@ The MacGuffin that you produce (and plug into the [Covert Comms Antenna](#covert
 
 *Blueprints:*
 - *RTG (Power facility):* Granted when you build your first Access Platform and attach it to a Basic Habitat.
-- *RTG (Reactor):* $15000 at RAPP-4.
+- *RTG (Reactor):* $15000/$16500 at RAPP-4.
+- *RTG Reactor Core:* Granted when you find the [Nuclear Fuel Rod] in the storage cage at Epsilon.
 
 Six separate objects that share the same names. RTGs are condensed nuclear power plants that provide extremely space-efficient power to your Outpost. See [Fuel Rod](#fuel-rod) for requirements, though.
 
@@ -2121,6 +2198,8 @@ Baby's *second* storage unit. See [Makeshift Crate](#makeshift-crate) for notes.
 
 *Where:* Constructed (Power).
 
+*Blueprint:* In the reactor room of Facility Mu, or...
+
 *Cost:* 13x [Reinforced Material](#reinforced-building-material), 7x [Solazine](#solazine), 1x [Advanced Electronics](#advanced-electronics), 3x [Tangrite Bar](#tangrite-bar)
 
 *Power:* +12
@@ -2132,7 +2211,7 @@ This is where it's at for power generation, until you start making your own [nuc
 
 *Where:* Constructed (Power).
 
-*Blueprint:* $6000 at RAPP-3.
+*Blueprint:* In the front room of Facility Mu, or $6000/$6600 at RAPP-3.
 
 *Cost:* 10x [Reinforced Material](#reinforced-building-material), 5x [Solazine](#solazine), 1x [Advanced Electronics](#advanced-electronics), 3x [Tangrite Bar](#tangrite-bar)
 
@@ -2251,7 +2330,7 @@ Ahh, that's better.
 
 *Where:* Constructed (Storage). You'll also find at least one of these next to almost every mining Facility you discover; they serve as excellent staging points when you're on long mining runs.
 
-*Blueprint:* $1500 at RAPP-2.
+*Blueprint:* Inside the Mu outbuilding, or $1500 at RAPP-2.
 
 *Cost:* 6x [Reinforced Materials](#reinforced-building-material), 1x [Servomotor](#servomotor)
 
@@ -2264,13 +2343,20 @@ Invaluable, once you have the parts to spare constructing them.
 
 *Where:* Constructed (Storage).
 
-*Blueprint:* $3000 at RAPP-3.
+*Blueprint:* $3000/$3300 at RAPP-3.
 
 *Cost:* 10x [Reinforced Materials](#reinforced-building-material), 2x [Servomotors](#servomotor)
 
 *Capacity:* 2000kg / 2500kg
 
 If you find yourself overwhelmed with [Building Materials](#building-material) (and you probably will), building one of these outside will go a long way towards making it so you never have to worry about them again.
+
+{% endaethusitem %}
+{% aethusitem 'Storage Vault Key' %}
+
+*Where:* The Omicron Secure Records Room.
+
+Used to unlock the gate inside the Storage Vault in Omicron's Climber Maintenance facility.
 
 {% endaethusitem %}
 {% aethusitem 'Strange Geode' %}
@@ -2307,7 +2393,7 @@ Used in a number of useful kitchen recipes. Always a good idea to collect more w
 
 *Where:* Constructed (Facilities). You'll find at least one of these in almost every mining Facility and most of the out-buildings as well.
 
-*Blueprint:* $4000 at RAPP-3, or as a reward for one of Trudy's fetch quests (*Electric Dreams*).
+*Blueprint:* $4000/$4400 at RAPP-3.
 
 *Cost:* 10x [Reinforced Materials](#reinforced-building-material), 1x [Advanced Electronics](#advanced-electronics), 1x [Microcircuits](#microcircuits), 2x [Kalynite Frame](#kalynite-frame)
 
@@ -2331,11 +2417,18 @@ As you run around Outside, your suit gets dirty. Eventually you'll start leaving
 
 *Where:* Constructed (Furniture). You find one early near the giant crater on the surface, which you can use Build Mode to move closer to your outpost if you want.
 
-*Blueprint:* Near the Large Crate found in the Lower Caves; down the long rocky bridge past Beta, then off to the right (**FIXME:** East?).
+*Blueprint:* Near the Large Crate in the Lower Caves; past Beta, down the long rocky bridge, then off to the West.
 
 *Cost:* 3x [Building Materials](#building-material)
 
 I hear there's a Skin Cancer DLC coming soon that will make these things absolutely essential.
+
+{% endaethusitem %}
+{% aethusitem 'Suit Upgrade Chip' %}
+
+*Where:* Facility Lambda; one in the habitat, and another in the museum.
+
+The first one of these you find activates the ability to find Geodes when you mine from nodes. The second gives you an immediate +10% bonus chance to find them. These make a nice companion to the [Prospecting Bench].
 
 {% endaethusitem %}
 {% aethusitem 'Superheating Kiln' %}
@@ -2442,13 +2535,13 @@ Used on the Surface to get rid of pesky terrain that's in the way of you buildin
 Note that these are "recursive", meaning you need a Small one to craft a Medium one, and so on.
 
 {% endaethusitem %}
-{% aethusitem 'Thermopump' %}
+{% aethusitem 'Thermo-Pump' %}
 
-*Where:*
+*Where:* Crafted at a [Crafting Bench](#crafting-bench).
 
 *Blueprint:* Omicron, inside the locked cage inside the spore-ridden storage room.
 
-*Cost:*
+*Cost:* 2x (1x) [Kalynite Frame](), 2x [Tangrite Bar](), 1x [High-Voltage Converter](), 4x (3x) [Industrial Coolant]()
 
 You need to make one of these in order to repair the Climber so that it goes in and out of Omicron. But to do it, you'll need to bring another [Mycelial Antigen Injector](#injector) with you so you can survive entering the storage room full of spores.
 
@@ -2484,7 +2577,7 @@ Used to craft [Chill Cola](#chill-cola) at the [Cooking Station](#cooking-statio
 
 *Where:* Constructed (Power).
 
-*Blueprint:* Inside Lisa Chapman's quarters in Epsilon, or $4500 at RAPP-3.
+*Blueprint:* Inside Lisa Chapman's quarters in Epsilon, or $4500/$4950 at RAPP-3.
 
 *Cost:* 30x [Building Material](#building-material), 3x [Basic Electronics](#basic-electronics), 1x [Servomotov](#servomotor), 2x [Meteorite Frame](#meteorite-frame)
 
@@ -2599,7 +2692,7 @@ Gemstones come in three varieties (normal, superior, and flawless) and therefore
 | Industrial Tools             |      $300 |
 | Injector, any                |      $800 |
 | Jaspite Bar                  |     $4000 |
-| Jaspite Geode                |   **???** |
+| Jaspite Geode                |     $2250 |
 | Jaspite Ore                  |      $350 |
 | Jenkins, any                 |     $1000 |
 | Kaloxite Geode               |      $500 |
@@ -2663,3 +2756,24 @@ Gemstones come in three varieties (normal, superior, and flawless) and therefore
 | Unstabilite Chunk            |      $400 |
 | Venturer Worm                |      $250 |
 | Vitaglass                    | $1300/1625/1950 |
+
+## Black Market Prices
+
+In the second half of the game, you're tasked with finding Gaia Data Servers, downloading their data onto a [Hardened Storage Drives], and bringing that data back to the [Black Market] to sell. Here are the various Data Servers and the price they fetch (in Black Market credits, of course). These are sorted by facility, not in the order that you find them.
+
+| Facility | Room | Credits |
+| :-: | --- | --: |
+| Delta     | Central Hub | $75 |
+| Epsilon   | Lisa Chapman's quarters | $150 ? $200 ? |
+| Epsilon   | Control Room | $75 |
+| Theta     | Central Hub | $75 |
+| Iota      | Station Master's Office | $150 |
+| Kappa     | AI Room | $75 |
+| Undersea Dam | Control Center | $75 |
+| Lambda    | Museum | $75 |
+| Mu        | Entrance | $75 |
+| Omicron   | Control Room | $300 |
+| Omicron   | Secure Records | $300 |
+| Rho       | Generator Control| $150 |
+| Sigma     | Generator Room (?) | |
+| Tau       | Operations Room | $150 |

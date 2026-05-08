@@ -7,7 +7,7 @@
 | Crater      | Meteor Glass | Meteorite | Black Diamond |
 | Crater      |              | Gold | Sky Sapphires |
 | Lost World  | Deepstone    | Tangrite | Bladestone |
-| Lost World  |              | Jaspite | (???) |
+| Lost World  |              | Jaspite | Bladestone |
 | Lost World  |              | Swamp | Vitaglass |
 | Magma Rifts | Lavastone    | Depthane | Depthane's Heart |
 | Magma Rifts |              | Quarinium | Miner's Bane |
@@ -60,7 +60,7 @@ Broadly covering the upper, central region.
 - **Gold Node** (gold): Gold Ore, Deepstone, Bladestone, Sky Sapphire, Gold Geode
 - **Greatwood Node** (brown): Greatwood, Living Amber
 - **Jaspite Node** (blue): Jaspite Ore, Deepstone, Bladestone, Jaspite Geode, Sky Sapphire, Vitaglass. Jaspite Nodes are rare; try looking near water, especially on river banks in the 'lower' area. (No longer convinced you can find these in the upper regions near Epsilon.)
-- **Tangrite Node** (purple): Tangrite Ore, Deepstone, Bladestone, Foucer Crytsal, Tangrite Geode
+- **Tangrite Node** (purple): Tangrite Ore, Deepstone, Bladestone, Foucer Crystal, Tangrite Geode
 - **Vitaglass Node** (green, rare): Vitaglass, Deepstone, ??? 
 - **Lifeshroom**: Lifeshroom
 - **Gorgo Tree**: Biomass, Pollen Stalk
@@ -80,9 +80,9 @@ The swampy region with all the dinosaur bones. Glowing Bulbs are really only ava
 ### Lost World: Theta and Kappa
 The infected area with spores floating in the air and reddish water, including the dam area. Mycelial Masses can only be found near Theta.
 - **Gold Node** (gold): Gold Ore, Deepstone, Bladestone, Sky Sapphire, Gold Geode
-- **Jaspite Node** (purple): Jaspite Ore, Deepstone, Bladestone, Jaspite Geode(?), Sky Sapphire, Vitaglass
+- **Jaspite Node** (blue): Jaspite Ore, Deepstone, Bladestone, Jaspite Geode(?), Sky Sapphire, Vitaglass
 - **Tangrite Node** (purple): Tangrite Ore, Deepstone, Bladestone, Foucer Crytsal, Tangrite Geode
-- **Wormwood Node** (brown, rare): Wormwood, Dead Amber, Mycelial Biomass, Hive Mycelia
+- **Wormwood Node** (brown): Wormwood, Dead Amber, Mycelial Biomass, Hive Mycelia
 - **Corrupt Gorgo Tree**: Biomass, Mycelial Biomass, Hive Mycelia, Pollen Stalk
 - **Mouldshrooms**: Mouldshrooms
 - **Mycelial Mass**: Mycelial Biomass, Hive Mycelia, Queen Mycelia
@@ -120,7 +120,7 @@ You're indoors, so there's nothing to mine here
 
 ## Drills and Mining Lasers
 
-Drills in the Caves and lasers in the Lost World require a **mark 1** Cargo Drone if you want them to deliver materials straight to your Outpost; lasers in the Magma Rifts require a **mark 2** drone.
+Drills in the Caves and lasers in the Lost World require a **Model 1** Cargo Drone if you want them to deliver materials straight to your Outpost; lasers in the Magma Rifts require a **Model 2** drone.
 
 | Where | Required | Produces |
 | ----- | -------- | -------- |

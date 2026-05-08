@@ -4,6 +4,16 @@
 
 *Goal:* Open the crate using the code from the nearby datapad (0155)
 
+## Absolute Power Corrupts
+
+*Trigger:* Return to Epsilon after starting [The Kappa Module](#the-kappa-module).
+
+*Goals:*
+
+1. Investigate Facility Theta.
+2. Construct a Biology Lab and make an Antigen Injector.
+3. Explore Theta and locate the Advanced Farming Technology. (Picking up the Large Plant Grow Bed satisfies the mission.)
+
 ## Arrival
 
 *Trigger:* Start the actual game (not the Prologue).
@@ -15,6 +25,51 @@
 3. Build a Makeshift Forge.
 4. Build a Makeshift Habitat.
 5. Construct a Bed.
+
+## Bare Metal
+
+*Trigger:* Complete [The Kappa Module](#the-kappa-module) by retrieving STANLEY from the AI Core Containment unit.
+
+*Goals:*
+
+1. Build an AI Core Containment unit in your Outpost.
+2. Install STANLEY into it.
+3. Run a Suit Scan.
+
+## Bridge to the Past
+
+*Trigger:* Complete [Sins of the Grandfather](#sins-of-the-grandfather) by listening to the third stub memory.
+
+*Goals:*
+
+1. Find the Tether Bridge outside Omicron and take the gondola to the other side.
+
+## Buried History
+
+*Trigger:* Another fetch quest.
+
+*Goals:* Bring three Ancient Bones to the Trade Node.
+
+You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests when you get the quest in the first place. You can't return Jaws, Ribs, Tails, or Skulls, though, just Bones. (They all sell for $1500 each though, so there's still value in the ones that don't satisfy the quest.)
+
+## Buried Memories
+
+*Trigger:* Complete [Great Green Glow](#great-green-glow) by exiting Tau's airlock for the first time.
+
+*Goals:*
+
+1. Find and enter Facility Iota.
+2. Repair the Particle Deflector.
+3. Check out the consoles upstairs and downstairs.
+4. Perform a couple of Suit Scans in the Ring Platform.
+5. Run the particle accelerator: load the ore into the Sample Chamber, hit the buttons on the downstairs console, run upstairs and hit the buttons there, then go back downstairs and hit the buttons again.
+6. Check out the Administrator's Office, which is now unlocked.
+7. Head back to your outpost and use a Suit Scan to contact the Resistance.
+8. Construct a Covert Comms Antenna and download data from it.
+9. Craft a Module Authenticator, then insert it into the AI Core Containment facility you've already built.
+10. Listen to Grampa's voice note in Roland's memories.
+11. Find Seam X-5.
+12. Enter the Habitat inside X-5 and do a Suit Scan.
 
 ## Deep Impact
 
@@ -39,7 +94,25 @@
 
 *Goals:* Bring three Microelectronics to the Trade Node.
 
-*Reward:* The blueprint for the Suit Charger.
+*Reward:* A completely random blueprint, which might be customization, construction, or crafting.
+
+## Existence in Flux
+
+*Trigger:* Roland freaks out when an unexpected outsider appears on your comms channel, right after you install Stanley into the AI Core Containment facility (see [Bare Metal](#bare-metal)).
+
+*Goals:*
+
+1. Dismantle and reconstruct your Comms Antenna.
+2. Return to Lisa Chapman's quarters in Epsilon and unlock the crate there.
+3. Bring the Hardened Storage Drive from the crate back to the Outpost.
+4. Construct a Matter Transporter using the blueprints from inside Chapman's crate.
+5. Teleport to "Omicron" using code `TP-0M1`.
+
+## Finding the Cure
+
+*Trigger:* Enter the infected portion of Facility Theta.
+
+*Goal:* Build a Biology Lab, grow some Inert Mycelia (requires producing Cleansed Mycelia first), and produce an Antigen Injector.
 
 ## First Bite
 
@@ -67,11 +140,32 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Goal:* Find the gold-drilling site up on the hill behind Delta.
 
+## Glittering Depths
+
+*Trigger:* Return to your home base after completing [Electric Dreams](#electric-dreams).
+
+*Goal:* Bring five Bladestones to the Trade Node.
+
+*Reward:* $7000(!!!)
+
 ## Going Down
 
 *Trigger:* Find the elevator beyond Facility Alpha and examine the view.
 
 *Goal:* Find or craft a Power Cell and repair the elevator.
+
+## Going Solo
+
+*Trigger:* Complete [Existence in Flux](#existence-in-flux) by taking the Matter Transporter for the first time.
+
+*Goals:*
+
+1. Find the Generator Control room.
+2. Locate three units of Industrial Coolant to cool down the Atmosphere Control Unit.
+3. Attempt to restart the generators using the console in the control room.
+4. Enter the Generator Room and restart all three generators.
+5. Repeat step 3.
+6. Return to the Rho Transit Hub, set the teleporter for Last Known Destination, and take it back to the Outpost.
 
 ## Going Underground
 
@@ -85,6 +179,28 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 3. Smelt a Kalynite Bar, construct a Crafting Bench, then make Mining Explosives and use them to clear the rockfall.
 
+## Great Green Glow
+
+*Trigger:* Complete [Into the Rifts](#into-the-rifts) by hopping down the cliff face beyond Rho and getting close to the disconnected Power Relays leading you towards Tau. Just visiting the atmosphere generator isn't enough; you need to hop a little closer before the mission will start.
+
+*Goals:*
+
+1. Find or craft another Power Relay buildkit.
+2. Reconnect the power network towards Tau.
+3. Enter the "Wrecked Tunnel" to enter Tau.
+4. Find the Airlock.
+5. Get rid of the radioactive green goop in front of the Airlock by running the Waste Disposal process.
+6. Exit Tau via the Airlock.
+
+## The Heat is On
+
+*Trigger:* Enter the Climber Room of Omicron.
+
+*Goals:*
+
+1. Find the Climber Maintenance facility on the bottom floor of Omicron.
+2. Find the blueprint for a Thermopump, craft one, and insert it into the maintenance terminal.
+
 ## Heavy Metal
 
 *Trigger:* "Complete" [Working for the Man](#working-for-the-man), but really it seems to just be "return from your next mining run".
@@ -92,6 +208,19 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 *Goal:* Deliver three Kalynite Frames to the Trade Node.
 
 *Reward:* $2000
+
+## The Inner Glow
+
+*Trigger:* Return to Epsilon after starting [The Kappa Module](#the-kappa-module).
+
+*Goals:*
+
+1. Find Facility Mu.
+2. Check out Facility Theta to find the recipe for Herbicide (and the blueprint for the Biology Lab).
+3. Build a Biology Lab at your outpost and craft some Herbicide Charges.
+4. Use the Herbicide Charges to explore Mu, clearing the path to the generator room.
+5. Find a way to open the door to the power generation room. (This involves deactivating the Tear_Paper protocol via the terminal in the Undersea Dam.)
+6. Enter the generator room and find the blueprint for "advanced power generation facilities", aka the Large Solar Panel.
 
 ## Into the Darkness
 
@@ -106,6 +235,28 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 5. Find Facility Kappa.
 6. Investigate the Kappa Dam, and eventually drain it.
 
+## Into the Rifts
+
+*Trigger:* Complete [Under the Table](#under-the-table) by buying your first upgrade from the Black Market.
+
+*Goals:* 
+
+1. Return to Rho via the Transporter, use the Airlock, and explore the area.
+1. Explore the area outside Rho, cross the bridge, and find the broken power relay.
+1. Find (spot, really) the next facility.
+
+## The Kappa Module
+
+*Trigger:* Complete [Into the Darkness](#into-the-darkness) by entering the Undersea Dam Facility and trying the door.
+
+*Goals:*
+
+1. Find Harlow's keycard in the Epsilon bunker, Sinclair's in Theta, and Chapman's in Mu.
+1. Enter the Undersea Dam Control Room and activate the Draining Protocol.
+1. Explore Facility Kappa and learn the truth about Stanley.
+
+**FIXME** I might have missed some here.
+
 ## Lay of the Land
 
 *Trigger:* Complete [Arrival](#arrival).
@@ -117,6 +268,12 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 *Trigger:* Complete [Glint of Gold](#glint-of-gold) by finding the Gold Drill behind Delta, and read the log files inside.
 
 *Goal:* Find the "back door" exit from the caves that brings you out by the Bloodfall.
+
+## Manufactory
+
+*Trigger*: Look at the process control console in the Operations Room at Tau.
+
+*Goal:* Fix up the three parts of the manufacturing process and run it once to see what it does.
 
 ## Mechanic Required
 
@@ -137,6 +294,12 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 *Trigger:* Find the blueprint for the Dew Catcher under the sun shade near the big crater on the surface.
 
 *Goal:* Build a Dew Catcher.
+
+## The Motherlode
+
+*Trigger:* Step onto the central platform between the two metal bridges inside Seam X-5.
+
+*Goal:* Delve deeper into Seam X-5 and mine some Hyperion Crystals.
 
 ## Out of This World
 
@@ -169,6 +332,17 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Goal:* Construct a Regolith Printer in your Habitat. (Requires completing [Power Up](#power-up).)
 
+## Sins of the Grandfather
+
+*Trigger*: Complete [Buried Memories](#buried-memories) by listening to your Grandad's message to you.
+
+*Goals:*
+
+1. Find and investigate Omicron, building a power grid to restore power and using Grandad's keycard to get in.
+2. Find the Secure Records Room, then figure out the four-digit code by tracking down several workpad log entries.
+3. Read the journal entry on the datapad.
+4. Listen to the next Stub Memory.
+
 ## Skeletons of the Past
 
 *Trigger:* Find the datapad from Caleb Vihaan in the courtyard of Epsilon.
@@ -176,7 +350,21 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 *Goals:*
 
 1. Investigate Lambda.
-2. Get into the Secure Storage facility of Epsilon.
+2. Get into the Secure Storage facility of Epsilon and retrieve the Nuclear Fuel Rod.
+3. Craft an RTG Recator Core, bring it to Lambda, and repair the reactor using the ARMS unit.
+4. Explore the rest of Lambda and find the plans for the Prospecting Bench.
+
+## Spring Fling
+
+*Trigger*: A special Easter 2026 quest line. Shows up after you explore Iota then return to Tau.
+
+*Goal:* Find some chocolate eggs that Roland has hidden across the universe.
+
+1. "I hope I don't fall in" — the drill near the waterfall in the Lower Caverns.
+2. "Eye of the beholder" — a dinosaur skeleton between the back entrance to Epsilon and the broken bridge that takes you around towards the front entrance.
+3. "Very warm flying machine" — the pipes above Iota, somewhat near the mining laser, overlooking the sunken heavy-duty drone
+
+*Reward:* Each egg you find grants you two new decorations in the "Spring" category. Find all three and you also get an Easter Basket to store them in.
 
 ## Storage Wars
 
@@ -196,14 +384,33 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Goals:*
 
-1. Use a Bypass Mole to interact with the Facility Control terminal and download the blueprint for a Crater Climber.
-2. Build the Climber Station on the surface to allow the Climber to connect all the way through.
+1. Use a Bypass Mole to extract the blueprint for a Crater Climber from Facility Control.
+2. Build the Crater Climber station on the surface to allow the Climber to connect all the way through.
 
 ## The Way Opens
 
 *Trigger:* Complete [Going Underground](#going-underground).
 
 *Goal*: Explore Habitat Alpha, located just beyond the cave-in.
+
+## Underground Expansion
+
+*Trigger:* Find your first Buildkit near a power relay on the far side of the bridge from Rho.
+
+*Goals:*
+
+1. Return to your outpost to learn how to use Buildkits.
+2. Reach RAPP-4, buy the plans for the Expedition Hub (which is listed as RAPP-3, weirdly), and construct one.
+
+## Under the Table
+
+*Trigger:* Complete [Going Solo](#going-solo) by returning to your outpost after restoring the power at Rho.
+
+*Goals:*
+
+1. Use a Suit Scan to contact the Resistance.
+2. Build a Black Market node.
+3. Sell the Hardened Drive from Lisa Chapman's quarters and purchase the Module Decoder upgrade.
 
 ## Working for the Man
 

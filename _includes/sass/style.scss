@@ -63,6 +63,28 @@ body {
     text-decoration-line: none;
   }
 
+  blockquote {
+    background-color: #fee;
+    color: #744;
+    border-left: 3px solid #a77;
+    padding: 5px 10px;
+    margin: 10px 15px;
+
+    p {
+      margin: 5px 0px;
+    }
+  }
+
+  code {
+    background-color: #eee;
+    padding: 0.1rem;
+  }
+
+  figcaption {
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+
   h1, h2, h3, h4 {
     font-weight: normal;
     color: #159957;
@@ -77,27 +99,22 @@ body {
   h2 {
     margin-block-start: 3rem;
     margin-block-end: 1.5rem;
+
+    &.side_quest {
+      color: #f80;
+    }
+
+    &.main_quest {
+      color: #088;
+    }
+
+    &.fetch_quest {
+      color: #f0f;
+    }
   }
 
   li {
     margin-bottom: 0.1rem;
-  }
-
-  code {
-    background-color: #eee;
-    padding: 0.1rem;
-  }
-
-  blockquote {
-    background-color: #fee;
-    color: #744;
-    border-left: 3px solid #a77;
-    padding: 5px 10px;
-    margin: 10px 15px;
-
-    p {
-      margin: 5px 0px;
-    }
   }
 }
 

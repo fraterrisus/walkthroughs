@@ -1,4 +1,4 @@
-## Access Denied
+## Access Denied <!-- {.side_quest} -->
 
 *Trigger:* Find the sun shade near the big crater on the surface and the code-locked crate inside.
 
@@ -14,7 +14,7 @@
 2. Construct a Biology Lab and make an Antigen Injector.
 3. Explore Theta and locate the Advanced Farming Technology. (Picking up the Large Plant Grow Bed satisfies the mission.)
 
-## Arrival
+## Arrival <!-- {.main_quest} -->
 
 *Trigger:* Start the actual game (not the Prologue).
 
@@ -26,7 +26,7 @@
 4. Build a Makeshift Habitat.
 5. Construct a Bed.
 
-## Bare Metal
+## Bare Metal <!-- {.main_quest} -->
 
 *Trigger:* Complete [The Kappa Module](#the-kappa-module) by retrieving STANLEY from the AI Core Containment unit.
 
@@ -36,15 +36,18 @@
 2. Install STANLEY into it.
 3. Run a Suit Scan.
 
-## Bridge to the Past
+## Bridge to the Past <!-- {.main_quest} -->
 
 *Trigger:* Complete [Sins of the Grandfather](#sins-of-the-grandfather) by listening to the third stub memory.
 
 *Goals:*
 
-1. Find the Tether Bridge outside Omicron and take the gondola to the other side.
+1. Find the Tether Bridge Control Facility outside Omicron.
+1. Return to your outpost so Roland can tell you how to reenable Stanley.
+1. Gather some Hyperion Crystal from Seam X-5 and use it to craft a Cognative Linkage Module, then use that to talk to Stanley.
+1. Reconnect power to the Control Facility, then use the console to reactivate the Tether Bridge, then take the Bridge to Hades.
 
-## Buried History
+## Buried History <!-- {.fetch_quest} -->
 
 *Trigger:* Another fetch quest.
 
@@ -71,6 +74,33 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 11. Find Seam X-5.
 12. Enter the Habitat inside X-5 and do a Suit Scan.
 
+## Crystal Clear
+
+*Trigger:* Complete [Bridge to the Past](#bridge-to-the-past) by reaching Mining Facility Hades.
+
+*Goals:*
+
+1. Find Facility Sigma.
+2. Get past the drills.
+3. Investigate the crystal. The beauuuuuuutiful crystal.
+4. APPROACH THE CRYSTAL. CRYSTAL CRYSTAL CRYSTAL.
+5. Wake up with a really bad hangover and listen to some dialogue.
+6. Craft three Programmable Splices and stick one in each of the automated mining lasers.
+7. Find Facility Sigma, now that the crystal is out of the way.
+
+## Data Diggers
+
+*Trigger:* Complete [Crystal Clear](#crystal-clear) by exploring past the Aetherium crystal and spotting Sigma directly.
+
+*Goals:*
+
+1. Find a way into Sigma.
+2. Explore Sigma and find the Comms Room.
+3. Find the Antenna on the hill outside Sigma.
+4. Craft Bypass Moles and install them in all three Comms Antennas throughout the Rifts.
+5. Use the console on the Sigma antenna to realign the radar dish.
+6. Visit the Comms Room at Sigma and download the data there.
+
 ## Deep Impact
 
 *Trigger:* Find the elevator beyond Facility Alpha and examine the view.
@@ -88,11 +118,11 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 9. Drop the EMP into the Blast Door, then return to the surface.
 10. Return to Delta and reactivate the Climber.
 
-## Electric Dreams
+## Electric Dreams <!-- {.fetch_quest} -->
 
 *Trigger:* Return from the Lost World... with something.
 
-*Goals:* Bring three Microelectronics to the Trade Node.
+*Goals:* Bring three [Microcircuits](/aethus/items/#microcircuits) to the Trade Node.
 
 *Reward:* A completely random blueprint, which might be customization, construction, or crafting.
 
@@ -120,6 +150,23 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 
 *Goal:* Collect and eat a Cactus Fruit.
 
+## From Alpha to Omega
+
+*Trigger:* Complete [Turning the Tables](#turning-the-tables) by flying the cargo drone from Sigma to Omega.
+
+*Goals:*
+
+1. Enter Omega and explore the control room.
+1. Take the elevator down to the main floor.
+1. Find a way down to the AI research floor.
+1. Enter the Quantum Lab and put Stanley into the Core Containment facility there.
+1. Cross the atrium and find your way into the AI Lab.
+1. Find the Central Server room and insert Stanley's Quantum Chip into the console.
+1. Crawl through the ventilation system to reach the Aetherium research floor.
+1. Head towards the Primary Test Chamber, but detour to Test Control to unlock the door.
+1. Take Dr. Li's keycard from her body and visit her office.
+1. Deactivate the Tear Paper Protocol, then return to the Test Chamber to complete the game.
+
 ## Frontier Cooking
 
 *Trigger:* Complete [Arrival](#arrival).
@@ -140,11 +187,11 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Goal:* Find the gold-drilling site up on the hill behind Delta.
 
-## Glittering Depths
+## Glittering Depths <!-- {.fetch_quest} -->
 
 *Trigger:* Return to your home base after completing [Electric Dreams](#electric-dreams).
 
-*Goal:* Bring five Bladestones to the Trade Node.
+*Goal:* Bring five [Bladestones](/aethus/items/#bladestone) to the Trade Node.
 
 *Reward:* $7000(!!!)
 
@@ -201,11 +248,11 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 1. Find the Climber Maintenance facility on the bottom floor of Omicron.
 2. Find the blueprint for a Thermopump, craft one, and insert it into the maintenance terminal.
 
-## Heavy Metal
+## Heavy Metal <!-- {.fetch_quest} -->
 
 *Trigger:* "Complete" [Working for the Man](#working-for-the-man), but really it seems to just be "return from your next mining run".
 
-*Goal:* Deliver three Kalynite Frames to the Trade Node.
+*Goal:* Deliver three [Kalynite Frames](/aethus/items/#kalynite-frame) to the Trade Node.
 
 *Reward:* $2000
 
@@ -257,6 +304,22 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 **FIXME** I might have missed some here.
 
+## Kryptos
+
+*Trigger:* Complete [Data Diggers](#data-diggers) by reading the data on the Sigma communications terminal.
+
+*Goals:*
+
+1. Transport yourself to Kryptos using the code `KRYP-VIP-1`.
+2. Explore Kryptos for answers.
+3. Find a Credentials Terminal in the Medical Control room, use keycode `1234` on it, and print a keycard for Dr. Harlow.
+4. Enter the Medical Chief's office with the new keycard.
+5. Search the office console.
+6. Access the Surgery Suite with the code `4321`.
+7. Access the Scanning Suite with the code `4105`.
+8. Exit the facility through the Emergency Access, using code `9620`.
+9. Return to your outpost and listen to the fourth Stub Memory.
+
 ## Lay of the Land
 
 *Trigger:* Complete [Arrival](#arrival).
@@ -281,17 +344,17 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Goal:* Build an Electronics Workbench, then craft a Servomotor and use it to repair the door.
 
-## The Menagerie
+## The Menagerie <!-- {.fetch_quest} -->
 
 *Trigger:* Return from a mining run after completing [Heavy Metal](#heavy-metal).
 
-*Goal:* Deliver ten [Mysterious Eggs](items/#mysterious-eggs) to the Trade Node.
+*Goal:* Deliver ten [Mysterious Eggs](/aethus/items/#mysterious-egg) to the Trade Node.
 
 *Reward:* $3000
 
 ## Moisture Farmer
 
-*Trigger:* Find the blueprint for the Dew Catcher under the sun shade near the big crater on the surface.
+*Trigger:* Find the blueprint for the [Dew Catcher](/aethus/items/#dew-catcher) under the sun shade near the big crater on the surface.
 
 *Goal:* Build a Dew Catcher.
 
@@ -301,7 +364,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Goal:* Delve deeper into Seam X-5 and mine some Hyperion Crystals.
 
-## Out of This World
+## Out of This World <!-- {.fetch_quest} -->
 
 *Trigger:* Bring Meteorite back to your Outpost.
 
@@ -386,12 +449,22 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 1. Use a Bypass Mole to extract the blueprint for a Crater Climber from Facility Control.
 2. Build the Crater Climber station on the surface to allow the Climber to connect all the way through.
+3. Craft a Strange Fuel Rod using the particle accelerator at Iota and the manufacturing process at Tau and insert it into the drone.
+4. Return to the outpost to come up with a new plan.
 
-## The Way Opens
+## Turning the Tables
 
-*Trigger:* Complete [Going Underground](#going-underground).
+*Trigger:* Complete [Kryptos](#kryptos) by listening to the fourth stub memory.
 
-*Goal*: Explore Habitat Alpha, located just beyond the cave-in.
+*Goals:*
+
+1. Clear your head by visiting the Bloodfall.
+2. Find the cargo drone on the landing pad behind Sigma.
+3. Return to the outpost to come up with a new plan.
+4. Craft a Remote Restart Chip and insert it into the Covert Comms Antenna.
+5. Pull Stanley's AI core out of the Containment Facility.
+6. Use the Covert Comms Antenna to call Trudy.
+7. Run like hell to the landing pad at Sigma and board the cargo drone.
 
 ## Underground Expansion
 
@@ -411,6 +484,12 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 1. Use a Suit Scan to contact the Resistance.
 2. Build a Black Market node.
 3. Sell the Hardened Drive from Lisa Chapman's quarters and purchase the Module Decoder upgrade.
+
+## The Way Opens
+
+*Trigger:* Complete [Going Underground](#going-underground).
+
+*Goal*: Explore Habitat Alpha, located just beyond the cave-in.
 
 ## Working for the Man
 

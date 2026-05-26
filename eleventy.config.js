@@ -44,6 +44,7 @@ ${content}
 
   eleventyConfig.addGlobalData("layout", "default");
 
+  eleventyConfig.addPassthroughCopy("aethus/*.png");
   eleventyConfig.addPassthroughCopy("aethus/icons/*.png");
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("**/svg/*.svg");

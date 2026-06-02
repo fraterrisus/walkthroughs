@@ -17,11 +17,15 @@
   clear: both;
   max-height: 500px;
   overflow-y: scroll;
-}
 
-#toc-body ul {
-  padding-inline-start: 30px;
-  padding-inline-end: 30px;
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    padding-inline-start: 30px;
+    padding-inline-end: 30px;
+  }
 }
 
 #toc-image {

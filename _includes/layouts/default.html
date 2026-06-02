@@ -21,28 +21,28 @@ navbar: true
     {% include "navbar.html" %}
     {% endif %}
 
-    <main id="content" class="main-content" role="main">
-      {% if toc.enabled %}
-      <div id="table-of-contents">
-        <div id="toc-header">
-          <b>Contents</b>
-          <div id="toc-image">
-            <img src="/assets/img/menu.png" id="toc-collapse" height="25px" width="25px" />
-          </div>
-        </div>
-        <div id="toc-body" class="toc-hidden">
-          {% assign a = toc.h_min %}
-          {% if toc.h_max %}
-            {% assign b = toc.h_max %}
-            {% capture local_opts %}{"tags": [{% for i in (a..b) %}"h{{i}}"{% unless forloop.last %},{% endunless %}{%endfor%}]}{% endcapture %}
-          {% else %}
-            {% capture local_opts %}{"tags": ["h{{a}}"]}{% endcapture %}
-          {% endif %}
-          {{ content | renderTransforms | toc: local_opts }}
+    {% if toc.enabled %}
+    <div id="table-of-contents">
+      <div id="toc-header">
+        <b>Contents</b>
+        <div id="toc-image">
+          <img src="/assets/img/menu.png" id="toc-collapse" height="25px" width="25px" />
         </div>
       </div>
-      {% endif %}
+      <div id="toc-body" class="toc-hidden">
+        {% assign a = toc.h_min %}
+        {% if toc.h_max %}
+          {% assign b = toc.h_max %}
+          {% capture local_opts %}{"tags": [{% for i in (a..b) %}"h{{i}}"{% unless forloop.last %},{% endunless %}{%endfor%}]}{% endcapture %}
+        {% else %}
+          {% capture local_opts %}{"tags": ["h{{a}}"]}{% endcapture %}
+        {% endif %}
+        {{ content | renderTransforms | toc: local_opts }}
+      </div>
+    </div>
+    {% endif %}
 
+    <main id="content" class="main-content" role="main">
       {{ content }}
 
       {% include "footer.html" %}

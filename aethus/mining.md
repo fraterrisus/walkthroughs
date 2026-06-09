@@ -31,7 +31,7 @@ Your first steps underground.
 - **Cave Mushroom**: Cave Mushroom
 
 ### Inner Caves
-Facilities Alpha and Beta (at the foot of the elevator), and the steamy swamps along the hill.
+Facilities Alpha and Beta (at the foot of the elevator) and the steamy swamps along the hill.
 - Everything in the Outer Caves
 - **Kaloxite Node** (pale blue): Sandstone, Kaloxite Ore, Oxite, Silica, Dust Ruby, Pangimony, Kaloxite Geode
 - **Kalynite Node** (white): Sandstone, Kalynite Ore, Solazine, Silica, Dust Ruby, Pangimony, Kalynite Geode

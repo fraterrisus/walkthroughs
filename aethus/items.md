@@ -5,31 +5,6 @@ toc:
   h_max: 3
 ---
 
-<!--
-Blueprints I've purchased:
-- Cargo Bay mk 1
-- Cargo Habitat
-- Carpet
-- Cooking Station
-- Display Shelf
-- Electronics Workbench
-- Ground Platform (S, L)
-- Hub Habitat
-- Locker
-- Meteorite Frame (oops.)
-- Micro Connector
-- Recycling Station
-- Solar Panel (S)
-- Standard Smelter (oops?)
-- Storage Container
-- Suit Cleaner
-- Superheating Kiln
-- Tangrite Drill Bit
-- Tangrite Frame
-- Terraforming Charge (M)
-- Welfare Hab
--->
-
 # Things and Stuff
 
 A list of every* item in the game and where and how to find it, craft it, or build it. I have grouped some things together for convenience, but for the most part this list is in alphabetical order. Check for "Variants" if you can't find the thing you're looking for.
@@ -39,25 +14,6 @@ A list of every* item in the game and where and how to find it, craft it, or bui
 If a discount is available (for having a crafting facility in the correct Habitat), the reduced cost is shown in parentheses.
 
 *Blueprints* haven't been added for every item yet; if it says "RAPP" that means it is available for purchase from the Trade Node at the given level of the Resource Acquisition Partner Program. You'll probably be at RAPP-3 when ARC imposes a 10% tariff, so RAPP-3 prices are listed before/after the tariff, but RAPP-4 and -5 prices are all post-tariff. (Anything you haven't purchased at a lower level is also subject to the tariff, I'm just not listing it here.)
-
-## Errata
-- '[*sigh*]'
-- 'Buildpacks'
-- '#basic-electronics' (no path)
-- '/aethus/items/#foucer-crystal' (should be plural)
-- '/aethus/items/#power-relay' (should be Buildkit)
-- '/aethus/items/#keycard' (should be Personal Keycard)
-- '/aethus/items/#coolant'
-- '/aethus/items/#storage-drive'
-- '/aethus/items/#hardened-drive'
-- '/aethus/items/#depthane-lens'
-- '/aethus/items/#jaspite-lens'
-- '/aethus/items/#microcircuit'
-- '/aethus/items/#reinforced-materials'
-- '/aethus/items/#servomotors'
-- '/aethus/items/#thermopump' (hyphenate)
-- '/aethus/items/#emergency-floor-light'
-- '/aethus/items/#oxygen-domes'
 
 ## Item-o-pedia
 
@@ -130,13 +86,13 @@ Generally required between any two Habitats and/or Connectors. Snapping is moder
 You need 3x of these to fulfill one of Trudy's fetch quests. Otherwise they can be sold for $1500.
 
 {% endaethusitem %}
-{% aethusitem 'Ancient Parts', 'Ancient Jaw' %}
+{% aethusitem 'Ancient Parts', 'Ancient Jaw', 'Ancient Skeleton' %}
 
 *Variants:* **Ancient Jaw, Ancient Ribs, Ancient Skull, Ancient Tail**
 
 *Where:* [Fished](#fishing-lure) out of the swamps of the Lost World.
 
-The game hints that you might be able to "assemble a larger whole", but I was never able to make that happen. These pieces don't count for Trudy's fetch quest, so sell them ($1500) or arrange them artistically in your museum.
+These pieces don't count for Trudy's fetch quest. Collect all four and use one from your inventory to convert them into an **Ancient Skeleton**, which sells for the same amount ($6000 vs $1500 &times; 4) or can be arranged artistically in your museum.
 
 {% endaethusitem %}
 {% aethusitem 'Angled Desk' %}
@@ -1268,8 +1224,8 @@ A mid-game crafting material, used to fabricate [Focusing Lenses](#focusing-lens
 {% aethusitem 'Hardened Storage Drive' %}
 
 *Where:* Find the first one in the lockbox in Lisa Chapman's quarters, as part of the *Existence in Flux* storyline. Further (empty) ones are crafted at the [Electronics Workbench](#electronics-workbench).
-trophic
-*Blueprint:* Granted once you get in touch with the Resistance (*Under the Table*).
+
+*Blueprint:* Granted once you get in touch with the Resistance ([*Under the Table*](/aethus/quests/#under-the-table)).
 
 *Cost (for 2x):* 1x [Tangrite Bar](#tangrite-bar), 1x [Basic Electronics](#basic-electronics), 1x [Power Cell](#power-cell), 1x [Bypass Mole](#bypass-mole)
 
@@ -2647,7 +2603,7 @@ Throws some additional bright light into a space. Mounted vertically on a wall; 
 
 *Power:* &ndash;2
 
-If you're sick of running around collecting [bottled water](#bottled-water) from [Dew Catchersx](#dew-catcher), pop one or two of these into the freshwater lake near your Outpost and stick some [Cargo Drones](#cargo-drone) in them. Now [Bottled Water (L)](#bottled-water) will periodically show up in your [Cargo Bay](#cargo-bay).
+If you're sick of running around collecting [bottled water](#bottled-water) from [Dew Catchers](#dew-catcher), pop one or two of these into the freshwater lake near your Outpost and stick some [Cargo Drones](#cargo-drone) in them. Now [Bottled Water (L)](#bottled-water) will periodically show up in your [Cargo Bay](#cargo-bay).
 
 {% endaethusitem %}
 {% aethusitem 'Welfare Habitat' %}
@@ -2682,6 +2638,7 @@ Gemstones come in three varieties (normal, superior, and flawless) and therefore
 | Advanced Electronics         |     $5000 |
 | Aethian Minnow               |      $100 |
 | Ancient Bones                |     $1500 |
+| Ancient Skeleton | $6000 |
 | Aquaculture Pack             |       $75 |
 | ARCola                       |      $225 |
 | ARC Credit Chip              |    varies |

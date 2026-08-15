@@ -101,7 +101,7 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 5. Use the console on the Sigma antenna to realign the radar dish.
 6. Visit the Comms Room at Sigma and download the data there.
 
-## Deep Impact
+## Deep Impact <!-- {.main_quest} -->
 
 *Trigger:* Find the elevator beyond Facility Alpha and examine the view.
 
@@ -269,7 +269,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 5. Find a way to open the door to the power generation room. (This involves deactivating the Tear_Paper protocol via the terminal in the Undersea Dam.)
 6. Enter the generator room and find the blueprint for "advanced power generation facilities", aka the Large Solar Panel.
 
-## Into the Darkness
+## Into the Darkness <!-- {.main_quest} -->
 
 *Trigger:* Complete [Deep Impact](#deep-impact) by reaching Epsilon.
 
@@ -292,7 +292,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 1. Explore the area outside Rho, cross the bridge, and find the broken power relay.
 1. Find (spot, really) the next facility.
 
-## The Kappa Module
+## The Kappa Module <!-- {.main_quest} -->
 
 *Trigger:* Complete [Into the Darkness](#into-the-darkness) by entering the Undersea Dam Facility and trying the door.
 
@@ -406,7 +406,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 3. Read the journal entry on the datapad.
 4. Listen to the next Stub Memory.
 
-## Skeletons of the Past
+## Skeletons of the Past <!-- {.side_quest} -->
 
 *Trigger:* Find the datapad from Caleb Vihaan in the courtyard of Epsilon.
 

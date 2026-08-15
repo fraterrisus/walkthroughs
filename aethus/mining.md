@@ -31,7 +31,7 @@ Your first steps underground.
 - **Cave Mushroom**: Cave Mushroom
 
 ### Inner Caves
-Facilities Alpha and Beta (at the foot of the elevator) and the steamy swamps along the hill.
+Facilities Alpha and Beta and the steamy swamps along the hill.
 - Everything in the Outer Caves
 - **Kaloxite Node** (pale blue): Sandstone, Kaloxite Ore, Oxite, Silica, Dust Ruby, Pangimony, Kaloxite Geode
 - **Kalynite Node** (white): Sandstone, Kalynite Ore, Solazine, Silica, Dust Ruby, Pangimony, Kalynite Geode
@@ -41,7 +41,7 @@ Facilities Alpha and Beta (at the foot of the elevator) and the steamy swamps al
 - **Glowtus Plant**: Glowtus Seed, Glowtus Fruit, Biomass
 
 ### Lower Caves
-Across the landbridge or down the long ramp from Beta, including the area up the hill behind Delta. Also known as the "outer crater" area. Your first "high oxygen drain" area.
+Across the landbridge or down the long ramp from Beta, including the area up the hill behind Delta. Also known as the "outer crater" area.
 - Everything in the Inner Caves
 - **Gold Node**: Sandstone, Gold Ore, Sky Sapphire, Pangimony, Dust Ruby
 - **Sugarplant**: Sugarplant

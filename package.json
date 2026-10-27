@@ -19,5 +19,8 @@
     "markdown-it-decorate": "^1.2.2",
     "markdown-it-multimd-table": "^4.2.3",
     "sass": "^1.99.0"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.5.1": true
   }
 }

@@ -231,7 +231,7 @@ That said, if you happen to wander S from the entry stairs, you'll be in a windi
 
 Let's head back to the surface, and cross our first bridge.
 
-### Guard Bridge #1
+### First Guard Bridge
 
 Map: [Guard Bridge #1](/dragon-wars/maps/guard-bridge-1/)
 
@@ -239,7 +239,7 @@ The bridge between Forlorn and Sun is just N of Purgatory. The first time you ap
 
 Once you make it on to the actual bridge map you can read `(p12)`, but before you approach the bridge itself, step 3E 2N and find an arms cache. The Bladed Flail (1d12) isn't any better than the War Flail but sells for way more money. The Helm and Shield are free AC points. *S:Sun Light* is a slightly more powerful healing spell (1-6 for 3pt, instead of *L:Lesser Heal's* 1-4 for 2pt).
 
-To the W of the bridge there's a rock with a message written on it. Restoring the Masters of Magic is definitely on our agenda, so this is good to know. And it sounds like those Stone Arms we turned up will be useful for something. (Oh. You skipped Tars and came straight here? Ignore what I said about the Stone Arms then. It's just the [name of a bar](#i-m-free-as-a-bird-now-freeport). Yup. Promise.)
+To the W of the bridge there's a rock with a message written on it. Restoring the Masters of Magic is definitely on our agenda, so this is good to know. And it sounds like we should bring those Stone Arms we turned up to somewhere called the City of the Yellow Mud Toad. (Oh. You skipped Tars and came straight here? Ignore what I said about the Stone Arms then. It's just the [name of a bar](#i-m-free-as-a-bird-now-freeport). Yup. Promise.) A quick check of the map in the game's manual reveals that Mud Toad is on Quag Isle, which is a ways off from here.
 
 The bridge guards are pretty nasty; much more so than the ones you just killed on Forlorn. Your choices are to `(U)se` your Citizenship Papers and pay a ~~bribe~~ toll ($10 per person, not so bad really), or to step forward defiantly and fight them off. Keep in mind that the guards can kill you, not just stun, so save first if you decide to fight. Also, they may call for help. Blast 'em with big spells. If you happen to come back through here heading towards Forlorn again, the guards will look at you funny, but let you pass when you show your papers.
 
@@ -279,11 +279,11 @@ From the Mushroom spot, go 1E 6S. Face S towards the lake and `(U)se` Ulrik's *S
 
 A little NW of the lake is a spot where there are some tracks on the ground. If you `(U)se` *Tracker* to follow them, they'll lead you to a spot 2S of the Nexus, which we've already been to. Also, there's a fixed combat 1N of you, which is kind of a dirty trick if you ask me.
 
-Now comes the fun part. Visit the druid's shrine in the NW corner `(p6)`. Go up to the statue and pick up the Beast Horn, then `(U)se` it (you can also `(U)se` your SPR attribute, or just cast *D:Beast Call* yourself if you have it). Enkidu himself comes to life `(p73)` and offers to wrestle. This is a weird [STR check](/dragon-wars/#game-mechanics) vs 1d8+15; STR 15 always loses, STR 24 always wins, and your chance of winning goes up linearly between them, but you can retry as often as you like. When you win, Enkidu grants you *Druid Magic* 2 along with most of the combat spells. This is a great way to take advantage of Louie's abnormally high SPR and INT, although you'll need to pump some AP into his STR before he can win the wrestling match. But you were probably doing that anyway.
+Now comes the fun part. Visit the druid's shrine in the NW corner `(p6)`. Go up to the statue and pick up the Beast Horn. To call Enkidu's statue to life, `(U)se` your SPR attribute, cast *D:Beast Call* if you have it, or `(U)se` the Beast Horn which casts the same spell. The demigod offers you a wrestling match `(p73)`. Mechanically, this is a weird [STR check](/dragon-wars/#game-mechanics) vs 1d8+15; STR 15 always loses, STR 24 always wins, and your chance of winning goes up linearly between them, but you can retry as often as you like. When (if) you win, Enkidu grants the wrestler *Druid Magic* 2 along with most of the combat spells. This is a great way to take advantage of Louie's abnormally high SPR and INT, although you'll need to pump some AP into his STR before he can win the wrestling match. But you were probably doing that anyway.
 
-You don't need the Beast Horn after this; if you `(U)se` it again, it just casts *D:Beast Call.*
+You don't need the Beast Horn after this, unless you want to keep an item that casts *D:Beast Call* around.
 
-Enkidu grants you *D:Death Curse, D:Fire Blast, D:Insect Plague, D:Whirl Wind, D:Scare, D:Greater Healing,* and *D:Beast Call.*
+Enkidu grants you *D:Death Curse, D:Fire Blast, D:Insect Plague, D:Whirl Wind, D:Scare, D:Greater Healing,* and *D:Beast Call.* Oddly, this is the only place it's possible to get *Whirl Wind*, so a "natural" Druid Mage can't ever learn it.
 
 ### "SS" is the Key Combo For "Save Game" (Phoebus)
 
@@ -335,9 +335,9 @@ Now for the mop-up. In the short N/S hallway with the armory, the S door is lock
 
 Don't worry about the "leave quickly" warning. You did leave the board and re-enter, so all of the fights up here have refreshed, but that shouldn't bother you too much. Step 1E and receive a warning from an Ominous Fellow, who will immediately run away from you.
 
-Before you leave town, make sure you go back over to the Icarian Triumph to meet up with Berengaria. Unfortunately it seems that he's fled for his life, towards the City of the Yellow Mud Toad. (Note: if you don't do this, then Berengaria never shows up there, and you don't get your spells!) Where is this city, you ask? Well, a quick check of the map in the game's manual shows that there's a city called Mud Toad on an island to the E of here called Quag, but it's a bit of a hike from here. So we're off to cross another bridge...
+Before you leave town, make sure you go back over to the Icarian Triumph to meet up with Berengaria. Unfortunately it seems that he's fled for his life, towards the City of the Yellow Mud Toad. (Note: if you don't do this, then Berengaria never shows up there, and you don't get your spells!) That's the second time we've caught a reference to that city, so I guess that's where we're heading next. But to get there we have to cross another bridge...
 
-### We're on the Road to Nowhere (Guard Bridge #2)
+### We're on the Road to Nowhere (Second Guard Bridge)
 
 Map: [Guard Bridge #2](/dragon-wars/maps/guard-bridge-2/)
 
@@ -576,7 +576,9 @@ The good news is that there are zero encounters on this little islet. The bad ne
 
 Head to the W shore, affectiontely known as Toxic Beach. You'll find the Stone Head somewhere in the NW.
 
-E of there, among a grove of trees near the N shore, you'll find a pile of fresh pine branches. Pick some up, hand them to your Druid mage, then go to the SW corner where, along the S shore, you'll find a madman who refuses to go inside. `(U)se` the Branches and he'll teach you *D:Beast Call*. Learning this spell doesn't consume the Branches (or chase off the guy), so hand them to your other Druid mage(s) and do it again. (Anybody who got their *Druid Magic* from Enkidu already has it.) In fact, you don't even need the Branches in the first place; you can also just `(U)se` your Druid Magic skill at him and it does the same thing. However, on the off chance you carry fewer than seven party members and use summoning spells regularly, you may want to hang on to a set of Branches; if you cast *S:Charger* on them to give them charges, they'll actually cast *D:Beast Call* for you.
+E of there, among a grove of trees near the N shore, you'll find a pile of fresh pine branches. Pick some up, hand them to your Druid mage, then visit the SW corner. Along the S shore you'll find a madman who refuses to go inside. Show him the Branches (or just `(U)se` your *Druid Magic* skill) and he'll teach you *D:Beast Call*. Of course, if you got your Druid Magic from Enkidu, you already have. Or if you haven't wrestled Enkidu yet, casting *D:Beast Call* is one way to bring him to life, so now you can.
+
+(In fact, the Branches are one of those odd objects that won't do much in the state you find them, but if you hit them with *S:Charger*, they gain a use. The Branches will, in fact, also cast *D:Beast Call* if you charge them.)
 
 Now you can explore the buildings. Along the W shore there's some beach gear, in case you want to relax on the beach to the soothing sounds of madmen screaming. In the SE building there's a mad artist `(p76)`. In the NE there's a young man with a pike who insists that he's guarding the King's Boathouse. Leave him alone for now.
 
@@ -686,25 +688,27 @@ If you kill Princess Myrolla, you can climb the stairs immediately. If you're ta
 Once you climb the stairs, you're in the Byzanople courtyard. Lots of militia will fight you as you try to reach the front gates. When you finally get there, `(U)se` *Lockpick 2* or cast *D:Soften Stone* to open them and the Kingshome army wins `(p71)`. What do you get for your treachery? Thrown in the [Kingshome Dungeon](#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome), possibly for the second time.
 
 #### Side with Byzanople
-If you agree to join forces with the Prince `(p109)`, you get free run of the dungeon; in particular, the Byzanople treasure vault is one room over to the E, and it's now unguarded. *H:Dazzle* is new but not all that useful. *H:Big Chill* we have already. Aside from a bunch more Dragon Stones, you can pick up another Magic Chain and Magic Shield, although this one is only worth +3 AC.
+If you agree to join forces with the Prince `(p109)`, you get free run of the dungeon; in particular, the Byzanople treasure vault is one room over to the E, and it's now unguarded (although there may be a locked door or two to pick on the way). *H:Dazzle* is new but not all that useful. *H:Big Chill* we have already. Aside from a bunch more Dragon Stones, you can pick up another Magic Chain and Magic Shield, although this one is only worth +3 AC.
 
-Climb the stairs to Byzanople. You'll be teleported from the top of the stairs (in the W part of the courtyard) to the secret passage (in the SE corner) to the Siege Camp `(p110)`. I recommend immediately following the passage back to Byzanople so you can explore the courtyard. Along the N side you'll find three shops: a healer, a [weaponsmith](/dragon-wars/things-and-stuff/#barts-weaponsmith), and an [armorer](/dragon-wars/things-and-stuff#mariks-armory). The smith carries the Long Mace (1d20 at 20', +1 AV) and the Barbed Spear (thrown, 1d20 at 40'), both of which are unique<sup>6</sup> items. The armorer has Plate Mail and Large Shields if you want to rebalance some AV/AC. This is a great opportunity to clean our your inventory, and if you need to recharge Power you can also buy Dragon Stones here.
+Climb the stairs to Byzanople. You'll be teleported from the top of the stairs (in the W part of the courtyard) to the secret passage (in the SE corner) to the Siege Camp `(p110)`. I recommend immediately following the passage back to Byzanople so you can explore the courtyard. Along the N side you'll find three shops: a healer, a [weaponsmith](/dragon-wars/things-and-stuff/#barts-weaponsmith), and an [armorer](/dragon-wars/things-and-stuff#mariks-armory). The smith carries the Long Mace (1d20 at 20', +1 AV) and the Barbed Spear (thrown, 1d20 at 40'), both of which are unique<sup>6</sup> items. They also carry both the War Flail ($400) and the Bladed Flail ($1000), which have _identical statistics_ (1d12, STR 10, no bonuses) despite the disparity in price. The armorer has Plate Mail and Large Shields if you want to rebalance some AV/AC. This is a great opportunity to clean our your inventory, and if you need to recharge Power you can also buy Dragon Stones here.
 
 > 6: Actually, a version of the Long Mace also appears in Freeport; Halifax comes with one, and you can buy one at the weaponsmith there. However, for some stupid reason, those versions of the "Long" Mace do less damage *and they don't have reach*, so they're kind of pointless.
 
 In the NE corner of the road around the courtyard there's a secret door that lets you into the walls. In the SE corner there's a locked chest (difficulty 3) with another Fire Shield (+2 AC, -2 AV), but as I said before in the section on the Kingshome Dungeon it's not a very useful item since the standard Shield grants the same AC bonus without the AV penalty. I really don't know what the designers were thinking with some of these items.
 
-Once you feel ready, follow the secret passage back to the Siege Camp. Walk around the corner to the big fight against the Kingshome army: 15 Mercenaries, 15 Guards, 5 Royal Guards, and 2 Kingshomer Captains. You should know the drill by now: lots of *S:Inferno* to take out the big groups, then pick off the small groups at distance as much as possible. The Kingshomer Captains have around 100 HP each. If you lose or run away, Kingshome wins, and you wind up in the [Kingshome Dungeon](#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome). [*sigh*] If you win, you can backtrack and take the passage back to the Byzanople courtyard, or use DEX to squeeze through the hills back to the Siege Camp.
+Once you feel ready, follow the secret passage back to the Siege Camp. Walk around the corner to the big fight against the Kingshome army: 15 Mercenaries, 15 Guards, 5 Royal Guards, and 2 Kingshomer Captains. You should know the drill by now: lots of *S:Inferno* to take out the big groups, then pick off the small groups at distance as much as possible. The Kingshomer Captains have around 100 HP each. If you lose or run away, Kingshome wins, and you wind up in the [Kingshome Dungeon](#this-overcome-by-powerful-magic-thing-is-getting-kind-of-old-kingshome) [*sigh*]. If you win, you can backtrack and take the passage back to the Byzanople courtyard, or use DEX to squeeze through the hills back to the Siege Camp.
 
-At this point the stairs down to the Byzanople Dungeon will work again. I didn't mention this earlier, but there's a locked door just W of the foot of the stairs that leads to the Byzanople Crypt `(p111)`. The crypt is full of Zombies — who, inexplicably, are *not* susceptible to *S:Exorcism* — and the only treasure is a MagicAxe [sic], which is identical to the Magic Axe in the Kingshome dungeon. It's a good weapon and does a lot more damage than the Axe of Kalah, but it doesn't have reach and you probably only need one of them.
+At this point, you have the freedom of Byzanople. The Siege Camp is now empty, although the [Black Market](/dragon-wars/things-and-stuff/#black-market-1) is still up and running, as are all the vendors in [Byzanople](/dragon-wars/things-and-stuff#byzanople) town square. All of the various routes down to the Byzanople Dungeon level will work. And the main gate to Byzanople is unlocked.
 
-Once you're ready to leave, go through the (now unlocked) gate and exit Byzanople to the S. Enter the Siege Camp; it's now empty, and you can exit it to the S as well to return to King's Isle. It's worth noting that the [Black Market](/dragon-wars/things-and-stuff/#black-market-1) still works, as well as all the vendors in [Byzanople](/dragon-wars/things-and-stuff#byzanople) town square.
+I didn't mention this earlier, but there's a locked door just W of the foot of the stairs from the City level to the Dungeon level that leads to the Byzanople Crypt `(p111)`. The crypt is full of Zombies — who, inexplicably, are *not* susceptible to *S:Exorcism* — and the only treasure is a MagicAxe [sic] which is identical to the Magic Axe in the Kingshome dungeon. It's a good weapon and does a lot more damage than the Axe of Kalah, but it doesn't have reach and you probably only need one of them.
+
+Once you're ready to leave Byzanople, pass through the gate and exit the map to the S. That brings you back to the Siege Camp map, which you'll need to exit S to return to King's Isle. 
 
 ### Rescuing Irkalla (Magan Underworld)
 
 Map: [Magan Underworld](/dragon-wars/maps/magan-underworld/)
 
-If the "A" plot is trying to stop Namtar from taking over the world, then the "B" plot has to do with the argument between Nergal and Irkalla. 
+If the "A" plot of this game is the quest to stop Namtar from taking over the world, then the "B" plot has to do with the argument between Nergal and Irkalla. 
 
 Let's recap. In [Exposition Cavern](#magan-underworld-highlights) we learned that Nergal and Irkalla weren't getting along. There was a reminder about that from the statues in the [Lansk Undercity](#putting-the-fun-back-in-funderworld-lansk-undercity). Then we found Irkalla all chained up on the [Isle of Woe](#jumpin-jack-flash-mystic-wood-magan-underworld), for which she blamed Namtar and strongly hinted that Nergal was holding the key that would free her. When we visited Nergal in the [Necropolis](#all-we-wanna-do-is-eat-your-brains-the-necropolis) he made reference to being 'in exile' and said that he knew what we were going to do with the Silver Key but didn't care. I don't know if we're going to be very successful in our career pivot from "murder hobos" to "couples counseling", but at the very least I think it's time to do the Queen of the Underworld a solid.
 
@@ -758,7 +762,7 @@ Going N from there along the narrow bridge on the E side of the city, you can fi
 
 (Translation of the Lanac'toor hint: the Broken City is the [Tars Underground](#look-an-actual-dungeon-tars-underground), the Broken Tomb is the [Necropolis](#all-we-wanna-do-is-eat-your-brains-the-necropolis), Broken Minds can be found in the [Snake Pit](#le-roi-est-mort-bridge-of-exiles-snake-pit), and Broken Swords is what you're about to do to the Order...)
 
-Just N of the bar is the Order of the Sword, which is a big fight. Don't screw around with these guys; blow them up with group-zap spells and pick off the survivors with your archer/mage. The Spell Staff (+5 AV, +8 AC) is an upgrade over the Ruby Dagger, the Stone Hands are the last piece of the Lanac'toor puzzle, *D:Soften Stone* is crucial, and we finally found *S:Charger*.
+Just N of the bar is the Order of the Sword, which is a big fight. Don't screw around with these guys; blow them up with group-zap spells and pick off the survivors with your archer/mage. The Spell Staff (+5 AV, +8 AC) is a great weapon for the mage in the fifth slot, the Stone Hands are a piece of the Lanac'toor puzzle, *D:Soften Stone* is crucial, and we finally found *S:Charger*.
 
 You may be thinking that *S:Charger* isn't good for much beyond topping up your Healing Potions and maybe some other miscellaneous magical items, and you'd largely be right. But there are many more objects that you can *Charge* than you might think, including some [suits of armor](/dragon-wars/things-and-stuff/#armor) and other objects that [have no business](/dragon-wars/#weird-stuff) casting spells. In my opinion, though, the most interesting thing you can cast it on are **scrolls**. Give a scroll two charges, and now you can train two people with the same spell before it disappears. That may not seem super useful, but I bet you have two Druids that would be happy to learn *Soften Stone* right now... and if you stick around, there may just be an opportunity to use this hack again in your near future.
 

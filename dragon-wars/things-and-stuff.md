@@ -10,6 +10,8 @@ toc:
 
 All weapons conflict with each other, i.e. you can't wield an axe and a flail simultaneously, nor can you wield a sword and a crossbow. *Most* weapons don't conflict with shields.
 
+A general note: several weapons are listed in the manual as having different damage dice when used at range (i.e. the Axe of Kalah, which advertises 1d12 at 10' and 1d20 at up to 50'). However, there is no code in the game engine that ever checks the secondary damage, even if the attack is at long range. So the tables below reflect the *actual* damage rolled during combat, rather than what the manual says.
+
 ### Axes
 
 | Item         | Price | Dmg  |  AV  |  AC  | Requires |
@@ -20,9 +22,11 @@ All weapons conflict with each other, i.e. you can't wield an axe and a flail si
 | Battle Axe   |  70   | 1d12 |  -1  |      | STR 17   |
 | War Axe      |  700  | 1d12 |  -3  |      | STR 18   |
 | Rusty Axe    | 2000  | 1d20 |  -3  |      | STR 18   |
-| Axe of Kalah | 7000  | 1d12<br/>1d20 at 50' |  +4  |      | STR 18 |
+| Axe of Kalah | 7000  | 1d12 at 50'* |  +4  |      | STR 18 |
 | Magic Axe    |  700  | 1d30 |  +1  |      | STR 20   |
 | Nature Axe   | 1500  | 1d30 |  -6  |      | STR 18   |
+
+The Axe of Kalah is listed as doing 1d12 at 10' and 1d20 at 50'.
 
 ### Flails
 
@@ -78,12 +82,16 @@ Two-handers conflict with Full Shields, but not regular Shields.
 | Long Mace (Byzanople) | 2000 | 1d20 at 20' | +1 | | STR 15 | |
 | Long Mace (Freeport) | 200 | 1d12 | +1 | | STR 15 | |
 | Holy Mace | 4000 | 1d20 | +2 | +1 | STR 12 | *S:Exorcism* |
-| Druids Mace | 2000 | 1d20 | +2 | +2 | STR 12 | *D:Cure All* |
-| Throw Mace | 4000 | 2d12<br/>1d12 at 30' | +1 | | STR 18 | |
+| Druids Mace | 2000 | 1d4* | +2 | +2 | STR 12 | *D:Cure All* |
+| Throw Mace | 4000 | 2d12 at 30'* | +1 | | STR 18 | |
 | Crush Mace | 4000 | 4d10 | | | STR 15 | |
 | Dwarf Hammer | — | 1d30 at 60' | | | STR 20 | |
 | Spell Staff | 7000 | 1d10 | +5 | +8 | Low Magic 1 | |
 | Mage Staff | 20000 | 1d20 | +10 | | | |
+
+The Throw Mace is listed as doing 2d12 at 10' and 1d12 at 30'.
+
+Unfortunately, the Druids Mace lists its 1d20 damage die in the *secondary* damage slot, which is never checked.
 
 ### Bows
 
@@ -157,7 +165,7 @@ Body Armor comes in a bunch of different "item types", like "Leather" and "Cuir 
 | Cloth Armor | 25 | +1 | | | | 
 | Pilgrim Garb | 20 | +1 | | | wear to pass Old Dock guards |
 | Royal Robe | 2000 | +1 | | |
-| Mage Cloth | 2500 | +3 | | Low Magic 1 | casts *L:Mage Light* |
+| Mage Cloth | 2500 | +3 | | Low Magic 1 | casts *L:Mage Light@10* |
 | Leather Armor | 50 | +3 | –1 | | |
 | Brigandine | 80 | +4 | –1 | | |
 | Scale Armor | 250 | +6 | –2 | | |
@@ -371,7 +379,7 @@ Being a list of every item in the game I haven't already mentioned (and a few I 
   - casts *D:Whirl Wind*, if charged
 - **Magic Lamp**
   - find in the Slave Estate
-  - casts *L:Mage Light* with 10 POW (which is effectively infinite)
+  - casts *L:Mage Light* with infinite(!) duration
   - can't be sold
 - **Magic Ring**
   - find in the Phoebus Dungeon

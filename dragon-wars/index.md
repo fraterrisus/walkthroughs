@@ -292,6 +292,8 @@ The game counts up the number of successful attacks and rolls the damage die tha
 
 When you hit a group of monsters, the game applies damage to the first *unhit* monster. Once every monster in the group has been hit once (or killed), the bits are reset and you can hit each monster a second time. This is important tactically: it can be hard to kill the first monster in a group, but it should feel easier after that.
 
+Note that a combatant who is Blocking will stop a _melee_ attack, but not a _missile_ attack. Hitting with a missile attack won't cancel the Block, but it will set the "this creature has been attacked" flag, which means none of the rest of your party will try to attack that particular creature. This may be helpful if you're up against a large group that tries to Block all your attacks.
+
 When you're on defense, your armor reduces the damage you take. 1 point of AC reduces the damage *per attack* by 1, so if you've got AC 20 then a monster has to deal at least 20 damage before you even feel it. However, some monsters have a Mighty Attack that ignores armor (instead of dealing bonus damage). Monsters don't have armor or an AC, but they tend to have much more Health than you do.
 
 #### Monster Actions
@@ -548,6 +550,8 @@ Spells are roughly sorted into the following types:
 This is close to, but not *quite* the same, as the game's distinction between "Combat", "Heal", and "Misc" categories.
 
 Zap and Debuff spells require an **attack roll** per target. This works similarly to a melee attack roll, but you use INT for your "AV" and your magic skill in place of a weapon skill. Defenders get to use their normal DV. The basic roll (1d16+2) is the same, and you're still trying to roll equal or below a target of 12 + your skill ranks + your AV – defender's DV. The game only rolls damage once, but any target you "miss" takes half damage instead. The damage the game reports back to you is the average across all your hits and misses, so you have a sense of how effective you were... but not a very good one.
+
+Note that debuff spells can be cast multiple times, and their effects will stack.
 
 One more weird tip I'll leave you with: it *looks* like scrolls are single-use, because they don't have any charges listed next to them. However, once you reach Freeport and acquire *S:Charger*, you can use it to add additional "charges" to a scroll. (Just make sure you have *two* charges, because each time you use it one charge will go away, and the scroll will disappear as soon as the charge count reaches zero.) Probably the most interesting use of this hack is to pass Lanac'toor's Miscellaneous Magic scrolls around your entire party, but on a second playthrough you could also use it to replicate everything else... like *S:Inferno*.
 

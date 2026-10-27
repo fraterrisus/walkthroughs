@@ -34,7 +34,7 @@ Note: Once the war is over, everything in the SW portion of the map goes away (t
 
 **The Secret Passage (09,07):** Takes you to the hills above the [Siege Camp](/dragon-wars/maps/siege-camp) (02,05).
 
-**The Hidden Shield (13,04):** Walk through the secret door at (12,12) and head S to find a chest (difficulty 3) containing the **Fire Shield** (+2 AC, -2 AV, STR 12).
+**The Hidden Shield (13,04):** Walk through the secret door at (12,12) and head S to find a chest (difficulty 3) containing the **Fire Shield** (+2 AC, -2 AV, STR 12). Note that this object is strictly worse than both a regular Shield (same AC bonus, no AV penalty) and a Large Shield (same AV penalty, better AC bonus). Nice resale value, though.
 
 The game's item data on the Fire Shield (both this one and the one you find in the Kingshome Dungeon) claims that, if it were a weapon, it would do 1d12 at 40'. But as far as I know, there's no code in the combat handler that would know how to look for a *shield* that could be used as a melee weapon.
 

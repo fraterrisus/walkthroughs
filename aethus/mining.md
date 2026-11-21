@@ -22,7 +22,7 @@ Where you build your Outpost.
 - **Cactus**: Biomass, Cactus Fruit
 - **Palm Tree**: Biomass
 
-### Outer Caves
+### Caves: Alpha
 Your first steps underground.
 - **Reoglith Node** (orange): Sandstone, Regolith, Dust Ruby
 - **Sandstone Spire**: Sandstone, Sandstone Shard
@@ -30,8 +30,8 @@ Your first steps underground.
 - **Palm Tree**: Biomass
 - **Cave Mushroom**: Cave Mushroom
 
-### Inner Caves
-Facilities Alpha and Beta and the steamy swamps along the hill.
+### Caves: Beta
+Facility Beta and the steamy swamps along the hill.
 - Everything in the Outer Caves
 - **Kaloxite Node** (pale blue): Sandstone, Kaloxite Ore, Oxite, Silica, Dust Ruby, Pangimony, Kaloxite Geode
 - **Kalynite Node** (white): Sandstone, Kalynite Ore, Solazine, Silica, Dust Ruby, Pangimony, Kalynite Geode
@@ -40,13 +40,13 @@ Facilities Alpha and Beta and the steamy swamps along the hill.
 - **Mysterious Egg Nest**: Mysterious Egg
 - **Glowtus Plant**: Glowtus Seed, Glowtus Fruit, Biomass
 
-### Lower Caves
-Across the landbridge or down the long ramp from Beta, including the area up the hill behind Delta. Also known as the "outer crater" area.
+### Caves: Outer Crater area
+Across the landbridge or down the long ramp from Beta, including the area up the hill behind Delta.
 - Everything in the Inner Caves
 - **Gold Node**: Sandstone, Gold Ore, Sky Sapphire, Pangimony, Dust Ruby
 - **Sugarplant**: Sugarplant
 
-### Facility Delta
+### Caves: Delta
 The meteorite crater itself. Remarkably few things can actually be found here.
 - **Meteorite Node**: Meteorite, Meteor Glass, Black Diamond, Meteorite Geode
 - **Cave Mushroom**: Cave Mushroom
@@ -93,7 +93,7 @@ The infected area with spores floating in the air and reddish water, including t
 - **Depthane Node** (red): Lavastone, Depthane Ore, Camberflex, Depthane's Heart, Depthane Geode
 - **Depthane Heart Node** (pink): Lavastone, Depthane's Heart, Depthane Geode
 
-### Magma Rifts: Tau and Iota
+### Magma Rifts: Tau, Iota, Omicron, and the Gondola Control Station
 - Everything near Rho, plus:
 - **Quarinium Node** (green): Lavastone, Quarinium Ore, Camberflex, Miner's Bane, Quarinium Geode
 - **Miner's Bane Node** (green): Lavastone, Miner's Bane, Quarinium Geode
@@ -105,9 +105,6 @@ The infected area with spores floating in the air and reddish water, including t
 - **Depthane Heart Node** (pink): Lavastone, Depthane's Heart, Depthane Geode
 - **Hyperion Node** (blue): Lavastone, Hyperion Crystals
 - **Miner's Bane Node** (green): Lavastone, Miner's Bane, Quarinium Geode
-
-### Magma Rifts: Omicron and Gondola Control Station
-- same as Tau
 
 ### Magma Rifts: Hades and Sigma
 On the far side of the gondola
@@ -124,11 +121,11 @@ Drills in the Caves and lasers in the Lost World require a **Model 1** Cargo Dro
 
 | Where | Required | Produces |
 | ----- | -------- | -------- |
-| Outer Caves | Kalynite Bit | Sandstone, Sandstone Shard |
-| Inner Caves, Beta | Meteorite Bit | Sandstone, Kalynite Ore, Silica, Dust Ruby |
-| Lower Caves, Waterfall | Meteorite Bit | Sandstone, Kaloxite Ore, Silica, Pangimony |
-| Lower Caves, Delta | Tangrite Bit | Meteorite, Kalynite Ore, Meteor Glass |
-| Lower Caves, behind Delta | Tangrite Bit | Sandstone, Kalynite Ore, Gold Ore |
+| Upper Caves, Alpha | Kalynite Bit | Sandstone, Sandstone Shard |
+| Upper Caves, Beta | Meteorite Bit | Sandstone, Kalynite Ore, Silica, Dust Ruby |
+| Crater, Waterfall | Meteorite Bit | Sandstone, Kaloxite Ore, Silica, Pangimony |
+| Crater, Delta | Tangrite Bit | Meteorite, Kalynite Ore, Meteor Glass |
+| Crater, Site V | Tangrite Bit | Sandstone, Kalynite Ore, Gold Ore |
 | Lost World, Epsilon/Kappa | Tangrite Lens | Deepstone |
 | Lost World, Mu | Jaspite Lens | Deepstone, Jaspite Ore, Vitaglass |
 | Lost World, Epsilon valley | Tangrite Lens | Deepstone, Tangrite Ore, Foucer Crystals, Bladestone |
@@ -137,3 +134,53 @@ Drills in the Caves and lasers in the Lost World require a **Model 1** Cargo Dro
 | Rifts, Omicron | Quarinium Lens | Lavastone, Quarinium Ore, Miner's Bane |
 | Rifts, Hades | Depthane Lens | Lavastone, Depthane's Heart |
 
+## Fishing
+
+### Outside, Caves: Alpha
+
+- [Aethian Minnow]()
+- [Sandfish]()
+- [Scrap Metal]()
+
+### Caves: Beta
+
+- [Aethian Minnow]()
+- [Heatshrimp]()
+- [Kalynite Geode]()
+- [Industrial Tools]()
+- [Petroleum Can]()
+- [Medical Supplies]()
+
+### Lost World: Epsilon
+
+- [Aethian Minnow]()
+- [Deepmussel]()
+- [Gold Geode]()
+- [Ghostfish]()
+
+### Lost World: Lambda, Mu
+
+- [Ancient Parts](), [Ancient Bones]()
+- [Anti-Gravity Tech]()
+- [Industrial Tools]()
+- [Petroleum Can]()
+- [Medical Supplies]()
+- [Tangrite Geode]()
+- [Swamp Geode]()
+
+### Lost World: Kappa, Theta
+
+- [Aethian Minnow]()
+- [Deepmussel]()
+- [Gold Geode]()
+- [Anti-Gravity Tech]()
+- [Industrial Tools]()
+- [Petroleum Can]()
+- [Medical Supplies]()
+
+### Magma Rifts
+
+- [Depthane Ore]()
+- [Quarinium Ore]()
+- [Magmafish](), Bulging Magmafish
+- [Venturer Worm]()

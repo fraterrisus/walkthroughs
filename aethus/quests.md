@@ -2,9 +2,9 @@
 
 *Trigger:* Find the sun shade near the big crater on the surface and the code-locked crate inside.
 
-*Goal:* Open the crate using the code from the nearby datapad (0155)
+*Goal:* Open the crate using the code from the nearby datapad (`0155`)
 
-## Absolute Power Corrupts
+## Absolute Power Corrupts <!-- {.side_quest} -->
 
 *Trigger:* Return to Epsilon after starting [The Kappa Module](#the-kappa-module).
 
@@ -107,7 +107,7 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 
 *Goals:*
 
-1. Construct a Trade Node; earn some credits; purchase the Oxygen Filters I upgrade.
+1. Construct a Trade Node; earn some credits; purchase the Oxygen Filters I upgrade ($3000).
 2. Buy some more upgrades as needed, then enter the Meteorite Crater.
 3. Explore the Crater and enter Delta (the "Crater Facility")
 4. Explore Delta.
@@ -120,7 +120,7 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 
 ## Electric Dreams <!-- {.fetch_quest} -->
 
-*Trigger:* Return from the Lost World... with something.
+*Trigger:* Hang around your outpost after returning from the Lost World.
 
 *Goals:* Bring three [Microcircuits](/aethus/items/#microcircuits) to the Trade Node.
 
@@ -144,7 +144,7 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 
 *Goal:* Build a Biology Lab, grow some Inert Mycelia (requires producing Cleansed Mycelia first), and produce an Antigen Injector.
 
-## First Bite
+## First Bite <!-- {.side_quest} -->
 
 *Trigger:* Get hungry.
 
@@ -167,7 +167,7 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 1. Take Dr. Li's keycard from her body and visit her office.
 1. Deactivate the Tear Paper Protocol, then return to the Test Chamber to complete the game.
 
-## Frontier Cooking
+## Frontier Cooking <!-- {.side_quest} -->
 
 *Trigger:* Complete [Arrival](#arrival).
 
@@ -175,13 +175,13 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 
 First, build a Scrap Grill. Then use the crafting interface to produce a Grilled Cactus Fruit, add it to your inventory, and eat it.
 
-## Further Facilities
+## Further Facilities <!-- {.side_quest} -->
 
 *Trigger*: Complete [Sick of Scrap](#sick-of-scrap).
 
 *Goal:* Build a Stone Crusher and a Basic Smelter, and produce your first Kalynite Bar.
 
-## Glint of Gold
+## Glint of Gold <!-- {.side_quest} -->
 
 *Trigger:* Find the datapad on the Storage Container *outside* Delta.
 
@@ -195,7 +195,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Reward:* $7000(!!!)
 
-## Going Down
+## Going Down <!-- {.side_quest} -->
 
 *Trigger:* Find the elevator beyond Facility Alpha and examine the view.
 
@@ -214,7 +214,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 5. Repeat step 3.
 6. Return to the Rho Transit Hub, set the teleporter for Last Known Destination, and take it back to the Outpost.
 
-## Going Underground
+## Going Underground <!-- {.main_quest} -->
 
 *Trigger:* Complete [Lay of the Land](#lay-of-the-land).
 
@@ -256,7 +256,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Reward:* $2000
 
-## The Inner Glow
+## The Inner Glow <!-- {.side_quest} -->
 
 *Trigger:* Return to Epsilon after starting [The Kappa Module](#the-kappa-module).
 
@@ -271,7 +271,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 ## Into the Darkness <!-- {.main_quest} -->
 
-*Trigger:* Complete [Deep Impact](#deep-impact) by reaching Epsilon.
+*Trigger:* Complete [Deep Impact](#deep-impact) by reaching Epsilon and stepping off the Climber.
 
 *Goals:*
 
@@ -279,8 +279,8 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 2. Find the Control Room.
 3. Exit Epsilon via the Airlock off the Climber Room.
 4. Locate the exterior generator in the courtyard and restore power.
-5. Find Facility Kappa.
-6. Investigate the Kappa Dam, and eventually drain it.
+5. Find Facility Kappa and the elevator down into the water.
+6. Investigate the Kappa Dam.
 
 ## Into the Rifts
 
@@ -294,15 +294,14 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 ## The Kappa Module <!-- {.main_quest} -->
 
-*Trigger:* Complete [Into the Darkness](#into-the-darkness) by entering the Undersea Dam Facility and trying the door.
+*Trigger:* Complete [Into the Darkness](#into-the-darkness) by crossing onto the Kappa Dam and trying the door.
 
 *Goals:*
 
+1. Locate the Undersea Dam and take the elevator down to the control level.
 1. Find Harlow's keycard in the Epsilon bunker, Sinclair's in Theta, and Chapman's in Mu.
 1. Enter the Undersea Dam Control Room and activate the Draining Protocol.
 1. Explore Facility Kappa and learn the truth about Stanley.
-
-**FIXME** I might have missed some here.
 
 ## Kryptos
 
@@ -320,13 +319,13 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 8. Exit the facility through the Emergency Access, using code `9620`.
 9. Return to your outpost and listen to the fourth Stub Memory.
 
-## Lay of the Land
+## Lay of the Land <!-- {.main_quest} -->
 
 *Trigger:* Complete [Arrival](#arrival).
 
 *Goal:* Conduct a Suit Scan at the four points of interest on the surface: the Oasis, Crater's Edge, the Bloodfall, and the Cave Entrance.
 
-## Leave Via the Back Door
+## Leave Via the Back Door <!-- {.side_quest} -->
 
 *Trigger:* Complete [Glint of Gold](#glint-of-gold) by finding the Gold Drill behind Delta, and read the log files inside.
 
@@ -338,7 +337,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Goal:* Fix up the three parts of the manufacturing process and run it once to see what it does.
 
-## Mechanic Required
+## Mechanic Required <!-- {.side_quest} -->
 
 *Trigger:* Try the door at Beta, and discover that the servos are fried.
 
@@ -352,7 +351,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Reward:* $3000
 
-## Moisture Farmer
+## Moisture Farmer <!-- {.side_quest} -->
 
 *Trigger:* Find the blueprint for the [Dew Catcher](/aethus/items/#dew-catcher) under the sun shade near the big crater on the surface.
 
@@ -372,15 +371,15 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Reward:* $3500
 
-## Power Up
+## Power Up <!-- {.side_quest} -->
 
 *Trigger:* Build an Access Platform and attach it to a Basic Habitat (part of [Going Underground](#going-underground))
 
 *Goal:* Enter your Basic Habitat and build an RTG there.
 
-## Road to Riches
+## Road to Riches <!-- {.side_quest} -->
 
-*Trigger:* Complete [Going Underground](#going-underground).
+*Trigger:* Complete [Going Underground](#going-underground) by blowing up the rockfall.
 
 *Goals:*
 
@@ -389,7 +388,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 3. Purchase the "Mining Laser Crystal 1" upgrade.
 4. Construct a Drone Pod.
 
-## Sick of Scrap
+## Sick of Scrap <!-- {.side_quest} -->
 
 *Trigger:* Build an Access Platform and attach it to a Basic Habitat (part of [Going Underground](#going-underground))
 
@@ -408,7 +407,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 ## Skeletons of the Past <!-- {.side_quest} -->
 
-*Trigger:* Find the datapad from Caleb Vihaan in the courtyard of Epsilon.
+*Trigger:* Find the datapad from Caleb Vihaan in the Epsilon courtyard.
 
 *Goals:*
 
@@ -429,19 +428,19 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Reward:* Each egg you find grants you two new decorations in the "Spring" category. Find all three and you also get an Easter Basket to store them in.
 
-## Storage Wars
+## Storage Wars <!-- {.side_quest} -->
 
 *Trigger:* Complete [Arrival](#arrival).
 
 *Goal:* Build a Storage Crate.
 
-## Strike the Earth
+## Strike the Earth <!-- {.side_quest} -->
 
 *Trigger:* Find the drill behind Beta.
 
 *Goal:* Insert the appropriate Drill Bit into one of the drills you've found.
 
-## Taking Shortcuts
+## Taking Shortcuts <!-- {.side_quest} -->
 
 *Trigger:* Interact with the Epsilon command terminal in Facility Control.
 
@@ -485,14 +484,14 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 2. Build a Black Market node.
 3. Sell the Hardened Drive from Lisa Chapman's quarters and purchase the Module Decoder upgrade.
 
-## The Way Opens
+## The Way Opens <!-- {.main_quest} -->
 
 *Trigger:* Complete [Going Underground](#going-underground).
 
 *Goal*: Explore Habitat Alpha, located just beyond the cave-in.
 
-## Working for the Man
+## Working for the Man <!-- {.side_quest} -->
 
-*Trigger:* Comes up when you return to base, possibly for the first time after discovering Beta?
+*Trigger:* Return to base sometime after discovering Beta.
 
 *Goal:* In theory, reach Level Two of the RAPP by buying things from the Market. Except Trudy seems to just start offering you quests the next time you return from a mining run, even if you haven't reached RAPP-2 yet.

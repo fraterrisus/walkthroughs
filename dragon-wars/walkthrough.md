@@ -901,7 +901,7 @@ In the SW corner of this room is a chest with a Spiked Flail (4d20, +2 AV, +1 AC
 
 The submerged part is also quite small and wraps around on itself, similar to the Tars Underground. *S:Guidance* can help here because there is a spinner at a key intersection. Go 4E (spin) 3N to find a giant clamshell with the Skull of Roba, but *don't* try to take the skull (ow), take the whole clam instead.
 
-Return to the main stairs, then go 4N 2E and `(U)se` *Lockpick* on the locker — this is a level 2 door, not a chest. The Bloated Corpses go down pretty quickly, and Dragon Plate (+14 AC, -3 AV) is the best body armor in the game. The Dragon Sword (4d20, +3 AV, *Two-handers*, requires STR 21) and Trident (2d20 at 40', *Thrown Weapons* but it goes back into your inventory, unequipped, after each throw) would also be good weapons if you didn't have the Teeth.
+Return to the main stairs, then go 4N 2E and `(U)se` *Lockpick* on the locker — this is a level 2 "door"-style lock, not a "chest". The Bloated Corpses go down pretty quickly, and Dragon Plate (+14 AC, -3 AV) is the best body armor in the game. The Dragon Sword (4d20, +3 AV, *Two-handers*, requires STR 21) and Trident (2d20 at 40', *Thrown Weapons* but it goes back into your inventory, unequipped, after each throw) would also be good weapons if you didn't have the Teeth.
 
 As an aside, the only weapons that can beat the Dragon Teeth on pure damage are the Holy Lance, Spiked Flail, Dragon Sword, and Heavy Sword (found in Salvation). But none of those have range, several of them are Two-handers so they need enormous STR to use, and you can't beat +8 AV. Unless you're the Sword of Freedom (1d100, +15 AV, +5 AC).
 
@@ -919,7 +919,7 @@ Before we can visit the Dwarves in their Clan Hall we need to do a little magic.
 
 A side note: just N of the tunnel there's an unmarked, locked chest (difficulty 4) that contains the Dwarf Hammer (1d30, 60' range), which is a pretty nice mid-game weapon, but if you're only coming across it now you've definitely got better options. Which is just as well, because if you unlocked the treasure chest all the way back in the [Slave Camp](#the-purgatory-day-spa-and-salon-slave-camp) like I told you to do, the game set a flag that *also* determines whether you get to see this chest. Since you raided that one, this one is invisible. The reverse would be true if you'd come here first, which is highly unlikely unless you either knew exactly what you were doing or just didn't find the chest in the Slave Camp. Oh well. There's no "story" reason I can find why the two would be linked, so I think this is a bug.
 
-Regardless, go ahead down the tunnel and into the subterranean Clan Hall. Straight W of the stairs you find a crystal wall that blocks your way to the forge. S of the crystal wall you'll find the Gorgon that turned everybody to stone. You should be able to take him out in one round, but you can also just not fight him.
+Regardless, go ahead down the tunnel and into the subterranean Clan Hall. Straight W of the stairs you find a crystal wall that blocks your way to the forge. S of the crystal wall you'll find the Gorgon that turned everybody to stone. You should be able to take him out in one round, but you can also just not fight him. (He disappears once you wake up the dwarves, so fight him now if you want to do it.)
 
 N of the wall, go through a door. Don't go through the door to the W yet `(p118)`; if you try to steal the treasure before waking the dwarves, you'll have to fight off the automatons (~150 HP) *and* the dwarves will be cranky at you when you wake them up. Instead go 1E 1N `(p119)` and cast *D:Soften Stone* to turn the dwarves back to life `(p38)`, which nets you 500 XP. Now you can go through the door to the W and raid their armory. The Dragon Helm (+4 AC, -1 AV) is the pick of the bunch. The Bombs have only a 10' range, but they're twice as powerful (2d30) as the ones in the Underworld. You may have already bought *H:Mystic Might* in Freeport, and there's a second Spiked Flail (4d20, +2 AV, +1 AC). 
 
@@ -941,7 +941,7 @@ Once you're ready to climb Mount Salvation and go hunt down Namtar in the Nisir,
 
 When you enter on the E side, the first pier to the W is for the [Lansk Undercity](#putting-the-fun-back-in-funderworld-lansk-undercity) ferry. You can buy a ticket for $500(!) in the Travel Bureau to the S, then walk N and `(U)se` it to board. The return ticket is only $50 at the [Ministry of EZ Paperwork](#lansk-undercity-ministry-of-ez-paperwork) in the Undercity.
 
-In the SW corner of the map, there's a statue of the patron saint of computing. You need STR 24 to move the statue. Underneath you'll find *H:Earth Summon*, an Ice Wand, a bunch of Dragon Stones, and... a computer that casts *S:Guidance,* never runs out of charges, and grants +4 AC if you equip it(!). None of that makes sense from a role-playing perspective, but four free points of armor is a pretty good reason to make sure someone in your party has Strength that high.
+In the SW corner of the map, there's a statue of the patron saint of computing. You need STR 24 to move the statue. Underneath you'll find *H:Earth Summon*, an Ice Wand (*H:Ice Chill@10*), a bunch of Dragon Stones, and... a computer that casts *S:Guidance,* never runs out of charges, and grants +4 AC if you equip it(!). None of that makes sense from a role-playing perspective, but four free points of armor is a pretty good reason to make sure someone in your party has Strength that high.
 
 To get to Salvation you want to board the pilgrim's ferry at the end of the E pier, but they won't let you do that unless you look the part. If you only have one set of Pilgrim Garb in your inventory (say, you took Ugly's set and never found the Kingshome wardrobe), you can `(U)se` it at the end of the pier `(p85)`. Or your entire party can equip it, in which case as soon as you step to the end of the pier you're transported directly to the Pilgrim Dock `(p82)`. Of course, there's a route from the Underworld up to Salvation, so you could skip this part entirely if you want, but I *am* trying to follow the story here. Uh, mostly.
 
@@ -965,19 +965,17 @@ Go E from the start, then S and E and find the shrine to the Universal God. Get 
 
 > Note: the game sets a flag on each character that says that they've received the Universal God's blessing, so even if you reset the game, each character can only get this bonus once.
 
-Re-equip the Sword of Freedom. (Technically, you dropped the old one and picked up a new one, which is why it's unequipped.) It now casts a 10-point *S:Inferno* if you `(U)se` it in combat.
+Make sure you re-equip the Sword of Freedom! (Technically, you dropped the old one and picked up a new one, which is why it's unequipped.) It now casts a 10-point *S:Inferno* if you `(U)se` it in combat.
 
-Head back to the map entrance. S of there are some nasty-looking pits. If you step into one (actually, any of the pits anywhere on this map), you fall all the way down to the Magan Underworld near the Salvation stairs. So, I guess this wasn't a one-way trip after all!
+Head back to the map entrance. S of there are some nasty-looking pits. If you step into one (actually, any of the pits anywhere on this map), you fall all the way down to the Magan Underworld... right next to the stairs back up to Salvation.
 
-W of the entrance is the interesting stuff. In the S there's a "temple" to the Magan Underworld `(p100)`, by which they really mean staircase. It works both ways; you can leave here and come back via this staircase as much as you like.
+The passage W of the entrance is where all the interesting stuff is. In the S part of this area there's a "temple" to the Magan Underworld `(p100)`, by which they really mean staircase (see previous paragraph). That staircase works both ways; you can leave here and come back as much as you like. So, I guess this wasn't a one-way trip after all! In fact, given your recent max Power bump, heading back to the Underworld and hitting the refresh pool is probably a good idea. Don't forget to cast *D:Scare* at the bridge fairies, if you haven't already.
 
-Given your recent max Power bump, heading back to the Underworld and hitting the refresh pool is probably a good idea. Don't forget to cast *D:Scare* at the bridge fairies, if you haven't already.
+Hidden in a corner just NW of the Underworld stairs is another fight with more guards. They're guarding a locked chest (difficulty 5) with a second suit of Dragon Plate (+14 AC, -3 AV), a third Dragon Helm (+4 AC, -1 AV), a Spiked Mace (2d20), a Heavy Sword (8d8, -3 AV, +2 AC), a Mage Staff (+10 AV), and a *lot* of Dragon Eyes. The armor is a lot more useful than the weapons at this point; your front line may all be at or near AC 30 if you've been collecting everything.
 
-To the NW of the temple is another fight with more guards. They're guarding a locked chest (difficulty 5) with a second suit of Dragon Plate (+14 AC, -3 AV), a third Dragon Helm (+4 AC, -1 AV), a Spiked Mace (2d20), a Heavy Sword (8d8, -3 AV, +2 AC), a Mage Staff (+10 AV), and a *lot* of Dragon Eyes. The armor is a lot more useful than the weapons at this point.
+To the E of this area is a locked door (level 1), and beyond it are more guards. However, instead of going through the door, you can walk 1S 1E into a little cove, `(U)se` Intelligence or *Mountain Lore*, then `(U)se` *Climb*, and skip the fight. Your choice.
 
-To the E is a locked door (level 1), and beyond it are more guards. Instead of going through the door, you can go 1S 1E, `(U)se` Intelligence or *Mountain Lore*, then `(U)se` *Climb*, and skip the fight. Your choice.
-
-Proceed to the SE and find Namtar's tower `(p55)`. `(U)se` the Golden Boots to jump across the chasm. The interior of the tower is dark, and as you proceed forward, Namtar will scold you, then the floor will fall out from under you and drop you into...
+Proceed to the SE and find Namtar's tower `(p55)`. `(U)se` the Golden Boots to jump across the chasm. The interior of the tower is dark (well, not really, but the game uses flavor text to tell you it is), and as you proceed forward, Namtar will scold you, then the floor will fall out from under you and drop you into...
 
 ### Nisir
 
@@ -987,7 +985,7 @@ The Nisir is a giant dungeon — 32x32, making a nice bookend with Purgatory —
 
 Make sure everyone has the Dragon Teeth equipped; you'll need the ranged attack more than the Freedom Sword's raw damage, most of the time. A single Lich (casts *Ice Chill*) is usually pretty easy to take out at range. Young Dragons are hard and hurt a lot (2d4 breath weapon); one is doable, two is worth running from. Run from pretty much everything else. The real problem is that every random monster down here has highly variable Health (Liches: 24-156, Young Dragons: 40-420, etc) so you never really know how strong your opponent is until you've whacked them a few times.
 
-You start out in a natural cavern at the end of the world. The area immediately outside the cavern is full of "icy winds" that will damage you and cancel any light spells you have active. If you panic and feel like you need to get out of here, go 1N 2E 2S and you'll find a set of stairs that will drop you next to the refresh pool in the Underworld. Heal, refresh, and head back to Salvation to get to Nisir again. You can do this anytime you want, but the map will reset...
+You start out in a natural cavern at the end of the world. The area immediately outside the cavern is full of "icy winds" that will damage you and cancel any light spells you have active. If you panic and feel like you need to get out of here, go 1N 2E 2S and you'll find a set of stairs that will drop you next to the refresh pool in the Underworld. Heal, refresh, and head back to Salvation to get to Nisir again. You can do this anytime you want, but of course the map resets if you do...
 
 First things first, let's get out of this cavern. Head N from the entrance until you hit the wall. Cast *D:Soften Stone*, go 1N, and cast it again. Use the computer (*S:Guidance*) and Magic Lamp (*L:Mage Light*). You've now got three choices on how to proceed here:
 
@@ -1005,12 +1003,20 @@ Turn E; you'll pass through a teleporter and wind up just S of where you started
 Turn W, continue W from the spinner and walk to the wall. Go 2S to a door, then skip down to [The Swamp](#the-swamp).
 
 #### Buck Ironhead
-Once you're in the barracks, go E until you hit the wall, then 4S. There's a door to the W. Save here, then go 1W 1S 1E 1S. You'll hit a bunch of fights with Lizard Men (53–109 HP) and Namtar Guards (70–210) through here. Run and try again until you get small groups. Before you go through the last door (1E), switch back to the Freedom Sword. Buck has a touch over 200 HP, but it shouldn't take you more than a couple of rounds of hacking. And after all that, he's only worth 600 XP.
+Once you're in the barracks, go E until you hit the wall, then 4S. There's a door to the W. 
+
+If you want to go the masochistic route, save here, then go 1W 1S 1E 1S. You'll hit a bunch of fights with Lizard Men (53–109 HP) and Namtar Guards (70–210) through here. Run and try again until you get small groups. Before you go through the last door (1E), switch back to the Freedom Sword.
+
+The easier but more expensive way is to use *D:Soften Stone* to go 1E 2S. This isn't a bad way to spend Louie's spell points, especially if you have some extra Dragon Eyes.
+
+Buck has a touch over 200 HP, but it shouldn't take you more than a couple of rounds of hacking with the Freedom Sword. And after all that, he's only worth 600 XP.
 
 #### Mystalvision
-Retrace your steps out of the barracks. Remember where I said to turn S when there was a door to the N? We're going through that door, but you should save and make sure you're healed up before you do because there's a random encounter on the other side of the door. Turn W and walk through the doors. If you hug the N wall (1N 2W 1S 1W) as you cross the rooms you'll skip two more encounters. Eventually you'll end up in a hall that hurts every time you take a step. It's like swimming across the Purgatory bay, or the Byzanople siege run: you can Bandage whenever you want, but even turning (or hitting ESC to pause!) hurts.
+Retrace your steps out of the barracks. Remember where I said to turn S when there was a door to the N? We're going through that door, but you should save and make sure you're healed up before you do because there's a random encounter on the other side of the door. Turn W and walk through the doors. If you hug the N wall (1N 2W 1S 1W) as you cross the rooms you'll skip two more encounters. Eventually you'll end up in a hall that hurts every time you take a step. It's like swimming across the Purgatory bay, or the Byzanople siege run: you can Bandage whenever you want, but even turning (or hitting ESC to pause!) hurts. Walk 2N 4E, turn to the N, then use *Bandage* to heal up.
 
-Go 2N 4E, turn to the N, then use *Bandage*. Mystalvision waits 1N of you in the center of the Solarium. He's not so tough; he'll close to 40' and then cast three-point *S:Infernos* on you. Zap him with spells and hit him with the Dragon Teeth and he'll go down pretty quickly (150–170 HP). When he dies (700 XP) he curses you by sending you to another cavern just W of the one you actually started in. The game lies and says you're "back where you started", which isn't quite true. Worse, you're surrounded by random fights. Instead, turn W, cast *D:Soften Stone*, go 1W, and cast it again. You'll walk through another icy pain-and-anti-magic wind. Then go 3N to a door and continue to the next section.
+Again, the easier but more expensive way: Instead of going through the door to the N, walk 4W of there, face N, and use *D:Soften Stone* to go 4N. That only takes you through one square of pain and skips the intervening combats. On the other hand, there's only one of them and *Bandage* is free, so maybe it's not worth the spell points.
+
+Either way, Mystalvision waits for you in the center of the Solarium. He's not so tough; he'll close to 40' and then cast three-point *S:Infernos* on you. Zap him with spells and hit him with the Dragon Teeth and he'll go down pretty quickly (150–170 HP). When he dies (700 XP) he curses you by sending you to another cavern just W of the one you actually started in. The game lies and says you're "back where you started", which isn't quite true. Worse, you're surrounded by random fights. Instead, turn W, cast *D:Soften Stone*, go 1W, and cast it again. You'll walk through another icy pain-and-anti-magic wind. Then go 3N to a door and continue to the next section.
 
 #### The Swamp
 Proceed W through the locked door (level 1) and S through a couple of 3x3 rooms – it's getting pretty grizzly down here – until you reach the swamp under the mountain. (If you rescued the prisoner from the Dock, this is the place he told you about.) The exit's in the SW corner.

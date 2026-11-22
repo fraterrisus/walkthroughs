@@ -1369,7 +1369,7 @@ Your first use for this stuff is to build the [Crater Climber](#crater-climber) 
 {% endaethusitem %}
 {% aethusitem 'Jaspite Geode' %}
 
-*Where:* You find one inside the Bunker at Lambda. They're occasionally mined from Jaspite Nodes in the Lost world, or rarely produced by the [Standard Smelter](#standard-smelter) if it's inside a [Hub Habitat](#hub-habitat).
+*Where:* Occasionally mined from Jaspite Nodes in the Lost world, or rarely produced by the [Standard Smelter](#standard-smelter) if it's inside a [Hub Habitat](#hub-habitat).
 
 Geodes are for [prospecting](#prospecting-bench). These produce Bladestones.
 
@@ -1385,14 +1385,14 @@ Like most ores, the purpose of this stuff is to be [smelted](#standard-smelter) 
 
 *Where:* There are exactly eight of these little collectible figurines scattered across the game. You get a Steam Achievement if you collect them all.
 
-1. Beach: behind the waterfall in the Outer Crater / Lower Caves
+1. Beach: behind the waterfall near the Kaloxite Drill (in the Outer Crater)
 2. Believer: sitting on top of a crate a little ways away from the Gold drill (behind Delta)
 3. Wizard: on the Surface, above the Bloodfall, by the "back door" cave entrance to Delta
 4. Armored: Cargomaster's Office in Epsilon
-5. Dwarf: in the outhouse building outside Mu
-6. Zombie: in the outhouse building outside Theta
-7. Santa: in the Control Room of Rho
-8. Soldier: in the Medbay of Omicron
+5. Dwarf: the outbuilding near Mu
+6. Zombie: the outbuilding near Theta
+7. Santa: the Control Room of Rho
+8. Soldier: the Medbay of Omicron
 
 You can find them in the Build menu under "Placeables"; they go nicely on shelving units in your sleeping quarters. And no, you *don't* have to put them on ARC-Approved Display Shelves.
 
@@ -2570,7 +2570,7 @@ Used to craft [Chill Cola](#chill-cola) at the [Cooking Station](#cooking-statio
 
 *Blueprint:* Inside Lisa Chapman's quarters in Epsilon, or $4500/$4950 at RAPP-3.
 
-*Cost:* 30x [Building Material](#building-material), 3x [Basic Electronics](#basic-electronics), 1x [Servomotov](#servomotor), 2x [Meteorite Frame](#meteorite-frame)
+*Cost:* 30x [Building Material](#building-material), 3x [Basic Electronics](#basic-electronics), 1x [Servomotor](#servomotor), 2x [Meteorite Frame](#meteorite-frame)
 
 *Power:* +8
 

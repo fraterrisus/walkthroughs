@@ -53,6 +53,8 @@
 
 *Goals:* Bring three Ancient Bones to the Trade Node.
 
+*Reward:* $5000
+
 You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests when you get the quest in the first place. You can't return Jaws, Ribs, Tails, or Skulls, though, just Bones. (They all sell for $1500 each though, so there's still value in the ones that don't satisfy the quest.)
 
 ## Buried Memories
@@ -193,7 +195,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Goal:* Bring five [Bladestones](/aethus/items/#bladestone) to the Trade Node.
 
-*Reward:* $7000(!!!)
+*Reward:* $7000, which seems like a lot, but Bladestones go for $1000 each on the open market so it's not really that much of a premium.
 
 ## Going Down <!-- {.side_quest} -->
 
@@ -249,8 +251,6 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 2. Find the blueprint for a Thermopump, craft one, and insert it into the maintenance terminal.
 
 ## Heavy Metal <!-- {.fetch_quest} -->
-
-*Trigger:* "Complete" [Working for the Man](#working-for-the-man), but really it seems to just be "return from your next mining run".
 
 *Goal:* Deliver three [Kalynite Frames](/aethus/items/#kalynite-frame) to the Trade Node.
 
@@ -345,9 +345,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 ## The Menagerie <!-- {.fetch_quest} -->
 
-*Trigger:* Return from a mining run after completing [Heavy Metal](#heavy-metal).
-
-*Goal:* Deliver ten [Mysterious Eggs](/aethus/items/#mysterious-egg) to the Trade Node.
+*Goal:* Deliver ten [Mysterious Eggs](/aethus/items/#mysterious-egg) to the Trade Node. Eggs can be hard to spot inside the stone nests; use a Suit Scan and look for the red outlines to help find them.
 
 *Reward:* $3000
 
@@ -413,7 +411,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 1. Investigate Lambda, the source of the nuclear radiation leak.
 2. Get into the Secure Storage facility of Epsilon and retrieve the Nuclear Fuel Rod.
-3. Craft an RTG Recator Core, bring it to Lambda, and repair the reactor using the ARMS unit.
+3. Craft an RTG Reactor Core, bring it to Lambda, and repair the reactor using the ARMS unit.
 4. Explore the rest of Lambda and find the plans for the Prospecting Bench.
 
 ## Spring Fling

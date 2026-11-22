@@ -30,7 +30,6 @@ Also thanks to **Johan Andersson** from the Discord for collecting some icons an
 Things I'd like to clean up in a future pass.
 
 - Are they called "production" or "processing" facilities?
-- Maybe switch the order of Lambda and Kappa, since Lambda grants you log #17, but you don't get #16 until you visit the Undersea Dam Facility. On that front, you might do the Dam before you do the Fishing Hab; check the ordering of the clues for this.
 - Might have missed a subgoal on [The Kappa Module](/aethus/quests/#the-kappa-module).
 - Add the effects of Fatigue to the [Status Modifiers table](#status-modifiers).
 - What happens if you don't make the run to Sigma in time?
@@ -45,7 +44,7 @@ Some helpful hints that I've picked up in my time exploring Aethus.
 
 - Read *everything* in as much detail as you can. Hover over items in your inventory and read the descriptions. Read the small print on the screens of terminals you interact with. Read the journal entries (maybe save these for once you're back in your Outpost). Often times there are subtle clues hidden in the text. Even the log entry number in journal entries is sometimes relevant.
 - Use the Compass. A lot. Like, all the time. The game tends to drop "Point of Interest" markers that eventually resolve into named locations once you visit them. It can be a little bit challenging, especially when several points bunch up because they're all roughly in the same direction, but learning how to navigate by the compass will serve you well later on.
-- Likewise, use your Suit Scan a lot. Tap `X` to reveal nearby items; hold it down longer to scan further and get a full radar scan of the area complete with compass for orientation and purple dots that indicate items of interest. Things you can interact with will also be outlined in the main display. It's super helpful for finding things you can interact with and/or scavenge, especially tiny items you might otherwise overlook.
+- Likewise, use your Suit Scan a lot. Tap `X` to reveal nearby items; hold it down longer to scan further and get a full radar scan of the area complete with compass for orientation and purple dots that indicate items of interest. Things you can interact with will also be outlined in the main display. It's super helpful for finding things you can interact with (outlined in blue) and/or scavenge (red), especially tiny items you might otherwise overlook.
 - Whenever you run into a lab bench, seating area, etc. look *very* closely. Often times there will be small items scattered about that you can pick up by clicking on them. This might be a can of cola or food item, but it might also be things like [Servomotors]() or other expensive crafting ingredients! These items are especially hard to spot, even on a Suit Scan, when they're sitting on a workbench or console that you can interact with. Click anything that looks suspiciously like a collectible!
 - If you're getting frustrated with some aspect of the game, explore the difficulty settings. You can change them at any time. As an example, some people report getting frustrated with how low your inventory weight limit is at first. Frankly, I find that sort of early-game frustration to be part of the experience and didn't want to change it, but I won't judge if you do.
   - For a more hardcore experience, turn on Negative Vitality Effects, which will start draining your abilities (including health) if you don't eat or drink. This forces you to think about One More Thing when you're on long mining runs and/or makes you return to home base more often.
@@ -86,7 +85,11 @@ Some helpful hints that I've picked up in my time exploring Aethus.
 
 **In the middle game:** First of all, sell [Deepstone](/aethus/items/#deepstone) by the ton. 50 units will make you the same $1500 that crafting ten Mining Explosives will.
 
-Once you explore Lambda and find the Suit Upgrades that let you find Geodes as well as the plans for the [Prospecting Bench](/aethus/items#prospecting-bench), **geodes** of various types start to appear. Geodes will sell for 2x the price of a normal gemstone of the same variety, but you're better off bringing them to the Prospecting Bench and playing the minigame to convert them into gemstones. Even with "average" results you'll almost certainly get more than two gemstones, and once you get good at prospecting you're likely to get higher-quality ones, which means you'll come out ahead over selling the raw geode.
+You'll also start to acquire **geodes** of various types. If you build a Hub Habitat and stick your processing facilities into it, they'll occasionally produce geodes in their output hoppers. Otherwise, once you reach Lambda you'll find a suit upgrade that causes geodes to drop randomly when you're mining nodes.
+
+Geodes sell for 2x the price of a normal gemstone of the same variety, but if you build a [Prospecting Bench](/aethus/items#prospecting-bench), you can play a minigame where you convert a geode into a pile of gemstones. Play the game well enough and you'll get more than two gems, and higher-quality ones to boot.
+
+The goal of the minigame is to extract the one (1) gemstone chip from inside the rock. You can spin the geode with the middle mouse button and fire a laser with the left button, but you only have a limited number of shots and you don't know where the chip is at first. The more material you remove from around the chip, the higher your score. Figuring out where to shoot is part luck and part skill.
 
 **In the late stages:** You don't really need credits at this point, but you also have plenty of things you can sell for cash if you're trying to buy an expensive blueprint.
 
@@ -445,9 +448,7 @@ Speaking of base power, the RTG that you started out with is great but it won't 
 
 If at any point while you're in your outpost the screen starts to shake and the ground starts to rumble, you may be experiencing an earthquake. Don't panic, this is actually a good thing: it means that all of the resource nodes underground have been regenerated and randomized. So any area that you've stripped clean will suddenly be full of mineable nodes again! Earthquakes happen at random, and despite our protagonists' concerns, will only occur when you're in your outpost. This is a very good reason to make sure that you occasionally spend some time puttering around, putting up new buildings, or adding decoration to your outpost. (Later on you can build a [Quakemaker]() and use [Charges]() to trigger earthquakes whenever you want.)
 
-Sometime around now, Trudy will interrupt to remind you about the RAPP and encourage you to push towards Level Two, also known as the [*Working for the Man*](/aethus/quests/#working-for-the-man) quest. Or maybe you've been buying lots of things and have gotten there already. Whether you reach RAPP-2 or just take another trip or two into the mines, eventually she'll call with a new offer: fetch quests. Now, you've probably noticed from Maeve's tone that you're being set up not to trust Trudy (and ARC more broadly), and that is *definitely* the right attitude to take. So you may be asking yourself, *should I really be doing fetch quests for these people?* It's a perfectly reasonable question, but as far as I know, there's no effect on the story whether you do them or not. They're simply a way to make some extra money. If you want to take the role-playing high ground and not do them, I applaud you.
-
-That being said, the first quest ([*Heavy Metal*](/aethus/quests/#heavy-metal)) is real simple; you can whip up three [Kalynite Frames]() quite easily, and bringing them back to the Trade Node will net you the substantial sum of $2000. The second quest ([*The Menagerie*](/aethus/quests/#the-menagerie)) is a little harder, because [Mysterious Eggs]() are sometimes tricky to find and you may need an earthquake to reset the nests in order to collect that many. Ten eggs nets you an additional $3000. One hint in case you're having difficulty finding eggs: when you run a Suit Scan, anything you can mine with Roland's laser will be highlighted in pale blue, but anything you can gather just by picking it up, like the eggs, will be highlighted in red.
+Sometime around now, Trudy will interrupt to remind you about the RAPP and encourage you to push towards Level Two, also known as the [*Working for the Man*](/aethus/quests/#working-for-the-man) quest. Or maybe you've been buying lots of things and have gotten there already. Whether you reach RAPP-2 or just take another trip or two into the mines, eventually she'll call with a new offer: fetch quests. We'll talk about those more in a minute.
 
 Eventually, you'll collect enough credits to buy the blueprint for the [Electronics Workbench](). That comes with all sort of new things to build, including the [Servomotor](). The Servomotor requires [Microcircuits](), another new item, and those in turn require... Gold Bars. 
 
@@ -456,6 +457,20 @@ Eventually, you'll collect enough credits to buy the blueprint for the [Electron
 Well, lacking any other information, the only option we have is to press forward, down over that narrow strip of land and into the meteorite crater that takes us towards Delta. Before you do that, you're going to want all of the first-tier upgrades (the ones that cost under $10k), so it's time to dig in (heh) and do some serious mining in order to raise the credits you'll need.
 
 In order to turn [Gold Ore]() into the [Gold Bars]() required to craft [Microcircuits](), you will also need yet another new piece of equipment: the [Standard Smelter](). You have two options: buy the blueprint for $750, or wait until you get all the way past [Delta](#facility-delta) and find the gold mining drill on the other side; there's a free copy of the blueprint there. Either one is a valid choice, but the drill is kind of a long way off in terms of both your capabilities and the story, so I suggest shelling out the credits rather than waiting.
+
+### Scene Break: Trudy's Fetch Quests
+
+Some time after you receive [*Working for the Man*](), Trudy will call back with a new offer: fetch quests. Go out and gather (or craft) some resource on ARC's behalf, and they'll pay above-market prices for whatever you bring back.
+
+Now by this point, you've probably noticed from Maeve's tone that you're being set up not to trust Trudy (and ARC more broadly), and that is *definitely* the correct attitude to take. So you may be asking yourself, *should I really be doing fetch quests for these people?* It's a perfectly reasonable question, but as far as I can tell there's no effect on the story whether you choose to do them or not. They're simply a way to earn some extra credits. If you want to take the role-playing high ground and not do them at all, I applaud you.
+
+Fetch quests will appear irregularly throughout the rest of the game. They don't seem to be triggered by any specific action, just natural progression deeper into the game, plus of course you can't get the next one until you fulfill the previous one.
+
+Here I'll list them in order so you can see what's coming up next; for more details on each individual quest, click through to the Missions page.
+
+1. [*Heavy Metal*](): craft three [Kalynite Frames]() for $2000
+2. [*The Menagerie*](): gather ten [Mysterious Eggs]() for $3000
+3. 
 
 ### Meteor Crater
 
@@ -622,6 +637,7 @@ First you'll come upon a waiting room. There's a datapad here with a journal ent
 Pass through another door marked "Airlock" and you'll find... a third door marked "Airlock". But this is a larger room, with another rover, a door marked "Storage", and another marked "Crew Quarters A+B". The Storage room takes a keycode we don't have yet (it's `6980`, but you won't figure that out for a while). Crew Quarters B is off-limits. In Crew Quarters A you'll find rooms assigned to **Ncuti Sinclair**, **George Broussard**, **Grant Harlow**, and **Lisa Chapman**, which are all names you'll get to know. For now there's not much to do here, so head into the "Ready Room" where you'll find a Suit Charger (unsurprisingly) and, at long last, the actual exit door.
 
 <figure>
+
 [![Epsilon Courtyard](Epsilon_Courtyard-thumb.png)](Epsilon_Courtyard.png)
 
 <figcaption>Map of the Epsilon Courtyard (1k &times; 1k)</figcaption>
@@ -688,7 +704,7 @@ Anyway, you'll find some sort of balance. But this is a good time to invest in s
 
 - the [Cargo Habitat](/aethus/items/#cargo-habitat), which grants bonus storage to any cargo unit inside it;
 - the [Manufacturing Habitat](/aethus/items/#manufacturing-habitat), which reduces the cost of several recipes to any crafting facility inside it;
-- the [Hub Habitat](/aethus/items/#hub-habitat), which grants the ability to occasionally produce Geodes to any production facility inside it. More about Geodes later.
+- the [Hub Habitat](/aethus/items/#hub-habitat), which grants the ability to occasionally produce Geodes to any production facility inside it.
 
 A couple of other plot events will happen at some point over the next couple of sections. They don't seem to be triggered by any particular event that I can discern, so they might happen in any order.
 
@@ -754,7 +770,7 @@ The door to the Loadmaster's Office is open from this side. There's a lockbox wi
 
 The room across the hall from you belongs to **Dieter Yar**. Down the hall to your right you'll find **Simone Parker**'s quarters and an unoccupied room. The door to the unclaimed room isn't locked, so help yourself. You find a blueprint for some more natural decorations, some [Packaged Foodstuffs](/aethus/items/#packaged-foodstuffs) (nice if you're getting hungry), a [small Terraforming Charge](/aethus/items/#terraforming-charge), and some [Building Material](/aethus/items/#building-material) (...okay). The purple-glowing trap door in the floor sure looks inviting, but it's just background decoration. Work your way around to the back of the room and there's a datapad with an "anonymous" conversation between two employees who were apparently messing with a cleaning lady in order to exact revenge for some petty inconvenience. Word to the wise: don't fuck with the help, it just makes you look like an asshole.
 
-The Canteen is closed.
+The Canteen is closed. But if you bring those Packaged Foodstuffs back home, I recommend checking out [Pioneer Stew](). It isn't Vegetarian, but it is awfully filling.
 
 Remember when we found the broken half-door to Crew Quarters C and spotted an Airlock door through it? Well, now we're in Crew Quarters C, and sure enough there's an airlock at the opposite (E) end of the hallway. Let's call this the "rear" airlock; it leads to another, smaller courtyard, with a gate that also needs a [Servomotor]() repair job. You're in an area of higher oxygen drain, just like Kappa, so don't dawdle, but do check out the gate; Roland detects what seems to be a leaking nuclear reactor somewhere in the vicinity of Facility Lambda, which you may be able to spot in the middle distance through the fence.
 
@@ -783,11 +799,9 @@ You can bring Parker's keycard back to Crew Quarters C and loot her room as well
 
 Our next stop is Facility Lambda, to go check out the dinosaurs. Let's head back to the outpost and see what Roland has to say for himself: apparently his "stub memories" are getting more "pings", but still no real word about what that means. Okay then.
 
-You'll want to do some crafting before you head back underground. We'll need a [Power Cell]() and a [Servomotor]() to bring the rear courtyard of Epsilon back online. Once you're at Lambda you'll want a second [Power Cell]() and also a [Bypass Mole](), so go ahead and make those now too.
+You'll want to do some crafting before you head back underground. We'll need a [Power Cell]() and a [Servomotor]() to bring the rear courtyard of Epsilon back online. Once you're at Lambda you'll want a second [Power Cell]() and (eventually) a [Bypass Mole](), so go ahead and make those now too.
 
 (I should mention that you don't *have* to take the rear exit from Epsilon to get to Lambda, but it's the most straightforward way to do it. The other way (here's a [map](Lambda-alt.png)) is to go out the *front* courtyard via the East gate and follow the signs for Lambda. Unfortunately this brings you to a bridge that's fallen in on itself. Maeve will encourage you to explore a bit, and somewhere off to your left you'll find an *enormous* tree that's hollow and has fallen across the gap. It's actually so large that it's hard to see, so make sure you're zoomed all the way out. Hollow trees like this are all over the Lost World map and they act as a bridge or ramp to get from place to place, so keep an eye out.)
-
-> Do we need Harlow's keycard or the Nuclear Fuel Rod yet?
 
 Back down in Epsilon, head through the Cargo Bay and Secure Storage to the Loadmaster's Office and into Hallway C, then left towards the Airlock and out the back door. Load up the atmosphere generator with a [Power Cell]() and use the [Servomotor]() to repair the back gate.
 
@@ -801,19 +815,33 @@ Now that we can breathe again, feel free to take a look around. So long as you h
 
 There's also an Excavation Site (see map) off to the SW of Lambda. There isn't a whole lot to see over there but it does look pretty cool, and you can pick up a color customization blueprint for your trouble.
 
+Inside Lambda, you'll quickly come across a computer with a log file containing a conversation between **Lisa Chapman**, who appears to be a nuclear engineer in charge of this facility, and Dr. Li. There's a number of interesting tidbits here; Tau (a facility in the next level down, whatever that is) is apparently capable of producing nuclear fuel rods, but they aren't up to the right standard. Chapman thinks it won't be a problem for "years", which makes this a good time to remind you that you're visiting this site a few decades after the last human being. On the other hand, the fact that there's an automated repair unit installed sounds like it might come in handy.
 
+Ignore the automated voice warning you about the radiation leak you already knew about and proceed into the control room. The computer in here isn't helpful, and the nearby blueprint is for the "Nuclear" sign (of course it is). The door to the East is out of service. When you head West, though, Roland tells you to stop and then fire off a Suit Scan. Long story short, we now need that [Nuclear Fuel Rod]() we found in Epsilon Secure Storage, plus a new [Fuel Rod Housing]() for it, which we'll need to craft back home. But we didn't have the blueprint for it until just now. Put those together to make a new [Reactor Core](/aethus/items#rtg), and use that to replace the leaking one in here. Otherwise, the reactor might melt down and destroy the entire ecosystem. (It won't, actually.)
 
+> #17-L-1 — Meltdown
 
+Well, that was a short trip. If you didn't already do a bunch of mining, feel free to do so now. The run from here to the back door of Epsilon isn't very far, so you can load up Facility Storage with Jaspite. Just don't get lost; it's easy to lose your bearings among the dinosaur skeletons. Remember that Epsilon is *North* of here and you should be able to find your way home.
 
-What can we do about this radiation leak, anyway? The computer just inside the door has a log file with a conversation between Dr. Li and Lisa Chapman, who appears to be a nuclear engineer. It seems that there's some sort of automated system for replacing nuclear power cores, so if we can manufacture the stuff we need, we should be able to fix the problem. Ignore the automated voice warning you about the radiation leak you already know about. You can't do anything with the terminal in the control room (and the blueprint there is for a decorative sign), the door to the East is out of service, and when you go West, Roland tells you to stop and then fire off a suit scan. Long story short, we'll need to craft a [Fuel Rod Housing](/aethus/items/#fuel-rod-housing) (thanks for the blueprint, Roland) and find a Fuel Rod in the Secure Storage region of Epsilon. All this gets you Personal Log #17-L-1 — Meltdown, which is kinda funny because we haven't gotten #16 yet.
+Back home, Roland is intrigued by Dr. Harlow's position as "head of AI research", which provides a nice bit of foreshadowing and some backstory on Roland and Maeve's family. Meanwhile, Trudy's got another fetch quest for you: [*Glittering Depths*](/aethus/quests#glittering-depths), which requires five [Bladestones](). Slightly suspicious, that... but $7000 is a bit over market price for Bladestones.
 
+Craft yourself a [Reactor Core]() and, if you don't have one already, a [Bypass Mole](), and head back down to Lambda. In the control room, the door to the East is now open. You can loot a [small Bottled Water](), some [Cactus Moonshine](), and in the lockers, a couple of [Packaged Foodstuffs]() and a [Suit Upgrade Chip]() that enables you to occasionally find Geodes inside Nodes. For more about Geodes, check out the [How To Make Money](#how-to-make-money) section at the top of this page.
 
+I guess the reason we're actually here, though, is to drop that Reactor Core into the ARMS and repair the nuclear power station. Doing so opens up the rest of Lambda to exploration, and there's plenty of good stuff to find here. Plus, you stopped the radiation leak!
 
+> #17-L-2 — Hero of the Spooky Underground Jungle
 
+The computer console in the control room works now that the crisis is resolved, and it spits out some gibberish delineated with `tear_paper`. Roland (hoo boy) identifies as an encryption key for something. As with many things that are obvious foreshadowing, this becomes super important later on.
 
-------
+Now you can explore the West wing of the facility. Next up: another bunker, off the reactor room. (Does anyone else get the heebie-jeebies just walking past *live nuclear reactors*, as we seem to do all the time down here?) Drop a [Bypass Mole]() into the terminal to open the door. Inside, you can scavenge a can of [ARCola](/aethus/items/#arcola), a [Nutrient Bar](/aethus/items/#nutrient-bar), two [Anti-Grav Tech](/aethus/items/#anti-gravity-tech), **George Broussard**'s keycard, some [ARC Credit Chips](/aethus/items/#arc-credit-chip), a [Jaspite Geode](/aethus/items/#jaspite-geode), and a construction color scheme. 
 
+The back room is fun, and laid out kind of like a museum. In the locker in the corner you'll find another Suit Upgrade Chip; this one gives you a 10% bonus chance to find Geodes. There's also another Gaia Data Server we can't work with. In the center of the room is a fully-functional [Prospecting Bench](/aethus/items#prospecting-bench), and there's a Tangrite Geode hiding on a table in the corner so you can try it out. The blueprint of the Bench is also sitting on the table right next to it, so you can go home and build your own, as well.
 
+In the back corner there's a datapad (hiding behind one of the bones) with a message announcing the arrival of Caleb Vihaan as a new member of the staff.
+
+That's it for Lambda; time to head home, or do some mining and try to generate more Geodes. You can also rifle through some rooms in Epsilon's Crew Quarters A: George Broussard's quarters contains a whole-ass Cooking Station, several bottles of [Moonshine](/aethus/items/#cactus-moonshine), and some [Refined Sugar](/aethus/items/#refined-sugar). Apparently he was the one running the whole Moonshining Ring. Grant Harlow's quarters has a [Basic Electronics](/aethus/items/#basic-electronics), an [Advanced Electronics](/aethus/items/#advanced-electronics), two [Gold Bars](/aethus/items/#gold-bar), and a datapad with a sobering message from Dr. Li about the personal impacts of the Tear Paper protocol.
+
+Trudy's next fetch quest is [*Buried History*](), which is a request to dig up a bunch of [Ancient Bones](). Sure, you think, I'll just pick them up from the skeletions near Lambda. But *how*? Turns out the answer is [Fishing Lures](), which is why I told you to hang on to those a while back. (You can make more out of [Anti-Grav Tech](), if you need to.) Grab as many as you can and head back over to the swamps near Lambda. Only Ancient *Bones* will do; the other [Ancient Parts]() don't count. However, they all sell for $1500 each, and the reward ($5000 for three) isn't much of a premium on that anyway.
 
 ### Scene Break: Drill Site IV
 
@@ -949,7 +977,7 @@ First, though, run around the room and collect a suit customization blueprint, a
 
 This isn't a bad time to return to your outpost, but you've got a couple more cleanup tasks to do down here. First, grab one more Herbicide Charge and head back to Mu, where you can finally open the door to the generator room. The blueprint for the [Large Solar Panel](/aethus/items/#solar-panel-l) is just inside, which completes *The Inner Glow* and is an exceptionally useful object to boot. You can also scavenge a [Servomotor](/aethus/items/#servomotor), some [Petroleum Fuel](/aethus/items/#petroleum-fuel), a [Strength Injector](/aethus/items/#injector), and some [Advanced Electronics](/aethus/items/#advanced-electronics), which will help you build one of those Solar Panels.
 
-Finally, go through Crew Quarters A in Epsilon and open the doors you haven't been able to open yet. Ncuti Sinclair's room has some [ARCola](/aethus/items/#arcola), the blueprint for [Oxygen Injectors](/aethus/items/#injector), a [Strength Injector](/aethus/items/#injector), and an [Oxygen Injector](/aethus/items/#injector). Lisa Chapman's room has a customization blueprint, a locked(!) crate that you can't open now but you'll be able to very soon, a large bottle of water, some [Advanced Electronics](/aethus/items/#advanced-electronics), and the blueprint for the [Vertical Wind Turbine](/aethus/items/#vertical-wind-turbine). Grant Harlow's room has a [Basic Electronics](/aethus/items/#basic-electronics), an [Advanced Electronics](/aethus/items/#advanced-electronics), two [Gold Bars](/aethus/items/#gold-bar), and a datapad with a sobering message from Tanya Li about the personal impacts of the Tear Paper protocol.
+Finally, go through Crew Quarters A in Epsilon and open the doors you haven't been able to open yet. Ncuti Sinclair's room has some [ARCola](/aethus/items/#arcola), the blueprint for [Oxygen Injectors](/aethus/items/#injector), a [Strength Injector](/aethus/items/#injector), and an [Oxygen Injector](/aethus/items/#injector). Lisa Chapman's room has a customization blueprint, a locked(!) crate that you can't open now but you'll be able to very soon, a large bottle of water, some [Advanced Electronics](/aethus/items/#advanced-electronics), and the blueprint for the [Vertical Wind Turbine](/aethus/items/#vertical-wind-turbine).
 
 Head back to your outpost, do the needful, and build yourself an [AI Core Containment](/aethus/items/#ai-core-containment) facility. It's got a pretty high cost for this part of the game, but you should have everything you need to make all the necessary components. It also draws a ton of power, so you'll probably want to invest in some shiny new [Large Solar Panels](/aethus/items/#solar-panel-l), which will eat up some more of your resources. Finally, the thing is just *large*. You'll either need to put it in a hab by itself, or take up half of one of your larger habs (the Greenhouse or Storage Hab are good candidates).
 

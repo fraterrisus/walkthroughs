@@ -411,7 +411,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Goals:*
 
-1. Investigate Lambda.
+1. Investigate Lambda, the source of the nuclear radiation leak.
 2. Get into the Secure Storage facility of Epsilon and retrieve the Nuclear Fuel Rod.
 3. Craft an RTG Recator Core, bring it to Lambda, and repair the reactor using the ARMS unit.
 4. Explore the rest of Lambda and find the plans for the Prospecting Bench.

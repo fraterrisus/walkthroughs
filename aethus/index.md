@@ -313,7 +313,9 @@ Once you've got your outpost powered, organized the way you like it, and pumping
 ### Facility Beta (Upper Hab)
 
 <figure>
+
 [![Area Map](Alpha_Beta-thumb.png)](Alpha_Beta.png)
+
 <figcaption>Area Map for this section (5k &times; 4k)</figcaption>
 </figure>
 
@@ -458,6 +460,7 @@ In order to turn [Gold Ore]() into the [Gold Bars]() required to craft [Microcir
 ### Meteor Crater
 
 <figure>
+
 [![Area Map](Meteor_Crater-thumb.png)](Meteor_Crater.png)
 
 <figcaption>Area Map for this section (6k &times; 4k)</figcaption>
@@ -494,6 +497,7 @@ If you really wanted to, you could set this place up as a home-away-from-home. Y
 ### Facility Delta
 
 <figure>
+
 [![Area Map](Delta-thumb.png)](Delta.png)
 
 <figcaption>Area Map for this section (6k &times; 7k)</figcaption>
@@ -620,7 +624,8 @@ First you'll come upon a waiting room. There's a datapad here with a journal ent
 Pass through another door marked "Airlock" and you'll find... a third door marked "Airlock". But this is a larger room, with another rover, a door marked "Storage", and another marked "Crew Quarters A+B". The Storage room takes a keycode we don't have yet (it's `6980`, but you won't figure that out for a while). Crew Quarters B is off-limits. In Crew Quarters A you'll find rooms assigned to **Ncuti Sinclair**, **George Broussard**, **Grant Harlow**, and **Lisa Chapman**, which are all names you'll get to know. For now there's not much to do here, so head into the "Ready Room" where you'll find a Suit Charger (unsurprisingly) and, at long last, the actual exit door.
 
 <figure>
-[![Epsilon Courtyard](/home/bcordes/src/walkthroughs/aethus/Epsilon_Courtyard-thumb.png)](Epsilon_Courtyard.png)
+
+[![Epsilon Courtyard](Epsilon_Courtyard-thumb.png)](Epsilon_Courtyard.png)
 
 <figcaption>Map of the Epsilon Courtyard (1k &times; 1k)</figcaption>
 </figure>
@@ -645,7 +650,7 @@ From here you have a couple of options. Roland eventually finds the coordinates 
 
 <figure>
 
-[![Epsilon Region](/home/bcordes/src/walkthroughs/aethus/Epsilon_Front-thumb.png)](Epsilon Front.png)
+[![Epsilon Region](Epsilon_Front-thumb.png)](Epsilon_Front.png)
 
 <figcaption>Map of the area around Epsilon (5k &times; 2k)</figcaption>
 </figure>
@@ -662,7 +667,7 @@ This region comes with a step up in oxygen consumption (4 units/tick, if you're 
 
 Have some fun. Take a look around. Collect some new materials. Learn how to spot the "roads" and find your way back to Epsilon. Try not to fall off any cliffs. Don't go over any bridges or down any slopes just yet. Use the Transfer Storage to stage stuff. You might want to move the one Power Cell you currently have into the Atmosphere Generator next to Transfer Storage to make it easier to use. (Yes, you can pull the Cell out of a working Generator; this is handy to remember in case you need one in a pinch.)
 
-One more thing we'll do before we go: take the West gate, find the signpost pointing you towards Kappa, and turn slightly NW. Don't go down the hill; we're interested in the thing that looks kind of like a mining drill but not quite. It's actually a mining *laser*, and instead of a drill bit it takes a [Tangrite Focusing Lens]() as well as a [Model 2 Cargo Drone](). Unfortunately, all it produces is Deepstone, which we don't really care that much about. There's also a datapad here with a message indicating that a Tangrite Lens was delivered to Drill Site IV in a crate with the code `9970`. That's a different numbering system than the drill sites in the Caverns above us, so it appears that there are several more drill sites down here for us to find.
+One more thing we'll do before we go: take the West gate, find the signpost pointing you towards Kappa, and turn slightly NW. Don't go down the hill; we're interested in the thing that looks kind of like a mining drill but not quite. It's actually a mining *laser*, and instead of a drill bit it takes a [Tangrite Focusing Lens]() as well as a [Model 2 Cargo Drone](). Unfortunately, all it produces is Deepstone, which we don't really care that much about. There's also a datapad here with a message indicating that a Tangrite Lens was delivered to Drill Site IV in a crate with the code `9970`. (**Samantha Corburn**, the Shipping Associate, doesn't seem to be a pillar of operational security.) That's a different numbering system than the drill sites in the Caverns above us, so it appears that there are several more drill sites down here for us to find.
 
 Head back inside to the Climber room. Pull your new mining riches out of Transfer Storage and dump a bunch of it into the Climber's storage. For now you'll still have to carry it by hand from Delta out the back door of the Caves and over to your outpost, so the extra carrying capacity of the Climber will only do you so much good. But you are playing a mining simulator. If shuffling raw materials between storage units like this feels boring to you, how on earth did you get this deep into this walkthrough?
 
@@ -696,6 +701,13 @@ A couple of other plot events will happen at some point over the next couple of 
 Okay, back to the main game; regardless of when you build the Crater Climber, we've got some more mining facilities to explore. You should have an eye on the *Oxygen Filters III* upgrade, even though I only just told you to buy the level 2 upgrade. Exploring the outer mining facilities in the Lost World is more challenging without it. I know $50k seems like a lot of cash right now but your income will go up, I promise. In the meantime, grab an [OxyDome]() or two along with a [Servomotor]() and a [Power Cell]() and let's go advance the plot.
 
 ### Lost World: Facility Kappa
+
+<figure>
+
+[![Kappa Region](Kappa-thumb.png)](Kappa.png)
+
+<figcaption>Map of the area around Kappa (4k &times; 4k)</figcaption>
+</figure>
 
 Maeve's hung up on "the Kappa Module", and now we know where Facility Kappa is, so it seems like a natural place to start exploring the outer boroughs of the Lost World. Make your way back down to the Epsilon courtyard and make sure you're topped up on air. From there, exit the courtyard to the West, turn right (N) at the fork, go down the hill into an area full of floating spores, then turn right (E) at the fork (and the giant wayfinding sign) into the front gate of Kappa. You'll need a [Servomotor]() to open the gate; if you didn't bring one with you, hug the fence and walk around the S side of the courtyard until you find a spot where a tree fell and took out the fence. You should be able to get in from there, or you can keep going all the way around to the back side where there's an entire fence section missing from the NE corner.
 
@@ -741,49 +753,66 @@ The crate in front of you has some more [Anti-Grav Tech]() and a [Nuclear Fuel R
 
 Cactus Moonshine sells for $300 a bottle, but you can also drink it to make yourself **Tipsy**. This makes the screen a bit blurry and ostensibly increases your change of mining gemstones from Nodes, but the effect is subtle enough that I've not really noticed a difference. I mostly just sell it for the cash value.
 
-The door to the Loadmaster's Office is open from this side. There's a lockbox with **Roger Patton's** keycard in it as well as a $1000 Credit Chip, some more decorative blueprints, an [ARCola](), and another [Jenkins](/aethus/items/#jenkins). The terminal desk has the blueprints for some small lamps (look under Lighting in the build menu), but the console doesn't have anything useful to say. Patton's keycard opens the door to the back hallway of Crew Quarters C, where we've already been.
+The door to the Loadmaster's Office is open from this side. There's a lockbox with **Roger Patton's** keycard in it as well as a $1000 Credit Chip, some more decorative blueprints, an [ARCola](), and another [Jenkins](/aethus/items/#jenkins). The terminal desk has the blueprints for some small lamps (look under Lighting in the build menu), but the console doesn't have anything useful to say. Patton's keycard opens the door to the hallway of Crew Quarters C, which we weren't able to reach before.
 
-Go craft yourself a [Bypass Mole]() and come back to check out the bunker (between the Cargo Bay and Facility Control).
+The room across the hall from you belongs to **Dieter Yar**. Down the hall to your right you'll find **Simone Parker**'s quarters and an unoccupied room. The door to the unclaimed room isn't locked, so help yourself. You find a blueprint for some more natural decorations, some [Packaged Foodstuffs](/aethus/items/#packaged-foodstuffs) (nice if you're getting hungry), a [small Terraforming Charge](/aethus/items/#terraforming-charge), and some [Building Material](/aethus/items/#building-material) (...okay). The purple-glowing trap door in the floor sure looks inviting, but it's just background decoration. Work your way around to the back of the room and there's a datapad with an "anonymous" conversation between two employees who were apparently messing with a cleaning lady in order to exact revenge for some petty inconvenience. Word to the wise: don't fuck with the help, it just makes you look like an asshole.
+
+The Canteen is closed.
+
+Remember when we found the broken door to Crew Quarters C and spotted an Airlock door through it? Well, that Airlock is at the opposite (East) end of the hallway, and now we have access to it. Sure enough, there's a second "back" courtyard to Epsilon! The gate on this one also needs a [Servomotor]() repair job, though, so we'll need to craft another one of those. Also, Roland detects what seems to be a leaking nuclear reactor somewhere in the vicinity of Facility Lambda, which is visible in the middle distance through the gate.
+
+Let's take a look around the courtyard, but be aware that you're in an area of higher oxygen drain again, just like Kappa. There's another spot where we can drop stuff in Facility Storage, which is handy, and an atmosphere generator that needs another [Power Cell](). We've got a [medium Terraforming Charge](/aethus/items/#terraforming-charge), a [Quakemaker Charge](/aethus/items/#quakemaker-charge), and some more [Mining Explosives](/aethus/items#mining-explosives). On top of the jeep is a blueprint for [Empty Injectors](/aethus/items/#injector). There's also a datapad on the running board with a log file containing the passcode `7924` (thanks, **Samantha Coburn**), which opens the crate on the back of the jeep (a few [Empty Injectors](/aethus/items/#injector) and some [Hardened Glass](/aethus/items/#hardened-glass)). Finally, over by the entrance door there's another decorative sign blueprint. Step quickly and head back inside before you run out of air.
+
+In order to check out the bunker in Epsilon, we need to craft a [Bypass Mole](). Somewhere around this trip back home, Trudy will ring in to let you know that ARC has looked at the results of their most recent financial quarter and decided to impose a 10% tariff on everything you buy at the Trade Node. Congratulations, all your market prices are now higher! I would say "you shoulda bought stuff before this happened," but this happens sometime after you reach RAPP-3 and there's no stopping it from happening.
+
+While you're at home, you can set down the Loadmaster's Key as well as Patton's and Parker's keycards. They don't weigh anything, but they can clutter up your inventory. Hang on to Harlow's (or leave it in the Climber for now).
+
+With a Bypass Mole in hand, head back to Lambda and run through the Cargo Bay towards Facility Control but turn left. Be prepared for a slightly gristly sight here: the bunker is full of corpses, although (like the ones you found outside Delta) they're all in pressure suits so you won't be looking at gore or anything. And, of course, in proper CRPG style you'll be looting the bodies. But Maeve will let you know exactly how she feels about it.
+
+It makes sense that folks in a saferoom would carry [Nutrient Bars](/aethus/items/#nutrient-bar) with them, for all the good it ultimately did them. You find **Simone Parker's** keycard; that's not one of the ones you're looking for, but we did find her quarters earlier. There's a whole bunch of [Credit Chips](/aethus/items/#arc-credit-chip) in people's pockets as well as in the locker on the North wall, which just feels insulting. You get a suit customization blueprint as well as a decorative sign. A couple of [Health Injectors](/aethus/items/#injector) and some [Anti-Grav Tech](/aethus/items/#anti-gravity-tech) rounds out the haul. Finally, we find the body of **Grant Harlow** — he's still got his keycard, which *is* one of the ones we're looking for — along with a datapad with a conversation between him and Dr. Li. Harlow seems super-important whatever was going on around here, although so far he remains fairly mysterious.
+
+Stanley seems even more freaked out about us being in this bunker than we are. He continues to insist that he tried to "hug" these people as tightly as he could, but it wasn't good enough. Even Roland is starting to think this is creepy, and he'll insist that you head back to base to have a conversation out of Stanley's earshot.
+
+You can bring Parker's keycard back to Crew Quarters C and loot her room as well. This is a slightly nicer room with a sitting area and a data terminal. Apparently there's some sort of bootleg booze-brewing operation going on, which sounds like we're going to find a bunch more [Moonshine](). Also there's a note here about using high-strength "herbicide" without PPE, which I can understand someone being upset about. File that one away for later. There's a suit decoration blueprint on the bed, [Fishing Lures]() and [Credit Chips]() in the lockbox, and an [ARCola]() on the table.
+
+### Lost World: Facility Lambda
+
+<figure>
+
+[![Lambda Region](Lambda-thumb.png)](Lambda.png)
+
+<figcaption>Map of the area around Lambda (3k &times; 2k)</figcaption>
+</figure>
+
+Our next stop is Facility Lambda, following in our friend **Caleb Vihaan**'s footprints. Let's head back to the outpost and see what Roland has to say for himself: apparently his "stub memories" are getting more "pings", but still no real word about what that means. Okay then.
+
+You'll want to do some crafting before you head back underground. We'll need a [Power Cell]() and a [Servomotor]() to bring the rear courtyard of Epsilon back online. Once you're at Lambda you'll want a second [Power Cell]() and also a [Bypass Mole](), so go ahead and make those now too.
+
+(I should mention that you don't *have* to take the rear exit from Epsilon to get to Lambda, but it's the most straightforward way to do it. The other way (here's a [map](Lambda-alt.png)) is to go out the *front* courtyard via the East gate and follow the signs for Lambda. Unfortunately this brings you to a bridge that's fallen in on itself. Maeve will encourage you to explore a bit, and somewhere off to your left you'll find an *enormous* tree that's hollow and has fallen across the gap. It's actually so large that it's hard to see, so make sure you're zoomed all the way out. Hollow trees like this are all over the Lost World map and they act as a bridge or ramp to get from place to place, so keep an eye out.)
+
+> Do we need Harlow's keycard or the Nuclear Fuel Rod yet?
+
+Back down in Epsilon, head through the Cargo Bay and Secure Storage to the Loadmaster's Office and into Hallway C, then left towards the Airlock and out the back door. Load up the atmosphere generator with a [Power Cell]() and use the [Servomotor]() to repair the back gate.
+
+Facility Lambda is off to the SE, but between here and there is a huge swamp full of dinosaur skeletons and tasty Nodes to be mined. We'll talk about that stuff in a minute; as per usual, I'll encourage you to make a run straight for the facility building so we can enable the atmosphere generator that's inevitably waiting for us before you do any real mining. So, turn left out the back gate and follow the sign pointing you towards Lambda. That sends you East towards a second sign; bear slightly right to follow the road and you'll see the front door off to your right. (As a reminder, even when the roads are overgrown and hard to see, they're marked with Lightsticks.)
+
+As you enter the swamp, you'll start to hear your suit's Geiger counter click and a brand new gauge will appear in your HUD. This is **radiation poisoning**, and if it hits the top of the meter you're in trouble. It will start to damage your Health once it gets past about halfway and the edges of your screen will start to turn green. For now, the only way to reduce it is to get away from the source, but at the moment the source is Lambda and that's where we're going so there's not much of a choice to be made.
+
+The front yard of Lambda has a Cargo Pod and two Cargo Containers (with some [Swampwheat]()), which may be easier to spot than the habitat building itself. But, as promised, there's an atmosphere generator up on the front porch; slip a [Power Cell]() into it.
+
+Now that we can breathe again, feel free to take a look around. So long as you hang out in the area outside Lambda, your radiation meter should top out around 40%, which won't do any damage. The swamp is lousy with light-blue Jaspite Nodes and purple-flower Swamp Nodes, both of which drop Jaspite Ore. You can also collect plenty of [Swampwheat](/aethus/items#swampwheat) here; it can be difficult to spot without a Suit Scan, because it looks just like some other weeds that *can't* be harvested. This is also a great place to go fishing, but save your [Lures]() for now, because we'll pick up a related side quest shortly.
+
+
+
+
+
+What can we do about this radiation leak, anyway? The computer just inside the door has a log file with a conversation between Dr. Li and Lisa Chapman, who appears to be a nuclear engineer. It seems that there's some sort of automated system for replacing nuclear power cores, so if we can manufacture the stuff we need, we should be able to fix the problem. Ignore the automated voice warning you about the radiation leak you already know about. You can't do anything with the terminal in the control room (and the blueprint there is for a decorative sign), the door to the East is out of service, and when you go West, Roland tells you to stop and then fire off a suit scan. Long story short, we'll need to craft a [Fuel Rod Housing](/aethus/items/#fuel-rod-housing) (thanks for the blueprint, Roland) and find a Fuel Rod in the Secure Storage region of Epsilon. All this gets you Personal Log #17-L-1 — Meltdown, which is kinda funny because we haven't gotten #16 yet.
+
+
 
 
 
 ------
-
-you're looking for. You will need to bring it back to your home base so you can craft a [Fuel Rod Housing](/aethus/items/#fuel-rod-housing) and combine the two with some [Advanced Electronics](/aethus/items/#advanced-electronics) (you'll need to buy this blueprint from the Trade Node) to make an [RTG Reactor Core](/aethus/items/#rtg), then bring that core to Lambda.
-
-### Lost World: Facility Lambda
-
-In the grand tradition of doing the side quests before the main quest, let's check out Facility Lambda.  Bring a [Servomotor](/aethus/items/#servomotor) and a [Power Cell](/aethus/items/#power-cell) with you.
-
-Take the Eastern exit from the Epsilon courtyard and follow the path. There's a helpful signpost pointing towards Lambda, so go ahead and turn that way (SE) and head up a slight slope. There's a very helpful bridge here — you can even see Lambda in the distance behind it — but the bridge has fallen and you can't jump over it. Maeve encourages you to do some exploration, and in fact if you run a bit East following the cliff edge, you'll eventually find an *enormous* tree that's fallen over the gap. (It's actually so large that it's kind of hard to see, so make sure you're zoomed all the way out.) You'll find trees like this a lot around the Lost World: the important thing is that they're hollow inside, and you can use them as a bridge or ramp to get from place to place. You'll probably also find some Greatwood Nodes inside. Remember this feature; it'll come up a lot.
-
-(For future runs, if you're coming from Epsilon, look for the pond off to your left (NE) and cut through that; it leads to one end of the tree, rather than having to walk over to the broken bridge and then find your way along the cliff edge.)
-
-On the far side of the tree, note that your oxygen usage just went up by 2x. Turn E and you'll be presented with a giant dinosaur skeleton. This was what our archaeologist friend was talking about in that datapad. As usual, I'll encourage you to make a run straight for the facility building before you take any time trying to mine this area out. There's an oxygen generator on the 'front porch' of Lambda that needs a [Power Cell](/aethus/items/#power-cell) to activate it. But watch your HUD carefully: as Roland says, Lambda is currently leaking radiation, and as you get closer you'll see a green gauge pop up. This is **radiation poisoning**, and if it hits the top of the meter you're in trouble. It will start damaging you once it gets past about halfway and the edges of your screen go green. For now, the only way to reduce it is to get away from the source, and unfortunately the oxygen generator is within range. So you can't stay here too long.
-
-You will also note the Drone Pod sitting outside the facility. This was a quality-of-life feature that got added on after the game initially shipped; if you load it up with a [model 1 Cargo Drone](/aethus/items/#cargo-drone), you can dump stuff into the Pod (250kg capacity) and then have the Drone ship it back to the Storage Silo (2000kg capacity) inside the Epsilon courtyard for you. That makes long mining runs at facilities like this much easier — a lot less shuttling back-and-forth using just the carrying capacity of your suit. Unlike the automated drills, though, you have to manually tell the drone when to move from point to point. So, fill up the Pod with cargo, click the button to send it to Epsilon, then run back to the silo yourself and click another button to have the drone return to where it started.
-
-What can we do about this radiation leak, anyway? The computer just inside the door has a log file with a conversation between Dr. Li and Lisa Chapman, who appears to be a nuclear engineer. It seems that there's some sort of automated system for replacing nuclear power cores, so if we can manufacture the stuff we need, we should be able to fix the problem. Ignore the automated voice warning you about the radiation leak you already know about. You can't do anything with the terminal in the control room (and the blueprint there is for a decorative sign), the door to the East is out of service, and when you go West, Roland tells you to stop and then fire off a suit scan. Long story short, we'll need to craft a [Fuel Rod Housing](/aethus/items/#fuel-rod-housing) (thanks for the blueprint, Roland) and find a Fuel Rod in the Secure Storage region of Epsilon. All this gets you Personal Log #17-L-1 — Meltdown, which is kinda funny because we haven't gotten #16 yet.
-
-All of that being said, you really do want to do some mining in this region. It's the first place that you can find light blue Jaspite Nodes and the only place to find purple-flower Swamp Nodes, both of which produce Jaspite Ore. You need a bunch of that ore in order to build the surface-level [Climber station](/aethus/items/#crater-climber), so it should be a priority right now. It takes 10 Ore to produce a Bar so you probably won't collect enough on your first trip, but you should get started anyway. This is also the place to collect [Swampwheat](/aethus/items/#swampwheat), which isn't critical, but is a nice cooking ingredient. It's also nearly impossible to spot without using a Suit Scan, because it looks just like other weeds that *can't* be harvested.
-
-One more thing to check out before we leave Lambda, at least for the moment: strike out SW from the front porch and you'll see an obvious dig site surrounding another skeleton. There's actually not much interesting over here except for an accent color customization blueprint, but it's kind of a cool design touch.
-
-When you're ready to head back to Epsilon, take the path that leads NW away from Lambda. There's a signpost there pointing to Epsilon that goes off to your left (West), which is interesting... that's not how we came in! (If you didn't bring a Servo, turn right towards Theta, which will bring you back to the broken bridge; from there, head North to the hollow tree.) This sounds like the 'back entrance' Maeve was talking about when we got blocked while exploring the Crew Quarters before. Use a [Servomotor](/aethus/items/#servomotor) to reactivate the gate, then find the oxygen generator and slot a [Power Cell](/aethus/items/#power-cell) into it to get it working again. Now you can explore the courtyard at your leisure.
-
-We've got a [Medium Terraforming Charge](/aethus/items/#terraforming-charge), a [Quakemaker Charge](/aethus/items/#quakemaker-charge), and some more [Mining Explosives](/aethus/items#mining-explosives). On top of the jeep is a blueprint for [Empty Injectors](/aethus/items/#injector). There's also a datapad on the running board with a log file containing the passcode `7924`, which opens the crate on the back of the jeep (a few [Empty Injectors](/aethus/items/#injector) and some [Hardened Glass](/aethus/items/#hardened-glass)). Finally, over by the entrance door there's another decorative sign blueprint.
-
-(Side note: Now that you know where the back door to Epsilon is, I'm not sure the Cargo Bay in front of Lambda is actually all that useful. You can make the run to the back door very quickly and drop things into Climber storage from the outside, which is more straightforward than sending the drone to the Silo and loading Climber storage from there. But these Cargo Bays will show up again throughout the Lost World in places where they're much more useful.)
-
-Okay, let's check out the part of Epsilon we couldn't get to before. Right in front of us is the half-open door, which is still stuck and will remain that way. We can't get into the "Loadmaster's Office" without Roger Patton's keycard. Dieter Yar's quarters are across the hall from there. At the far end of the hall we have Simone Parker's quarters, and then a room that's labeled as unoccupied and therefore unlocked. You find a blueprint for some more natural decorations, some [Packaged Foodstuffs](/aethus/items/#packaged-foodstuffs) (nice if you're getting hungry), a [Small Terraforming Charge](/aethus/items/#terraforming-charge), and some [Building Material](/aethus/items/#building-material) (...okay). Work your way around to the back of the room and there's a datapad with an "anonymous" conversation between two employees who were apparently fucking with a cleaning lady. Don't fuck with the help, folks — it just makes you look like an asshole.
-
-This is a dead end for now. Exit through the rear airlock and work your way back around to the front, turning left out of the gate and working NE to find the tree bridge. Run through the pond that's straight ahead of you, then keep moving W to get back to the front entrance of Epsilon. Head back into the Cargo Bay and check the gate to Secure Storage. It's locked, not surprisingly, and at this point Maeve reminds you that you read a datapad suggesting that there's a "Fishing Hab" somewhere near Kappa that seems to be the last place that the Loadmaster had his key. So we'll check that out next.
-
-In the meantime, I bet you've got a couple of runs to do to bring some raw materials back to your outpost. This is the point at which, if you haven't cranked your "Carry Weight" setting up to "Easy", you might want to consider it. Also think about using up some of the ridiculous number of Building Material you have on some Ground Platforms to make the run between your Outpost and the Bloodfall faster. Looking ahead a bit, hint hint, you could also clear some space closer to the crater and start rebuilding your outpost over there, but that'll be easier to do once we get the climber station in place.
-
-
-
-Level 3 Oxygen Filters cost $50k, but they make exploring the high-drain areas of the Lost World *much* easier. It takes some work to gather that much cash, especially if you're buying blueprints in the meanwhile, but you really want to work towards this as soon as you can.
 
 
 

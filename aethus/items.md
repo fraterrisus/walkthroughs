@@ -989,7 +989,7 @@ Warning: this food is not Vegetarian. Similar to [Mushroom Soup](#mushroom-soup)
 
 *Blueprint:* Stored in the computer console in the Fishing Habitat that's "near" Kappa.
 
-*Cost:* 1x [Tangrite Ba](#tangrite-bar), 1x [Basic Electronics](#basic-electronics), 1x [Anti-Gravity Tech](#anti-gravity-tech)
+*Cost:* 1x [Tangrite Bar](#tangrite-bar), 1x [Basic Electronics](#basic-electronics), 1x [Anti-Gravity Tech](#anti-gravity-tech)
 
 One of the more entertaining objects in the game: any time you're near water (or even something that *acts* like water), toss one of these out by activating it on your hotbar and hitting `R`. You'll pick up three or four random items based on where you happen to be. Several items on this page are *only* available via fishing, such as the [Ancient Bones](#ancient-bones) needed for one of Trudy's fetch quests, as well as most actual fish.
 

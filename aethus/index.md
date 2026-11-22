@@ -229,7 +229,7 @@ A new personal log is a good indicator that we're ready to move on. Drop whateve
 
 <figure>
 
-[![Area Map](Outer_Caverns-thumb.png)](Outer_Caverns.png)
+[![Area Map](Alpha-thumb.png)](Alpha.png)
 
 <figcaption>Area Map for this section (3k &times; 3k)</figcaption>
 </figure>
@@ -317,7 +317,7 @@ Once you've got your outpost powered, organized the way you like it, and pumping
 
 <figure>
 
-[![Area Map](Alpha_Beta-thumb.png)](Alpha_Beta.png)
+[![Area Map](Beta-thumb.png)](Beta.png)
 
 <figcaption>Area Map for this section (5k &times; 4k)</figcaption>
 </figure>
@@ -468,18 +468,19 @@ Fetch quests will appear irregularly up through the Lost World. They don't seem 
 
 I'll list them in order so you can see what's coming up next; for more details on each individual quest, click through to the Missions page.
 
-1. [*Heavy Metal*](): craft three [Kalynite Frames]() for $2000
-2. [*The Menagerie*](): gather ten [Mysterious Eggs]() for $3000
-3. [*Out of This World*](): gather 15 [Meteorite]() and 30 [Meteor Glass]() for $3500
-4. [*Electric Dreams*](): craft three [Microcircuits]() for a random blueprint (customization, crafting, or construction)
-5. [*Glittering Depths*](): gather five [Bladestones]() for $7000
-6. [*Buried History*](): gather five [Ancient Bones]() for $5000
+1. [*Heavy Metal*](/aethus/quests/#heavy-metal): craft three [Kalynite Frames](/aethus/items/#kalynite-frame) for $2000
+2. [*The Menagerie*](/aethus/quests/#the-menagerie): gather ten [Mysterious Eggs](/aethus/items/#mysterious-egg) for $3000
+3. [*Out of This World*](/aethus/quests/#out-of-this-world): gather 15 [Meteorite](/aethus/items/#meteorite) and 30 [Meteor Glass](/aethus/items/#meteor-glass) for $3500
+4. [*Electric Dreams*](/aethus/quests/#electric-dreams): craft three [Microcircuits](/aethus/items/#microcircuits) for a random blueprint (customization, crafting, or construction)
+5. [*Glittering Depths*](/aethus/quests/#glittering-depths): gather five [Bladestones](/aethus/items/#bladestone) for $7000
+6. [*Buried History*](/aethus/quests/#buried-history): gather five [Ancient Bones](/aethus/items/#ancient-bones) for $5000
 
 Once you hit the Magma Rifts, you're done with fetch quests, which kind of makes sense from a plot perspective.
 
 ### Meteor Crater
 
 <figure>
+
 [![Area Map](Meteor_Crater-thumb.png)](Meteor_Crater.png)
 
 <figcaption>Area Map for this section (6k &times; 4k)</figcaption>
@@ -516,6 +517,7 @@ If you really wanted to, you could set this place up as a home-away-from-home. Y
 ### Facility Delta
 
 <figure>
+
 [![Area Map](Delta-thumb.png)](Delta.png)
 
 <figcaption>Area Map for this section (6k &times; 7k)</figcaption>
@@ -695,7 +697,7 @@ We're not finished with Epsilon, but we are done with everything we can do right
 
 Remember the giant meteorite crater that Roland pointed out to us on the surface? It's all the way on the other side of the canyon from where your Outpost is right now; you've been running sort of past it in order to get to the back door to the caves. That blueprint you just picked up for the [Crater Climber]() allows you to build a new stop for the Scarpa Climber. You've been using it to go between Delta and Epsilon, but if you build one of these, it can climb all the way to the surface.
 
-This is such a major upgrade that I'm tempted to tell you to set literally everything else aside until you can get it done. Being able to take an elevator directly down to Epsilon without having to run through the caverns to get to Delta first is a real blessing. You'll need *fifty* units of [Jaspite Ore]() to get it built, not to mention a bunch of [Gold Ore]() in order to produce the [Microcircuits]() required, but there's plenty of both near the Epsilon courtyard and more to be found throughout the Lost World. If you don't want to dive too deep you might need an earthquake or two, which is sufficient motivation to build the [Quakemaker]() in case you haven't yet.
+This is such a major upgrade that I'm tempted to tell you to set literally everything else aside until you can get it done. Being able to take an elevator directly down to Epsilon without having to run through the caverns to get to Delta first is a real blessing. You'll need *fifty* units of [Jaspite Ore]() to get it built, which isn't available near Epsilon, not to mention a bunch of [Gold Ore]() in order to produce the [Microcircuits]() required. You might need an earthquake or two, which is sufficient motivation to build the [Quakemaker]() in case you haven't yet.
 
 Once you do gather enough material, walk over to the giant crater and enter `(B)`uild mode; there's only one place to put the Climber. It does suck a lot of juice (&ndash;4), but it's oh-so-worth it. In fact, now that you have such a strong anchor point at this end of the valley, I recommend you tear down your entire outpost and rebuild it next to the Climber. No, seriously. There will be precious few reasons to use any of the other cave entrances for the back half of the game, so you'll save yourself a ton of time by moving everything closer to the crater instead of running back and forth across the surface.
 
@@ -809,31 +811,31 @@ As you enter the swamp, you'll start to hear your suit's Geiger counter click an
 
 The front yard of Lambda has a Cargo Pod and two Cargo Containers (with some [Swampwheat]()), which may be easier to spot than the habitat building itself. But, as promised, there's an atmosphere generator up on the front porch; slip a [Power Cell]() into it.
 
-Now that we can breathe again, feel free to take a look around. So long as you hang out in the area outside Lambda, your radiation meter should top out around 40%, which won't do any damage. The swamp is lousy with light-blue Jaspite Nodes and purple-flower Swamp Nodes, both of which drop Jaspite Ore. You can also collect plenty of [Swampwheat](/aethus/items#swampwheat) here; it can be difficult to spot without a Suit Scan, because it looks just like some other weeds that *can't* be harvested. This is also a great place to go fishing, but save your [Lures]() for now, because we'll pick up a related side quest shortly.
+Now that we can breathe again, feel free to take a look around. So long as you hang out in the area outside Lambda, your radiation meter should top out around 40%, which won't do any damage. The swamp is lousy with light-blue Jaspite Nodes and purple-flower Swamp Nodes, both of which drop Jaspite Ore. You can also collect plenty of [Swampwheat](/aethus/items#swampwheat) here; it can be difficult to spot without a Suit Scan, because it looks just like some other weeds that *can't* be harvested. This is also a great place to go fishing, but save your [Lures]() for now, because Trudy will assign you a [fetch quest](#scene-break-trudys-fetch-quests) that uses them sometime soon.
 
 There's also an Excavation Site (see map) off to the SW of Lambda. There isn't a whole lot to see over there but it does look pretty cool, and you can pick up a color customization blueprint for your trouble.
 
 Inside Lambda, you'll quickly come across a computer with a log file containing a conversation between **Lisa Chapman**, who appears to be a nuclear engineer in charge of this facility, and Dr. Li. There's a number of interesting tidbits here; Tau (a facility in the next level down, whatever that is) is apparently capable of producing nuclear fuel rods, but they aren't up to the right standard. Chapman thinks it won't be a problem for "years", which makes this a good time to remind you that you're visiting this site a few decades after the last human being. On the other hand, the fact that there's an automated repair unit installed sounds like it might come in handy.
 
-Ignore the automated voice warning you about the radiation leak you already knew about and proceed into the control room. The computer in here isn't helpful, and the nearby blueprint is for the "Nuclear" sign (of course it is). The door to the East is out of service. When you head West, though, Roland tells you to stop and then fire off a Suit Scan. Long story short, we now need that [Nuclear Fuel Rod]() we found in Epsilon Secure Storage, plus a new [Fuel Rod Housing]() for it, which we'll need to craft back home. But we didn't have the blueprint for it until just now. Put those together to make a new [Reactor Core](/aethus/items#rtg), and use that to replace the leaking one in here. Otherwise, the reactor might melt down and destroy the entire ecosystem. (It won't, actually.)
+Ignore the automated voice warning you about the radiation leak you already knew about and proceed into the control room. The computer in here isn't helpful (...yet), and the nearby blueprint is for the "Nuclear" sign (of course it is). The door to the East is out of service. When you head West, though, Roland tells you to stop and then fire off a Suit Scan. Long story short, we now need that [Nuclear Fuel Rod]() we found in Epsilon Secure Storage, plus a new [Fuel Rod Housing]() for it, which we'll need to craft back home. But we didn't have the blueprint for it until just now. Put those together to make a new [Reactor Core](/aethus/items#rtg), and use that to replace the leaking one in here. Otherwise, the reactor might melt down and destroy the entire ecosystem. (It won't, actually.)
 
 > #17-L-1 — Meltdown
 
-Well, that was a short trip. If you didn't already do a bunch of mining, feel free to do so now. The run from here to the back door of Epsilon isn't very far, so you can load up Facility Storage with Jaspite. Just don't get lost; it's easy to lose your bearings among the dinosaur skeletons. Remember that Epsilon is *North* of here and you should be able to find your way home.
+Well, that was a short trip. If you didn't already do a bunch of mining, feel free to do so now. The run from here to the back door of Epsilon isn't very far, so go ahead and load up Facility Storage with [Jaspite Ore](/aethus/items/#jaspite-ore). (This is the easiest place to get it in quantity; it barely exists near Epsilon, and it's more rare in other parts of the Lost World.) Just don't get lost; it's easy to lose your bearings among the dinosaur skeletons. Remember that Epsilon is *North* of here and you should be able to find your way home.
 
 Back home, Roland is intrigued by Dr. Harlow's position as "head of AI research", which provides a nice bit of foreshadowing and some backstory on Roland and Maeve's family. Craft yourself a [Reactor Core]() and, if you don't have one already, a [Bypass Mole](), and head back down to Lambda.
 
-In the control room, the door to the East is now open. You can loot a [small Bottled Water](), some [Cactus Moonshine](), and in the lockers, a couple of [Packaged Foodstuffs]() and a [Suit Upgrade Chip]() that enables you to occasionally find Geodes inside Nodes. For more about Geodes, check out the [How To Make Money](#how-to-make-money) section at the top of this page.
+In the control room, the door to the East is now open. You can loot a [small Bottled Water](), some [Cactus Moonshine](), and in the lockers, a couple of [Packaged Foodstuffs](). The big prize here, though, is a [Suit Upgrade Chip]() that enables you to occasionally find Geodes inside Nodes. For more about Geodes, check out the [How To Make Money](#how-to-make-money) section at the top of this page.
 
-I guess the reason we're actually here, though, is to drop that Reactor Core into the ARMS and repair the nuclear power station. Doing so opens up the rest of Lambda to exploration, and there's plenty of good stuff to find here. Plus, you stopped the radiation leak!
+I guess the reason we're actually here is to drop that Reactor Core into the ARMS and repair the nuclear power station. Doing so opens up the rest of Lambda to exploration, and there's plenty of good stuff to find here. Plus, you stopped the radiation leak!
 
 > #17-L-2 — Hero of the Spooky Underground Jungle
 
-The computer console in the control room works now that the crisis is resolved, and it spits out some gibberish delineated with `tear_paper`. Roland (hoo boy) identifies as an encryption key for something. As with many things that are obvious foreshadowing, this becomes super important later on.
+The computer console in the control room works now that the crisis is resolved, and it spits out some gibberish delineated with `tear_paper`. Roland (hoo boy) identifies it as an encryption key for something. As with many things that are obvious foreshadowing, this becomes super important later on.
 
 Now you can explore the West wing of the facility. Next up: another bunker, off the reactor room. (Does anyone else get the heebie-jeebies just walking past *live nuclear reactors*, as we seem to do all the time down here?) Drop a [Bypass Mole]() into the terminal to open the door. Inside, you can scavenge a can of [ARCola](/aethus/items/#arcola), a [Nutrient Bar](/aethus/items/#nutrient-bar), two [Anti-Grav Tech](/aethus/items/#anti-gravity-tech), **George Broussard**'s keycard, some [ARC Credit Chips](/aethus/items/#arc-credit-chip), a [Jaspite Geode](/aethus/items/#jaspite-geode), and a construction color scheme. 
 
-The back room is fun, and laid out kind of like a museum. In the locker in the corner you'll find another Suit Upgrade Chip; this one gives you a 10% bonus chance to find Geodes. There's also another Gaia Data Server we can't work with. In the center of the room is a fully-functional [Prospecting Bench](/aethus/items#prospecting-bench), and there's a Tangrite Geode hiding on a table in the corner so you can try it out. The blueprint of the Bench is also sitting on the table right next to it, so you can go home and build your own, as well.
+The back room is fun, and laid out kind of like a museum. In the locker in the corner you'll find another [Suit Upgrade Chip](/aethus/items/#suit-upgrade-chip); this one gives you a 10% bonus chance to find Geodes. There's also another Gaia Data Server we can't work with. In the center of the room is a fully-functional [Prospecting Bench](/aethus/items#prospecting-bench), and there's a Tangrite Geode hiding on a table in the corner so you can try it out. The blueprint of the Bench is also sitting on the table right next to it, so you can go home and build your own, as well.
 
 In the back corner there's a datapad (hiding behind one of the bones) with a message announcing the arrival of Caleb Vihaan as a new member of the staff.
 
@@ -841,23 +843,39 @@ That's it for Lambda; time to head home, or do some mining and try to generate m
 
 ### Scene Break: Drill Site IV
 
+<figure>
+
+[![Drill Site IV](Drill Site IV-thumb.png)](Drill Site IV.png)
+
+<figcaption>Routes to Drill Site IV (4k &times; 3k)</figcaption>
+</figure>
+
 You may have noticed that there's a "upper" and a "lower" portion to the Lost World map. Epsilon is in the upper portion, as is Lambda, and as we'll see in a bit, Mu is as well. Kappa, where we've already been, and Theta, where we haven't, are the lower or infected portion.
 
-In particular, there's a sort of valley that winds its way from the dammed-up end of the river, passing under the bridge to Mu, and kind of wrapping around Epsilon. At the far end of that valley is a drill site. It's quite a run from Kappa, and while it's entirely possible to do this in one tank of air if you know what you're doing, it's much easier if you bring a [Cargo Drone](/aethus/items/#cargo-drone) and a [Power Cell](/aethus/items/#power-cell) with you.
+In particular, there's a sort of valley that winds its way from the dammed-up end of the river, passing under the bridge to Mu, and kind of wrapping around Epsilon. At the far end of that valley is a drill site. It's not easy to get to, and while it's entirely possible to do the entire round trip on one tank of air if you know what you're doing, it's much easier if you bring a [Cargo Drone](/aethus/items/#cargo-drone) and a [Power Cell](/aethus/items/#power-cell) with you.
 
-With that said, there's three ways to get there. The longest but most straightforward way is to start from Kappa. Run out the gate and back towards the ramp up to Epsilon, but don't take the ramp. Continue West, then turn South when you reach the river and SE to go under the bridge to Mu. This route is hard going; there's large boulders and small downed trees that will get in your way. You'll want to bunny hop over a bunch of stuff to keep moving. When you see the waterfall, you're almost there; keep going a little further and you should see the drill and a platform next to it.
+With that said, there's three ways to get there, marked on the map as "Short", "Medium", and "Long". I'll describe the routes here but you can click through to the map above for a visual.
+
+The longest but most straightforward way is to start from Kappa. Run out the gate and follow the edge of the river to the SW. The bridge to Mu will be on your left (SE); head under it. This route is hard going: large boulders and small downed trees will get in your way. You'll want to bunny hop over a bunch of stuff to keep moving. When you see the waterfall, you're almost there; keep going a little further and you should see the drill and a platform next to it.
 
 The trickier but shorter way starts at the front door to Epsilon. Go out the West gate towards Kappa but *immediately* turn South. Your pathway is a little bit blocked here but you can circle around the central mountain, hugging the wall as if you were keeping your left hand pressed up against it. There's a narrow bit where you have to hop down and then back up to reach a waterfall. When you get to that narrow bit, don't hop back up, turn West and *carefully* find your way along the ledge that circles the pond and then passes under a waterfall. (It's real easy to miss and fall to your death, here.) Circle all the way around to the South side of the lake and you'll eventually spot an enormous hollow log sloping down and away from you. Hop into that log — be careful, there are bits missing from the floor that you can fall through — and you'll wind up right next to the drill.
 
-The shortest and clearest (but not necessarily the easiest) way is to go out the *back* door of Epsilon and turn WNW. There's a small hollow tree there; you'll either have to toss some [Herbicide](/aethus/items/#herbicide), which you don't have yet, to clear the path, or you might be able to pick your way around it. However, this gives you the clearest view of the rest of the run, including the drill right beneath you to your left and the giant hollow tree you're going to use to get there. Hug the cliff edge and walk NW until you get to the pond; turn S and hop down twice to reach the big tree as described above.
+The shortest and clearest (but not necessarily the easiest) way is to go out the *back* door of Epsilon and turn WNW. There's a small hollow tree there, but it's blocked by some plant growth. If you have [Herbicide](/aethus/items/#herbicide) you can toss some to clear it; otherwise, you might be able to pick your way around the log. However, this gives you the clearest view of the rest of the run, including the drill right beneath you to your left and the giant hollow tree you're going to use to get there. Hug the cliff edge and walk NW until you get to the pond; turn S and hop down twice to reach the big tree as described above.
 
 Now that you're at the drill site, the first order of business is to climb up onto the platform and slot a [Power Cell](/aethus/items/#power-cell) into the atmosphere generator. That's refreshing. Now you can take a look at the crate that's nearby. It's code-locked, but as you may remember, we found a datapad at the *other* drill site that told us that a [Focusing Lens](/aethus/items/#focusing-lens) had been delivered to Drill Site IV, and the code for that crate was `9970`. Well, guess what — that's this crate, there's a Focusing Lens inside, and it's exactly the right kind for this drill that's right here. So you can go ahead and drop the Lens and the Drone into this drill, and now you have a steady supply of [Deepstone](/aethus/items/#deepstone), [Tangrite Ore](/aethus/items/#tangrite-ore), [Foucer Crystals](/aethus/items/#foucer-crystals), and [Bladestone](/aethus/items/#bladestone). You never need to come back here, so feel free to grab the Power Cell back out of the atmosphere generator once you've caught your breath.
 
-The best way out of here is up the giant log that's nearby, which will take you up towards a waterfall. Tread carefully through here; it's easy to mistime a jump and fall back down into the valley, which will both hurt and consume oxygen. Carefully work your way up and around the lake, passing under the waterfall, until you run into the cliff face. Then turn North and circle around as if your right hand was pressed up against the cliff wall until you get to the gates of Epsilon. Easy peasy!
+The best way out of here is to reverse the Medium path; up the giant log and back towards the waterfall. (You can't take the Short way back, because you jumped down a few places that you can't jump back up.) Tread carefully through here; it's easy to mistime a jump and fall back down into the valley. Carefully work your way up and around the lake, passing under the waterfall, until you run into the cliff face. Then turn North and circle around as if your right hand was pressed up against the cliff wall until you get to the gates of Epsilon. Easy peasy!
 
 ### Lost World: Facilities Mu and Theta
 
 We can do these in either order.
+
+<figure>
+
+[![Mu Region](Mu-thumb.png)](Mu.png)
+
+<figcaption>Map of the area around Mu (4k &times; 5k)</figcaption>
+</figure>
 
 Optionally, bring a [Servomotor](/aethus/items/#servomotor), a [Bypass Mole](/aethus/items/#bypass-mole), and a [Power Cell](/aethus/items/#power-cell) with you, and if you can make one, a [Jaspite Focusing Lens](/aethus/items/#focusing-lens). Strike out West from the front courtyard of Epsilon. Skip past the turnoff for Kappa and the drill, then find the bridge and cross over it. On the far side you'll find a jeep and a small crate. There's a [Power Cell]() in the crate; take it out and pop it into the atmosphere generator on the back of the jeep.
 

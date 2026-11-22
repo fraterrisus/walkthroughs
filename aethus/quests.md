@@ -55,6 +55,8 @@
 
 You find bones by fishing (using [Fishing Lures]()) near Lambda, as Maeve suggests when you get the quest in the first place. Only Ancient Bones will do; the other [Ancient Parts]() don't count. However, they all sell for $1500 each, so there's still value in the ones that don't satisfy the quest... and once again, $5000 is not much of a premium over just selling three Bones on the open market.
 
+One other thing: if you gather a complete set of [Ancient Parts](), you can middle-click to `(U)se` them and generate a dinosaur skeleton of your own to decorate your outpost!
+
 ## Buried Memories
 
 *Trigger:* Complete [Great Green Glow](#great-green-glow) by exiting Tau's airlock for the first time.

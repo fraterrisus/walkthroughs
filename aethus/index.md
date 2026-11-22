@@ -464,18 +464,22 @@ Some time after you receive [*Working for the Man*](), Trudy will call back with
 
 Now by this point, you've probably noticed from Maeve's tone that you're being set up not to trust Trudy (and ARC more broadly), and that is *definitely* the correct attitude to take. So you may be asking yourself, *should I really be doing fetch quests for these people?* It's a perfectly reasonable question, but as far as I can tell there's no effect on the story whether you choose to do them or not. They're simply a way to earn some extra credits. If you want to take the role-playing high ground and not do them at all, I applaud you.
 
-Fetch quests will appear irregularly throughout the rest of the game. They don't seem to be triggered by any specific action, just natural progression deeper into the game, plus of course you can't get the next one until you fulfill the previous one.
+Fetch quests will appear irregularly up through the Lost World. They don't seem to be triggered by any specific action, just natural progression deeper into the game, plus of course you can't get the next one until you fulfill the previous one. In fact, they're usually so on-point for where you're currently digging that you'd be right to be suspicious of whether ARC knows what you're up to.
 
-Here I'll list them in order so you can see what's coming up next; for more details on each individual quest, click through to the Missions page.
+I'll list them in order so you can see what's coming up next; for more details on each individual quest, click through to the Missions page.
 
 1. [*Heavy Metal*](): craft three [Kalynite Frames]() for $2000
 2. [*The Menagerie*](): gather ten [Mysterious Eggs]() for $3000
-3. 
+3. [*Out of This World*](): gather 15 [Meteorite]() and 30 [Meteor Glass]() for $3500
+4. [*Electric Dreams*](): craft three [Microcircuits]() for a random blueprint (customization, crafting, or construction)
+5. [*Glittering Depths*](): gather five [Bladestones]() for $7000
+6. [*Buried History*](): gather five [Ancient Bones]() for $5000
+
+Once you hit the Magma Rifts, you're done with fetch quests, which kind of makes sense from a plot perspective.
 
 ### Meteor Crater
 
 <figure>
-
 [![Area Map](Meteor_Crater-thumb.png)](Meteor_Crater.png)
 
 <figcaption>Area Map for this section (6k &times; 4k)</figcaption>
@@ -512,7 +516,6 @@ If you really wanted to, you could set this place up as a home-away-from-home. Y
 ### Facility Delta
 
 <figure>
-
 [![Area Map](Delta-thumb.png)](Delta.png)
 
 <figcaption>Area Map for this section (6k &times; 7k)</figcaption>
@@ -520,7 +523,7 @@ If you really wanted to, you could set this place up as a home-away-from-home. Y
 
 You're probably itching to start making [Cargo Drones]() in order to let those automated mining drills automatically send stuff back to your outpost. Of course, you'll also need to pick up the blueprint for the [Model 1 Cargo Bay]() (merely another $1200 at RAPP-1) so the drones have somewhere to deliver the goods. But in order to make Drones we'll need to make [Meteorite Frames](), and to do that we'll need to find a source for Meteorite Ore. (Well, actually it's just called [Meteorite](), but close enough.)
 
-Before you head down towards Delta, you probably should finish [_The Menagerie_](/aethus/quests#the-menagerie), the fetch quest to collect eggs. Also, while it's not necessary to pick up the second *Air Tank Expansion* upgrade ($10k), it certainly helps. One more hint: make sure you have 15 or 20 [Building Materials]() in storage (i.e. not just in an output hopper).
+Before you head down towards Delta, make sure you have 15 or 20 [Building Materials]() in storage (i.e. not just in an output hopper). Also, while it's not strictly necessary to pick up the second *Air Tank Expansion* upgrade ($10k), it certainly helps.
 
 When you're ready, head South from Beta over the land bridge and down to the Gold Plateau. Head towards the large rock in the SE corner, follow the switchback trail that curves around N behind you, then turn S again to follow the path down. You should see a little canyon and the "Crater Facility" beyond it on your compass. Fortunately, the front door is open and the power's on, so you can fill your oxygen tanks inside. If you're quick, this whole run should take about 50 units of air, and if you hit the Suit Charger first maybe even less than that. So you ought to be reasonably confident making the return trip as well.
 
@@ -558,9 +561,7 @@ Be aware that, for the first time, you need to make a choice which production fa
 
 You may be tempted to immediately purchase the blueprint for [Meteorite Frames]() at this point; it's only $850 and available at RAPP-1. However, we're about to find the blueprint for free, so if you're really desperate to make your own [Cargo Drones](), go ahead, but if you're willing to be patient for a while longer, I can save you some credits.
 
-This trip home may also trigger Trudy's next fetch quest, [*Out of This World*](/aethus/quests/out-of-this-world), for which ARC would like you to bring them some Meteorite and Meteor Glass. Well, if you weren't already suspicious that these people knew what you were getting yourself up to, you definitely should be now. It's also a shame to hand it over to her instead of using it yourself, but $3500 for a fetch quest is hard to turn down.
-
-Eventually — probably after mining a bunch more Meteorite, earning some more credits, and buying some more upgrades — you should make your way back to Delta and explore the South side of the facility. (Again, don't go too far up the hill just yet.) Take your time to prowl around and peek under the various solar panels and other structures; there's a customization blueprint hiding under there somewhere, and several nodes to mine as well.
+Eventually — probably after mining a bunch more Meteorite, earning some more credits, completing a fetch quest or two, and buying some more upgrades — you should make your way back to Delta and explore the South side of the facility. (Again, don't go too far up the hill just yet.) Take your time to prowl around and peek under the various solar panels and other structures; there's a customization blueprint hiding under there somewhere, and several nodes to mine as well.
 
 The transmitter site we mentioned earlier is halfway up the hill on the SW corner of Delta. You'll probably spot the atmosphere dome, but if you don't, climb up the hill a little way and lower your camera so you can look around until you find it. Unfortunately, the first thing we spot there are two dead bodies, **Jackson**, the missing crew member, and **Shin**, who apparently went after him. The good news is that Shin still has his keycard on him, which we'll need, and *at fucking last* we get to hear a character in an RPG talk about how *fucking creepy* it is to go through the pockets of dead people. Jackson's datapad has a recording of their last few moments, and it doesn't sound pretty. Less importantly, you'll also find an [Oxygen Dome]() (ironic, that) and a Decoration blueprint.
 
@@ -706,10 +707,7 @@ Anyway, you'll find some sort of balance. But this is a good time to invest in s
 - the [Manufacturing Habitat](/aethus/items/#manufacturing-habitat), which reduces the cost of several recipes to any crafting facility inside it;
 - the [Hub Habitat](/aethus/items/#hub-habitat), which grants the ability to occasionally produce Geodes to any production facility inside it.
 
-A couple of other plot events will happen at some point over the next couple of sections. They don't seem to be triggered by any particular event that I can discern, so they might happen in any order.
-
-- Roland will tell you he's been doing some thinking about Stanley and the carrier wave he's communicating on. It's triggered a "stub memory" that's giving him some trouble. Nothing makes much sense about this yet, but it will become clear later on.
-- Trudy's next fetch quest ([*Electric Dreams*]()) asks you to do her a "personal" favor and craft three [Microcircuits](/aethus/items/#microcircuits) for her boyfriend so he can build a VR headset, or something. You get a random blueprint, which might be a good deal but probably isn't. I wouldn't make this a priority; if you want to get later fetch quests, you'll need to finish this one, but the rewards aren't great.
+Some time around here, Roland will pipe up to tell you he's been doing some thinking about Stanley and the carrier wave he's communicating on. It's triggered a "stub memory" that's giving him some trouble. Nothing makes much sense about this yet, but it will become clear later on.
 
 Okay, back to the main game; regardless of when you build the Crater Climber, we've got some more mining facilities to explore. You should have an eye on the *Oxygen Filters III* upgrade, even though I only just told you to buy the level 2 upgrade. Exploring the outer mining facilities in the Lost World is more challenging without it. I know $50k seems like a lot of cash right now but your income will go up, I promise. In the meantime, grab an [OxyDome]() or two along with a [Servomotor]() and a [Power Cell]() and let's go advance the plot.
 
@@ -772,21 +770,21 @@ The room across the hall from you belongs to **Dieter Yar**. Down the hall to yo
 
 The Canteen is closed. But if you bring those Packaged Foodstuffs back home, I recommend checking out [Pioneer Stew](). It isn't Vegetarian, but it is awfully filling.
 
-Remember when we found the broken half-door to Crew Quarters C and spotted an Airlock door through it? Well, now we're in Crew Quarters C, and sure enough there's an airlock at the opposite (E) end of the hallway. Let's call this the "rear" airlock; it leads to another, smaller courtyard, with a gate that also needs a [Servomotor]() repair job. You're in an area of higher oxygen drain, just like Kappa, so don't dawdle, but do check out the gate; Roland detects what seems to be a leaking nuclear reactor somewhere in the vicinity of Facility Lambda, which you may be able to spot in the middle distance through the fence.
+Remember when we found the broken half-door to Crew Quarters C and spotted an Airlock door through it? Well, now we're in Crew Quarters C, and sure enough there's an airlock at the opposite (E) end of the hallway. Let's call this the "rear" airlock; it leads to another, smaller courtyard, with a gate that also needs a [Servomotor]() repair job. You're in an area of higher oxygen drain, just like Kappa, so don't dawdle, but do check out the gate; Roland detects what seems to be a leaking nuclear reactor somewhere in the vicinity of Facility Lambda, which you may be able to spot in the middle distance through the fence.
 
 Proceeding clockwise from the airlock door, there's another Facility Storage drop point, which is handy, and an atmosphere generator that needs a [Power Cell](). In the nearby cargo container we've got a [medium Terraforming Charge](/aethus/items/#terraforming-charge), a [Quakemaker Charge](/aethus/items/#quakemaker-charge), and some more [Mining Explosives](/aethus/items#mining-explosives). On top of the jeep is a blueprint for [Empty Injectors](/aethus/items/#injector). There's also a datapad on the running board with a log file containing the passcode `7924` (thanks, **Samantha Coburn**), which opens the crate on the back of the jeep (a few [Empty Injectors](/aethus/items/#injector) and some [Hardened Glass](/aethus/items/#hardened-glass)). Finally, over by the entrance door there's another decorative sign blueprint. Step quickly and head back inside before you run out of air.
 
-Sounds like we need to do some crafting. We need a [Bypass Mole]() in order to crack the Epsilon bunker, plus the supplies I just mentioned to bring the rear courtyard back online so we can visit Lambda. Roughly at this point Trudy will ring in to let you know that ARC has looked at the results of their most recent financial quarter and decided to impose a 10% tariff on everything you buy at the Trade Node. Congratulations, all your market prices are now higher! I would say "you shoulda bought stuff before this happened," but this happens at some random point after you reach RAPP-3 and there's no way to stop it or predict when it will happen.
+Sounds like we need to do some crafting. We need a [Bypass Mole]() in order to crack the Epsilon bunker, plus the supplies I just mentioned to bring the rear courtyard back online so we can visit Lambda. Roughly at this point Trudy will ring in to let you know that ARC has looked at the results of their most recent financial quarter and decided to impose a 10% tariff on everything you buy at the Trade Node. Congratulations, all your market prices are now higher! I would say "you shoulda bought stuff before this happened," but this happens at some random point after you reach RAPP-3 and there's no way to stop it or predict when it will happen.
 
 While you're at home, you can set down the Loadmaster's Key as well as Patton's and Parker's keycards. They don't weigh anything, but they can clutter up your inventory. Hang on to Harlow's (or leave it in the Climber).
 
 With a Bypass Mole in hand, head back to Lambda and find the bunker (it's on the far side of the Cargo Bay). Be prepared for a slightly gristly sight here: the bunker is full of corpses, although (like the ones you found near the comms tower outside Delta) they're all in pressure suits so you won't be looking at gore or anything. And, of course, in proper CRPG style you'll be looting the bodies. But Maeve will let you know exactly how she feels about it.
 
-It makes sense that folks in a saferoom would have [Nutrient Bars](/aethus/items/#nutrient-bar), [Moonshine](), and a [large Bottled Water]() with them, for all the good it ultimately did them. You find **Simone Parker's** keycard; that's not one of the ones you're looking for, but we did find her quarters earlier. There's a whole bunch of [Credit Chips](/aethus/items/#arc-credit-chip) in people's pockets as well as in the locker on the North wall, which just feels insulting. You get a suit customization blueprint as well as a decorative sign. A couple of [Health Injectors](/aethus/items/#injector) and some [Anti-Grav Tech](/aethus/items/#anti-gravity-tech) rounds out the haul. We also find the body of **Grant Harlow** — he's still got his keycard, which *is* one of the ones we're looking for — along with a datapad with a conversation between him and Dr. Li. Harlow seems super-important to whatever was going on around here, although so far he remains fairly mysterious.
+It makes sense that folks in a saferoom would have [Nutrient Bars](/aethus/items/#nutrient-bar), [Moonshine](), and a [large Bottled Water]() with them, for all the good it ultimately did them. You find **Simone Parker's** keycard; that's not one of the ones you're looking for, but we did find her quarters earlier. There's a whole bunch of [Credit Chips](/aethus/items/#arc-credit-chip) in people's pockets as well as in the locker on the North wall, which just feels insulting. You get a suit customization blueprint as well as a decorative sign. A couple of [Health Injectors](/aethus/items/#injector) and some [Anti-Grav Tech](/aethus/items/#anti-gravity-tech) rounds out the haul. We also find the body of **Grant Harlow** — he's still got his keycard, which *is* one of the ones we're looking for — along with a datapad with a conversation between him and Dr. Li. Harlow seems super-important to whatever was going on around here, although so far he remains fairly mysterious.
 
 Stanley seems even more freaked out about us being in this bunker than we are. He continues to insist that he tried to "hug" these people as tightly as he could, but it wasn't good enough. Even Roland is starting to think this is creepy, and he'll insist that you head back to base to have a conversation out of Stanley's earshot.
 
-You can bring Parker's keycard back to Crew Quarters C and loot her room as well. This is a slightly nicer room with a sitting area and a data terminal. Apparently there's some sort of bootleg booze-brewing operation going on; that implies a steady stream of [Moonshine]() as we poke around. Also there's a note about using high-strength "herbicide" without PPE, which I can understand someone being upset about. File that one away for later. Finally, there's a suit decoration blueprint on the bed, [Fishing Lures]() and [Credit Chips]() in the lockbox, and an [ARCola]() on the table.
+You can bring Parker's keycard back to Crew Quarters C and loot her room as well. This is a slightly nicer room with a sitting area and a data terminal. Apparently there's some sort of bootleg booze-brewing operation going on; that implies a steady stream of [Moonshine]() as we poke around. Also there's a note about using high-strength "herbicide" without PPE, which I can understand someone being upset about. File that one away for later. Finally, there's a suit decoration blueprint on the bed, [Fishing Lures]() and [Credit Chips]() in the lockbox, and an [ARCola]() on the table.
 
 ### Lost World: Facility Lambda
 
@@ -823,9 +821,9 @@ Ignore the automated voice warning you about the radiation leak you already knew
 
 Well, that was a short trip. If you didn't already do a bunch of mining, feel free to do so now. The run from here to the back door of Epsilon isn't very far, so you can load up Facility Storage with Jaspite. Just don't get lost; it's easy to lose your bearings among the dinosaur skeletons. Remember that Epsilon is *North* of here and you should be able to find your way home.
 
-Back home, Roland is intrigued by Dr. Harlow's position as "head of AI research", which provides a nice bit of foreshadowing and some backstory on Roland and Maeve's family. Meanwhile, Trudy's got another fetch quest for you: [*Glittering Depths*](/aethus/quests#glittering-depths), which requires five [Bladestones](). Slightly suspicious, that... but $7000 is a bit over market price for Bladestones.
+Back home, Roland is intrigued by Dr. Harlow's position as "head of AI research", which provides a nice bit of foreshadowing and some backstory on Roland and Maeve's family. Craft yourself a [Reactor Core]() and, if you don't have one already, a [Bypass Mole](), and head back down to Lambda.
 
-Craft yourself a [Reactor Core]() and, if you don't have one already, a [Bypass Mole](), and head back down to Lambda. In the control room, the door to the East is now open. You can loot a [small Bottled Water](), some [Cactus Moonshine](), and in the lockers, a couple of [Packaged Foodstuffs]() and a [Suit Upgrade Chip]() that enables you to occasionally find Geodes inside Nodes. For more about Geodes, check out the [How To Make Money](#how-to-make-money) section at the top of this page.
+In the control room, the door to the East is now open. You can loot a [small Bottled Water](), some [Cactus Moonshine](), and in the lockers, a couple of [Packaged Foodstuffs]() and a [Suit Upgrade Chip]() that enables you to occasionally find Geodes inside Nodes. For more about Geodes, check out the [How To Make Money](#how-to-make-money) section at the top of this page.
 
 I guess the reason we're actually here, though, is to drop that Reactor Core into the ARMS and repair the nuclear power station. Doing so opens up the rest of Lambda to exploration, and there's plenty of good stuff to find here. Plus, you stopped the radiation leak!
 
@@ -840,8 +838,6 @@ The back room is fun, and laid out kind of like a museum. In the locker in the c
 In the back corner there's a datapad (hiding behind one of the bones) with a message announcing the arrival of Caleb Vihaan as a new member of the staff.
 
 That's it for Lambda; time to head home, or do some mining and try to generate more Geodes. You can also rifle through some rooms in Epsilon's Crew Quarters A: George Broussard's quarters contains a whole-ass Cooking Station, several bottles of [Moonshine](/aethus/items/#cactus-moonshine), and some [Refined Sugar](/aethus/items/#refined-sugar). Apparently he was the one running the whole Moonshining Ring. Grant Harlow's quarters has a [Basic Electronics](/aethus/items/#basic-electronics), an [Advanced Electronics](/aethus/items/#advanced-electronics), two [Gold Bars](/aethus/items/#gold-bar), and a datapad with a sobering message from Dr. Li about the personal impacts of the Tear Paper protocol.
-
-Trudy's next fetch quest is [*Buried History*](), which is a request to dig up a bunch of [Ancient Bones](). Sure, you think, I'll just pick them up from the skeletions near Lambda. But *how*? Turns out the answer is [Fishing Lures](), which is why I told you to hang on to those a while back. (You can make more out of [Anti-Grav Tech](), if you need to.) Grab as many as you can and head back over to the swamps near Lambda. Only Ancient *Bones* will do; the other [Ancient Parts]() don't count. However, they all sell for $1500 each, and the reward ($5000 for three) isn't much of a premium on that anyway.
 
 ### Scene Break: Drill Site IV
 
@@ -884,8 +880,6 @@ East of the drill site is Mu's outbuilding. Here you'll find a datapad with the 
 This region honestly isn't great for mining, although there does tend to be plenty of Gold in the area. Otherwise it's the same stuff you found near Lambda, but with fewer Swamp Nodes. Make sure you bring a bunch of those red [Glowing Bulbs](/aethus/items/#glowing-bulb) with you, though. Head NNE from the outbuilding (or just follow the path from the gate) and once you go down a little slope you'll be right near the back gate to Epsilon.
 
 Head inside and let's go check out the storage closet. Make sure you look at the shelves; you'll  need to click on a bunch of these items to pick them up. You can scavenge five [Jaspite Ore](/aethus/items/#jaspite-ore), one [Jaspite Bar](/aethus/items/#jaspite-bar), a pack of [Medical Supplies](/aethus/items/#medical-supplies), a pack of [Industrial Tools](/aethus/items/#industrial-tools), a [Microcircuit](/aethus/items/#microcircuits), two [Anti-Grav Tech](/aethus/items/#anti-gravity-tech), two [Model 2 Oxygen Domes](/aethus/items/#oxygen-dome), a [Nutrient Bar](/aethus/items/#nutrient-bar), two [Strength Injectors](/aethus/items/#injector) and one [Oxygen](/aethus/items/#injector).
-
-Trudy's next fetch quest (*Glittering Depths*) is for five [Bladestones](/aethus/items/#bladestone), which ought to be pretty straightforward at this point. You get a serious chunk of change ($7000!) for finishing it. The one after that (*Buried History*) is a little more interesting, in that you have to use [Fishing Lures](/aethus/items/#fishing-lure) to retrieve [Ancient Bones](/aethus/items/#ancient-bones) from the swamps around Lambda. Bones sell for $1500 on the open market so $5000 for three isn't much of a premium, although I should note here that while the other bone types (jaw, tail, etc.) don't count towards Trudy's quest, they also sell for $1500 so it's no bad thing to turn up a few of them as well.
 
 ------
 

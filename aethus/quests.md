@@ -49,13 +49,11 @@
 
 ## Buried History <!-- {.fetch_quest} -->
 
-*Trigger:* Another fetch quest.
-
-*Goals:* Bring three Ancient Bones to the Trade Node.
+*Goals:* Bring three [Ancient Bones]() to the Trade Node.
 
 *Reward:* $5000
 
-You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests when you get the quest in the first place. You can't return Jaws, Ribs, Tails, or Skulls, though, just Bones. (They all sell for $1500 each though, so there's still value in the ones that don't satisfy the quest.)
+You find bones by fishing (using [Fishing Lures]()) near Lambda, as Maeve suggests when you get the quest in the first place. Only Ancient Bones will do; the other [Ancient Parts]() don't count. However, they all sell for $1500 each, so there's still value in the ones that don't satisfy the quest... and once again, $5000 is not much of a premium over just selling three Bones on the open market.
 
 ## Buried Memories
 
@@ -122,8 +120,6 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 
 ## Electric Dreams <!-- {.fetch_quest} -->
 
-*Trigger:* Hang around your outpost after returning from the Lost World.
-
 *Goals:* Bring three [Microcircuits](/aethus/items/#microcircuits) to the Trade Node.
 
 *Reward:* A completely random blueprint, which might be customization, construction, or crafting.
@@ -144,7 +140,7 @@ You find bones by fishing (using Fishing Lures) near Lambda, as Maeve suggests w
 
 *Trigger:* Enter the infected portion of Facility Theta.
 
-*Goal:* Build a Biology Lab, grow some Inert Mycelia (requires producing Cleansed Mycelia first), and produce an Antigen Injector.
+*Goal:* Construct a Biology Lab, grow some Inert Mycelia (requires producing Cleansed Mycelia first), and produce an Antigen Injector.
 
 ## First Bite <!-- {.side_quest} -->
 
@@ -191,11 +187,11 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 ## Glittering Depths <!-- {.fetch_quest} -->
 
-*Trigger:* Return to your home base after completing [Electric Dreams](#electric-dreams).
-
 *Goal:* Bring five [Bladestones](/aethus/items/#bladestone) to the Trade Node.
 
 *Reward:* $7000, which seems like a lot, but Bladestones go for $1000 each on the open market so it's not really that much of a premium.
+
+Bladestones can be somewhat tricky to find. Bladestone Nodes are obviously a great source, if you can find them. Other nodes will drop them, but only rarely. Also, several types of geode produce Bladestones when you crack them open, so if you haven't already completed Lambda and built yourself a [Prospecting Bench]() this might be a good time to do it.
 
 ## Going Down <!-- {.side_quest} -->
 
@@ -345,9 +341,11 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 ## The Menagerie <!-- {.fetch_quest} -->
 
-*Goal:* Deliver ten [Mysterious Eggs](/aethus/items/#mysterious-egg) to the Trade Node. Eggs can be hard to spot inside the stone nests; use a Suit Scan and look for the red outlines to help find them.
+*Goal:* Deliver ten [Mysterious Eggs](/aethus/items/#mysterious-egg) to the Trade Node.
 
 *Reward:* $3000
+
+Eggs are found in the Caverns near Beta and Delta. They can be hard to spot inside the stone nests; use a Suit Scan and look for red outlines to help find them.
 
 ## Moisture Farmer <!-- {.side_quest} -->
 
@@ -363,11 +361,11 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 ## Out of This World <!-- {.fetch_quest} -->
 
-*Trigger:* Bring Meteorite back to your Outpost.
-
-*Goal:* Deliver 15 Meteorite and 30 Meteor Glass to the Trade Node.
+*Goal:* Deliver 15 [Meteorite]() and 30 [Meteor Glass]() to the Trade Node.
 
 *Reward:* $3500
+
+Meteorite, of course, can only be found in the area immediately around Delta.
 
 ## Power Up <!-- {.side_quest} -->
 
@@ -488,7 +486,7 @@ First, build a Scrap Grill. Then use the crafting interface to produce a Grilled
 
 *Goal*: Explore Habitat Alpha, located just beyond the cave-in.
 
-## Working for the Man <!-- {.side_quest} -->
+## Working for the Man <!-- {.side_quest} -->
 
 *Trigger:* Return to base sometime after discovering Beta.
 

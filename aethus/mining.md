@@ -128,7 +128,7 @@ Drills in the Caves and lasers in the Lost World require a **Model 1** Cargo Dro
 | Crater, Site V | Tangrite Bit | Sandstone, Kalynite Ore, Gold Ore |
 | Lost World, Epsilon/Kappa | Tangrite Lens | Deepstone |
 | Lost World, Mu | Jaspite Lens | Deepstone, Jaspite Ore, Vitaglass |
-| Lost World, Epsilon valley | Tangrite Lens | Deepstone, Tangrite Ore, Foucer Crystals, Bladestone |
+| Lost World, Site IV | Tangrite Lens | Deepstone, Tangrite Ore, Foucer Crystals, Bladestone |
 | Rifts, Rho/Tau | Depthane Lens | Lavastone, Depthane Ore, Camberflex, Depthane's Heart |
 | Rifts, Tau/Iota | Depthane Lens | Lavastone, Depthane's Heart |
 | Rifts, Omicron | Quarinium Lens | Lavastone, Quarinium Ore, Miner's Bane |
